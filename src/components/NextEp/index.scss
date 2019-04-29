@@ -1,0 +1,48 @@
+.next-ep {
+  background: #000;
+  padding: 34px;
+  display: flex;
+
+  .item {
+    margin: auto;
+    .next {
+      font-family: Apercu;
+      font-size: 14px;
+      line-height: 18px;
+      color: #d31387;
+      margin-bottom: 5px;
+    }
+    .title {
+      font-family: Apercu;
+      font-size: 20px;
+      line-height: 25px;
+
+      color: #ffffff;
+    }
+    .time {
+      font-family: Apercu;
+      font-size: 15px;
+      line-height: 20px;
+      align-items: center;
+
+      color: #ffffff;
+    }
+
+    .place {
+      font-family: Apercu;
+      font-size: 14px;
+      line-height: 18px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+    .calendar {
+      border-radius: 45px;
+      padding: 10px;
+      font-family: Apercu;
+      font-size: 16px;
+      line-height: 24px; /* identical to box height, or 150% */
+      color: #d9147d;
+      background: transparent;
+      border: #d9147d 1px solid;
+    }
+  }
+}

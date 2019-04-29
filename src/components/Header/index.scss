@@ -1,0 +1,27 @@
+.header {
+  background: transparent;
+  padding: 1.45rem;
+}
+
+.header-container {
+  margin: 0 10%;
+  //max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .item {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    &.active {
+      color: rgb(255, 255, 255);
+    }
+  }
+}
+
+.logo {
+  height: 64px;
+  margin: 0;
+}
