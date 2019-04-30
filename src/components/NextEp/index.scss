@@ -1,8 +1,7 @@
 .next-ep {
   background: #000;
-  padding: 34px;
+  padding: 1.45rem 0px;
   display: flex;
-
   .item {
     margin: auto;
     .next {
@@ -33,16 +32,6 @@
       font-size: 14px;
       line-height: 18px;
       color: rgba(255, 255, 255, 0.6);
-    }
-    .calendar {
-      border-radius: 45px;
-      padding: 10px;
-      font-family: Apercu;
-      font-size: 16px;
-      line-height: 24px; /* identical to box height, or 150% */
-      color: #d9147d;
-      background: transparent;
-      border: #d9147d 1px solid;
     }
   }
 }

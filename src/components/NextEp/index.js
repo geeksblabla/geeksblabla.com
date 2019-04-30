@@ -12,12 +12,11 @@ export default () => (
     <div className="item">
       <h2 className="time"> 30th April, 20h </h2>
       <p className="place">
-        {" "}
         The streaming will be on DevC Casablanca Facebook Group
       </p>
     </div>
     <div className="item">
-      <button className="calendar"> Add to Calendar </button>
+      <button className="button outline"> Add to Calendar </button>
     </div>
   </div>
 )

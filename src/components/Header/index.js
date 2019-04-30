@@ -28,14 +28,14 @@ const Header = () => (
         >
           Blablas
         </Link>
-        <Link
+        {/* <Link
           to="/suggest"
           activeClassName="active"
           className="item"
           aria-label="View blog page"
         >
           suggest
-        </Link>
+        </Link> */}
         <Link
           to="/about"
           activeClassName="active"
