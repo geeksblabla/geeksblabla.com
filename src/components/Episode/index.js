@@ -5,8 +5,10 @@ import "./index.scss"
 
 const image = require("../../images/video_placeholder.png")
 
-export default ({ showSource, ...props }) => (
+export default ({ showSource, label, ...props }) => (
   <div className="episode" {...props}>
+    {label && <span className="label"> last Episode </span>}
+
     {!showSource ? (
       <img src={image} />
     ) : (

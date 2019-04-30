@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import MobileNav from "./MobileNav"
+import Links from "./Links"
 
 import "./index.scss"
 
@@ -12,39 +14,9 @@ const Header = () => (
     <div className="header-container">
       <img src={logo} className="logo" />
       <div className="menu">
-        <Link
-          to="/"
-          activeClassName="active"
-          aria-label="View blog page"
-          className="item"
-        >
-          Home
-        </Link>
-        <Link
-          to="/blablas"
-          activeClassName="active"
-          className="item"
-          aria-label="View blog page"
-        >
-          Blablas
-        </Link>
-        {/* <Link
-          to="/suggest"
-          activeClassName="active"
-          className="item"
-          aria-label="View blog page"
-        >
-          suggest
-        </Link> */}
-        <Link
-          to="/about"
-          activeClassName="active"
-          className="item"
-          aria-label="View blog page"
-        >
-          About
-        </Link>
+        <Links />
       </div>
+      <MobileNav />
     </div>
   </header>
 )

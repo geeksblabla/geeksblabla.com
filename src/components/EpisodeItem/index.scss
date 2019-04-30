@@ -1,6 +1,6 @@
 .episode-item {
   list-style: none;
-  background: #171717;
+  background: #0d0d0d;
   border-radius: 8px;
   padding: 12px;
   display: flex;
@@ -8,10 +8,11 @@
   color: rgba(255, 255, 255, 0.3);
   margin: 12px 0px;
   cursor: pointer;
-
   &.active,
   &:hover {
     color: #ffffff;
+    background: #171717;
+
     .placeholder {
       background: rgba(255, 255, 255, 0.3);
     }
@@ -20,7 +21,7 @@
     height: 50px;
     width: 50px;
     margin-right: 12px;
-    border-radius: 50px;
+    border-radius: 25px;
     background: rgba(255, 255, 255, 0.1);
   }
   h2 {
