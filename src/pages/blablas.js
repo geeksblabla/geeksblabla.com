@@ -9,7 +9,6 @@ import EpisodeItem from "../components/EpisodeItem"
 export default () => (
   <Layout
     withNextEpisode
-    backImage
     mainStyle={{
       marginTop: "100px",
     }}
@@ -21,27 +20,25 @@ export default () => (
         src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"
       />
     </Helmet>
-    <div style={{ paddingRight: "20px", maxWidth: "360px" }}>
-      <ul>
-        <EpisodeItem active />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-        <EpisodeItem />
-      </ul>
-    </div>
+    <ul className="episodes-list">
+      <EpisodeItem active />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+      <EpisodeItem />
+    </ul>
     <Episode
       style={{
         alignSelf: "flex-start",
+        width: "100%",
       }}
-      showSource
     />
     <div id="fb-root" />
   </Layout>

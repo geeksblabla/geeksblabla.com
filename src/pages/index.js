@@ -15,7 +15,7 @@ const IndexPage = () => (
       </h1>
       <button className="button"> See All Blablas</button>
     </div>
-    <Episode />
+    <Episode label="last episode" />
   </Layout>
 )
 
