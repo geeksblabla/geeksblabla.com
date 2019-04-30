@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const image = require("../images/about.png")
 
 export default () => (
-  <Layout withNextEpisode backImage>
+  <Layout withNextEpisode>
     <div className="about">
       <img src={image} />
       <div>
@@ -22,7 +22,7 @@ export default () => (
           survivre cinq siècles, mais s'est aussi adapté à la bureautique
           informatique.
         </p>
-        <button className="button"> See All Blablas</button>
+        <button className="button"> See All Blablas </button>
       </div>
     </div>
   </Layout>
