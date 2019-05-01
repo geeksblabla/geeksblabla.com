@@ -3,12 +3,19 @@ import { Link } from "gatsby"
 
 import "./index.scss"
 
-export default ({ active }) => (
-  <li className={active ? "episode-item active" : "episode-item"}>
+export default ({ title, date, slug, duration, active }) => (
+  <Link
+    to={slug}
+    activeClassName="episode-item active"
+    className={active ? "episode-item active" : "episode-item"}
+    aria-label="View blog page"
+  >
     <div className="placeholder" />
     <div>
-      <h2> Episode Title With Ahmed Ali </h2>
-      <p> 01:30:00 | 30th April </p>
+      <h2> {title}</h2>
+      <p>
+        {duration} | {date}
+      </p>
     </div>
-  </li>
+  </Link>
 )
