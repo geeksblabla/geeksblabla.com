@@ -7,18 +7,18 @@ body {
 .intro {
   @include breakpoint(mobileonly) {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
   }
   width: 50%;
   h1 {
-    font-family: Apercu;
+    font-family: "Open sans";
     font-size: 60px;
     line-height: 76px;
     color: #ffffff;
-    margin-bottom: 24px;
+    margin-bottom: 3rem;
 
     @include breakpoint(mobileonly) {
-      font-family: Apercu;
+      font-family: "Open sans";
       font-size: 36px;
       line-height: 45px;
     }
@@ -34,7 +34,7 @@ body {
   }
 
   h1 {
-    font-family: Apercu;
+    font-family: "Open sans";
     font-size: 48px;
     line-height: 60px;
     color: #ffffff;
@@ -45,7 +45,7 @@ body {
     }
   }
   p {
-    font-family: Apercu;
+    font-family: "Open sans";
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
@@ -64,11 +64,11 @@ body {
 .button {
   font-size: 16px;
   line-height: 24px; /* identical to box height, or 150% */
-  display: flex;
   align-items: center;
   text-align: center;
   padding: 18px 40px;
   color: #ffffff;
+  text-decoration: none;
   background: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);
   border-radius: 45px;
   border: 0px;
@@ -76,17 +76,5 @@ body {
     color: #d9147d;
     background: transparent;
     border: #d9147d 1px solid;
-  }
-}
-
-.episodes-list {
-  padding-right: 20px;
-  min-width: 380px;
-  @include breakpoint(mobileonly) {
-    width: 100%;
-    padding: 0px 20px;
-    height: 460px;
-    overflow: scroll;
-    margin: 0px 0px 20px 0px;
   }
 }

@@ -12,21 +12,21 @@
       margin: 20px;
     }
     .next {
-      font-family: Apercu;
+      font-family: "Open sans";
       font-size: 14px;
       line-height: 18px;
       color: #d31387;
       margin-bottom: 5px;
     }
     .title {
-      font-family: Apercu;
+      font-family: "Open sans";
       font-size: 20px;
       line-height: 25px;
 
       color: #ffffff;
     }
     .time {
-      font-family: Apercu;
+      font-family: "Open sans";
       font-size: 15px;
       line-height: 20px;
       align-items: center;
@@ -35,10 +35,14 @@
     }
 
     .place {
-      font-family: Apercu;
+      font-family: "Open sans";
       font-size: 14px;
       line-height: 18px;
       color: rgba(255, 255, 255, 0.6);
+      a {
+        color: #d31387;
+        text-decoration: none;
+      }
     }
   }
 }

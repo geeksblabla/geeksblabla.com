@@ -22,7 +22,9 @@ export default () => (
           survivre cinq siècles, mais s'est aussi adapté à la bureautique
           informatique.
         </p>
-        <button className="button"> See All Blablas </button>
+        <Link to="blablas" className="button">
+          See All Blablas
+        </Link>
       </div>
     </div>
   </Layout>

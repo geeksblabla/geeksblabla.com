@@ -7,10 +7,33 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/blablas`,
+        name: "blablas",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-mdx`,
+      options: {
+        extensions: [".mdx", ".md", ".markdown"],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              backgroundColor: "#fafafa",
+              maxWidth: 1035,
+              sizeByPixelDensity: true,
+            },
+          },
+        ],
       },
     },
     `gatsby-transformer-sharp`,

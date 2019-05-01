@@ -1,0 +1,14 @@
+@import "../../lib/index";
+
+.episodes-list {
+  align-self: flex-start;
+  padding-right: 20px;
+  min-width: 380px;
+  @include breakpoint(mobileonly) {
+    width: 100%;
+    padding: 0px 20px;
+    max-height: 460px;
+    overflow: scroll;
+    margin: 0px 0px 20px 0px;
+  }
+}
