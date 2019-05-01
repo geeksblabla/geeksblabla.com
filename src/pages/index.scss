@@ -1,0 +1,92 @@
+@import "../lib/index";
+
+body {
+  background: #000;
+}
+
+.intro {
+  @include breakpoint(mobileonly) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  width: 50%;
+  h1 {
+    font-family: Apercu;
+    font-size: 60px;
+    line-height: 76px;
+    color: #ffffff;
+    margin-bottom: 24px;
+
+    @include breakpoint(mobileonly) {
+      font-family: Apercu;
+      font-size: 36px;
+      line-height: 45px;
+    }
+  }
+}
+
+.about {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  @include breakpoint(mobileonly) {
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-family: Apercu;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+    margin: 20px 0px;
+    @include breakpoint(mobileonly) {
+      font-size: 36px;
+      line-height: 45px;
+    }
+  }
+  p {
+    font-family: Apercu;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    opacity: 0.8;
+    margin: 20px 0px;
+  }
+  img {
+    @include breakpoint(mobileonly) {
+      width: 100%;
+      margin-right: 0px;
+    }
+    width: 50%;
+    margin-right: 50px;
+  }
+}
+.button {
+  font-size: 16px;
+  line-height: 24px; /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 18px 40px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);
+  border-radius: 45px;
+  border: 0px;
+  &.outline {
+    color: #d9147d;
+    background: transparent;
+    border: #d9147d 1px solid;
+  }
+}
+
+.episodes-list {
+  padding-right: 20px;
+  min-width: 380px;
+  @include breakpoint(mobileonly) {
+    width: 100%;
+    padding: 0px 20px;
+    height: 460px;
+    overflow: scroll;
+    margin: 0px 0px 20px 0px;
+  }
+}

@@ -1,0 +1,41 @@
+@import "../../lib/index";
+
+.header {
+  background: transparent;
+  padding: 1.45rem 0px;
+  @include breakpoint(mobileonly) {
+    padding: 2.45rem 0px;
+  }
+}
+
+.header-container {
+  @include breakpoint(mobileonly) {
+    margin: 0 20px;
+  }
+  margin: 0 10%;
+  //max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .item {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    &.active {
+      color: rgb(255, 255, 255);
+    }
+  }
+  .menu {
+    display: block;
+    @include breakpoint(mobileonly) {
+      display: none;
+    }
+  }
+}
+
+.logo {
+  height: 64px;
+  margin: 0;
+}

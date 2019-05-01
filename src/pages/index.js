@@ -1,20 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+import Layout from "../components/Layout"
+import Episode from "../components/Episode"
 import SEO from "../components/seo"
+import "./reset.css"
+import "./index.scss"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  <Layout withNextEpisode backImage>
+    <div className="intro">
+      <h1>
+        Enjoy Top Tech <br /> Topics In Darija <br /> With GeekBlablas
+      </h1>
+      <button className="button"> See All Blablas</button>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Episode label="last episode" />
   </Layout>
 )
 

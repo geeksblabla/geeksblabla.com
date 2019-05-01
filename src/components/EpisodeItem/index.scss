@@ -1,0 +1,39 @@
+.episode-item {
+  list-style: none;
+  background: #0d0d0d;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: flex-start;
+  color: rgba(255, 255, 255, 0.3);
+  margin: 12px 0px;
+  cursor: pointer;
+  &.active,
+  &:hover {
+    color: #ffffff;
+    background: #171717;
+
+    .placeholder {
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+  .placeholder {
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  h2 {
+    font-family: Apercu;
+    font-size: 20px;
+    line-height: 25px; /* identical to box height */
+  }
+  p {
+    font-family: Apercu;
+    font-size: 16px;
+    line-height: 24px; /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+  }
+}
