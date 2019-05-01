@@ -7,7 +7,7 @@
   }
   .label {
     background: rgba(0, 0, 0, 0.6);
-    font-family: Apercu;
+    font-family: "Open sans";
     font-size: 14px;
     line-height: 18px;
     color: #d9147d;
@@ -17,6 +17,19 @@
   img {
     width: 100%;
   }
+  .video {
+    //min-height: 400px;
+    position: relative;
+    .placeholder {
+      background: rgba(255, 255, 255, 0.1);
+      //height: 400px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+
   .info {
     margin-top: 24px;
     display: flex;
@@ -43,13 +56,12 @@
       }
     }
 
-    p {
-      font-family: Apercu;
+    .description {
+      font-family: "Open sans";
       font-size: 14px;
-      line-height: 18px; /* or 129% */
+      line-height: 18px;
       width: 50%;
-      color: #ffffff;
-      opacity: 0.6;
+      color: rgba(255, 255, 255, 0.6);
       margin-top: 10px;
       @include breakpoint(mobileonly) {
         width: 100%;

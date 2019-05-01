@@ -16,6 +16,7 @@
     color: #fff;
     margin: 0 10%;
     display: flex;
+    flex-grow: 1;
     justify-content: center;
     align-items: center;
     @include breakpoint(mobileonly) {
