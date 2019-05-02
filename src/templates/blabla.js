@@ -36,7 +36,6 @@ export default ({
         {...fields}
         description={code.body}
       />
-      <div id="fb-root" />
     </Layout>
   )
 }
