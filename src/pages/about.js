@@ -14,14 +14,10 @@ export default () => (
       <div>
         <h1> We Believe Community Matters </h1>
         <p>
-          Le Lorem Ipsum est simplement du faux texte employé dans la
-          composition et la mise en page avant impression. Le Lorem Ipsum est le
-          faux texte standard de l'imprimerie depuis les années 1500, quand un
-          imprimeur anonyme assembla ensemble des morceaux de texte pour
-          réaliser un livre spécimen de polices de texte. Il n'a pas fait que
-          survivre cinq siècles, mais s'est aussi adapté à la bureautique
-          informatique.
+          Geeksblabla is a webinar where we meet to share and learn about awesome topics from the best.
         </p>
+        <p>We Invite knowledgable and interesting people who are not always known to the public so that they share with us their experience.</p>
+        <p>We talk about the hottest new topics and explain it to the community in a way that is simple and approachable.</p>
         <Link to="blablas" className="button">
           See All Blablas
         </Link>
