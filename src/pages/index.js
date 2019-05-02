@@ -17,7 +17,7 @@ const IndexPage = ({ data: { allMdx } }) => {
     <Layout withNextEpisode backImage>
       <div className="intro">
         <h1>
-          Enjoy Top Tech <br /> Topics In Darija <br /> With GeekBlablas
+          Enjoy Top Tech <br /> Topics In Darija <br /> With GeeksBlabla
         </h1>
         <Link to="blablas" className="button">
           See All Blablas
