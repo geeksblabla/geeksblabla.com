@@ -5,7 +5,7 @@ duration: "1:48"
 title: "Open Source with Yassine Elouafi"
 tags: ["open source", "dev"]
 isNext: false
-video: "https://www.facebook.com/sfoukahi/videos/2254365704624093/"
+video: "2254365704624093"
 published: true
 podcastUrl:
 ---

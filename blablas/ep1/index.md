@@ -6,7 +6,7 @@ title: "Introduction to Open Source"
 tags: ["open source", "dev"]
 isNext: false
 published: true
-video: "https://www.facebook.com/sfoukahi/videos/2244351238958873/"
+video: "2244351238958873"
 url:
 podcastUrl:
 ---
