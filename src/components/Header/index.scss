@@ -28,6 +28,7 @@
     }
   }
   .menu {
+    font-family: Open Sans;
     display: block;
     @include breakpoint(mobileonly) {
       display: none;
