@@ -1,17 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
-import Helmet from "react-helmet"
-
+import SEO from "components/SEO"
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
-import EpisodeItem from "../components/EpisodeItem"
 import EpisodesMenu from "../components/EpisodesMenu"
 
-export default ({
-  data: {
-    mdx: { fields, code },
-  },
-}) => {
+export default ({ data: { mdx } }) => {
+  const { fields, code } = mdx
   return (
     <Layout
       withNextEpisode
@@ -20,13 +14,7 @@ export default ({
         alignItems: "flex-start",
       }}
     >
-      <Helmet>
-        <script
-          async
-          defer
-          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"
-        />
-      </Helmet>
+      <SEO fields={fields} isEpisode postUrl={fields.slug} />
       <EpisodesMenu />
       <Episode
         style={{

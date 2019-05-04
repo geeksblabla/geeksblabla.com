@@ -1,8 +1,29 @@
+const config = require("./config/website")
+const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    siteUrl: config.siteUrl + pathPrefix,
+    title: config.siteTitle,
+    twitterHandle: config.twitterHandle,
+    description: config.siteDescription,
+    keywords: ["DevC", "geeksblabla", "dev"],
+    canonicalUrl: config.siteUrl,
+    image: config.siteLogo,
+    banner: config.banner,
+    author: {
+      name: config.author,
+      minibio: `DevC Casablanca`,
+    },
+    organization: {
+      name: config.organization,
+      url: config.siteUrl,
+      logo: config.siteLogo,
+    },
+    social: {
+      twitter: config.twitterHandle,
+      fbAppID: "",
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,13 +63,24 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `GeeksBlabla Website`,
+        short_name: `GeeksBlabla`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icons: [
+          {
+            src: "/favicons/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/favicons/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
