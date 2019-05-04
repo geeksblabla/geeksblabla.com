@@ -12,18 +12,21 @@ export default ({ data: { allMdx } }) => {
       withNextEpisode
       mainStyle={{
         marginTop: "50px",
+        alignItems: "flex-start",
       }}
     >
-      <SEO />
-      <EpisodesMenu selectedEpisode={lastEpisode.id} />
-      <Episode
-        style={{
-          alignSelf: "flex-start",
-          width: "100%",
-        }}
-        {...lastEpisode.fields}
-        description={lastEpisode.code.body}
-      />
+      <div className="blablas">
+        <SEO />
+        <EpisodesMenu selectedEpisode={lastEpisode.id} />
+        <Episode
+          style={{
+            alignSelf: "flex-start",
+            width: "100%",
+          }}
+          {...lastEpisode.fields}
+          description={lastEpisode.code.body}
+        />
+      </div>
     </Layout>
   )
 }

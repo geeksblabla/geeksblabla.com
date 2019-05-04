@@ -14,16 +14,18 @@ export default ({ data: { mdx } }) => {
         alignItems: "flex-start",
       }}
     >
-      <SEO fields={fields} isEpisode postUrl={fields.slug} />
-      <EpisodesMenu />
-      <Episode
-        style={{
-          alignSelf: "flex-start",
-          width: "100%",
-        }}
-        {...fields}
-        description={code.body}
-      />
+      <div className="blablas">
+        <SEO fields={fields} isEpisode postUrl={fields.slug} />
+        <EpisodesMenu />
+        <Episode
+          style={{
+            alignSelf: "flex-start",
+            width: "100%",
+          }}
+          {...fields}
+          description={code.body}
+        />
+      </div>
     </Layout>
   )
 }
