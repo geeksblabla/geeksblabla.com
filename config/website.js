@@ -3,7 +3,7 @@ module.exports = {
 
   siteTitle: "GeeksBlabla 👨🏻‍💻 ", // Navigation and Site Title
   siteTitleAlt: "GeeksBlabla website 👨🏻‍💻", // Alternative Site title for SEO
-  siteUrl: "http://geeksblabla.com", // Domain of your site. No trailing slash!
+  siteUrl: "https://geeksblabla.com", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
   siteLogo: "images/logo.png", // Used for SEO and manifest, path to your image you placed in the 'static' folder
   banner: "images/banner.png",

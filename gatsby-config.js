@@ -83,6 +83,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-127901499-3",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-sentry",
+      options: {
+        dsn: "https://7048bf611200421abd4d4f0e4d873c8b@sentry.io/1452547",
+        // Optional settings, see https://docs.sentry.io/clients/node/config/#optional-settings
+        environment: process.env.NODE_ENV,
+        enabled: (() => ["production"].indexOf(process.env.NODE_ENV) !== -1)(),
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
