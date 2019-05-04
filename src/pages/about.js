@@ -2,11 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
-import Episode from "../components/Episode"
 import SEO from "../components/SEO"
 import AboutImage from "../components/Images/AboutImage"
-
-const image = require("../images/about.png")
 
 export default () => (
   <Layout withNextEpisode>
