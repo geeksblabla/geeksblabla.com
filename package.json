@@ -44,5 +44,9 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "gatsby-plugin-google-analytics": "^2.0.19",
+    "gatsby-plugin-sentry": "^1.0.1"
   }
 }
