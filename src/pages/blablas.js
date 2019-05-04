@@ -1,10 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
-import Helmet from "react-helmet"
+import SEO from "../components/SEO"
 
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
-import EpisodeItem from "../components/EpisodeItem"
 import EpisodesMenu from "../components/EpisodesMenu"
 
 export default ({ data: { allMdx } }) => {
@@ -16,13 +14,7 @@ export default ({ data: { allMdx } }) => {
         marginTop: "100px",
       }}
     >
-      <Helmet>
-        <script
-          async
-          defer
-          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"
-        />
-      </Helmet>
+      <SEO />
       <EpisodesMenu selectedEpisode={lastEpisode.id} />
       <Episode
         style={{
@@ -32,7 +24,6 @@ export default ({ data: { allMdx } }) => {
         {...lastEpisode.fields}
         description={lastEpisode.code.body}
       />
-      <div id="fb-root" />
     </Layout>
   )
 }

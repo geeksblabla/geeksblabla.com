@@ -32,7 +32,6 @@ export default () => (
     `}
     render={({ allMdx }) => {
       const { title, date, url } = allMdx.edges[0].node.fields
-      console.log(allMdx)
       return (
         <div className="next-ep">
           <div className="item">

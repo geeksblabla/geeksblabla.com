@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 import "./reset.css"
 import "./index.scss"
@@ -15,6 +15,7 @@ const IndexPage = ({ data: { allMdx } }) => {
 
   return (
     <Layout withNextEpisode backImage>
+      <SEO />
       <div className="intro">
         <h1>
           Enjoy Top Tech <br /> Topics In Darija <br /> With GeeksBlabla
@@ -26,7 +27,7 @@ const IndexPage = ({ data: { allMdx } }) => {
       <Episode
         label="last episode"
         {...lastEpisode.fields}
-        placholder
+        placeholder
         description={lastEpisode.code.body}
       />
     </Layout>

@@ -5,6 +5,7 @@ import FacebookPlayer from "./FacebookPlayer"
 import Loader from "./Loader"
 
 import "./index.scss"
+import VideoPlaceHolder from "../Images/VideoPlaceHolder"
 
 const image = require("../../images/video_placeholder.png")
 
@@ -12,7 +13,7 @@ export default class Episode extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      ready: !!props.placholder,
+      ready: !!props.placeholder,
     }
   }
 
@@ -26,7 +27,7 @@ export default class Episode extends React.Component {
       slug,
       date,
       duration,
-      placholder,
+      placeholder,
       label,
       video,
       description,
@@ -38,12 +39,16 @@ export default class Episode extends React.Component {
       <div className="episode" {...props}>
         {label && <span className="label"> last Episode </span>}
         {!ready && <Loader />}
-        {placholder ? (
+        {placeholder ? (
           <Link to={slug}>
-            <img src={image} />
+            <VideoPlaceHolder />
           </Link>
         ) : (
-          <FacebookPlayer videoId={video} onReady={this.onReady} />
+          <FacebookPlayer
+            videoId={video}
+            onReady={this.onReady}
+            onError={() => console.log("facebook video player error ")}
+          />
         )}
 
         <div

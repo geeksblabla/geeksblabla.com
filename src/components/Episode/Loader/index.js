@@ -3,7 +3,7 @@ import "./index.scss"
 export default props => {
   return (
     <div className="loader">
-      <div class="lds-ellipsis">
+      <div className="lds-ellipsis">
         <div />
         <div />
         <div />
