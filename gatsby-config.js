@@ -95,7 +95,7 @@ module.exports = {
         dsn: "https://7048bf611200421abd4d4f0e4d873c8b@sentry.io/1452547",
         // Optional settings, see https://docs.sentry.io/clients/node/config/#optional-settings
         environment: process.env.NODE_ENV,
-        //enabled: (() => ["production", "stage"].indexOf(process.env.NODE_ENV) !== -1)()
+        enabled: (() => ["production"].indexOf(process.env.NODE_ENV) !== -1)(),
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
