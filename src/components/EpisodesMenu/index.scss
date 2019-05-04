@@ -6,7 +6,8 @@
   min-width: 380px;
   @include breakpoint(mobileonly) {
     width: 100%;
-    padding: 0px 20px;
+    padding: 0px 0px;
+    min-width: 0px;
     max-height: 460px;
     overflow: scroll;
     margin: 0px 0px 20px 0px;
