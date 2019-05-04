@@ -8,13 +8,7 @@ import EpisodesMenu from "../components/EpisodesMenu"
 export default ({ data: { allMdx } }) => {
   const lastEpisode = allMdx.edges[0].node
   return (
-    <Layout
-      withNextEpisode
-      mainStyle={{
-        marginTop: "50px",
-        alignItems: "flex-start",
-      }}
-    >
+    <Layout withNextEpisode>
       <div className="blablas">
         <SEO />
         <EpisodesMenu selectedEpisode={lastEpisode.id} />

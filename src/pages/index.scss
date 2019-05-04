@@ -30,9 +30,11 @@ body {
   flex-grow: 1;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 50px;
   @include breakpoint(mobileonly) {
     flex-direction: column-reverse;
     flex-wrap: wrap;
+    margin-top: 0px;
   }
 }
 

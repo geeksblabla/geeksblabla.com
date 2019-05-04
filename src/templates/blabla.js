@@ -7,13 +7,7 @@ import EpisodesMenu from "../components/EpisodesMenu"
 export default ({ data: { mdx } }) => {
   const { fields, code } = mdx
   return (
-    <Layout
-      withNextEpisode
-      mainStyle={{
-        marginTop: "50px",
-        alignItems: "flex-start",
-      }}
-    >
+    <Layout withNextEpisode>
       <div className="blablas">
         <SEO fields={fields} isEpisode postUrl={fields.slug} />
         <EpisodesMenu />
