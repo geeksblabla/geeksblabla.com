@@ -11,7 +11,7 @@ export default ({ data: { allMdx } }) => {
     <Layout
       withNextEpisode
       mainStyle={{
-        marginTop: "100px",
+        marginTop: "50px",
       }}
     >
       <SEO />

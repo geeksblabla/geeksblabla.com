@@ -10,7 +10,7 @@ export default ({ data: { mdx } }) => {
     <Layout
       withNextEpisode
       mainStyle={{
-        marginTop: "100px",
+        marginTop: "50px",
         alignItems: "flex-start",
       }}
     >
