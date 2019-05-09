@@ -1,0 +1,119 @@
+- date: 2019-03-21
+  time: 20h
+  duration: "1:09"
+  title: "Introduction to Open Source"
+  tags: ["open source", "dev"]
+  isNext: false
+  published: true
+  video: "2244351238958873"
+  url:
+  podcastUrl:
+- date: 2019-03-28
+  time: 20h
+  duration: "1:48"
+  title: "Open Source with Yassine Elouafi"
+  tags: ["open source", "dev"]
+  isNext: false
+  video: "2254365704624093"
+  published: true
+  podcastUrl:
+- date: 2019-01-24
+  time: 20h
+  duration: "1:27"
+  title: "Blockchain & CryptoCurrency with Badr Bellaj"
+  tags: ["Blockchain", "CryptoCurrency"]
+  isNext: false
+  video: "2321040174795001"
+  published: true
+  podcastUrl:
+- date: 2018-12-26
+  time: 20h
+  duration: "1:24"
+  title: "MSS with  Mohamed Zakariae El Khdime!"
+  tags: []
+  isNext: false
+  video: "2301890400043312"
+  published: true
+  podcastUrl:
+- date: 2018-12-19
+  time: 20h
+  duration: "1:22"
+  title: "MSS with   Taher Alami "
+  tags: []
+  isNext: false
+  video: "2295207890711563"
+  published: true
+  podcastUrl:
+- date: 2018-11-14
+  time: 20h
+  duration: "1:19"
+  title: "ML & AI!"
+  tags: ["ML","AI"]
+  isNext: false
+  video: "2272738262958526"
+  published: true
+  podcastUrl:
+- date: 2018-10-25
+  time: 20h
+  duration: "1:22"
+  title: "Métier de développeur"
+  tags: ["dev",]
+  isNext: false
+  video: "2261166440782375"
+  published: true
+  podcastUrl:
+- date: 2018-09-27
+  time: 20h
+  duration: "1:45"
+  title: "Malware analysis and forensics"
+  tags: ["dev"]
+  isNext: false
+  video: "2003419829718683"
+  published: true
+  podcastUrl:
+- date: 2018-06-09
+  time: 20h
+  duration: "2:00"
+  title: "UX, UI & design principles."
+  tags: ["UX","UI"]
+  isNext: false
+  video: "2151207101778310"
+  published: true
+  podcastUrl:
+- date: 2018-06-02
+  time: 20h
+  duration: "1:46"
+  title: "AR, VR and Game Dev!"
+  tags: ["AR","VR"]
+  isNext: false
+  video: "2147536065478747"
+  published: true
+  podcastUrl:
+- date: 2018-05-26
+  time: 20h
+  duration: "2:46"
+  title: "WebDev Jsframeworks, Best practices"
+  tags: ["Web","js"]
+  isNext: false
+  video: "2144076882491332"
+  published: true
+  podcastUrl:
+- date: 2018-05-19
+  time: 20h
+  duration: "2:00"
+  title: "Devops"
+  tags: ["Devops"]
+  isNext: false
+  video: "2140582549507432"
+  published: true
+  podcastUrl:
+- date: 2019-05-11
+  time: 20h
+  duration: "1:30"
+  title: "Open source licenses & standards"
+  tags: ["Open source", ]
+  guest: "elazizi youssef"
+  isNext: true
+  published: true
+  url:
+  podcastUrl:

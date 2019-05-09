@@ -10,7 +10,7 @@ export default ({ children, withNextEpisode, backImage, mainStyle }) => (
     <div className={backImage ? "container image-back" : "container"}>
       <Header />
       <main style={mainStyle}>{children}</main>
-      {withNextEpisode ? <NextEp /> : <div />}
+      {withNextEpisode && <NextEp />}
     </div>
   </ErrorBoundary>
 )

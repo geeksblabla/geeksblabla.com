@@ -1,43 +1,54 @@
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import React, { useEffect } from "react"
+import { graphql, useStaticQuery } from "gatsby"
 
 import EpisodeItem from "../EpisodeItem"
 import "./index.scss"
 
-export default ({ selectedEpisode }) => (
-  <StaticQuery
-    query={graphql`
-      {
-        allMdx(
-          filter: {
-            frontmatter: { published: { eq: true }, isNext: { eq: false } }
-          }
-          sort: { fields: [frontmatter___date], order: DESC }
-        ) {
-          edges {
-            node {
-              id
-              fields {
-                title
-                slug
-                date(formatString: "MMMM DD, YYYY")
-                duration
-              }
-            }
+export const blablaFragment = graphql`
+  fragment blablaContent on BlablasYaml {
+    id
+    title
+    date(formatString: "MMMM DD, YYYY")
+    duration
+    video
+    fields {
+      slug
+    }
+  }
+`
+
+export default ({ selectedEpisode }) => {
+  const { blabla } = useStaticQuery(graphql`
+    query {
+      blabla: allBlablasYaml(
+        filter: { published: { eq: true }, isNext: { eq: false } }
+        sort: { fields: [date], order: DESC }
+      ) {
+        edges {
+          node {
+            ...blablaContent
           }
         }
       }
-    `}
-    render={({ allMdx }) => (
-      <ul className="episodes-list">
-        {allMdx.edges.map(({ node }) => (
-          <EpisodeItem
-            {...node.fields}
-            key={node.id}
-            active={selectedEpisode === node.id}
-          />
-        ))}
-      </ul>
-    )}
-  />
-)
+    }
+  `)
+
+  useEffect(() => {
+    const list = document.getElementById("episodes")
+    const targetLi = document.getElementById(selectedEpisode)
+
+    list.scrollTop = targetLi.offsetTop - 400
+  }, [])
+
+  return (
+    <ul className="episodes-list" id="episodes">
+      {blabla.edges.map(({ node }) => (
+        <EpisodeItem
+          {...node}
+          key={node.id}
+          active={selectedEpisode === node.id}
+        />
+      ))}
+    </ul>
+  )
+}

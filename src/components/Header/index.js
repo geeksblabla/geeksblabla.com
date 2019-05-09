@@ -12,12 +12,10 @@ const logo = require("../../images/logo.png")
 const Header = () => (
   <header className="header">
     <div className="header-container">
-      <Link
-      to="/"
-    >
-      <img src={logo} className="logo" />
-    </Link>
-      
+      <Link to="/">
+        <img src={logo} alt="logo" className="logo" />
+      </Link>
+
       <div className="menu">
         <Links />
       </div>

@@ -1,12 +1,13 @@
 import React from "react"
-import SEO from "../components/SEO"
+import { graphql } from "gatsby"
 
+import SEO from "../components/SEO"
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
 import EpisodesMenu from "../components/EpisodesMenu"
 
-export default ({ data: { allMdx } }) => {
-  const lastEpisode = allMdx.edges[0].node
+export default ({ data: { blabla } }) => {
+  const lastEpisode = blabla.edges[blabla.edges.length - 1].node
   return (
     <Layout withNextEpisode>
       <div className="blablas">
@@ -17,8 +18,7 @@ export default ({ data: { allMdx } }) => {
             alignSelf: "flex-start",
             width: "100%",
           }}
-          {...lastEpisode.fields}
-          description={lastEpisode.code.body}
+          {...lastEpisode}
         />
       </div>
     </Layout>
@@ -27,27 +27,13 @@ export default ({ data: { allMdx } }) => {
 
 export const pageQuery = graphql`
   query {
-    allMdx(
-      filter: {
-        frontmatter: { published: { eq: true }, isNext: { eq: false } }
-      }
-      sort: { fields: [frontmatter___date], order: DESC }
+    blabla: allBlablasYaml(
+      filter: { published: { eq: true }, isNext: { eq: false } }
+      sort: { fields: [date], order: DESC }
     ) {
       edges {
         node {
-          id
-          code {
-            body
-          }
-          fields {
-            id
-            title
-            slug
-            date(formatString: "MMMM DD, YYYY")
-            duration
-            url
-            video
-          }
+          ...blablaContent
         }
       }
     }

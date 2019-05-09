@@ -1,13 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-import MDXRenderer from "gatsby-mdx/mdx-renderer"
 import FacebookPlayer from "./FacebookPlayer"
 import Loader from "./Loader"
 
 import "./index.scss"
 import VideoPlaceHolder from "../Images/VideoPlaceHolder"
-
-const image = require("../../images/video_placeholder.png")
 
 export default class Episode extends React.Component {
   constructor(props) {
@@ -24,7 +21,7 @@ export default class Episode extends React.Component {
   render() {
     const {
       title,
-      slug,
+      fields: { slug },
       date,
       duration,
       placeholder,
@@ -58,11 +55,8 @@ export default class Episode extends React.Component {
           }}
         >
           <div>
-            <h2> {title} </h2>
-            <h5> {duration} </h5>
-          </div>
-          <div className="description">
-            <MDXRenderer>{description}</MDXRenderer>
+            <h2>{title}</h2>
+            <h5>{duration}</h5>
           </div>
         </div>
       </div>

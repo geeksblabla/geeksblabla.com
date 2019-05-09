@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
@@ -10,8 +10,23 @@ import "./index.scss"
 
 require("typeface-open-sans")
 
-const IndexPage = ({ data: { allMdx } }) => {
-  const lastEpisode = allMdx.edges[0].node
+export default () => {
+  const { blabla } = useStaticQuery(graphql`
+    query {
+      blabla: allBlablasYaml(
+        filter: { published: { eq: true }, isNext: { eq: false } }
+        sort: { fields: [date], order: DESC }
+      ) {
+        edges {
+          node {
+            ...blablaContent
+          }
+        }
+      }
+    }
+  `)
+
+  const lastEpisode = blabla.edges[blabla.edges.length - 1].node
 
   return (
     <Layout withNextEpisode backImage>
@@ -24,42 +39,7 @@ const IndexPage = ({ data: { allMdx } }) => {
           See All Blablas
         </Link>
       </div>
-      <Episode
-        label="last episode"
-        {...lastEpisode.fields}
-        placeholder
-        description={lastEpisode.code.body}
-      />
+      <Episode label="last episode" {...lastEpisode} placeholder />
     </Layout>
   )
 }
-
-export default IndexPage
-
-export const pageQuery = graphql`
-  query {
-    allMdx(
-      filter: {
-        frontmatter: { published: { eq: true }, isNext: { eq: false } }
-      }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          id
-          code {
-            body
-          }
-          fields {
-            title
-            slug
-            date(formatString: "MMMM DD, YYYY")
-            duration
-            url
-            video
-          }
-        }
-      }
-    }
-  }
-`
