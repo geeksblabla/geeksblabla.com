@@ -52,17 +52,21 @@ export default class Episode extends React.Component {
         )}
 
         <div
-          className="info"
+          className={!placeholder ? "info placeholder" : "info"}
           style={{
             visibility: `${ready ? "visible" : "hidden"}`,
           }}
         >
-          <div>
+          <div className="title">
             <h2> {title} </h2>
             <h5> {duration} </h5>
           </div>
           <div className="description">
-            <MDXRenderer>{description}</MDXRenderer>
+            {placeholder ? (
+              <p> {description}</p>
+            ) : (
+              <MDXRenderer>{description}</MDXRenderer>
+            )}
           </div>
         </div>
       </div>
