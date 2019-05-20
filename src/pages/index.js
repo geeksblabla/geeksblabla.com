@@ -28,7 +28,7 @@ const IndexPage = ({ data: { allMdx } }) => {
         label="last episode"
         {...lastEpisode.fields}
         placeholder
-        description={lastEpisode.code.body}
+        description={lastEpisode.excerpt}
       />
     </Layout>
   )
@@ -46,6 +46,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          excerpt(pruneLength: 100)
           id
           code {
             body
