@@ -1,7 +1,7 @@
 ---
 date: 2019-05-25
 time: 22h
-duration: "1:00"
+duration: "1:19"
 title: "The twelve-factor App"
 tags: ["Backend", "Architecture"]
 isNext: false
