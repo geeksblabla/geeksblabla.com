@@ -10,4 +10,6 @@ published: true
 podcastUrl:
 ---
 
+[//]: # "Check this github issue on How to add Episode Notes  https://github.com/DevC-Casa/geeksblabla.com/issues/23 "
+
 ...

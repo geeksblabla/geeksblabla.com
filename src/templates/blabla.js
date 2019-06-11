@@ -5,7 +5,7 @@ import Episode from "../components/Episode"
 import EpisodesMenu from "../components/EpisodesMenu"
 
 export default ({ data: { mdx } }) => {
-  const { fields, code } = mdx
+  const { fields, code, excerpt } = mdx
   return (
     <Layout withNextEpisode>
       <div className="blablas">
@@ -18,6 +18,7 @@ export default ({ data: { mdx } }) => {
           }}
           {...fields}
           description={code.body}
+          excerpt={excerpt}
         />
       </div>
     </Layout>
@@ -27,6 +28,7 @@ export default ({ data: { mdx } }) => {
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(fields: { id: { eq: $id } }) {
+      excerpt(pruneLength: 100)
       id
       fields {
         title
@@ -35,6 +37,7 @@ export const pageQuery = graphql`
         duration
         url
         video
+        repoLink
       }
       code {
         body

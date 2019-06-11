@@ -44,6 +44,7 @@ exports.createPages = ({ actions, graphql }) =>
         edges {
           node {
             id
+            fileAbsolutePath
             parent {
               ... on File {
                 name
@@ -134,6 +135,19 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: "tags",
       node,
       value: node.frontmatter.tags || [],
+    })
+    const path =
+      node.fileAbsolutePath.substring(
+        node.fileAbsolutePath.indexOf(
+          "/",
+          node.fileAbsolutePath.indexOf("blablas")
+        )
+      ) || ""
+
+    createNodeField({
+      name: "repoLink",
+      node,
+      value: `https://github.com/DevC-Casa/geeksblabla.com/tree/master/blablas${path}`,
     })
     createNodeField({
       name: "url",
