@@ -1,9 +1,9 @@
 ---
-date: 2019-06-02
-time: 22h
+date: 2019-06-27
+time: 20h
 duration: "1:00"
-title: "Software Testing"
-tags: ["Developpement", "Best Practices"]
+title: "MSS with Abdelfettah SGHIOUAR "
+tags: ["MSS"]
 isNext: true
 published: true
 url:
