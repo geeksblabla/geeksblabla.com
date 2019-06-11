@@ -107,7 +107,7 @@ class FacebookPlayer extends React.Component {
    * Kill all event listeners
    */
   componentWillUnmount() {
-    // this.unsubscribe();
+    this.unsubscribe()
   }
 
   /**

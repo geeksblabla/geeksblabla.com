@@ -20,6 +20,10 @@ export default class Episode extends React.Component {
   onReady = () => {
     this.setState({ ready: true })
   }
+  onError = () => {
+    console.log("facebook video player error ")
+    this.setState({ ready: true })
+  }
 
   render() {
     const {
@@ -31,9 +35,13 @@ export default class Episode extends React.Component {
       label,
       video,
       description,
+      repoLink,
+      excerpt,
       ...props
     } = this.props
     const { ready } = this.state
+    const NotesReady = excerpt.length > 90
+    console.log(excerpt, NotesReady)
 
     return (
       <div className="episode" {...props}>
@@ -47,7 +55,7 @@ export default class Episode extends React.Component {
           <FacebookPlayer
             videoId={video}
             onReady={this.onReady}
-            onError={() => console.log("facebook video player error ")}
+            onError={this.onError}
           />
         )}
 
@@ -65,7 +73,30 @@ export default class Episode extends React.Component {
             {placeholder ? (
               <p> {description}</p>
             ) : (
-              <MDXRenderer>{description}</MDXRenderer>
+              <React.Fragment>
+                <MDXRenderer>{description}</MDXRenderer>
+                <div
+                  style={{
+                    marginTop: 20,
+                    alignItems: "flex-end",
+                    color: "#d9127b",
+                    display: "flex",
+                    flexDirection: "column",
+                  }}
+                >
+                  <a
+                    style={{
+                      cursor: "pointer",
+                      fontSize: 16,
+                    }}
+                    target="_blank"
+                    href={repoLink}
+                  >
+                    {`${NotesReady ? "Edit " : "Add "}`}
+                    Notes
+                  </a>
+                </div>
+              </React.Fragment>
             )}
           </div>
         </div>
