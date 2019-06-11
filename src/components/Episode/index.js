@@ -40,8 +40,7 @@ export default class Episode extends React.Component {
       ...props
     } = this.props
     const { ready } = this.state
-    const NotesReady = excerpt.length > 90
-    console.log(excerpt, NotesReady)
+    const NotesReady = excerpt && excerpt.length > 90
 
     return (
       <div className="episode" {...props}>
