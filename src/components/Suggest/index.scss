@@ -1,0 +1,57 @@
+.suggest {
+  padding-top: 2%;
+  align-self: flex-start;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 60px;
+  }
+
+  textarea {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 100%;
+    margin: 20px 0px 5px 0px;
+    padding: 20px;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .desc {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    align-self: flex-start;
+  }
+  .button {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .suggest-card {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+    margin: 16px 0px;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    .icon {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      padding: auto;
+
+      text-align: center;
+    }
+  }
+}
