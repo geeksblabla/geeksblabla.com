@@ -69,9 +69,7 @@ export default class Episode extends React.Component {
             <h5> {duration} </h5>
           </div>
           <div className="description">
-            {placeholder ? (
-              <p> {description}</p>
-            ) : (
+            {!placeholder && (
               <React.Fragment>
                 <MDXRenderer>{description}</MDXRenderer>
                 <div
