@@ -36,6 +36,7 @@
     line-height: 24px;
   }
   .suggest-card {
+    width: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.9);
@@ -50,7 +51,7 @@
       flex-direction: column;
       padding: 20px;
       padding: auto;
-
+      cursor: pointer;
       text-align: center;
     }
   }
