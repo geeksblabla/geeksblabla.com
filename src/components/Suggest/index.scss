@@ -1,40 +1,73 @@
+@import "../../lib/index";
 .suggest {
   padding-top: 2%;
   align-self: flex-start;
   width: 100%;
-  max-width: 800px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  h1 {
-    font-size: 36px;
-    line-height: 45px;
-    margin-bottom: 60px;
+  flex-direction: row;
+  align-items: flex-start;
+  @include breakpoint(mobileonly) {
+    flex-wrap: wrap;
   }
 
-  textarea {
-    border: 1px solid rgba(255, 255, 255, 0.6);
+  form {
+    width: 400px;
+    background: #1b1b1b;
+    padding: 20px 20px;
+    border-radius: 10px;
+    @include breakpoint(mobileonly) {
+      width: 100%;
+    }
+    h1 {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+
+  .input {
+    border: 1px solid rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
-    border-radius: 15px;
+    //border-radius: 15px;
     width: 100%;
     margin: 20px 0px 5px 0px;
-    padding: 20px;
-    background-color: transparent;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label {
+      color: "#FFF";
+      font-size: 16px;
+      line-height: 24px;
+      padding: 10px 5px;
+    }
+    textarea {
+      background-color: transparent;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.6);
+      border: 0px;
+    }
+    .desc {
+      font-size: 14px;
+      line-height: 18px;
+      color: rgba(255, 255, 255, 0.6);
+      align-self: flex-start;
+    }
   }
-  .desc {
-    font-size: 14px;
-    line-height: 18px;
-    color: rgba(255, 255, 255, 0.6);
-    align-self: flex-start;
-  }
-  .button {
+
+  button {
     margin-top: 20px;
-    font-size: 16px;
-    line-height: 24px;
   }
+
+  .list {
+    flex: 1;
+    padding-left: 30px;
+    @include breakpoint(mobileonly) {
+      padding-left: 0px;
+    }
+  }
+
   .suggest-card {
     width: 100%;
     border-radius: 8px;
@@ -46,6 +79,9 @@
     display: flex;
     align-content: center;
     align-items: center;
+    p {
+      padding: 20px 0px;
+    }
     .icon {
       display: flex;
       flex-direction: column;
@@ -54,5 +90,29 @@
       cursor: pointer;
       text-align: center;
     }
+  }
+}
+
+.login-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  div {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  p {
+    font-size: 13px;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  button {
+    border-radius: 0px;
   }
 }

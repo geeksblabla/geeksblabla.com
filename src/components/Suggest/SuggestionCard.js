@@ -7,14 +7,19 @@ export default ({ episode: { description, votes, _id } }) => {
   return (
     <div className="suggest-card">
       <Like votes={votes} episodeId={_id} />
-      <p>{description}</p>
+      <p>
+        {description} Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Voluptatibus pariatur maxime eius esse rerum aperiam ea omnis tenetur
+        distinctio. Minima perferendis tenetur totam amet, quod deleniti
+        delectus quam possimus porro.
+      </p>
       <div className="icon" />
     </div>
   )
 }
 
 const Like = ({ votes, episodeId }) => {
-  const { user } = React.useContext(Auth0Context)
+  const { user, isAuthenticated, openPopup } = React.useContext(Auth0Context)
 
   const initialLikes = votes.data ? votes.data.length : 0
   const initialIsVoted = !!votes.data.filter(v => v.email === user.email)[0]
@@ -22,6 +27,10 @@ const Like = ({ votes, episodeId }) => {
   const [isVoted, setIsVoted] = React.useState(initialIsVoted)
 
   const handelClick = async () => {
+    if (!isAuthenticated) {
+      openPopup()
+      return
+    }
     setIsVoted(!isVoted)
     setLikes(isVoted ? likes - 1 : likes + 1)
     if (isVoted) {

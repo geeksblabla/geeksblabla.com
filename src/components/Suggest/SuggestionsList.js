@@ -1,16 +1,20 @@
 import React from "react"
 import { Query } from "react-apollo"
-import EpisodeSuggestCard from "./EpisodeSuggestCard"
+import SuggestionCard from "./SuggestionCard"
 import Loader from "../Loader"
 import { GET_EPISODES } from "./graphql"
 import { Auth0Context } from "./auth0"
 
-const EpisodesList = () => {
-  const { login, user, logout } = React.useContext(Auth0Context)
+const normalize = data => {
+  return data.verifiedEpisodes.data.sort(
+    (a, b) => b.votes.data.length - a.votes.data.length
+  )
+}
+
+const SuggestionsList = () => {
+  const { login, user, logout, openPopup } = React.useContext(Auth0Context)
   return (
-    <React.Fragment>
-      <button onClick={login}> login </button>
-      <button onClick={logout}> login </button>
+    <div className="list">
       <Query query={GET_EPISODES}>
         {({ loading, error, data }) => {
           if (loading) return <Loader />
@@ -18,15 +22,15 @@ const EpisodesList = () => {
 
           return (
             <React.Fragment>
-              {data.verifiedEpisodes.data.map(e => (
-                <EpisodeSuggestCard episode={e} key={e._id} />
+              {normalize(data).map(e => (
+                <SuggestionCard episode={e} key={e._id} />
               ))}
             </React.Fragment>
           )
         }}
       </Query>
-    </React.Fragment>
+    </div>
   )
 }
 
-export default EpisodesList
+export default SuggestionsList

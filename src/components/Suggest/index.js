@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { ApolloProvider } from "react-apollo"
-import "./index.scss"
-import EpisodesList from "./EpisodesList"
-import NewEpisode from "./NewEpisode"
+import SuggestionsList from "./SuggestionsList"
+import SuggestionForm from "./SuggestionForm"
 import { client } from "./graphql"
 import { Auth0Provider } from "./auth0"
+import "./index.scss"
 
 export default () => {
   return (
     <ApolloProvider client={client}>
       <Auth0Provider>
         <div className="suggest">
-          <NewEpisode />
-          <EpisodesList />
+          <SuggestionForm />
+          <SuggestionsList />
         </div>
       </Auth0Provider>
     </ApolloProvider>

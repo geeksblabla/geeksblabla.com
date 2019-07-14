@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useContext } from "react"
+import React, { useState, useEffect, useContext, createRef } from "react"
 import auth0 from "auth0-js"
 import { navigate } from "gatsby"
+import LoginPopup from "./LoginPopup"
 
 const isBrowser = typeof window !== "undefined"
 
@@ -16,8 +17,9 @@ const auth = isBrowser
 
 export const Auth0Context = React.createContext()
 export const Auth0Provider = ({ children }) => {
+  const p = createRef(null)
   const [isAuthenticated, setIsAuthenticated] = useState(
-    (isBrowser && localStorage.getItem("isLoggedIn")) || 0
+    (isBrowser && parseInt(localStorage.getItem("isLoggedIn"))) || 0
   )
   const [user, setUser] = useState(
     (isBrowser && JSON.parse(localStorage.getItem("user"))) || {}
@@ -38,7 +40,6 @@ export const Auth0Provider = ({ children }) => {
     if (window.location.hash.includes("access_token")) {
       handleAuthentication()
     } else {
-      console.log("silent mode ")
       silentAuth()
     }
     // eslint-disable-next-line
@@ -58,6 +59,9 @@ export const Auth0Provider = ({ children }) => {
     auth.checkSession({}, setSession)
   }
 
+  const openPopup = () => {
+    p.current.openPopup()
+  }
   const login = () => {
     if (!isBrowser) {
       return
@@ -90,9 +94,13 @@ export const Auth0Provider = ({ children }) => {
         user,
         login,
         logout,
+        openPopup,
       }}
     >
-      {children}
+      <React.Fragment>
+        <LoginPopup ref={p} />
+        {children}
+      </React.Fragment>
     </Auth0Context.Provider>
   )
 }
