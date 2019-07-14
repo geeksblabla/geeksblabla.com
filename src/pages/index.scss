@@ -8,14 +8,16 @@
   width: 50%;
   h1 {
     font-family: "Open sans";
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 60px;
+    line-height: 76px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 3rem;
 
     @include breakpoint(mobileonly) {
       font-family: "Open sans";
+      font-size: 36px;
+      line-height: 45px;
     }
   }
 }
@@ -44,7 +46,7 @@
   }
 
   .gatsby-image-wrapper {
-    max-width: 600px;
+    max-width: 800px;
   }
   .description {
     h1 {
