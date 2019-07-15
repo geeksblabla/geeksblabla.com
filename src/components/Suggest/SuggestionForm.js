@@ -48,8 +48,7 @@ export default () => {
                 name: "youssouf elazizi",
               },
             }
-            //addEpisode({ variables })
-            console.log(variables)
+            addEpisode({ variables })
           }}
         >
           <h1> Suggest us a Geek Blabla Episode! </h1>

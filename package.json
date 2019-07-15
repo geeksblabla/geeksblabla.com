@@ -10,6 +10,7 @@
     "@mdx-js/react": "^1.0.16",
     "@mdx-js/tag": "^0.20.3",
     "apollo-boost": "^0.4.3",
+    "apollo-link-context": "^1.0.18",
     "auth0-js": "^9.11.1",
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
@@ -45,7 +46,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "persist-queries": "node persistgraphql-signature-sync/index.js --input-path=./src/components/suggest/graphql/ --output-file=./extracted_queries.json"
   },
   "repository": {
     "type": "git",

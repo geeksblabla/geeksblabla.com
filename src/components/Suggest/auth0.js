@@ -21,9 +21,15 @@ export const Auth0Provider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(
     (isBrowser && parseInt(localStorage.getItem("isLoggedIn"))) || 0
   )
+  const [token, setToken] = useState(
+    (isBrowser && localStorage.getItem("token")) || null
+  )
   const [user, setUser] = useState(
     (isBrowser && JSON.parse(localStorage.getItem("user"))) || {}
   )
+  useEffect(() => isBrowser && window.localStorage.setItem("token", token), [
+    token,
+  ])
 
   useEffect(
     () =>
@@ -83,6 +89,7 @@ export const Auth0Provider = ({ children }) => {
 
     if (authResult && authResult.accessToken && authResult.idToken) {
       setUser(authResult.idTokenPayload)
+      setToken(authResult.idToken)
       setIsAuthenticated(1)
     }
   }
