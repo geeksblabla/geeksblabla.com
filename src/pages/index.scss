@@ -1,9 +1,5 @@
 @import "../lib/index";
 
-body {
-  background: #000;
-}
-
 .intro {
   @include breakpoint(mobileonly) {
     width: 100%;
@@ -50,7 +46,7 @@ body {
   }
 
   .gatsby-image-wrapper {
-    max-width: 600px;
+    max-width: 800px;
   }
   .description {
     h1 {
@@ -95,6 +91,7 @@ body {
   background: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);
   border-radius: 45px;
   border: 0px;
+  min-width: 200px;
   &.outline {
     color: #d9147d;
     background: transparent;

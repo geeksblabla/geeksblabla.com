@@ -5,10 +5,7 @@ import Layout from "../components/Layout"
 import Episode from "../components/Episode"
 import SEO from "../components/SEO"
 
-import "./reset.css"
 import "./index.scss"
-
-require("typeface-open-sans")
 
 const IndexPage = ({ data: { allMdx } }) => {
   const lastEpisode = allMdx.edges[0].node

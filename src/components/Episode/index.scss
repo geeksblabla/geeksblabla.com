@@ -43,11 +43,8 @@
       flex-wrap: wrap;
     }
     .title {
-      @include breakpoint(mobileonly) {
-        width: 100%;
-      }
       margin: 8px 0px;
-      width: 50%;
+      //width: 50%;
       h2 {
         font-size: 24px;
         line-height: 30px; /* identical to box height */

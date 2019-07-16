@@ -19,14 +19,14 @@ export default () => (
     >
       Blablas
     </Link>
-    {/* <Link
-          to="/suggest"
-          activeClassName="active"
-          className="item"
-          aria-label="View blog page"
-        >
-          suggest
-        </Link> */}
+    <Link
+      to="/suggest-new-episode"
+      activeClassName="active"
+      className="item"
+      aria-label="View blog page"
+    >
+      suggest
+    </Link>
     <Link
       to="/about"
       activeClassName="active"

@@ -3,7 +3,9 @@ import ErrorBoundary from "../ErrorBoundary"
 
 import Header from "../Header"
 import NextEp from "../NextEp"
+import "./reset.css"
 import "./layout.scss"
+require("typeface-open-sans")
 
 export default ({ children, withNextEpisode, backImage, mainStyle }) => (
   <ErrorBoundary>

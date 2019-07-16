@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import MDXRenderer from "gatsby-mdx/mdx-renderer"
 import FacebookPlayer from "./FacebookPlayer"
-import Loader from "./Loader"
+import Loader from "../Loader"
 
 import "./index.scss"
 import VideoPlaceHolder from "../Images/VideoPlaceHolder"
@@ -68,10 +68,8 @@ export default class Episode extends React.Component {
             <h2> {title} </h2>
             <h5> {duration} </h5>
           </div>
-          <div className="description">
-            {placeholder ? (
-              <p> {description}</p>
-            ) : (
+          <div className="markdown-description">
+            {!placeholder && (
               <React.Fragment>
                 <MDXRenderer>{description}</MDXRenderer>
                 <div
