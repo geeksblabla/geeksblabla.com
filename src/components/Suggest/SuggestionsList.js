@@ -4,6 +4,7 @@ import SuggestionCard from "./SuggestionCard"
 import Loader from "../Loader"
 import { GET_EPISODES } from "./graphql"
 import { Auth0Context } from "./auth0"
+const isBrowser = typeof window !== "undefined"
 
 const normalize = data => {
   return data.verifiedEpisodes.data.sort(
@@ -17,11 +18,13 @@ const SuggestionsList = () => {
   )
   return (
     <div className="list">
-      {isAuthenticated ? (
+      {isBrowser && isAuthenticated ? (
         <div className="logout">
           <a onClick={logout}> logout </a>
         </div>
-      ) : null}
+      ) : (
+        <span />
+      )}
 
       <Query query={GET_EPISODES}>
         {({ loading, error, data }) => {
