@@ -18,14 +18,6 @@ const SuggestionsList = () => {
   )
   return (
     <div className="list">
-      {isBrowser && isAuthenticated ? (
-        <div className="logout">
-          <a onClick={logout}> logout </a>
-        </div>
-      ) : (
-        <span />
-      )}
-
       <Query query={GET_EPISODES}>
         {({ loading, error, data }) => {
           if (loading) return <Loader />
