@@ -4,7 +4,6 @@ import { Auth0Context } from "./auth0"
 
 export default React.forwardRef((props, ref) => {
   const { user } = React.useContext(Auth0Context)
-  console.log(user)
 
   return (
     <Popup
