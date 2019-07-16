@@ -3,7 +3,8 @@ import Popup from "reactjs-popup"
 import { Auth0Context } from "./auth0"
 
 export default React.forwardRef((props, ref) => {
-  const { login } = React.useContext(Auth0Context)
+  const { user } = React.useContext(Auth0Context)
+  console.log(user)
 
   return (
     <Popup
@@ -13,15 +14,15 @@ export default React.forwardRef((props, ref) => {
     >
       <div className="login-popup">
         <div className="content">
-          <h1> Sign up to suggest and vote. </h1>
+          <h1> Thank you {user.given_name} for your contribution !</h1>
           <p>
-            We require Sign up to secure suggestion process.
-            <br /> You just need 10s to sign up
+            One of our team members will review your proposal as soon as
+            possible. Your proposal will be soon available on Proposals section.
           </p>
         </div>
         <div className="actions">
-          <button className="button" onClick={login}>
-            Sing Up
+          <button className="button" onClick={() => ref.current.closePopup()}>
+            Done
           </button>
         </div>
       </div>
@@ -36,5 +37,6 @@ const contentStyle = {
   fontSize: `16px`,
   lineHeight: `24px`,
   width: "auto",
+  maxWidth: "500px",
   color: `rgba(255, 255, 255, 0.6)`,
 }

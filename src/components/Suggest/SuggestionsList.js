@@ -12,9 +12,17 @@ const normalize = data => {
 }
 
 const SuggestionsList = () => {
-  const { login, user, logout, openPopup } = React.useContext(Auth0Context)
+  const { login, user, logout, isAuthenticated, openPopup } = React.useContext(
+    Auth0Context
+  )
   return (
     <div className="list">
+      {isAuthenticated ? (
+        <div className="logout">
+          <a onClick={logout}> logout </a>
+        </div>
+      ) : null}
+
       <Query query={GET_EPISODES}>
         {({ loading, error, data }) => {
           if (loading) return <Loader />

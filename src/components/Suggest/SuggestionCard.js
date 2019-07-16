@@ -7,12 +7,7 @@ export default ({ episode: { description, votes, _id } }) => {
   return (
     <div className="suggest-card">
       <Like votes={votes} episodeId={_id} />
-      <p>
-        {description} Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Voluptatibus pariatur maxime eius esse rerum aperiam ea omnis tenetur
-        distinctio. Minima perferendis tenetur totam amet, quod deleniti
-        delectus quam possimus porro.
-      </p>
+      <p>{description}</p>
       <div className="icon" />
     </div>
   )

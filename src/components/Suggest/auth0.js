@@ -84,6 +84,8 @@ export const Auth0Provider = ({ children }) => {
   const setSession = (err, authResult) => {
     if (err) {
       console.log("error ", err)
+      setIsAuthenticated(0)
+      setUser({})
       return
     }
 
