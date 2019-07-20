@@ -21,7 +21,7 @@ export default React.forwardRef((props, ref) => {
         </div>
         <div className="actions">
           <button className="button" onClick={login}>
-            Sing Up
+            Sign Up
           </button>
         </div>
       </div>
