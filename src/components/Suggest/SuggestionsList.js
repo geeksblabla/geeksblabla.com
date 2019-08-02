@@ -3,19 +3,14 @@ import { Query } from "react-apollo"
 import SuggestionCard from "./SuggestionCard"
 import Loader from "../Loader"
 import { GET_EPISODES } from "./graphql"
-import { Auth0Context } from "./auth0"
-const isBrowser = typeof window !== "undefined"
 
 const normalize = data => {
-  return data.verifiedEpisodes.data.sort(
-    (a, b) => b.votes.data.length - a.votes.data.length
-  )
+  return data.verifiedEpisodes.data
+    .filter(e => !e.done) // TODO: add it to query instead of a simple filter
+    .sort((a, b) => b.votes.data.length - a.votes.data.length)
 }
 
 const SuggestionsList = () => {
-  const { login, user, logout, isAuthenticated, openPopup } = React.useContext(
-    Auth0Context
-  )
   return (
     <div className="list">
       <Query query={GET_EPISODES}>
