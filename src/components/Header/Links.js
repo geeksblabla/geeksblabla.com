@@ -25,7 +25,7 @@ export default () => (
       className="item"
       aria-label="View blog page"
     >
-      suggest
+      Suggest Blabla
     </Link>
     <Link
       to="/about"

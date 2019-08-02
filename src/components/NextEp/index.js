@@ -31,6 +31,8 @@ export default () => (
       }
     `}
     render={({ allMdx }) => {
+      if (allMdx.edges.length === 0) return null
+
       const { title, date, url } = allMdx.edges[0].node.fields
       return (
         <div className="next-ep">

@@ -1,4 +1,4 @@
 [build]
     publish = "public"
-    command = "npm run build"
+    command = "npm run build && cd functions/db && yarn"
     functions = "functions"

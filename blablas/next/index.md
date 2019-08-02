@@ -4,7 +4,7 @@ time: 21h
 duration: "1:00"
 title: "Data science"
 tags: ["data","data science"]
-isNext: true
+isNext: false
 published: true
 url:
 podcastUrl:
