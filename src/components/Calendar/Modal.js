@@ -18,7 +18,7 @@ const containerStyles = css`
   position: absolute;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
   padding: 30px;
-  background-color: #FFF;
+  background-color: #000;
 
   &:focus {
     outline: none;
