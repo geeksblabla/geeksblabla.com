@@ -3,6 +3,34 @@ import { Link } from "gatsby"
 import { StaticQuery, graphql } from "gatsby"
 import EpisodeItem from "../EpisodeItem"
 import "./index.scss"
+import { css } from "emotion"
+
+import AddToCalendarHOC from "react-add-to-calendar-hoc"
+import CalendarModal from "../Calendar/Modal"
+import Button from "../Calendar/Button"
+import moment from "moment-timezone"
+
+const linkStyles = css`
+  text-decoration: none;
+  display: block;
+  color: #E42D2D;
+  font-size: 18px;
+  text-align: center;
+  padding: 6px;
+`;
+
+const startDatetime =moment("2019-08-22T19:00:00Z").utc();
+const endDatetime = startDatetime.clone().add(2, "hours");
+const duration = moment.duration(endDatetime.diff(startDatetime)).asHours()
+const event = {
+  description:
+    "Freelancing in Morocco",
+  duration,
+  endDatetime: endDatetime.format("YYYYMMDDTHHmmssZ"),
+  location: "The streaming will be on DevC Casablanca Facebook Group",
+  startDatetime: startDatetime.format("YYYYMMDDTHHmmssZ"),
+  title: "Freelancing in Morocco",
+}
 
 export default () => (
   <StaticQuery
@@ -34,6 +62,8 @@ export default () => (
       if (allMdx.edges.length === 0) return null
 
       const { title, date, url } = allMdx.edges[0].node.fields
+      const AddToCalendarModal = AddToCalendarHOC(Button, CalendarModal)
+
       return (
         <div className="next-ep">
           <div className="item">
@@ -53,9 +83,16 @@ export default () => (
             </p>
           </div>
           <div className="item">
-            <a href={url} target="_blank" className="button outline">
+            <AddToCalendarModal
+              linkProps={{
+                className: linkStyles,
+              }}
+              event={event}
+            />
+
+            {/* <a href={url} target="_blank" className="button outline">
               Add to Calendar
-            </a>
+            </a> */}
           </div>
         </div>
       )
