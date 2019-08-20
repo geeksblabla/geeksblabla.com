@@ -49,8 +49,5 @@ On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed
 ## Links
 
 - [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do)
-- [Choose a license #2](https://choosealicense.com/)
-- [Code Triage](https://www.codetriage.com/)
-- [First Contributions](https://github.com/firstcontributions/first-contributions)
 
 ...
