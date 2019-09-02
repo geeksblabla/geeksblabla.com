@@ -1,11 +1,12 @@
 import React from "react"
+import { graphql } from "gatsby"
 import SEO from "../components/SEO"
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
 import EpisodesMenu from "../components/EpisodesMenu"
 
 export default ({ data: { mdx } }) => {
-  const { fields, code, excerpt } = mdx
+  const { fields, body, excerpt } = mdx
   return (
     <Layout withNextEpisode>
       <div className="blablas">
@@ -17,7 +18,7 @@ export default ({ data: { mdx } }) => {
             width: "100%",
           }}
           {...fields}
-          description={code.body}
+          description={body}
           excerpt={excerpt}
         />
       </div>
@@ -39,9 +40,7 @@ export const pageQuery = graphql`
         video
         repoLink
       }
-      code {
-        body
-      }
+      body
     }
   }
 `

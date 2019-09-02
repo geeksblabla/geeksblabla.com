@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import MDXRenderer from "gatsby-mdx/mdx-renderer"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import FacebookPlayer from "./FacebookPlayer"
 import Loader from "../Loader"
 
@@ -89,8 +89,7 @@ export default class Episode extends React.Component {
                     target="_blank"
                     href={repoLink}
                   >
-                    {`${NotesReady ? "Edit " : "Add "}`}
-                    Notes
+                    Edit Notes
                   </a>
                 </div>
               </React.Fragment>
