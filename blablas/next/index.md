@@ -4,7 +4,7 @@ time: 21h
 duration: "1:00"
 title: "Freelancing in Morocco"
 tags: ["freelance"]
-isNext: true
+isNext: false
 published: true
 url:
 podcastUrl:
