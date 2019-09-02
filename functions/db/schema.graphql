@@ -19,5 +19,6 @@ type Query {
   allEpisodes: [Episode!]
   allVotes:[Vote!]
   verifiedEpisodes(verified: Boolean!): [Episode!]
+  allVotesByUser(email: String!): [Vote!]
 }
 
