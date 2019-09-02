@@ -18,7 +18,7 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org)
 
 ## 🚀 Quick start
 
-1.  **Fork and clone the project **
+1.  **Fork and clone the project**
 
     ```sh
     git clone git@github.com:your-username/geeksblabla.com.git
@@ -42,6 +42,113 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org)
 ## 🧐 Want to contribute ?
 
 If you want to contribute check out the [help wanted](https://github.com/devC-Casa/geeksblabla.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+sort%3Aupdated-desc) issues for things that need fixing, or suggest some new features by opening new issues.
+
+## Add New Episode ?
+
+1.  **Follow the Quick start 👆**
+2.  **Create a new episode folder**
+
+    - Duplicate an existing episode folder and rename it with the correct episode number `epX`
+
+    - open `index.md` and Make sure to update the following info :
+
+      - Episode date, time, duration
+      - Episode Title : Facebook live stream episode title.
+      - Tags : At least 1
+      - isNext : always `false`. `true` means the episode is the next one and should appear on the footer.
+      - video : Facebook video id
+
+```
+date: 2019-03-28
+time: 20h
+duration: "1:48"
+title: "Open Source with Yassine Elouafi"
+tags: ["open source", "dev"]
+isNext: false
+video: "2254365704624093"
+published: true
+podcastUrl:
+
+```
+
+3 . **Add Episode Notes && Links**
+
+Episode Notes should contain three sections:
+
+#### Description :
+
+A simple description of the episode like the following:
+
+```
+In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
+```
+
+#### Notes :
+
+In the Notes section, you need to collect the most important part of the episode and try to find the right title for it.
+
+```
+0:00 - Intro
+
+0:03 - The history of web and W3C?
+
+	...
+
+1:57 - when you can find trending web technologies?
+
+```
+
+> make sure to add a line break between titles
+
+#### Links :
+
+```
+- [W3C](https://www.w3.org/)
+- [Reactjs](https://reactjs.org)
+-....
+```
+
+In the end, the episode markdown file should look like : 👇
+
+```
+---
+date: 2019-03-21
+time: 20h
+duration: "1:09"
+title: "Introduction to Open Source"
+tags: ["open source", "dev"]
+isNext: false
+published: true
+video: "2244351238958873"
+url:
+podcastUrl:
+---
+
+In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
+
+
+## Notes
+h:min - title
+0:00 - Intro
+
+0:03 - The history of web and W3C?
+
+	...
+
+1:57 - when you can find trending web technologies?
+
+## Links
+
+- [W3C](https://www.w3.org/)
+- [Reactjs](https://reactjs.org)
+-....
+
+
+```
+
+4.**Open the source code and start editing!**
+
+Navigate to `http://localhost:8000/blablas` and Make sure the episode page works as expected
 
 ## Licensing
 
