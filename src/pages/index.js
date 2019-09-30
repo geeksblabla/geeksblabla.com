@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
@@ -45,9 +45,6 @@ export const pageQuery = graphql`
         node {
           excerpt(pruneLength: 100)
           id
-          code {
-            body
-          }
           fields {
             title
             slug

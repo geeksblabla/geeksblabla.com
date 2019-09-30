@@ -34,56 +34,44 @@ const createPosts = (createPage, createRedirect, edges) => {
   })
 }
 
-exports.createPages = ({ actions, graphql }) =>
-  graphql(`
-    query {
-      allMdx(
-        filter: { frontmatter: { published: { ne: false } } }
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
-        edges {
-          node {
-            id
-            fileAbsolutePath
-            parent {
-              ... on File {
-                name
-                sourceInstanceName
+exports.createPages = async ({ actions, graphql }) => {
+  const result = await graphql(
+    `
+      {
+        allMdx(
+          filter: { frontmatter: { published: { ne: false } } }
+          sort: { order: DESC, fields: [frontmatter___date] }
+        ) {
+          edges {
+            node {
+              id
+              fileAbsolutePath
+              parent {
+                ... on File {
+                  name
+                  sourceInstanceName
+                }
               }
-            }
-            excerpt(pruneLength: 250)
-            fields {
-              title
-              slug
-              date
+              excerpt(pruneLength: 250)
+              fields {
+                title
+                slug
+                date
+              }
             }
           }
         }
       }
-    }
-  `).then(({ data, errors }) => {
-    if (errors) {
-      return Promise.reject(errors)
-    }
+    `
+  )
 
-    if (_.isEmpty(data.allMdx)) {
-      return Promise.reject("There are no posts!")
-    }
+  if (result.errors) {
+    throw result.errors
+  }
 
-    const { edges } = data.allMdx
-    const { createRedirect, createPage } = actions
-    createPosts(createPage, createRedirect, edges)
-  })
-
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      modules: [path.resolve(__dirname, "src"), "node_modules"],
-      alias: {
-        $components: path.resolve(__dirname, "src/components"),
-      },
-    },
-  })
+  const { edges } = result.data.allMdx
+  const { createRedirect, createPage } = actions
+  createPosts(createPage, createRedirect, edges)
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -172,6 +160,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
      * during the build. (See `src/utils/auth.js` to see how we prevent this
      * from breaking the app.)
      */
+
     actions.setWebpackConfig({
       module: {
         rules: [
@@ -183,4 +172,15 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       },
     })
   }
+}
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      modules: [path.resolve(__dirname, "src"), "node_modules"],
+      alias: {
+        $components: path.resolve(__dirname, "src/components"),
+      },
+    },
+  })
 }

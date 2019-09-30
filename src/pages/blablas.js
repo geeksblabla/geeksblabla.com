@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 import SEO from "../components/SEO"
 
 import Layout from "../components/Layout"
@@ -18,7 +19,7 @@ export default ({ data: { allMdx } }) => {
             width: "100%",
           }}
           {...lastEpisode.fields}
-          description={lastEpisode.code.body}
+          description={lastEpisode.body}
         />
       </div>
     </Layout>
@@ -36,9 +37,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          code {
-            body
-          }
+          body
           fields {
             id
             title
