@@ -1,5 +1,5 @@
 ---
-date: 2019-10-17
+date: 2019-10-27
 time: 21h
 duration: "1:00"
 title: "Women in Tech"
