@@ -1,6 +1,5 @@
 import fetch from "isomorphic-fetch"
 import { ApolloClient, InMemoryCache } from "apollo-boost"
-import { ApolloProvider } from "react-apollo"
 import { createHttpLink } from "apollo-link-http"
 import { setContext } from "apollo-link-context"
 

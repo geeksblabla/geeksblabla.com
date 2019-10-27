@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 import Popup from "reactjs-popup"
 import { Auth0Context } from "./auth0"
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, useRef } from "react"
+import React, { useState, useEffect, useRef } from "react"
 import { Mutation } from "react-apollo"
 import { CREATE_NEW_EPISODE } from "./graphql"
 import { Auth0Context } from "./auth0"
@@ -73,8 +73,8 @@ export default () => {
               />
               <p className="desc">
                 *Please verify that the suggestion does not exist{" "}
-                <span className="web-only">👉 </span>
-                <span className="mobile-only">👇</span>
+                <span className="web-only" role="img" aria-label="Pointing Right">👉 </span>
+                <span className="mobile-only" role="img" aria-label="Pointing Down">👇</span>
               </p>
             </div>
 

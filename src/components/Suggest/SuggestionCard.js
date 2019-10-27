@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react"
+import React from "react"
 import { Auth0Context } from "./auth0"
 import { client, LIKE, DISLIKE, GET_EPISODES } from "./graphql"
 import { LikeIcon, DisLikeIcon } from "./icons"

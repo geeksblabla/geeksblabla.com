@@ -1,5 +1,5 @@
 import React from "react"
-import { string, number, func, bool } from "prop-types"
+import { string, func, bool } from "prop-types"
 
 class FacebookPlayer extends React.Component {
   static propTypes = {
@@ -150,7 +150,6 @@ class FacebookPlayer extends React.Component {
       appId,
       allowfullscreen,
       autoplay,
-      width,
       showText,
       showCaptions,
       onReady,
@@ -203,7 +202,7 @@ class FacebookPlayer extends React.Component {
    */
   subscribe = () => {
     this.eventHandlers = []
-    this.eventsToListen.map(ev => {
+    this.eventsToListen.forEach(ev => {
       if (ev.listener) {
         const handler = this.videoPlayer.subscribe(ev.event, ev.listener)
         this.eventHandlers.push({
@@ -219,7 +218,7 @@ class FacebookPlayer extends React.Component {
    */
   unsubscribe = () => {
     if (this.eventHandlers && this.eventHandlers.length) {
-      this.eventHandlers.map(ev => {
+      this.eventHandlers.forEach(ev => {
         if (ev.handler.removeListener) ev.handler.removeListener(ev.event)
       })
     }

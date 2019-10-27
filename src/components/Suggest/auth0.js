@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, createRef } from "react"
+import React, { useState, useEffect, createRef } from "react"
 import auth0 from "auth0-js"
 import { navigate } from "gatsby"
 import LoginPopup from "./LoginPopup"

@@ -7,8 +7,6 @@ import Loader from "../Loader"
 import "./index.scss"
 import VideoPlaceHolder from "../Images/VideoPlaceHolder"
 
-const image = require("../../images/video_placeholder.png")
-
 export default class Episode extends React.Component {
   constructor(props) {
     super(props)
@@ -40,7 +38,6 @@ export default class Episode extends React.Component {
       ...props
     } = this.props
     const { ready } = this.state
-    const NotesReady = excerpt && excerpt.length > 90
 
     return (
       <div className="episode" {...props}>
@@ -87,6 +84,7 @@ export default class Episode extends React.Component {
                       fontSize: 16,
                     }}
                     target="_blank"
+                    rel="noopener noreferrer"
                     href={repoLink}
                   >
                     Edit Notes
