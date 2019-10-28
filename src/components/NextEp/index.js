@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import { StaticQuery, graphql } from "gatsby"
-import EpisodeItem from "../EpisodeItem"
 import "./index.scss"
 import { css } from "emotion"
 
@@ -61,7 +59,7 @@ export default () => (
     render={({ allMdx }) => {
       if (allMdx.edges.length === 0) return null
 
-      const { title, date, url } = allMdx.edges[0].node.fields
+      const { title, date } = allMdx.edges[0].node.fields
       const AddToCalendarModal = AddToCalendarHOC(Button, CalendarModal)
 
       return (
@@ -77,6 +75,7 @@ export default () => (
               <a
                 target="_blank"
                 href="https://www.facebook.com/groups/DevC.Casablanca/"
+                rel="noopener noreferrer"
               >
                 DevC Casablanca Facebook Group{" "}
               </a>
