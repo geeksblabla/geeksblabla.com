@@ -53,12 +53,14 @@ export const Auth0Provider = ({ children }) => {
 
   useEffect(() => {
     const getMyVotes = async () => {
-      const votes = await client.query({
-        query: MY_VOTES,
-        variables: { email: user.email },
-      })
-      if (votes.data && votes.data.allVotesByUser.data)
-        setVotes(votes.data.allVotesByUser.data.map(v => v._id))
+      if (!!user.email) {
+        const votes = await client.query({
+          query: MY_VOTES,
+          variables: { email: user.email },
+        })
+        if (votes.data && votes.data.allVotesByUser.data)
+          setVotes(votes.data.allVotesByUser.data.map(v => v._id))
+      }
     }
     getMyVotes()
   }, [user])
