@@ -26,4 +26,4 @@ export const client = new ApolloClient({
 })
 
 export { LIKE, DISLIKE, CREATE_NEW_EPISODE } from "./mutation"
-export { GET_EPISODES } from "./queries"
+export { GET_EPISODES, MY_VOTES } from "./queries"
