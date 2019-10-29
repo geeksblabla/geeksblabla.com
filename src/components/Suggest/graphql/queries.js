@@ -6,18 +6,22 @@ export const GET_EPISODES = gql`
       data {
         _id
         description
-        guest
-        verified
-        scheduled
         done
-        email
-        name
         votes {
           data {
             _id
-            email
           }
         }
+      }
+    }
+  }
+`
+
+export const MY_VOTES = gql`
+  query allVotesByUser($email: String!) {
+    allVotesByUser(email: $email) {
+      data {
+        _id
       }
     }
   }

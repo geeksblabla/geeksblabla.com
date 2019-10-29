@@ -1,6 +1,6 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Auth0Context } from "./auth0"
-import { client, LIKE, DISLIKE, GET_EPISODES } from "./graphql"
+import { client, LIKE, DISLIKE, GET_EPISODES, MY_VOTES } from "./graphql"
 import { LikeIcon, DisLikeIcon } from "./icons"
 
 export default ({ episode: { description, votes, _id } }) => {
@@ -14,12 +14,21 @@ export default ({ episode: { description, votes, _id } }) => {
 }
 
 const Like = ({ votes, episodeId }) => {
-  const { user, isAuthenticated, openPopup } = React.useContext(Auth0Context)
+  const {
+    user,
+    isAuthenticated,
+    openPopup,
+    votes: userVotes,
+  } = React.useContext(Auth0Context)
 
-  const initialLikes = votes.data ? votes.data.length : 0
-  const initialIsVoted = !!votes.data.filter(v => v.email === user.email)[0]
-  const [likes, setLikes] = React.useState(initialLikes)
-  const [isVoted, setIsVoted] = React.useState(initialIsVoted)
+  const [likes, setLikes] = React.useState(votes.data ? votes.data.length : 0)
+  const [isVoted, setIsVoted] = React.useState(
+    !!votes.data.filter(x => userVotes.includes(x._id))[0]
+  )
+
+  useEffect(() => {
+    setIsVoted(!!votes.data.filter(x => userVotes.includes(x._id))[0])
+  }, [userVotes])
 
   const handelClick = async () => {
     if (!isAuthenticated) {
@@ -29,20 +38,26 @@ const Like = ({ votes, episodeId }) => {
     setIsVoted(!isVoted)
     setLikes(isVoted ? likes - 1 : likes + 1)
     if (isVoted) {
-      const vote = votes.data.filter(v => v.email === user.email)[0]
+      const vote = votes.data.filter(x => userVotes.includes(x._id))[0]
       if (vote)
         await client.mutate({
           mutation: DISLIKE,
           variables: { id: vote._id },
-          refetchQueries: [{ query: GET_EPISODES }],
+          refetchQueries: [
+            { query: GET_EPISODES },
+            { query: MY_VOTES, variables: { email: user.email } },
+          ],
         })
     } else {
-      await client.mutate({
+      const { data } = await client.mutate({
         mutation: LIKE,
         variables: {
           data: { email: user.email, episode: { connect: episodeId } },
         },
-        refetchQueries: [{ query: GET_EPISODES }],
+        refetchQueries: [
+          { query: GET_EPISODES },
+          { query: MY_VOTES, variables: { email: user.email } },
+        ],
       })
     }
   }

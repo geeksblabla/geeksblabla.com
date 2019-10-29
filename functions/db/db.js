@@ -32,7 +32,7 @@ exports.handler = async function(event, context) {
   try {
     const { query, variables } = JSON.parse(body)
     if (query.includes("deleteEpisode") || query.includes("updateEpisode")) {
-      const msg = `operation not allowed `
+      const msg = `delete operation not allowed `
       return {
         statusCode: 500,
         body: JSON.stringify({ msg }),
@@ -40,8 +40,11 @@ exports.handler = async function(event, context) {
     }
     if (query.includes("mutation")) {
       const user = jwtDecode(authorization)
-      if (!!variables.data.email && user.email !== variables.data.email) {
-        console.log(variables, user)
+      if (
+        !!variables.data &&
+        !!variables.data.email &&
+        user.email !== variables.data.email
+      ) {
         const msg = `operation not allowed `
         return {
           statusCode: 500,
