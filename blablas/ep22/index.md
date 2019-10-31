@@ -14,9 +14,13 @@ podcastUrl:
 In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding as Junior Devs in Morocco.
 
 ## Guests
+
 [Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
+
 [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+
 [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+
 [Zakaria Braksa](https://www.facebook.com/profile.php?id=100004033238021)
 
 ## Notes
