@@ -83,6 +83,13 @@ A simple description of the episode like the following:
 In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
 ```
 
+### Guests
+
+```
+- [guest name 1](https://example.com)
+- [guest name 1](https://example2.com)
+- ....
+```    
 #### Notes :
 
 In the Notes section, you need to collect the most important part of the episode and try to find the right title for it.
@@ -126,6 +133,9 @@ podcastUrl:
 
 In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
 
+## Guests
+- [guest name 1](https://example.com)
+- [guest name 1](https://example2.com)
 
 ## Notes
 h:min - title
