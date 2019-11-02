@@ -1,7 +1,7 @@
 ---
 date: 2018-11-14
 time: 20h
-duration: "1:19"
+duration: "1:19:55"
 title: "ML & AI!"
 tags: ["ML","AI"]
 isNext: false

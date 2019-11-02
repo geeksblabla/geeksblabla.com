@@ -1,7 +1,7 @@
 ---
 date: 2019-05-18
 time: 22h
-duration: "1:27"
+duration: "1:27:53"
 title: "Software security"
 tags: ["Security", "Backend", "Frontend"]
 isNext: false

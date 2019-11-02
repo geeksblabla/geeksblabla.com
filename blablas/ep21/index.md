@@ -1,7 +1,7 @@
 ---
 date: 2019-09-29
 time: 21h
-duration: "1:33"
+duration: "1:33:11"
 title: "Back to school, Computer Science Edition!"
 tags: ["programming","school"]
 isNext: false

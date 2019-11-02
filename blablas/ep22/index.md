@@ -1,7 +1,7 @@
 ---
 date: 2019-10-27
 time: 21h
-duration: "2:10"
+duration: "2:07:16"
 title: "Junior Devs in Morocco"
 tags: ["programming","school","Junior"]
 isNext: false

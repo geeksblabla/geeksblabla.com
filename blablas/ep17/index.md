@@ -1,7 +1,7 @@
 ---
 date: 2019-06-02
 time: 22h
-duration: "1:09"
+duration: "1:09:27"
 title: "Serverless"
 tags: ["Serverless", "dev"]
 isNext: false

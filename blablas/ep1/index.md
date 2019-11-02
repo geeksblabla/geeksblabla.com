@@ -1,7 +1,7 @@
 ---
 date: 2019-03-21
 time: 20h
-duration: "1:09"
+duration: "1:09:42"
 title: "Introduction to Open Source"
 tags: ["open source", "dev"]
 isNext: false

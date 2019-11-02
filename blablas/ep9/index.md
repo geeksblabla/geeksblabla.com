@@ -1,7 +1,7 @@
 ---
 date: 2018-06-09
 time: 20h
-duration: "2:00"
+duration: "2:00:40"
 title: "UX, UI & design principles."
 tags: ["UX","UI"]
 isNext: false

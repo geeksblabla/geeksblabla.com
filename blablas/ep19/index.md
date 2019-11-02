@@ -1,7 +1,7 @@
 ---
 date: 2019-07-31
 time: 21h
-duration: "1:28"
+duration: "1:28:48"
 title: "Competitive programming, how to become good at!"
 tags: ["Competitive programming"]
 isNext: false

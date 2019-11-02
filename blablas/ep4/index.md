@@ -1,7 +1,7 @@
 ---
 date: 2018-12-26
 time: 20h
-duration: "1:24"
+duration: "1:24:32"
 title: "MSS with  Mohamed Zakariae El Khdime!"
 tags: []
 isNext: false
