@@ -1,7 +1,7 @@
 ---
 date: 2019-05-25
 time: 22h
-duration: "1:19"
+duration: "1:19:23"
 title: "The twelve-factor App"
 tags: ["Backend", "Architecture"]
 isNext: false
@@ -12,7 +12,6 @@ podcastUrl:
 ---
 
 On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amine Hakkoue explore the 12 factor app methodology which is is a set of best practices that enable applications to be resilient, scalable and portable.
-
 
 ## Notes
 
@@ -42,7 +41,7 @@ On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amin
 
 01:10:26 - Admin processes
 
- ## Links
+## Links
 
 - [12 factors app website](https://12factor.net/)
 - [12 factors app website source code](https://github.com/heroku/12factor)

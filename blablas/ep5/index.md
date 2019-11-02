@@ -1,7 +1,7 @@
 ---
 date: 2018-12-19
 time: 20h
-duration: "1:22"
+duration: "1:22:14"
 title: "MSS with   Taher Alami "
 tags: []
 isNext: false

@@ -1,7 +1,7 @@
 ---
 date: 2019-08-22
 time: 21h
-duration: "1:13"
+duration: "1:13:57"
 title: "Freelancing in Morocco"
 tags: ["Freelance"]
 isNext: false

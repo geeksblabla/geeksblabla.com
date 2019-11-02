@@ -1,7 +1,7 @@
 ---
 date: 2019-05-11
 time: 22h
-duration: "1:06"
+duration: "1:05:23"
 title: "Open source licenses & standards"
 tags: ["Open source", "licenses", "licensing", standards ]
 isNext: false
@@ -10,7 +10,7 @@ published: true
 podcastUrl:
 ---
 
-In this episode, Geeksblabla team talks about the Open source licenses & standards, starting from the definition of software licensing to the commonly known Open source software licenses such as MIT, GPL ..etc.    
+In this episode, Geeksblabla team talks about the Open source licenses & standards, starting from the definition of software licensing to the commonly known Open source software licenses such as MIT, GPL ..etc.
 
 ## Notes
 
@@ -44,9 +44,9 @@ In this episode, Geeksblabla team talks about the Open source licenses & standar
 
 53:30 - Why should I mark my projects with Open Source License ?
 
- ## Links
+## Links
 
-- [GNU -  Richard Stallman](https://en.wikipedia.org/wiki/GNU_Project)
+- [GNU - Richard Stallman](https://en.wikipedia.org/wiki/GNU_Project)
 - [Free Software Foundation](https://www.fsf.org/)
 - [Mozilla Foundation](https://foundation.mozilla.org/fr/)
 - [Apache Foundation](https://www.apache.org/)

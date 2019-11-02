@@ -1,7 +1,7 @@
 ---
 date: 2018-05-26
 time: 20h
-duration: "2:46"
+duration: "2:46:10"
 title: "WebDev Jsframeworks, Best practices"
 tags: ["Web","js"]
 isNext: false

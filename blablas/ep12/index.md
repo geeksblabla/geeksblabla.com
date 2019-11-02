@@ -1,7 +1,7 @@
 ---
 date: 2018-05-19
 time: 20h
-duration: "2:00"
+duration: "2:00:13"
 title: "Devops"
 tags: ["Devops"]
 isNext: false
