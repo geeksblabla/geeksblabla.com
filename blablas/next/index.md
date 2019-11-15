@@ -1,11 +1,11 @@
 ---
-date: 2019-08-22
+date: 2019-11-24
 time: 21h
 duration: "1:00"
-title: "Freelancing in Morocco"
-tags: ["freelance"]
-isNext: false
-published: false
+title: "Women In Tech"
+tags: ["tech"]
+isNext: true
+published: true
 url:
 podcastUrl:
 ---
