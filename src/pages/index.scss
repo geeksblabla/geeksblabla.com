@@ -98,3 +98,19 @@
     border: #d9147d 1px solid;
   }
 }
+
+.podcast-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 24px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  @media (max-width: 376px) {
+    margin-left: 8px;
+  }
+}
+
+.podcast-channels {
+  margin-left: 200px;
+  margin-top: -31px;
+  cursor: pointer;
+}
