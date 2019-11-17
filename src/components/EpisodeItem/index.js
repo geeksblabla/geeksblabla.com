@@ -5,7 +5,7 @@ import "./index.scss"
 
 export default ({ title, date, slug, duration, active }) => (
   <Link
-    to={slug}
+    to={`/${slug}`}
     activeClassName="episode-item active"
     className={active ? "episode-item active" : "episode-item"}
     aria-label="View blog page"

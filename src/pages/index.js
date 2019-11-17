@@ -21,7 +21,7 @@ const IndexPage = ({ data: { allMdx } }) => {
           Enjoy Top Tech <br /> Topics In Darija <br /> With GeeksBlabla
         </h1>
         <div className="actions">
-          <Link to="blablas" className="button">
+          <Link to="/blablas" className="button">
             See All Blablas
           </Link>
           <div className="podcast-channels">

@@ -44,7 +44,7 @@ export default class Episode extends React.Component {
         {label && <span className="label"> last Episode </span>}
         {!ready && <Loader />}
         {placeholder ? (
-          <Link to={slug}>
+          <Link to={`/${slug}`}>
             <VideoPlaceHolder />
           </Link>
         ) : (
