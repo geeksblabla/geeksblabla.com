@@ -17,19 +17,6 @@ const linkStyles = css`
   padding: 6px;
 `;
 
-const startDatetime =moment("2019-08-22T19:00:00Z").utc();
-const endDatetime = startDatetime.clone().add(2, "hours");
-const duration = moment.duration(endDatetime.diff(startDatetime)).asHours()
-const event = {
-  description:
-    "Freelancing in Morocco",
-  duration,
-  endDatetime: endDatetime.format("YYYYMMDDTHHmmssZ"),
-  location: "The streaming will be on DevC Casablanca Facebook Group",
-  startDatetime: startDatetime.format("YYYYMMDDTHHmmssZ"),
-  title: "Freelancing in Morocco",
-}
-
 export default () => (
   <StaticQuery
     query={graphql`
@@ -58,9 +45,22 @@ export default () => (
     `}
     render={({ allMdx }) => {
       if (allMdx.edges.length === 0) return null
-
+      
       const { title, date } = allMdx.edges[0].node.fields
       const AddToCalendarModal = AddToCalendarHOC(Button, CalendarModal)
+
+      // calendar options
+      const startDatetime =moment(date+', 8:00:00 pm').utc();
+      const endDatetime = startDatetime.clone().add(1, "hours");
+      const duration = moment.duration(endDatetime.diff(startDatetime)).asHours()
+      const event = {
+        description: title,
+        duration,
+        endDatetime: endDatetime.format("YYYYMMDDTHHmmssZ"),
+        location: "The streaming will be on DevC Casablanca Facebook Group",
+        startDatetime: startDatetime.format("YYYYMMDDTHHmmssZ"),
+        title: title,
+      }
 
       return (
         <div className="next-ep">
