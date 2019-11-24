@@ -15,7 +15,7 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 ## Guests
 
-[Oumaima Makhlouk](https://www.facebook.com/oumi.makhlouk)
+[Oumaima Makhlouk](https://www.facebook.com/oumi.makhlouk/)
 
 [Khaoula Tanfioui](https://www.linkedin.com/in/khaoula-tanfioui-9b15a310a/)
 
@@ -23,12 +23,12 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 ## Notes
 
-If you want contribute in Geksblabla project by adding the notes check [this issue](https://github.com/DevC-Casa/geeksblabla.com/issues/23)
+If you want contribute in Geksblabla project by adding the notes check [this issue](https://github.com/DevC-Casa/geeksblabla.com/issues/23/)
 
 ## Link
 
 ## Prepared and Presented by :
 
-[Meriem Zaid](https://www.facebook.com/MeriemZaid)
+[Meriem Zaid](https://www.facebook.com/MeriemZaid/)
 
-[Soufian El Foukahi](https://twitter.com/souffanda)
+[Soufian El Foukahi](https://twitter.com/souffanda/)
