@@ -19,7 +19,7 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 [Khaoula Tanfioui](https://www.linkedin.com/in/khaoula-tanfioui-9b15a310a/)
 
-[Maroua Ezouhri](https://www.facebook.com/profile.php?id=100004033238021)
+[Maroua Ezouhri](https://www.linkedin.com/in/maroua-ezouhri-381174a7/)
 
 ## Notes
 
