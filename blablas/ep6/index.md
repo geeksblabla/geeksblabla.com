@@ -12,6 +12,16 @@ podcastUrl:
 
 On this episode of Geeksblabla : The geeksblabla team members Mohammed aboullaite and Amine.H will be talking with their guests about Machine Learning and AI. The guests of the episode are Ahmed Kachkach and Redouane Lguensat
 
+## Guests
+
+[Amine Hakkou](https://www.facebook.com/hakkou.me)
+
+[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+
+[Ahmed Kachkach](https://www.facebook.com/kachkach.ahmed)
+
+[Redouane Lguensat](https://www.facebook.com/redouane.lguensat)
+
 ## Notes
 
 01:18 - Guests presentation
