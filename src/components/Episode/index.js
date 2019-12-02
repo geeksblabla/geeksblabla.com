@@ -1,8 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import FacebookPlayer from "./FacebookPlayer"
 import Loader from "../Loader"
+import mdxComponents from "../mdx"
 
 import "./index.scss"
 import VideoPlaceHolder from "../Images/VideoPlaceHolder"
@@ -68,7 +70,9 @@ export default class Episode extends React.Component {
           <div className="markdown-description">
             {!placeholder && (
               <React.Fragment>
-                <MDXRenderer>{description}</MDXRenderer>
+                <MDXProvider components={mdxComponents}>
+                  <MDXRenderer>{description}</MDXRenderer>
+                </MDXProvider>
                 <div
                   style={{
                     marginTop: 20,

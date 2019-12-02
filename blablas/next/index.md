@@ -4,8 +4,8 @@ time: 21h
 duration: "1:00"
 title: "Women In Tech"
 tags: ["tech"]
-isNext: true
-published: true
+isNext: false
+published: false
 url:
 podcastUrl:
 ---
