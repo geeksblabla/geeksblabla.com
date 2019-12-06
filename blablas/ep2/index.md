@@ -12,7 +12,7 @@ podcastUrl:
 
 ## Guests
 
-[Yassin El ouafi](https://twitter.com/yassineelouafi2?lang=fr)
+[Yassin El ouafi](https://twitter.com/yassineelouafi2/)
 
 ## Notes
 
@@ -30,9 +30,9 @@ podcastUrl:
 
 00.37 programmation fonctionnel
 
-00.42 How we can find time for the opensource
+00.42 How do you find time for the opensource ?
 
-00.44 Books or tutorials
+00.44 Books or tutorials ?
 
 00.48 What is the "Thought leaders"
 
@@ -47,6 +47,8 @@ podcastUrl:
 01.15 Talk about Hooks, Pure components and React fiber
 
 01.32 Do you have any future project in the open source ?
+
+01.35 The open source in morocco & Advices for Moroccan programmers
 
 
 
