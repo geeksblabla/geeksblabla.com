@@ -9,6 +9,133 @@
   "imageSize": 100,
   "commit": false,
   "commitConvention": "none",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "yjose",
+      "name": "Youssouf EL AZIZI",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11137944?v=4",
+      "profile": "https://elazizi.com",
+      "contributions": [
+        "code",
+        "doc",
+        "content",
+        "review"
+      ]
+    },
+    {
+      "login": "Amine-H",
+      "name": "Amine Hakkou",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6276978?v=4",
+      "profile": "https://hakkou.me",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "souffanda",
+      "name": "Soufian El ",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24813026?v=4",
+      "profile": "https://github.com/souffanda",
+      "contributions": [
+        "code",
+        "doc",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "aboullaite",
+      "name": "Aboullaite Mohammed",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2836850?v=4",
+      "profile": "http://aboullaite.me",
+      "contributions": [
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "ismailElazizi",
+      "name": "Ismail El Azizi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22155037?v=4",
+      "profile": "https://github.com/ismailElazizi",
+      "contributions": [
+        "design",
+        "content"
+      ]
+    },
+    {
+      "login": "HyadOussama",
+      "name": "Oussama Hyad",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26727605?v=4",
+      "profile": "https://github.com/HyadOussama",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "AbderrahimSoubaiElidrissi",
+      "name": "soubai",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11523791?v=4",
+      "profile": "https://packagist.org/packages/soubai",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "midrissi",
+      "name": "IDRISSI Mohamed",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3237344?v=4",
+      "profile": "https://www.github.com/midrissi",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Iduoad",
+      "name": "Iduoad",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25715906?v=4",
+      "profile": "https://github.com/Iduoad",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Ismailtlem",
+      "name": "Ismail Tlemçani",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34961373?v=4",
+      "profile": "https://github.com/Ismailtlem",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "mohouyizme",
+      "name": "Mohamed Ouyizme",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23297439?v=4",
+      "profile": "https://mouyiz.me",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "melbarch",
+      "name": "Mohamed ELBARCHANY",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12951727?v=4",
+      "profile": "https://melbarch.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "kelmag",
+      "name": "Khalil El Maghraoui",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29312717?v=4",
+      "profile": "https://github.com/kelmag",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
