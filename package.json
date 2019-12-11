@@ -54,7 +54,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "persist-queries": "node persistgraphql-signature-sync/index.js --input-path=./src/components/suggest/graphql/ --output-file=./extracted_queries.json"
+    "persist-queries": "node persistgraphql-signature-sync/index.js --input-path=./src/components/suggest/graphql/ --output-file=./extracted_queries.json",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
@@ -64,6 +66,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.11.2",
     "eslint-plugin-graphql": "^3.0.3",
     "gatsby-plugin-google-analytics": "^2.1.13",
     "gatsby-plugin-sentry": "^1.0.1"

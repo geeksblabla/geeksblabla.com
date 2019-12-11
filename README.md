@@ -1,4 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblablas.com">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/DevC-Casa/geeksblabla.com/master/static/images/logo.png" width="200" />
@@ -163,3 +166,36 @@ Navigate to `http://localhost:8000/blablas` and Make sure the episode page works
 ## Licensing
 
 The code in this project is licensed under MIT license.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://elazizi.com"><img src="https://avatars0.githubusercontent.com/u/11137944?v=4" width="100px;" alt=""/><br /><sub><b>Youssouf EL AZIZI</b></sub></a><br /><a href="https://github.com/devC-Casa/geeksblabla.com/commits?author=yjose" title="Code">💻</a> <a href="https://github.com/devC-Casa/geeksblabla.com/commits?author=yjose" title="Documentation">📖</a> <a href="#content-yjose" title="Content">🖋</a> <a href="https://github.com/devC-Casa/geeksblabla.com/pulls?q=is%3Apr+reviewed-by%3Ayjose" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://hakkou.me"><img src="https://avatars1.githubusercontent.com/u/6276978?v=4" width="100px;" alt=""/><br /><sub><b>Amine Hakkou</b></sub></a><br /><a href="https://github.com/devC-Casa/geeksblabla.com/commits?author=Amine-H" title="Code">💻</a> <a href="#content-Amine-H" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/souffanda"><img src="https://avatars2.githubusercontent.com/u/24813026?v=4" width="100px;" alt=""/><br /><sub><b>Soufian El </b></sub></a><br /><a href="https://github.com/devC-Casa/geeksblabla.com/commits?author=souffanda" title="Code">💻</a> <a href="https://github.com/devC-Casa/geeksblabla.com/commits?author=souffanda" title="Documentation">📖</a> <a href="#content-souffanda" title="Content">🖋</a> <a href="#ideas-souffanda" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://aboullaite.me"><img src="https://avatars0.githubusercontent.com/u/2836850?v=4" width="100px;" alt=""/><br /><sub><b>Aboullaite Mohammed</b></sub></a><br /><a href="#content-aboullaite" title="Content">🖋</a> <a href="#ideas-aboullaite" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/ismailElazizi"><img src="https://avatars1.githubusercontent.com/u/22155037?v=4" width="100px;" alt=""/><br /><sub><b>Ismail El Azizi</b></sub></a><br /><a href="#design-ismailElazizi" title="Design">🎨</a> <a href="#content-ismailElazizi" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/HyadOussama"><img src="https://avatars0.githubusercontent.com/u/26727605?v=4" width="100px;" alt=""/><br /><sub><b>Oussama Hyad</b></sub></a><br /><a href="#design-HyadOussama" title="Design">🎨</a></td>
+    <td align="center"><a href="https://packagist.org/packages/soubai"><img src="https://avatars0.githubusercontent.com/u/11523791?v=4" width="100px;" alt=""/><br /><sub><b>soubai</b></sub></a><br /><a href="#content-AbderrahimSoubaiElidrissi" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.github.com/midrissi"><img src="https://avatars0.githubusercontent.com/u/3237344?v=4" width="100px;" alt=""/><br /><sub><b>IDRISSI Mohamed</b></sub></a><br /><a href="#content-midrissi" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Iduoad"><img src="https://avatars0.githubusercontent.com/u/25715906?v=4" width="100px;" alt=""/><br /><sub><b>Iduoad</b></sub></a><br /><a href="#content-Iduoad" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Ismailtlem"><img src="https://avatars1.githubusercontent.com/u/34961373?v=4" width="100px;" alt=""/><br /><sub><b>Ismail Tlemçani</b></sub></a><br /><a href="#content-Ismailtlem" title="Content">🖋</a></td>
+    <td align="center"><a href="https://mouyiz.me"><img src="https://avatars1.githubusercontent.com/u/23297439?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Ouyizme</b></sub></a><br /><a href="#content-mohouyizme" title="Content">🖋</a></td>
+    <td align="center"><a href="https://melbarch.com"><img src="https://avatars0.githubusercontent.com/u/12951727?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed ELBARCHANY</b></sub></a><br /><a href="#content-melbarch" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/kelmag"><img src="https://avatars0.githubusercontent.com/u/29312717?v=4" width="100px;" alt=""/><br /><sub><b>Khalil El Maghraoui</b></sub></a><br /><a href="#content-kelmag" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
