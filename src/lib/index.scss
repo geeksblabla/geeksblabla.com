@@ -4,7 +4,7 @@
       @content;
     }
   } @else if $point == laptop {
-    @media (min-width: 64em) {
+    @media (min-width: 60em) {
       @content;
     }
   } @else if $point == tablet {
