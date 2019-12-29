@@ -1,14 +1,16 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
-import Layout from "../components/Layout"
-import Episode from "../components/Episode"
-import SEO from "../components/SEO"
-
-import "./index.scss"
-const spotify = require("../images/spotify.png")
-const google_podcast = require("../images/google-podcast.png")
-const apple_podcast = require("../images/apple-podcast.png")
+import Layout from "components/Layout"
+import {
+  Hero,
+  Statistics,
+  EpisodesTypes,
+  TopEpisodes,
+  Reviews,
+  Notification,
+} from "components/Home"
+import SEO from "components/SEO"
 
 const IndexPage = ({ data: { allMdx } }) => {
   const lastEpisode = allMdx.edges[0].node
@@ -16,12 +18,12 @@ const IndexPage = ({ data: { allMdx } }) => {
   return (
     <Layout withNextEpisode backImage>
       <SEO />
-      <div className="container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio
-        dicta! Tenetur repellat, placeat possimus sit necessitatibus nihil
-        minima quis iste ducimus quisquam quam, expedita, officiis asperiores
-        esse quos fugit.
-      </div>
+      <Hero />
+      <Statistics />
+      <EpisodesTypes />
+      <TopEpisodes />
+      <Reviews />
+      <Notification />
       {/* <div className="intro">
         <h1>
           Enjoy Top Tech <br /> Topics In Darija <br /> With GeeksBlabla
