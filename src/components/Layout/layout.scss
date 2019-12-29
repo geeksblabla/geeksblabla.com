@@ -1,33 +1,33 @@
-@import "../../lib/index";
-body {
-  background: #000;
-  font-size: 15px;
-  line-height: 22px;
-  font-family: "Open sans";
-}
+// @import "../../styles/index";
+// body {
+//   background: #000;
+//   font-size: 15px;
+//   line-height: 22px;
+//   font-family: "Open sans";
+// }
 
-.container {
-  //background: rgba(0, 0, 0, 0.5);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #000;
-  min-height: 100vh;
-  &.image-back {
-    background-image: url("../../images/back.png");
-    background-size: cover;
-  }
-  main {
-    color: #fff;
-    margin: 0 10%;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    @include breakpoint(mobileonly) {
-      margin: 10px 20px 40px 20px;
-      flex-wrap: wrap;
-    }
-  }
-}
+// .container {
+//   //background: rgba(0, 0, 0, 0.5);
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   background: #000;
+//   min-height: 100vh;
+//   &.image-back {
+//     background-image: url("../../images/back.png");
+//     background-size: cover;
+//   }
+//   main {
+//     color: #fff;
+//     margin: 0 10%;
+//     display: flex;
+//     flex-grow: 1;
+//     justify-content: center;
+//     align-items: center;
+//     @include breakpoint(mobileonly) {
+//       margin: 10px 20px 40px 20px;
+//       flex-wrap: wrap;
+//     }
+//   }
+// }

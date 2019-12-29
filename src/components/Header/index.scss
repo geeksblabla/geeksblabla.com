@@ -1,4 +1,4 @@
-@import "../../lib/index";
+@import "../../styles/index";
 
 .header {
   background: transparent;
@@ -12,8 +12,6 @@
   @include breakpoint(mobileonly) {
     margin: 0 20px;
   }
-  margin: 0 10%;
-  //max-width: 960px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,15 +19,15 @@
     font-size: 18px;
     line-height: 24px;
     margin: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: $text-color;
     text-decoration: none;
     &.active {
-      color: rgb(255, 255, 255);
+      color: $heading-color;
     }
   }
   .menu {
-    font-family: Open Sans;
-    display: block;
+    display: flex;
+    align-items: center;
     @include breakpoint(mobileonly) {
       display: none;
     }

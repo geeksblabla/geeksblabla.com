@@ -16,7 +16,13 @@ const IndexPage = ({ data: { allMdx } }) => {
   return (
     <Layout withNextEpisode backImage>
       <SEO />
-      <div className="intro">
+      <div className="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, optio
+        dicta! Tenetur repellat, placeat possimus sit necessitatibus nihil
+        minima quis iste ducimus quisquam quam, expedita, officiis asperiores
+        esse quos fugit.
+      </div>
+      {/* <div className="intro">
         <h1>
           Enjoy Top Tech <br /> Topics In Darija <br /> With GeeksBlabla
         </h1>
@@ -63,7 +69,7 @@ const IndexPage = ({ data: { allMdx } }) => {
         {...lastEpisode.fields}
         placeholder
         description={lastEpisode.excerpt}
-      />
+      /> */}
     </Layout>
   )
 }

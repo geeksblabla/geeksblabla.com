@@ -1,0 +1,13 @@
+@import "./reset.scss";
+@import "./_vars";
+@import "./font.scss";
+
+body {
+  background: $main-bg-color;
+  color: $text-color;
+}
+.container {
+  width: 100%; /* For small screens */
+  max-width: 1140px; /* For large screens */
+  margin: auto; /* Center the container in the viewport */
+}

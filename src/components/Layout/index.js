@@ -2,17 +2,13 @@ import React from "react"
 import ErrorBoundary from "../ErrorBoundary"
 
 import Header from "../Header"
-import NextEp from "../NextEp"
-import "./reset.css"
-import "./layout.scss"
-require("typeface-open-sans")
+import Footer from "../Footer"
+import "../../styles/common.scss"
 
-export default ({ children, withNextEpisode, backImage, mainStyle }) => (
+export default ({ children }) => (
   <ErrorBoundary>
-    <div className={backImage ? "container image-back" : "container"}>
-      <Header />
-      <main style={mainStyle}>{children}</main>
-      {withNextEpisode ? <NextEp /> : <div />}
-    </div>
+    <Header />
+    {children}
+    <Footer />
   </ErrorBoundary>
 )
