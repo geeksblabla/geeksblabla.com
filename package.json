@@ -20,6 +20,7 @@
     "gatsby-plugin-mdx": "^1.0.64",
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-react-svg": "^2.1.2",
     "gatsby-plugin-sass": "^2.1.26",
     "gatsby-plugin-sharp": "^2.3.10",
     "gatsby-remark-images": "^3.1.39",
@@ -41,6 +42,7 @@
     "react-modal": "^3.11.1",
     "reactjs-popup": "^1.5.0",
     "typeface-open-sans": "^0.0.75",
+    "typeface-roboto": "^0.0.75",
     "urql": "^1.7.0"
   },
   "keywords": [
