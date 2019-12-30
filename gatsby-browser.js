@@ -8,3 +8,28 @@
 
 // Load Roboto typeface
 require("typeface-roboto")
+
+const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+
+// in gastby-browser.js
+exports.shouldUpdateScroll = ({
+  prevRouterProps: {
+    location: { pathname: prevPathName },
+  },
+  routerProps: {
+    location: { pathname },
+  },
+  getSavedScrollPosition,
+}) => {
+  if (w < 860) {
+    return true
+  }
+  if (
+    prevPathName.indexOf("blabla") !== -1 &&
+    pathname.indexOf("blabla") !== -1
+  ) {
+    return false
+  }
+
+  return true
+}
