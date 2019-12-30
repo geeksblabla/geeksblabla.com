@@ -17,13 +17,13 @@ In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of U
 
 [Yassine El Kachchani](https://www.facebook.com/kachchani)
 
-[Mohammed Aboullait]()
+[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
 ## Notes
 
 If you want contribute in Geksblabla project by adding the notes check [this issue](https://github.com/DevC-Casa/geeksblabla.com/issues/23/)
 
-0:03 - Who is Yassine El Kachchani
+0:03 - Who is Yassine El Kachchani ?
 0:06 - Were you interested in entrepreneurship as a student ?
 0:10 - What lessons did you learn from your very first company ?
 0:12 - Brief talk about Lacarteplz.ma
@@ -33,7 +33,7 @@ If you want contribute in Geksblabla project by adding the notes check [this iss
 0:34 - Does 3% equity translate to 3% of profit or to 3% of shares ?
 0:35 - What do you mean by a tiny project ? An MVP, a landing page or what exactly ?
 0:37 - Are there Moroccan incubators which offer training or financing that you can recommend ?
-0:39 - What is the most important thing to create your first startup ?
+0:39 - What is the most important thing when it comes to creating your first startup ?
 0:43 - How is the startup ecosystem in Morocco and how will it be in 2020 ?
 0:52 - Best book to recommend for startuppers ?
 0:55 - Is there a secret to successfully launch a business in Morocco ?
