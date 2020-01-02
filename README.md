@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblablas.com">
@@ -192,6 +192,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://melbarch.com"><img src="https://avatars0.githubusercontent.com/u/12951727?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed ELBARCHANY</b></sub></a><br /><a href="#content-melbarch" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/kelmag"><img src="https://avatars0.githubusercontent.com/u/29312717?v=4" width="100px;" alt=""/><br /><sub><b>Khalil El Maghraoui</b></sub></a><br /><a href="#content-kelmag" title="Content">🖋</a></td>
     <td align="center"><a href="https://pingfrommorocco.blogspot.com"><img src="https://avatars2.githubusercontent.com/u/1638227?v=4" width="100px;" alt=""/><br /><sub><b>Azi Hassan</b></sub></a><br /><a href="#content-azihassan" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://pixelhint.com"><img src="https://avatars3.githubusercontent.com/u/13198653?v=4" width="100px;" alt=""/><br /><sub><b>ijja</b></sub></a><br /><a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=ijja" title="Code">💻</a></td>
   </tr>
 </table>
 
