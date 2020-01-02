@@ -191,7 +191,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://mouyiz.me"><img src="https://avatars1.githubusercontent.com/u/23297439?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Ouyizme</b></sub></a><br /><a href="#content-mohouyizme" title="Content">🖋</a></td>
     <td align="center"><a href="https://melbarch.com"><img src="https://avatars0.githubusercontent.com/u/12951727?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed ELBARCHANY</b></sub></a><br /><a href="#content-melbarch" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/kelmag"><img src="https://avatars0.githubusercontent.com/u/29312717?v=4" width="100px;" alt=""/><br /><sub><b>Khalil El Maghraoui</b></sub></a><br /><a href="#content-kelmag" title="Content">🖋</a></td>
-    <td align="center"><a href="https://pingfrommorocco.blogspot.com"><img src="https://avatars2.githubusercontent.com/u/1638227?v=4" width="100px;" alt=""/><br /><sub><b>Azi Hassan</b></sub></a><br /><a href="#content-azihassan" title="Content">🖋</a></td>
+    <td align="center"><a href="https://pingfrommorocco.blogspot.com"><img src="https://avatars2.githubusercontent.com/u/1638227?v=4" width="100px;" alt=""/><br /><sub><b>Azi Hassan</b></sub></a><br /><a href="#content-azihassan" title="Content">🖋</a> <a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=azihassan" title="Code">💻</a></td>
   </tr>
 </table>
 
