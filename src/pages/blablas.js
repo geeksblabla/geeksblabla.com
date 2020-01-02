@@ -1,17 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
-import SEO from "../components/SEO"
+import SEO from "components/SEO"
 
-import Layout from "../components/Layout"
-import Episode from "../components/Episode"
-import EpisodesMenu from "../components/EpisodesMenu"
+import Layout from "components/Layout"
+import { Episode, EpisodesMenu } from "components/Blabla"
 
 export default ({ data: { allMdx } }) => {
   const lastEpisode = allMdx.edges[0].node
   return (
-    <Layout withNextEpisode>
-      <div className="blablas">
-        <SEO />
+    <Layout>
+      <SEO />
+      <div className="container blablas">
         <EpisodesMenu selectedEpisode={lastEpisode.id} />
         <Episode
           style={{

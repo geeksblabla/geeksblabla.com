@@ -1,15 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
-import SEO from "../components/SEO"
-import Layout from "../components/Layout"
-import Episode from "../components/Episode"
-import EpisodesMenu from "../components/EpisodesMenu"
+import SEO from "components/SEO"
+import Layout from "components/Layout"
+import { Episode, EpisodesMenu } from "components/Blabla"
 
 export default ({ data: { mdx } }) => {
   const { fields, body, excerpt } = mdx
   return (
     <Layout withNextEpisode>
-      <div className="blablas">
+      <div className="container blablas">
         <SEO fields={fields} isEpisode postUrl={fields.slug} />
         <EpisodesMenu />
         <Episode
