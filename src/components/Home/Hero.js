@@ -5,7 +5,7 @@ import PlayIcon from "assets/play.svg"
 
 export default () => {
   return (
-    <div className="container intro">
+    <div className="container hero">
       <h1> Tech Topics In Darija </h1>
       <p>
         We are Developer Circles Casablanca community, we believe in community

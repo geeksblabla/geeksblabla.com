@@ -2,24 +2,28 @@
 
 // home page
 
-.intro {
+.hero {
   @include breakpoint(mobileonly) {
     margin-bottom: 3rem;
-    h1 {
-      font-size: 2rem;
-    }
+    // h1 {
+    //   font-size: 2rem;
+    // }
   }
   margin: 6rem auto 3rem auto;
   text-align: center;
   h1 {
-    font-size: 4.5rem;
-    line-height: 76px;
+    @include fluid-type($min_width, $max_width, 33px, 72px);
+    //font-size: 4.5rem;
+    //line-height: 76px;
     font-weight: 500;
   }
   p {
-    max-width: 530px;
+    max-width: 30rem;
+    @include breakpoint(mobileonly) {
+      max-width: 20rem;
+    }
     margin: auto;
-    margin-top: -20px;
+    // margin-top: -20px;
     margin-bottom: 2rem;
     color: $heading-color;
   }
@@ -185,7 +189,6 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   background: $secondary-bg-color;
   .content {
     background: $main-bg-color;
@@ -194,9 +197,10 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
     justify-content: center;
     align-items: center;
     justify-self: stretch;
-    width: 100%;
+    max-width: 100%;
     margin-top: -45px;
-    padding: 3rem 0px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   text-align: center;

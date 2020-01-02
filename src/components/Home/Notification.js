@@ -8,7 +8,7 @@ export default () => {
   return (
     <div className="notification">
       <Notif className="notif" />
-      <div className="content">
+      <div className="content container ">
         <h1> Get notified for new episodes </h1>
         <p> We would like to Notify as soon as we have new episodes </p>
         <div className="actions">
