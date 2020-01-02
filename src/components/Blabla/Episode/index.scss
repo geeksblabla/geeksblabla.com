@@ -1,9 +1,19 @@
 @import "styles/index";
-@import "./markdown.scss";
 .episode {
   width: 60%;
+
+  // for scrolling experience
+  position: sticky;
+  top: 10px;
+  height: calc(100vh - 10px);
+  overflow-y: scroll;
+
   @include breakpoint(mobileonly) {
     width: 100%;
+    position: static;
+    top: 10px;
+    height: fit-content;
+    //overflow-y: scroll;
   }
   .label {
     background: rgba(0, 0, 0, 0.6);
@@ -16,11 +26,9 @@
   }
 
   .video {
-    //min-height: 400px;
     position: relative;
     .placeholder {
       background: rgba(255, 255, 255, 0.1);
-      //height: 400px;
       position: absolute;
       top: 0;
       left: 0;
@@ -43,32 +51,31 @@
       flex-wrap: wrap;
     }
     .title {
-      margin: 8px 0px;
-      //width: 50%;
-      h2 {
-        font-size: 24px;
-        line-height: 30px; /* identical to box height */
-        color: #ffffff;
-        margin-bottom: 5px;
+      p {
+        text-align: right;
+        margin-bottom: 10px;
       }
-      h5 {
-        font-size: 15px;
-        line-height: 22px; /* identical to box height, or 147% */
-        color: #ffffff;
-        opacity: 0.6;
+      h1 {
+        border-bottom: 1px solid $text-color;
+        padding-bottom: 0.7rem;
+        margin-top: -1rem;
+        margin-bottom: 0rem;
       }
     }
+    .actions {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
-    .description {
-      font-family: "Open sans";
-      font-size: 14px;
-      line-height: 18px;
-      width: 50%;
-      color: rgba(255, 255, 255, 0.6);
-      margin-top: 10px;
-      @include breakpoint(mobileonly) {
-        width: 100%;
-      }
+  .notes {
+    h4 {
+      border-bottom: 1px solid $text-color;
+      padding-bottom: 0.7rem;
     }
+    padding-bottom: 5rem;
   }
 }

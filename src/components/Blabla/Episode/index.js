@@ -3,11 +3,10 @@ import { Link } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import FacebookPlayer from "./FacebookPlayer"
-import Loader from "../Loader"
-import mdxComponents from "../mdx"
-
+import Loader from "components/Loader"
+import mdxComponents from "components/mdx"
 import "./index.scss"
-import VideoPlaceHolder from "../Images/VideoPlaceHolder"
+import VideoPlaceHolder from "components/Images/VideoPlaceHolder"
 
 export default class Episode extends React.Component {
   constructor(props) {
@@ -64,36 +63,26 @@ export default class Episode extends React.Component {
           }}
         >
           <div className="title">
-            <h2> {title} </h2>
-            <h5> {duration} </h5>
+            <p>{date}</p>
+            <h1> {title} </h1>
+            <div className="actions">
+              <a target="_blank" rel="noopener noreferrer" href={repoLink}>
+                Share on Facebook
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href={repoLink}>
+                Share on Twitter
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href={repoLink}>
+                Edit Notes
+              </a>
+            </div>
           </div>
-          <div className="markdown-description">
+          <div className="notes">
             {!placeholder && (
               <React.Fragment>
                 <MDXProvider components={mdxComponents}>
                   <MDXRenderer>{description}</MDXRenderer>
                 </MDXProvider>
-                <div
-                  style={{
-                    marginTop: 20,
-                    alignItems: "flex-end",
-                    color: "#d9127b",
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <a
-                    style={{
-                      cursor: "pointer",
-                      fontSize: 16,
-                    }}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={repoLink}
-                  >
-                    Edit Notes
-                  </a>
-                </div>
               </React.Fragment>
             )}
           </div>
