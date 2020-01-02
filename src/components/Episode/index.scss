@@ -2,6 +2,13 @@
 @import "./markdown.scss";
 .episode {
   width: 60%;
+  @include breakpoint(laptop) {
+    height: calc(100vh - 10px);
+    top: 10px;
+    overflow-y: scroll;
+    position: -webkit-sticky;
+    position: sticky;
+  }
   @include breakpoint(mobileonly) {
     width: 100%;
   }
