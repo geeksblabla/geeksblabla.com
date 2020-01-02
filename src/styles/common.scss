@@ -1,5 +1,6 @@
 @import "./reset.scss";
 @import "./_vars";
+@import "./mixins.scss";
 @import "./font.scss";
 
 body {
@@ -10,6 +11,11 @@ body {
   width: 100%; /* For small screens */
   max-width: 1240px; /* For large screens */
   margin: auto; /* Center the container in the viewport */
+  @include breakpoint(mobileonly) {
+    width: 96%;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
 }
 
 .button {
@@ -34,4 +40,10 @@ body {
   svg {
     margin-right: 8px;
   }
+}
+
+a {
+  color: #d1128a;
+  text-decoration: none;
+  cursor: pointer;
 }
