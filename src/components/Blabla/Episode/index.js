@@ -7,6 +7,7 @@ import Loader from "components/Loader"
 import mdxComponents from "components/mdx"
 import "./index.scss"
 import VideoPlaceHolder from "components/Images/VideoPlaceHolder"
+import Actions from "../Actions"
 
 export default class Episode extends React.Component {
   constructor(props) {
@@ -65,17 +66,11 @@ export default class Episode extends React.Component {
           <div className="title">
             <p>{date}</p>
             <h1> {title} </h1>
-            <div className="actions">
-              <a target="_blank" rel="noopener noreferrer" href={repoLink}>
-                Share on Facebook
-              </a>
-              <a target="_blank" rel="noopener noreferrer" href={repoLink}>
-                Share on Twitter
-              </a>
-              <a target="_blank" rel="noopener noreferrer" href={repoLink}>
-                Edit Notes
-              </a>
-            </div>
+            <Actions
+              repoLink={repoLink}
+              title={title}
+              shareUrl={`https://geeksblabla.com/${slug}`}
+            />
           </div>
           <div className="notes">
             {!placeholder && (
