@@ -10,7 +10,7 @@ export default () => {
   return (
     <ApolloProvider client={client}>
       <Auth0Provider>
-        <div className="suggest">
+        <div className=" container suggest">
           <SuggestionForm />
           <SuggestionsList />
         </div>
