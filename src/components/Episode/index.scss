@@ -1,7 +1,6 @@
 @import "../../lib/index";
 @import "./markdown.scss";
 .episode {
-  //width: 60%;
   @include breakpoint(mobileonly) {
     width: 100%;
   }
@@ -32,7 +31,7 @@
     margin: 15px 35px 0px 35px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
     h2 {
       display: inline-block;
       font-size: 40px;

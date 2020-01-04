@@ -61,6 +61,7 @@ notes: "0:03 - Who is Yassine El Kachchani?
 2:05 - Besides money, why should one build a startup?
 
 2:11 - Conclusion"
+
 guests: 
     - name: "Yassine El Kachchani"
       link: "https://www.facebook.com/kachchani"
