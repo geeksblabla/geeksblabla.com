@@ -58,6 +58,8 @@ If you want to contribute check out the [help wanted](https://github.com/devC-Ca
       - isNext : always `false`. `true` means the episode is the next one and should appear on the footer.
       - video : Facebook video id
 
+3 . **Add Episode Notes && Links**
+
 ```
 date: 2019-03-28
 time: 20h
@@ -68,53 +70,24 @@ isNext: false
 video: "2254365704624093"
 published: true
 podcastUrl:
-
-```
-
-3 . **Add Episode Notes && Links**
-
-Episode Notes should contain three sections:
-
-#### Description :
-
-A simple description of the episode like the following:
-
-```
-In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
-```
-
-### Guests
-
-```
-- [guest name 1](https://example.com)
-- [guest name 1](https://example2.com)
-- ....
-```    
-#### Notes :
-
-In the Notes section, you need to collect the most important part of the episode and try to find the right title for it.
-
-```
-0:00 - Intro
-
+description: "A simple description of the episode like the following"
+notes: "0:00 - Intro
 0:03 - The history of web and W3C?
-
 	...
-
 1:57 - when you can find trending web technologies?
-
+"
+guests: 
+    - name: 'guest name 1'
+      link: 'https://example.com'
+    - name: 'guest name 2'
+      link: 'https://example.com'
+prepared: 
+links: 
+    - title: 'W3C'
+      url: 'https://www.w3.org/' 
+    - title: 'Reactjs'
+      url: 'https://reactjs.org'    
 ```
-
-> make sure to add a line break between titles
-
-#### Links :
-
-```
-- [W3C](https://www.w3.org/)
-- [Reactjs](https://reactjs.org)
--....
-```
-
 In the end, the episode markdown file should look like : 👇
 
 ```
@@ -129,31 +102,23 @@ published: true
 video: "2244351238958873"
 url:
 podcastUrl:
----
-
-In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
-
-## Guests
-- [guest name 1](https://example.com)
-- [guest name 1](https://example2.com)
-
-## Notes
-h:min - title
-0:00 - Intro
-
+description: "A simple description of the episode like the following"
+notes: "0:00 - Intro
 0:03 - The history of web and W3C?
-
 	...
-
 1:57 - when you can find trending web technologies?
-
-## Links
-
-- [W3C](https://www.w3.org/)
-- [Reactjs](https://reactjs.org)
--....
-
-
+"
+guests: 
+    - name: 'guest name 1'
+      link: 'https://example.com'
+    - name: 'guest name 2'
+      link: 'https://example.com'
+prepared: 
+links: 
+    - title: 'W3C'
+      url: 'https://www.w3.org/' 
+    - title: 'Reactjs'
+      url: 'https://reactjs.org'  
 ```
 
 4.**Open the source code and start editing!**

@@ -9,13 +9,8 @@ video: "2402382573327427"
 published: true
 url:
 podcastUrl:
----
-
-On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk about Serverless && Faas, A complete introduction, Pros and Cons And why you should start working with Faas.
-
-## Notes
-
-0:00 - Introduction
+description: "On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk about Serverless && Faas, A complete introduction, Pros and Cons And why you should start working with Faas."
+notes: "0:00 - Introduction
 
 0:05 - what is Serverless ?
 
@@ -31,10 +26,13 @@ On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk ab
 
 0:55 - Serverless best practices
 
-1:04 - Should I use serverless in my next Project ?
-
-## Link
-
-- [Serverless Tools](https://serverless.css-tricks.com)
-- [Netlify](https://www.netlify.com/)
-- [AWS lambda](https://aws.amazon.com/lambda/)
+1:04 - Should I use serverless in my next Project ?"
+guests: 
+prepared: 
+links: 
+    - title: 'Serverless Tools'
+      url: 'https://serverless.css-tricks.com'
+    - title: 'Netlify' 
+      url: https://www.netlify.com/
+    - title: 'AWS lambda'
+      url: 'https://aws.amazon.com/lambda/'

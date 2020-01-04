@@ -8,13 +8,8 @@ isNext: false
 video: "2144076882491332"
 published: true
 podcastUrl:
----
-
-In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Boudih talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
-
-## Notes
-
-0:00 - Intro && new DevC events
+description: "In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Boudih talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer."
+notes: "0:00 - Intro && new DevC events
 
 0:03 - About Abdelkader Boudih
 
@@ -49,21 +44,31 @@ In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Bou
     - GraphQl
     - PWA
     - WebAssemply
-    - Service Worker
-
-<br/>
-
-## Links
-
-- [W3C](https://www.w3.org/)
-- [SCSS](https://sass-lang.com/)
-- [purifycss](https://purifycss.online/)
-- [Autoprefixer](https://autoprefixer.github.io/)
-- [Can I use](https://caniuse.com/)
-- [Reactjs](https://reactjs.org/)
-- [Angular](https://angular.io/)
-- [VueJs](https://vuejs.org/)
-- [graphQl](https://graphql.org/)
-- [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-- [Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
-- [WebAssembly](https://webassembly.org/)
+    - Service Worker"
+guests: 
+prepared: 
+links: 
+    - title: 'W3C'
+      url: 'https://www.w3.org/'
+    - title: 'SCSS'
+      url: 'https://sass-lang.com/'
+    - title: 'purifycss'
+      url: 'https://purifycss.online/'
+    - title: 'Autoprefixer'
+      url: 'https://autoprefixer.github.io/'
+    - title: 'Can I use' 
+      url: 'https://caniuse.com/'
+    - title: 'Reactjs'
+      url: 'https://reactjs.org/'
+    - title: 'Angular' 
+      url: 'https://angular.io/'
+    - title: 'VueJs'
+      url: 'https://vuejs.org/'
+    - title: 'graphQl'
+      url: 'https://graphql.org/'
+    - title: 'PWA'
+      url: 'https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps'
+    - title: 'Service Worker' 
+      url: 'https://developers.google.com/web/ilt/pwa/introduction-to-service-worker'
+    - title: 'WebAssembly'
+      url: 'https://webassembly.org/'

@@ -9,13 +9,8 @@ published: true
 video: "2244351238958873"
 url:
 podcastUrl:
----
-
-On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Hussein , Youssouf talks about Open source : Definitions , brief history , Licence types and how can we start contribute on open source projects ..etc.
-
-## Notes
-
-0:25 - Introduction : Welcoming and presenting guests
+description: "On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Hussein , Youssouf talks about Open source : Definitions , brief history , Licence types and how can we start contribute on open source projects ..etc."
+notes: " 0:25 - Introduction : Welcoming and presenting guests
 
 1:52 - What is Open source ?
 
@@ -39,11 +34,15 @@ On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Husse
 
 49:32 - Is the code written inside company during 9-5 work belong to the developer or the company ?
 
-55:55 -
-
-## Links
-
-- [Choose a license #1](https://ufal.github.io/public-license-selector/)
-- [Choose a license #2](https://choosealicense.com/)
-- [Code Triage](https://www.codetriage.com/)
-- [First Contributions](https://github.com/firstcontributions/first-contributions)
+55:55 - "
+guests: 
+prepared: 
+links: 
+    - title: "Choose a license #1"
+      url: "https://ufal.github.io/public-license-selector/"
+    - title: "Choose a license #2"
+      url: "https://choosealicense.com/"
+    - title: "Code Triage"
+      url: "https://www.codetriage.com/"
+    - title: "First Contributions"
+      url: "https://github.com/firstcontributions/first-contributions"

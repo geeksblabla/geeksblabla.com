@@ -8,23 +8,8 @@ isNext: false
 video: "2272738262958526"
 published: true
 podcastUrl:
----
-
-On this episode of Geeksblabla : The geeksblabla team members Mohammed aboullaite and Amine.H will be talking with their guests about Machine Learning and AI. The guests of the episode are Ahmed Kachkach and Redouane Lguensat
-
-## Guests
-
-[Amine Hakkou](https://www.facebook.com/hakkou.me)
-
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
-
-[Ahmed Kachkach](https://www.facebook.com/kachkach.ahmed)
-
-[Redouane Lguensat](https://www.facebook.com/redouane.lguensat)
-
-## Notes
-
-01:18 - Guests presentation
+description: "On this episode of Geeksblabla : The geeksblabla team members Mohammed aboullaite and Amine.H will be talking with their guests about Machine Learning and AI. The guests of the episode are Ahmed Kachkach and Redouane Lguensat"
+notes: "01:18 - Guests presentation
 
 04:50 - Difference between AI and Machine learning
 
@@ -54,14 +39,28 @@ On this episode of Geeksblabla : The geeksblabla team members Mohammed aboullait
 
 01:09:30 - AI Frameworks ?
 
-01:13:35 - Final words and goodbye.
-
-## Links
-
-- [Kaggle](https://www.kaggle.com/)
-- [Image-net](http://www.image-net.org/)
-- [Machine learning course](https://www.coursera.org/learn/machine-learning)
-- [Deep learning course](https://www.coursera.org/specializations/deep-learning)
-- [Colab](https://colab.research.google.com/)
-- [تويشيات في تطبيق الرياضيات](https://www.facebook.com/AppliedMathsInDarija/)
+01:13:35 - Final words and goodbye."
+guests: 
+    - name: 'Amine Hakkou'
+      link: 'https://www.facebook.com/hakkou.me'
+    - name: 'Mohammed Aboullaite'
+      link: 'https://www.facebook.com/aboullaite'
+    - name: 'Ahmed Kachkach'
+      link: 'https://www.facebook.com/kachkach.ahmed'
+    - name: 'Redouane Lguensat'
+      link: 'https://www.facebook.com/redouane.lguensat'
+prepared: 
+links: 
+    - title: "Kaggle"
+      url: "https://www.kaggle.com/"
+    - title: "Image-net"
+      url: "http://www.image-net.org/"
+    - title: "Machine learning course"
+      url: "https://www.coursera.org/learn/machine-learning"
+    - title: "Deep learning course"
+      url: "https://www.coursera.org/specializations/deep-learning"
+    - title: "Colab"
+      url: "https://colab.research.google.com/"
+    - title: "تويشيات في تطبيق الرياضيات"
+      url: "https://www.facebook.com/AppliedMathsInDarija/"
 

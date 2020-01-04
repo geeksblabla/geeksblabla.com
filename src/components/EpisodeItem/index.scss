@@ -18,6 +18,9 @@
       background: rgba(255, 255, 255, 0.3);
     }
   }
+  &:first-of-type {
+    margin-top: 0;
+  }
   .placeholder {
     display: block;
     height: 50px;

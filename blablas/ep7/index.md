@@ -8,13 +8,8 @@ isNext: false
 video: "2261166440782375"
 published: true
 podcastUrl:
----
-
-On this episode of Geeksblabla hosted by (Mohammed Aboullaite) : The guests Soufian , Faissal ,Youssouf and Othmane talks about The bounds of "job of developer" from many point of views educational , technical and psychologic ..etc.
-
-## Notes
-
-0:25 - Introduction : Welcoming and presenting guests
+description: "On this episode of Geeksblabla hosted by (Mohammed Aboullaite) : The guests Soufian , Faissal ,Youssouf and Othmane talks about The bounds of "job of developer" from many point of views educational , technical and psychologic ..etc."
+notes: "0:25 - Introduction : Welcoming and presenting guests
 
 3:20 - What is the definition(s) of developer job ?
 
@@ -28,10 +23,13 @@ On this episode of Geeksblabla hosted by (Mohammed Aboullaite) : The guests Souf
 
 59:40 - What's differences between Junior, and Senior developers ?
 
-01:08:43 - Final thoughts ?
-
-## Links
-
-- [Medium](https://medium.com/)
-- [Dev.to](https://dev.to/)
-- [Technical Podcasts](https://www.freecodecamp.org/news/here-are-the-most-interesting-developer-podcasts-2019-edition-4e43063bf8a4/)
+01:08:43 - Final thoughts ?"
+guests: 
+prepared: 
+links: 
+    - title: 'Medium'
+      url: 'https://medium.com/'
+    - title: 'Dev.to'
+      url: 'https://dev.to/'
+    - title: 'Technical Podcasts' 
+      url: 'https://www.freecodecamp.org/news/here-are-the-most-interesting-developer-podcasts-2019-edition-4e43063bf8a4/'

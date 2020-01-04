@@ -8,19 +8,11 @@ isNext: false
 video: "2573269702733690"
 published: true
 url:
+description: "In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding in computer science studies."
+notes:
+guests: 
+    - name: 'Meriem Zaid'
+      link: 'https://www.facebook.com/MeriemZaid'
+prepared: 
+links: 
 podcastUrl:
----
-
-In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding in computer science studies.
-
-## Notes
-
-<br/>
-<br/>
-<br/>
-
-## Link
-
-<br/>
-<br/>
-<br/>

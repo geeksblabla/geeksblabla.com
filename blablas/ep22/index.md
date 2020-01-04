@@ -7,25 +7,9 @@ tags: ["programming","school","Junior"]
 isNext: false
 video: "2632636916796968"
 published: true
-url:
-podcastUrl:
----
-
-In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding as Junior Devs in Morocco.
-
-## Guests
-
-[Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
-
-[Meriem Zaid](https://www.facebook.com/MeriemZaid)
-
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
-
-[Zakaria Braksa](https://www.facebook.com/profile.php?id=100004033238021)
-
-## Notes
-
-00:00 - Introduction: Welcoming, guests' presentation and last episode recap.
+url: 
+description: "In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding as Junior Devs in Morocco."
+notes: "00:00 - Introduction: Welcoming, guests' presentation and last episode recap.
 
 00:04 - Which tech stack to should for a junior developer. and why ?
 
@@ -96,7 +80,18 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding a
 02:03 - Data Maroc initiative.
 
 02:06 - Wrap up and good bye !
-
-## Link
-
-[Rekrute Salary Simulator](https://www.rekrute.com/salaire-simulateur-maroc.html)
+"
+guests: 
+    - name: 'Abderrahim Soubai Elidrissi'
+      link: 'https://www.facebook.com/zizwar0nline'
+    - name: 'Meriem Zaid'
+      link: 'https://www.facebook.com/MeriemZaid'
+    - name: 'Mohammed Aboullaite'
+      link: 'https://www.facebook.com/aboullaite'
+    - name: 'Zakaria Braksa'
+      link: 'https://www.facebook.com/profile.php?id=100004033238021'  
+prepared: 
+links: 
+    - title: 'Rekrute Salary Simulator'
+      url: 'https://www.rekrute.com/salaire-simulateur-maroc.html'  
+podcastUrl:

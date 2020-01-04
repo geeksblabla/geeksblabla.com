@@ -3,9 +3,11 @@
 .episodes-list {
   align-self: flex-start;
   padding-right: 20px;
+  margin-right: 20px;
   min-width: 380px;
-  //max-height: 600px;
-  //overflow: scroll;
+  height: calc(100vh - 10px);
+  margin-top: 15px;
+  overflow-y: scroll;
   @include breakpoint(mobileonly) {
     width: 100%;
     padding: 0px 0px;

@@ -11,14 +11,8 @@ export default ({ data: { mdx } }) => {
     <Layout withNextEpisode>
       <div className="blablas">
         <SEO fields={fields} isEpisode postUrl={fields.slug} />
-        <EpisodesMenu />
         <Episode
-          style={{
-            alignSelf: "flex-start",
-            width: "100%",
-          }}
           {...fields}
-          description={body}
           excerpt={excerpt}
         />
       </div>
@@ -39,6 +33,20 @@ export const pageQuery = graphql`
         url
         video
         repoLink
+        guests {
+          link
+          name
+        }
+        description
+        prepared {
+          link
+          name
+        }
+        links { 
+          title
+          url
+        }
+        notes
       }
       body
     }

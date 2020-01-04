@@ -9,12 +9,8 @@ video: "2465296773530984"
 published: true
 url:
 podcastUrl:
----
-
-In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan talk about what is Competitive Programing, How to become good at and why you need to be a part of the next competition.
-
-## Notes
-
+description: "In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan talk about what is Competitive Programing, How to become good at and why you need to be a part of the next competition."
+notes: "
 00:00 - Introduction: Welcoming and presenting guests.
 
 00:05 - What is Competitive programming and why it's important?
@@ -30,17 +26,21 @@ In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan
 01:01 - How we can improve our scores
 
 01:10 - Q/A
-
-## Link
-
-[MCPC chair](https://www.youtube.com/watch?v=aPOJ0w9Cc0w)
-
-[ACPC](https://www.youtube.com/watch?v=NyI2nYOPjiU&t=4s)
-
-[MCPC](https://www.youtube.com/watch?v=aPOJ0w9Cc0w)
-
-[Competitive Programing Book](https://cpbook.net/)
-
-[SolverToBe](https://www.youtube.com/channel/UC2xOPGjIhLKsgUZEiunlzWQ)
-
-[Arabic Competitive Programming](https://www.youtube.com/user/nobody123497)
+"
+guests: 
+    - name: 'Mohammed Aboullaite'
+      link: 'https://www.facebook.com/aboullaite'
+prepared: 
+links:
+    - title: 'MCPC chair'
+      url: 'https://www.youtube.com/watch?v=aPOJ0w9Cc0w'
+    - title: 'ACPC'
+      url: 'https://www.youtube.com/watch?v=NyI2nYOPjiU&t=4s'
+    - title: 'MCPC'
+      url: 'https://www.youtube.com/watch?v=aPOJ0w9Cc0w'
+    - title: 'Competitive Programing Book'
+      url: 'https://cpbook.net/'
+    - title: 'SolverToBe'
+      url: 'https://www.youtube.com/channel/UC2xOPGjIhLKsgUZEiunlzWQ'
+    - title: 'Arabic Competitive Programming'
+      url: 'https://www.youtube.com/user/nobody123497'

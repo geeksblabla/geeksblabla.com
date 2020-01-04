@@ -21,13 +21,13 @@ body {
   main {
     color: #fff;
     margin: 0 10%;
-    display: flex;
+    /*display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: center;*/
     align-items: center;
     @include breakpoint(mobileonly) {
       margin: 10px 20px 40px 20px;
-      flex-wrap: wrap;
+      //flex-wrap: wrap;
     }
   }
 }

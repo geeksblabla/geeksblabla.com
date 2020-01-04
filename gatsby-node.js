@@ -148,6 +148,31 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       value: node.frontmatter.video || "",
     })
+    createNodeField({
+      name: "description",
+      node,
+      value: node.frontmatter.description || "",
+    })
+    createNodeField({
+      name: "guests",
+      node,
+      value: node.frontmatter.guests || [],
+    })
+    createNodeField({
+      name: "prepared",
+      node,
+      value: node.frontmatter.prepared || [],
+    })
+    createNodeField({
+      name: "links",
+      node,
+      value: node.frontmatter.links || [], 
+    })
+    createNodeField({
+      name: "notes",
+      node,
+      value: node.frontmatter.notes || [],
+    })
   }
 }
 

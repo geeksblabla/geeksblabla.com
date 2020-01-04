@@ -60,7 +60,7 @@
 // about page
 
 .blablas {
-  display: flex;
+  /*display: flex;
   align-self: flex-start;
   flex-grow: 1;
   flex-grow: 1;
@@ -71,7 +71,7 @@
     flex-direction: column-reverse;
     flex-wrap: wrap;
     margin-top: 0px;
-  }
+  }*/
 }
 
 .about {
@@ -134,5 +134,18 @@
     color: #d9147d;
     background: transparent;
     border: #d9147d 1px solid;
+  }
+}
+.block-hp {
+  display: flex;
+  .episode {
+    width: 50%;
+    .title {
+      margin: 15px 0;
+    }
+    .bock-intro ,
+    .info {
+      display: none;
+    }
   }
 }

@@ -1,10 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import { MDXProvider } from "@mdx-js/react"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 import FacebookPlayer from "./FacebookPlayer"
 import Loader from "../Loader"
-import mdxComponents from "../mdx"
+import EpisodesMenu from "../EpisodesMenu"
 
 import "./index.scss"
 import VideoPlaceHolder from "../Images/VideoPlaceHolder"
@@ -27,6 +25,7 @@ export default class Episode extends React.Component {
 
   render() {
     const {
+      id,
       title,
       slug,
       date,
@@ -37,12 +36,21 @@ export default class Episode extends React.Component {
       description,
       repoLink,
       excerpt,
+      guests,
+      notes,
+      prepared,
+      links,
       ...props
     } = this.props
     const { ready } = this.state
 
     return (
       <div className="episode" {...props}>
+        <div className="title">
+          <h2> {title} </h2>
+          <h5> {duration} </h5>
+        </div>
+        <span className='bock-intro'>{description}</span>
         {label && <span className="label"> last Episode </span>}
         {!ready && <Loader />}
         {placeholder ? (
@@ -63,39 +71,55 @@ export default class Episode extends React.Component {
             visibility: `${ready ? "visible" : "hidden"}`,
           }}
         >
-          <div className="title">
-            <h2> {title} </h2>
-            <h5> {duration} </h5>
-          </div>
+          <EpisodesMenu selectedEpisode={id} />
           <div className="markdown-description">
-            {!placeholder && (
-              <React.Fragment>
-                <MDXProvider components={mdxComponents}>
-                  <MDXRenderer>{description}</MDXRenderer>
-                </MDXProvider>
-                <div
-                  style={{
-                    marginTop: 20,
-                    alignItems: "flex-end",
-                    color: "#d9127b",
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <a
-                    style={{
-                      cursor: "pointer",
-                      fontSize: 16,
-                    }}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={repoLink}
-                  >
-                    Edit Notes
-                  </a>
-                </div>
-              </React.Fragment>
-            )}
+            <span style={{
+                  display: `${guests.length > 0 ? "block" : "none"}`,
+              }}>
+              <h2>Guests</h2>
+              <ul> 
+              {
+              guests.map((item,index) =>
+               <li>
+                 <a href={item.link}>{item.name}</a>
+               </li>
+              )
+            } 
+            </ul>
+            </span>
+            <h2>Notes</h2>
+            <p className='notes'>
+              {notes ? notes :`If you want contribute in Geksblabla project by adding the notes check` }
+              <a href='https://github.com/DevC-Casa/geeksblabla.com/issues/23/' target='_blank' style={{visibility: `${notes ? "hidden" : "visible"}`,}}> this issue </a>
+            </p>
+            <span style={{
+                display: `${prepared.length > 0 ? "block" : "none"}`,
+            }}>
+            <h2>Prepared and Presented by :</h2>
+            <ul> 
+              {
+                prepared.map((item,index) =>
+                <li>
+                  <a href={item.link}>{item.name}</a>
+                </li>
+                )
+              } 
+            </ul>
+            </span>
+            <span style={{
+                display: `${links.length > 0 ? "block" : "none"}`,
+            }}>
+            <h2>Links</h2>
+            <ul> 
+                {
+                  links.map((item,index) =>
+                  <li>
+                    <p >{item.title} <a href={item.url}> check </a></p>
+                  </li>
+                  )
+                } 
+              </ul>
+            </span>  
           </div>
         </div>
       </div>

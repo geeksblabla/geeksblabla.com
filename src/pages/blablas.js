@@ -4,7 +4,6 @@ import SEO from "../components/SEO"
 
 import Layout from "../components/Layout"
 import Episode from "../components/Episode"
-import EpisodesMenu from "../components/EpisodesMenu"
 
 export default ({ data: { allMdx } }) => {
   const lastEpisode = allMdx.edges[0].node
@@ -12,14 +11,8 @@ export default ({ data: { allMdx } }) => {
     <Layout withNextEpisode>
       <div className="blablas">
         <SEO />
-        <EpisodesMenu selectedEpisode={lastEpisode.id} />
         <Episode
-          style={{
-            alignSelf: "flex-start",
-            width: "100%",
-          }}
           {...lastEpisode.fields}
-          description={lastEpisode.body}
         />
       </div>
     </Layout>
@@ -46,6 +39,20 @@ export const pageQuery = graphql`
             duration
             url
             video
+            guests {
+              link
+              name
+            }
+            description
+            prepared {
+              link
+              name
+            }
+            links { 
+              title
+              url
+            }
+            notes
           }
         }
       }

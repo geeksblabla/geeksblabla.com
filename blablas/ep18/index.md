@@ -9,10 +9,8 @@ video: "2417671194960209"
 published: true
 url:
 podcastUrl:
----
-
-...
-
-## Notes
-
-## Link
+description:
+notes: 
+guests: 
+prepared: 
+links:

@@ -8,13 +8,8 @@ isNext: false
 video: "2140582549507432"
 published: true
 podcastUrl:
----
-
-On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed Ezzarghili , Youssouf and Amine talks about DevOps : Definitions , brief history , Work flow , Tools and best practices ..etc.
-
-## Notes
-
-0:25 - Introduction : Mohammed / Soufian announcing upcoming community events
+description:  "On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed Ezzarghili , Youssouf and Amine talks about DevOps : Definitions , brief history , Work flow , Tools and best practices ..etc."
+notes: ":25 - Introduction : Mohammed / Soufian announcing upcoming community events
 
 9:55 - Welcoming to the new season
 
@@ -45,9 +40,9 @@ On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed
 01:37:16 Monitoring (Toolchain)
 
 01:45:00 Questions
-
-## Links
-
-- [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do)
-
-...
+"
+guests: 
+prepared: 
+links:
+    - title: 'Effective DevOps'
+     url: 'http://shop.oreilly.com/product/0636920039846.do'
