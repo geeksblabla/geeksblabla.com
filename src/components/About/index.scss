@@ -77,3 +77,29 @@
     }
   }
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-size: 1.2rem;
+  max-width: 650px;
+  width: 90%;
+  padding-top: 2rem;
+  input,
+  textarea {
+    color: $heading-color;
+    background: $secondary-bg-color;
+    margin-bottom: 2rem;
+    padding: 16px;
+    border-radius: 7px;
+    border: none;
+    &::placeholder {
+      color: $text-color;
+    }
+  }
+  .button {
+    width: fit-content;
+    align-self: center;
+  }
+}
