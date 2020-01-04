@@ -6,6 +6,10 @@
 body {
   background: $main-bg-color;
   color: $text-color;
+  background-image: url(./pattern.back.svg);
+  background-repeat: no-repeat;
+  background-position-y: 6rem;
+  background-position-x: center;
 }
 .container {
   width: 100%; /* For small screens */

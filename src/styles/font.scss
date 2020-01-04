@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
   //line-height: calc(18px + 0.2vw); /* Responsive Vertical Rhythm */
-  line-height: calc(1.243 * $mode);
+  line-height: 1.243 * $mode;
 }
 
 h1,
