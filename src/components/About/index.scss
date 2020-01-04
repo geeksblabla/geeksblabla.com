@@ -98,8 +98,8 @@
       color: $text-color;
     }
   }
-  .button {
-    width: fit-content;
-    align-self: center;
+  .actions {
+    display: flex;
+    justify-content: center;
   }
 }

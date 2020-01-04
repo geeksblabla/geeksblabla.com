@@ -101,5 +101,8 @@ $length: 7;
     animation: scroll $animationSpeed linear infinite;
     display: flex;
     width: calc(350px * 14);
+    &:hover {
+      animation-play-state: paused;
+    }
   }
 }
