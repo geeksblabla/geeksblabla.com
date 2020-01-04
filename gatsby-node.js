@@ -3,6 +3,8 @@ const path = require("path")
 const _ = require("lodash")
 //const paginate = require("gatsby-awesome-pagination")
 //const PAGINATION_OFFSET = 7
+const fs = require("fs")
+//const contributers = require("./.all-contributorsrc")
 
 const createPosts = (createPage, createRedirect, edges) => {
   edges.forEach(({ node }, i) => {
@@ -182,5 +184,42 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         $components: path.resolve(__dirname, "src/components"),
       },
     },
+  })
+}
+
+// new node
+exports.sourceNodes = async ({
+  actions,
+  createNodeId,
+  createContentDigest,
+}) => {
+  // We'll make the newNode object here for clarity
+  let data = JSON.parse(fs.readFileSync("./.all-contributorsrc", "utf-8"))
+
+  console.log({ data })
+
+  data.contributors.forEach(c => {
+    const name = c.name
+      .replace(/\s+/g, " ")
+      .trim()
+      .split(" ")
+    const node = {
+      firstName: name[0],
+      lastName:
+        name.length === 3
+          ? `${name[1]} ${name[2]}`
+          : name.length === 2
+          ? name[1]
+          : "",
+      ...c,
+      id: createNodeId(`contributor-${c.login}`),
+      internal: {
+        type: "Contributor",
+        contentDigest: createContentDigest(c),
+      },
+    }
+
+    // Create the actual data node
+    actions.createNode(node)
   })
 }
