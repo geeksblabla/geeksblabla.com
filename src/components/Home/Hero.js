@@ -15,7 +15,7 @@ export default () => {
         <Link to="/blablas" className="button">
           <PlayIcon /> Start Watching
         </Link>
-        <Link to="/blablas" className="button outline">
+        <Link to="/suggest-new-episode" className="button outline">
           Suggest a topic
         </Link>
       </div>
