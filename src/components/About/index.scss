@@ -1,0 +1,79 @@
+@import "styles/index";
+
+// about page
+
+.about-hero {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  margin-bottom: 2rem;
+  @include breakpoint(mobileonly) {
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  h1 {
+    @include fluid-type($min_width, $max_width, 33px, 55px);
+    font-weight: 500;
+  }
+  p {
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+  }
+  .b {
+    font-weight: 300;
+  }
+  .description {
+    max-width: 550px;
+  }
+  .gatsby-image-wrapper {
+    flex: 1;
+    @include breakpoint(mobileonly) {
+      width: 100%;
+      margin-right: 0px;
+    }
+  }
+}
+.contributors {
+  background: $secondary-bg-color;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .contributor {
+    margin: 1rem;
+    img {
+      border-radius: 15px;
+      height: 70px;
+      width: 70px;
+      margin-left: -38px;
+    }
+    p {
+      text-align: left;
+      width: 100px;
+      margin-left: 20px;
+      color: #f6f7f9;
+      span {
+        display: block;
+      }
+    }
+    .back {
+      margin-top: -35px;
+      padding-top: 40px;
+      background: $main-bg-color;
+      min-height: 60px;
+      width: 150px;
+      border-radius: 16px;
+    }
+  }
+}
