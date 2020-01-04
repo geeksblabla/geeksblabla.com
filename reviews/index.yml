@@ -1,0 +1,42 @@
+- name: Oumaima Makhlouk
+  avatar: ./images/oumaima.png
+  review: |
+    Unique, Rich & high quality content!! I have learned a lot of things, thank you for your efforts !
+  role: Student,
+  organization: Universiapolis
+- name: Othmane Kinane
+  avatar: ./images/othmane.png
+  review: |
+    One of the few darija speaking tech podcast. Always a pleasure to listen to, and was honored to be a guest in one of the episodes. I discovered some amazing people from around
+  role: Manager,
+  organization: SGA Technologies & Services
+- name: Anas AIT BAHA
+  avatar: ./images/anas.png
+  review: |
+    Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!  role: Manager,
+  role: Software Engineer
+  organization: SQLI
+- name: Oumaima Makhlouk
+  avatar: ./images/oumaima.png
+  review: |
+    Unique, Rich & high quality content!! I have learned a lot of things, thank you for your efforts !
+  role: Student,
+  organization: Universiapolis
+- name: Othmane Kinane
+  avatar: ./images/othmane.png
+  review: |
+    One of the few darija speaking tech podcast. Always a pleasure to listen to, and was honored to be a guest in one of the episodes. I discovered some amazing people from around
+  role: Manager,
+  organization: SGA Technologies & Services
+- name: Anas AIT BAHA
+  avatar: ./images/anas.png
+  review: |
+    Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!  role: Manager,
+  role: Software Engineer
+  organization: SQLI
+- name: Oumaima Makhlouk
+  avatar: ./images/oumaima.png
+  review: |
+    Unique, Rich & high quality content!! I have learned a lot of things, thank you for your efforts !
+  role: Student,
+  organization: Universiapolis
