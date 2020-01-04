@@ -12,6 +12,8 @@ const SEO = ({
   postImage,
   isEpisode,
   postUrl,
+  title: t,
+  description: d,
 }) => (
   <StaticQuery
     query={graphql`
@@ -36,8 +38,13 @@ const SEO = ({
       }
     `}
     render={({ site: { siteMetadata: seo } }) => {
-      const title = isEpisode ? fields.title : config.siteTitle
-      const description = !!postDescription ? postDescription : seo.description
+      const title = !!t ? t : isEpisode ? fields.title : config.siteTitle
+      console.log(title)
+      const description = !!d
+        ? d
+        : !!postDescription
+        ? postDescription
+        : seo.description
       const image = `${seo.canonicalUrl}/${seo.banner}`
       const url = postUrl
         ? `${seo.canonicalUrl}${path.sep}${postUrl}`

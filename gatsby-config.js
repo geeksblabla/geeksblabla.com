@@ -7,7 +7,7 @@ module.exports = {
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
     description: config.siteDescription,
-    keywords: ["DevC", "geeksblabla", "dev"],
+    keywords: ["DevC_Casa", "Geeksblabla", "Podcast"],
     canonicalUrl: config.siteUrl,
     image: config.siteLogo,
     banner: config.banner,
@@ -100,6 +100,11 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          exclude: /\.back\.svg$/,
+        },
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
