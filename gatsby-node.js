@@ -187,19 +187,15 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   })
 }
 
-// new node
 exports.sourceNodes = async ({
   actions,
   createNodeId,
   createContentDigest,
 }) => {
-  // We'll make the newNode object here for clarity
   let data = JSON.parse(fs.readFileSync("./.all-contributorsrc", "utf-8"))
 
-  console.log({ data })
-
-  data.contributors.forEach(c => {
-    const name = c.name
+  data.contributors.forEach(contributor => {
+    const name = contributor.name
       .replace(/\s+/g, " ")
       .trim()
       .split(" ")
@@ -211,11 +207,11 @@ exports.sourceNodes = async ({
           : name.length === 2
           ? name[1]
           : "",
-      ...c,
-      id: createNodeId(`contributor-${c.login}`),
+      ...contributor,
+      id: createNodeId(`contributor-${contributor.login}`),
       internal: {
         type: "Contributor",
-        contentDigest: createContentDigest(c),
+        contentDigest: createContentDigest(contributor),
       },
     }
 

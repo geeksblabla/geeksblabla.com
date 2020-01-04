@@ -19,7 +19,6 @@ exports.shouldUpdateScroll = ({
   routerProps: {
     location: { pathname },
   },
-  getSavedScrollPosition,
 }) => {
   if (w < 860) {
     return true
