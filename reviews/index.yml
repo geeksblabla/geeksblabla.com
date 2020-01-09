@@ -16,18 +16,18 @@
     Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!  role: Manager,
   role: Software Engineer
   organization: SQLI
-- name: Oumaima Makhlouk
-  avatar: ./images/oumaima.png
+- name: El Housseine Jaafari
+  avatar: ./images/jaafari.jpg
   review: |
-    Unique, Rich & high quality content!! I have learned a lot of things, thank you for your efforts !
-  role: Student,
-  organization: Universiapolis
-- name: Othmane Kinane
-  avatar: ./images/othmane.png
+    I love the concept and the way you guys discuss each subject. Informative, educative and full of fun.
+  role: Software Engineer
+  organization: Instacraft LLC
+- name: Diaa Alhak EL FALLOUS
+  avatar: ./images/diaa.jpg
   review: |
-    One of the few darija speaking tech podcast. Always a pleasure to listen to, and was honored to be a guest in one of the episodes. I discovered some amazing people from around
-  role: Manager,
-  organization: SGA Technologies & Services
+    Keep going!
+  role: Freelancer,
+  organization: Owner
 - name: Anas AIT BAHA
   avatar: ./images/anas.png
   review: |

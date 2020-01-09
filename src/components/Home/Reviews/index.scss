@@ -28,21 +28,28 @@
     }
     p {
       text-align: left;
-      //width: 100px;
       margin-left: 20px;
       span {
         display: block;
       }
     }
+
     .back {
       margin-top: -35px;
       padding: 50px 10px 10px 10px;
       background: $main-bg-color;
       min-height: 60px;
       border-radius: 16px;
+      min-height: 180px;
+      display: flex;
+      flex-direction: column;
+    }
+    .text {
+      flex: 1;
     }
     .name {
       margin-top: 1rem;
+      margin-bottom: 0rem;
       color: $heading-color;
     }
   }

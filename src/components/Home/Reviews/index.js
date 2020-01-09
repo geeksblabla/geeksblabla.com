@@ -54,6 +54,7 @@ const Review = ({ name, review, avatar, role, organization }) => (
     <Img fixed={avatar.childImageSharp.fixed} />
     <div className="back">
       <p className="text">{review}</p>
+
       <p className="name">{name}</p>
       <p className="role">{organization}</p>
     </div>
