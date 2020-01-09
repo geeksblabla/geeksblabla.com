@@ -7,6 +7,7 @@ import ReactIcon from "assets/react-icon.svg"
 import Figma from "assets/figma.svg"
 import Netlify from "assets/netlify.svg"
 import Github from "assets/github.svg"
+import FunaDB from "assets/funadb.svg"
 
 export default ({}) => (
   <div className="footer">
@@ -21,7 +22,7 @@ export default ({}) => (
         This Website Made with ❤️ By <a> DevC Team </a>
       </p>
       <p>
-        <ReactIcon alt="react" /> <GatsbyJs /> FunaDB <Auth0 />
+        <ReactIcon alt="react" /> <GatsbyJs /> <FunaDB /> <Auth0 />
         <Figma /> <Netlify /> <Github />
       </p>
     </div>
