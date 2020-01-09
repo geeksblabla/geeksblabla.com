@@ -6,7 +6,7 @@ export default function Play(props) {
 
   return (
     <button className="player__button" onClick={() => handleClick()}>
-      <PlayIcon />
+      <PlayIcon height="40px" width="40px" />
     </button>
   )
 }

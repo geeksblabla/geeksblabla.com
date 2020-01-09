@@ -41,7 +41,10 @@ export default function Bar(props) {
       <div
         className="bar__progress"
         style={{
-          background: `linear-gradient(to right, #a109d5 ${curPercentage}%, white 0)`,
+          background:
+            duration === 0
+              ? "#FFF"
+              : `linear-gradient(to right, #a109d5 ${curPercentage}%, white 0)`,
         }}
         onMouseDown={e => handleTimeDrag(e)}
       >
@@ -50,7 +53,9 @@ export default function Bar(props) {
           style={{ left: `${curPercentage - 2}%` }}
         />
       </div>
-      <span className="bar__time">{formatDuration(duration)}</span>
+      <span className="bar__time">
+        {duration === 0 ? "Loading ..." : formatDuration(duration)}
+      </span>
     </div>
   )
 }

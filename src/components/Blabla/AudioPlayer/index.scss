@@ -4,21 +4,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 0.5rem 0;
   background-color: $secondary-bg-color;
-
+  position: sticky;
+  top: 0px;
   .controls {
     flex-grow: 1;
     margin: 0 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
   .player__button {
     width: fit-content;
-    margin-bottom: 15px;
+    padding-right: 15px;
     background-color: transparent;
     border: none;
 
@@ -27,13 +28,10 @@
     }
     &:hover {
       cursor: pointer;
-      svg {
-        color: greenyellow;
-      }
     }
 
     svg {
-      font-size: 4em;
+      height: 4em;
       color: white;
     }
   }
@@ -74,7 +72,7 @@
 
     .controls {
       width: 100%;
-      margin-top: 20px;
+      //margin-top: 20px;
     }
 
     .bar {
