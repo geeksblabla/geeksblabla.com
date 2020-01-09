@@ -1,6 +1,6 @@
 import React from "react"
 import "./index.scss"
-export default props => {
+export default () => {
   return (
     <div className="loader">
       <div className="lds-ellipsis">

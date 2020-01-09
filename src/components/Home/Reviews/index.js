@@ -38,10 +38,10 @@ export default () => {
       <div className="list slider">
         <div className="slide-track">
           {reviews.map(({ node }) => (
-            <Review {...node} />
+            <Review {...node} key={node.id} />
           ))}
           {reviews.map(({ node }) => (
-            <Review {...node} />
+            <Review {...node} key={node.id} />
           ))}
         </div>
       </div>

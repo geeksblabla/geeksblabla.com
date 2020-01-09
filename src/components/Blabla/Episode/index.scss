@@ -1,8 +1,8 @@
 @import "styles/index";
 .episode {
-  width: 60%;
-
+  //width: 60%;
   // for scrolling experience
+  flex: 1;
   position: sticky;
   top: 10px;
   height: calc(100vh - 10px);
@@ -37,9 +37,9 @@
   }
 
   .info {
-    font-family: Open Sans;
     margin-top: 24px;
     display: flex;
+    flex-direction: column;
     &.placeholder {
       flex-direction: column;
       flex-wrap: wrap;

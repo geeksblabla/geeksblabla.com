@@ -3,8 +3,9 @@ import { Link } from "gatsby"
 import Spotify from "assets/spotify.svg"
 import ApplePodcast from "assets/apple-podcast.svg"
 import GooglePodcast from "assets/google-podcast.svg"
+import { ToggleMode } from "components/Mode"
 
-export default () => (
+export default ({ id }) => (
   <>
     <Link
       to="/"
@@ -62,5 +63,6 @@ export default () => (
         alt="apple-podcast"
       />
     </a>
+    <ToggleMode id={id} />
   </>
 )

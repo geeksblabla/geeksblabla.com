@@ -1,0 +1,10 @@
+.video-player {
+  min-height: calc(100vw / 2 * 0.5);
+  max-height: 500px;
+  position: relative;
+  .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
