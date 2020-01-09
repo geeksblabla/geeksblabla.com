@@ -1,10 +1,10 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+import React from "react"
+import { ModeProvider } from "./src/components/Mode/ModeContext"
 
-// You can delete this file if you're not using it
+// set Mode Provider
+export const wrapRootElement = ({ element }) => (
+  <ModeProvider>{element}</ModeProvider>
+)
 
 // Load Roboto typeface
 require("typeface-roboto")
@@ -12,7 +12,7 @@ require("typeface-roboto")
 const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
 
 // in gastby-browser.js
-exports.shouldUpdateScroll = ({
+export const shouldUpdateScroll = ({
   prevRouterProps: {
     location: { pathname: prevPathName },
   },
