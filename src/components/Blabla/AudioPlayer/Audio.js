@@ -22,7 +22,7 @@ export default ({
   return (
     <div className="player">
       <audio id="audio">
-        <source src={audio} />
+        <source src={audio} type="audio/mp4" preload="auto" />
         Your browser does not support the <code>audio</code> element.
       </audio>
       {/* <Title> {title}</Title> */}
