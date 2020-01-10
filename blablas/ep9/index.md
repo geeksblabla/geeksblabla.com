@@ -7,7 +7,7 @@ tags: ["UX","UI"]
 isNext: false
 video: "2151207101778310"
 published: true
-podcastUrl:
+audio:
 ---
 
 [//]: # "Check this github issue on How to add Episode Notes  https://github.com/DevC-Casa/geeksblabla.com/issues/23 "

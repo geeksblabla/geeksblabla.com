@@ -8,7 +8,7 @@ isNext: false
 video: "2417671194960209"
 published: true
 url:
-podcastUrl:
+audio:
 ---
 
 ...

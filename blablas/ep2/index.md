@@ -4,11 +4,15 @@ time: 20h
 duration: "1:48:05"
 title: "Open Source with Yassine Elouafi"
 tags: ["open source", "dev"]
+description: |
+  In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redux-sagas library about his success story working as an open source contributors and maintainer of one of the biggest library on React ecosystem.
 isNext: false
 video: "2254365704624093"
 published: true
-podcastUrl:
+audio: https://anchor.fm/s/88e3048/podcast/play/8871925/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37064067-48000-2-7061c427555f3.m4a
 ---
+
+In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redux-sagas library about his success story working as an open source contributors and maintainer of one of the biggest library on React ecosystem.
 
 ## Guests
 
@@ -49,8 +53,6 @@ podcastUrl:
 01:32 Future projects in the open-source ?
 
 01:35 Open-source in morocco & Pieces of Advice for Moroccan programmers.
-
-
 
 ## Prepared and Presented by :
 

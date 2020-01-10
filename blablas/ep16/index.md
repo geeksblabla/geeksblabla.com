@@ -8,7 +8,7 @@ isNext: false
 video: "2254586411440378"
 published: true
 url:
-podcastUrl:
+audio:
 ---
 
 [//]: # "Check this github issue on How to add Episode Notes  https://github.com/DevC-Casa/geeksblabla.com/issues/23 "

@@ -8,7 +8,7 @@ isNext: false
 video: "2693122377415088"
 published: true
 url:
-podcastUrl:
+audio: https://anchor.fm/s/88e3048/podcast/play/8871925/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37064067-48000-2-7061c427555f3.m4a
 ---
 
 In this episode of GeeksBlabla, our guests discuss how we can empower women in moroccan Tech industry.

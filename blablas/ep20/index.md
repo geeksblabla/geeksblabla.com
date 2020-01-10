@@ -8,7 +8,7 @@ isNext: false
 video: "2458974807668203"
 published: true
 url:
-podcastUrl:
+audio:
 ---
 
 In this episode of GeeksBlabla, Geeksblabla team with the amazing Ahmed and Moukhliss talk about Freelance in Morocco, How to get a freelance job, and deal with the client professionally, also how to count the time/money of the project? and much more.

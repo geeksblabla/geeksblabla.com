@@ -8,7 +8,7 @@ isNext: false
 video: "2402382573327427"
 published: true
 url:
-podcastUrl:
+audio:
 ---
 
 On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk about Serverless && Faas, A complete introduction, Pros and Cons And why you should start working with Faas.

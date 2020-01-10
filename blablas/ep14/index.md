@@ -7,7 +7,7 @@ tags: ["Security", "Backend", "Frontend"]
 isNext: false
 video: "2392159647683053"
 published: true
-podcastUrl:
+audio:
 ---
 
 [//]: # "Check this github issue on How to add Episode Notes  https://github.com/DevC-Casa/geeksblabla.com/issues/23 "

@@ -3,11 +3,11 @@ date: 2018-05-26
 time: 20h
 duration: "2:46:10"
 title: "WebDev Jsframeworks, Best practices"
-tags: ["Web","js"]
+tags: ["Web", "js"]
 isNext: false
 video: "2144076882491332"
 published: true
-podcastUrl:
+audio:
 ---
 
 In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Boudih talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.

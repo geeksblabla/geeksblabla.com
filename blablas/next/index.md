@@ -7,7 +7,7 @@ tags: ["tech","mss","startup"]
 isNext: true
 published: true
 url:
-podcastUrl:
+audio:
 ---
 
 ...
