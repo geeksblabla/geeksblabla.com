@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 const isBrowser = typeof window !== "undefined"
 
-export const ModeContext = React.createContext()
+export const ModeContext = React.createContext({ isVideo: false })
 
 export const ModeProvider = ({ children }) => {
   const [isVideo, setIsVideo] = useState(
