@@ -8,7 +8,7 @@ import Bar from "./Bar"
 import useAudioPlayer from "./useAudioPlayer"
 
 export default ({
-  audio = "https://anchor.fm/s/88e3048/podcast/play/8871925/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37064067-48000-2-7061c427555f3.m4a",
+  audio = "https://d3ctxlq1ktw2nl.cloudfront.net/production/2019-11-8/37064067-48000-2-7061c427555f3.m4a",
   title = "Episode Title ",
 }) => {
   const {
