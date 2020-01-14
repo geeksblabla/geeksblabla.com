@@ -9,7 +9,7 @@ description: |
 isNext: false
 video: "2254365704624093"
 published: true
-audio: https://anchor.fm/s/88e3048/podcast/play/8871925/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37064067-48000-2-7061c427555f3.m4a
+audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2019-11-8/37064067-48000-2-7061c427555f3.m4a
 ---
 
 In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redux-sagas library about his success story working as an open source contributors and maintainer of one of the biggest library on React ecosystem.
