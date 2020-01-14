@@ -13,7 +13,7 @@ import {
 
 export default ({ repoLink, shareUrl, title: t }) => {
   const title = t + "#GeeksBalala #DevC_Casa"
-  console.log(shareUrl)
+  console.log(repoLink)
 
   return (
     <div className="episode-actions">

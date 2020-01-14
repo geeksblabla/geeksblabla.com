@@ -12,14 +12,7 @@ export default ({ data: { allMdx } }) => {
       <SEO />
       <div className="container blablas">
         <EpisodesMenu selectedEpisode={lastEpisode.id} />
-        <Episode
-          style={{
-            alignSelf: "flex-start",
-            width: "100%",
-          }}
-          {...lastEpisode.fields}
-          description={lastEpisode.body}
-        />
+        <Episode {...lastEpisode.fields} description={lastEpisode.body} />
       </div>
     </Layout>
   )
@@ -35,18 +28,19 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          excerpt(pruneLength: 100)
           id
-          body
           fields {
-            id
             title
             slug
             date(formatString: "MMMM DD, YYYY")
             duration
             url
             video
+            repoLink
             audio
           }
+          body
         }
       }
     }

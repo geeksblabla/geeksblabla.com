@@ -11,15 +11,7 @@ export default ({ data: { mdx } }) => {
       <div className="container blablas">
         <SEO fields={fields} isEpisode postUrl={fields.slug} />
         <EpisodesMenu />
-        <Episode
-          style={{
-            alignSelf: "flex-start",
-            width: "100%",
-          }}
-          {...fields}
-          description={body}
-          excerpt={excerpt}
-        />
+        <Episode {...fields} description={body} excerpt={excerpt} />
       </div>
     </Layout>
   )

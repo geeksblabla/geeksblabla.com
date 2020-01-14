@@ -8,7 +8,7 @@ isNext: false
 video: "2770524023008256"
 published: true
 url: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"
-podcastUrl: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"
+audio: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"
 ---
 
 In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of United Remote.
