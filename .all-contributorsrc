@@ -1,6 +1,6 @@
 {
   "projectName": "geeksblabla.com",
-  "projectOwner": "devC-Casa",
+  "projectOwner": "DevC-Casa",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -134,6 +134,24 @@
       "profile": "https://github.com/kelmag",
       "contributions": [
         "content"
+      ]
+    },
+    {
+      "login": "azihassan",
+      "name": "Azi Hassan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1638227?v=4",
+      "profile": "https://pingfrommorocco.blogspot.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "ijja",
+      "name": "ijja",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13198653?v=4",
+      "profile": "http://pixelhint.com",
+      "contributions": [
+        "code"
       ]
     }
   ],
