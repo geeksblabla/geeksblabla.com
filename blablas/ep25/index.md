@@ -1,5 +1,5 @@
 ---
-date: 2019-12-29
+date: 2020-01-12
 time: 21h
 duration: "01:44:03"
 title: "Geeksblabla Tech: Deep Dive in java"

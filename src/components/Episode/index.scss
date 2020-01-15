@@ -5,7 +5,7 @@
   @include breakpoint(laptop) {
     height: calc(100vh - 10px);
     top: 10px;
-    overflow-y: scroll;
+    // overflow-y: scroll;
     position: -webkit-sticky;
     position: sticky;
   }
