@@ -11,12 +11,14 @@ url: ""
 podcastUrl: ""
 ---
 
-In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of United Remote.
+In this episode of GeeksBlabla, we discuss with amine and geeksblabla team java and a lot of topics around it
 
 ## Guests
 
 [Mohammed Abboulait](https://twitter.com/laytoun)
+
 [Amine Bekkaoui](https://www.linkedin.com/in/amine-bekkaoui-3a622b46)
+
 [Amine Hakkou](https://twitter.com/amine_hakkou)
 
 ## Notes
