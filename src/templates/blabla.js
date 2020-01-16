@@ -9,7 +9,12 @@ export default ({ data: { mdx } }) => {
   return (
     <Layout withNextEpisode>
       <div className="container blablas">
-        <SEO fields={fields} isEpisode postUrl={fields.slug} />
+        <SEO
+          fields={fields}
+          isEpisode
+          postUrl={fields.slug}
+          description={excerpt}
+        />
         <EpisodesMenu />
         <Episode {...fields} description={body} excerpt={excerpt} />
       </div>
@@ -20,7 +25,7 @@ export default ({ data: { mdx } }) => {
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(fields: { id: { eq: $id } }) {
-      excerpt(pruneLength: 100)
+      excerpt(pruneLength: 200)
       id
       fields {
         title

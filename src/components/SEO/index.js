@@ -2,9 +2,20 @@ import path from "path"
 import React from "react"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
+import getShareImage from "@jlengstorf/get-share-image"
 import PropTypes from "prop-types"
 import SchemaOrg from "./SchemaOrg"
 import config from "../../../config/website"
+
+const socialImage = (title, tags) =>
+  getShareImage({
+    title: title,
+    tagline: tags.map(tag => `#${tag}`).join(" "),
+    cloudName: "duko2tssr",
+    imagePublicID: "geeks_t_glwrpw",
+    titleExtraConfig: "_line_spacing_-10",
+    textColor: "FFFFFF",
+  })
 
 const SEO = ({
   fields = {},
@@ -39,13 +50,15 @@ const SEO = ({
     `}
     render={({ site: { siteMetadata: seo } }) => {
       const title = !!t ? t : isEpisode ? fields.title : config.siteTitle
-      console.log(title)
       const description = !!d
         ? d
         : !!postDescription
         ? postDescription
         : seo.description
-      const image = `${seo.canonicalUrl}/${seo.banner}`
+      const image = isEpisode
+        ? socialImage(title, ["Geeksblabla", "#DevC_Casa"])
+        : `${seo.canonicalUrl}/${seo.banner}`
+
       const url = postUrl
         ? `${seo.canonicalUrl}${path.sep}${postUrl}`
         : seo.canonicalUrl
