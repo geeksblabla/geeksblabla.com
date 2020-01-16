@@ -35,8 +35,6 @@ const Episode = ({
 export default Episode
 
 const Player = ({ audio, video }) => {
-  console.log(audio)
-
   const { isVideo } = React.useContext(ModeContext)
   return (
     <>

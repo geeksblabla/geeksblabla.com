@@ -4,7 +4,6 @@ import { ModeContext } from "../ModeContext"
 
 export default ({ id = "cb3" }) => {
   const { isVideo, setIsVideo } = React.useContext(ModeContext)
-  console.log(isVideo)
 
   const handleInputChange = event => {
     setIsVideo(event.target.checked)
