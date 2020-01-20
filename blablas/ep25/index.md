@@ -2,7 +2,7 @@
 date: 2020-01-12
 time: 21h
 duration: "01:44:03"
-title: "Geeksblabla Tech: Deep Dive in java"
+title: "Deep Dive in Java"
 tags: ["spring", "java", "tech"]
 isNext: false
 video: "2801661513227840"
@@ -23,10 +23,9 @@ In this episode of GeeksBlabla, we discuss with amine and geeksblabla team java 
 
 ## Notes
 
- If you want contribute in Geksblabla project by adding the notes check [this issue](https://github.com/DevC-Casa/geeksblabla.com/issues/23/)
+If you want contribute in Geksblabla project by adding the notes check [this issue](https://github.com/DevC-Casa/geeksblabla.com/issues/23/)
 
-## Links 
-
+## Links
 
 ## Prepared and Presented by :
 

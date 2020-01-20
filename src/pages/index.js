@@ -60,6 +60,7 @@ const IndexPage = ({ data: { allMdx } }) => {
       </div>
       <Episode
         label="last episode"
+        style={{ height: "auto" }}
         {...lastEpisode.fields}
         placeholder
         description={lastEpisode.excerpt}
