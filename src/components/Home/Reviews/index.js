@@ -33,7 +33,6 @@ export default () => {
 
   return (
     <div className="reviews">
-      <Pattern width="100%" />
       <h1> Reviews </h1>
       <div className="list slider">
         <div className="slide-track">

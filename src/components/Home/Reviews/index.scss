@@ -1,9 +1,14 @@
 @import "styles/index";
 
 .reviews {
-  margin-top: 2rem;
+  background-image: url(../patterns/3.back.svg);
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 15rem;
+  //margin-top: 2rem;
   width: 100%;
-  background: $secondary-bg-color;
+  background-color: #181942;
   text-align: center;
 
   .list {
@@ -37,7 +42,7 @@
     .back {
       margin-top: -35px;
       padding: 50px 10px 10px 10px;
-      background: $main-bg-color;
+      background: #121334;
       min-height: 60px;
       border-radius: 16px;
       min-height: 180px;

@@ -5,16 +5,11 @@
 .hero {
   @include breakpoint(mobileonly) {
     margin-bottom: 3rem;
-    // h1 {
-    //   font-size: 2rem;
-    // }
   }
   margin: 6rem auto 3rem auto;
   text-align: center;
   h1 {
     @include fluid-type($min_width, $max_width, 33px, 72px);
-    //font-size: 4.5rem;
-    //line-height: 76px;
     font-weight: 500;
   }
   p {
@@ -23,7 +18,6 @@
       max-width: 20rem;
     }
     margin: auto;
-    // margin-top: -20px;
     margin-bottom: 2rem;
     color: $heading-color;
   }
@@ -38,9 +32,17 @@
 // Statistics Component
 
 .statistics {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  background-image: url(./patterns/1.back.svg);
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $secondary-bg-color;
+  padding-top: 10rem;
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .item {
     margin: 3rem;
     padding: 0rem 1rem;
@@ -74,10 +76,16 @@
 // Episodes Types Component
 
 .episodes-types {
+  background-image: url(./patterns/2.back.svg);
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 8rem;
+  //background-color: $secondary-bg-color;
   .item {
     display: flex;
     max-width: 1000px;
-    margin: 2rem auto;
+    margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -109,7 +117,17 @@ $gradient-2: linear-gradient(90deg, #9d09d0 0%, #6146bd 100%);
 $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
 
 .top-episodes {
-  padding: 2rem 0rem;
+  background-image: url(./patterns/1.back.svg);
+  background-position-y: -1px;
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $secondary-bg-color;
+  padding-top: 10rem;
+  .container {
+    padding: 2rem 0rem;
+  }
+
   .episodes {
     display: flex;
     flex-direction: row;
@@ -129,7 +147,7 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
     }
 
     cursor: pointer;
-    background: $secondary-bg-color;
+    background: $main-bg-color;
     width: 300px;
     margin: 1rem;
     padding: 2rem;
@@ -143,10 +161,13 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
     position: relative;
     background-clip: padding-box;
     border: solid $border transparent;
+
     &:before {
       content: "";
+
       position: absolute;
       box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.25);
+      //height: 5px;
       top: 0;
       right: 3px;
       bottom: 2px;
