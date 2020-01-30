@@ -126,9 +126,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: node.frontmatter.tags || [],
     })
     createNodeField({
-      name: "description",
+      name: "featured",
       node,
-      value: node.frontmatter.description || node.excerpt,
+      value: node.frontmatter.featured || false,
     })
     const path =
       node.fileAbsolutePath.substring(
