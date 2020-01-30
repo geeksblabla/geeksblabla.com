@@ -5,6 +5,7 @@ duration: "2:18:03"
 title: "Geeksblabla MSS with Yassine El Kachchani"
 tags: ["startup", "side hustle", "morocco"]
 isNext: false
+featured: true
 video: "2770524023008256"
 published: true
 url: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"

@@ -1,26 +1,26 @@
 import React from "react"
-import { navigate } from "gatsby"
+import { navigate, useStaticQuery, graphql } from "gatsby"
 
-const episodes = [
+const FEATURED_EPISODES = graphql`
   {
-    title: "Women In Tech",
-    description:
-      "In this episode of GeeksBlabla, our guests discuss how we can empower women in moroccan.",
-    url: "/",
-  },
-  {
-    title: "Women In Tech",
-    description:
-      "In this episode of GeeksBlabla, our guests discuss how we can empower women in moroccan.",
-    url: "/",
-  },
-  {
-    title: "Women In Tech",
-    description:
-      "In this episode of GeeksBlabla, our guests discuss how we can empower women in moroccan.",
-    url: "/",
-  },
-]
+    allMdx(
+      filter: { fields: { featured: { eq: true } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
+    ) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 100)
+          fields {
+            title
+            slug
+          }
+        }
+      }
+    }
+  }
+`
 
 const colors = [
   ["#A109D5", "#D9147D"],
@@ -29,20 +29,30 @@ const colors = [
 ]
 
 export default () => {
+  const {
+    allMdx: { edges },
+  } = useStaticQuery(FEATURED_EPISODES)
   return (
-    <div className="container top-episodes">
-      <h2>Top episodes</h2>
-      <div className="episodes">
-        {episodes.map((e, i) => (
-          <EpisodeCard {...e} key={`episode${i}`} item={i} />
-        ))}
+    <div className="top-episodes">
+      <div className="container">
+        <h2>Top episodes</h2>
+        <div className="episodes">
+          {edges.map(({ node: { fields, excerpt } }, i) => (
+            <EpisodeCard
+              {...fields}
+              description={excerpt}
+              key={`episode${i}`}
+              item={i}
+            />
+          ))}
+        </div>
       </div>
     </div>
   )
 }
 
-const EpisodeCard = ({ title, description, url, item }) => (
-  <div className={`item item-${item + 1}`} onClick={() => navigate(url)}>
+const EpisodeCard = ({ title, description, slug, item }) => (
+  <div className={`item item-${item + 1}`} onClick={() => navigate(slug)}>
     <PlayIcon item={item} />
     <h3> {title} </h3>
     <p>{description}</p>

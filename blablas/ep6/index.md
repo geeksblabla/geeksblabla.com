@@ -3,8 +3,6 @@ date: 2018-11-14
 time: 20h
 duration: "1:19:55"
 title: "ML & AI!"
-description: |
-  On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite and Amine will be talking with their guests about Machine Learning and AI. The guests of the episode are Ahmed Kachkach and Redouane Lguensat
 tags: ["ML", "AI"]
 isNext: false
 video: "2272738262958526"

@@ -5,6 +5,7 @@ duration: "1:13:57"
 title: "Freelancing in Morocco"
 tags: ["Freelance"]
 isNext: false
+featured: true
 video: "2458974807668203"
 published: true
 url:

@@ -4,8 +4,6 @@ time: 20h
 duration: "1:27:22"
 title: "Blockchain & CryptoCurrency with Badr Bellaj"
 tags: ["Blockchain", "CryptoCurrency"]
-description: |
-  In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & CryptoCurrency
 isNext: false
 video: "2321040174795001"
 published: true

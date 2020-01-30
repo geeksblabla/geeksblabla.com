@@ -5,6 +5,7 @@ duration: "1:59:00"
 title: "Women In Tech"
 tags: ["women", "tech", "community"]
 isNext: false
+featured: true
 video: "2693122377415088"
 published: true
 url:

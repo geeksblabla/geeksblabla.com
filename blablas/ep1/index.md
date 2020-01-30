@@ -3,8 +3,6 @@ date: 2019-03-21
 time: 20h
 duration: "1:09:42"
 title: "Introduction to Open Source"
-description: |
-  On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Hussein , Youssouf talks about Open source : Definitions , brief history , Licence types and how can we start contribute on open source projects ..etc.
 tags: ["open source", "dev"]
 video: "2244351238958873"
 url:
