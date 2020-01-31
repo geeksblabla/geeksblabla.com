@@ -9,22 +9,35 @@ import Netlify from "assets/netlify.svg"
 import Github from "assets/github.svg"
 import FunaDB from "assets/funadb.svg"
 
-export default ({}) => (
-  <div className="footer">
+export default ({ style }) => (
+  <div className="footer" style={style}>
     <div className="container">
       <p>
         <a href="https://github.com/DevC-Casa/geeksblabla.com">
           Want to Contribute?
         </a>
       </p>
-      <p>© DevC Casablanca 2019 </p>
+
       <p>
-        This Website Made with ❤️ By <a> DevC Team </a>
+        This Website Made with ❤️ By{" "}
+        <a
+          href="https://www.facebook.com/groups/DevC.Casablanca/"
+          target="_blank"
+        >
+          {" "}
+          DevC Team{" "}
+        </a>{" "}
+        using
       </p>
       <p>
-        <ReactIcon alt="react" /> <GatsbyJs /> <FunaDB /> <Auth0 />
-        <Figma /> <Netlify /> <Github />
+        <Figma /> <ReactIcon alt="react" /> <GatsbyJs /> <FunaDB /> <Auth0 />
+        <Netlify />
       </p>
+      <p>
+        Sourced on{" "}
+        <a href="https://github.com/DevC-Casa/geeksblabla.com">GitHub</a>
+      </p>
+      <p>© DevC Casablanca {new Date().getFullYear()}</p>
     </div>
   </div>
 )

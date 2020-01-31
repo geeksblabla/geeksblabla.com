@@ -23,7 +23,7 @@ export default () => {
           in a way that is simple and approachable.
         </p>
         <div className="actions">
-          <a to="/blablas" className="button" target="_blank">
+          <a to="/blablas" className="button left" target="_blank">
             Join The Group
           </a>
         </div>

@@ -6,7 +6,7 @@
 body {
   background: $main-bg-color;
   color: $text-color;
-  background-image: url(./pattern.back.svg);
+  //background-image: url(./pattern.back.svg);
   background-repeat: no-repeat;
   background-position-y: 6rem;
   background-position-x: center;
@@ -20,6 +20,19 @@ body {
     padding-right: 2%;
     padding-left: 2%;
   }
+}
+
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7577a6;
+  outline: 1px solid slategrey;
 }
 
 .button {
@@ -40,6 +53,12 @@ body {
     color: #ffffff;
     background: transparent;
     border: #ffffff 1px solid;
+  }
+  &.left {
+    margin-left: 0px;
+    @include breakpoint(mobileonly) {
+      margin-left: 1rem;
+    }
   }
   svg {
     margin-right: 8px;

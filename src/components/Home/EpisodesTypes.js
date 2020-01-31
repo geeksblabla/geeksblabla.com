@@ -8,7 +8,7 @@ export default () => {
   return (
     <div className="episodes-types">
       <div className="container">
-        <div className="item">
+        <div className="item reverse">
           <div>
             <h1> MSS Episodes </h1>
             <p>

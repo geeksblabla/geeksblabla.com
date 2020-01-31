@@ -21,12 +21,28 @@
   p {
     margin-bottom: 1rem;
     padding-right: 1rem;
+    @include breakpoint(mobileonly) {
+      padding-right: 0rem;
+    }
   }
   .b {
     font-weight: 300;
   }
   .description {
     max-width: 550px;
+    @include breakpoint(mobileonly) {
+      text-align: center;
+    }
+  }
+  .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    @include breakpoint(mobileonly) {
+      justify-content: center;
+    }
   }
   .gatsby-image-wrapper {
     flex: 1;
@@ -37,12 +53,21 @@
   }
 }
 .contributors {
-  background: $secondary-bg-color;
+  background-image: url(../../assets/patterns/1.back.svg);
+  background-position-y: -1px;
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $secondary-bg-color;
   display: flex;
   align-items: center;
   margin: auto;
   flex-direction: column;
   text-align: center;
+  padding-top: 10rem;
+  @include breakpoint(mobileonly) {
+    padding-top: 5rem;
+  }
   .list {
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +81,7 @@
       border-radius: 15px;
       height: 70px;
       width: 70px;
-      margin-left: -38px;
+      margin-left: -28px;
     }
     p {
       text-align: left;
@@ -72,7 +97,7 @@
       padding-top: 40px;
       background: $main-bg-color;
       min-height: 60px;
-      width: 150px;
+      width: 130px;
       border-radius: 16px;
     }
   }

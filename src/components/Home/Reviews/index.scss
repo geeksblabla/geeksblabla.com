@@ -1,11 +1,14 @@
 @import "styles/index";
 
 .reviews {
-  background-image: url(../patterns/3.back.svg);
+  background-image: url(../../../assets/patterns/3.back.svg);
   background-position-y: -1px;
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 15rem;
+  @include breakpoint(mobileonly) {
+    padding-top: 5rem;
+  }
   //margin-top: 2rem;
   width: 100%;
   background-color: #181942;
