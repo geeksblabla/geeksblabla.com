@@ -44,6 +44,7 @@
     "react-modal": "^3.11.1",
     "react-share": "^3.0.1",
     "reactjs-popup": "^1.5.0",
+    "typeface-lato": "^0.0.75",
     "typeface-open-sans": "^0.0.75",
     "typeface-roboto": "^0.0.75",
     "urql": "^1.7.0"

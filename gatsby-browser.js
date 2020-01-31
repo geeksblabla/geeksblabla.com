@@ -6,8 +6,8 @@ export const wrapRootElement = ({ element }) => (
   <ModeProvider>{element}</ModeProvider>
 )
 
-// Load Roboto typeface
-require("typeface-roboto")
+// Load Lato typeface
+require("typeface-lato")
 
 const w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
 
