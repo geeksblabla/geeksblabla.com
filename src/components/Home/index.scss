@@ -123,6 +123,11 @@
         flex-direction: column-reverse;
       }
     }
+    .crea {
+      @include breakpoint(mobileonly) {
+        width: 100%;
+      }
+    }
     div {
       margin: 5rem 0px;
     }

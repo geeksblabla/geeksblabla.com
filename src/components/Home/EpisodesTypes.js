@@ -16,10 +16,10 @@ export default () => {
               empower women in moroccan.
             </p>
           </div>
-          <Mss />
+          <Mss className="crea" />
         </div>
         <div className="item">
-          <Tech />
+          <Tech className="crea" />
           <div>
             <h1> Tech Episodes </h1>
             <p>

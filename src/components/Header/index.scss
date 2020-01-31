@@ -10,7 +10,7 @@
 
 .header-container {
   @include breakpoint(mobileonly) {
-    margin: 0 20px;
+    //margin: 0 20px;
   }
   display: flex;
   justify-content: space-between;
