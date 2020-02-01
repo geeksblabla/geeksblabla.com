@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import PlayIcon from "assets/play.svg"
 import HeroImage from "assets/hero.svg"
+import HeroImageMobile from "assets/hero_mobile.svg"
+import "./index.scss"
 
 export default () => {
   return (
@@ -22,7 +24,8 @@ export default () => {
           </Link> */}
         </div>
       </div>
-      <HeroImage className="crea" />
+      <HeroImageMobile className="crea mobile-only" />
+      <HeroImage className="crea desktop-only" />
     </div>
   )
 }

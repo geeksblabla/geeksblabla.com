@@ -1,0 +1,55 @@
+@import "styles/index";
+
+.notification {
+  padding: 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $secondary-bg-color;
+  @include breakpoint(mobileonly) {
+    padding: 6rem 0rem;
+  }
+  .content {
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    z-index: 2;
+    background: $main-bg-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: stretch;
+    max-width: 45rem;
+    min-width: 35rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 16px;
+    background-clip: padding-box;
+    &::before {
+      content: "";
+      background: #090a1e;
+      top: -10px;
+      height: 20px;
+      width: 90%;
+      position: absolute;
+      top: -20px;
+      height: 20px;
+      border-radius: 26px 26px 0px 0px;
+    }
+
+    @include breakpoint(mobileonly) {
+      min-width: auto;
+    }
+  }
+
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+  }
+  .notif {
+    max-width: 800px;
+    z-index: 5;
+  }
+}

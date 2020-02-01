@@ -1,5 +1,6 @@
 import React from "react"
 import { navigate, useStaticQuery, graphql } from "gatsby"
+import "./index.scss"
 
 const FEATURED_EPISODES = graphql`
   {

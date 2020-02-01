@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import EpisodesIcon from "assets/episodes.svg"
 import MinutesIcon from "assets/minutes.svg"
 import GuestIcon from "assets/guest.svg"
-import Back from "assets/stats_item.svg"
+import "./index.scss"
 
 const query = graphql`
   {

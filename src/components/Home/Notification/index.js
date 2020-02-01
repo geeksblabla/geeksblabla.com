@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Notif from "assets/notification.svg"
 import NotifIcon from "assets/notif.svg"
+import "./index.scss"
 
 export default () => {
   return (
