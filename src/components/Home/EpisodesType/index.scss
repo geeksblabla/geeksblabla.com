@@ -18,6 +18,9 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    @include breakpoint(mobileonly) {
+      text-align: center;
+    }
     &.reverse {
       @include breakpoint(mobileonly) {
         flex-direction: column-reverse;
@@ -42,6 +45,9 @@
       background: $main-gradient;
       top: -10px;
       position: absolute;
+      @include breakpoint(mobileonly) {
+        left: calc(50% - 25px);
+      }
     }
     p {
       max-width: 400px;
