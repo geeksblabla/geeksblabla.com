@@ -36,6 +36,7 @@ export const pageQuery = graphql`
         video
         repoLink
         audio
+        tags
       }
       body
     }

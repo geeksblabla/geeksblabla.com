@@ -7,15 +7,27 @@ import PropTypes from "prop-types"
 import SchemaOrg from "./SchemaOrg"
 import config from "../../../config/website"
 
-const socialImage = (title, tags) =>
-  getShareImage({
+const socialImage = (title, tags) => {
+  const titleFontSize = parseInt(101 - title.length * 0.8)
+  return getShareImage({
     title: title,
     tagline: tags.map(tag => `#${tag}`).join(" "),
     cloudName: "duko2tssr",
-    imagePublicID: "geeks_t_glwrpw",
-    titleExtraConfig: "_line_spacing_-10",
+    imagePublicID: "episode-template_sriwmj",
+    titleExtraConfig: "_bold", // optional - set title font weight to bold
+    //titleExtraConfig: "_line_spacing_-10",
     textColor: "FFFFFF",
+    textLeftOffset: 94,
+    textAreaWidth: 540,
+    titleBottomOffset: 265,
+    taglineTopOffset: 430,
+    titleColor: "FFFFFF",
+    taglineColor: "D81479",
+    titleFontSize,
+    taglineFontSize: 24,
+    titleFont: "lato",
   })
+}
 
 const SEO = ({
   fields = {},
@@ -56,7 +68,7 @@ const SEO = ({
         ? postDescription
         : seo.description
       const image = isEpisode
-        ? socialImage(title, ["Geeksblabla", "#DevC_Casa"])
+        ? socialImage(title, [...fields.tags, "Geeksblabla", "DevC_Casa"])
         : `${seo.canonicalUrl}/${seo.banner}`
 
       const url = postUrl
