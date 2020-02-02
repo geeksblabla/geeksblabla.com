@@ -14,15 +14,15 @@
   avatar: ./images/anas.png
   review: |
     Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!  role: Manager,
-  role: Software Engineer
+  role: Software Engineer,
   organization: SQLI
 - name: El Housseine Jaafari
   avatar: ./images/jaafari.jpg
   review: |
     I love the concept and the way you guys discuss each subject. Informative, educative and full of fun.
-  role: Software Engineer
+  role: Software Engineer,
   organization: Instacraft LLC
-- name: Diaa Alhak EL FALLOUS
+- name: Diaa Alhak EL Fallous
   avatar: ./images/diaa.jpg
   review: |
     Keep going!
@@ -32,11 +32,11 @@
   avatar: ./images/anas.png
   review: |
     Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!  role: Manager,
-  role: Software Engineer
+  role: Software Engineer,
   organization: SQLI
-- name: Oumaima Makhlouk
-  avatar: ./images/oumaima.png
+- name: Badr Bellaj
+  avatar: ./images/badr.png
   review: |
-    Unique, Rich & high quality content!! I have learned a lot of things, thank you for your efforts !
-  role: Student,
-  organization: Universiapolis
+    Geeksblabla is an excellent live streaming program for developers. I had the pleasure to be a guest therein. Honestly, I liked the decontracted atmosphere and the ability to interact live with other developers, it was realy cool, fun and constructive.
+  role: CTO,
+  organization: Mchain
