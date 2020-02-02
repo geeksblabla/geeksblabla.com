@@ -15,7 +15,7 @@ export const query = graphql`
           avatar {
             childImageSharp {
               fixed(width: 200) {
-                ...GatsbyImageSharpFixed
+                src
               }
             }
           }
@@ -30,7 +30,7 @@ export default () => {
   const reviews = data.allIndexYaml.edges
 
   useEffect(() => {
-    document.getElementById("review-scroll").scrollLeft = 100
+    document.getElementById("review-scroll").scrollLeft = 80
     return () => {}
   }, [])
 
@@ -53,7 +53,7 @@ export default () => {
 
 const Review = ({ name, review, avatar, role, organization }) => (
   <div className="review">
-    <Img fixed={avatar.childImageSharp.fixed} />
+    <img src={avatar.childImageSharp.fixed.src} />
     <div className="back">
       <p className="text">{review}</p>
 

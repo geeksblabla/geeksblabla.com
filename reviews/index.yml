@@ -28,15 +28,15 @@
     Keep going!
   role: Freelancer,
   organization: Owner
-- name: Anas AIT BAHA
-  avatar: ./images/anas.png
-  review: |
-    Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!  role: Manager,
-  role: Software Engineer,
-  organization: SQLI
 - name: Badr Bellaj
   avatar: ./images/badr.png
   review: |
     Geeksblabla is an excellent live streaming program for developers. I had the pleasure to be a guest therein. Honestly, I liked the decontracted atmosphere and the ability to interact live with other developers, it was realy cool, fun and constructive.
   role: CTO,
   organization: Mchain
+- name: Anas AIT BAHA
+  avatar: ./images/anas.png
+  review: |
+    Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!  role: Manager,
+  role: Software Engineer,
+  organization: SQLI

@@ -1220,10 +1220,10 @@
   dependencies:
     core-js "^2.5.7"
 
-"@jlengstorf/get-share-image@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jlengstorf/get-share-image/-/get-share-image-0.4.0.tgz#b02a7e7a752dc8de95300736c96188df84f739d7"
-  integrity sha512-7Bxm38Uf+zgSEca60J7jOtA2Z3pzAI4sp3+HrlXpFAqgxX83LStbRWHG7WHoVKfgv2aOXrQSU/32jMaFTHb2Uw==
+"@jlengstorf/get-share-image@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jlengstorf/get-share-image/-/get-share-image-0.5.0.tgz#0dbd6660a7b8bdba9af6b8961fb81c9b54793e1d"
+  integrity sha512-OWVBj5vGYUh7g+AziDhucSjNZ4XNOUNGB/pd0PlwYVkaykJnxnB+Djp2EzOVtDQwcxE5v9p1lCiAyBeCfzir7w==
 
 "@mdx-js/mdx@^1.5.3":
   version "1.5.3"
@@ -11041,6 +11041,14 @@ react-add-to-calendar@^0.1.5:
   optionalDependencies:
     moment "^2.18.1"
 
+react-alice-carousel@^1.17.3:
+  version "1.17.3"
+  resolved "https://registry.yarnpkg.com/react-alice-carousel/-/react-alice-carousel-1.17.3.tgz#c247c49d56434b138e21176ac52d58fc24505431"
+  integrity sha512-b+ODgT//GTUORlkN01H5NFj3jugR0unwbCBBOgOibg2bkhJglmuADyXzEoQlCBSkIRJjs4PqCNUbpwdzaHcG5w==
+  dependencies:
+    prop-types "^15.5.10"
+    vanilla-swipe "^1.0.0"
+
 react-apollo@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-3.1.3.tgz#5d8540b401bba36173b63e6c5e75fa561960c63e"
@@ -13762,6 +13770,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vanilla-swipe@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/vanilla-swipe/-/vanilla-swipe-1.1.1.tgz#8792b849f60a3ae98dfe8cc0313e52f8bad118bf"
+  integrity sha512-GQ8y6omllPD03KbVTlxa6cjdn+T69nXVitTLRG3PMCz3t8fPdMDFODwIDgj53IfRxcdw5bL6n6Q8MIPoctIA3w==
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
