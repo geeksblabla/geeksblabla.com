@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Contact from "assets/contact.svg"
 import Send from "assets/send.svg"
@@ -16,7 +15,11 @@ export default () => {
           method="POST"
           data-netlify="true"
           className="contact-form"
+          data-netlify-honeypot="bot-field"
+          action="/thanks"
         >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
           <input placeholder="Name" type="text" name="name" />
           <input placeholder="Email" type="email" name="email" />
           <textarea
