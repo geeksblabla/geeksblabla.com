@@ -17,10 +17,27 @@
   .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 100%;
+    @include breakpoint(mobileonly) {
+      display: block;
+      overflow-x: scroll;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    &::-webkit-scrollbar-track {
+      box-shadow: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: transparent;
+      outline: none;
+    }
   }
   .review {
-    margin: 1rem;
+    margin: 10px;
     width: 350px;
 
     .gatsby-image-wrapper {
@@ -63,26 +80,15 @@
   }
 }
 
-// slider
+$animationSpeed: 45s;
 
-$animationSpeed: 40s;
-$slideWidth: 350px;
-$length: 7;
 // Animation
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(-200px);
   }
   100% {
-    transform: translateX(calc(-350px * 7));
-  }
-}
-@keyframes scroll2 {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-350px * 7));
+    transform: translateX(calc(-370px * 7 - 200px));
   }
 }
 
@@ -91,33 +97,16 @@ $length: 7;
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 100%;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    width: 350px;
-    z-index: 2;
-  }
-
-  &::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-  }
-
-  &::before {
-    left: 0;
-    top: 0;
-  }
 
   .slide-track {
     animation: scroll $animationSpeed linear infinite;
     display: flex;
-    width: calc(350px * 14);
+    width: calc(370px * 14);
     &:hover {
       animation-play-state: paused;
+    }
+    @include breakpoint(mobileonly) {
+      animation: none;
     }
   }
 }

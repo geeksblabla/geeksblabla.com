@@ -1,8 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import Pattern from "assets/pattern.svg"
 import "./index.scss"
 export const query = graphql`
   {
@@ -31,16 +29,21 @@ export default () => {
   const data = useStaticQuery(query)
   const reviews = data.allIndexYaml.edges
 
+  useEffect(() => {
+    document.getElementById("review-scroll").scrollLeft = 100
+    return () => {}
+  }, [])
+
   return (
     <div className="reviews">
       <h1> Reviews </h1>
-      <div className="list slider">
+      <div className="list slider" id="review-scroll">
         <div className="slide-track">
           {reviews.map(({ node }) => (
             <Review {...node} key={node.id} />
           ))}
           {reviews.map(({ node }) => (
-            <Review {...node} key={node.id} />
+            <Review {...node} key={`${node.id}2d`} />
           ))}
         </div>
       </div>
@@ -55,7 +58,9 @@ const Review = ({ name, review, avatar, role, organization }) => (
       <p className="text">{review}</p>
 
       <p className="name">{name}</p>
-      <p className="role">{organization}</p>
+      <p className="role">
+        {role} {organization}
+      </p>
     </div>
   </div>
 )
