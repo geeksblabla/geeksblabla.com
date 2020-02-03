@@ -1,5 +1,5 @@
 ---
-date: 2020-02-09
+date: 2020-02-16
 time: 21h
 duration: "1:00"
 title: "Side Projects & Indie Hacking"
