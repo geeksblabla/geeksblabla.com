@@ -29,6 +29,9 @@
     background-image: url(../../../assets/stats_item.back.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    @include breakpoint(mobileonly) {
+      background-position-y: 11px;
+    }
   }
   h1 {
     font-size: 2.6rem;

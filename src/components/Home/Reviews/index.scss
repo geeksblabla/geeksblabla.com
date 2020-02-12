@@ -13,6 +13,11 @@
   width: 100%;
   background-color: #181942;
   text-align: center;
+  h5 {
+    color: $text-color;
+    text-align: center;
+    opacity: 0.5;
+  }
 
   .list {
     display: flex;

@@ -36,7 +36,9 @@ export default () => {
 
   return (
     <div className="reviews">
-      <h1> Reviews </h1>
+      <div className="container">
+        <h5> What People say about GeeksBalabla </h5>
+      </div>
       <div className="list slider" id="review-scroll">
         <div className="slide-track">
           {reviews.map(({ node }) => (
