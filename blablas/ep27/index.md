@@ -11,7 +11,7 @@ url:
 podcastUrl:
 ---
 
-In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To get Started ,Best Practices, Useful resources and Much More with the amazing Mehdi and Motaquillah.
+In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To Get Started, Best Practices, Useful resources and Much More with the amazing Mehdi and Motaquillah.
 
 ## Guests
 
@@ -29,11 +29,11 @@ In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To 
 
 00:24 - How to get and stay motived ?
 
-00:32 - Working alone vs find a partner, and how to find a partner ( co-founder)
+00:32 - Working alone vs finding a partner, and how to find a partner ( co-founder)
 
 00:36 - When to take a side project "seriously" and start working on it full time ? What are the metrics to track ?
 
-00:39 - What skills do you need to launch successful side project ?
+00:39 - What skills do you need to launch a successful side project ?
 
 00:45 - Side Project Step by Step:
 
