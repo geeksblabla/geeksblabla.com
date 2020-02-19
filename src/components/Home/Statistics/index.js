@@ -8,7 +8,11 @@ import "./index.scss"
 
 const query = graphql`
   {
-    allMdx {
+    allMdx(
+      filter: {
+        frontmatter: { published: { eq: true }, isNext: { eq: false } }
+      }
+    ) {
       edges {
         node {
           id

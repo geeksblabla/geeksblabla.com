@@ -13,8 +13,9 @@ export default () => {
           <div>
             <h1> MSS Episodes </h1>
             <p>
-              In this episode of GeeksBlabla, our guests discuss how we can
-              empower women in moroccan.
+              In Moroccan success story episodes, we invite a Moroccan icon in
+              the IT and related fields, to share his experience, lessons
+              learned and knowledge with the Moroccan community.
             </p>
           </div>
           <Mss className="crea" />
@@ -24,8 +25,9 @@ export default () => {
           <div>
             <h1> Tech Episodes </h1>
             <p>
-              In this episode of GeeksBlabla, our guests discuss how we can
-              empower women in moroccan.
+              An open, deep dive discussion around anything and everything
+              related to programming & software engineering, Tech and everything
+              in between.
             </p>
           </div>
         </div>

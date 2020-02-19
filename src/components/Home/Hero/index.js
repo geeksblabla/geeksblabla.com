@@ -10,10 +10,10 @@ export default () => {
   return (
     <div className="container hero">
       <div className="description">
-        <h1> Tech Topics In Darija </h1>
+        <h1>Hottest technology trends, In Darija!</h1>
         <p>
-          We are Developer Circles Casablanca community, we believe in community
-          and sharing knowladge
+          GeeksBlaBla is a community initiative, to discuss, highlight and share
+          latest IT topics in Moroccan Darija.
         </p>
         <div className="actions">
           <Link to="/blablas" className="button left">

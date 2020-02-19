@@ -6,7 +6,8 @@
   background-position-y: -1px;
   background-repeat: no-repeat;
   background-size: contain;
-  padding-top: 15rem;
+  padding-top: 12rem;
+  //padding-bottom: 3rem;
   @include breakpoint(mobileonly) {
     padding-top: 5rem;
   }
@@ -18,12 +19,17 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    &:first-child {
+      margin-bottom: 5rem;
+    }
     @include breakpoint(mobileonly) {
       text-align: center;
+      justify-content: center;
     }
     &.reverse {
       @include breakpoint(mobileonly) {
         flex-direction: column-reverse;
+        width: fit-content;
       }
     }
     .crea {

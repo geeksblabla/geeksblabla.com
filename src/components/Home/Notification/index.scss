@@ -23,6 +23,9 @@
     justify-self: stretch;
     max-width: 45rem;
     min-width: 35rem;
+    @include breakpoint(mobileonly) {
+      width: 100%;
+    }
     padding-top: 3rem;
     padding-bottom: 3rem;
     border-radius: 16px;
