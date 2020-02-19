@@ -10,8 +10,9 @@ export default ({ data: { mdx } }) => {
     <Layout withNextEpisode>
       <div className="container blablas">
         <SEO
-          fields={fields}
+          tags={fields.tags}
           isEpisode
+          title={fields.title}
           postUrl={fields.slug}
           description={excerpt}
         />

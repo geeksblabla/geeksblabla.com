@@ -6,7 +6,7 @@ import Suggest from "../components/Suggest"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title=" suggest new episode" />
+    <SEO title=" Suggest New Episode" />
     <Suggest />
   </Layout>
 )

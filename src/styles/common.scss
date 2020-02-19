@@ -29,7 +29,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #7577a6;
+  background-color: rgba(117, 119, 166, 0.3);
   outline: 1px solid slategrey;
 }
 
@@ -47,6 +47,7 @@ body {
   border: 0px;
   min-width: 140px;
   margin: 1rem;
+  cursor: pointer;
   &.outline {
     color: #ffffff;
     background: transparent;
