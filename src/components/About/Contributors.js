@@ -25,8 +25,11 @@ export default () => {
   const contributors = data.allContributor.edges
   return (
     <div className="contributors">
-      <h1>Contributors </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      {/* <h1>Contributors </h1> */}
+      <h4 className="desc">
+        Join our contributors family and helps us coding, fixing bugs, writing
+        episodes notes and much more ...{" "}
+      </h4>
       <div className=" actions">
         <a to="/blablas" className="button outline" target="_blank">
           want to Contribute?

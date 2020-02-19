@@ -22,7 +22,11 @@
     margin: 20px;
     color: $text-color;
     text-decoration: none;
+
     &.active {
+      color: $heading-color;
+    }
+    &:hover {
       color: $heading-color;
     }
   }
@@ -39,6 +43,10 @@
     height: 28px;
     margin: 0px 12px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
+    color: #5f6089;
+    &:hover {
+      color: $heading-color;
+    }
   }
 }
 

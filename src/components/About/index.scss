@@ -12,7 +12,7 @@
     margin-bottom: 3rem;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    align-items: flex-start;
+    justify-content: center;
   }
   h1 {
     @include fluid-type($min_width, $max_width, 33px, 55px);
@@ -32,6 +32,7 @@
     max-width: 550px;
     @include breakpoint(mobileonly) {
       text-align: center;
+      margin-top: 4rem;
     }
   }
   .actions {
@@ -66,14 +67,26 @@
   text-align: center;
   padding-top: 10rem;
   @include breakpoint(mobileonly) {
-    padding-top: 5rem;
+    padding-top: 6rem;
   }
+  h4 {
+    width: 40rem;
+    color: $text-color;
+    @include breakpoint(mobileonly) {
+      width: 80%;
+    }
+  }
+
   .list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    @include breakpoint(mobileonly) {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
   }
   .contributor {
     margin: 1rem;
@@ -85,7 +98,7 @@
     }
     p {
       text-align: left;
-      width: 100px;
+
       margin-left: 20px;
       color: #f6f7f9;
       span {

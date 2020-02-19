@@ -25,7 +25,7 @@ export default ({ style }) => (
           target="_blank"
         >
           {" "}
-          DevC Team{" "}
+          DevC Casa Team{" "}
         </a>{" "}
         using
       </p>

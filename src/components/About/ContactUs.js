@@ -7,7 +7,7 @@ export default () => {
   return (
     <div className="notification">
       <Contact className="notif" />
-      <div className="content container ">
+      <div className="content ">
         <h1> Contact us</h1>
         <p> We love to hear from you, reach out to us </p>
         <form

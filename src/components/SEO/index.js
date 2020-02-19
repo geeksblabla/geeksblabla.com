@@ -30,13 +30,12 @@ const socialImage = (title, tags) => {
 }
 
 const SEO = ({
-  fields = {},
   description: postDescription,
   postImage,
   isEpisode,
   postUrl,
-  title: t,
-  description: d,
+  title: customTitle,
+  tags = [],
 }) => (
   <StaticQuery
     query={graphql`
@@ -61,14 +60,13 @@ const SEO = ({
       }
     `}
     render={({ site: { siteMetadata: seo } }) => {
-      const title = !!t ? t : isEpisode ? fields.title : config.siteTitle
-      const description = !!d
-        ? d
-        : !!postDescription
-        ? postDescription
-        : seo.description
+      const title = !!customTitle ? customTitle : config.siteTitle
+      console.log(postDescription)
+
+      const description = !!postDescription ? postDescription : seo.description
+
       const image = isEpisode
-        ? socialImage(title, [...fields.tags, "Geeksblabla", "DevC_Casa"])
+        ? socialImage(title, [...tags, "Geeksblabla", "DevC_Casa"])
         : `${seo.canonicalUrl}/${seo.banner}`
 
       const url = postUrl
@@ -119,7 +117,6 @@ const SEO = ({
 
 SEO.propTypes = {
   isEpisode: PropTypes.bool,
-
   postImage: PropTypes.string,
 }
 

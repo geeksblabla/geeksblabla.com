@@ -6,6 +6,7 @@
   position: sticky;
   top: 10px;
   height: calc(100vh - 10px);
+
   overflow-y: scroll;
 
   @include breakpoint(mobileonly) {
@@ -13,7 +14,7 @@
     position: static;
     top: 10px;
     height: fit-content;
-    //overflow-y: scroll;
+    overflow-y: auto;
   }
   .label {
     background: rgba(0, 0, 0, 0.6);
@@ -66,7 +67,7 @@
 
   .notes {
     h4 {
-      border-bottom: 1px solid $text-color;
+      border-bottom: 1px solid rgba(117, 119, 166, 0.5);
       padding-bottom: 0.7rem;
     }
     padding-bottom: 5rem;
