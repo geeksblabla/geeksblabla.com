@@ -63,6 +63,6 @@ export default ({ id }) => (
         alt="apple-podcast"
       />
     </a>
-    <ToggleMode id={id} />
+    {/* <ToggleMode id={id} /> */}
   </>
 )
