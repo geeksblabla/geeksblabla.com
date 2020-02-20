@@ -27,12 +27,12 @@ export default () => {
     <div className="contributors">
       {/* <h1>Contributors </h1> */}
       <h4 className="desc">
-        Join our contributors family and helps us coding, fixing bugs, writing
+        Join our contributors family and help us coding, fixing bugs, writing
         episodes notes and much more ...{" "}
       </h4>
       <div className=" actions">
         <a to="/blablas" className="button outline" target="_blank">
-          want to Contribute?
+          I Want to Contribute?
         </a>
       </div>
       <div className=" container list">
