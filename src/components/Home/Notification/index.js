@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Notif from "assets/notification.svg"
 import NotifIcon from "assets/notif.svg"
 import "./index.scss"
+import { GetNotification } from "../../OneSignal"
 
 export default () => {
   return (
@@ -13,9 +14,7 @@ export default () => {
         <h1> Get Notified </h1>
         <p> Get instant updates about GeeksBlaBla </p>
         <div className="actions">
-          <Link to="/blablas" className="button">
-            <NotifIcon width="20" /> Notify Me
-          </Link>
+          <GetNotification />
         </div>
       </div>
     </div>
