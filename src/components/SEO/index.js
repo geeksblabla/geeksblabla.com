@@ -61,7 +61,6 @@ const SEO = ({
     `}
     render={({ site: { siteMetadata: seo } }) => {
       const title = !!customTitle ? customTitle : config.siteTitle
-      console.log(postDescription)
 
       const description = !!postDescription ? postDescription : seo.description
 
