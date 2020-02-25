@@ -102,7 +102,6 @@ const loadOneSignalScript = callback => {
     script.src = "https://cdn.onesignal.com/sdks/OneSignalSDK.js" // URL for the third-party library being loaded.
     script.id = "onSignal" // e.g., googleMaps or stripe
     document.body.appendChild(script)
-
     script.onload = () => {
       if (callback) callback()
     }

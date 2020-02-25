@@ -3,7 +3,6 @@ import ErrorBoundary from "../ErrorBoundary"
 
 import Header from "../Header"
 import Footer from "../Footer"
-import "styles/common.scss"
 
 export default ({ children }) => (
   <ErrorBoundary>

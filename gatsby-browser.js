@@ -1,5 +1,6 @@
 import React from "react"
 import { ModeProvider } from "./src/components/Mode/ModeContext"
+import "./src/styles/common.scss"
 
 // set Mode Provider
 export const wrapRootElement = ({ element }) => (
