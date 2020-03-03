@@ -30,8 +30,12 @@ export default () => {
         Join our contributors family and help us coding, fixing bugs, writing
         episodes notes and much more ...{" "}
       </h4>
-      <div className=" actions">
-        <a to="/blablas" className="button outline" target="_blank">
+      <div className="actions">
+        <a
+          href="https://github.com/DevC-Casa/geeksblabla.com"
+          className="button outline"
+          target="_blank"
+        >
           I Want to Contribute?
         </a>
       </div>
@@ -45,7 +49,7 @@ export default () => {
 }
 
 const Contributor = ({ firstName, lastName, avatar_url, profile }) => (
-  <a href={profile} target="_blank">
+  <a href={profile} target="_blank" rel="noopener">
     <div className="contributor">
       <img src={avatar_url} />
       <div className="back">
