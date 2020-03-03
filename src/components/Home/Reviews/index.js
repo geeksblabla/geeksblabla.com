@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
 import "./index.scss"
 export const query = graphql`
   {
