@@ -1,37 +1,51 @@
-@import "../../lib/index";
+@import "styles/index";
 
 .header {
   background: transparent;
   padding: 1.45rem 0px;
   @include breakpoint(mobileonly) {
-    padding: 2.45rem 0px;
+    padding: 2.45rem 20px;
   }
 }
 
 .header-container {
   @include breakpoint(mobileonly) {
-    margin: 0 20px;
+    //margin: 0 20px;
   }
-  margin: 0 10%;
-  //max-width: 960px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: $text-color;
   .item {
     font-size: 18px;
     line-height: 24px;
     margin: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: $text-color;
     text-decoration: none;
+
     &.active {
-      color: rgb(255, 255, 255);
+      color: $heading-color;
+    }
+    &:hover {
+      color: $heading-color;
     }
   }
   .menu {
-    font-family: Open Sans;
-    display: block;
+    display: flex;
+    align-items: center;
     @include breakpoint(mobileonly) {
       display: none;
+    }
+  }
+
+  .podcast-icon {
+    width: 28px;
+    height: 28px;
+    margin: 0px 12px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    color: #5f6089;
+    &:hover {
+      color: $heading-color;
     }
   }
 }

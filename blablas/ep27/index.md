@@ -64,7 +64,7 @@ In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To 
 
 ## Prepared and Presented by :
 
-[Youssouf El Azizi](https://www.facebook.com/MeriemZaid/)
+[Youssouf El Azizi](https://twitter.com/ElaziziYoussouf)
 
 [Soufian El Foukahi](https://twitter.com/souffanda/)
 

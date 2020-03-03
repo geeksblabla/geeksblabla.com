@@ -2,22 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 import MobileNav from "./MobileNav"
 import Links from "./Links"
-
+import Logo from "assets/logo.svg"
 import "./index.scss"
 
-const logo = require("../../images/logo.png")
+//const logo = require("../../images/logo.png")
 
 //const GeeksBlablaLogo = () => <Image />
 
 const Header = () => (
-  <header className="header">
+  <header className="container header">
     <div className="header-container">
-      <Link
-      to="/"
-    >
-      <img src={logo} className="logo" alt="Logo" />
-    </Link>
-      
+      <Link to="/">
+        <Logo className="logo" alt="Logo" />
+      </Link>
       <div className="menu">
         <Links />
       </div>

@@ -1,4 +1,4 @@
-@import "../../../lib/index";
+@import "styles/index";
 
 .mobile-menu {
   display: none;
@@ -68,7 +68,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  background: #000;
+  background: $main-bg-color;
   display: flex;
   justify-content: center;
 }
@@ -82,7 +82,7 @@
     font-size: 18px;
     line-height: 24px;
     margin: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    //color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     &.active {
       color: rgb(255, 255, 255);

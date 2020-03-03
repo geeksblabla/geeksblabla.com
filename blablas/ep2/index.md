@@ -7,8 +7,10 @@ tags: ["open source", "dev"]
 isNext: false
 video: "2254365704624093"
 published: true
-podcastUrl:
+audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2019-11-8/37064067-48000-2-7061c427555f3.m4a
 ---
+
+In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redux-sagas library about his success story working as an open source contributors and maintainer of one of the biggest library on React ecosystem.
 
 ## Guests
 
@@ -49,8 +51,6 @@ podcastUrl:
 01:32 Future projects in the open-source ?
 
 01:35 Open-source in morocco & Pieces of Advice for Moroccan programmers.
-
-
 
 ## Prepared and Presented by :
 

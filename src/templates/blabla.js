@@ -1,27 +1,26 @@
 import React from "react"
 import { graphql } from "gatsby"
-import SEO from "../components/SEO"
-import Layout from "../components/Layout"
-import Episode from "../components/Episode"
-import EpisodesMenu from "../components/EpisodesMenu"
+import SEO from "components/SEO"
+import Layout from "components/Layout"
+import { Episode, EpisodesMenu } from "components/Blabla"
+import { HiddenNotificationTrigger } from "../components/OneSignal"
 
 export default ({ data: { mdx } }) => {
   const { fields, body, excerpt } = mdx
   return (
     <Layout withNextEpisode>
-      <div className="blablas">
-        <SEO fields={fields} isEpisode postUrl={fields.slug} />
-        <EpisodesMenu />
-        <Episode
-          style={{
-            alignSelf: "flex-start",
-            width: "100%",
-          }}
-          {...fields}
-          description={body}
-          excerpt={excerpt}
+      <div className="container blablas">
+        <SEO
+          tags={fields.tags}
+          isEpisode
+          title={fields.title}
+          postUrl={fields.slug}
+          description={excerpt}
         />
+        <EpisodesMenu />
+        <Episode {...fields} description={body} excerpt={excerpt} />
       </div>
+      <HiddenNotificationTrigger />
     </Layout>
   )
 }
@@ -29,7 +28,7 @@ export default ({ data: { mdx } }) => {
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(fields: { id: { eq: $id } }) {
-      excerpt(pruneLength: 100)
+      excerpt(pruneLength: 200)
       id
       fields {
         title
@@ -39,6 +38,8 @@ export const pageQuery = graphql`
         url
         video
         repoLink
+        audio
+        tags
       }
       body
     }

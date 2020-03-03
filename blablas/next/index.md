@@ -7,7 +7,7 @@ tags: ["Indie Hacker", "dev", "startup"]
 isNext: true
 published: false
 url:
-podcastUrl:
+audio:
 ---
 
 ...

@@ -7,7 +7,7 @@ module.exports = {
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
     description: config.siteDescription,
-    keywords: ["DevC", "geeksblabla", "dev"],
+    keywords: ["DevC_Casa", "Geeksblabla", "Podcast"],
     canonicalUrl: config.siteUrl,
     image: config.siteLogo,
     banner: config.banner,
@@ -27,6 +27,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-yaml`,
+    `gatsby-plugin-preload-fonts`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -39,6 +41,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/reviews`,
+        name: "reviews",
       },
     },
     {
@@ -98,8 +107,16 @@ module.exports = {
         enabled: (() => ["production"].indexOf(process.env.NODE_ENV) !== -1)(),
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          exclude: /\.back\.svg$/,
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

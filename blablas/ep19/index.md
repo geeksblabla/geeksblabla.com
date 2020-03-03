@@ -8,7 +8,7 @@ isNext: false
 video: "2465296773530984"
 published: true
 url:
-podcastUrl:
+audio:
 ---
 
 In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan talk about what is Competitive Programing, How to become good at and why you need to be a part of the next competition.

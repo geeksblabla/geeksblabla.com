@@ -2,16 +2,40 @@ import path from "path"
 import React from "react"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
+import getShareImage from "@jlengstorf/get-share-image"
 import PropTypes from "prop-types"
 import SchemaOrg from "./SchemaOrg"
 import config from "../../../config/website"
 
+const socialImage = (title, tags) => {
+  const titleFontSize = parseInt(101 - title.length * 0.8)
+  return getShareImage({
+    title: title,
+    tagline: tags.map(tag => `#${tag}`).join(" "),
+    cloudName: "duko2tssr",
+    imagePublicID: "episode-template_sriwmj",
+    titleExtraConfig: "_bold", // optional - set title font weight to bold
+    //titleExtraConfig: "_line_spacing_-10",
+    textColor: "FFFFFF",
+    textLeftOffset: 94,
+    textAreaWidth: 540,
+    titleBottomOffset: 265,
+    taglineTopOffset: 430,
+    titleColor: "FFFFFF",
+    taglineColor: "D81479",
+    titleFontSize,
+    taglineFontSize: 24,
+    titleFont: "lato",
+  })
+}
+
 const SEO = ({
-  fields = {},
   description: postDescription,
   postImage,
   isEpisode,
   postUrl,
+  title: customTitle,
+  tags = [],
 }) => (
   <StaticQuery
     query={graphql`
@@ -36,9 +60,14 @@ const SEO = ({
       }
     `}
     render={({ site: { siteMetadata: seo } }) => {
-      const title = isEpisode ? fields.title : config.siteTitle
+      const title = !!customTitle ? customTitle : config.siteTitle
+
       const description = !!postDescription ? postDescription : seo.description
-      const image = `${seo.canonicalUrl}/${seo.banner}`
+
+      const image = isEpisode
+        ? socialImage(title, [...tags, "Geeksblabla", "DevC_Casa"])
+        : `${seo.canonicalUrl}/${seo.banner}`
+
       const url = postUrl
         ? `${seo.canonicalUrl}${path.sep}${postUrl}`
         : seo.canonicalUrl
@@ -87,7 +116,6 @@ const SEO = ({
 
 SEO.propTypes = {
   isEpisode: PropTypes.bool,
-
   postImage: PropTypes.string,
 }
 

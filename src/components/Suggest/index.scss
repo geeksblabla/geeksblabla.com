@@ -1,8 +1,8 @@
-@import "../../lib/index";
+@import "styles/index";
 .suggest {
-  padding-top: 2%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   align-self: flex-start;
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -12,11 +12,13 @@
 
   form {
     width: 400px;
-    background: #1b1b1b;
+    background: $secondary-bg-color;
     padding: 20px 20px;
     border-radius: 10px;
+    position: sticky;
+    top: 20px;
     @include breakpoint(mobileonly) {
-      width: 100%;
+      position: relative;
     }
     h1 {
       font-size: 20px;
@@ -26,7 +28,7 @@
   }
 
   .input {
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid $text-color; // rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     //border-radius: 15px;
     width: 100%;
@@ -45,19 +47,21 @@
       background-color: transparent;
       font-size: 16px;
       line-height: 24px;
-      color: rgba(255, 255, 255, 0.6);
+      color: $heading-color; // rgba(255, 255, 255, 0.6);
       border: 0px;
+      &::placeholder {
+        color: $text-color;
+      }
     }
     .desc {
       font-size: 14px;
       line-height: 18px;
-      color: rgba(255, 255, 255, 0.6);
       align-self: flex-start;
     }
   }
 
   button {
-    margin-top: 20px;
+    margin-top: 2rem;
   }
 
   .list {
@@ -65,17 +69,16 @@
     padding-left: 30px;
     @include breakpoint(mobileonly) {
       padding-left: 0px;
+      padding-top: 2rem;
     }
   }
 
   .suggest-card {
     width: 100%;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
+    background: $secondary-bg-color; // rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.9);
-    margin: 16px 0px;
-    font-size: 15px;
-    line-height: 22px;
+    margin-bottom: 16px;
     display: flex;
     align-content: center;
     align-items: center;
@@ -108,9 +111,7 @@
     margin: auto;
   }
   h1 {
-    font-size: 28px;
     text-align: center;
-    color: #fff;
     margin-bottom: 10px;
   }
   p {

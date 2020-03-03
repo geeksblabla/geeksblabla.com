@@ -9,11 +9,11 @@ export default React.forwardRef((props, ref) => {
     <Popup
       ref={ref}
       contentStyle={contentStyle}
-      overlayStyle={{ backgroundColor: "rgba(0, 0, 0, 0.9)" }}
+      overlayStyle={{ backgroundColor: "rgba(25, 26, 68, 0.68)" }}
     >
       <div className="login-popup">
         <div className="content">
-          <h1> Sign up to suggest and vote. </h1>
+          <h1> Sign up to suggest and vote</h1>
           <p>
             We require Sign up to secure suggestion process.
             <br /> You just need 10s to sign up
@@ -30,11 +30,8 @@ export default React.forwardRef((props, ref) => {
 })
 
 const contentStyle = {
-  backgroundColor: "#000",
-  border: `1px solid rgba(255, 255, 255, 0.3)`,
+  backgroundColor: "#121334",
+  border: `1px solid #7577a6`,
   padding: `0px`,
-  fontSize: `16px`,
-  lineHeight: `24px`,
   width: "auto",
-  color: `rgba(255, 255, 255, 0.6)`,
 }

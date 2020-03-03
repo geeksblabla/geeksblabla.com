@@ -8,7 +8,7 @@ isNext: false
 video: "2417671194960209"
 published: true
 url:
-podcastUrl:
+audio:
 ---
 
 In this episode of GeeksBlabla MSS, we welcome Sghiouar Abdelfettah: Google Engineer at Google, to talk about his journey in IT field

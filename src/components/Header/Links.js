@@ -1,12 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import Spotify from "assets/spotify.svg"
+import ApplePodcast from "assets/apple-podcast.svg"
+import GooglePodcast from "assets/google-podcast.svg"
+import { ToggleMode } from "components/Mode"
 
-export default () => (
+export default ({ id }) => (
   <>
     <Link
       to="/"
       activeClassName="active"
-      aria-label="View blog page"
+      aria-label="View Home page"
       className="item"
     >
       Home
@@ -15,7 +19,7 @@ export default () => (
       to="/blablas"
       activeClassName="active"
       className="item"
-      aria-label="View blog page"
+      aria-label="View Blabla page"
     >
       Blablas
     </Link>
@@ -23,7 +27,7 @@ export default () => (
       to="/suggest-new-episode"
       activeClassName="active"
       className="item"
-      aria-label="View blog page"
+      aria-label="Suggest New Episode"
     >
       Suggest Blabla
     </Link>
@@ -31,9 +35,37 @@ export default () => (
       to="/about"
       activeClassName="active"
       className="item"
-      aria-label="View blog page"
+      aria-label="View About page"
     >
       About
     </Link>
+    <a
+      href="https://open.spotify.com/show/0UlTBXh7iH6x0HO6FgYzAD"
+      target="_blank"
+      rel="noopener"
+    >
+      <Spotify className="spotify podcast-icon" alt="spotify" />
+    </a>
+    <a
+      href="https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy84OGUzMDQ4L3BvZGNhc3QvcnNz"
+      target="_blank"
+      rel="noopener"
+    >
+      <GooglePodcast
+        className="google-podcast podcast-icon"
+        alt="google-podcast"
+      />
+    </a>
+    <a
+      href="https://podcasts.apple.com/us/podcast/geeksblabla/id1449493227"
+      target="_blank"
+      rel="noopener"
+    >
+      <ApplePodcast
+        className="apple-podcast podcast-icon"
+        alt="apple-podcast"
+      />
+    </a>
+    {/* <ToggleMode id={id} /> */}
   </>
 )
