@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import "./index.scss"
+const isBrowser = typeof window !== "undefined"
+
 export const query = graphql`
   {
     allIndexYaml {
@@ -27,7 +29,7 @@ export const query = graphql`
 export default () => {
   const data = useStaticQuery(query)
   const reviews = data.allIndexYaml.edges
-
+  const rs = Math.random() >= 0.5 ? reviews.slice(0, 7) : reviews.slice(7, 14)
   useEffect(() => {
     document.getElementById("review-scroll").scrollLeft = 80
     return () => {}
@@ -38,26 +40,19 @@ export default () => {
       <div className="container">
         <h5> What People say about GeeksBalabla </h5>
       </div>
-      <div className="list slider" id="review-scroll">
-        <div className="slide-track">
-          {reviews.slice(0, 7).map(({ node }) => (
-            <Review {...node} key={node.id} />
-          ))}
-          {reviews.slice(0, 7).map(({ node }) => (
-            <Review {...node} key={`${node.id}2d`} />
-          ))}
+
+      {isBrowser && (
+        <div className="list slider" id="review-scroll">
+          <div className="slide-track">
+            {rs.map(({ node }) => (
+              <Review {...node} key={node.id} />
+            ))}
+            {rs.map(({ node }) => (
+              <Review {...node} key={`${node.id}2d`} />
+            ))}
+          </div>
         </div>
-      </div>
-      <div className="list slider">
-        <div className="slide-track">
-          {reviews.slice(7, 14).map(({ node }) => (
-            <Review {...node} key={node.id} />
-          ))}
-          {reviews.slice(7, 14).map(({ node }) => (
-            <Review {...node} key={`${node.id}2d`} />
-          ))}
-        </div>
-      </div>
+      )}
     </div>
   )
 }
