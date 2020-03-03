@@ -13,7 +13,7 @@ export default ({ style }) => (
   <div className="footer" style={style}>
     <div className="container">
       <p>
-        <a href="https://github.com/DevC-Casa/geeksblabla.com">
+        <a href="https://github.com/DevC-Casa/geeksblabla.com" rel="noopener">
           Want to Contribute?
         </a>
       </p>
@@ -23,6 +23,7 @@ export default ({ style }) => (
         <a
           href="https://www.facebook.com/groups/DevC.Casablanca/"
           target="_blank"
+          rel="noopener"
         >
           {" "}
           DevC Casa Team{" "}
@@ -35,7 +36,9 @@ export default ({ style }) => (
       </p>
       <p>
         Sourced on{" "}
-        <a href="https://github.com/DevC-Casa/geeksblabla.com">GitHub</a>
+        <a href="https://github.com/DevC-Casa/geeksblabla.com" rel="noopener">
+          GitHub
+        </a>
       </p>
       <p>© DevC Casablanca {new Date().getFullYear()}</p>
     </div>
