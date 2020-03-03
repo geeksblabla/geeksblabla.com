@@ -20,12 +20,13 @@ export default () => {
         >
           <input type="hidden" name="form-name" value="contact" />
           <input type="hidden" name="bot-field" />
-          <input placeholder="Name" type="text" name="name" />
-          <input placeholder="Email" type="email" name="email" />
+          <input placeholder="Name" type="text" name="name" required />
+          <input placeholder="Email" type="email" name="email" required />
           <textarea
             placeholder="Your Message"
             rows="5"
             name="message"
+            required
           ></textarea>
           <div className="actions">
             <button type="submit" className="button">
