@@ -23,7 +23,12 @@ export default () => {
           in a way that is simple and approachable.
         </p>
         <div className="actions">
-          <a to="/blablas" className="button left" target="_blank">
+          <a
+            className="button left"
+            href="https://www.facebook.com/groups/DevC.Casablanca/"
+            target="_blank"
+            rel="noopener"
+          >
             Join The Group
           </a>
         </div>
