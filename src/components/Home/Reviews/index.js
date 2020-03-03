@@ -41,10 +41,20 @@ export default () => {
       </div>
       <div className="list slider" id="review-scroll">
         <div className="slide-track">
-          {reviews.map(({ node }) => (
+          {reviews.slice(0, 7).map(({ node }) => (
             <Review {...node} key={node.id} />
           ))}
-          {reviews.map(({ node }) => (
+          {reviews.slice(0, 7).map(({ node }) => (
+            <Review {...node} key={`${node.id}2d`} />
+          ))}
+        </div>
+      </div>
+      <div className="list slider">
+        <div className="slide-track">
+          {reviews.slice(7, 14).map(({ node }) => (
+            <Review {...node} key={node.id} />
+          ))}
+          {reviews.slice(7, 14).map(({ node }) => (
             <Review {...node} key={`${node.id}2d`} />
           ))}
         </div>

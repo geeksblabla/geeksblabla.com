@@ -22,7 +22,8 @@
   .list {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    align-items: center;
+    //width: 100%;
     @include breakpoint(mobileonly) {
       display: block;
       overflow-x: scroll;
@@ -43,7 +44,7 @@
   }
   .review {
     margin: 10px;
-    width: 350px;
+    width: 370px;
 
     img {
       display: block !important;
@@ -86,10 +87,10 @@ $animationSpeed: 45s;
 // Animation
 @keyframes scroll {
   0% {
-    transform: translateX(-200px);
+    transform: translateX(0px);
   }
   100% {
-    transform: translateX(calc(-370px * 7 - 200px));
+    transform: translateX(calc(-370px * 7));
   }
 }
 
