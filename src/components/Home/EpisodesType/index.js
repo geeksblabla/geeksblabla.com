@@ -13,8 +13,8 @@ export default () => {
           <div>
             <h1> MSS Episodes </h1>
             <p>
-              In Moroccan success story episodes, we invite a Moroccan icon in
-              the IT and related fields, to share his experience, lessons
+              In Moroccan Success Story episodes, we invite a Moroccan icon in
+              the IT and related fields, to share their experiences, lessons
               learned and knowledge with the Moroccan community.
             </p>
           </div>

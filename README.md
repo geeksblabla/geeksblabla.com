@@ -15,7 +15,7 @@
 
 Geeksblabla is a webinar where we meet to share and learn about awesome topics from the best.
 
-We Invite knowledgable and interesting people who are not always known to the public so that they share with us their experience.
+We Invite knowledgable and interesting people who are not always known to the public so that they can share their experiences.
 
 We talk about the hottest new topics and explain it to the community in a way that is simple and approachable.
 

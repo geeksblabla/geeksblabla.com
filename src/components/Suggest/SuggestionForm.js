@@ -61,18 +61,18 @@ export default () => {
               addEpisode({ variables })
             }}
           >
-            <h1> Suggest us a GeeksBlabla Episode ! </h1>
+            <h1> Suggest a GeeksBlabla Episode ! </h1>
             <div className="input">
               <label> EPISODE : </label>
               <textarea
                 required
                 onChange={e => setDescription(e.target.value)}
-                placeholder="Please explain your suggestion as mach as possible "
+                placeholder="Please explain your suggestion as much as possible "
                 rows="5"
                 value={description}
               />
               <p className="desc">
-                *Please verify that the suggestion does not exist{" "}
+                *Please verify that the suggestion does not exist already{" "}
                 <span className="web-only" role="img" aria-label="Pointing Right">👉 </span>
                 <span className="mobile-only" role="img" aria-label="Pointing Down">👇</span>
               </p>
@@ -82,7 +82,7 @@ export default () => {
               <label> GUEST(s) : </label>
               <textarea
                 onChange={e => setGuest(e.target.value)}
-                placeholder="Suggest us a guest, name, profile links ..."
+                placeholder="Suggest a Guest, name, profile links ..."
                 rows="3"
                 value={guest}
               />
