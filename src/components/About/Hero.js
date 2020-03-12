@@ -16,7 +16,7 @@ export default () => {
         </p>
         <p>
           We Invite knowledgable and interesting people who are not always known
-          to the public so that they share with us their experience.
+          to the public so that they can share their experiences.
         </p>
         <p>
           We talk about the hottest new topics and explain it to the community

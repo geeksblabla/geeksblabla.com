@@ -19,7 +19,7 @@ export default ({ style }) => (
       </p>
 
       <p>
-        This Website Made with ❤️ By{" "}
+        This Website is made with ❤️ By{" "}
         <a
           href="https://www.facebook.com/groups/DevC.Casablanca/"
           target="_blank"

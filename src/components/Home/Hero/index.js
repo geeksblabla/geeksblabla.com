@@ -13,7 +13,7 @@ export default () => {
         <h1>Hottest technology trends, In Darija!</h1>
         <p>
           GeeksBlaBla is a community initiative, to discuss, highlight and share
-          latest IT topics in Moroccan Darija.
+          the latest IT topics in Moroccan Darija.
         </p>
         <div className="actions">
           <Link to="/blablas" className="button left">

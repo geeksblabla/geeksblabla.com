@@ -8,7 +8,7 @@ module.exports = {
   siteLogo: "images/logo.png", // Used for SEO and manifest, path to your image you placed in the 'static' folder
   banner: "images/banner.png",
   siteDescription:
-    "🎙👨🏻‍💻GeeksBlabla 👨🏻‍💻🎙| GeeksBlaBla is a community initiative, to discuss, highlight and share latest IT topics in Moroccan Darija.", // Author for schemaORGJSONLD
+    "🎙👨🏻‍💻GeeksBlabla 👨🏻‍💻🎙| GeeksBlaBla is a community initiative, to discuss, highlight and share the latest IT topics in Moroccan Darija.", // Author for schemaORGJSONLD
   organization: "DevC Casablanca",
   author: "DevC Casablanca",
   // siteFBAppID: '123456789', // Facebook App ID - Optional
