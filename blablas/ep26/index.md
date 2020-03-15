@@ -1,7 +1,7 @@
 ---
 date: 2020-01-19
 time: 21h
-duration: "1:43"
+duration: "01:43:00"
 title: "MSS with Badr El Houari"
 tags: ["tech", "mss", "startup"]
 isNext: false

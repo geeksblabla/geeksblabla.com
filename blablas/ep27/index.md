@@ -1,7 +1,7 @@
 ---
 date: 2020-02-16
 time: 21h
-duration: "1:40"
+duration: "01:40:00"
 title: "Side  Projects & Indie Hacking"
 tags: ["tech", "dev", "indieHacking"]
 isNext: false

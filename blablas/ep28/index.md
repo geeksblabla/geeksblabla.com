@@ -1,7 +1,7 @@
 ---
 date: 2020-02-29
 time: 21h
-duration: "1:40"
+duration: "01:32:00"
 title: "GeeksBlabla Kids"
 tags: ["tech", "kids"]
 isNext: false
