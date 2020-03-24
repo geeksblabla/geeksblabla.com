@@ -38,13 +38,13 @@ In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & Crypto
 
 0:47 - What are "Distributed Operations" in the context of Cryptocurrency?
 
-0:52 - Do blockchain solution providers have control over the applications?
+0:52 - Do Blockchain solution providers have control over the applications?
 
 0:58 - What is "Proof of Stake"?
 
 1:02 - What are the use cases of the Blockchain other than Cryptocurrency?
 
-1:07 - Can we do business with the Blockchain in morocco?
+1:07 - Can we do business with the Blockchain in Morocco?
 
 1:08 - What are the required skills to become a Blockchain developer?
 
