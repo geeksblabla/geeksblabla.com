@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblablas.com">
@@ -201,6 +201,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/bondif"><img src="https://avatars2.githubusercontent.com/u/24433897?v=4" width="180px;" alt=""/><br /><sub><b>Mohamed BOUKHLIF</b></sub></a><br /><a href="#content-bondif" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/boredabdel"><img src="https://avatars1.githubusercontent.com/u/1208914?v=4" width="180px;" alt=""/><br /><sub><b>Abdel SGHIOUAR</b></sub></a><br /><a href="#content-boredabdel" title="Content">🖋</a></td>
     <td align="center"><a href="http://mouradaouinat.me"><img src="https://avatars1.githubusercontent.com/u/34982954?v=4" width="180px;" alt=""/><br /><sub><b>Mourad Aouinat</b></sub></a><br /><a href="#content-mouradaouinat" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/iMeriem"><img src="https://avatars1.githubusercontent.com/u/11720929?v=4" width="180px;" alt=""/><br /><sub><b>Meriem Zaid</b></sub></a><br /><a href="#content-iMeriem" title="Content">🖋</a></td>
   </tr>
 </table>
 
