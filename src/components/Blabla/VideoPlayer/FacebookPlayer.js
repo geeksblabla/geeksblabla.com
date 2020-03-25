@@ -1,5 +1,5 @@
 import React from "react"
-import { string, func, bool } from "prop-types"
+import { string, func, bool, number } from "prop-types"
 
 class FacebookPlayer extends React.Component {
   static propTypes = {
@@ -18,6 +18,7 @@ class FacebookPlayer extends React.Component {
     onStartedBuffering: func,
     onFinishedBuffering: func,
     onError: func,
+    time: number,
   }
 
   static defaultProps = {
@@ -34,6 +35,7 @@ class FacebookPlayer extends React.Component {
      * Set events that will be added to listen list.
      * REF: https://developers.facebook.com/docs/plugins/embedded-video-player/api#event-reference
      */
+
     this.eventsToListen = [
       {
         event: "startedPlaying",
@@ -100,6 +102,10 @@ class FacebookPlayer extends React.Component {
   componentWillReceiveProps(newProps) {
     if (this.FB && newProps.videoId !== this.props.videoId) {
       this.createPlayer(newProps.videoId)
+    }
+
+    if (newProps.time !== this.props.time) {
+      this.onSeek(newProps.time)
     }
   }
 
@@ -229,6 +235,10 @@ class FacebookPlayer extends React.Component {
    */
   refContainer = container => {
     this.container = container
+  }
+
+  onSeek = secs => {
+    this.videoPlayer.seek(secs)
   }
 
   render() {
