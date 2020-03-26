@@ -11,7 +11,7 @@ url: ""
 podcastUrl: ""
 ---
 
-In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java language, and why you should learn it, they talk also about the strength of The JVM, the best practices as Java Devloper.
+In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java language, and why you should learn it, they talk also about the strength of The JVM, the best practices as Java Developer.
 
 ## Guests
 
@@ -47,7 +47,7 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 0:56 - What are the most important Java Concepts ?
 
-0:59 - What is the best Java frsmework ?
+0:59 - What is the best Java framework ?
 
 1:01 - Is Java a fully open source programming language ?
 
