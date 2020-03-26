@@ -93,14 +93,7 @@ class FacebookPlayer extends React.Component {
         }
       })
 
-      window.addEventListener(
-        "hashchange",
-        () => {
-          const hash = window.location.hash.substring(1) //Puts hash in variable, and removes the # character
-          this.onSeek(parseInt(hash, 10))
-        },
-        false
-      )
+      window.addEventListener("hashchange", this.seekToHash, false)
     }
   }
 
@@ -111,10 +104,6 @@ class FacebookPlayer extends React.Component {
     if (this.FB && newProps.videoId !== this.props.videoId) {
       this.createPlayer(newProps.videoId)
     }
-
-    if (newProps.time !== this.props.time) {
-      this.onSeek(newProps.time)
-    }
   }
 
   /**
@@ -122,15 +111,6 @@ class FacebookPlayer extends React.Component {
    */
   componentWillUnmount() {
     this.unsubscribe()
-
-    window.addEventListener(
-      "hashchange",
-      () => {
-        const hash = window.location.hash.substring(1) //Puts hash in variable, and removes the # character
-        this.onSeek(parseInt(hash, 10))
-      },
-      false
-    )
   }
 
   /**
@@ -245,6 +225,8 @@ class FacebookPlayer extends React.Component {
         if (ev.handler.removeListener) ev.handler.removeListener(ev.event)
       })
     }
+
+    window.removeEventListener("hashchange", this.seekToHash, false)
   }
 
   /**
@@ -254,8 +236,9 @@ class FacebookPlayer extends React.Component {
     this.container = container
   }
 
-  onSeek = secs => {
-    this.videoPlayer.seek(secs)
+  seekToHash = () => {
+    const hash = window.location.hash.substring(1) //Puts hash in variable, and removes the # character
+    this.videoPlayer.seek(parseInt(hash, 10))
   }
 
   render() {
