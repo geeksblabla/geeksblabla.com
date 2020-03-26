@@ -5,6 +5,7 @@ import "./index.scss"
 
 const VideoPlayer = ({ video }) => {
   const [ready, setReady] = useState(false)
+
   const onReady = () => {
     setReady(true)
   }

@@ -34,6 +34,7 @@ class FacebookPlayer extends React.Component {
      * Set events that will be added to listen list.
      * REF: https://developers.facebook.com/docs/plugins/embedded-video-player/api#event-reference
      */
+
     this.eventsToListen = [
       {
         event: "startedPlaying",
@@ -91,6 +92,8 @@ class FacebookPlayer extends React.Component {
           this.createPlayer(videoId)
         }
       })
+
+      window.addEventListener("hashchange", this.seekToHash, false)
     }
   }
 
@@ -222,6 +225,8 @@ class FacebookPlayer extends React.Component {
         if (ev.handler.removeListener) ev.handler.removeListener(ev.event)
       })
     }
+
+    window.removeEventListener("hashchange", this.seekToHash, false)
   }
 
   /**
@@ -229,6 +234,11 @@ class FacebookPlayer extends React.Component {
    */
   refContainer = container => {
     this.container = container
+  }
+
+  seekToHash = () => {
+    const hash = window.location.hash.substring(1) //Puts hash in variable, and removes the # character
+    this.videoPlayer.seek(parseInt(hash, 10))
   }
 
   render() {
