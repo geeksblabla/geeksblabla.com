@@ -1,5 +1,5 @@
 import React from "react"
-import { string, func, bool, number } from "prop-types"
+import { string, func, bool } from "prop-types"
 
 class FacebookPlayer extends React.Component {
   static propTypes = {
@@ -18,7 +18,6 @@ class FacebookPlayer extends React.Component {
     onStartedBuffering: func,
     onFinishedBuffering: func,
     onError: func,
-    time: number,
   }
 
   static defaultProps = {
@@ -93,6 +92,15 @@ class FacebookPlayer extends React.Component {
           this.createPlayer(videoId)
         }
       })
+
+      window.addEventListener(
+        "hashchange",
+        () => {
+          const hash = window.location.hash.substring(1) //Puts hash in variable, and removes the # character
+          this.onSeek(parseInt(hash, 10))
+        },
+        false
+      )
     }
   }
 
@@ -114,6 +122,15 @@ class FacebookPlayer extends React.Component {
    */
   componentWillUnmount() {
     this.unsubscribe()
+
+    window.addEventListener(
+      "hashchange",
+      () => {
+        const hash = window.location.hash.substring(1) //Puts hash in variable, and removes the # character
+        this.onSeek(parseInt(hash, 10))
+      },
+      false
+    )
   }
 
   /**
