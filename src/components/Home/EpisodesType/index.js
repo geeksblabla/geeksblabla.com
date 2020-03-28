@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-
+// import { Link } from "gatsby"
 import Mss from "assets/mss.svg"
 import Tech from "assets/tech.svg"
 import "./index.scss"

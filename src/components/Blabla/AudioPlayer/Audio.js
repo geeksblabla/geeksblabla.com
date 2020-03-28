@@ -1,6 +1,6 @@
+/* eslint-disable jsx-a11y/media-has-caption */
+// import Title from "./Song"
 import React from "react"
-
-import Title from "./Song"
 import Play from "./Play"
 import Pause from "./Pause"
 import Bar from "./Bar"
@@ -9,7 +9,7 @@ import useAudioPlayer from "./useAudioPlayer"
 
 export default ({
   audio = "https://d3ctxlq1ktw2nl.cloudfront.net/production/2019-11-8/37064067-48000-2-7061c427555f3.m4a",
-  title = "Episode Title ",
+  // title = "Episode Title ",
 }) => {
   const {
     curTime,

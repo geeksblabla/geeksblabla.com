@@ -1,7 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import PlayIcon from "assets/play.svg"
 import AboutImage from "components/Images/AboutImage"
 
 export default () => {
@@ -27,7 +24,7 @@ export default () => {
             className="button left"
             href="https://www.facebook.com/groups/DevC.Casablanca/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Join The Group
           </a>

@@ -1,8 +1,7 @@
+// import { Link } from "gatsby"
+// import NotifIcon from "assets/notif.svg"
 import React from "react"
-import { Link } from "gatsby"
-
 import Notif from "assets/notification.svg"
-import NotifIcon from "assets/notif.svg"
 import "./index.scss"
 import { GetNotification } from "../../OneSignal"
 
