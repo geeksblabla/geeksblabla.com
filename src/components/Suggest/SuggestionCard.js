@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect } from "react"
 import { Auth0Context } from "./auth0"
 import { client, LIKE, DISLIKE, GET_EPISODES, MY_VOTES } from "./graphql"
@@ -28,7 +29,7 @@ const Like = ({ votes, episodeId }) => {
 
   useEffect(() => {
     setIsVoted(!!votes.data.filter(x => userVotes.includes(x._id))[0])
-  }, [userVotes])
+  }, [userVotes, votes.data])
 
   const handelClick = async () => {
     if (!isAuthenticated) {

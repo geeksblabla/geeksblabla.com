@@ -1,12 +1,11 @@
+// import Github from "assets/github.svg"
 import React from "react"
 import "./index.scss"
-
 import Auth0 from "assets/auth0.svg"
 import GatsbyJs from "assets/gatsby.svg"
 import ReactIcon from "assets/react-icon.svg"
 import Figma from "assets/figma.svg"
 import Netlify from "assets/netlify.svg"
-import Github from "assets/github.svg"
 import FunaDB from "assets/funadb.svg"
 
 export default ({ style }) => (
@@ -19,11 +18,15 @@ export default ({ style }) => (
       </p>
 
       <p>
-        This Website is made with ❤️ By{" "}
+        This Website is made with{" "}
+        <span role="img" aria-label="love">
+          ❤️
+        </span>{" "}
+        By{" "}
         <a
           href="https://www.facebook.com/groups/DevC.Casablanca/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           {" "}
           DevC Casa Team{" "}

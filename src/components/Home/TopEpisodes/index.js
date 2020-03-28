@@ -52,13 +52,25 @@ export default () => {
   )
 }
 
-const EpisodeCard = ({ title, description, slug, item }) => (
-  <div className={`item item-${item + 1}`} onClick={() => navigate(slug)}>
-    <PlayIcon item={item} />
-    <h3> {title} </h3>
-    <p>{description}</p>
-  </div>
-)
+const EpisodeCard = ({ title, description, slug, item }) => {
+  const navigateTo = e => {
+    if (e.keyCode === 13) navigate(slug)
+  }
+
+  return (
+    <div
+      className={`item item-${item + 1}`}
+      role="button"
+      tabIndex="0"
+      onClick={() => navigate(slug)}
+      onKeyDown={navigateTo}
+    >
+      <PlayIcon item={item} />
+      <h3> {title} </h3>
+      <p>{description}</p>
+    </div>
+  )
+}
 
 const PlayIcon = ({ item }) => {
   const stop1 = colors[item][0]

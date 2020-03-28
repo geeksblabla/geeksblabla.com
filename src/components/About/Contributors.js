@@ -35,6 +35,7 @@ export default () => {
           href="https://github.com/DevC-Casa/geeksblabla.com"
           className="button outline"
           target="_blank"
+          rel="noopener noreferrer"
         >
           I Want to Contribute?
         </a>
@@ -49,9 +50,9 @@ export default () => {
 }
 
 const Contributor = ({ firstName, lastName, avatar_url, profile }) => (
-  <a href={profile} target="_blank" rel="noopener">
+  <a href={profile} target="_blank" rel="noopener noreferrer">
     <div className="contributor">
-      <img src={avatar_url} />
+      <img src={avatar_url} alt={lastName} />
       <div className="back">
         <p>
           <span>{firstName}</span> <span>{lastName}</span>

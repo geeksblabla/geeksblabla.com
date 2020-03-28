@@ -63,13 +63,14 @@ export default () => {
           >
             <h1> Suggest a GeeksBlabla Episode ! </h1>
             <div className="input">
-              <label> EPISODE : </label>
+              <label htmlFor="episode"> EPISODE : </label>
               <textarea
                 required
                 onChange={e => setDescription(e.target.value)}
                 placeholder="Please explain your suggestion as much as possible "
                 rows="5"
                 value={description}
+                id="episode"
               />
               <p className="desc">
                 *Please verify that the suggestion does not exist already{" "}
@@ -79,12 +80,13 @@ export default () => {
             </div>
 
             <div className="input">
-              <label> GUEST(s) : </label>
+              <label htmlFor="guest"> GUEST(s) : </label>
               <textarea
                 onChange={e => setGuest(e.target.value)}
                 placeholder="Suggest a Guest, name, profile links ..."
                 rows="3"
                 value={guest}
+                id="guest"
               />
             </div>
             <button type="submit" className="button" disabled={loading}>

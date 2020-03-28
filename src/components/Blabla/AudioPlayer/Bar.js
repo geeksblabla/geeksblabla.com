@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React from "react"
 // import moment from "moment"
 // import momentDurationFormatSetup from "moment-duration-format"
@@ -39,6 +40,7 @@ export default function Bar(props) {
     <div className="bar">
       <span className="bar__time">{formatDuration(curTime)}</span>
       <div
+        role="timer"
         className="bar__progress"
         style={{
           background:
@@ -60,21 +62,21 @@ export default function Bar(props) {
   )
 }
 
-const formatDuration = seconds => {
-  var hours = Math.floor(seconds / 3600)
-  var minutes = Math.floor((seconds - hours * 3600) / 60)
-  var seconds = parseInt(seconds - hours * 3600 - minutes * 60)
-  var time = ""
+const formatDuration = secondsCount => {
+  let hours = Math.floor(secondsCount / 3600)
+  let minutes = Math.floor((secondsCount - hours * 3600) / 60)
+  let seconds = parseInt(secondsCount - hours * 3600 - minutes * 60)
+  let time = ""
 
-  if (hours != 0) {
+  if (hours !== 0) {
     time = hours + ":"
   }
-  if (minutes != 0 || time !== "") {
+  if (minutes !== 0 || time !== "") {
     minutes = minutes < 10 && time !== "" ? "0" + minutes : String(minutes)
     time += minutes + ":"
   }
   if (time === "") {
-    time = seconds + "s"
+    time = secondsCount + "s"
   } else {
     time += seconds < 10 ? "0" + seconds : String(seconds)
   }

@@ -41,6 +41,7 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
     svg {
       margin: 8px;
     }
+    
 
     cursor: pointer;
     background: $main-bg-color;
@@ -58,6 +59,12 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
     background-clip: padding-box;
     //border: solid $border transparent;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: all 100ms ease-in;
+
+    &:focus, &:hover {
+      transform: translateY(-2%) scale(1.02);
+      box-shadow: 0px 20px 14px rgba(0, 0, 0, 0.25);
+    }
 
     &:before {
       content: "";
