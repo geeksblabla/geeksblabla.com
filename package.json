@@ -14,7 +14,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "persist-queries": "node persistgraphql-signature-sync/index.js --input-path=./src/components/suggest/graphql/ --output-file=./extracted_queries.json",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "generate-podcast-files": "node ./podcast/generate_episode.js"
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.6.0",
@@ -66,6 +67,8 @@
   },
   "devDependencies": {
     "all-contributors-cli": "^6.11.2",
+    "cypress-file-upload": "^4.0.4",
+    "cypress-wait-until": "^1.6.1",
     "eslint-plugin-graphql": "^3.1.1",
     "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-sentry": "^1.0.1",
