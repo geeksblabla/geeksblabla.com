@@ -14,7 +14,7 @@ context("Actions", () => {
 
     // Upload File
     cy.contains("New Episode", { timeout: 60000 }).click()
-    cy.visit("https://anchor.fm/dashboard/episode/new")
+    cy.wait(5000)
 
     cy.contains("drop audio").attachFile(
       {
