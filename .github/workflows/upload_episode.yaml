@@ -33,6 +33,9 @@ jobs:
           npm run generate-podcast-files
       # Install And Configure youtube-dl
       - name: Upload Episode To Anchor Fm Using Cypress
+        env: # Or as an environment variable
+          CYPRESS_ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
+          CYPRESS_ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
         uses: cypress-io/github-action@v1
         with:
           spec: cypress/integration/upload_episode.js
