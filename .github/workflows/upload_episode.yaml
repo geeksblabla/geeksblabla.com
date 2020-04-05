@@ -4,7 +4,7 @@ name: Upload Episode To Anchor Fm
 # events but only for the master branch
 on:
   push:
-    branches: [auto_publish_podcast]
+    branches: [feat/auto_publish_podcast]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
