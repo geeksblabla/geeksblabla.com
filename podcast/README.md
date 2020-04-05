@@ -2,7 +2,7 @@
 
 - Check missed Episode ( usually should be One or Zero) : using the anchor geeksBalaba rss
 
-- Generate a Json file for missed Episode and Save it under Podcast folder (git ignored)
+- Generate a Json file for missed Episode and Save it under Fixture folder (git ignored). to make it ready for cypress workflow
 
 ```json
 {
@@ -12,4 +12,6 @@
 }
 ```
 
-- Use Github Action to
+- Download Audio file from facebook using youtube-dl
+
+- Upload Audio File using cypress
