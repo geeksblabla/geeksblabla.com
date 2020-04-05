@@ -31,12 +31,13 @@ const generateMissedEpisode = async () => {
       /&quot;/g,
       ""
     )}`
+    const basePath = path.resolve(__dirname, "../")
     const episode = JSON.stringify({ title, videoUrl, description })
-    fs.writeFileSync("./cypress/fixtures/episode.json", episode)
+    fs.writeFileSync(`${basePath}/cypress/fixtures/episode.json`, episode)
 
     logMessage("End: Generate Episode")
     logMessage("Start: Download Episode ")
-    const youtubeDlCommand = `youtube-dl -o ./cypress/fixtures/episode.m4a  -f 'bestaudio[ext=m4a]' 'https://www.facebook.com/881800865598924'`
+    const youtubeDlCommand = `youtube-dl -o ${basePath}/cypress/fixtures/episode.m4a  -f 'bestaudio[ext=m4a]' 'https://www.facebook.com/881800865598924'`
     exec(youtubeDlCommand, (error, stdout, stderr) => {
       if (error) {
         console.log(`error: ${error.message}`)
