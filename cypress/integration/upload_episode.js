@@ -58,9 +58,10 @@ context("Actions", () => {
         .click()
       cy.get("textarea[name=description]").type(episode.description)
     })
+    cy.wait(1000)
 
     // Save Episode As draft
-
     cy.contains("Save as a draft").click()
+    cy.wait(4000)
   })
 })
