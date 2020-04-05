@@ -61,6 +61,6 @@ context("Actions", () => {
 
     // Save Episode As draft
 
-    // cy.contains("Save as a draft").click()
+    cy.contains("Save as a draft").click()
   })
 })
