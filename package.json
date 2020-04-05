@@ -14,7 +14,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "persist-queries": "node persistgraphql-signature-sync/index.js --input-path=./src/components/suggest/graphql/ --output-file=./extracted_queries.json",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "generate-podcast-files": "node ./podcast/generate_episode.js",
+    "upload-to-anchor": "cypress run --headless --spec 'cypress/integration/upload_episode.js'"
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.6.0",
@@ -25,6 +27,7 @@
     "apollo-boost": "^0.4.7",
     "apollo-link-context": "^1.0.19",
     "auth0-js": "^9.12.1",
+    "cypress": "^4.3.0",
     "emotion": "^10.0.27",
     "gatsby": "^2.18.17",
     "gatsby-image": "^2.2.37",
@@ -65,9 +68,13 @@
   },
   "devDependencies": {
     "all-contributors-cli": "^6.11.2",
+    "cypress-file-upload": "^4.0.4",
+    "cypress-wait-until": "^1.6.1",
     "eslint-plugin-graphql": "^3.1.1",
     "gatsby-plugin-google-analytics": "^2.1.31",
-    "gatsby-plugin-sentry": "^1.0.1"
+    "gatsby-plugin-sentry": "^1.0.1",
+    "rss-parser": "^3.7.6",
+    "showdown": "^1.9.1"
   },
   "keywords": [
     "gatsby"
