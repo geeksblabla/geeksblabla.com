@@ -15,7 +15,8 @@
     "persist-queries": "node persistgraphql-signature-sync/index.js --input-path=./src/components/suggest/graphql/ --output-file=./extracted_queries.json",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "generate-podcast-files": "node ./podcast/generate_episode.js"
+    "generate-podcast-files": "node ./podcast/generate_episode.js",
+    "upload-to-anchor": "cypress run --headless --spec 'cypress/integration/upload_episode.js'"
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.6.0",

@@ -36,6 +36,4 @@ jobs:
         env: # Or as an environment variable
           CYPRESS_ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
           CYPRESS_ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
-        uses: cypress-io/github-action@v1
-        with:
-          spec: cypress/integration/upload_episode.js
+        run: test -f ./cypress/fixtures/episode.json && npm run upload-to-anchor # Make sure episode is ready and run cypress

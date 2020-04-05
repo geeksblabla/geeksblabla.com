@@ -20,10 +20,15 @@ const generateMissedEpisode = async () => {
     // Generate Episode from Markdown File
     logMessage("Start: Generate Episode")
     const missedEpisodeFile = `../blablas/ep${AnchorEpisodes.items.length}/index.md`
-    const data = fs.readFileSync(
-      path.resolve(__dirname, missedEpisodeFile),
-      "utf8"
-    )
+    let data = ""
+    try {
+      data = fs.readFileSync(path.resolve(__dirname, missedEpisodeFile), "utf8")
+    } catch (error) {
+      console.log(error)
+      logMessage("No New Episode")
+      return
+    }
+
     const description = converter.makeHtml(data)
     const meta = converter.getMetadata()
     const title = meta.title.replace(/&quot;/g, "")
