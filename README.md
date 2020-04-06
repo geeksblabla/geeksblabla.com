@@ -64,7 +64,7 @@ If you want to contribute check out the [help wanted](https://github.com/devC-Ca
 ```
 date: 2019-03-28
 time: 20h
-duration: "1:48"
+duration: "01:09:00"
 title: "Open Source with Yassine Elouafi"
 tags: ["open source", "dev"]
 isNext: false
@@ -118,6 +118,9 @@ In the Notes section, you need to collect the most important part of the episode
 - [Reactjs](https://reactjs.org)
 -....
 ```
+#### Prepared and Presented by
+- [name](https://example1.com)
+- [name 2](https://example2.com)
 
 In the end, the episode markdown file should look like : 👇
 
@@ -156,6 +159,10 @@ h:min - title
 - [W3C](https://www.w3.org/)
 - [Reactjs](https://reactjs.org)
 -....
+
+Prepared and Presented by
+- [name](https://example1.com)
+- [name 2](https://example2.com)
 
 
 ```
