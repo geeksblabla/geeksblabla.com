@@ -40,7 +40,7 @@ export default () => {
 
         return (
           <form
-            onSubmit={e => {
+            onSubmit={(e) => {
               e.preventDefault()
               if (!isAuthenticated) {
                 openPopup()
@@ -66,7 +66,7 @@ export default () => {
               <label htmlFor="episode"> EPISODE : </label>
               <textarea
                 required
-                onChange={e => setDescription(e.target.value)}
+                onChange={(e) => setDescription(e.target.value)}
                 placeholder="Please explain your suggestion as much as possible "
                 rows="5"
                 value={description}
@@ -74,15 +74,27 @@ export default () => {
               />
               <p className="desc">
                 *Please verify that the suggestion does not exist already{" "}
-                <span className="web-only" role="img" aria-label="Pointing Right">👉 </span>
-                <span className="mobile-only" role="img" aria-label="Pointing Down">👇</span>
+                <span
+                  className="web-only"
+                  role="img"
+                  aria-label="Pointing Right"
+                >
+                  👉{" "}
+                </span>
+                <span
+                  className="mobile-only"
+                  role="img"
+                  aria-label="Pointing Down"
+                >
+                  👇
+                </span>
               </p>
             </div>
 
             <div className="input">
               <label htmlFor="guest"> GUEST(s) : </label>
               <textarea
-                onChange={e => setGuest(e.target.value)}
+                onChange={(e) => setGuest(e.target.value)}
                 placeholder="Suggest a Guest, name, profile links ..."
                 rows="3"
                 value={guest}

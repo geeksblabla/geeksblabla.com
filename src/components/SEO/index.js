@@ -11,7 +11,7 @@ const socialImage = (title, tags) => {
   const titleFontSize = parseInt(101 - title.length * 0.8)
   return getShareImage({
     title: title,
-    tagline: tags.map(tag => `#${tag}`).join(" "),
+    tagline: tags.map((tag) => `#${tag}`).join(" "),
     cloudName: "duko2tssr",
     imagePublicID: "episode-template_sriwmj",
     titleExtraConfig: "_bold", // optional - set title font weight to bold

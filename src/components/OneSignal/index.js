@@ -19,8 +19,7 @@ export const GetNotification = ({ hidden = false }) => {
     (isBrowser && window.localStorage.getItem("push_subscribed")) === "true" ||
       false
   )
-  const enablePushNotification = React.useCallback(
-    () => {
+  const enablePushNotification = React.useCallback(() => {
     setLoading(true)
     loadOneSignalScript(() => {
       if (!window.OneSignal.isPushNotificationsSupported()) {
@@ -58,7 +57,7 @@ export const GetNotification = ({ hidden = false }) => {
       console.error("Error getting notification status", error)
     }
   }
-  
+
   if (hidden) return null
   if (isSubscribed)
     return (
@@ -76,17 +75,20 @@ export const GetNotification = ({ hidden = false }) => {
       )}
       {!pushSupported && (
         <span>
-          <span role="img" aria-label="alert">⚠️</span> <br></br>You Browser does not support Push Notification{" "}
+          <span role="img" aria-label="alert">
+            ⚠️
+          </span>{" "}
+          <br></br>You Browser does not support Push Notification{" "}
         </span>
       )}
     </>
   )
 }
 
-const initOneSignal = callback => {
+const initOneSignal = (callback) => {
   if (isBrowser && !OneSignalInitialized) {
     window.OneSignal = window.OneSignal || []
-    window.OneSignal.push(function() {
+    window.OneSignal.push(function () {
       window.OneSignal.init({
         appId,
       })
@@ -98,7 +100,7 @@ const initOneSignal = callback => {
   }
 }
 
-const loadOneSignalScript = callback => {
+const loadOneSignalScript = (callback) => {
   const existingScript = document.getElementById("onSignal")
   if (!existingScript) {
     const script = document.createElement("script")

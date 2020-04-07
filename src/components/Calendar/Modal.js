@@ -1,7 +1,7 @@
-import React from 'react';
-import Button from './Button';
-import Modal from 'react-modal';
-import { css } from 'emotion';
+import React from "react"
+import Button from "./Button"
+import Modal from "react-modal"
+import { css } from "emotion"
 
 const containerStyles = css`
   display: flex;
@@ -23,13 +23,9 @@ const containerStyles = css`
   &:focus {
     outline: none;
   }
-`;
+`
 
-export default function CalendarModal({
-  children,
-  isOpen,
-  onRequestClose,
-}) {
+export default function CalendarModal({ children, isOpen, onRequestClose }) {
   return (
     <Modal
       className={containerStyles}
@@ -41,5 +37,5 @@ export default function CalendarModal({
       <div>{children}</div>
       <Button onClick={onRequestClose}>Cancel</Button>
     </Modal>
-  );
+  )
 }

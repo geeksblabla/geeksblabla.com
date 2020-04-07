@@ -35,7 +35,7 @@ export default ({
         <Bar
           curTime={curTime}
           duration={duration}
-          onTimeUpdate={time => setClickedTime(time)}
+          onTimeUpdate={(time) => setClickedTime(time)}
         />
       </div>
     </div>

@@ -53,7 +53,7 @@ export default () => {
 }
 
 const EpisodeCard = ({ title, description, slug, item }) => {
-  const navigateTo = e => {
+  const navigateTo = (e) => {
     if (e.keyCode === 13) navigate(slug)
   }
 

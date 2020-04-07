@@ -4,9 +4,9 @@ import SuggestionCard from "./SuggestionCard"
 import Loader from "../Loader"
 import { GET_EPISODES } from "./graphql"
 
-const normalize = data => {
+const normalize = (data) => {
   return data.verifiedEpisodes.data
-    .filter(e => !e.done) // TODO: add it to query instead of a simple filter
+    .filter((e) => !e.done) // TODO: add it to query instead of a simple filter
     .sort((a, b) => b.votes.data.length - a.votes.data.length)
 }
 
@@ -20,7 +20,7 @@ const SuggestionsList = () => {
 
           return (
             <React.Fragment>
-              {normalize(data).map(e => (
+              {normalize(data).map((e) => (
                 <SuggestionCard episode={e} key={e._id} />
               ))}
             </React.Fragment>

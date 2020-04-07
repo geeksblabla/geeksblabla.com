@@ -86,7 +86,7 @@ class FacebookPlayer extends React.Component {
     const { videoId } = this.props
 
     if (typeof window !== "undefined") {
-      this.loadFB().then(res => {
+      this.loadFB().then((res) => {
         if (res) {
           this.FB = res
           this.createPlayer(videoId)
@@ -118,14 +118,14 @@ class FacebookPlayer extends React.Component {
    */
   loadFB = () => {
     if (window.FB) {
-      return new Promise(resolve => resolve(window.FB))
+      return new Promise((resolve) => resolve(window.FB))
     }
 
-    return new Promise(resolve => {
-      window.fbAsyncInit = function() {
+    return new Promise((resolve) => {
+      window.fbAsyncInit = function () {
         return resolve(window.FB)
       }
-      ;(function(d, s, id) {
+      ;(function (d, s, id) {
         var js,
           fjs = d.getElementsByTagName(s)[0]
         if (d.getElementById(id)) {
@@ -134,7 +134,7 @@ class FacebookPlayer extends React.Component {
         js = d.createElement(s)
         js.id = id
         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3"
-        js.onload = function() {
+        js.onload = function () {
           return resolve(window.FB)
         }
         fjs.parentNode.insertBefore(js, fjs)
@@ -147,7 +147,7 @@ class FacebookPlayer extends React.Component {
    *
    * @param {string} Facebook video id
    */
-  createPlayer = videoId => {
+  createPlayer = (videoId) => {
     const {
       id,
       appId,
@@ -186,7 +186,7 @@ class FacebookPlayer extends React.Component {
       version: "v2.5",
     })
 
-    FB.Event.subscribe("xfbml.ready", msg => {
+    FB.Event.subscribe("xfbml.ready", (msg) => {
       window.msg = msg
       if (msg.type === "video" && ((id && msg.id === playerId) || !id)) {
         this.videoPlayer = msg.instance
@@ -205,7 +205,7 @@ class FacebookPlayer extends React.Component {
    */
   subscribe = () => {
     this.eventHandlers = []
-    this.eventsToListen.forEach(ev => {
+    this.eventsToListen.forEach((ev) => {
       if (ev.listener) {
         const handler = this.videoPlayer.subscribe(ev.event, ev.listener)
         this.eventHandlers.push({
@@ -221,7 +221,7 @@ class FacebookPlayer extends React.Component {
    */
   unsubscribe = () => {
     if (this.eventHandlers && this.eventHandlers.length) {
-      this.eventHandlers.forEach(ev => {
+      this.eventHandlers.forEach((ev) => {
         if (ev.handler.removeListener) ev.handler.removeListener(ev.event)
       })
     }
@@ -232,7 +232,7 @@ class FacebookPlayer extends React.Component {
   /**
    * Set container var to reuse as DOM object.
    */
-  refContainer = container => {
+  refContainer = (container) => {
     this.container = container
   }
 

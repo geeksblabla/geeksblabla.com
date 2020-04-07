@@ -25,7 +25,7 @@ export default function Bar(props) {
   function handleTimeDrag(e) {
     onTimeUpdate(calcClickedTime(e))
 
-    const updateTimeOnMove = eMove => {
+    const updateTimeOnMove = (eMove) => {
       onTimeUpdate(calcClickedTime(eMove))
     }
 
@@ -48,7 +48,7 @@ export default function Bar(props) {
               ? "#FFF"
               : `linear-gradient(to right, #a109d5 ${curPercentage}%, white 0)`,
         }}
-        onMouseDown={e => handleTimeDrag(e)}
+        onMouseDown={(e) => handleTimeDrag(e)}
       >
         <span
           className="bar__progress__knob"
@@ -62,7 +62,7 @@ export default function Bar(props) {
   )
 }
 
-const formatDuration = secondsCount => {
+const formatDuration = (secondsCount) => {
   let hours = Math.floor(secondsCount / 3600)
   let minutes = Math.floor((secondsCount - hours * 3600) / 60)
   let seconds = parseInt(secondsCount - hours * 3600 - minutes * 60)

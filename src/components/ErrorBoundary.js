@@ -8,8 +8,8 @@ export default class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, errorInfo) {
     this.setState({ error })
-    window.Sentry.configureScope(scope => {
-      Object.keys(errorInfo).forEach(key => {
+    window.Sentry.configureScope((scope) => {
+      Object.keys(errorInfo).forEach((key) => {
         scope.setExtra(key, errorInfo[key])
       })
     })

@@ -59,7 +59,7 @@ export const Auth0Provider = ({ children }) => {
           variables: { email: user.email },
         })
         if (votes.data && votes.data.allVotesByUser.data)
-          setVotes(votes.data.allVotesByUser.data.map(v => v._id))
+          setVotes(votes.data.allVotesByUser.data.map((v) => v._id))
       }
     }
     getMyVotes()

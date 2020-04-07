@@ -24,11 +24,11 @@ const Like = ({ votes, episodeId }) => {
 
   const [likes, setLikes] = React.useState(votes.data ? votes.data.length : 0)
   const [isVoted, setIsVoted] = React.useState(
-    !!votes.data.filter(x => userVotes.includes(x._id))[0]
+    !!votes.data.filter((x) => userVotes.includes(x._id))[0]
   )
 
   useEffect(() => {
-    setIsVoted(!!votes.data.filter(x => userVotes.includes(x._id))[0])
+    setIsVoted(!!votes.data.filter((x) => userVotes.includes(x._id))[0])
   }, [userVotes, votes.data])
 
   const handelClick = async () => {
@@ -39,7 +39,7 @@ const Like = ({ votes, episodeId }) => {
     setIsVoted(!isVoted)
     setLikes(isVoted ? likes - 1 : likes + 1)
     if (isVoted) {
-      const vote = votes.data.filter(x => userVotes.includes(x._id))[0]
+      const vote = votes.data.filter((x) => userVotes.includes(x._id))[0]
       if (vote)
         await client.mutate({
           mutation: DISLIKE,
