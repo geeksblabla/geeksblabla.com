@@ -20,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format"
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "dependencies": {
@@ -80,6 +80,7 @@
     "gatsby-plugin-sentry": "^1.0.1",
     "husky": "^4.2.3",
     "prettier": "^2.0.4",
+    "pretty-quick": "^2.0.1",
     "rss-parser": "^3.7.6",
     "showdown": "^1.9.1"
   },
