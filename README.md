@@ -213,7 +213,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://aymanemx.github.io/"><img src="https://avatars1.githubusercontent.com/u/30264095?v=4" width="180px;" alt=""/><br /><sub><b>aymaneMx</b></sub></a><br /><a href="#content-aymaneMx" title="Content">🖋</a></td>
-    <td align="center"><a href="http://kafil.xyz"><img src="https://avatars1.githubusercontent.com/u/15774583?v=4" width="180px;" alt=""/><br /><sub><b>Kafil</b></sub></a><br /><a href="#content-Kafiil" title="Content">🖋</a></td>
+    <td align="center"><a href="http://kafil.xyz"><img src="https://avatars1.githubusercontent.com/u/15774583?v=4" width="180px;" alt=""/><br /><sub><b>Kafil</b></sub></a><br /><a href="#content-Kafiil" title="Content">🖋</a> <a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=Kafiil" title="Code">💻</a></td>
   </tr>
 </table>
 
