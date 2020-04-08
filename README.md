@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblablas.com">
@@ -213,6 +213,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://aymanemx.github.io/"><img src="https://avatars1.githubusercontent.com/u/30264095?v=4" width="180px;" alt=""/><br /><sub><b>aymaneMx</b></sub></a><br /><a href="#content-aymaneMx" title="Content">🖋</a></td>
+    <td align="center"><a href="http://kafil.xyz"><img src="https://avatars1.githubusercontent.com/u/15774583?v=4" width="180px;" alt=""/><br /><sub><b>Kafil</b></sub></a><br /><a href="#content-Kafiil" title="Content">🖋</a></td>
   </tr>
 </table>
 
