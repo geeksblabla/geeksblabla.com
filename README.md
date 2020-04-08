@@ -60,6 +60,7 @@ If you want to contribute check out the [help wanted](https://github.com/devC-Ca
       - Tags : At least 1
       - isNext : always `false`. `true` means the episode is the next one and should appear on the footer.
       - video : Facebook video id
+      - featured : default `false`, `true` will show the episode in the TOP EPISODE home page  Section 
 
 ```
 date: 2019-03-28
@@ -70,6 +71,7 @@ tags: ["open source", "dev"]
 isNext: false
 video: "2254365704624093"
 published: true
+featured: false
 audio:
 
 ```
@@ -96,7 +98,7 @@ In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk
 
 #### Notes :
 
-In the Notes section, you need to collect the most important part of the episode and try to find the right title for it.
+In the Notes section, you need to collect the most important part of the episode and try to find the right title for it using  this format : `h:min - title `
 
 ```
 0:00 - Intro
@@ -118,9 +120,13 @@ In the Notes section, you need to collect the most important part of the episode
 - [Reactjs](https://reactjs.org)
 -....
 ```
+
 #### Prepared and Presented by
+
+```
 - [name](https://example1.com)
 - [name 2](https://example2.com)
+```
 
 In the end, the episode markdown file should look like : 👇
 
@@ -160,7 +166,7 @@ h:min - title
 - [Reactjs](https://reactjs.org)
 -....
 
-Prepared and Presented by
+## Prepared and Presented by
 - [name](https://example1.com)
 - [name 2](https://example2.com)
 
