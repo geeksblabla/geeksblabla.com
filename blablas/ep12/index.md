@@ -14,9 +14,9 @@ On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed
 
 ## Notes
 
-0:25 - Introduction : Mohammed / Soufian announcing upcoming community events
+00:25 - Introduction : Mohammed / Soufian announcing upcoming community events
 
-9:55 - Welcoming to the new season
+09:55 - Welcoming to the new season
 
 10:50 - What is the definition of DevOps ?
 
@@ -34,17 +34,17 @@ On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed
 
 59:51 Build (Toolchain)
 
-01:03:50 Test (Toolchain)
+01:03 Test (Toolchain)
 
-01:19:32 Packaging (Toolchain)
+01:19 Packaging (Toolchain)
 
-01:25:09 Releasing (Toolchain)
+01:25 Releasing (Toolchain)
 
-01:29:34 Configuration (Toolchain)
+01:29 Configuration (Toolchain)
 
-01:37:16 Monitoring (Toolchain)
+01:37 Monitoring (Toolchain)
 
-01:45:00 Questions
+01:45 Questions
 
 ## Links
 
