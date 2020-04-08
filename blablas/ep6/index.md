@@ -24,37 +24,37 @@ On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite
 
 ## Notes
 
-01:18 - Guests presentation
+00:01 - Guests presentation
 
-04:50 - Difference between AI and Machine learning
+00:04 - Difference between AI and Machine learning
 
-08:44 - Why using Machine learning and not just use if statements ?
+00:08 - Why using Machine learning and not just use if statements ?
 
-13:50 - Difference between machine learning and data mining + Difference between AI and big data.
+00:13 - Difference between machine learning and data mining + Difference between AI and big data.
 
-17:45 - When machine learning and AI was first introduced. What is the cause of the interest on these subjects in the recent years ?
+00:17 - When machine learning and AI was first introduced. What is the cause of the interest on these subjects in the recent years ?
 
-25:17 - What are the most affected industries ?
+00:25 - What are the most affected industries ?
 
-29:15 - Are recommanded system that Ahmed is working on content-based or collaborative filtering ?
+00:29 - Are recommanded system that Ahmed is working on content-based or collaborative filtering ?
 
-30:45 - Singularity ?
+00:30 - Singularity ?
 
-35:52 - Social impact of AI ?
+00:35 - Social impact of AI ?
 
-38:50 - Question for Ahmed. How can you recommand content for new users without using tracking ?
+00:38 - Question for Ahmed. How can you recommand content for new users without using tracking ?
 
-40:50 - Recommanded materials to start learning.
+00:40 - Recommanded materials to start learning.
 
-55:22 - Is it required to have a powerful computer to start practising machine learning ?
+00:55 - Is it required to have a powerful computer to start practising machine learning ?
 
-58:44 - Futur of AI Engineering, machine-learning engineering in the world and particularly in Morocco ?
+00:58 - Futur of AI Engineering, machine-learning engineering in the world and particularly in Morocco ?
 
-01:05:00 - Will Machine learning replace developers ?
+01:05 - Will Machine learning replace developers ?
 
-01:09:30 - AI Frameworks ?
+01:09 - AI Frameworks ?
 
-01:13:35 - Final words and goodbye.
+01:13 - Final words and goodbye.
 
 ## Links
 
