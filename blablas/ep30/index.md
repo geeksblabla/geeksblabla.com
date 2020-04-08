@@ -28,11 +28,9 @@ In this episode of GeeksBlabla, we discuss remote working for developers, How to
 
 0:05 - What is working remotely?
 
-0:10- Working remotely vs working from Home (during COVID-19).
+0:10 - Working remotely vs working from Home (during COVID-19).
 
 0:15 - Why did you choose to work remote and when did you start it?
-
-0:15- Why did you choose to work remote and when did you start it?
 
 0:20 - Challenges for remote developers.
 
@@ -50,7 +48,7 @@ In this episode of GeeksBlabla, we discuss remote working for developers, How to
 
 1:05 - Legal requirements for a remote developer and Understanding company taxation in Morocco.
 
-1:21- Q/A
+1:21 - Q/A
 
 1:33 - Resources & Tools
 
