@@ -7,7 +7,7 @@ export default {
   h2: ({ children, ...props }) => <h4 {...props}>{children}</h4>,
   h3: ({ children, ...props }) => <h4 {...props}>{children}</h4>,
   p: ({ children, ...props }) => {
-    const regex = /[0-9]{1,2}:[0-9]{1,2}/
+    const regex = /[0-9]{1,2}:[0-9]{1,2}(:[0-9]{1,2})?/
 
     let time, seconds, text
 
@@ -18,13 +18,15 @@ export default {
         let timeArray = time[0].split(":")
         seconds =
           parseInt(timeArray[0], 10) * 3600 + parseInt(timeArray[1], 10) * 60
+
+        if(timeArray[2]) {seconds += parseInt(timeArray[2],10)  }
         text = children.slice(time[0].length, children.length)
       }
     }
 
     return (
       <p {...props}>
-        {time && <a href={`#${seconds}`}>{time}</a>}
+        {time && <a href={`#${seconds}`}>{time[0]}</a>}
         {text ? text : children}
       </p>
     )
