@@ -218,6 +218,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "zakariaelas",
+      "name": "Zakaria El Asri",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33696020?v=4",
+      "profile": "https://github.com/zakariaelas",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 5,
