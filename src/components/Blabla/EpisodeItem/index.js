@@ -17,7 +17,7 @@ export default ({ title, date, slug, duration, active }) => (
     <div>
       <h2>{title}</h2>
       <p>
-        {duration} | {date}
+        {parseInt(duration.split(':')[0])}:${duration.split(':')[1]}} | {date}
       </p>
     </div>
   </Link>

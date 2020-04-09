@@ -218,6 +218,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "khalilbenachir",
+      "name": "BENACHIR KHALIL",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39462325?v=4",
+      "profile": "https://github.com/khalilbenachir",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 5,
