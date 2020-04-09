@@ -15,31 +15,31 @@ On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amin
 
 ## Notes
 
-02:06 - Introduction
+00:02 - Introduction
 
-07:03 - Codebase
+00:07 - Codebase
 
-13:03 - Dependencies
+00:13 - Dependencies
 
-20:40 - Config
+00:20 - Config
 
-24:40 - Backing Services
+00:24 - Backing Services
 
-30:26 - Build, release, run
+00:30 - Build, release, run
 
-34:05 - Processes
+00:34 - Processes
 
-39:38 - Port Binding
+00:39 - Port Binding
 
-44:36 - Concurrency
+00:44 - Concurrency
 
-55:05 - Disposability
+00:55 - Disposability
 
-58:05 - Dev/prod parity
+00:58 - Dev/prod parity
 
-01:03:28 - Logs
+01:03 - Logs
 
-01:10:26 - Admin processes
+01:10 - Admin processes
 
 ## Links
 

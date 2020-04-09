@@ -14,37 +14,37 @@ On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed
 
 ## Notes
 
-0:25 - Introduction : Mohammed / Soufian announcing upcoming community events
+00:00 - Introduction : Mohammed / Soufian announcing upcoming community events
 
-9:55 - Welcoming to the new season
+00:09 - Welcoming to the new season
 
-10:50 - What is the definition of DevOps ?
+00:10 - What is the definition of DevOps ?
 
-17:18 - Can we use DevOps on any industry context ?
+00:17 - Can we use DevOps on any industry context ?
 
-22:04 - Good resource for understanding DevOps ( Book : Effective DevOps)
+00:22 - Good resource for understanding DevOps ( Book : Effective DevOps)
 
-28:53 - What is the principal DevOps process/Workflow/toolchain used in software engineering ?
+00:28 - What is the principal DevOps process/Workflow/toolchain used in software engineering ?
 
-37:13 Code (Toolchain)
+00:37 - Code (Toolchain)
 
-47:53 IDE (Toolchain)
+00:47 - IDE (Toolchain)
 
-52:05 How automatically deploy angular app ?
+00:52 - How automatically deploy angular app ?
 
-59:51 Build (Toolchain)
+00:59 - Build (Toolchain)
 
-01:03:50 Test (Toolchain)
+01:03 - Test (Toolchain)
 
-01:19:32 Packaging (Toolchain)
+01:19 - Packaging (Toolchain)
 
-01:25:09 Releasing (Toolchain)
+01:25 - Releasing (Toolchain)
 
-01:29:34 Configuration (Toolchain)
+01:29 - Configuration (Toolchain)
 
-01:37:16 Monitoring (Toolchain)
+01:37 - Monitoring (Toolchain)
 
-01:45:00 Questions
+01:45 - Questions
 
 ## Links
 
