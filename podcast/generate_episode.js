@@ -1,5 +1,7 @@
 const path = require("path")
 const fs = require("fs")
+const fm = require("front-matter")
+
 const { exec } = require("child_process")
 const Parser = require("rss-parser")
 const showdown = require("showdown")
@@ -7,7 +9,7 @@ const showdown = require("showdown")
 const parser = new Parser()
 const converter = new showdown.Converter()
 converter.setOption("metadata", true)
-const logMessage = msg =>
+const logMessage = (msg) =>
   console.log(`****************************${msg}****************************`)
 
 const generateMissedEpisode = async () => {
@@ -20,19 +22,23 @@ const generateMissedEpisode = async () => {
     // Generate Episode from Markdown File
     logMessage("Start: Generate Episode")
     const missedEpisodeFile = `../blablas/ep${AnchorEpisodes.items.length}/index.md`
-    let data = ""
+    let fileContent = ""
     try {
-      data = fs.readFileSync(path.resolve(__dirname, missedEpisodeFile), "utf8")
+      fileContent = fs.readFileSync(
+        path.resolve(__dirname, missedEpisodeFile),
+        "utf8"
+      )
     } catch (error) {
       console.log(error)
       logMessage("No New Episode")
       return
     }
 
-    const description = converter.makeHtml(data)
-    const meta = converter.getMetadata()
-    const title = meta.title.replace(/&quot;/g, "")
-    const videoUrl = `https://www.facebook.com/${meta.video.replace(
+    const description = converter.makeHtml(fileContent)
+    // read file meta
+    const meta = fm(fileContent)
+    const title = meta.attributes.title.replace(/&quot;/g, "")
+    const videoUrl = `https://www.facebook.com/${meta.attributes.video.replace(
       /&quot;/g,
       ""
     )}`

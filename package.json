@@ -32,7 +32,6 @@
     "apollo-boost": "^0.4.7",
     "apollo-link-context": "^1.0.19",
     "auth0-js": "^9.12.1",
-    "cypress": "^4.3.0",
     "emotion": "^10.0.27",
     "gatsby": "^2.18.17",
     "gatsby-image": "^2.2.37",
@@ -73,16 +72,18 @@
   },
   "devDependencies": {
     "all-contributors-cli": "^6.11.2",
+    "cypress": "^4.3.0",
     "cypress-file-upload": "^4.0.4",
     "cypress-wait-until": "^1.6.1",
     "eslint-plugin-graphql": "^3.1.1",
+    "front-matter": "^3.1.0",
     "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-sentry": "^1.0.1",
-    "rss-parser": "^3.7.6",
-    "showdown": "^1.9.1",
     "husky": "^4.2.3",
     "prettier": "^2.0.4",
-    "prettier-quick": "0.0.5"
+    "pretty-quick": "^2.0.1",
+    "rss-parser": "^3.7.6",
+    "showdown": "^1.9.1"
   },
   "keywords": [
     "gatsby"
