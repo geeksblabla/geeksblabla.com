@@ -31,7 +31,7 @@
     "@mdx-js/tag": "^0.20.3",
     "apollo-boost": "^0.4.7",
     "apollo-link-context": "^1.0.19",
-    "auth0-js": "^9.12.1",
+    "auth0-js": "^9.13.2",
     "emotion": "^10.0.27",
     "gatsby": "^2.18.17",
     "gatsby-image": "^2.2.37",
