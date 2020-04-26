@@ -2,7 +2,7 @@
 date: 2020-04-24
 time: 20h:00min
 duration: "01:58:42"
-title: "MSS withMouhsine Lakhdissi"
+title: "MSS with Mouhsine Lakhdissi"
 tags: ["MSS", "entrepreneurship"]
 isNext: false
 video: "530406154307944"
@@ -16,7 +16,7 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 ## Guests
 
-[Mouhssine LAkhdissi](https://www.facebook.com/mouhsine.lakhdissi)
+[Mouhssine Lakhdissi](https://www.facebook.com/mouhsine.lakhdissi)
 
 
 ## Notes
