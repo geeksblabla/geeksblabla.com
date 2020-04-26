@@ -2,7 +2,7 @@
 date: 2020-04-24
 time: 20h:00min
 duration: "01:58:42"
-title: "MSS: Mouhsine Lakhdissi"
+title: "MSS Mouhsine Lakhdissi"
 tags: ["MSS", "entrepreneurship"]
 isNext: false
 video: "530406154307944"
