@@ -31,9 +31,8 @@ context("Actions", () => {
     cy.waitUntil(
       () =>
         cy
-          .get("span")
+          .get("button")
           .contains("Save episode")
-          .parents("button")
           .then($el => $el.attr("disabled") !== "disabled"),
       {
         errorMsg: "Upload issue",
@@ -44,9 +43,8 @@ context("Actions", () => {
 
     cy.wait(6000)
 
-    cy.get("span")
+    cy.get("button")
       .contains("Save episode")
-      .parents("button")
       .click()
 
     // Add Title and Description
