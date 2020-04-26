@@ -49,13 +49,13 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 1:34 - Can you tell us more about the digitalization of agriculture.
 
-1:48 - Can you tell us about “MIDAD” project, the intelligent mask that were developed during COVID19 crisis
+1:38 - Can you tell us about “MIDAD” project, the intelligent mask that were developed during COVID19 crisis
 
-1:58 - What's the future involvement of CNDP with this project?
+1:48 - What's the future involvement of CNDP with this project?
 
-2:04 - How can we boost the e-learning in Morocco?
+1:52 - How can we boost the e-learning in Morocco?
 
-2:08 - Some advices for moroccan entrepreneurs.
+1:58 - Some advices for moroccan entrepreneurs.
 
 
 
