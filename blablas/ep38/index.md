@@ -58,4 +58,4 @@ In this episode of GeeksBlabla, we discuss the success story for two  young wome
 
 - [EU Blue Card](https://www.make-it-in-germany.com/en/visa/kinds-of-visa/eu-blue-card/)
 
-- [Meriam blog ](https://medium.com/@MeriamKharbat)
+- [Meriam blog](https://medium.com/@MeriamKharbat)
