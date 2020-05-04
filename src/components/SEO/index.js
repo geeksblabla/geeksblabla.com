@@ -8,7 +8,7 @@ import SchemaOrg from "./SchemaOrg"
 import config from "../../../config/website"
 
 const socialImage = (title, tags) => {
-  const titleFontSize = parseInt(101 - title.length * 0.8)
+  const titleFontSize = parseInt(101 - title.length * 0.84)
   return getShareImage({
     title: title,
     tagline: tags.map(tag => `#${tag}`).join(" "),
