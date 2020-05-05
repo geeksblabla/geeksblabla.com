@@ -27,12 +27,14 @@ context("Actions", () => {
       }
     )
 
+    cy.wait(6000) // To Make sure Upload has been started
+
     cy.waitUntil(
       () =>
         cy
           .get("button")
           .contains("Save episode")
-          .then(($el) => $el.attr("disabled") !== "disabled"),
+          .then(($el) => !$el.prop("disabled")),
       {
         errorMsg: "Upload issue",
         timeout: 3600000, // Max upload time is One hour
