@@ -17,11 +17,12 @@ const generateMissedEpisode = async () => {
   const AnchorEpisodes = await parser.parseURL(
     "https://anchor.fm/s/88e3048/podcast/rss"
   )
+  const epNum = AnchorEpisodes.items.length
   logMessage("End: Get Anchor Episode ")
   try {
     // Generate Episode from Markdown File
     logMessage("Start: Generate Episode")
-    const missedEpisodeFile = `../blablas/ep${AnchorEpisodes.items.length}/index.md`
+    const missedEpisodeFile = `../blablas/ep${epNum}/index.md`
     let fileContent = ""
     try {
       fileContent = fs.readFileSync(
@@ -37,7 +38,7 @@ const generateMissedEpisode = async () => {
     const description = converter.makeHtml(fileContent)
     // read file meta
     const meta = fm(fileContent)
-    const title = meta.attributes.title.replace(/&quot;/g, "")
+    const title = `#${epNum} - ${meta.attributes.title.replace(/&quot;/g, "")}`
     const videoUrl = `https://www.facebook.com/${meta.attributes.video.replace(
       /&quot;/g,
       ""
