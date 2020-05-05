@@ -49,6 +49,8 @@ const generateMissedEpisode = async () => {
     logMessage("End: Generate Episode")
     logMessage("Start: Download Episode ")
     const youtubeDlCommand = `youtube-dl -o ${basePath}/cypress/fixtures/episode.m4a  -f 'bestaudio[ext=m4a]' '${videoUrl}'`
+    //const youtubeDlCommand = `youtube-dl -o ${basePath}/cypress/fixtures/episode.m4a  -f 'bestaudio[ext=m4a]' 'https://www.facebook.com/387268192146679'`
+
     exec(youtubeDlCommand, (error, stdout, stderr) => {
       if (error) {
         console.log(`error: ${error.message}`)

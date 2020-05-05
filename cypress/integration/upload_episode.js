@@ -15,8 +15,7 @@ context("Actions", () => {
     // Upload File
     cy.contains("New Episode", { timeout: 60000 }).click()
     cy.wait(5000)
-
-    cy.contains("drop audio").attachFile(
+    cy.get("input[type=file]").parent().attachFile(
       {
         filePath: "episode.m4a",
         mimeType: "audio/m4a",
@@ -33,7 +32,7 @@ context("Actions", () => {
         cy
           .get("button")
           .contains("Save episode")
-          .then($el => $el.attr("disabled") !== "disabled"),
+          .then(($el) => $el.attr("disabled") !== "disabled"),
       {
         errorMsg: "Upload issue",
         timeout: 3600000, // Max upload time is One hour
@@ -43,17 +42,13 @@ context("Actions", () => {
 
     cy.wait(6000)
 
-    cy.get("button")
-      .contains("Save episode")
-      .click()
+    cy.get("button").contains("Save episode").click()
 
     // Add Title and Description
     cy.wait(5000)
-    cy.fixture("episode.json").then(episode => {
+    cy.fixture("episode.json").then((episode) => {
       cy.get("#title", { timeout: 60000 }).type(episode.title)
-      cy.get("span")
-        .contains("Switch to HTML")
-        .click()
+      cy.get("span").contains("Switch to HTML").click()
       cy.get("textarea[name=description]").type(episode.description)
     })
     cy.wait(1000)
