@@ -14,10 +14,13 @@ In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZO
 
 ## Guests
 
-- Amine MAAROUF
-- Maroua EZOUHRI
-- Smail EL AZIZI
-- Youssef EL AZIZI
+[Amine Maarouf](https://web.facebook.com/amiiiinema)
+
+[Youssouf EL Azizi](https://elazizi.com/)
+
+[Ismail EL Azizi](https://ismailelazizi.com/)
+
+[Maroua EZOUHRI](https://www.facebook.com/maroua.ezouhri.1)
 
 ## Notes
 
