@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblablas.com">
@@ -222,6 +222,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://kafil.xyz"><img src="https://avatars1.githubusercontent.com/u/15774583?v=4" width="180px;" alt=""/><br /><sub><b>Kafil</b></sub></a><br /><a href="#content-Kafiil" title="Content">🖋</a> <a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=Kafiil" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/zakariaelas"><img src="https://avatars1.githubusercontent.com/u/33696020?v=4" width="180px;" alt=""/><br /><sub><b>Zakaria El Asri</b></sub></a><br /><a href="#content-zakariaelas" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/nfaihi"><img src="https://avatars2.githubusercontent.com/u/36778362?v=4" width="180px;" alt=""/><br /><sub><b>Ahmed NFAIHI</b></sub></a><br /><a href="#content-nfaihi" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/arsokay90"><img src="https://avatars3.githubusercontent.com/u/12202186?v=4" width="180px;" alt=""/><br /><sub><b>arsokay90</b></sub></a><br /><a href="#content-arsokay90" title="Content">🖋</a></td>
   </tr>
 </table>
 
