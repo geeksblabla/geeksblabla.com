@@ -2,7 +2,7 @@
 date: 2018-06-09
 time: 20h
 duration: "2:00:40"
-title: "UX, UI & design principles."
+title: "UX, UI & design principles"
 tags: ["UX", "UI"]
 isNext: false
 video: "2151207101778310"
@@ -24,43 +24,43 @@ In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZO
 
 ## Notes
 
-0:00 - Intro.
+00:00 - Intro.
 
-2:57 - Flash news: Microsoft acquisition of github.
+00:2 - Flash news: Microsoft acquisition of github.
 
-15:00 - Who's Smail El Azizi?
+00:15 - Who's Smail El Azizi?
 
-17:20 - What's UX?
+00:17 - What's UX?
 
-19:10 - UX before UI, How much it's true?
+00:19 - UX before UI, How much it's true?
 
-26:58 - What are best tools to buil the UX and test it?
+00:26 - What are best tools to buil the UX and test it?
 
-28:45 - The process of UX.
+00:28 - The process of UX.
 
-35:25 - How much UI updates can infuence the UX?
+00:35 - How much UI updates can infuence the UX?
 
-38:44 - UX depends on the device, but not on the developpement tools (framworks,...).
+00:38 - UX depends on the device, but not on the developpement tools (framworks,...).
 
-41:14 - Can UX influence badely the SEO?
+00:41 - Can UX influence badely the SEO?
 
-45:52 - Examine the psychology of the user is important for UX.
+00:45 - Examine the psychology of the user is important for UX.
 
-47:38 - What's UI?
+00:47 - What's UI?
 
-55:00 - UX design tools: AdobeXD.
+00:55 - UX design tools: AdobeXD.
 
-59:59 - To be a good developper, should we be expert in UX/UI?
+00:59 - To be a good developper, should we be expert in UX/UI?
 
-1:07:57 - To be good at UI, should we be an artist?
+1:07 - To be good at UI, should we be an artist?
 
-1:15:36 - How we mesure contrast? Tools?
+1:15 - How we mesure contrast? Tools?
 
-1:19:31 - UI tools.
+1:19 - UI tools.
 
-1:27:00 - Advices to build a good UI.
+1:27 - Advices to build a good UI.
 
-1:32:40 - Best way to initiate in UX/UI domain : Best practices, Ressources and things to avoid.
+1:32 - Best way to initiate in UX/UI domain : Best practices, Ressources and things to avoid.
 
 ## Links
 
