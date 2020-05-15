@@ -2,6 +2,7 @@
 
 const email = Cypress.env("ANCHOR_EMAIL")
 const password = Cypress.env("ANCHOR_PASSWORD")
+Cypress.config("responseTimeout", 200000)
 
 context("Actions", () => {
   it("Upload Episode To Anchor.fm  ", () => {
