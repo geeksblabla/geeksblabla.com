@@ -12,7 +12,7 @@
 
   form {
     width: 400px;
-    background: $secondary-bg-color;
+    background: var(--secondary-bg-color);
     padding: 20px 20px;
     border-radius: 10px;
     position: sticky;
@@ -28,7 +28,7 @@
   }
 
   .input {
-    border: 1px solid $text-color; // rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--text-color); // rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     //border-radius: 15px;
     width: 100%;
@@ -47,10 +47,10 @@
       background-color: transparent;
       font-size: 16px;
       line-height: 24px;
-      color: $heading-color; // rgba(255, 255, 255, 0.6);
+      color: var(--heading-color); // rgba(255, 255, 255, 0.6);
       border: 0px;
       &::placeholder {
-        color: $text-color;
+        color: var(--text-color);
       }
     }
     .desc {
@@ -76,7 +76,7 @@
   .suggest-card {
     width: 100%;
     border-radius: 8px;
-    background: $secondary-bg-color; // rgba(255, 255, 255, 0.1);
+    background: var(--secondary-bg-color); // rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 16px;
     display: flex;

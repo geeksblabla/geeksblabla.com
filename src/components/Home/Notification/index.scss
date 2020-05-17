@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: $secondary-bg-color;
+  background: var(--main-bg-color);
   @include breakpoint(mobileonly) {
     padding: 6rem 0rem;
   }
@@ -15,7 +15,7 @@
 
     position: relative;
     z-index: 2;
-    background: $main-bg-color;
+    background: var(--main-bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@
     background-clip: padding-box;
     &::before {
       content: "";
-      background: #090a1e;
+      background: var(--notif-banner);
       top: -10px;
       height: 20px;
       width: 90%;

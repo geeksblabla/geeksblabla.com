@@ -1,8 +1,8 @@
 @import "styles/index";
 
 .footer {
-  background: $secondary-bg-color;
-  color: $text-color;
+  background: var(--main-bg-color);
+  color: var(--text-color);
   padding: 2rem;
   padding-bottom: 1rem;
   text-align: center;

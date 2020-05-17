@@ -1,12 +1,16 @@
-import React from "react"
+import React, { useContext } from "react"
+import { ThemeContext } from "../../Theme/ThemeContext"
 import { Link } from "gatsby"
 
 import PlayIcon from "assets/play.svg"
+import HeroImageLight from "assets/hero_light.svg"
 import HeroImage from "assets/hero.svg"
 import HeroImageMobile from "assets/hero_mobile.svg"
 import "./index.scss"
 
 export default () => {
+  const [theme] = useContext(ThemeContext)
+
   return (
     <div className="container hero">
       <div className="description">
@@ -24,8 +28,14 @@ export default () => {
           </Link> */}
         </div>
       </div>
-      <HeroImageMobile className="crea mobile-only" />
-      <HeroImage className="crea desktop-only" />
+      {theme === "dark" ? (
+        <>
+          <HeroImage className="crea desktop-only" />
+          <HeroImageMobile className="crea mobile-only" />
+        </>
+      ) : (
+        <HeroImageLight className="crea desktop-only" />
+      )}
     </div>
   )
 }

@@ -1,7 +1,6 @@
 @import "styles/index";
 
 .reviews {
-  background-image: url(../../../assets/patterns/3.back.svg);
   background-position-y: -1px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -11,10 +10,10 @@
   }
   //margin-top: 2rem;
   width: 100%;
-  background-color: #181942;
+  background-color: var(--main-bg-color);
   text-align: center;
   h5 {
-    color: $text-color;
+    color: var(--text-color);
     text-align: center;
     opacity: 0.5;
   }
@@ -64,7 +63,7 @@
     .back {
       margin-top: -35px;
       padding: 50px 10px 10px 10px;
-      background: #121334;
+      background: var(--secondary-bg-color);
       min-height: 60px;
       border-radius: 16px;
       min-height: 180px;
@@ -77,7 +76,7 @@
     .name {
       margin-top: 1rem;
       margin-bottom: 0rem;
-      color: $heading-color;
+      color: var(--heading-color);
     }
   }
 }

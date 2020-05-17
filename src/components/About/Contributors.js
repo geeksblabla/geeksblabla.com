@@ -1,5 +1,8 @@
-import React from "react"
+import React, { useContext } from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import patternDark from "assets/patterns/1.back.svg"
+import patternLight from "assets/patterns/4.back.svg"
+import { ThemeContext } from "../Theme/ThemeContext"
 
 const contributorsQuery = graphql`
   {
@@ -21,10 +24,19 @@ const contributorsQuery = graphql`
 `
 
 export default () => {
+  const [theme] = useContext(ThemeContext)
+
   const data = useStaticQuery(contributorsQuery)
   const contributors = data.allContributor.edges
   return (
-    <div className="contributors">
+    <div
+      className="contributors"
+      style={{
+        backgroundImage: `url(${
+          theme === "dark" ? patternDark : patternLight
+        })`,
+      }}
+    >
       {/* <h1>Contributors </h1> */}
       <h4 className="desc">
         Join our contributors family and help us coding, fixing bugs, writing

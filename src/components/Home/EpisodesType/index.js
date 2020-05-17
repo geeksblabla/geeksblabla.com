@@ -1,12 +1,24 @@
-import React from "react"
+import React, { useContext } from "react"
 // import { Link } from "gatsby"
+import MssLight from "assets/mss_light.svg"
 import Mss from "assets/mss.svg"
 import Tech from "assets/tech.svg"
+import TechLight from "assets/tech_light.svg"
 import "./index.scss"
+import pattern from "assets/patterns/5.back.svg"
+import patternDark from "assets/patterns/2.back.svg"
+import { ThemeContext } from "../../Theme/ThemeContext"
 
 export default () => {
+  const [theme] = useContext(ThemeContext)
+
   return (
-    <div className="episodes-types">
+    <div
+      className="episodes-types"
+      style={{
+        backgroundImage: `url(${theme === "dark" ? patternDark : pattern})`,
+      }}
+    >
       <div className="container">
         <div className="item reverse">
           <div>
@@ -17,10 +29,18 @@ export default () => {
               learned and knowledge with the Moroccan community.
             </p>
           </div>
-          <Mss className="crea" />
+          {theme === "dark" ? (
+            <Mss className="crea" />
+          ) : (
+            <MssLight className="crea" />
+          )}
         </div>
         <div className="item">
-          <Tech className="crea" />
+          {theme === "dark" ? (
+            <Tech className="crea" />
+          ) : (
+            <TechLight className="crea" />
+          )}
           <div>
             <h1> Tech Episodes </h1>
             <p>

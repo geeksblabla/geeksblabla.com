@@ -1,5 +1,6 @@
 // import { ToggleMode } from "components/Mode"
 import React from "react"
+import ThemeToggle from "components/Theme/ThemeToggle"
 import { Link } from "gatsby"
 import Spotify from "assets/spotify.svg"
 import ApplePodcast from "assets/apple-podcast.svg"
@@ -39,6 +40,7 @@ export default ({ id }) => (
     >
       About
     </Link>
+
     <a
       href="https://open.spotify.com/show/0UlTBXh7iH6x0HO6FgYzAD"
       target="_blank"
@@ -67,5 +69,6 @@ export default ({ id }) => (
       />
     </a>
     {/* <ToggleMode id={id} /> */}
+    <ThemeToggle />
   </>
 )

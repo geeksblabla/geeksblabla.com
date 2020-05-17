@@ -1,6 +1,9 @@
-import React from "react"
+import React, { useContext } from "react"
 import { navigate, useStaticQuery, graphql } from "gatsby"
+import { ThemeContext } from "../../Theme/ThemeContext"
 import "./index.scss"
+import patternLight from "assets/patterns/4.back.svg"
+import patternDark from "assets/patterns/1.back.svg"
 
 const FEATURED_EPISODES = graphql`
   {
@@ -30,11 +33,20 @@ const colors = [
 ]
 
 export default () => {
+  const [theme] = useContext(ThemeContext)
+
   const {
     allMdx: { edges },
   } = useStaticQuery(FEATURED_EPISODES)
   return (
-    <div className="top-episodes">
+    <div
+      className="top-episodes"
+      style={{
+        backgroundImage: `url(${
+          theme === "dark" ? patternDark : patternLight
+        })`,
+      }}
+    >
       <div className="container">
         <h2>Top episodes</h2>
         <div className="episodes">
@@ -53,7 +65,7 @@ export default () => {
 }
 
 const EpisodeCard = ({ title, description, slug, item }) => {
-  const navigateTo = e => {
+  const navigateTo = (e) => {
     if (e.keyCode === 13) navigate(slug)
   }
 

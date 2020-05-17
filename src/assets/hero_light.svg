@@ -1,0 +1,744 @@
+<svg width="702" height="501" viewBox="0 0 702 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group 220">
+    <g id="bgs" fill="#E8E9F7">
+      <path id="Rectangle 79" d="M494 59c0-10 7-18 16-20L713 4c12-2 23 8 23 20v453c0 12-11 22-23 20l-203-35c-9-2-16-10-16-20V59z"/>
+      <path id="Rectangle 91" d="M494 59c0-10 7-18 16-20L713 4c12-2 23 7 23 20v453c0 12-11 21-23 19l-203-35c-9-1-16-10-16-19V59z"/>
+      <path id="Rectangle 80" d="M298 94c0-9 6-17 16-19l124-26c12-3 24 7 24 19v363c0 12-12 22-24 19l-124-26c-10-2-16-10-16-19V94z"/>
+      <path id="Rectangle 83" d="M43 152c0-9 6-17 15-19l54-15c13-3 25 7 25 20v239c0 13-12 23-25 19l-54-14c-9-3-15-11-15-20V152z"/>
+      <path id="Rectangle 81" d="M151 278c0-11 9-20 20-20h85c11 0 20 9 20 20v121c0 12-11 21-23 19l-86-15c-9-1-16-10-16-19V278z"/>
+      <path id="Rectangle 82" d="M151 125c0-9 6-17 16-19l86-17c12-3 23 6 23 19v113c0 11-9 20-20 20h-85c-11 0-20-9-20-20v-96z"/>
+    </g>
+    <g id="place01">
+      <mask id="mask0" maskUnits="userSpaceOnUse" x="493" y="3" width="243" height="494">
+        <path id="Rectangle 84" d="M494 59c0-10 7-18 16-20L713 4c12-2 23 7 23 20v453c0 12-11 21-23 19l-203-35c-9-1-16-10-16-19V59z" fill="#fff"/>
+      </mask>
+      <g mask="url(#mask0)">
+        <g id="character">
+          <g id="Group 228">
+            <g id="Vector 219">
+              <path d="M546 431l1 4a45 45 0 0010-12l3-6c-14 0-21-11-12-13 7-1 12 7 13 12a55 55 0 004-13c-5 0-14-1-12-10 2-8 9 2 12 8l1-8c-6-23 9-28 9-15 0 11-6 15-9 15a59 59 0 01-3 16c4-6 12-16 18-9 9 9-12 15-18 11a55 55 0 01-6 12c2-3 18-12 20-2s-17 9-22 6l-8 8-1-4-7-11c3 4-21 10-19 0 2-8 13-5 18-2l-4-9c-5 5-26-1-20-8 6-5 15 2 19 6a119 119 0 01-4-10c-6 0-18-4-16-14 3-13 18 7 16 14l1 2c0-3 2-10 8-10 7 0 1 9-8 10l3 8c0-3 0-9 5-9s2 11-4 11a135 135 0 0012 22 206 206 0 01-3-46c-9 3-10-3-10-7 7 0 9 5 10 7l1-5c-3-2-7-9 1-17 3 2 8 9-1 17l-1 5-1 8c0-3 3-10 11-14 10-5 10 13-11 14 0 12 2 28 4 38z" fill="#D9DBF0"/>
+              <path d="M545 436l2-1m19-42l-1 8m1-8c3 0 9-4 9-15 0-13-15-8-9 15zm-19 42l-1-4m1 4l8-8m-11-47c-3-2-7-9 1-17 3 2 8 9-1 17zm0 0l-1 5m3 46l-7-11m7 11c-2-10-4-26-4-38m-13 4l1 2m-1-2c-6 0-18-4-16-14 3-13 18 7 16 14zm9 21c-5-3-16-6-18 2-2 10 22 4 19 0m-1-2l1 2m-1-2l-4-9m-1-2c-4-4-13-11-19-6-6 7 15 13 20 8m-1-2l1 2m-1-2c0-3 0-9 5-9s2 11-4 11m-1-2l-3-8m27 24c2-3 18-12 20-2s-17 9-22 6m2-4l-2 4m2-4l3-6m3-8c4-6 12-16 18-9 9 9-12 15-18 11m0-2v2m0-2l2-6m-2 8l-2 5m0 0c-1-5-6-13-13-12-9 2-2 13 12 13m1-1l-1 1m5-14c-5 0-14-1-12-10 2-8 9 2 12 8m0 2v-2m-23-8c0-3 3-10 11-14 10-5 10 13-11 14zm0 0l1-8m-13 14c0-3 2-10 8-10 7 0 1 9-8 10zm13-14c-1-2-3-7-10-7 0 4 1 10 10 7z" stroke="#D7D9EE"/>
+            </g>
+            <rect id="Rectangle 97" x="531.1" y="431.8" width="33.6" height="49.2" rx="3.9" fill="#D9DBF0"/>
+          </g>
+          <g id="Group 200">
+            <path id="Vector 217" d="M696 460c-1-4-12-11-15-12 1-6 4-16 10-10 7 9 12 11 14 15 1 5-5 20-7 20-3 0 0-10-2-13z" fill="#F4A392"/>
+            <path id="Vector 218" d="M659 460c-1-4-13-11-15-12 1-6 4-16 10-10 6 9 12 11 13 15 2 5-4 20-7 20s0-10-1-13z" fill="#F4A392"/>
+            <path id="Vector" d="M689 453c-2 0-114-48-89-82 9-10 64-17 64-17l3 20-31 4s17 0 31 28c10 21 24 30 29 36 1 2 2 5 0 8s-4 3-7 3z" fill="#B0B4D2"/>
+            <path id="Vector_2" d="M719 349v3c4 15 2 31-19 43-16 8-67 0-67 0-1 13 37 49 29 57-2 1-4 3-10 2s-34-28-44-42c-10-15-20-29-10-40 11-14 44-12 71-18 14 2 39-3 50-5z" fill="#C9CCE4"/>
+            <path id="Vector 163" d="M614 299c3 1 9 1 8-3v-4c0-6-3-16-5-19s-1 5-1 7-4-4-10-4-8 0-6 5 8 8 9 10l5 8z" fill="#F6B9AD"/>
+            <path id="Vector_3" d="M652 323c6 0 12-54 17-56 5-1 6 56 6 56s-7 25-21 26c-13 0-38-45-39-49-2-5 5-10 8-7 2 4 24 30 29 30z" fill="#F6B9AD"/>
+            <path id="Vector 213" d="M717 280c-6-13-21-21-23-24-4-2-12-2-20 5-16 12-16 47-18 64s-20 33-14 38c7 5 49 10 60 9s12 17 21 6c8-12 2-82-6-98z" fill="#fff"/>
+            <path id="Vector 126" d="M674 264c-1 3-4 15 0 15l20-20v-6l1-11-19 8-2 14z" fill="#F6B9AD"/>
+            <path id="Vector 74" d="M676 259c10 1 17-5 20-8 4 0 5-3 5-7l1-16-35-10c2 1 5 6 4 16-2 12-1 24 5 25z" fill="#FFCBC0"/>
+            <path id="Vector 75" d="M669 230l2 5c-1-6 1-8 2-8 3 4 11 5 15 4-1 7 3 10 5 10l1 4c1-1 2-4 4-4 3 0 3 2 3 3 11-10 6-18 3-21 0-13-18-15-26-9-7 4-14 2-16 0-1 5 2 8 4 10l-4-1c0 3 5 6 7 7z" fill="#363983"/>
+            <path id="Vector 165" d="M618 343l13 2 3-7-4-4c-2-2-8-7-12-8s-3 2-2 2l6 4c-1 1-10-3-16 2s8 9 12 9z" fill="#FFCBC0"/>
+            <path id="Vector_4" d="M630 345c2 1 41 22 56 16 8-3 15-17 20-31-4 0-14 0-24-8l-5 19c-2 0-42-7-45-6-4 1-5 9-2 10z" fill="#FFCBC0"/>
+            <path id="Vector 124" d="M682 318c0-9 0-24 2-31 5-16 21-14 26-8" stroke="#C7C8EE" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect id="Rectangle 94" x="704.8" y="395.1" width="3.9" height="111" rx="1.9" fill="#4A4C96"/>
+            <rect id="Rectangle 95" x="667.4" y="395.1" width="3.9" height="111" rx="1.9" fill="#4A4C96"/>
+            <path id="Rectangle 96" fill="#4A4C96" d="M670 474h39v4h-39z"/>
+            <rect id="Rectangle 93" x="657.1" y="391.2" width="65.8" height="7.7" rx="3.9" fill="#5659A5"/>
+          </g>
+          <g id="Group 177">
+            <path id="Vector 200" d="M533 254l11 43-12 13c-1 2-6 3-8 4l-14-53v-6l23-1z" fill="#4A4C96"/>
+            <path id="Vector 199" d="M544 297l-17 16 47 23 13 4v-27l-43-16z" fill="#5659A5"/>
+            <path id="Vector 198" d="M507 255h3l17 58 60 27-2 3-62-27-16-61z" fill="#434589"/>
+            <g id="Union" filter="url(#filter0_f)">
+              <path d="M531 334l30 12-5 5-26-10 1-7z" fill="#B9BCDD"/>
+            </g>
+            <g id="Union_2" fill-opacity=".5">
+              <path d="M544 297l-17 16 170-84-153 68z" fill="url(#paint0_linear)"/>
+              <path d="M510 255l17 58 17-16-11-43-23 1z" fill="url(#paint1_linear)"/>
+              <path d="M544 297l153-68-164 25 11 43z" fill="url(#paint2_linear)"/>
+              <path d="M510 255l23-1 164-25-187 26z" fill="url(#paint3_linear)"/>
+            </g>
+          </g>
+          <g id="Group 227">
+            <g id="Vector 271" filter="url(#filter1_d)">
+              <path d="M651 195v33c-3-8-19-12-33-12h-49c-16-1-24-8-24-21 0-12 6-19 19-19h64c16 1 23 6 23 19z" fill="#fff"/>
+            </g>
+            <rect id="Rectangle 106" width="84" height="2" rx="1" transform="matrix(-1 0 0 1 642 188)" fill="#121334"/>
+            <rect id="Rectangle 107" width="67" height="2" rx="1" transform="matrix(-1 0 0 1 642 195)" fill="#121334"/>
+            <rect id="Rectangle 108" width="40" height="2" rx="1" transform="matrix(-1 0 0 1 642 202)" fill="#121334"/>
+          </g>
+        </g>
+        <g id="Group 174">
+          <path id="Vector 201" d="M806 176L493 45l14-68h282l17 199z" fill="url(#paint4_linear)"/>
+        </g>
+      </g>
+    </g>
+    <g id="place02" opacity=".9">
+      <mask id="mask1" maskUnits="userSpaceOnUse" x="297" y="48" width="165" height="403">
+        <path id="Rectangle 84_2" d="M298 94c0-9 6-17 16-19l124-26c12-3 24 7 24 19v363c0 12-12 22-24 19l-124-26c-10-2-16-10-16-19V94z" fill="#fff"/>
+      </mask>
+      <g mask="url(#mask1)">
+        <path id="Vector 201_2" d="M547 189L234 58l14-68h282l17 199z" fill="url(#paint5_linear)"/>
+        <g id="character_2">
+          <g id="Group 226">
+            <path id="Vector 264" d="M322 372c-11-2-23-34-16-51 9-15 30-7 33-5 3 1 28 26 31 30 4 4-1 20-1 26-1 5-2 6-5 6l-42-6z" fill="#6F709A"/>
+            <ellipse id="Ellipse 68" cx="339.7" cy="420.4" rx="20.5" ry="2.2" transform="rotate(4 340 420)" fill="#9798C4"/>
+            <path id="Rectangle 100" fill="#9798C4" d="M339 374h5v47h-5z"/>
+            <path id="Vector 256" d="M404 409l-5-15c0-2 4-1 4-1l7 8c4 3 8 0 10 0s1 3-1 5c-3 3-13 5-15 3z" fill="#FDCEC5"/>
+            <path id="Vector 139" d="M386 413c-5-2-7-7-8-9l-4-3c0 5-2 14 1 16 2 1 16 4 19 2s-2-4-8-6z" fill="#FDCEC5"/>
+            <path id="Vector 258" d="M381 401c0 2 0 7-5 7-3 0-4-11-4-19l2-16-35-4c-3 0 8-13-4-13-10-1-3-14 2-20l18 1 1 9c1 2 18 4 29 5s6 18 3 23l-7 27z" fill="#7C80D3"/>
+            <path id="Vector 257" d="M404 390c1 5 2 10-4 9-3-5-11-16-12-20-2-5 2-6 0-18-2-11-29 7-43 9-13 1-21-4-22-14-2-11 5-19 8-22 3-2 14-2 10 3-5 6 1 8 4 8 2 0 33-3 41 0s17 41 18 45z" fill="#B3B6F8"/>
+            <path id="Vector 265" d="M317 345c-4-1-7-6-14-7v1c0 16 5 34 13 36 11 2 46 3 49 3s3-1 4-6l-24-2c-6 0-5-2-7-3-2-9-16-22-21-22z" fill="#8384B8"/>
+            <path id="Vector 149" d="M325 294c1 6 6 16 12 17 11-1 29-8 31-16 2-10-6-12-7-17-2-5 3-4 0-12-4-7-14-13-25-7-10 6-7 18-7 22 1 4-5 5-4 13z" fill="#363983"/>
+            <path id="Vector 142" d="M338 290c-8 0-12 11-14 17 2 9 5 29 4 32s28 12 30 3c2-8 1-3-1-11-1-7 0-11 2-12s6-4 2-16c-4-13-13-14-23-13z" fill="#fff"/>
+            <path id="Vector 268" d="M365 318l-1-7-8 6c0 3 0 9 3 10s19-5 22-6l16-7c2-1 3-6 1-7-3 0-8 5-9 4v-5c-1-1-2 6-4 7-1 1-14 6-20 5z" fill="#F6B9AD"/>
+            <path id="Vector 150" d="M344 274c-5 2-2 2-1 6v2l3 4 5 1c7-2 6-14 4-16-1-3-7 2-11 3z" fill="#FFCBC0"/>
+            <path id="Vector 156" d="M341 291c1 5 6 10 11 9 3 0 2-7 1-9-2-1-2-3-2-4l-5-1-3-4-2 9z" fill="#F6B9AD"/>
+            <rect id="Rectangle 101" x="361.7" y="339.5" width="86.3" height="4.4" rx="2.2" fill="#5659A5"/>
+            <rect id="Rectangle 102" x="370.1" y="340.9" width="4.4" height="85.3" rx="2.2" fill="#5659A5"/>
+            <rect id="Rectangle 103" x="433.7" y="340.4" width="4.4" height="85.3" rx="2.2" fill="#5659A5"/>
+            <g id="Group 212">
+              <path id="Rectangle 105" d="M378 338l18-5c3 0 5 4 3 6h-21v-1z" fill="#2E3078"/>
+              <path id="Rectangle 104" d="M400 314l4-2 26-1c4 0 6 4 4 8l-9 17c0 2-2 3-4 3h-25c-4 0-7-4-5-7l9-18z" fill="#363983"/>
+              <ellipse id="Ellipse 69" cx="415.4" cy="327.7" rx="2.5" ry="3" transform="rotate(11 415 328)" fill="#6264A5"/>
+            </g>
+            <path id="Vector 269" d="M338 327c-2 0-2-10-2-16-3-4-11-4-11-4-1 1 0 25 4 27s27 0 34-2c5-1 10-3 11-5l-6-3c-3 0-6 6-12 4-5-3-16-2-18-1z" fill="#FFCBC0"/>
+          </g>
+          <g id="Group 225">
+            <g id="Vector 270" filter="url(#filter2_d)">
+              <path d="M440 278h-73c2 0 11-9 11-14s3-11 7-11h55c5 1 9 6 10 12 0 7-3 13-10 13z" fill="#fff"/>
+            </g>
+            <rect id="Rectangle 106_2" x="390" y="259" width="51" height="2" rx="1" fill="#292A48"/>
+            <rect id="Rectangle 107_2" x="390" y="265" width="41" height="2" rx="1" fill="#292A48"/>
+            <rect id="Rectangle 108_2" x="390" y="271" width="24" height="2" rx="1" fill="#292A48"/>
+          </g>
+        </g>
+        <g id="lamp" opacity=".9">
+          <path id="Vector 205" d="M381 135c5 3 37 4 43-1-1-2-7-5-21-4-18 1-22 3-22 5z" fill="#6769B3"/>
+          <path id="Vector 203" d="M405 68v41" stroke="#9294C0"/>
+          <path id="Vector 204" d="M381 135c-2 0-3-4 7-12l17-15 1 1c5 4 21 20 19 25h-1c-6 5-38 4-43 1z" fill="#C8CAE8"/>
+          <path id="Vector 206" d="M403 130c14-1 20 2 21 4-1 29-6 85-23 86-16-1-19-57-20-85 0-2 4-4 22-5z" fill="url(#paint6_linear)" fill-opacity=".1"/>
+          <path id="Vector 207" d="M388 122c-10 9-9 12-7 13 0-2 2-3 9-4-6 1 8-15 16-22l-1-1-17 14z" fill="#ADADDD"/>
+        </g>
+      </g>
+    </g>
+    <g id="place03">
+      <mask id="mask2" maskUnits="userSpaceOnUse" x="43" y="117" width="94" height="280">
+        <path id="Rectangle 84_3" d="M43 152c0-9 6-17 15-19l54-15c13-3 25 7 25 20v239c0 13-12 23-25 19l-54-14c-9-3-15-11-15-20V152z" fill="#fff"/>
+      </mask>
+      <g mask="url(#mask2)">
+        <path id="Vector 201_3" d="M351 270L38 140l14-69h282l17 199z" fill="url(#paint7_linear)"/>
+        <g id="character_3">
+          <g id="Group 210">
+            <path id="Vector 163_2" d="M113 298c-1 0-4-1-3-2v-2l3-8v3c0 1 2-2 5-2 2 1 3 1 2 3l-4 4-3 4z" fill="#E6836E"/>
+            <path id="Vector_5" d="M94 306c-2 0 0-8-4-12-3-4-8 10-8 10s4 13 10 14 20-19 21-21-2-4-3-3c-2 1-13 12-16 12z" fill="#E6836E"/>
+            <path id="Vector 233" d="M73 374c0 3-28 34-34 40 0 2 4 4 6 3 1 0 45-25 48-36 2-10-1-36-5-46-3-11-31-4-31 4 0 7 17 32 16 35z" fill="#CDD1EE"/>
+            <path id="Vector 232" d="M51 396c0 9-3 25 5 25 5 0 8-25 11-38 2-13 13-37 13-49 0-13-29-7-29 0l5 34c0 4-5 18-5 28z" fill="#D8DBF2"/>
+            <path id="Vector 234" d="M93 303c-4-1-8-1-8 2s3 18 2 32c-3 2-26-2-36-5l1-12c-3 1-3 2-7-3-4-6-1-20 5-31 6-12 17-12 31-7 11 5 12 23 12 24z" fill="#fff"/>
+            <path id="Vector 242" d="M77 271c-2 3-7 4-9 4-5 0-7-13-5-17 2-3 13-2 14-1s4 11 0 14z" fill="#F4A392"/>
+            <path id="Vector 245" d="M82 267c0 2-1 1-2 2l-4 4-2 5 1 8-11-9v-19c0-3 16-2 16-1l2 10z" fill="#F4A392"/>
+            <path id="Vector 235" d="M90 318c0-5-5-2-7-2-10 1-27 2-29 0s3-12 0-11c-2 1-8 1-11-1 0 4-1 14 3 18 5 4 23-1 30 0 8 0 14 1 14-4z" fill="#F4A392"/>
+            <path id="Vector 244" d="M80 277c-5 1-9-5-10-5v-5c0-2-1-4-3-4s1 5 1 6l-4 3c-1 0-5-13-3-19 2-7 11-3 15-3 3 0 2-3 1-4 2 0 7 2 7 7s-8 7-13 8l1 6 9 2c1 2 1 7-1 8z" fill="#363983"/>
+          </g>
+          <g id="Group 222">
+            <g id="Vector 270_2" filter="url(#filter3_d)">
+              <path d="M127 272H82c1 0 8-7 8-10s2-8 5-8h32c4 0 6 5 6 9s-2 9-6 9z" fill="#fff"/>
+            </g>
+            <rect id="Rectangle 106_3" x="99" y="257" width="30" height="2" rx="1" fill="#585973"/>
+            <rect id="Rectangle 107_3" x="99" y="262" width="25" height="2" rx="1" fill="#585973"/>
+            <rect id="Rectangle 108_3" x="99" y="267" width="14" height="2" rx="1" fill="#585973"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="place04" opacity=".8">
+      <mask id="mask3" maskUnits="userSpaceOnUse" x="150" y="258" width="127" height="161">
+        <path id="Rectangle 84_4" d="M151 278c0-11 9-20 20-20h85c11 0 20 9 20 20v121c0 12-11 21-23 19l-86-15c-9-1-16-10-16-19V278z" fill="#fff"/>
+      </mask>
+      <g mask="url(#mask3)">
+        <path id="Vector 201_4" d="M455 387L141 256l15-68h282l17 199z" fill="url(#paint8_linear)"/>
+        <g id="character_4">
+          <g id="Group 173">
+            <path id="Vector 188" d="M193 333c1 5 12 23 16 31l3-13c1-1 4-14 10-16 2 0-4 12-2 20l2 17c-1 3-6 8-11 8-6 1-20-25-24-45 1-1 4-3 6-2z" fill="#FDFDFE"/>
+            <path id="Vector 186" d="M215 431h41v-56l1-19c20 9-3-19-9-23-7-6-18-4-25 1-8 5-9 25-9 25l1 72z" fill="#FDFDFE"/>
+            <path id="Vector 185" d="M178 327c2 5 9 7 9 9h6c-1-7-2-11-4-13-1-1-1 3-2 3 0 0-1-4-5-5-3-1-5 2-4 6z" fill="#F9D1CC"/>
+            <path id="Vector 165_2" d="M243 406l6-5-1-5h-4l-10 2c-2 2 0 2 0 2l5-1c0 1-6 3-6 8-1 6 7 1 10-1z" fill="#F9D1CC"/>
+            <path id="Vector_6" d="M264 382c2-1-6-12-14-22-7-10-2-15-2-15 2-2 10 1 15 5 4 5 17 28 13 36-4 9-26 16-27 17-2 1-7-6-6-8s21-12 21-13z" fill="#FDFDFE"/>
+            <path id="Vector 190" d="M256 368a56 56 0 01-9-12l8 18 1-6z" fill="#E8E9F6"/>
+            <path id="Vector 74_2" fill-rule="evenodd" clip-rule="evenodd" d="M241 325c-2 2-8 5-15 2-4-1-3-9 0-17l1-6 8-1 13 7c0 3-1 8-3 11 0 3-1 4-4 4z" fill="#FFCBC0"/>
+            <g id="Vector 270_3" filter="url(#filter4_d)">
+              <path d="M172 311h51c-2 0-9-7-9-10s-2-8-5-8h-37c-3 0-6 5-6 9s2 9 6 9z" fill="#fff"/>
+            </g>
+            <rect id="Rectangle 106_4" width="30" height="2" rx="1" transform="matrix(-1 0 0 1 206 296)" fill="#3D3E5B"/>
+            <rect id="Rectangle 107_4" width="25" height="2" rx="1" transform="matrix(-1 0 0 1 206 301)" fill="#3D3E5B"/>
+            <rect id="Rectangle 108_4" width="14" height="2" rx="1" transform="matrix(-1 0 0 1 206 306)" fill="#3D3E5B"/>
+            <path id="Vector 158" d="M246 303c-8-4-17-2-19 1 3 4 10 15 9 19-2 4-7 5-10 5 1 3-4 6-6 8-1 2-2 10 3 13 19 12 23-21 44 8 9-9-27-31-23-28 4 2 10-6 10-12s-1-9-8-14z" fill="#363983"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="place05" opacity=".8">
+      <mask id="mask4" maskUnits="userSpaceOnUse" x="150" y="88" width="127" height="154">
+        <path id="Rectangle 84_5" d="M151 125c0-9 6-17 16-19l86-17c12-3 23 6 23 19v113c0 11-9 20-20 20h-85c-11 0-20-9-20-20v-96z" fill="#fff"/>
+      </mask>
+      <g mask="url(#mask4)">
+        <path id="Vector 201_5" d="M458 243L145 112l14-68h282l17 199z" fill="url(#paint9_linear)"/>
+        <g id="character_5">
+          <g id="Group 136">
+            <path id="Vector 105" d="M200 174l-10 4-2 7 5-1 11-10 4-1h2v-1c0 1 2 2 3 1v-1h2v-1l-3-1c-1-2-5 0-6 1l-6 3z" fill="#E6836E"/>
+            <g id="Group 130">
+              <path id="Vector 73" d="M182 158v-5l-8-2 1 7h7z" fill="#EBB4AE"/>
+              <path id="Vector 76" fill-rule="evenodd" clip-rule="evenodd" d="M173 151c1 1 4 4 9 5 1 0 2-1 2-3l-2-1h3v-1h1l-1-4v-2l3-7-16 2v7c-1 2 0 3 1 4z" fill="#FAC8C0"/>
+              <path id="Vector 75_2" d="M186 143v2l-1-3-7 1c0 3-2 4-3 4v2l-2-2-1 1c-5-4-2-8-1-9 0-5 8-6 12-3 2 2 5 1 7 0l-2 4h1c0 2-2 2-3 3z" fill="#121334"/>
+            </g>
+            <g id="Vector 116" fill="#F4A392">
+              <path d="M242 236l-3-5-1-2 6-2 3 7-5 2zM215 210l2-8h5l-1 9-6-1z"/>
+            </g>
+            <path id="Vector 104" d="M220 200l16 29 1 2c1 1 8-2 8-2l-15-39c-1-3-4-3-5-3l-19-4-6 17c0 2 7 4 11 5l5-2 4-3z" fill="#A2A7C9"/>
+            <path id="Vector 103" d="M212 173l-16 8c-9 9 6 17 9 16l9-5 1 11 8 2a623 623 0 002-35c0-2-11 2-13 3z" fill="#C1C5DF"/>
+            <path id="Vector 108" d="M172 155l12 3-1 2 8 7c2 3 7 10 7 13 1 2 0 6-1 7l-22 2a25350 25350 0 010-28l-3-6z" fill="#fff"/>
+            <path id="Vector 120" d="M192 173c-1 1-6-2-11-5l7 11 5 2c4-2 11-11 14-17l-2-2c-3 1-8 6-11 9l-2 2z" fill="#FFC0B3"/>
+            <path id="Vector 121" d="M205 158v5c0 1 1 2 2 1l5-6h-1l2-2-2 1 1-2-3 3 1-2-1 1-3 2-1-3v2z" fill="#FFC0B3"/>
+            <path id="Vector 101" d="M204 241h2l-6-40-7 1 11 39z" fill="#8384B8"/>
+            <path id="Vector 102" d="M167 241h-2l5-40 7 1-10 39z" fill="#8384B8"/>
+            <path id="Vector 106" d="M178 160l13 10-2 5-2 4-9-5c-2-2-6-5-7-10v-4h7z" fill="#FAFBFD"/>
+            <path id="Vector 111" d="M219 149l-1 22 7-2h1l1-1 1-20-1-2h-1l-5 2-2 1z" fill="#3A3C8B"/>
+            <path id="Vector 112" fill-rule="evenodd" clip-rule="evenodd" d="M227 168l-1 1-1-1a4439 4439 0 003-20l-1 9v11z" fill="#23255F"/>
+            <path id="Vector 100" d="M166 154c7 3 14 23 17 32 4-1 20-2 22 1s4 8 0 14c-4 5-32 6-39 2-7-5-9-53 0-49z" fill="#6A6BA8"/>
+            <path id="Vector 110" d="M224 171c2-1 2-2 1-2l-20 3-1 3 20-4z" fill="#23255F"/>
+            <path id="Vector 117" d="M229 221c0-3-6-8-8-10-3 0-4-2-5-3l-3 5 11 9c1 1 5 3 5-1z" fill="#B0B4D2"/>
+            <path id="Vector 118" d="M241 234c1 1 4 0 6-1 2 0 8 1 10 3 3 2 5 4 1 4-5 1-17-1-18-1-2-1-1-6 1-5z" fill="#B0B4D2"/>
+            <ellipse id="Ellipse 52" rx=".2" ry=".5" transform="matrix(-1 0 0 1 222 148)" fill="#fff"/>
+            <path id="Vector 119" d="M185 132l37 16v1l-46 20c-2-7-11-21-10-27 0-7 6-14 19-10z" fill="url(#paint10_linear)" fill-opacity=".2"/>
+            <path id="Vector 109" d="M191 181l-5-2c2-2 4-7 4-9l2 1h2v4l-3 6z" fill="#C9CCE4"/>
+          </g>
+          <g id="Group 229">
+            <g id="Vector 270_4" filter="url(#filter5_d)">
+              <path d="M249 143h-55c2 0 8-7 8-11 0-3 2-8 6-8h41c4 1 7 4 7 9s-2 10-7 10z" fill="#fff"/>
+            </g>
+            <rect id="Rectangle 106_5" x="211" y="129" width="39" height="1" rx=".5" fill="#6466C5"/>
+            <rect id="Rectangle 107_5" x="211" y="133" width="31" height="2" rx="1" fill="#6466C5"/>
+            <rect id="Rectangle 108_5" x="211" y="138" width="18" height="1" rx=".5" fill="#6466C5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="technologies">
+      <g clip-path="url(#cliphero1)">
+        <path id="Ellipse 38" d="M601 95c-1 14 6 15 14 15s17-4 17-15c0-12-8-15-13-15-6 0-17 0-18 15z" fill="#fff"/>
+        <path id="Vector_7" fill-rule="evenodd" clip-rule="evenodd" d="M617 85c-6 0-10 5-10 10s3 9 7 10l1-1v-1c-3 0-4-2-4-2l-1-1v-1l2 1c1 2 2 1 3 1v-1c-2 0-4-1-4-5l1-3v-3l2 1a9 9 0 016 0l2-1v3l1 3c0 4-2 5-4 5v4l1 1c4-1 7-5 7-10s-4-10-10-10z" fill="#9B9CEA"/>
+      </g>
+      <g clip-path="url(#cliphero2)">
+        <path id="Ellipse 38_2" d="M543 77c-1 14 6 15 14 15s17-4 17-15c0-12-8-15-13-15-6 0-17 0-18 15z" fill="#fff"/>
+        <g id="Group 238">
+          <path id="Vector_8" d="M554 74c1 2 1 7 3 7h1c-2-1-3-5-4-7z" fill="url(#paint11_linear)"/>
+          <path id="Vector_9" d="M554 74c1 2 2 6 4 7-2-1-2-6-4-8v1z" fill="url(#paint12_linear)"/>
+          <path id="Vector_10" d="M556 72l-2 1 2-1z" fill="#14559A"/>
+          <path id="Vector_11" d="M560 80l1-1c-1-2-2-7-4-7h-1c3 1 3 6 4 8z" fill="url(#paint13_linear)"/>
+          <path id="Vector_12" d="M556 72h0z" fill="#3092C4"/>
+          <path id="Vector_13" d="M560 80l-2 1a2 2 0 001 0h1v-1z" fill="#1969BC"/>
+          <path id="Vector_14" d="M556 72c2 1 2 6 4 8-1-2-1-7-4-8z" fill="url(#paint14_linear)"/>
+          <path id="Vector_15" d="M554 73c2 2 2 7 4 8l2-1c-2-2-2-7-4-8l-2 1z" fill="url(#paint15_linear)"/>
+          <path id="Vector_16" d="M553 74l-1 2 2-2v-1l-1 1z" fill="url(#paint16_linear)"/>
+          <path id="Vector_17" d="M554 73v0z" fill="#2B74B1"/>
+          <path id="Vector_18" d="M554 73v0z" fill="#125A9E"/>
+          <path id="Vector_19" d="M567 72c-1 4-3 8-5 9 2 0 4-4 7-9h-2z" fill="url(#paint17_linear)"/>
+          <path id="Vector_20" d="M552 72c-2 0-5 4-6 9l1-2c1-4 3-6 5-7" fill="url(#paint18_linear)"/>
+          <path id="Vector_21" d="M553 74l1-1h-1v1zm0-2v1h1l-1-1z" fill="#0D82CA"/>
+          <path id="Vector_22" d="M547 79c2-4 3-6 5-7-2 1-4 3-5 7z" fill="url(#paint19_linear)"/>
+          <path id="Vector_23" d="M554 73h-1 1z" fill="#127BCA"/>
+          <path id="Vector_24" d="M548 81c2 0 3-1 3-2l1-3-2 4-2 1" fill="url(#paint20_linear)"/>
+          <path id="Vector_25" d="M548 81l2-1 2-4 1-2c-2 1-3 4-5 7" fill="url(#paint21_linear)"/>
+          <path id="Vector_26" d="M547 79l-1 2h1v-2" fill="#05A1E6"/>
+          <path id="Vector_27" d="M552 72c-2 1-3 3-5 7v2h1c2-3 3-6 5-7v-1-1h-1" fill="url(#paint22_linear)"/>
+          <path id="Vector_28" d="M563 74l-1 3 3-5-2 2z" fill="url(#paint23_linear)"/>
+          <path id="Vector_29" d="M562 80v1c2-1 4-5 5-9-2 5-3 8-5 8z" fill="url(#paint24_linear)"/>
+          <path id="Vector_30" d="M561 80l1-3-1 2v1" fill="#079AE1"/>
+          <path id="Vector_31" d="M561 80a2 2 0 01-1 1h2l-1-1" fill="#1969BC"/>
+          <path id="Vector_32" d="M557 81a3 3 0 001 0 2 2 0 001 0h-2zm2 0h2-2z" fill="#1E5CB3"/>
+          <path id="Vector_33" d="M561 81h1-1z" fill="#1D60B5"/>
+          <path id="Vector_34" d="M561 79a9 9 0 01-1 1v1l1-1v-1" fill="#175FAB"/>
+          <path id="Vector_35" d="M566 72h-1l-3 5-1 3 1 1v-1c2 0 3-3 5-8h-1z" fill="url(#paint25_linear)"/>
+          <path id="Vector_36" d="M552 72h1l1 1a2 2 0 00-2-1" fill="#7DCBEC"/>
+          <path id="Vector_37" d="M554 73z" fill="#5EC5ED"/>
+          <g id="Group">
+            <path id="Vector_38" d="M552 72h1l1 1 1-1h-3z" fill="url(#paint26_linear)"/>
+          </g>
+          <g id="Group_2">
+            <path id="Vector_39" d="M555 72l-1 1 1-1h1-1z" fill="url(#paint27_linear)"/>
+          </g>
+          <path id="Vector_40" d="M562 77l1-3 2-2c-2 0-2 1-3 2l-1 5 1-2z" fill="url(#paint28_linear)"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero3)">
+        <path id="Ellipse 38_3" d="M507 42c-1 14 6 15 14 15s17-4 17-15c0-12-8-15-13-15-6 0-17 0-18 15z" fill="#fff"/>
+        <path id="Vector_41" d="M524 31h-2l-2 2 3 3a2 2 0 012 2l2 3a2 2 0 11-1 2v-2l-2-2v9h-2v-2-7l-1-2-2-3-7 7v2l10 10h2l10-10v-2l-10-10z" fill="#F34F29"/>
+      </g>
+      <g clip-path="url(#cliphero4)">
+        <path id="Ellipse 37" d="M574 124c1 17-7 18-16 18-9-1-20-5-20-18s9-17 16-17c6 0 19 0 20 17z" fill="#fff"/>
+        <path id="Vector_42" d="M556 126a2 2 0 100-4 2 2 0 000 4z" fill="#8CFDFF"/>
+        <path id="Vector_43" d="M562 121h-1v-1c1-2 0-3-1-4l-4 2-4-2c-1 1-2 2-1 4v1h-1l-3 3 3 3h1v1c-1 2 0 3 1 4l4-2 4 2c1-1 2-2 1-4v-1h1l3-3-3-3zm-2-4l1 3-1 1-2-1-1-1 3-2zm-2 8v2a20 20 0 01-4 0 18 18 0 01-1-3 23 23 0 011-3 20 20 0 014 0 18 18 0 011 3l-1 1zm2 0v1l-1 1v-1l1-1zm-4 4l-1-1h2l-1 1zm-3-2l-1-1v-1l1 1v1zm-1-4v-1l1-1v1l-1 1zm4-4l1 1a22 22 0 00-2 0l1-1zm3 3v-1l1 1v1l-1-1zm-8-2l1-3 3 2-1 1-2 1-1-1zm-3 4l2-2h1l1 2-1 2c-2 0-3-1-3-2zm4 7l-1-3 1-1 2 1 1 1-3 2zm9-3l-1 3-3-2 1-1 2-1 1 1zm1-2h-1l-1-2 1-2c2 0 3 1 3 2l-2 2z" fill="#8CFDFF"/>
+      </g>
+      <g clip-path="url(#cliphero5)">
+        <path id="Ellipse 37_2" d="M512 143c0 17-8 19-17 18-9 0-20-4-20-18 0-13 9-17 16-17s20 0 21 17z" fill="#fff"/>
+        <g id="Java">
+          <g id="Group 219">
+            <path id="Vector_44" d="M489 149s-1 1 1 1h6l1 1c-5 2-12 0-8-2zm0-3v2l8-1 1 1c-7 2-14 0-9-2z" fill="#7579FF"/>
+            <path id="Vector_45" d="M494 141c2 2 0 3 0 3s3-1 2-4c-2-2-3-3 3-6 0 0-9 2-5 7z" fill="#CE368A"/>
+            <path id="Vector_46" d="M501 152l-1 1h-15c-1-1 1-1 1-1h1c-1-1-7 1-3 2 11 2 20-1 17-2zm-11-9s-5 2-2 2h7l4-1-1 1c-5 1-15 1-12-1l4-1zm9 5c5-2 3-5 1-5l-1 1 1-1c3-1 6 4-1 5z" fill="#7579FF"/>
+            <path id="Vector_47" d="M496 128s3 3-3 8c-4 3-1 5 0 7-3-2-4-4-3-6 2-3 7-4 6-9z" fill="#CE368A"/>
+            <path id="Vector_48" d="M490 156c5 0 13-1 13-3l-4 2h-12l3 1z" fill="#7579FF"/>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero6)">
+        <path id="Ellipse 37_3" d="M194 68c1 11-4 12-10 12-6-1-13-4-13-12 0-9 6-11 10-11s13 0 13 11z" fill="#fff"/>
+        <path id="path55" d="M188 71c-2 2-6 2-8 2h-1l4-2c2-1 4-3 4-5l-5 5-4 1c-1-1-1-5 2-6h4l4-3v8zm0-9l-1 1a7 7 0 00-12 5l2 5v-1a1 1 0 110 1 7 7 0 0012-4l-1-7z" fill="#5FB832"/>
+      </g>
+      <g clip-path="url(#cliphero7)">
+        <path id="Ellipse 37_4" d="M160 98c1 11-4 12-10 12-6-1-13-4-13-12 0-9 6-11 10-11s13 0 13 11z" fill="#fff"/>
+        <path id="Vector_49" d="M153 95v-1-1h-1l-1 3v1h1v-1h1c0-1 0 0 0 0l-2 1-1 2-1 3c-1 2-2 2-3 2l-1-1 1-1v1h1l1-4h1v-2l-2-1h-1l1 1 1 2c-1 1-2 2-3 1l-1-1v-1l1 1v1l1-1v-1l-1-2h1l2-1 1 1 1-2 3-1 1 1-1 1z" fill="#D6D7EA"/>
+      </g>
+      <g clip-path="url(#cliphero8)">
+        <path id="Ellipse 37_5" d="M262 89c0 11-5 12-11 12s-13-3-13-12 6-11 10-11c5 0 13 0 14 11z" fill="#fff"/>
+        <g id="php" fill="#12C8B1">
+          <path d="M244 90h1l1-1-1-1h-1v2zm0-3h1l1 1h1v2h-1l-1 1h-1v2h-2v-6h2zM252 87v6h-1v-3h-2v3h-1v-6h1v2h2v-2h1zM256 90l1-1v-1h-2v2h1zm0-3h1v1h1v2h-1v1h-2v2h-1v-6h2z"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero9)">
+        <path id="Ellipse 37_6" d="M207 109c0 11-5 12-11 12s-13-3-13-12 6-11 10-11c5 0 13 0 14 11z" fill="#fff"/>
+        <path id="Vector_50" d="M202 104l-6-3h-1l-6 3v8l13-7v-1z" fill="#9B4F96"/>
+        <path id="Vector_51" d="M189 112l6 4h1l6-4v-7l-13 7z" fill="#68217A"/>
+        <path id="Vector_52" d="M198 110a3 3 0 110-3l2-1a5 5 0 100 5l-2-1zm1-1l1-1h-1 1v-1 1h1v-1 1h1-1v1h1-1v1h-1v-1 1h-1v-1zm1 0h1v-1h-1v1z" fill="#fff"/>
+      </g>
+      <g clip-path="url(#cliphero10)">
+        <path id="Ellipse 37_7" d="M238 61c0 11-5 12-11 12s-13-3-13-12 6-11 10-11c5 0 13 0 14 11z" fill="#fff"/>
+        <path id="Vector_53" d="M233 56l-6-3h-1l-6 3v8l13-7v-1z" fill="#4F6D9B"/>
+        <path id="Vector_54" d="M220 64l6 4h1l6-4v-7l-13 7z" fill="#214A7A"/>
+        <path id="Vector_55" d="M229 62a3 3 0 110-3l2-1a5 5 0 100 5l-2-1z" fill="#fff"/>
+      </g>
+      <g clip-path="url(#cliphero11)">
+        <path id="Ellipse 37_8" d="M112 223c0 8-4 9-9 9-4 0-10-2-10-9s5-9 8-9c4 0 10 0 11 9z" fill="#fff"/>
+        <g id="UX" fill="#CB4B94">
+          <path d="M100 225h1v-5h1v5l-1 1h-1-1a2 2 0 01-1-1v-5h1v5h1zM108 226h-1l-1-2h-1l-1 2h-1l2-3-2-3h1l2 2 1-2h1l-2 3 2 3z"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero12)">
+        <path id="Ellipse 37_9" d="M91 186c0 8-4 9-9 9-4 0-10-2-10-9s5-9 8-9c4 0 10 0 11 9z" fill="#fff"/>
+        <path id="Vector_56" d="M89 186h1v-1h-1l-1-1-2 1v2l2 1 1-1-2-1 1-1v1h1z" fill="#83CD29"/>
+        <path id="Vector_57" d="M88 186z" fill="#83CD29"/>
+        <path id="Vector_58" d="M84 186v1h-1v-2h1v1zm0-4v2h-1l-1 1v2l1 1h1l1-1v-4l-1-1z" fill="#83CD29"/>
+        <path id="Vector_59" d="M79 184l2 1v2l-2 1-1-1h-1v-2h1l1-1z" fill="#83CD29"/>
+        <path id="Vector_60" d="M76 185l-1-1-2 1v3l1-1v-1l1-1v2l1 1v-3z" fill="#83CD29"/>
+      </g>
+      <g clip-path="url(#cliphero13)">
+        <path id="Ellipse 37_10" d="M71 224c0 8-4 9-9 9-4 0-10-2-10-9s5-9 8-9c4 0 10 0 11 9z" fill="#fff"/>
+        <g id="ui" fill="#12C8B1">
+          <path d="M61 226h1v-5h2v4l-1 1a2 2 0 01-1 1l-1 1-1-1a3 3 0 01-2-1v-5h1v4l1 1h1zM66 227h-1v-6h1v6z"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero14)">
+        <path id="Ellipse 37_11" d="M126 163c0 10-5 11-10 11-6 0-13-3-13-11 0-9 6-11 10-11s12 0 13 11z" fill="#fff"/>
+        <g id="Group 236">
+          <g id="Group_3">
+            <g id="Group_4">
+              <g id="Group_5" fill="#fff">
+                <path id="Vector_61" d="M110 155h1v1-1h1v2h-1v-1 1h-1v-2z"/>
+                <path id="Vector_62" d="M113 156h-1v-1h2v2h-1v-1z"/>
+                <path id="Vector_63" d="M115 155l1 1v-1h1v2h-1v-1 1l-1-1v1-2z"/>
+                <path id="Vector_64" d="M117 155h1v1h1v1h-2v-2z"/>
+              </g>
+            </g>
+          </g>
+          <g id="Guides to delete">
+            <g id="Group_6">
+              <path id="Vector_65" d="M110 169l-1-11h11l-1 11-5 1-4-1z" fill="#E34E26"/>
+              <path id="Vector_66" d="M114 159v11l4-1 1-10h-5z" fill="#EF662A"/>
+              <path id="Vector_67" d="M111 160v4h5v2l-2 1-1-1v-1h-2l1 2 2 1 3-1 1-4h-5v-1h5v-2h-7z" fill="#fff"/>
+              <g id="Group_7" fill="#EBEBEB">
+                <path id="Vector_68" d="M114 160h-3v4h3v-1h-1v-1h1v-2z"/>
+                <path id="Vector_69" d="M114 167l-1-1v-1h-2l1 2 2 1v-1z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero15)">
+        <path id="Ellipse 37_12" d="M95 145c0 10-5 11-10 11-6 0-13-3-13-11 0-9 6-11 10-11s12 0 13 11z" fill="#fff"/>
+        <path id="Vector_70" d="M79 144h-1v4l1 1 1-1v-4h-1zm7-4l1-1h-1v1a4 4 0 00-4 0v-1h-1l1 1-2 3h8l-2-3zm-4 2v-1l1 1h-1zm4 0h-1 1zm-6 2v5l1 1h1v2l1 1v-3h2v3l1-1v-2h1l1-1v-5h-8zm10 0h-1-1v4l1 1 1-1v-4z" fill="#A4C439"/>
+      </g>
+      <g clip-path="url(#cliphero16)">
+        <path id="Ellipse 37_13" d="M56 179c0 10-4 10-10 10-5 0-11-3-11-10 0-8 5-10 9-10s12 0 12 10z" fill="#fff"/>
+        <g id="Group 237">
+          <path id="Vector_71" d="M52 180l-1-2-1-5h-1l-1 5h-5l-1-5h-1l-1 5-1 2 6 5 7-5" fill="#FC6D26"/>
+          <path id="Vector_72" d="M45 185l3-7h-5l2 7z" fill="#E24329"/>
+          <path id="Vector_73" d="M45 185l-2-7h-3l5 7z" fill="#FC6D26"/>
+          <path id="Vector_74" d="M40 178l-1 2 6 5-5-7z" fill="#FCA326"/>
+          <path id="Vector_75" d="M40 178h3l-1-5h-1l-1 5z" fill="#E24329"/>
+          <path id="Vector_76" d="M45 185l3-7h3l-6 7z" fill="#FC6D26"/>
+          <path id="Vector_77" d="M51 178l1 2-7 5 6-7z" fill="#FCA326"/>
+          <path id="Vector_78" d="M51 178h-3l1-5h1l1 5z" fill="#E24329"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero17)">
+        <path id="Ellipse 37_14" d="M170 266c0 9-4 9-8 9-5 0-11-2-11-9s5-9 8-9c4 0 11 0 11 9z" fill="#fff"/>
+        <path id="Vector_79" d="M157 262l1 8 3 1 3-1v-8h-7zm6 5l-1 2h-3v-2 1h3v-1h-3v-1h3v-1h-4v-1h5v3zm0-6h-1 1v-1h-2v1h1-1v1h2v-1zm-2 0h-1 1v-1h-1v2h1v-1zm-1 0h-1 1v-1h-2v2h2v-1z" fill="#39A0FF"/>
+      </g>
+      <g clip-path="url(#cliphero18)">
+        <path id="Ellipse 37_15" d="M210 259c1 11-4 12-10 11-6 0-13-3-13-11 0-9 6-11 10-11s13 0 13 11z" fill="#fff"/>
+        <path id="Vector_80" fill-rule="evenodd" clip-rule="evenodd" d="M196 263l8 1-3-4-5 3zm9-9l-1 1-2 4s-1 0 0 0l2 5 1-10zm-11 4l2-1h1l2-2 1-2h-1l-2 1-1 1a133 133 0 00-2 1l-1 2h1zm2 0l-1 5 6-4-5-1zm8-4l-4 1 1 4 3-5zm-7 3l4 2-2-4-2 2zm-3 2l-2 4h3l-1-4zm1 3l1-4-2 1 1 3zm9-8h-2l-2-1v2l4-1zm-3-1l4 1-1-2-3 1zm-6 10h-1-1v1h9-3l-4-1zm-3-1l1-3v-1l-1 4zm8-9l2-1h1-3v1z" fill="#D91404"/>
+      </g>
+      <g clip-path="url(#cliphero19)">
+        <path id="Ellipse 37_16" d="M245 268c1 11-4 12-10 11-6 0-13-3-13-11 0-9 6-11 10-11s13 0 13 11z" fill="#fff"/>
+        <path id="Vector_81" d="M232 274l2-2v-2h-2a2 2 0 000 4z" fill="#0ACF83"/>
+        <path id="Vector_82" d="M230 268l2-2h2v4h-2l-2-2z" fill="#A259FF"/>
+        <path id="Vector_83" d="M230 264l2-2h2v4h-2l-2-2z" fill="#F24E1E"/>
+        <path id="Vector_84" d="M234 262h2a2 2 0 110 4h-2v-4z" fill="#FF7262"/>
+        <path id="Vector_85" d="M238 268a2 2 0 11-4 0 2 2 0 014 0z" fill="#1ABCFE"/>
+      </g>
+      <g clip-path="url(#cliphero20)">
+        <path id="Ellipse 37_17" d="M157 290c0 8-4 8-8 8s-9-2-9-8c1-6 4-8 7-8s9 0 10 8z" fill="#fff"/>
+        <path id="Vector_86" d="M142 288h13v5h-13v-5zm1 4h1v-2h1v2h1v-3h-3v3zm3-3v4h2v-1h1v-3h-3zm2 1h1v1h-1v-1zm2-1v3h1v-2h1v2h1v-2h1v2-3h-4z" fill="#CB3837"/>
+      </g>
+      <g clip-path="url(#cliphero21)">
+        <path id="Ellipse 37_18" d="M357 134c0 11-5 12-11 12s-13-3-13-12 6-11 10-11c5 0 14 0 14 11z" fill="#fff"/>
+        <g id="Group_8">
+          <g id="Group_9">
+            <g id="Group_10">
+              <path id="Vector_87" d="M338 130l1-1 7 13h-1l-7-12z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_11">
+            <g id="Group_12">
+              <path id="Vector_88" d="M352 131h-14v-1h14v1z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_13">
+            <g id="Group_14">
+              <path id="Vector_89" d="M338 130l7-4 1 1-8 4v-1z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_15">
+            <g id="Group_16">
+              <path id="Vector_90" d="M344 141l8-4v1l-7 4-1-1z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_17">
+            <g id="Group_18">
+              <path id="Vector_91" d="M338 138v-1l8 4-1 1-7-4z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_19">
+            <g id="Group_20">
+              <path id="Vector_92" d="M344 142l7-13 1 1-7 12h-1z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_21">
+            <g id="Group_22">
+              <path id="Vector_93" d="M339 138h-1v-8h1v8z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_23">
+            <g id="Group_24">
+              <path id="Vector_94" d="M352 138h-1v-8h1v8z" fill="#E535AB"/>
+            </g>
+          </g>
+          <g id="Group_25">
+            <g id="Group_26">
+              <path id="Vector_95" d="M345 127l6 3v1l-6-4z" fill="#E535AB"/>
+            </g>
+          </g>
+          <path id="Vector_96" d="M353 130a2 2 0 10-3 1 2 2 0 003-1z" fill="#E535AB"/>
+          <path id="Vector_97" d="M340 137a2 2 0 10-3 2 2 2 0 003-2z" fill="#E535AB"/>
+          <path id="Vector_98" d="M337 130a2 2 0 103 1 2 2 0 00-3-1z" fill="#E535AB"/>
+          <path id="Vector_99" d="M350 137a2 2 0 103 2 2 2 0 00-3-2z" fill="#E535AB"/>
+          <path id="Vector_100" d="M345 125a2 2 0 100 3 2 2 0 000-3z" fill="#E535AB"/>
+          <path id="Vector_101" d="M345 140a2 2 0 100 3 2 2 0 000-3z" fill="#E535AB"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero22)">
+        <path id="Ellipse 37_19" d="M316 116c0 12-5 12-11 12s-13-3-13-12c0-8 6-11 10-11 5 0 14 0 14 11z" fill="#fff"/>
+        <g id="Group_27">
+          <path id="Vector_102" d="M300 111h2l2 3 2-3h2l-4 7-4-7z" fill="#35495E"/>
+          <path id="Vector_103" d="M297 111h3l4 7 4-7h3l-7 12-7-12z" fill="#41B883"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero23)">
+        <path id="Ellipse 37_20" d="M340 84c0 12-5 12-11 12s-13-3-13-12c0-8 6-11 10-11 5 0 14 0 14 11z" fill="#fff"/>
+        <path id="Vector_104" d="M322 85v6h12V79h-12v6z" fill="#fff"/>
+        <path id="Vector_105" d="M322 85v6h12V79h-12v6zm10 0h1l-1 1a1 1 0 00-1-1v2l2 1v1l-1 1h-1l-2-1h1v-1l1 1h1a1 1 0 000-1h-1l-1-1v-1s-1 0 0 0l1-2 1 1zm-3 0v1h-2v4h-1v-4h-1v-1h4z" fill="#007ACC"/>
+      </g>
+      <g clip-path="url(#cliphero34)">
+        <path id="Ellipse 38_4" d="M346 232c0 12 5 13 12 13s15-4 15-13c0-10-7-13-12-13s-15 0-15 13z" fill="#fff"/>
+        <path id="Vector_106" d="M362 233l-2 1-1-1a3 3 0 000-2l1-1a2 2 0 004-1l-2-2a2 2 0 00-2 3h-1l-2-1v-1l2-2-2-2-2 2 1 2v1l-2 3 2 3v1l-1 2 2 2 2-2-2-2v-1l2-1h1v1l2 2 2-2-2-2zm0-5l1 1-1 1-1-1 1-1zm-6-2l1-1 1 1-1 1-1-1zm2 12l-1 1-1-1 1-1 1 1zm-1-5l-2-1 2-1 1 1-1 1zm5 3l-1-1 1-1 1 1-1 1z" fill="#D6D7EA"/>
+      </g>
+      <g clip-path="url(#cliphero35)">
+        <path id="Ellipse 38_5" d="M398 213c0 12 5 13 12 13s15-4 15-13c0-10-7-13-12-13s-15 0-15 13z" fill="#fff"/>
+        <g id="Group 234">
+          <path id="Vector_107" d="M419 209v-1a3 3 0 00-2-2l-1-1h-9a6 6 0 00-2 1h-1l-1 1v11a3 3 0 002 3h12l1-1 1-1v-1l1-1v-8h-1z" fill="#F05138"/>
+          <path id="Vector_108" d="M414 217l-6 1c-1-1-3-2-3-4l1 1h6a29 29 0 01-6-6l5 4-4-4 6 4h1l-2-5c3 1 5 4 4 7l1 3-3-1z" fill="#FEFEFE"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero24)">
+        <path id="Ellipse 37_21" d="M432 176c0 9 4 10 9 10s12-3 12-10c-1-8-5-10-9-10s-12 0-12 10z" fill="#fff"/>
+        <g id="AI" fill="#7579FF">
+          <path d="M442 177l-1-2a8 8 0 010-2 8 8 0 010 2l-1 2h2zm3 3h-2v-2h-4v2h-2l3-8h2l3 8zM447 180h-1v-8h1v8z"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero25)">
+        <path id="Ellipse 37_22" d="M366 173c1 11-4 12-10 11-6 0-13-3-13-11 0-9 6-11 10-11s13 0 13 11z" fill="#fff"/>
+        <g id="JS" fill="#FFEE52">
+          <path d="M353 170v6l-2 1-1-1-1-1h3v-5h1zM357 177l-1-1h-1v-1h2v1l1-1v-1h-1l-1-1h-1v-1-1l1-1h3l1 2h-2v-1h-1-1v1l1 1h2v1l1 1a2 2 0 01-1 1l-2 1z"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero26)">
+        <g id="Ellipse 37_23" filter="url(#filter6_d)">
+          <path d="M383 94c1 11-4 12-10 11-6 0-13-3-13-11 0-9 6-11 10-11s13 0 13 11z" fill="#fff"/>
+        </g>
+        <path id="Vector_109" fill-rule="evenodd" clip-rule="evenodd" d="M375 90l-2-4-1-1v-1h-1v1l-1 1-1 1v1l-1 1v5l3 4v3h1v-2l1-1v-1a7 7 0 002-2v-1a10 10 0 000-4zm-4 9v-1 1z" fill="#4FAA41"/>
+      </g>
+      <g clip-path="url(#cliphero27)">
+        <path id="Ellipse 37_24" d="M329 183c1 11-4 12-10 11-6 0-13-3-13-11 0-9 6-11 10-11s13 0 13 11z" fill="#fff"/>
+        <path id="Vector_110" d="M326 188l-7 4v-3l4-3 3 2zm0-1v-8l-3 2v5l3 1zm-15 1l7 4v-3l-4-3-3 2zm0-1v-8l2 2v5l-2 1zm0-8l7-4v3l-4 2-3-1zm15 0l-7-4v3l4 2 3-1z" fill="#8ED6FB"/>
+        <path id="Vector_111" d="M318 188l-4-2v-5l4 3v4zm1 0l4-2v-5l-4 3v4zm-5-7l4-3 5 3-5 2-4-2z" fill="#1C78C0"/>
+      </g>
+      <g clip-path="url(#cliphero28)">
+        <path id="Ellipse 37_25" d="M640 159c-1 15 6 16 14 16 8-1 17-4 17-16 0-11-8-14-13-14-6 0-17 0-18 14z" fill="#fff"/>
+        <path id="Vector 319" d="M663 155l-7-3-8 3 2 9 6 4 6-4 1-9z" fill="#D81480"/>
+        <path id="Vector 320" fill-rule="evenodd" clip-rule="evenodd" d="M658 163h1l-3-8-4 8h1l1-2h3l1 2zm-2-5v2h-1l1-2z" fill="#fff"/>
+      </g>
+      <g clip-path="url(#cliphero29)">
+        <path id="Ellipse 37_26" d="M592 141c-1 15 6 16 14 16 8-1 17-4 17-16 0-11-8-14-13-14-6 0-17 0-18 14z" fill="#fff"/>
+        <path id="Vector_112" fill-rule="evenodd" clip-rule="evenodd" d="M599 132a2 2 0 00-2 2l1 1v1h1v1l1 1v1l1 2 1 1h1l1-1h1a665 665 0 003-1h2l2-1-1-1v-1h-1v-1h-1v-1-1h2a674 674 0 011-1h3a2 2 0 00-2-1h-14zm6 18l-1-1-1-2v-1l-1-2h-2-1l-2 1v4a2 2 0 002 1" fill="#FD4F31"/>
+        <path id="Vector_113" fill-rule="evenodd" clip-rule="evenodd" d="M598 143h1l1-1s1 0 0 0l-1-2v-1l-1-1-1-1v-1 7h1zm17 5h-1l-1 1h-3l-1 1h4a2 2 0 002-1v-1zm0-5l-1-1-1-1h-2-1l-2 1h-1l-2 1h-2v1l1 2 1 1v1l1 1h2l1-1h1l1-1h3l1-1a2424 2424 0 010-3zm0-9h-1-1-1v1h-2l1 1 1 1 1 1v1h2v-4-1zm0 6h-1l1 1v-1z" fill="#FD4F31"/>
+      </g>
+      <g clip-path="url(#cliphero30)">
+        <path id="Ellipse 37_27" d="M686 104c0 12 5 13 12 13s15-3 15-13-7-13-12-13-15 0-15 13z" fill="#fff"/>
+        <g id="AR" fill="#9494D9">
+          <path d="M697 105l-1-2a9 9 0 010-1 8 8 0 010 1l-1 2h2zm3 3h-1-1v-2h-4v2h-2l3-8h2l3 8zM703 104h1l1-1-1-1-1-1h-1v3h1zm4 4h-2l-1-3h-2v3h-1v-8h4l1 1v1a2 2 0 010 2h-1v1l2 3z"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero31)">
+        <path id="Ellipse 37_28" d="M657 44c0 12 5 13 12 13s15-3 15-13-7-13-12-13-15 0-15 13z" fill="#fff"/>
+        <path id="Vector_114" d="M665 35a10 10 0 1112 16 10 10 0 01-12-16z" fill="#fff"/>
+        <path id="Vector_115" d="M677 46h-2l-2 1v-2l-1-2 1-2v-3h-1v-1l-1 1a2 2 0 00-2 1h-1v3l-1 1v2l-1 1a2 2 0 000 2h1v1h1l1-2v2h4l2-2h2v-1z" fill="#2C8EBB"/>
+        <path id="Vector_116" d="M671 33a10 10 0 100 20 10 10 0 000-20zm6 14l-2 1-2 1h-1l-2 1h-1l-1-1h-2a1 1 0 010-1v-2-1l1-2 1-1-1-2 1-1 2-1 1-1v-1a1 1 0 011 1l1 1c0-1 0-1 0 0a1 1 0 011 0 5 5 0 01-1 5 4 4 0 011 3h1l2-1a1 1 0 011 1 1 1 0 01-1 1z" fill="#2C8EBB"/>
+      </g>
+      <g clip-path="url(#cliphero32)">
+        <path id="Ellipse 37_29" d="M449 82c-1 15 7 16 15 16s18-4 18-16c0-13-8-16-14-16s-18 0-19 16z" fill="#fff"/>
+        <g id="Group 235">
+          <path id="Vector_117" fill-rule="evenodd" clip-rule="evenodd" d="M467 78h3v3h1a6 6 0 003-1v-4h1l1 3h4c-1 2-3 2-4 2-2 6-7 9-13 9-4 0-6-1-8-4v-1l-1-4h2v-3h3v-2h5v-3h3v5z" fill="#3A4D54"/>
+          <path id="Vector_118" d="M476 79l-2-3 1 4-4 1h-17l1 4v1h5l-2 1h-1-1l6 2c6 0 11-2 13-8 2 0 4 0 4-2h-3z" fill="#00AADA"/>
+          <path id="Vector_119" d="M476 79l-2-3 1 4-4 1h-16c0 3 1 4 3 5h2l-2 1c2 1 5 1 9-1 3-1 7-4 9-7z" fill="#28B8EB"/>
+          <path id="Vector_120" d="M455 83v3h5l-2 1h-1-1l7 2c5 0 9-2 11-6h-19z" fill="#028BB8"/>
+          <path id="Vector_121" d="M456 83c0 2 1 3 2 3h2l-2 1c2 1 5 1 8-1l6-3h-16z" fill="#019BC6"/>
+          <path id="Vector_122" fill-rule="evenodd" clip-rule="evenodd" d="M457 79h2v2h-2v-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0h1v2h-1v-2zm1 0v2-2zm0-3h3v2h-3v-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0h1v2h-1v-2z" fill="#00ACD3"/>
+          <path id="Vector_123" fill-rule="evenodd" clip-rule="evenodd" d="M459 79h3v2h-3v-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0h1v2h-1v-2z" fill="#23C2EE"/>
+          <path id="Vector_124" fill-rule="evenodd" clip-rule="evenodd" d="M462 79h2v2h-2v-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2z" fill="#00ACD3"/>
+          <path id="Vector_125" fill-rule="evenodd" clip-rule="evenodd" d="M462 76h2v2h-2v-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm1 3h2v2h-2v-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2z" fill="#23C2EE"/>
+          <path id="Vector_126" fill-rule="evenodd" clip-rule="evenodd" d="M465 76h2v2h-2v-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2z" fill="#00ACD3"/>
+          <path id="Vector_127" fill-rule="evenodd" clip-rule="evenodd" d="M465 73h2v3h-2v-3zm0 1v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2z" fill="#23C2EE"/>
+          <path id="Vector_128" fill-rule="evenodd" clip-rule="evenodd" d="M467 79h3v2h-3v-2zm1 0v2-2zm0 0v2-2zm0 0v2-2zm1 0v2-2zm0 0v2-2zm0 0v2-2z" fill="#00ACD3"/>
+          <path id="Vector_129" fill-rule="evenodd" clip-rule="evenodd" d="M462 85v1l-1-1h1z" fill="#D4EEF1"/>
+          <path id="Vector_130" fill-rule="evenodd" clip-rule="evenodd" d="M462 85h-1 1zm-8-2h21l-2-1c-1 2-5 1-5 0h-5c-1 1-5 2-6 0l-3 1z" fill="#3A4D54"/>
+          <path id="Vector_131" d="M463 89l-3-3-2 1h-1-1c1 1 3 2 7 2z" fill="#BFDBE0"/>
+          <path id="Vector_132" d="M461 87l-1-1-2 1h3z" fill="#D4EEF1"/>
+        </g>
+      </g>
+      <g clip-path="url(#cliphero33)">
+        <path id="Ellipse 37_30" d="M594 44c0 12 5 13 12 13s15-4 15-13c0-10-7-13-12-13s-15 0-15 13z" fill="#fff"/>
+        <g id="VR" fill="#7579FF">
+          <path d="M608 40l-3 8h-2l-3-8h2l2 5a9 9 0 010 1 12 12 0 010-1l2-5h2zM611 44h1v-1h1v-1h-1l-1-1h-1v3h1zm4 4h-2l-2-3h-1v3h-1v-8h4l1 1v1a2 2 0 010 2h-1v1l2 3z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="650.5" y1="239.5" x2="510" y2="290.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EEF"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="650.5" y1="239.5" x2="510" y2="290.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EEF"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="650.5" y1="239.5" x2="510" y2="290.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EEF"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="650.5" y1="239.5" x2="510" y2="290.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EEF"/>
+    </linearGradient>
+    <linearGradient id="paint4_linear" x1="732.5" y1="2.5" x2="636.5" y2="119.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8EAFF"/>
+      <stop offset="1" stop-color="#D0D3EC"/>
+    </linearGradient>
+    <linearGradient id="paint5_linear" x1="473.5" y1="15.5" x2="377.5" y2="132.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8EAFF"/>
+      <stop offset="1" stop-color="#D0D3EC"/>
+    </linearGradient>
+    <linearGradient id="paint6_linear" x1="402.9" y1="198.4" x2="401.8" y2="122.1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#E6E6FF"/>
+    </linearGradient>
+    <linearGradient id="paint7_linear" x1="240.5" y1="132.5" x2="181.6" y2="214.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8EAFF"/>
+      <stop offset="1" stop-color="#D0D3EC"/>
+    </linearGradient>
+    <linearGradient id="paint8_linear" x1="381" y1="213.2" x2="285.1" y2="330.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8EAFF"/>
+      <stop offset="1" stop-color="#D0D3EC"/>
+    </linearGradient>
+    <linearGradient id="paint9_linear" x1="384.2" y1="69.6" x2="288.3" y2="187" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8EAFF"/>
+      <stop offset="1" stop-color="#D0D3EC"/>
+    </linearGradient>
+    <linearGradient id="paint10_linear" x1="179.5" y1="137.1" x2="222.9" y2="157.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EEF"/>
+    </linearGradient>
+    <linearGradient id="paint11_linear" x1="555.9" y1="72.2" x2="555.9" y2="82.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0994DC"/>
+      <stop offset=".3" stop-color="#66CEF5"/>
+      <stop offset=".8" stop-color="#127BCA"/>
+      <stop offset="1" stop-color="#127BCA"/>
+    </linearGradient>
+    <linearGradient id="paint12_linear" x1="556.3" y1="71.8" x2="556.3" y2="82.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E76BC"/>
+      <stop offset=".4" stop-color="#36AEE8"/>
+      <stop offset=".8" stop-color="#00ADEF"/>
+      <stop offset="1" stop-color="#00ADEF"/>
+    </linearGradient>
+    <linearGradient id="paint13_linear" x1="558.5" y1="80.5" x2="558.5" y2="71.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C63B7"/>
+      <stop offset=".5" stop-color="#33BDF2"/>
+      <stop offset="1" stop-color="#33BDF2" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="paint14_linear" x1="557.9" y1="70.7" x2="557.9" y2="82.2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#166AB8"/>
+      <stop offset=".4" stop-color="#36AEE8"/>
+      <stop offset=".8" stop-color="#0798DD"/>
+      <stop offset="1" stop-color="#0798DD"/>
+    </linearGradient>
+    <linearGradient id="paint15_linear" x1="557.1" y1="70.8" x2="557.1" y2="83" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#124379"/>
+      <stop offset=".4" stop-color="#1487CB"/>
+      <stop offset=".8" stop-color="#165197"/>
+      <stop offset="1" stop-color="#165197"/>
+    </linearGradient>
+    <linearGradient id="paint16_linear" x1="552" y1="74.4" x2="553.8" y2="74.4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#33BDF2" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#1DACD8"/>
+    </linearGradient>
+    <linearGradient id="paint17_linear" x1="565.1" y1="80.3" x2="565.1" y2="71.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#136AB4"/>
+      <stop offset=".6" stop-color="#59CAF5" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#59CAF5" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="paint18_linear" x1="545.9" y1="76.4" x2="552.3" y2="76.4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05A1E6" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#05A1E6"/>
+    </linearGradient>
+    <linearGradient id="paint19_linear" x1="549.6" y1="80.5" x2="549.6" y2="71.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#318ED5"/>
+      <stop offset="1" stop-color="#38A7E4"/>
+    </linearGradient>
+    <linearGradient id="paint20_linear" x1="550.1" y1="80.5" x2="550.1" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05A1E6"/>
+      <stop offset="1" stop-color="#05A1E6" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="paint21_linear" x1="550.6" y1="81" x2="550.6" y2="73.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1959A6"/>
+      <stop offset=".5" stop-color="#05A1E6"/>
+      <stop offset=".9" stop-color="#7EC5EA"/>
+      <stop offset="1" stop-color="#7EC5EA"/>
+    </linearGradient>
+    <linearGradient id="paint22_linear" x1="550.8" y1="80.5" x2="549.4" y2="72.7" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#165096"/>
+      <stop offset="1" stop-color="#0D82CA"/>
+    </linearGradient>
+    <linearGradient id="paint23_linear" x1="563.6" y1="76.1" x2="563.6" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05A1E6"/>
+      <stop offset=".9" stop-color="#0495D6"/>
+      <stop offset="1" stop-color="#0495D6"/>
+    </linearGradient>
+    <linearGradient id="paint24_linear" x1="565.6" y1="71.7" x2="563.9" y2="81" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38A7E4" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#0E88D3"/>
+      <stop offset="1" stop-color="#0E88D3"/>
+    </linearGradient>
+    <linearGradient id="paint25_linear" x1="564" y1="72" x2="564" y2="80.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#168CD4"/>
+      <stop offset=".5" stop-color="#1C87CC"/>
+      <stop offset="1" stop-color="#154B8D"/>
+    </linearGradient>
+    <linearGradient id="paint26_linear" x1="551.9" y1="71.1" x2="562.3" y2="75.4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#97D6EE"/>
+      <stop offset=".7" stop-color="#55C1EA"/>
+      <stop offset="1" stop-color="#55C1EA"/>
+    </linearGradient>
+    <linearGradient id="paint27_linear" x1="554.8" y1="73.6" x2="563" y2="69.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7ACCEC"/>
+      <stop offset="1" stop-color="#3FB7ED"/>
+    </linearGradient>
+    <linearGradient id="paint28_linear" x1="562.8" y1="72.5" x2="562.8" y2="81.2" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1DA7E7"/>
+      <stop offset="1" stop-color="#37ABE7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="filter0_f" x="508.1" y="311.6" width="74.9" height="61.3" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="11" result="effect1_foregroundBlur"/>
+    </filter>
+    <filter id="filter1_d" x="511" y="166" width="174.3" height="119.7" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="17"/>
+      <feColorMatrix values="0 0 0 0 0.772083 0 0 0 0 0.777649 0 0 0 0 0.85 0 0 0 0.3 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="filter2_d" x="333" y="223" width="150.6" height="93.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="17"/>
+      <feColorMatrix values="0 0 0 0 0.772083 0 0 0 0 0.777649 0 0 0 0 0.85 0 0 0 0.6 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="filter3_d" x="48" y="224" width="119" height="86" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="17"/>
+      <feColorMatrix values="0 0 0 0 0.772083 0 0 0 0 0.777649 0 0 0 0 0.85 0 0 0 0.6 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="filter4_d" x="132" y="263" width="125" height="86" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="17"/>
+      <feColorMatrix values="0 0 0 0 0.772083 0 0 0 0 0.777649 0 0 0 0 0.85 0 0 0 0.6 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="filter5_d" x="160" y="114" width="130" height="87" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="17"/>
+      <feColorMatrix values="0 0 0 0 0.772083 0 0 0 0 0.777649 0 0 0 0 0.85 0 0 0 0.3 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="filter6_d" x="342" y="74" width="59.2" height="58.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="9"/>
+      <feGaussianBlur stdDeviation="9"/>
+      <feColorMatrix values="0 0 0 0 0.772083 0 0 0 0 0.777649 0 0 0 0 0.85 0 0 0 1 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg>

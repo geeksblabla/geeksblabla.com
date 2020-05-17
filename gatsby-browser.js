@@ -1,10 +1,13 @@
 import React from "react"
 import { ModeProvider } from "./src/components/Mode/ModeContext"
+import { ThemeProvider } from "./src/components/Theme/ThemeContext"
 import "./src/styles/common.scss"
 
 // set Mode Provider
 export const wrapRootElement = ({ element }) => (
-  <ModeProvider>{element}</ModeProvider>
+  <ThemeProvider>
+    <ModeProvider>{element}</ModeProvider>
+  </ThemeProvider>
 )
 
 // Load Lato typeface

@@ -7,12 +7,11 @@ $gradient-2: linear-gradient(90deg, #9d09d0 0%, #6146bd 100%);
 $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
 
 .top-episodes {
-  background-image: url(../../../assets/patterns/1.back.svg);
   background-position-y: -1px;
   background-position-y: -1px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: $secondary-bg-color;
+  background-color: var(--secondary-bg-color);
   padding-top: 10rem;
   @include breakpoint(mobileonly) {
     padding-top: 5rem;
@@ -33,7 +32,7 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
 
   h2 {
     text-transform: uppercase;
-    color: $text-color;
+    color: var(--text-color);
     text-align: center;
     opacity: 0.5;
   }
@@ -41,10 +40,9 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
     svg {
       margin: 8px;
     }
-    
 
     cursor: pointer;
-    background: $main-bg-color;
+    background: var(--main-bg-color);
     width: 300px;
     margin: 1rem;
     padding: 2rem;
@@ -61,7 +59,8 @@ $gradient-3: linear-gradient(90deg, #09d0af 0%, #4695bd 100%);
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     transition: all 100ms ease-in;
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       transform: translateY(-2%) scale(1.02);
       box-shadow: 0px 20px 14px rgba(0, 0, 0, 0.25);
     }

@@ -1,0 +1,19 @@
+.theme-toggle {
+  margin: 0px 16px;
+
+  &-button {
+    background-color: transparent;
+    border: 1px solid var(--text-color) !important;
+    padding: 5px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-icon {
+    path {
+      fill: var(--text-color);
+    }
+  }
+}

@@ -1,10 +1,33 @@
 // background colors
 
-$main-bg-color: #111233;
-$secondary-bg-color: #1d1e4f;
+// $main-bg-color: #111233;
+// $secondary-bg-color: #1d1e4f;
+// $text-color: #7577a6;
+// $heading-color: #fff;
 
-$text-color: #7577a6;
-$heading-color: #fff;
+.dark {
+  --main-bg-color: #111233;
+  --secondary-bg-color: #1d1e4f;
+  --text-color: #7577a6;
+  --heading-color: #fff;
+  --notif-banner: #090a1e;
+  --button-color: #ffffff;
+  --loader-color: #ffffff;
+
+  --eps-shadow: 0px 4px 74px rgba(0, 0, 0, 0.25);
+}
+
+.light {
+  --main-bg-color: #fff;
+  --secondary-bg-color: #f6f7ff;
+  --text-color: #31337e;
+  --heading-color: #1d1e4f;
+  --notif-banner: #d3d7f8;
+  --button-color: #31337e;
+  --loader-color: #31337e;
+
+  --eps-shadow: 0px 4px 74px #e5e7fa5a;
+}
 
 $main-gradient: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);
 
