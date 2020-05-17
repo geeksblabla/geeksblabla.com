@@ -1,15 +1,17 @@
 import React, { useState, useEffect, createContext } from "react"
 
-export const ThemeContext = createContext()
+export const ThemeContext = createContext("light")
+const isBrowser = typeof window !== "undefined"
 
 const supportsDarkMode = () =>
+  isBrowser &&
   window.matchMedia("(prefers-color-scheme: dark)").matches === true
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light")
 
   useEffect(() => {
-    const existingTheme = localStorage.getItem("theme")
+    const existingTheme = isBrowser && localStorage.getItem("theme")
 
     if (existingTheme) {
       setTheme(existingTheme)
@@ -17,17 +19,19 @@ export const ThemeProvider = ({ children }) => {
       setTheme("dark")
     }
 
-    document.body.className = theme
+    if (isBrowser) {
+      document.body.className = theme
+    }
   }, [theme])
 
   const toggleDark = () => {
     if (theme === "dark") {
-      localStorage.setItem("theme", "light")
+      isBrowser && localStorage.setItem("theme", "light")
       setTheme("light")
       return
     }
 
-    localStorage.setItem("theme", "dark")
+    isBrowser && localStorage.setItem("theme", "dark")
     setTheme("dark")
   }
 
