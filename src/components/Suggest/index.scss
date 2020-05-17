@@ -77,7 +77,7 @@
     width: 100%;
     border-radius: 8px;
     background: var(--secondary-bg-color); // rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--text-color);
     margin-bottom: 16px;
     display: flex;
     align-content: center;
@@ -92,6 +92,10 @@
       padding: auto;
       cursor: pointer;
       text-align: center;
+
+      svg path {
+        fill: var(--text-color);
+      }
     }
   }
 }

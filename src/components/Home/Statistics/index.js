@@ -1,18 +1,17 @@
 import React, { useContext } from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
 import EpisodesIcon from "assets/episodes.svg"
 import EpisodesIconLight from "assets/episodes_light.svg"
 import MinutesIcon from "assets/minutes.svg"
 import MinutesIconLight from "assets/minutes_light.svg"
 import GuestIcon from "assets/guest.svg"
 import GuestIconLight from "assets/guest_light.svg"
-import "./index.scss"
 import patternDark from "assets/patterns/1.back.svg"
 import patternLight from "assets/patterns/4.back.svg"
 import backGroundLight from "assets/stats_light.back.svg"
 import backGroundDark from "assets/stats_item.back.svg"
 import { ThemeContext } from "../../Theme/ThemeContext"
+import "./index.scss"
 
 const query = graphql`
   {
