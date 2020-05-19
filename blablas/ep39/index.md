@@ -59,7 +59,7 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 1:20 - What advice do you have for someone who wants to get their first programming job but they don’t have the time or money for a CS degree?
 
-1:30 - Is there something that most self taughts have over "classic" engineers ?
+1:30 - Is there something that most self-taughts have over "classic" engineers ?
 
 1:40 - Does security background helps in cracking interviews and landing jobs as a developer?
 
