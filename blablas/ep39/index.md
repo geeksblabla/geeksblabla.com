@@ -65,7 +65,7 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 1:42 - Will you go after fundamentals (Data types, patterns, algorithms...etc) Or you just learn things directly and try hard to go for it?
 
-1:44 - Wrap up & Goodbye.
+1:44 - Wrap up and Goodbye.
 
 
 
