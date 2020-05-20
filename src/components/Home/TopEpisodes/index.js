@@ -1,6 +1,6 @@
-import React, { useContext } from "react"
+import React from "react"
 import { navigate, useStaticQuery, graphql } from "gatsby"
-import { ThemeContext } from "../../Theme/ThemeContext"
+import { useTheme } from "../../Theme/ThemeContext"
 import patternLight from "assets/patterns/4.back.svg"
 import patternDark from "assets/patterns/1.back.svg"
 import "./index.scss"
@@ -33,7 +33,7 @@ const colors = [
 ]
 
 export default React.memo(() => {
-  const [theme] = useContext(ThemeContext)
+  const { dark } = useTheme()
 
   const {
     allMdx: { edges },
@@ -42,9 +42,7 @@ export default React.memo(() => {
     <div
       className="top-episodes"
       style={{
-        backgroundImage: `url(${
-          theme === "dark" ? patternDark : patternLight
-        })`,
+        backgroundImage: `url(${dark ? patternDark : patternLight})`,
       }}
     >
       <div className="container">

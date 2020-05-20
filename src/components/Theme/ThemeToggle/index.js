@@ -1,16 +1,16 @@
-import React, { useContext } from "react"
+import React from "react"
 import "./index.scss"
-import { ThemeContext } from "../ThemeContext"
+import { useTheme } from "../ThemeContext"
 import Sun from "../../../assets/sun.svg"
 import Moon from "../../../assets/moon.svg"
 
 const ThemeToggle = () => {
-  const [theme, toggleTheme] = useContext(ThemeContext)
+  const { dark, toggleTheme } = useTheme()
 
   return (
     <div className="theme-toggle">
       <button className="theme-toggle-button" onClick={toggleTheme}>
-        {theme === "dark" ? (
+        {dark ? (
           <Sun className="theme-toggle-icon" />
         ) : (
           <Moon className="theme-toggle-icon" />

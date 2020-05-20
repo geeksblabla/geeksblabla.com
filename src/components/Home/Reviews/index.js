@@ -1,5 +1,5 @@
-import React, { useEffect, useContext } from "react"
-import { ThemeContext } from "../../Theme/ThemeContext"
+import React, { useEffect } from "react"
+import { useTheme } from "../../Theme/ThemeContext"
 import { useStaticQuery, graphql } from "gatsby"
 import "./index.scss"
 import patternDark from "assets/patterns/3.back.svg"
@@ -30,7 +30,7 @@ export const query = graphql`
 `
 
 export default () => {
-  const [theme] = useContext(ThemeContext)
+  const { dark } = useTheme()
   const data = useStaticQuery(query)
   const reviews = data.allIndexYaml.edges
   const rs = Math.random() >= 0.5 ? reviews.slice(0, 7) : reviews.slice(7, 14)
@@ -43,9 +43,7 @@ export default () => {
     <div
       className="reviews"
       style={{
-        backgroundImage: `url(${
-          theme === "dark" ? patternDark : patternLight
-        })`,
+        backgroundImage: `url(${dark ? patternDark : patternLight})`,
       }}
     >
       <div className="container">
