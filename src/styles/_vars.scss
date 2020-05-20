@@ -13,8 +13,9 @@
   --notif-banner: #090a1e;
   --button-color: #ffffff;
   --loader-color: #ffffff;
-
   --eps-shadow: 0px 4px 74px rgba(0, 0, 0, 0.25);
+  --play-icon-color-primary: #ffffff;
+  --play-icon-color-secondary: rgb(180, 13, 183);
 }
 
 .light {
@@ -25,8 +26,9 @@
   --notif-banner: #d3d7f8;
   --button-color: #31337e;
   --loader-color: #31337e;
-
-  --eps-shadow: 0px 4px 74px #e5e7fa5a;
+  --eps-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  --play-icon-color-primary: rgb(180, 13, 183);
+  --play-icon-color-secondary: #ffffff;
 }
 
 $main-gradient: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);

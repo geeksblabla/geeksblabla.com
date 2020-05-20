@@ -51,6 +51,14 @@
   .icon {
     display: block;
     align-self: center;
+
+    svg path {
+      fill: var(--play-icon-color-secondary);
+    }
+
+    svg rect {
+      fill: var(--play-icon-color-primary);
+    }
   }
   h2 {
     margin-top: 0px;
