@@ -63,6 +63,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.0",
     "react-modal": "^3.11.1",
+    "react-player": "^2.1.0",
     "react-share": "^3.0.1",
     "reactjs-popup": "^1.5.0",
     "typeface-lato": "^0.0.75",
