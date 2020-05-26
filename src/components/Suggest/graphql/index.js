@@ -1,7 +1,6 @@
 import fetch from "isomorphic-fetch"
-import { ApolloClient, InMemoryCache } from "apollo-boost"
-import { createHttpLink } from "apollo-link-http"
-import { setContext } from "apollo-link-context"
+import { setContext } from "@apollo/link-context"
+import { ApolloClient, HttpLink, InMemoryCache } from "@apollo/client"
 
 const isBrowser = typeof window !== "undefined"
 
@@ -20,7 +19,7 @@ const authLink = setContext((_, { headers }) => {
 
 const uri = "/.netlify/functions/db/"
 export const client = new ApolloClient({
-  link: authLink.concat(createHttpLink({ uri })),
+  link: authLink.concat(new HttpLink({ uri })),
   cache: new InMemoryCache(),
   fetch,
 })

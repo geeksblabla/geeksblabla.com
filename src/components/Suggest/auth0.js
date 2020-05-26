@@ -57,9 +57,10 @@ export const Auth0Provider = ({ children }) => {
         const votes = await client.query({
           query: MY_VOTES,
           variables: { email: user.email },
+          fetchPolicy: "network-only",
         })
         if (votes.data && votes.data.allVotesByUser.data)
-          setVotes(votes.data.allVotesByUser.data.map(v => v._id))
+          setVotes(votes.data.allVotesByUser.data.map((v) => v._id))
       }
     }
     getMyVotes()

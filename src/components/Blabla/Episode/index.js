@@ -21,13 +21,9 @@ const Episode = ({
       <div className="title">
         <p>{date}</p>
         <h1> {title} </h1>
-        <Actions
-          repoLink={repoLink}
-          title={title}
-          shareUrl={`https://geeksblabla.com/${slug}`}
-        />
+        <Actions title={title} shareUrl={`https://geeksblabla.com/${slug}`} />
       </div>
-      <Notes content={description} />
+      <Notes content={description} repoLink={repoLink} />
     </div>
   </div>
 )

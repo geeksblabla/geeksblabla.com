@@ -1,8 +1,11 @@
 /* eslint-disable */
 import React, { useEffect } from "react"
 import { Auth0Context } from "./auth0"
-import { client, LIKE, DISLIKE, GET_EPISODES, MY_VOTES } from "./graphql"
+import { client, LIKE, DISLIKE } from "./graphql"
 import { LikeIcon, DisLikeIcon } from "./icons"
+
+const hasVoted = (userVotes, allVotes) =>
+  allVotes.some((vote) => userVotes.includes(vote._id))
 
 export default ({ episode: { description, votes, _id } }) => {
   return (
@@ -22,16 +25,16 @@ const Like = ({ votes, episodeId }) => {
     votes: userVotes,
   } = React.useContext(Auth0Context)
 
-  const [likes, setLikes] = React.useState(votes.data ? votes.data.length : 0)
-  const [isVoted, setIsVoted] = React.useState(
-    !!votes.data.filter(x => userVotes.includes(x._id))[0]
-  )
+  const allVotes = votes.data
+
+  const [likes, setLikes] = React.useState(allVotes ? allVotes.length : 0)
+  const [isVoted, setIsVoted] = React.useState(hasVoted(userVotes, allVotes))
 
   useEffect(() => {
-    setIsVoted(!!votes.data.filter(x => userVotes.includes(x._id))[0])
-  }, [userVotes, votes.data])
+    setIsVoted(hasVoted(userVotes, allVotes))
+  }, [userVotes, allVotes])
 
-  const handelClick = async () => {
+  const handleClick = () => {
     if (!isAuthenticated) {
       openPopup()
       return
@@ -39,32 +42,35 @@ const Like = ({ votes, episodeId }) => {
     setIsVoted(!isVoted)
     setLikes(isVoted ? likes - 1 : likes + 1)
     if (isVoted) {
-      const vote = votes.data.filter(x => userVotes.includes(x._id))[0]
-      if (vote)
-        await client.mutate({
-          mutation: DISLIKE,
-          variables: { id: vote._id },
-          refetchQueries: [
-            { query: GET_EPISODES },
-            { query: MY_VOTES, variables: { email: user.email } },
-          ],
-        })
+      const vote = allVotes.filter((x) => userVotes.includes(x._id))[0]
+      if (vote) {
+        client
+          .mutate({
+            mutation: DISLIKE,
+            variables: { id: vote._id },
+          })
+          .catch(() => {
+            setIsVoted(true)
+            setLikes(likes)
+          })
+      }
     } else {
-      const { data } = await client.mutate({
-        mutation: LIKE,
-        variables: {
-          data: { email: user.email, episode: { connect: episodeId } },
-        },
-        refetchQueries: [
-          { query: GET_EPISODES },
-          { query: MY_VOTES, variables: { email: user.email } },
-        ],
-      })
+      client
+        .mutate({
+          mutation: LIKE,
+          variables: {
+            data: { email: user.email, episode: { connect: episodeId } },
+          },
+        })
+        .catch(() => {
+          setIsVoted(false)
+          setLikes(likes)
+        })
     }
   }
 
   return (
-    <div className="icon" onClick={handelClick}>
+    <div className="icon" onClick={handleClick}>
       {isVoted ? <LikeIcon /> : <DisLikeIcon />}
       {likes}
     </div>
