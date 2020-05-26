@@ -33,6 +33,7 @@ const VideoPlayer = ({ video }) => {
       <ReactPlayer
         playing
         width="100%"
+        height="auto"
         ref={player}
         controls
         url={`https://www.facebook.com/facebook/videos/${video}`}

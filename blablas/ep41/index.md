@@ -12,7 +12,7 @@ url: ""
 podcastUrl: https://www.facebook.com/geeksblabla/videos/866401943834929/
 ---
 
-In this episode of GeeksBlabla, we discuss with amazing folks How to get started with PHP? some core concept you need to master, Frameworks, CMS and much more.
+In this episode of GeeksBlabla, we discuss with amazing folks How to get started with PHP? some core concepts you need to master, Frameworks, CMS and much more.
 
 ## Guests
 
