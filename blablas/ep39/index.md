@@ -7,7 +7,7 @@ tags: ["dev", "blogging"]
 isNext: false
 video: "655858025264119"
 published: true
-featured: false
+featured: true
 url: ""
 podcastUrl: https://www.facebook.com/geeksblabla/videos/655858025264119/
 ---
