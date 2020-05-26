@@ -1,5 +1,5 @@
 import React from "react"
-import { ApolloProvider } from "react-apollo"
+import { ApolloProvider } from "@apollo/client"
 import SuggestionsList from "./SuggestionsList"
 import SuggestionForm from "./SuggestionForm"
 import { client } from "./graphql"
@@ -12,7 +12,9 @@ export default () => {
       <Auth0Provider>
         <div className=" container suggest">
           <SuggestionForm />
-          <SuggestionsList />
+          <div className="list">
+            <SuggestionsList />
+          </div>
         </div>
       </Auth0Provider>
     </ApolloProvider>
