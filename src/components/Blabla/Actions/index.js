@@ -11,7 +11,7 @@ import {
   WhatsappIcon,
 } from "react-share"
 
-export default ({ repoLink, shareUrl, title: t }) => {
+export default ({ shareUrl, title: t }) => {
   const title = t + "#GeeksBalala #DevC_Casa"
 
   return (
@@ -35,15 +35,6 @@ export default ({ repoLink, shareUrl, title: t }) => {
           <WhatsappIcon size={32} round />
         </WhatsappShareButton>
       </div>
-
-      <a
-        target="_blank"
-        className="edit"
-        rel="noopener noreferrer"
-        href={repoLink}
-      >
-        Edit Notes
-      </a>
     </div>
   )
 }
