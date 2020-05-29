@@ -245,6 +245,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "melbahja",
+      "name": "Mohamed El Bahja",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8259014?v=4",
+      "profile": "https://mohamedelbahja.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 5,
