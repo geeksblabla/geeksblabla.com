@@ -43,9 +43,9 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 0:33 - Since things evolve very rapidly, how do you decide on what is worth learning ?
 
-0:37 - What kind of projects should we work on ? should this projects be something really special and unique, or just take personal ideas and keep working on them and sharing them?
+0:36 - What kind of projects should we work on ? should this projects be something really special and unique, or just take personal ideas and keep working on them and sharing them?
 
-0:36 - How did you get your first programming job/ freelance work?
+0:37 - How did you get your first programming job/ freelance work?
 
 0:40 - How has your life changed since becoming a professional programmer?
 
