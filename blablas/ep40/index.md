@@ -47,21 +47,21 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 0:37 - How did you get your first programming job/ freelance work?
 
-0:40 - How has your life changed since becoming a professional programmer?
+0:43 - How has your life changed since becoming a professional programmer?
 
-0:45 - Has anyone ever asked about your coding qualifications when you have been talking to clients?
+0:49 - Has anyone ever asked about your coding qualifications when you have been talking to clients?
 
-0:50 - Do you think a CS degree is unnecessary now?
+0:51 - Do you think a CS degree is unnecessary now?
 
-1:00 - Did you still learn  after you got your first job 
+0:57 - Did you still learn  after you got your first job 
 
-1:12 - Do you have tips for getting a remote job as a junior developer?
+1:00 - Do you have tips for getting a remote job as a junior developer?
 
-1:20 - What advice do you have for someone who wants to get their first programming job but they don’t have the time or money for a CS degree?
+1:02 - What advice do you have for someone who wants to get their first programming job but they don’t have the time or money for a CS degree?
 
-1:30 - Is there something that most self-taughts have over "classic" engineers ?
+1:32 - Is there something that most self-taughts have over "classic" engineers ?
 
-1:40 - Does security background helps in cracking interviews and landing jobs as a developer?
+1:35 - Does security background helps in cracking interviews and landing jobs as a developer?
 
 1:42 - Will you go after fundamentals (Data types, patterns, algorithms...etc) Or you just learn things directly and try hard to go for it?
 
