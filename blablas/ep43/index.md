@@ -26,35 +26,37 @@ In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gamepla
 
 0:00 - Introduction
 
-0:05 -  Can you give us a brief look into what inspired you when you were young? 
+0:03 -  Can you give us a brief look into what inspired you when you were young? 
 
-0:10 - Did family or friends influence your decision to get into games or was this something you became interested in on your own?
+0:05 - Did family or friends influence your decision to get into games or was this something you became interested in on your own?
 
-0:16 - What was the first game you worked on?
+0:09 - What was the first game you worked on?
 
-0:21 - And how was your experience working on games in morocco?
+0:13 - And how was your experience working on games in morocco?
 
-0:26 - Did you work with companies who are 100% into gaming products?
+0:16 - Did you work with companies who are 100% into gaming products?
 
-0:31 - Are there any classic or current games/films that changed your creative vision or that stand out to you as must play/watch and why
+0:20 - Did you have a mentor ?
 
-0:37 - Have you been impressed or surprised by any recently?
+0:23 - Are there any classic or current games/films that changed your creative vision or that stand out to you as must play/watch and why
 
-0:43 -Is there a favorite project or game title you’ve worked on recently and what made it fun for you personally?
+0:24 - Have you been impressed or surprised by any recently?
 
-0:48 - Is working with an international team a game changer in your career and your learning path? 
+0:26 -Is there a favorite project or game title you’ve worked on recently and what made it fun for you personally?
+
+1:04 - Is working with an international team a game changer in your career and your learning path? 
 
 1:05 - and how is it to work in a very well known company?
 
-1:12 - What is your favorite part of game development?
+1:07 - What is your favorite part of game development, and the worst parts?
 
-1:22 - What were your hardest problems during the development of the game and how did you solve them?
+1:13 - What were your hardest problems during the development of the game and how did you solve them?
 
-1:34 - What are the skills that an optimum newbie should possess in order to work efficiently and effectively in this domain?
+1:17 - What are the skills that an optimum newbie should possess in order to work efficiently and effectively in this domain?
 
-1:40 - What would be the best advice you would give to someone who wants to take a video game idea from the paper and develop it into a full game?
+1:23 - What would be the best advice you would give to someone who wants to take a video game idea from the paper and develop it into a full game?
 
-1:52 - What’s the deal with cheat codes? 
+1:28 - What’s the deal with cheat codes? 
 
 1:58 - Wrap up and Goodbye.
 
