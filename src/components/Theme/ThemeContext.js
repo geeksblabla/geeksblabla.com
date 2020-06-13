@@ -5,7 +5,7 @@ export const ThemeContext = createContext({ dark: true, toggleTheme: () => {} })
 
 export const ThemeProvider = ({ children }) => {
   const [dark, setDark] = useState(
-    (isBrowser && window.localStorage.getItem("dark") === "true") || true
+    !((isBrowser && window.localStorage.getItem("dark") === "false" ) || false)
   )
 
   useEffect(() => {
