@@ -15,19 +15,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: $text-color;
+  color: var(--text-color);
   .item {
     font-size: 18px;
     line-height: 24px;
     margin: 20px;
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: none;
 
     &.active {
-      color: $heading-color;
+      color: var(--heading-color);
     }
     &:hover {
-      color: $heading-color;
+      color: var(--heading-color);
     }
   }
   .menu {
@@ -45,7 +45,7 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
     color: #5f6089;
     &:hover {
-      color: $heading-color;
+      color: var(--heading-color);
     }
   }
 }

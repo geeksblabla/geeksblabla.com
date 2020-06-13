@@ -54,12 +54,11 @@
   }
 }
 .contributors {
-  background-image: url(../../assets/patterns/1.back.svg);
   background-position-y: -1px;
   background-position-y: -1px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: $secondary-bg-color;
+  background-color: var(--secondary-bg-color);
   display: flex;
   align-items: center;
   margin: auto;
@@ -71,7 +70,7 @@
   }
   h4 {
     width: 40rem;
-    color: $text-color;
+    color: var(--text-color);
     @include breakpoint(mobileonly) {
       width: 80%;
     }
@@ -100,7 +99,7 @@
       text-align: left;
 
       margin-left: 20px;
-      color: #f6f7f9;
+      color: var(--text-color);
       span {
         display: block;
       }
@@ -108,10 +107,11 @@
     .back {
       margin-top: -35px;
       padding-top: 40px;
-      background: $main-bg-color;
+      background: var(--main-bg-color);
       min-height: 60px;
       width: 130px;
       border-radius: 16px;
+      box-shadow: var(--contributor-shadow);
     }
   }
 }
@@ -126,14 +126,14 @@
   padding-top: 2rem;
   input,
   textarea {
-    color: $heading-color;
-    background: $secondary-bg-color;
+    color: var(--heading-color);
+    background: var(--secondary-bg-color);
     margin-bottom: 2rem;
     padding: 16px;
     border-radius: 7px;
     border: none;
     &::placeholder {
-      color: $text-color;
+      color: var(--text-color);
     }
   }
   .actions {

@@ -4,12 +4,14 @@
 @import "./font.scss";
 
 body {
-  background: $main-bg-color;
-  color: $text-color;
+  background: var(--main-bg-color);
+  color: var(--text-color);
   //background-image: url(./pattern.back.svg);
   background-repeat: no-repeat;
   background-position-y: 6rem;
   background-position-x: center;
+
+  transition: all 300ms ease-out;
 }
 .container {
   max-width: 1240px; /* For large screens */
@@ -49,9 +51,9 @@ body {
   margin: 1rem;
   cursor: pointer;
   &.outline {
-    color: #ffffff;
+    color: var(--button-color);
     background: transparent;
-    border: #ffffff 1px solid;
+    border: var(--button-color) 1px solid;
   }
   &.left {
     margin-left: 0px;

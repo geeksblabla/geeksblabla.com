@@ -1,6 +1,9 @@
 import React, { useEffect } from "react"
+import { useTheme } from "../../Theme/ThemeContext"
 import { useStaticQuery, graphql } from "gatsby"
 import "./index.scss"
+import patternDark from "assets/patterns/3.back.svg"
+import patternLight from "assets/patterns/6.back.svg"
 const isBrowser = typeof window !== "undefined"
 
 export const query = graphql`
@@ -27,6 +30,7 @@ export const query = graphql`
 `
 
 export default () => {
+  const { dark } = useTheme()
   const data = useStaticQuery(query)
   const reviews = data.allIndexYaml.edges
   const rs = Math.random() >= 0.5 ? reviews.slice(0, 7) : reviews.slice(7, 14)
@@ -36,7 +40,12 @@ export default () => {
   }, [])
 
   return (
-    <div className="reviews">
+    <div
+      className="reviews"
+      style={{
+        backgroundImage: `url(${dark ? patternDark : patternLight})`,
+      }}
+    >
       <div className="container">
         <h5> What People say about GeeksBalabla </h5>
       </div>

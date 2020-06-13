@@ -8,7 +8,7 @@ body {
   font-family: Lato;
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
   line-height: 1 * $mode;
-  color: $text-color;
+  color: var(--text-color);
 }
 
 h1 {
@@ -52,7 +52,7 @@ h4,
 h5,
 h6 {
   margin: calc(12px + 1.05vw) 0; /* Responsive margins */
-  color: $heading-color;
+  color: var(--heading-color);
 }
 p {
   margin-bottom: 0.3rem;

@@ -1,5 +1,8 @@
 import React from "react"
 import { navigate, useStaticQuery, graphql } from "gatsby"
+import { useTheme } from "../../Theme/ThemeContext"
+import patternLight from "assets/patterns/4.back.svg"
+import patternDark from "assets/patterns/1.back.svg"
 import "./index.scss"
 
 const FEATURED_EPISODES = graphql`
@@ -29,12 +32,19 @@ const colors = [
   ["#09D0AF", "#4695BD"],
 ]
 
-export default () => {
+export default React.memo(() => {
+  const { dark } = useTheme()
+
   const {
     allMdx: { edges },
   } = useStaticQuery(FEATURED_EPISODES)
   return (
-    <div className="top-episodes">
+    <div
+      className="top-episodes"
+      style={{
+        backgroundImage: `url(${dark ? patternDark : patternLight})`,
+      }}
+    >
       <div className="container">
         <h2>Top episodes</h2>
         <div className="episodes">
@@ -50,10 +60,10 @@ export default () => {
       </div>
     </div>
   )
-}
+})
 
-const EpisodeCard = ({ title, description, slug, item }) => {
-  const navigateTo = e => {
+const EpisodeCard = React.memo(({ title, description, slug, item }) => {
+  const navigateTo = (e) => {
     if (e.keyCode === 13) navigate(slug)
   }
 
@@ -70,9 +80,9 @@ const EpisodeCard = ({ title, description, slug, item }) => {
       <p>{description}</p>
     </div>
   )
-}
+})
 
-const PlayIcon = ({ item }) => {
+const PlayIcon = React.memo(({ item }) => {
   const stop1 = colors[item][0]
   const stop2 = colors[item][1]
   return (
@@ -86,7 +96,7 @@ const PlayIcon = ({ item }) => {
       <rect
         width="62"
         height="62"
-        fill={`url(#paint${item}_linear)`}
+        fill={`url(#paint${item}_linear_100)`}
         rx="31"
       ></rect>
       <path
@@ -95,7 +105,7 @@ const PlayIcon = ({ item }) => {
       ></path>
       <defs>
         <linearGradient
-          id={`paint${item}_linear`}
+          id={`paint${item}_linear_100`}
           x1="0"
           x2="62"
           y1="31"
@@ -108,4 +118,4 @@ const PlayIcon = ({ item }) => {
       </defs>
     </svg>
   )
-}
+})

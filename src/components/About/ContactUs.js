@@ -1,12 +1,20 @@
 import React from "react"
-
+import { useTheme } from "../Theme/ThemeContext"
 import Contact from "assets/contact.svg"
+import ContactLight from "assets/contact_light.svg"
 import Send from "assets/send.svg"
 
 export default () => {
+  const { dark } = useTheme()
+
   return (
     <div className="notification">
-      <Contact className="notif" />
+      {dark ? (
+        <Contact className="notif" />
+      ) : (
+        <ContactLight className="notif" />
+      )}
+
       <div className="content ">
         <h1> Contact us</h1>
         <p> We love to hear from you, reach out to us </p>
