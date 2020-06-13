@@ -5,6 +5,7 @@ import PlayIcon from "assets/play.svg"
 import HeroImageLight from "assets/hero_light.svg"
 import HeroImage from "assets/hero.svg"
 import HeroImageMobile from "assets/hero_mobile.svg"
+import HeroImageMobileLight from "assets/hero_mobile_light.svg"
 import "./index.scss"
 
 export default () => {
@@ -33,7 +34,10 @@ export default () => {
           <HeroImageMobile className="crea mobile-only" />
         </>
       ) : (
-        <HeroImageLight className="crea desktop-only" />
+        <>
+          <HeroImageLight className="crea desktop-only" />
+          <HeroImageMobileLight className="crea mobile-only" />
+        </>
       )}
     </div>
   )

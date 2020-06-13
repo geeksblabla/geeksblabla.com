@@ -11,7 +11,7 @@ export const ThemeProvider = ({ children }) => {
   useEffect(() => {
     if (isBrowser) {
       window.localStorage.setItem("dark", dark)
-      document.body.className = dark ? "dark" : "light"
+      document.body.className = dark ? "" : "light"
     }
   }, [dark])
 
