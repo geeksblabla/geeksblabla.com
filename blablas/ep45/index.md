@@ -18,7 +18,7 @@ In this episode of GeeksBlabla we discuss Angular with some Amazing Community fo
 
 [Soubai Abderahim](https://soubai.me)
 
-[Chihab Otmani](https://chihab.me)
+[Chihab Otmani](https://chihab.dev)
 
 [Abdullah Iraamane](https://www.facebook.com/abdullah.eraman)
 
