@@ -26,7 +26,7 @@ In this episode of GeeksBlabla we discuss Angular with some Amazing Community fo
 
 0:00 - Introduction and welcoming
 
-0:06 - What is Angular? && History and How it’s different than AngularJs
+0:06 - What is Angular? History and How it’s different than AngularJs
 
 0:14 - Performance issue and how Angular Solve those issues?
 
