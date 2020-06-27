@@ -19,9 +19,8 @@ export default () => {
       <div className="content">
         <h1> Get Notified </h1>
         <p>
-          The best way to get notified about live streams is by subscribing to
-          our Youtube Channel and Facebook Page (Make sure to enable
-          notifications 😉)
+          To get live streams notifications subscribe to our Youtube Channel and
+          Facebook Page (Make sure to enable notifications 😉)
         </p>
 
         <div className="icons">
@@ -49,13 +48,13 @@ export default () => {
           </a>
         </div>
         <p>
-          Or You can subscribe to our{" "}
+          Or you can subscribe to our{" "}
           <a
             href="https://tinyletter.com/geeksBlabla"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Email List
+            Mailing List
           </a>{" "}
           to get updates about GeeksBlaBla and DevC Events
         </p>
