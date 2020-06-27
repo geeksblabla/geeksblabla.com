@@ -150,7 +150,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Blog RSS Feed",
+            title: "GeeksBlabla RSS Feed",
           },
         ],
       },
