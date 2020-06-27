@@ -10,6 +10,12 @@
   @include breakpoint(mobileonly) {
     padding: 6rem 0rem;
   }
+  .icons {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
   .content {
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 
@@ -21,10 +27,11 @@
     justify-content: center;
     align-items: center;
     justify-self: stretch;
-    max-width: 45rem;
+    max-width: 35rem;
     min-width: 35rem;
+    padding: 2rem;
     @include breakpoint(mobileonly) {
-      width: 100%;
+      width: auto;
     }
     padding-top: 3rem;
     padding-bottom: 3rem;
