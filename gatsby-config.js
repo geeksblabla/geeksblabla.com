@@ -99,6 +99,63 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.edges.map((edge) => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.fields.date,
+                  url: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+                  custom_elements: [{ tags: edge.node.fields.tags.join(",") }],
+                })
+              })
+            },
+            query: `
+              {
+                allMdx(
+                  limit: 1000,
+                  filter: { frontmatter: { published: { ne: false } } }
+                  sort: { order: DESC, fields: [frontmatter___date] }
+                ) {
+                  edges {
+                    node {
+                      excerpt(pruneLength: 250)
+                      fields {
+                        slug
+                        date
+                        tags
+                      }
+                      frontmatter {
+                        title
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Blog RSS Feed",
+          },
+        ],
+      },
+    },
+    {
       resolve: "gatsby-plugin-sentry",
       options: {
         dsn: "https://7048bf611200421abd4d4f0e4d873c8b@sentry.io/1452547",
