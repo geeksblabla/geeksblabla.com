@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import SEO from "components/SEO"
 import Layout from "components/Layout"
 import { Episode, EpisodesMenu } from "components/Blabla"
-import { HiddenNotificationTrigger } from "../components/OneSignal"
 
 export default ({ data: { mdx } }) => {
   const { fields, body, excerpt } = mdx
@@ -20,7 +19,6 @@ export default ({ data: { mdx } }) => {
         <EpisodesMenu />
         <Episode {...fields} description={body} excerpt={excerpt} />
       </div>
-      <HiddenNotificationTrigger />
     </Layout>
   )
 }
