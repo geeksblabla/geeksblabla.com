@@ -28,15 +28,15 @@ In this episode of GeeksBlabla we discuss Angular with some Amazing Community fo
 
 0:06 - What is Angular? History and How it’s different than AngularJs
 
-0:14 - Performance issue and how Angular Solve those issues?
+0:14 - Performance issues and how Angular Solves them?
 
-0:26 - Pros and cons of Angular (compared to other React)
+0:26 - Pros and cons of Angular (compared to other frameworks or libraries like React)
 
-0:38 - Finding jobs as Angular developer?
+0:38 - Finding jobs as an Angular developer?
 
-0:50 - Fundamental skills that every Angular developer need to master.
+0:50 - Fundamental skills that every Angular developer needs to master.
 
-0:58 - How to get Started ?
+0:58 - How to get started?
 
 1:13 - Angular and CSS.
 
@@ -44,9 +44,9 @@ In this episode of GeeksBlabla we discuss Angular with some Amazing Community fo
 
 1:34 - Angular SSG and SSR.
 
-1:38 - How to organize your Angular project.
+1:38 - How to organize your Angular projects?
 
-1:49 - Testing For Angular.
+1:49 - Testing Angular applications.
 
 1:57 - QA.
 
