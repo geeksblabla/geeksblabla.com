@@ -26,13 +26,13 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 0:00 - Introduction and welcoming.
 
-0:05 - Why do employers care about resumes and Why your resume is very critical in your path searching for a new job?
+0:05 - Why do employers care about resumes and why your resume is very critical in your path searching for a new job?
 
 0:10 - Guests experience writing their first resume.
 
-0:23 - Challenges for Student on Writing their resumes.
+0:23 - Challenges for Students on Writing their resumes.
 
-0:38 - Most common mistakes by junior developers building their resumes.
+0:38 - Most common mistakes made by junior developers building their resumes.
 
 0:48 - Most Important sections for a developer resume.
 
@@ -40,7 +40,7 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 1:25 - QA.
 
-1:54 - Reviewing Resume for Community members.
+1:54 - Reviewing community member's resumes.
 
 2:25 - Wrap up and Goodbye.
 
