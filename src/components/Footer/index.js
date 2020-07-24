@@ -43,7 +43,7 @@ export default ({ style }) => (
           GitHub
         </a>
       </p>
-      <p>© DevC Casablanca {new Date().getFullYear()}</p>
+      <p>© DevC Casablanca 2018 - {new Date().getFullYear()}</p>
     </div>
   </div>
 )
