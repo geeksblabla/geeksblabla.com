@@ -45,7 +45,7 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding i
 
 01:11 - End-of-school project (PFE) in a multinational company Vs Startup.
 
-01:19 - How to prepare for a good defense ?
+01:19 - How to prepare for a good project presentation ?
 
 01:26 - How to choose a good internship topic ?
 
