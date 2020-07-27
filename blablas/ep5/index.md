@@ -21,11 +21,11 @@ In this episode of GeeksBlabla MSS, we welcome Taher Alami , He has been involve
 
 00:00 - Introduction: Welcoming and presenting the guest.
 
-00:10 - Taher Alami debut in the web.
+00:10 - Taher Alami's first years in web development.
 
 00:15 - First experience with entrepreneurship.
 
-00:18 - Is anyone can develop? and How to be successful as a web developer?
+00:18 - Can anyone become a software developer? and How to be successful as a web developer?
 
 00:22 - Future of the Moroccan web.
 
@@ -35,22 +35,22 @@ In this episode of GeeksBlabla MSS, we welcome Taher Alami , He has been involve
 
 00:32 - Startup ecosystem in Morocco.
 
-00:40 - Is it easier to begin a startup in Dubai than Morocco?
+00:40 - Is it easier to start a startup in Dubai than Morocco?
 
-00:41 - Single or multiple technology learning?
+00:41 - focus on learning one technology or multiple at once?
 
 00:49 - Why should learn about blockchain as a freenalcer?
 
-00:52 - Invesstissement in Africa and the experience of Taher Alami in it.
+00:52 - Investment in Africa and Taher Alami experience in this field.
 
-00:59 - Big data and cloud computing in morocco.
+00:59 - Big data and cloud computing in Morocco.
 
-01:02 - AR and Spark AR topic.
+01:02 - AR and Spark AR.
 
 01:08 - Advice for youth Entrepreneurs/Developers.
 
 01:12 - Freezone in Dubai.
-  
+
 01:21 - Wrap up and goodbye!
 
 ## Links

@@ -31,15 +31,15 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding i
 
 00:08 - First year of school experience and some tips.
 
-00:28 - Tips to deal better with the coming years of school and The importance of self-learning.
+00:28 - Tips to deal with upcoming years of school and The importance of self-learning.
 
-00:36 - Is that the degree is important to integrate the field of development ?
+00:36 - The importance of school degrees in the development field?
 
 00:38 - Freelancing while studying.
 
 00:40 - The importance of extracurricular activities in academic and professional careers.
 
-00:50 - Is that the exams score is quite important ?
+00:50 - Are exams scores quite important for your professional careers?
 
 00:58 - How to find a good end-of-school project (PFE) and prepare for the professional world ?
 
