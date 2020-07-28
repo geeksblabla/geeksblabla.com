@@ -273,6 +273,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "makraz",
+      "name": "Hamza Makraz",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19323431?v=4",
+      "profile": "https://www.makraz.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 5,
