@@ -10,7 +10,7 @@ published: true
 audio: https://anchor.fm/s/88e3048/podcast/play/8871827/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37063179-48000-2-83a2df7aac338.m4a
 ---
 
-In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about his succuss story.
+In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about his success story.
 
 ## Guests
 
@@ -25,8 +25,6 @@ In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about
 00:06 - did you study on any public high school?
 
 00:20 - How did you change your profile from developement to security?
-
-00:22 - What is cybersecurity?
 
 00:22 - What is cybersecurity?
 
