@@ -24,7 +24,7 @@ In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about
 
 00:06 - did you study on any public high school?
 
-00:20 - How did you change your profile from developement to security?
+00:20 - How did you switch from developement to security?
 
 00:22 - What is cybersecurity?
 
@@ -34,15 +34,15 @@ In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about
 
 00:31 - How to start a career in cybersecurity?
 
-00:33 - How you start your startup on Dubai?
+00:33 - How to found a startup in Dubai?
 
-00:46 - Advice for someone how will start a startup?
+00:46 - Advice for people who want to found a startup.
 
-00:46 - A person who wants to start on entrepreneurship it is required to have knowledge and Capital?
+00:46 - What kind of knowledge and amount of capital required for someone to take on entrepreneurship?
 
-00:51 - How did you manage to get the funds?
+00:51 - How did you manage to get funds?
 
-00:59 - What are your future vision for your startup and what is your advice for people on will start on the cybersecurity?
+00:59 - What are your future plans, and what kind of advice could you give to someone who wants to get into cybersecurity?
 
 01:10 - Mohammed Aboullaite: Thanking DevC team and launch DevC projects for 2019
 
