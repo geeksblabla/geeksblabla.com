@@ -22,7 +22,7 @@ In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about
 
 00:03 - What is your academic background?
 
-00:06 - did you study on any public high school?
+00:06 - did you study in any public high school?
 
 00:20 - How did you switch from developement to security?
 
