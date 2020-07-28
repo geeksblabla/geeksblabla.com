@@ -8,21 +8,56 @@ isNext: false
 video: "2902199879840669"
 featured: true
 published: true
-url:
-podcastUrl:
+url: "https://geeksblabla.com/blablas/geeks-blabla-kids"
 ---
 
 A Special episode to encourage youth minds in the coding industry,In this episode of GeeksBlabla Ayman and Achraf, 2 boys under 16, share their story with programming and robotics.
 
 ## Guests
 
-Achraf Mansari
+[Achraf Mansari](https://www.facebook.com/itsachrafmansari/)
 
-Ayman Riad Solh
+[Ayman Riad Solh]()
 
 ## Notes
+00:01 - Introduction & Guests presentation
+
+00:04 - When and how they know Programming ?
+
+00:12 - difficulties encountered & thier solutions
+
+00:16 - how they improved their skills?
+
+00:20 - Have you ever practiced these skills in competition?
+
+00:25 - How do you like the field of information technology?
+
+00:29 - How did your family and friends react to you when they know you love programming?
+
+00:34 - have you an idea to explain your knowledge of IT in Darija to your friends , your family , and others  kids ?
+
+00:41 - How did you get the idea for your projects?
+
+00:46 - What are the steps to take when you want to create a new project?
+
+00:56 - Are you thinking about new projects in the future?
+
+00:59 - connected devices (Q:Ayman A:Achraf)
+
+01:02 - Do you have plans for your studies (the program) ?
+
+01:07 - Facebook Questions
+
+01:17 - what do you expect your parents to improve your technical skills?
+
+01:27 - what do you advise kids in your age to start programming?
+
+01:31 - Final words and goodbye.
+
 
 ## Links
+[Scratch](http://scratch.mit.edu/)
+[Facebook DevC](https://www.facebook.com/groups/DevC.Casablanca/?hc_ref=ARQQY8zH-NAV8646DsgW8RNoO1DNoBuf-43ao4kIFvZZMJCV4jpw7-hSQ2C0DmFkkdI&ref=nf_target)
 
 ## Prepared and Presented by :
 
