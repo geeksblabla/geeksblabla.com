@@ -182,7 +182,7 @@ exports.onCreateNode = async ({ node, getNode, actions }) => {
       value: node.frontmatter.video || "",
     })
 
-    const views = await getVideoViewsCount("738019970309937")
+    const views = await getVideoViewsCount(node.frontmatter.video)
 
     createNodeField({
       name: "views",
