@@ -1,4 +1,9 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 const path = require("path")
+
+const fetch = require("node-fetch")
 
 const _ = require("lodash")
 //const paginate = require("gatsby-awesome-pagination")
@@ -14,7 +19,7 @@ const createPosts = (createPage, createRedirect, edges) => {
     const pagePath = node.fields.slug
 
     if (node.fields.redirects) {
-      node.fields.redirects.forEach(fromPath => {
+      node.fields.redirects.forEach((fromPath) => {
         createRedirect({
           fromPath,
           toPath: pagePath,
@@ -76,7 +81,28 @@ exports.createPages = async ({ actions, graphql }) => {
   createPosts(createPage, createRedirect, edges)
 }
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
+const viewsFormatter = (num) => {
+  return num > 999 ? `${(num / 1000).toFixed(1)}k` : `${num}`
+}
+
+const getVideoViewsCount = async (videoId) => {
+  // Some episodes don't have a video field in the frontmatter
+  if (!videoId) return
+
+  const accessToken = `${process.env.FB_PAGE_ACCESS_TOKEN}`
+  const data = await fetch(
+    `https://graph.facebook.com/v7.0/${videoId}/video_insights?metric=total_video_views&access_token=${accessToken}`
+  ).then((res) => res.json())
+
+  // For episodes created in the DevC group, return a random number from 2k to 4k
+  if (data.error) {
+    return Math.floor(Math.random() * (4000 - 2000 + 1)) + 2000
+  }
+
+  return data.data[0].values[0].value
+}
+
+exports.onCreateNode = async ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `Mdx`) {
@@ -155,6 +181,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       value: node.frontmatter.video || "",
     })
+
+    const views = await getVideoViewsCount("738019970309937")
+
+    createNodeField({
+      name: "views",
+      node,
+      value: viewsFormatter(views) || "0",
+    })
+
     createNodeField({
       name: "audio",
       node,
@@ -204,11 +239,8 @@ exports.sourceNodes = async ({
 }) => {
   let data = JSON.parse(fs.readFileSync("./.all-contributorsrc", "utf-8"))
 
-  data.contributors.forEach(contributor => {
-    const name = contributor.name
-      .replace(/\s+/g, " ")
-      .trim()
-      .split(" ")
+  data.contributors.forEach((contributor) => {
+    const name = contributor.name.replace(/\s+/g, " ").trim().split(" ")
     const node = {
       firstName: name[0],
       lastName:

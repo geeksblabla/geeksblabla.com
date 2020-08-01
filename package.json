@@ -55,6 +55,7 @@
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
+    "node-fetch": "^2.6.0",
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
