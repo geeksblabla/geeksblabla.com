@@ -4,7 +4,7 @@ import PlayIcon from "assets/play.svg"
 
 import "./index.scss"
 
-export default ({ title, date, slug, duration, active }) => (
+export default ({ title, date, slug, duration, active, views }) => (
   <Link
     to={`/${slug}`}
     activeClassName="episode-item active"
@@ -17,7 +17,7 @@ export default ({ title, date, slug, duration, active }) => (
     <div>
       <h2>{title}</h2>
       <p>
-        {duration} | {date}
+        {duration} | {date} | {views} views
       </p>
     </div>
   </Link>

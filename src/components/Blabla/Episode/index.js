@@ -14,12 +14,14 @@ const Episode = ({
   audio,
   description,
   repoLink,
+  views,
 }) => (
   <div className="episode">
     <Player video={video} audio={audio} />
     <div className="info">
       <div className="title">
         <p>{date}</p>
+        <p>{views} views</p>
         <h1> {title} </h1>
         <Actions title={title} shareUrl={`https://geeksblabla.com/${slug}`} />
       </div>

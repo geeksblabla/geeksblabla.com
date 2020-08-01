@@ -22,6 +22,7 @@ export default ({ selectedEpisode }) => (
                 slug
                 date(formatString: "MMMM DD, YYYY")
                 duration
+                views
               }
             }
           }
