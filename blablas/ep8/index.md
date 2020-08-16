@@ -15,7 +15,7 @@ In this episode of GeeksBlabla, we discuss Cybersecurity, Malware analysis and F
 
 ## Guests
 
-[Soufiane Tahiri](https://www.facebook.com/#)
+[Soufiane Tahiri](https://www.linkedin.com/in/soufianetahiri)
 
 [Mohamed Zakariae El Khdime](https://www.facebook.com/infom2z)
 
@@ -35,23 +35,23 @@ In this episode of GeeksBlabla, we discuss Cybersecurity, Malware analysis and F
 
 00:35 - What is cybersecurity?
 
-00:38 - Is a vulnerability the result of a bad developer?
+00:38 - Is vulnerability the result of a bad developer?
 
 00:45 - What is cyber forensics?
 
-00:54 - Forensics need knowledge in all fields computer science?
+00:54 - Forensics need knowledge in all fields of computer science?
 
 01:00 - How to get into cybersecurity?
 
-01:07 - What skills do you look for in candidate?
+01:07 - What skills do you look for in a candidate?
 
 01:11 - Certification is a criterion for recruiting?
 
-01:13 - Which profiles in cybersecurity are the most in question?
+01:13 - Which profiles are the most looked for in the cybersecurity industry?
 
 01:18 - What are the services in your company?
 
-01:28 - Advice for people who want to get start.
+01:28 - Advice for people who want to get started.
 
 01:36 - What are the vulnerabilities most encountered in your daily work?
 
