@@ -3,6 +3,8 @@ const path = require("path")
 const _ = require("lodash")
 //const paginate = require("gatsby-awesome-pagination")
 //const PAGINATION_OFFSET = 7
+const fs = require("fs")
+//const contributers = require("./.all-contributorsrc")
 
 const createPosts = (createPage, createRedirect, edges) => {
   edges.forEach(({ node }, i) => {
@@ -123,6 +125,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       value: node.frontmatter.tags || [],
     })
+    createNodeField({
+      name: "featured",
+      node,
+      value: node.frontmatter.featured || false,
+    })
     const path =
       node.fileAbsolutePath.substring(
         node.fileAbsolutePath.indexOf(
@@ -147,6 +154,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: "video",
       node,
       value: node.frontmatter.video || "",
+    })
+    createNodeField({
+      name: "audio",
+      node,
+      value: node.frontmatter.audio || "",
     })
   }
 }
@@ -182,5 +194,38 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         $components: path.resolve(__dirname, "src/components"),
       },
     },
+  })
+}
+
+exports.sourceNodes = async ({
+  actions,
+  createNodeId,
+  createContentDigest,
+}) => {
+  let data = JSON.parse(fs.readFileSync("./.all-contributorsrc", "utf-8"))
+
+  data.contributors.forEach(contributor => {
+    const name = contributor.name
+      .replace(/\s+/g, " ")
+      .trim()
+      .split(" ")
+    const node = {
+      firstName: name[0],
+      lastName:
+        name.length === 3
+          ? `${name[1]} ${name[2]}`
+          : name.length === 2
+          ? name[1]
+          : "",
+      ...contributor,
+      id: createNodeId(`contributor-${contributor.login}`),
+      internal: {
+        type: "Contributor",
+        contentDigest: createContentDigest(contributor),
+      },
+    }
+
+    // Create the actual data node
+    actions.createNode(node)
   })
 }

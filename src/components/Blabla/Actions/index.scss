@@ -1,0 +1,24 @@
+@import "styles/index";
+
+.episode-actions {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  justify-content: flex-end;
+  .edit {
+    min-width: 100px;
+    text-align: right;
+  }
+  .share {
+    display: flex;
+    justify-content: flex-end;
+
+    .SocialMediaShareButton {
+      width: 40px !important;
+      cursor: pointer;
+    }
+  }
+}

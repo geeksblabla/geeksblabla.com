@@ -1,0 +1,33 @@
+name: Upload Episode To Anchor Fm
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  upload_episode:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-16.04
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+
+      # Install And Configure youtube-dl
+      - name: Install And Configure youtube-dl
+        run: |
+          sudo curl -k -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+          sudo chmod a+rx /usr/local/bin/youtube-dl
+
+      - name: Install Deps and Generate Podcast Files and Download Audio File
+        run: |
+          npm install
+          npm run generate-podcast-files
+      # Install And Configure youtube-dl
+      - name: Upload Episode To Anchor Fm Using Cypress
+        env: # Or as an environment variable
+          CYPRESS_ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
+          CYPRESS_ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
+        run: test -f ./cypress/fixtures/episode.json && npm run upload-to-anchor || echo "No new Episode To Upload" # Make sure episode is ready and run cypress

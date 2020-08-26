@@ -1,0 +1,61 @@
+@import "styles/index";
+// Episodes Types Component
+
+.episodes-types {
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 12rem;
+  //padding-bottom: 3rem;
+  @include breakpoint(mobileonly) {
+    padding-top: 5rem;
+  }
+  //background-color: $secondary-bg-color;
+  .item {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &:first-child {
+      margin-bottom: 5rem;
+    }
+    @include breakpoint(mobileonly) {
+      text-align: center;
+      justify-content: center;
+    }
+    &.reverse {
+      @include breakpoint(mobileonly) {
+        flex-direction: column-reverse;
+        width: fit-content;
+      }
+    }
+    .crea {
+      @include breakpoint(mobileonly) {
+        width: 100%;
+      }
+    }
+    div {
+      margin: 5rem 0px;
+    }
+    h1 {
+      position: relative;
+    }
+    h1::after {
+      content: "";
+      height: 3px;
+      width: 50px;
+      display: block;
+      background: $main-gradient;
+      top: -10px;
+      position: absolute;
+      @include breakpoint(mobileonly) {
+        left: calc(50% - 25px);
+      }
+    }
+    p {
+      max-width: 400px;
+    }
+  }
+}

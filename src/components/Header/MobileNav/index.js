@@ -17,7 +17,7 @@ export default ({ color = "white" }) => {
       {isToggledOn && (
         <div className="mobile-nav-container">
           <div className="mobile-nav">
-            <Links />
+            <Links id="mobile" />
           </div>
         </div>
       )}

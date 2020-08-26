@@ -7,7 +7,7 @@ module.exports = {
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
     description: config.siteDescription,
-    keywords: ["DevC", "geeksblabla", "dev"],
+    keywords: ["DevC_Casa", "Geeksblabla", "Podcast"],
     canonicalUrl: config.siteUrl,
     image: config.siteLogo,
     banner: config.banner,
@@ -27,6 +27,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-yaml`,
+    `gatsby-plugin-preload-fonts`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -39,6 +41,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/reviews`,
+        name: "reviews",
       },
     },
     {
@@ -90,6 +99,63 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.edges.map((edge) => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.fields.date,
+                  url: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + "/" + edge.node.fields.slug,
+                  custom_elements: [{ tags: edge.node.fields.tags.join(",") }],
+                })
+              })
+            },
+            query: `
+              {
+                allMdx(
+                  limit: 1000,
+                  filter: { frontmatter: { published: { ne: false } } }
+                  sort: { order: DESC, fields: [frontmatter___date] }
+                ) {
+                  edges {
+                    node {
+                      excerpt(pruneLength: 250)
+                      fields {
+                        slug
+                        date
+                        tags
+                      }
+                      frontmatter {
+                        title
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "GeeksBlabla RSS Feed",
+          },
+        ],
+      },
+    },
+    {
       resolve: "gatsby-plugin-sentry",
       options: {
         dsn: "https://7048bf611200421abd4d4f0e4d873c8b@sentry.io/1452547",
@@ -98,8 +164,22 @@ module.exports = {
         enabled: (() => ["production"].indexOf(process.env.NODE_ENV) !== -1)(),
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          exclude: /\.back\.svg$/,
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: ["/thanks/"],
+      },
+    },
   ],
 }

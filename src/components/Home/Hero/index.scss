@@ -1,0 +1,107 @@
+@import "styles/index";
+
+.hero {
+  @include breakpoint(mobileonly) {
+    margin-bottom: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  margin: 3rem auto 3rem auto;
+  text-align: left;
+  display: flex;
+  margin-bottom: 0;
+  .crea {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    g[clip-path*="cliphero"] {
+      opacity: 0;
+    }
+  }
+  .mobile-only {
+    display: none;
+    @include breakpoint(mobileonly) {
+      display: block;
+    }
+  }
+  .desktop-only {
+    display: block;
+    @include breakpoint(mobileonly) {
+      display: none;
+    }
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 45rem;
+    @include breakpoint(mobileonly) {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  h1 {
+    @include fluid-type($min_width, $max_width, 33px, 52px);
+    font-weight: 600;
+    line-height: 115%;
+  }
+  p {
+    @include breakpoint(mobileonly) {
+      max-width: 30rem;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+    max-width: 30rem;
+
+    padding-right: 3rem;
+    margin-left: 0px;
+    color: var(--text-color);
+  }
+  .actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    width: 100%;
+    @include breakpoint(mobileonly) {
+      justify-content: center;
+    }
+  }
+}
+
+// animations
+
+@keyframes infinite-spinning {
+  0% {
+    opacity: 0;
+    transform: scale(0.4) translateY(40px);
+  }
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2) translateY(-60px);
+  }
+}
+
+@for $i from 0 through 36 {
+  g[clip-path*="cliphero#{$i}"] {
+    transform-origin: #{random(100)}% #{70 - random(30)}% !important;
+    animation: infinite-spinning 10s infinite;
+    animation-delay: #{random(1000) * 0.01}s;
+  }
+  g[clip-path*="clipherom#{$i}"] {
+    transform-origin: #{random(100)}% #{70 - random(30)}% !important;
+    animation: infinite-spinning 12s infinite;
+    animation-delay: #{random(800) * 0.01}s;
+  }
+}

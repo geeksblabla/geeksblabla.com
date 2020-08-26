@@ -1,0 +1,75 @@
+@import "styles/index";
+.episode {
+  //width: 60%;
+  // for scrolling experience
+  flex: 1;
+  position: sticky;
+  top: 10px;
+  height: calc(100vh - 10px);
+
+  overflow-y: scroll;
+
+  @include breakpoint(mobileonly) {
+    width: 100%;
+    position: static;
+    top: 10px;
+    height: fit-content;
+    overflow-y: auto;
+  }
+  .label {
+    background: rgba(0, 0, 0, 0.6);
+    font-family: "Open sans";
+    font-size: 14px;
+    line-height: 18px;
+    color: #d9147d;
+    padding: 4px 8px;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .video {
+    position: relative;
+    .placeholder {
+      background: rgba(255, 255, 255, 0.1);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  .info {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    &.placeholder {
+      flex-direction: column;
+      flex-wrap: wrap;
+      div {
+        width: 100%;
+      }
+    }
+    @include breakpoint(mobileonly) {
+      flex-wrap: wrap;
+    }
+    .title {
+      p {
+        text-align: right;
+        margin-bottom: 10px;
+      }
+      h1 {
+        border-bottom: 1px solid var(--text-color);
+        padding-bottom: 0.7rem;
+        margin-top: -1rem;
+        margin-bottom: 0rem;
+      }
+    }
+  }
+
+  .notes {
+    h4 {
+      border-bottom: 1px solid rgba(117, 119, 166, 0.5);
+      padding-bottom: 0.7rem;
+    }
+    padding-bottom: 5rem;
+  }
+}

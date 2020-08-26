@@ -1,13 +1,13 @@
 ---
-date: 2019-11-24
+date: 2020-02-16
 time: 21h
 duration: "1:00"
-title: "Women In Tech"
-tags: ["tech"]
-isNext: false
+title: "Side Projects & Indie Hacking"
+tags: ["Indie Hacker", "dev", "startup"]
+isNext: true
 published: false
 url:
-podcastUrl:
+audio:
 ---
 
 ...

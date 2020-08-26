@@ -1,0 +1,43 @@
+// background colors
+
+// $main-bg-color: #111233;
+// $secondary-bg-color: #1d1e4f;
+// $text-color: #7577a6;
+// $heading-color: #fff;
+
+body {
+  --main-bg-color: #111233;
+  --secondary-bg-color: #1d1e4f;
+  --text-color: #7577a6;
+  --heading-color: #fff;
+  --notif-banner: #090a1e;
+  --button-color: #ffffff;
+  --loader-color: #ffffff;
+  --eps-shadow: 0px 4px 74px rgba(0, 0, 0, 0.25);
+  --play-icon-color-primary: #ffffff;
+  --play-icon-color-secondary: rgb(180, 13, 183);
+  --contributor-shadow: none;
+}
+
+.light {
+  --main-bg-color: #fff;
+  --secondary-bg-color: #f6f7ff;
+  --text-color: #31337e;
+  --heading-color: #1d1e4f;
+  --notif-banner: #d3d7f8;
+  --button-color: rgb(180, 13, 183);
+  --loader-color: #31337e;
+  --eps-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  --play-icon-color-primary: rgb(180, 13, 183);
+  --play-icon-color-secondary: #ffffff;
+  --contributor-shadow: 0px 44px 54px rgba(225, 227, 240, 0.6);
+}
+
+$main-gradient: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);
+
+// font vars
+$min_width: 320px;
+$max_width: 1200px;
+$min_font: 16px;
+$max_font: 17px;
+$mode: 1.4rem;

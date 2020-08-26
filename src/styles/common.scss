@@ -1,0 +1,73 @@
+@import "./reset.scss";
+@import "./_vars";
+@import "./mixins.scss";
+@import "./font.scss";
+
+body {
+  background: var(--main-bg-color);
+  color: var(--text-color);
+  //background-image: url(./pattern.back.svg);
+  background-repeat: no-repeat;
+  background-position-y: 6rem;
+  background-position-x: center;
+
+  transition: all 300ms ease-out;
+}
+.container {
+  max-width: 1240px; /* For large screens */
+  margin: auto; /* Center the container in the viewport */
+  @include breakpoint(mobileonly) {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(117, 119, 166, 0.3);
+  outline: 1px solid slategrey;
+}
+
+.button {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 18px 40px;
+  color: #ffffff;
+  text-decoration: none;
+  background: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);
+  border-radius: 45px;
+  border: 0px;
+  min-width: 140px;
+  margin: 1rem;
+  cursor: pointer;
+  &.outline {
+    color: var(--button-color);
+    background: transparent;
+    border: var(--button-color) 1px solid;
+  }
+  &.left {
+    margin-left: 0px;
+    @include breakpoint(mobileonly) {
+      margin-left: 1rem;
+    }
+  }
+  svg {
+    margin-right: 8px;
+  }
+}
+
+a {
+  color: #d1128a;
+  text-decoration: none;
+  cursor: pointer;
+}

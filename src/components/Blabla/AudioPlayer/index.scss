@@ -1,0 +1,94 @@
+@import "styles/index";
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: var(--secondary-bg-color);
+  position: sticky;
+  top: 0px;
+  .controls {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .player__button {
+    width: fit-content;
+    padding-right: 15px;
+    background-color: transparent;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+
+    svg {
+      height: 4em;
+      color: white;
+    }
+  }
+
+  .bar {
+    user-select: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .bar__time {
+      color: white;
+      font-size: 16px;
+    }
+
+    .bar__progress {
+      flex: 1;
+      border-radius: 5px;
+      margin: 0 20px;
+      height: 10px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .bar__progress__knob {
+        position: relative;
+        height: 16px;
+        width: 16px;
+        border: 1.5px solid white;
+        border-radius: 50%;
+        background-color: #a109d5;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+
+    .controls {
+      width: 100%;
+      //margin-top: 20px;
+    }
+
+    .bar {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .song {
+      .song__title {
+        font-size: 2.5em;
+      }
+
+      .song__artist {
+        font-size: 0.8em;
+      }
+    }
+  }
+}

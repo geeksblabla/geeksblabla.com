@@ -8,7 +8,7 @@ guest: "elazizi youssef"
 isNext: true
 published: false
 url: https//fb.com/video######    // or event in case isnext is true
-podcastUrl:
+audio:
 ---
 
 ## description

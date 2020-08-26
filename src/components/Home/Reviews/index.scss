@@ -1,0 +1,113 @@
+@import "styles/index";
+
+.reviews {
+  background-position-y: -1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 15rem;
+  @include breakpoint(mobileonly) {
+    padding-top: 5rem;
+  }
+  //margin-top: 2rem;
+  width: 100%;
+  background-color: var(--main-bg-color);
+  text-align: center;
+  h5 {
+    color: var(--text-color);
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    //width: 100%;
+    @include breakpoint(mobileonly) {
+      display: block;
+      overflow-x: scroll;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    &::-webkit-scrollbar-track {
+      box-shadow: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: transparent;
+      outline: none;
+    }
+  }
+  .review {
+    margin: 10px;
+    width: 370px;
+
+    img {
+      display: block !important;
+      margin-left: 30px;
+      border-radius: 15px;
+      height: 100px;
+      width: 100px;
+    }
+    p {
+      text-align: left;
+      margin-left: 20px;
+      span {
+        display: block;
+      }
+    }
+
+    .back {
+      margin-top: -35px;
+      padding: 50px 10px 10px 10px;
+      background: var(--secondary-bg-color);
+      min-height: 60px;
+      border-radius: 16px;
+      min-height: 180px;
+      display: flex;
+      flex-direction: column;
+    }
+    .text {
+      flex: 1;
+    }
+    .name {
+      margin-top: 1rem;
+      margin-bottom: 0rem;
+      color: var(--heading-color);
+    }
+  }
+}
+
+$animationSpeed: 45s;
+
+// Animation
+@keyframes scroll {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(-370px * 7));
+  }
+}
+
+// Styling
+.slider {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: calc(370px * 14);
+    &:hover {
+      animation-play-state: paused;
+    }
+    @include breakpoint(mobileonly) {
+      animation: none;
+    }
+  }
+}

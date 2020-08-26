@@ -1,0 +1,83 @@
+- name: Oumaima Makhlouk
+  avatar: ./images/oumaima.png
+  review: |
+    Unique, Rich & high quality content!! I have learned a lot of things, thank you for your efforts !
+  role: Student,
+  organization: Universiapolis
+- name: Othmane Kinane
+  avatar: ./images/othmane.png
+  review: |
+    One of the few darija speaking tech podcast. Always a pleasure to listen to, and was honored to be a guest in one of the episodes. I discovered some amazing people from around
+  role: Manager,
+  organization: SGA Technologies & Services
+- name: Anas AIT BAHA
+  avatar: ./images/anas.png
+  review: |
+    Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!
+  role: Software Engineer,
+  organization: SQLI
+- name: El Housseine Jaafari
+  avatar: ./images/jaafari.jpg
+  review: |
+    I love the concept and the way you guys discuss each subject. Informative, educative and full of fun.
+  role: Software Engineer,
+  organization: Instacraft LLC
+- name: Diaa Alhak EL Fallous
+  avatar: ./images/diaa.jpg
+  review: |
+    Keep going!
+  role: Freelancer,
+  organization: Owner
+- name: Badr Bellaj
+  avatar: ./images/badr.png
+  review: |
+    Geeksblabla is an excellent live streaming program for developers. I had the pleasure to be a guest therein. Honestly, I liked the decontracted atmosphere and the ability to interact live with other developers, it was realy cool, fun and constructive.
+  role: CTO,
+  organization: Mchain
+- name: Ahmed NFAIHI
+  avatar: ./images/ahmed.jpg
+  review: |
+    Honestly, Geeksblabla is a great concept to share knowledge and experiences in Tech between developers. Organized and presented by a fabulous team where its members share the same passion.
+  role: Student,
+  organization: ENSET-M
+- name: Ismail Ghallou
+  avatar: ./images/smakosh.jpeg
+  review: |
+    Great show! Love that everything is saved and can be re-watched when ever we want, keep it up everyone!
+  role: CEO,
+  organization: Smakosh LLC
+- name: Afaf RIDAOUI
+  avatar: ./images/afaf.jpg
+  review: |
+    Personally, I find it so beneficial and the way of choosing topics and stuff is amazing. good job ❤👍.
+  role: Student,
+  organization: ENSA Berrechid
+- name: Mohamed Lazybob
+  avatar: ./images/zaboub.jpeg
+  review: |
+    I really like the podcast. You guys give me an insight of the developers life here in Morocco which is rare. Thanks for listening to us. ♡
+  role: Student,
+  organization: "1337"
+- name: Mohamed ELBARCHANY
+  avatar: ./images/elbarchany.jpg
+  review: |
+    GeeksBlabla is one of the few Podcasts I'm addicted to. Love the variety of topics and guests. Thanks to this kind of initiatives, Moroccan dev community is more active than ever!
+  role: Team Leader,
+  organization: SG Africa Technologies & Services
+- name: Ilias Haddad
+  avatar: ./images/ilias.jpeg
+  review: |
+    One of my favorite darija speaking tech podcast . Keep up the great work and thank you for your efforts !
+  role: Indie Maker, Freelancer,
+  organization: Ibn Tofail
+- name: Mohammed Daoudi
+  avatar: ./images/daoudi.jpg
+  review: شكرا لفريق الإعداد و للناس لي جاو و لجميع الناس لي ساهموا في النجاح ديال البرنامج. من أفضل البودكاستات في المغرب، تعلمت بزاف ديال الحوايج منو و مازال تانتعلم مع كل حلقة.
+  role: Student,
+  organization: ENSAK
+- name: Arbaoui Mehdi
+  avatar: ./images/arbaoui.jpg
+  review: |
+    I enjoy listening to the podcasts, plus I love how you approach subjects in a natural and fun way. THANKS FOR LETTING US HEARING YOUR VOICE.
+  role: JS Developer & Online Instructor,
+  organization: Sinj.app, FullStackLibrary
