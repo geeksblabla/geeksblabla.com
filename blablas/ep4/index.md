@@ -3,7 +3,7 @@ date: 2018-12-26
 time: 20h14
 duration: "1:24:32"
 title: "MSS with  Mohamed Zakariae El Khdime!"
-tags: ["tech", "mss", "cybersecurity", "entrepreneurship"]
+tags: ["MSS", "cybersecurity", "entrepreneurship", "career"]
 isNext: false
 video: "2301890400043312"
 published: true

@@ -3,7 +3,7 @@ date: 2019-09-29
 time: 21h
 duration: "1:33:11"
 title: "Back to school, Computer Science Edition!"
-tags: ["programming", "school"]
+tags: ["school", "career"]
 isNext: false
 video: "2573269702733690"
 published: true

@@ -3,7 +3,7 @@ date: 2019-10-27
 time: 21h
 duration: "2:07:16"
 title: "Junior Devs in Morocco"
-tags: ["programming", "school", "Junior"]
+tags: ["school", "career", "dev"]
 isNext: false
 video: "2632636916796968"
 published: true

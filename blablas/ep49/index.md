@@ -3,7 +3,7 @@ date: 2020-07-19
 time: 21h:00min
 duration: "02:33:00"
 title: "Building A Resume"
-tags: ["resume", "cv", "tech"]
+tags: ["career"]
 isNext: false
 video: "338981353771310"
 published: true

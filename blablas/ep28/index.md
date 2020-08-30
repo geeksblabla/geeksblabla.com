@@ -3,7 +3,7 @@ date: 2020-02-29
 time: 21h
 duration: "01:32:00"
 title: "GeeksBlabla Kids"
-tags: ["tech", "kids"]
+tags: ["kids"]
 isNext: false
 video: "2902199879840669"
 featured: true
@@ -20,6 +20,7 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 - [Ayman Riad Solh]()
 
 ## Notes
+
 00:01 - Introduction & Guests presentation
 
 00:04 - When and how they know Programming ?
@@ -34,7 +35,7 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 
 00:29 - How did your family and friends react to you when they know you love programming?
 
-00:34 - Do you have some plans to explain your IT knowledge in Darija to your friends , your family , and others  kids ?
+00:34 - Do you have some plans to explain your IT knowledge in Darija to your friends , your family , and others kids ?
 
 00:41 - How did you get the idea for your projects?
 
@@ -54,8 +55,8 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 
 01:31 - Final words and goodbye.
 
-
 ## Links
+
 - [Scratch](http://scratch.mit.edu/)
 
 - [Facebook DevC](https://www.facebook.com/groups/DevC.Casablanca/?hc_ref=ARQQY8zH-NAV8646DsgW8RNoO1DNoBuf-43ao4kIFvZZMJCV4jpw7-hSQ2C0DmFkkdI&ref=nf_target)

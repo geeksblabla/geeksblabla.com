@@ -3,7 +3,7 @@ date: 2020-01-19
 time: 21h
 duration: "01:43:00"
 title: "MSS with Badr El Houari"
-tags: ["tech", "mss", "startup", "devoxx", "java"]
+tags: ["MSS", "entrepreneurship", "devoxx", "java", "career"]
 isNext: false
 video: "2591423041090045"
 published: true
@@ -41,7 +41,7 @@ In this episode of GeeksBlabla, we discuss Java, community and leadership with B
 
 0:35 - Your first talk?
 
-0:40 - What is the secret behind the success of Jmaghreb? 
+0:40 - What is the secret behind the success of Jmaghreb?
 
 0:46 - From Jmaghreb to Devoxx
 
@@ -53,7 +53,7 @@ In this episode of GeeksBlabla, we discuss Java, community and leadership with B
 
 1:18 - Does xHub give the opportunity to self-taught developers without a diploma?
 
-1:19 - What's the secret of the good vibe and the positive energy at xHub? 
+1:19 - What's the secret of the good vibe and the positive energy at xHub?
 
 1:23 - Do you think Morocco has talented developers?
 

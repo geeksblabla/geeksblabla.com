@@ -3,7 +3,7 @@ date: 2020-07-05
 time: 21h:30min
 duration: "01:30:00"
 title: "Ask Me Anything #3"
-tags: ["AMA"]
+tags: ["AMA", "DevC"]
 isNext: false
 video: "272282090889246"
 published: true

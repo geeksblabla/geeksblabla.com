@@ -3,7 +3,7 @@ date: 2020-06-07
 time: 20h:00min
 duration: "01:58:26"
 title: "MSS with Omar Guendeli"
-tags: ["tech", "Self-taught", "Game Development"]
+tags: ["self-taught", "game dev", "MSS"]
 isNext: false
 video: "1135171186849770"
 published: true
@@ -14,19 +14,15 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/1135171186849770/
 
 In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gameplay Programmer who used to work in different games in Morocco, while being a med student, and made it to a big firm.
 
-
 ## Guests
 
 [Omar Guendeli](https://guendeliomar.com)
-
-
-
 
 ## Notes
 
 0:00 - Introduction
 
-0:03 -  Can you give us a brief look into what inspired you when you were young? 
+0:03 - Can you give us a brief look into what inspired you when you were young?
 
 0:05 - Did family or friends influence your decision to get into games or was this something you became interested in on your own?
 
@@ -44,7 +40,7 @@ In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gamepla
 
 0:26 -Is there a favorite project or game title you’ve worked on recently and what made it fun for you personally?
 
-1:04 - Is working with an international team a game changer in your career and your learning path? 
+1:04 - Is working with an international team a game changer in your career and your learning path?
 
 1:05 - and how is it to work in a very well known company?
 
@@ -56,18 +52,12 @@ In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gamepla
 
 1:23 - What would be the best advice you would give to someone who wants to take a video game idea from the paper and develop it into a full game?
 
-1:28 - What’s the deal with cheat codes? 
+1:28 - What’s the deal with cheat codes?
 
 1:58 - Wrap up and Goodbye.
 
-
-
-
 ## Prepared and Presented by :
-
 
 - [Meriem Zaid](https://www.facebook.com/MeriemZaid)
 
 - [Youssouf El Azizi](https://elazizi.com/)
-
-

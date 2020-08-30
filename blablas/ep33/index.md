@@ -3,7 +3,7 @@ date: 2020-04-04
 time: 20h
 duration: "01:52:07"
 title: "Agile Project Management"
-tags: ["Agile"]
+tags: ["career", "software engineering"]
 isNext: false
 video: "2653190094913339"
 published: true

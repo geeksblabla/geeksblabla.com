@@ -3,7 +3,7 @@ date: 2019-05-25
 time: 22h
 duration: "1:19:23"
 title: "The twelve-factor App"
-tags: ["Backend", "Architecture"]
+tags: ["backend", "software engineering", "dev"]
 isNext: false
 video: "2348668091860520"
 published: true

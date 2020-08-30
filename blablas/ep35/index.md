@@ -3,7 +3,7 @@ date: 2020-04-12
 time: 20h:30min
 duration: "01:57:56"
 title: "DevC Community"
-tags: ["GeeksBlabla", "DevC", "Community", "Facebook"]
+tags: ["DevC", "open source"]
 isNext: false
 video: "2982251615130868"
 published: true
@@ -12,7 +12,7 @@ url: ""
 podcastUrl: https://web.facebook.com/youssouf.elazizi/videos/2982251615130868
 ---
 
-In this special episode of GeeksBlabla, some of its core team members discussed what is DevC community, how it started and how Facebook supports DevC. At the end, the members revealed some of the secrets and memories they had in the community.	
+In this special episode of GeeksBlabla, some of its core team members discussed what is DevC community, how it started and how Facebook supports DevC. At the end, the members revealed some of the secrets and memories they had in the community.
 
 ## Notes
 

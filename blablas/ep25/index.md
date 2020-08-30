@@ -3,7 +3,7 @@ date: 2020-01-12
 time: 21h
 duration: "01:44:03"
 title: "Deep Dive in Java"
-tags: ["spring", "java", "tech"]
+tags: ["spring", "java", "dev", "backend"]
 isNext: false
 video: "2801661513227840"
 published: true
@@ -27,7 +27,7 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 0:04 - Who is Amine Bekkaoui ?
 
-0:06 - When did you start Java ? 
+0:06 - When did you start Java ?
 
 0:10 - How did you develop your skills in Java ?
 
@@ -55,7 +55,7 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 1:05 - Which Java framework should I start with ?
 
-1:09 - Why Java is still in a high demand ? 
+1:09 - Why Java is still in a high demand ?
 
 1:10 - What are the GraalVM limits ?
 
@@ -71,9 +71,9 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 1:25 - What is AOP(Aspect Oriented Programming) ?
 
-1:28 - Are JavaEE and Spring the same ?   
+1:28 - Are JavaEE and Spring the same ?
 
-1:39 - Maven VS Gradle 
+1:39 - Maven VS Gradle
 
 1:42 - What are the most stable JVM languages ?
 
@@ -81,7 +81,7 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 - [Effective Java Book](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997)
 - [Refactoring Improving Design Existing Code Book](https://www.amazon.fr/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
-- [Gang of Four Design Patterns  Book](https://springframework.guru/gang-of-four-design-patterns/)
+- [Gang of Four Design Patterns Book](https://springframework.guru/gang-of-four-design-patterns/)
 - [Spring Framework Website](https://spring.io/projects/spring-framework)
 
 ## Prepared and Presented by :

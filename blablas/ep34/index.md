@@ -3,7 +3,7 @@ date: 2020-04-08
 time: 20h
 duration: "01:35:34"
 title: "HA: Scaling Systems and Handling Loads"
-tags: ["devops", "SRE", "High availability"]
+tags: ["devops", "backend", "software engineering"]
 isNext: false
 video: "2656446701254345"
 published: true

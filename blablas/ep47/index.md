@@ -3,7 +3,7 @@ date: 2020-06-28
 time: 20h:00min
 duration: "02:15:20"
 title: "MSS with Adnane Belmadiaf"
-tags: ["linux", "Ubuntu", "Open Source", "Web development"]
+tags: ["linux", "open source", "MSS"]
 isNext: false
 video: "260426718593877"
 published: true
@@ -17,7 +17,6 @@ In this episode of GeeksBlabla, our guest Adnane Belmadiaf a frontend developer 
 ## Guests
 
 [Adnane Belmadiaf](https://www.facebook.com/AdnaneBelmadiaf)
-
 
 ## Notes
 
@@ -60,8 +59,6 @@ In this episode of GeeksBlabla, our guest Adnane Belmadiaf a frontend developer 
 [Moroccan Team](https://wiki.ubuntu.com/MoroccanTeam)
 
 [DRM issues](https://www.defectivebydesign.org/)
-
-
 
 ## Prepared and Presented by :
 
