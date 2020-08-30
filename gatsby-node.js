@@ -14,7 +14,7 @@ const createPosts = (createPage, createRedirect, edges) => {
     const pagePath = node.fields.slug
 
     if (node.fields.redirects) {
-      node.fields.redirects.forEach(fromPath => {
+      node.fields.redirects.forEach((fromPath) => {
         createRedirect({
           fromPath,
           toPath: pagePath,
@@ -36,11 +36,44 @@ const createPosts = (createPage, createRedirect, edges) => {
   })
 }
 
+/**
+ * Inspired from the createPosts method, the below method creates pages for each tag.
+ * Furthermore, it also creates episode pages under each tag i.e: `/${tag}/${episodeTitle}/`
+ */
+const createTags = (createPage, group) => {
+  group.forEach(({ tag, edges }) => {
+    const pagePath = `/${_.kebabCase(tag)}`
+
+    createPage({
+      path: pagePath,
+      component: path.resolve(`./src/templates/tags.js`),
+      context: {
+        tag,
+        slug: pagePath,
+      },
+    })
+
+    edges.forEach(({ node }) => {
+      const episodeUnderTagPath = `${pagePath}/${_.kebabCase(
+        node.fields.title
+      )}`
+      createPage({
+        path: episodeUnderTagPath,
+        component: path.resolve(`./src/templates/tag-blabla.js`),
+        context: {
+          id: node.id,
+          tag,
+        },
+      })
+    })
+  })
+}
+
 exports.createPages = async ({ actions, graphql }) => {
   const result = await graphql(
     `
       {
-        allMdx(
+        episodes: allMdx(
           filter: { frontmatter: { published: { ne: false } } }
           sort: { order: DESC, fields: [frontmatter___date] }
         ) {
@@ -63,6 +96,29 @@ exports.createPages = async ({ actions, graphql }) => {
             }
           }
         }
+        tags: allMdx {
+          group(field: frontmatter___tags) {
+            tag: fieldValue
+            edges {
+              node {
+                id
+                fileAbsolutePath
+                parent {
+                  ... on File {
+                    name
+                    sourceInstanceName
+                  }
+                }
+                excerpt(pruneLength: 250)
+                fields {
+                  title
+                  slug
+                  date
+                }
+              }
+            }
+          }
+        }
       }
     `
   )
@@ -71,9 +127,14 @@ exports.createPages = async ({ actions, graphql }) => {
     throw result.errors
   }
 
-  const { edges } = result.data.allMdx
+  const {
+    episodes: { edges },
+    tags: { group },
+  } = result.data
   const { createRedirect, createPage } = actions
+
   createPosts(createPage, createRedirect, edges)
+  createTags(createPage, group)
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -204,11 +265,8 @@ exports.sourceNodes = async ({
 }) => {
   let data = JSON.parse(fs.readFileSync("./.all-contributorsrc", "utf-8"))
 
-  data.contributors.forEach(contributor => {
-    const name = contributor.name
-      .replace(/\s+/g, " ")
-      .trim()
-      .split(" ")
+  data.contributors.forEach((contributor) => {
+    const name = contributor.name.replace(/\s+/g, " ").trim().split(" ")
     const node = {
       firstName: name[0],
       lastName:
