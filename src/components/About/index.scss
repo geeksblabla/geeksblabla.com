@@ -102,6 +102,7 @@
       color: var(--text-color);
       span {
         display: block;
+        word-wrap: break-word;
       }
     }
     .back {
