@@ -28,15 +28,15 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 00:02 - Introduce guests
 
-00:05 - How was your first step on the tech
+00:05 - How was your first step on the tech?
 
 00:14 - Was your family against your choice of IT field?
 
-00:20 - What is the reason that kept you continue on the IT field?
+00:20 - What is the reason that kept you continue in the IT field?
 
-00:24 - What does it feel like to be women working on IT field?
+00:24 - What does it feel like to be a women working on the IT field?
 
-00:30 - What is the advice to give a woman who wants to start on the IT field?
+00:30 - What is the advice you can give to a woman who wants to start in the IT field?
 
 00:32 - How to make women more active in a community?
 
@@ -44,11 +44,11 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 00:38 - What is the most interesting job that you worked in before?
 
-00:45 - What are challenges that you had in your career?
+00:45 - What are the challenges that you had in your career?
 
-00:50 - What is the greatest technologies transformation that you did in your career?
+00:50 - What is the greatest technology transformation that you did in your career?
 
-01:08 - How to encourage women to continue their career in the IT field?
+01:08 - How to encourage women to continue their careers in the IT field?
 
 01:16 - What is the change that you want to see in the future on your career and/or in the IT field?
 
@@ -56,11 +56,11 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 01:26 - What is a chatbot?
 
-01:27 - What is the first advice to give a morocain woman to start on the IT field?
+01:27 - What is the first advice to give a Moroccan woman to start on the IT field?
 
-01:29 - Khaoula can you talk about startup?
+01:29 - Kaoula experience with building a startup
 
-01:31 - In your opinion should we need to focus on events 100% for women and what is the reasons for these events?
+01:31 - In your opinion should we need to focus on events 100% for women and what are the reasons for these events?
 
 01:37 - Are these events 100% for women are helping women to be a part of the IT society?
 
