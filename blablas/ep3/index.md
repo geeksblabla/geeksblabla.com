@@ -32,7 +32,7 @@ In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & Crypto
 
 0:38 - What is "Forking"?
 
-0:43 - What is the difference between "Chain Forking" and "Forking"?
+0:43 - What is the difference between "Soft fork" and "Hard fork"?
 
 0:46 - Is there a precise time for the Ethereum fork?
 
