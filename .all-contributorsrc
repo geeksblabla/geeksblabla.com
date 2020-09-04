@@ -300,6 +300,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "moghwan",
+      "name": "Marwane Chaoui",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2495180?v=4",
+      "profile": "http://moghwan.me",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 5,
