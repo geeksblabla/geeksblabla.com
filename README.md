@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblablas.com">
@@ -234,6 +234,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://about.me/er-rafaiy"><img src="https://avatars0.githubusercontent.com/u/11611370?v=4" width="180px;" alt=""/><br /><sub><b>Abdelhakim Er-rafaiy</b></sub></a><br /><a href="#content-errafaiy" title="Content">🖋</a></td>
+    <td align="center"><a href="http://moghwan.me"><img src="https://avatars2.githubusercontent.com/u/2495180?v=4" width="180px;" alt=""/><br /><sub><b>Marwane Chaoui</b></sub></a><br /><a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=moghwan" title="Code">💻</a></td>
   </tr>
 </table>
 
