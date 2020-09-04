@@ -5,6 +5,7 @@ import { useTheme } from "../../Theme/ThemeContext"
 import Notif from "assets/notification.svg"
 import NotifLight from "assets/notification_light.svg"
 import Facebook from "assets/facebook.svg"
+import Twitter from "assets/twitter.svg"
 import Youtube from "assets/youtube.svg"
 import Rss from "assets/rss.svg"
 
@@ -29,13 +30,20 @@ export default () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Facebook height={35} alt="Geeksblabla Facebook Page " />
+            <Facebook height={38} alt="Geeksblabla Facebook Page " />
+          </a>
+          <a
+            href="http://twitter.com/geeksblabla"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Twitter height={50} alt="Geeksblabla Twitter Account " />
           </a>
           <a
             href="https://www.youtube.com/channel/UCW2WV7NKU0WPyuv4YoNSqBA"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ margin: "0px 20px" }}
+            style={{ marginRight: "10px" }}
           >
             <Youtube height={50} alt="GeeksBlabla youtube Channel " />
           </a>
