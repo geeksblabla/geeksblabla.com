@@ -33,6 +33,7 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org)
 
     ```sh
     cd geeksblabla.com/
+    npm install
     gatsby develop
     ```
 
