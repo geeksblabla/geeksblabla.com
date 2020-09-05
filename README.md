@@ -60,7 +60,11 @@ If you want to contribute check out the [help wanted](https://github.com/devC-Ca
 
       - Episode date, time, duration
       - Episode Title : Facebook live stream episode title.
-      - Tags : At least 1
+      - Tags : At least 1. You should stick to the following approach:
+        - For abbrevations: all lowercase i.e: "dev"
+        - For acronyms: all uppercase i.e: "MSS", "UX", "UI", "JS".
+        - For single and composite words: all lowercase i.e: "software engineering", "mobile dev", "career".
+      - category: one of the following: "MSS", "AMA", "career", "dev".
       - isNext : always `false`. `true` means the episode is the next one and should appear on the footer.
       - video : Facebook video id
       - featured : default `false`, `true` will show the episode in the TOP EPISODE home page Section
@@ -71,6 +75,7 @@ time: 20h
 duration: "01:09:00"
 title: "Open Source with Yassine Elouafi"
 tags: ["open source", "dev"]
+category: "dev"
 isNext: false
 video: "2254365704624093"
 published: true
@@ -140,6 +145,7 @@ time: 20h
 duration: "1:09"
 title: "Introduction to Open Source"
 tags: ["open source", "dev"]
+category: "dev"
 isNext: false
 published: true
 video: "2244351238958873"
