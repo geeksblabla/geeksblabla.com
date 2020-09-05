@@ -2,28 +2,28 @@ import React from "react"
 import { graphql } from "gatsby"
 import SEO from "components/SEO"
 import Layout from "components/Layout"
-import { Episode, Tags, EpisodesMenu } from "components/Blabla"
+import { Episode, Categories, EpisodesMenu } from "components/Blabla"
 
 /**
- * Page created for each tag.
+ * Page created for each category.
  * This is the page that gets rendered when you hit a route like the following: /mss/
- * One thing to note is that we pass the tag we get from pageContext to the EpisodesMenu component
- * EpisodesMenu will use this tag to know whether it should render a menu that renders all episodes using StaticQuery ...
+ * One thing to note is that we pass the category we get from pageContext to the EpisodesMenu component
+ * EpisodesMenu will use this category to know whether it should render a menu that renders all episodes using StaticQuery ...
  * ... or if it should render a menu with the filtered episodes we get from the below query.
  * The idea is to be able to use the EpisodesMenu component in both cases and let the EpisodesMenu make the decision.
  */
 
-export default ({ data: { allMdx }, pageContext: { tag } }) => {
+export default ({ data: { allMdx }, pageContext: { category } }) => {
   const lastEpisode = allMdx.edges[0].node
   return (
     <Layout>
-      <SEO tags={[tag]} />
-      <div className="container tags">
-        <Tags />
+      <SEO />
+      <div className="container categories">
+        <Categories />
       </div>
       <div className="container blablas">
         <EpisodesMenu
-          tag={tag}
+          category={category}
           filteredEpisodes={allMdx}
           selectedEpisode={lastEpisode.id}
         />
@@ -34,10 +34,12 @@ export default ({ data: { allMdx }, pageContext: { tag } }) => {
 }
 
 export const pageQuery = graphql`
-  query($tag: String) {
+  query($category: String) {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { published: { eq: true }, tags: { in: [$tag] } } }
+      filter: {
+        frontmatter: { published: { eq: true }, category: { eq: $category } }
+      }
     ) {
       edges {
         node {
@@ -51,6 +53,7 @@ export const pageQuery = graphql`
             url
             video
             repoLink
+            category
             audio
           }
           body

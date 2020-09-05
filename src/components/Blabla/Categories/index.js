@@ -1,29 +1,29 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import TagItem from "../TagItem"
+import CategoryItem from "../CategoryItem"
 import "./index.scss"
 
-export default ({ selectedTag }) => (
+export default ({ selectedCategory }) => (
   <StaticQuery
     query={graphql`
       {
         allMdx(filter: { frontmatter: { published: { eq: true } } }) {
-          group(field: frontmatter___tags) {
-            tag: fieldValue
+          group(field: frontmatter___category) {
+            category: fieldValue
             totalCount
           }
         }
       }
     `}
     render={({ allMdx }) => (
-      <ul className="tags-list">
+      <ul className="categories-list">
         {allMdx.group
           .sort((a, b) => b.totalCount - a.totalCount)
-          .map(({ tag, totalCount }) => (
-            <TagItem
-              active={selectedTag === tag}
-              key={tag}
-              tag={tag}
+          .map(({ category, totalCount }) => (
+            <CategoryItem
+              active={selectedCategory === category}
+              key={category}
+              category={category}
               totalCount={totalCount}
             />
           ))}

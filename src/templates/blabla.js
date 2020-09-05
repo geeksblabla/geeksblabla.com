@@ -2,14 +2,14 @@ import React from "react"
 import { graphql } from "gatsby"
 import SEO from "components/SEO"
 import Layout from "components/Layout"
-import { Episode, EpisodesMenu, Tags } from "components/Blabla"
+import { Episode, EpisodesMenu, Categories } from "components/Blabla"
 
 export default ({ data: { mdx } }) => {
   const { fields, body, excerpt } = mdx
   return (
     <Layout withNextEpisode>
-      <div className="container tags">
-        <Tags />
+      <div className="container categories">
+        <Categories />
       </div>
       <div className="container blablas">
         <SEO
@@ -41,6 +41,7 @@ export const pageQuery = graphql`
         repoLink
         audio
         tags
+        category
       }
       body
     }

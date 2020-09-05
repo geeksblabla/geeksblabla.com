@@ -2,18 +2,18 @@ import React from "react"
 import { graphql } from "gatsby"
 import SEO from "components/SEO"
 import Layout from "components/Layout"
-import { Episode, EpisodesMenu, Tags } from "components/Blabla"
+import { Episode, EpisodesMenu, Categories } from "components/Blabla"
 
 /**
- * This component serves as a template for pages under the route: `/${tag}/${episodeTitle}/
+ * This component serves as a template for pages under the route: `/${category}/${episodeTitle}/
  */
 
-export default ({ data: { mdx, allMdx }, pageContext: { tag } }) => {
+export default ({ data: { mdx, allMdx }, pageContext: { category } }) => {
   const { fields, body, excerpt } = mdx
   return (
     <Layout withNextEpisode>
-      <div className="container tags">
-        <Tags selectedTag={tag} />
+      <div className="container categories">
+        <Categories selectedCategory={category} />
       </div>
       <div className="container blablas">
         <SEO
@@ -24,7 +24,7 @@ export default ({ data: { mdx, allMdx }, pageContext: { tag } }) => {
           postUrl={fields.slug}
           description={excerpt}
         />
-        <EpisodesMenu tag={tag} filteredEpisodes={allMdx} />
+        <EpisodesMenu category={category} filteredEpisodes={allMdx} />
         <Episode {...fields} description={body} excerpt={excerpt} />
       </div>
     </Layout>
@@ -32,10 +32,12 @@ export default ({ data: { mdx, allMdx }, pageContext: { tag } }) => {
 }
 
 export const pageQuery = graphql`
-  query($id: String!, $tag: String) {
+  query($id: String!, $category: String) {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { published: { eq: true }, tags: { in: [$tag] } } }
+      filter: {
+        frontmatter: { published: { eq: true }, category: { eq: $category } }
+      }
     ) {
       edges {
         node {
@@ -68,6 +70,7 @@ export const pageQuery = graphql`
         repoLink
         audio
         tags
+        category
       }
       body
     }

@@ -37,32 +37,32 @@ const createPosts = (createPage, createRedirect, edges) => {
 }
 
 /**
- * Inspired from the createPosts method, the below method creates pages for each tag.
- * Furthermore, it also creates episode pages under each tag i.e: `/${tag}/${episodeTitle}/`
+ * Inspired from the createPosts method, the below method creates pages for each category.
+ * Furthermore, it also creates episode pages under each category i.e: `/${category}/${episodeTitle}/`
  */
-const createTags = (createPage, group) => {
-  group.forEach(({ tag, edges }) => {
-    const pagePath = `/${_.kebabCase(tag)}`
+const createCategories = (createPage, group) => {
+  group.forEach(({ category, edges }) => {
+    const pagePath = `/${_.kebabCase(category)}`
 
     createPage({
       path: pagePath,
-      component: path.resolve(`./src/templates/tags.js`),
+      component: path.resolve(`./src/templates/category.js`),
       context: {
-        tag,
+        category,
         slug: pagePath,
       },
     })
 
     edges.forEach(({ node }) => {
-      const episodeUnderTagPath = `${pagePath}/${_.kebabCase(
+      const episodeUnderCategoryPath = `${pagePath}/${_.kebabCase(
         node.fields.title
       )}`
       createPage({
-        path: episodeUnderTagPath,
-        component: path.resolve(`./src/templates/tag-blabla.js`),
+        path: episodeUnderCategoryPath,
+        component: path.resolve(`./src/templates/category-blabla.js`),
         context: {
           id: node.id,
-          tag,
+          category,
         },
       })
     })
@@ -96,9 +96,9 @@ exports.createPages = async ({ actions, graphql }) => {
             }
           }
         }
-        tags: allMdx {
-          group(field: frontmatter___tags) {
-            tag: fieldValue
+        categories: allMdx {
+          group(field: frontmatter___category) {
+            category: fieldValue
             edges {
               node {
                 id
@@ -129,12 +129,12 @@ exports.createPages = async ({ actions, graphql }) => {
 
   const {
     episodes: { edges },
-    tags: { group },
+    categories: { group },
   } = result.data
   const { createRedirect, createPage } = actions
 
   createPosts(createPage, createRedirect, edges)
-  createTags(createPage, group)
+  createCategories(createPage, group)
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -185,6 +185,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: "tags",
       node,
       value: node.frontmatter.tags || [],
+    })
+    createNodeField({
+      name: "category",
+      node,
+      value: node.frontmatter.category || "",
     })
     createNodeField({
       name: "featured",
