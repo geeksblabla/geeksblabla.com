@@ -4,6 +4,7 @@ time: 20h:00min
 duration: "02:15:20"
 title: "MSS with Adnane Belmadiaf"
 tags: ["linux", "open source", "MSS"]
+category: "MSS"
 isNext: false
 video: "260426718593877"
 published: true

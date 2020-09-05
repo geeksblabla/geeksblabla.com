@@ -5,6 +5,7 @@ duration: "01:19:40"
 title: "Wiqaytna: Everything (technical) you need to know"
 tags:
   ["entrepreneurship", "mobile dev", "security", "COVID-19", "cybersecurity"]
+category: "dev"
 isNext: false
 video: "184114139689813"
 published: true

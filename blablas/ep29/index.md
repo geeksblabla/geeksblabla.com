@@ -4,6 +4,7 @@ time: 21h
 duration: "02:01:03"
 title: "Deep Dive in JavaScript"
 tags: ["JS", "web", "react", "angular", "frontend", "backend", "dev"]
+category: "dev"
 isNext: false
 video: "2932270973500226"
 published: true

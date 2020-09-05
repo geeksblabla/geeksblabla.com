@@ -4,6 +4,7 @@ time: 20h:00min
 duration: "01:58:26"
 title: "MSS with Omar Guendeli"
 tags: ["self-taught", "game dev", "MSS"]
+category: "MSS"
 isNext: false
 video: "1135171186849770"
 published: true

@@ -4,6 +4,7 @@ time: 20h
 duration: "1:46:09"
 title: "AR, VR and Game Dev "
 tags: ["game dev", "AR", "VR"]
+category: "dev"
 isNext: false
 video: "2147536065478747"
 published: true

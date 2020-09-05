@@ -4,6 +4,7 @@ time: 21h
 duration: "1:13:57"
 title: "Freelancing in Morocco"
 tags: ["freelance", "career"]
+category: "career"
 isNext: false
 featured: true
 video: "2458974807668203"

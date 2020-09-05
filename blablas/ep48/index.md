@@ -4,6 +4,7 @@ time: 21h:30min
 duration: "01:30:00"
 title: "Ask Me Anything #3"
 tags: ["AMA", "DevC"]
+category: "AMA"
 isNext: false
 video: "272282090889246"
 published: true

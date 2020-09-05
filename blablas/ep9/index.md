@@ -4,6 +4,7 @@ time: 20h
 duration: "2:00:40"
 title: "UX, UI & design principles"
 tags: ["UX", "UI", "frontend", "web", "mobile dev"]
+category: "dev"
 isNext: false
 video: "2151207101778310"
 published: true

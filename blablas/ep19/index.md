@@ -4,6 +4,7 @@ time: 21h
 duration: "1:28:48"
 title: "Competitive programming, how to become good at!"
 tags: ["competitive programming"]
+category: "dev"
 isNext: false
 video: "2465296773530984"
 published: true

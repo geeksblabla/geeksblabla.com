@@ -4,6 +4,7 @@ time: 20h:00min
 duration: "02:37:04"
 title: "Angular Deep Dive"
 tags: ["angular", "JS", "frontend", "web", "dev"]
+category: "dev"
 isNext: false
 video: "269321810941867"
 published: true

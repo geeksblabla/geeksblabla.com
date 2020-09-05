@@ -4,6 +4,7 @@ time: 22h
 duration: "1:09:27"
 title: "Serverless"
 tags: ["serverless", "dev", "software engineering"]
+category: "dev"
 isNext: false
 video: "2402382573327427"
 published: true

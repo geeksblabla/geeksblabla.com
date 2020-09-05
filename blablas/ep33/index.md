@@ -4,6 +4,7 @@ time: 20h
 duration: "01:52:07"
 title: "Agile Project Management"
 tags: ["career", "software engineering"]
+category: "career"
 isNext: false
 video: "2653190094913339"
 published: true

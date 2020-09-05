@@ -4,6 +4,7 @@ time: 21h16
 duration: "1:59:00"
 title: "Women In Tech"
 tags: ["women", "career"]
+category: "career"
 isNext: false
 featured: true
 video: "2693122377415088"

@@ -4,6 +4,7 @@ time: 20h
 duration: "1:27:22"
 title: "Blockchain & CryptoCurrency with Badr Bellaj"
 tags: ["blockchain", "cryptocurrency"]
+category: "dev"
 isNext: false
 video: "2321040174795001"
 published: true

@@ -4,6 +4,7 @@ time: 20h
 duration: "2:46:10"
 title: "Web Dev JS frameworks, Best practices"
 tags: ["web", "JS", "backend", "frontend"]
+category: "dev"
 isNext: false
 video: "2144076882491332"
 published: true

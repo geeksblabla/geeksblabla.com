@@ -4,6 +4,7 @@ time: 20h
 duration: "2:00:13"
 title: "Devops"
 tags: ["devops"]
+category: "dev"
 isNext: false
 video: "2140582549507432"
 published: true
