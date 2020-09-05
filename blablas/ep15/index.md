@@ -4,6 +4,7 @@ time: 22h
 duration: "1:19:23"
 title: "The twelve-factor App"
 tags: ["backend", "software engineering", "dev"]
+category: "dev"
 isNext: false
 video: "2348668091860520"
 published: true

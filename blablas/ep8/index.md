@@ -4,6 +4,7 @@ time: 20h52
 duration: "1:45:48"
 title: "Malware analysis and forensics"
 tags: ["cybersecurity", "security"]
+category: "dev"
 isNext: false
 video: "2003419829718683"
 published: true

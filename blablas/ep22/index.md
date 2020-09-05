@@ -4,6 +4,7 @@ time: 21h
 duration: "2:07:16"
 title: "Junior Devs in Morocco"
 tags: ["school", "career", "dev"]
+category: "career"
 isNext: false
 video: "2632636916796968"
 published: true

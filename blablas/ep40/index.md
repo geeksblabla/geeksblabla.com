@@ -4,6 +4,7 @@ time: 22h:30min
 duration: "01:44:48"
 title: "Self-Taught Developers"
 tags: ["self-taught", "software engineering", "career"]
+category: "career"
 isNext: false
 video: "2971727423053675"
 published: true

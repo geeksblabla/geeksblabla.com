@@ -4,6 +4,7 @@ time: 21h
 duration: "01:43:00"
 title: "MSS with Badr El Houari"
 tags: ["MSS", "entrepreneurship", "devoxx", "java", "career"]
+category: "MSS"
 isNext: false
 video: "2591423041090045"
 published: true

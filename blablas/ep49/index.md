@@ -4,6 +4,7 @@ time: 21h:00min
 duration: "02:33:00"
 title: "Building A Resume"
 tags: ["career"]
+category: "career"
 isNext: false
 video: "338981353771310"
 published: true

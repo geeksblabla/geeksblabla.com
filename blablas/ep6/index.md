@@ -4,6 +4,7 @@ time: 20h
 duration: "1:19:55"
 title: "ML & AI!"
 tags: ["ML", "AI"]
+category: "dev"
 isNext: false
 video: "2272738262958526"
 published: true

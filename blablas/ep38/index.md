@@ -4,6 +4,7 @@ time: 22h:00min
 duration: "01:12:40"
 title: "MSS with Meriam Kharbat and Ouafae Aamer"
 tags: ["MSS", "entrepreneurship", "software engineering"]
+category: "MSS"
 isNext: false
 video: "864192424101038"
 published: true

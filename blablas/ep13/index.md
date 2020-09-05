@@ -4,6 +4,7 @@ time: 22h
 duration: "1:05:23"
 title: "Open source licenses & standards"
 tags: ["open source"]
+category: "dev"
 isNext: false
 video: "2323086011085395"
 published: true

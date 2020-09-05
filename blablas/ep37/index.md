@@ -4,6 +4,7 @@ time: 20h:00min
 duration: "01:58:42"
 title: "MSS with Mouhsine Lakhdissi"
 tags: ["MSS", "entrepreneurship"]
+category: "MSS"
 isNext: false
 video: "530406154307944"
 published: true
@@ -18,7 +19,6 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 [Mouhssine Lakhdissi](https://www.facebook.com/mouhsine.lakhdissi)
 
-
 ## Notes
 
 0:00 - Introduction and welcoming
@@ -31,9 +31,9 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 0:22 - Can you tell us a little more about your previous business involvements and the places you’ve worked?
 
-0:31 - You were attracted to the scientific field when you were younger,can you tell us more about this passion 
+0:31 - You were attracted to the scientific field when you were younger,can you tell us more about this passion
 
-0:38 - What inspired you to start it ? 
+0:38 - What inspired you to start it ?
 
 0:41 - How did you develop it?
 
@@ -43,7 +43,7 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 1:03 - How can we monetize our entreprises in Morocco ?
 
-1:12 - How do  you evaluate entrepreneurship ecosystem in Morocco?
+1:12 - How do you evaluate entrepreneurship ecosystem in Morocco?
 
 1:14 - What’s your greatest fear as an entrepreneur?
 
@@ -56,10 +56,6 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 1:52 - How can we boost the e-learning in Morocco?
 
 1:58 - Some advices for moroccan entrepreneurs.
-
-
-
-
 
 ## Prepared and Presented by :
 

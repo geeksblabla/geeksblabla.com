@@ -4,6 +4,7 @@ time: 20h:00min
 duration: "02:28:04"
 title: "Mobile Development"
 tags: ["android", "IOS", "mobile dev", "react native", "flutter"]
+category: "dev"
 isNext: false
 video: "272185967229889"
 published: true

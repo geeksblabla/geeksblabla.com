@@ -4,6 +4,7 @@ time: 15h08
 duration: "1:27:53"
 title: "Software security"
 tags: ["security", "backend", "frontend", "software engineering"]
+category: "dev"
 isNext: false
 video: "2392159647683053"
 published: true

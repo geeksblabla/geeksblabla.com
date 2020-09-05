@@ -4,6 +4,7 @@ time: 20h:30min
 duration: "01:57:56"
 title: "DevC Community"
 tags: ["DevC", "open source"]
+category: "dev"
 isNext: false
 video: "2982251615130868"
 published: true

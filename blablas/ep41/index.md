@@ -4,6 +4,7 @@ time: 20h:30min
 duration: "02:13:00"
 title: "PHP Deep Dive"
 tags: ["php", "dev", "web", "backend"]
+category: "dev"
 isNext: false
 video: "866401943834929"
 published: true

@@ -4,6 +4,7 @@ time: 20h
 duration: "1:48:05"
 title: "Open Source with Yassine Elouafi"
 tags: ["open source", "dev", "react", "web", "frontend"]
+category: "dev"
 isNext: false
 video: "2254365704624093"
 published: true

@@ -4,6 +4,7 @@ time: 20h
 duration: "02:24:36"
 title: "AMA With GeeksBlabla Team "
 tags: ["DevC", "AMA"]
+category: "AMA"
 isNext: false
 video: "2963957556998234"
 published: true
