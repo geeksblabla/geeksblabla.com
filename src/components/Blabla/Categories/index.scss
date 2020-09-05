@@ -1,0 +1,12 @@
+@import "styles/index";
+
+.categories-list {
+  padding: 5px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include breakpoint(mobileonly) {
+    padding: 0px 5px;
+    justify-content: stretch;
+  }
+}

@@ -3,7 +3,8 @@ date: 2019-08-22
 time: 21h
 duration: "1:13:57"
 title: "Freelancing in Morocco"
-tags: ["Freelance"]
+tags: ["freelance", "career"]
+category: "career"
 isNext: false
 featured: true
 video: "2458974807668203"

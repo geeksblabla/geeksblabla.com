@@ -3,7 +3,8 @@ date: 2020-05-17
 time: 22h:30min
 duration: "01:44:48"
 title: "Self-Taught Developers"
-tags: ["tech", "Self-taught", "Software engineering"]
+tags: ["self-taught", "software engineering", "career"]
+category: "career"
 isNext: false
 video: "2971727423053675"
 published: true
@@ -14,7 +15,6 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/2971727423053675/
 
 In this episode of GeeksBlabla, we discuss with self-taught developers about their experience, how they get started and how they made it professionally.
 
-
 ## Guests
 
 [Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
@@ -23,15 +23,13 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 [Ismail Ghallou](https://twitter.com/smakosh)
 
-
-
 ## Notes
 
 0:00 - Introduction
 
-0:05 - If you don’t have a CS degree, how did you learn to code?  
+0:05 - If you don’t have a CS degree, how did you learn to code?
 
-0:08 - Did you do any particular courses or bootcamps? 
+0:08 - Did you do any particular courses or bootcamps?
 
 0:12 - Was the learning path difficult at the beginning?
 
@@ -53,7 +51,7 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 0:51 - Do you think a CS degree is unnecessary now?
 
-0:57 - Did you still learn  after you got your first job 
+0:57 - Did you still learn after you got your first job
 
 1:00 - Do you have tips for getting a remote job as a junior developer?
 
@@ -67,13 +65,8 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 1:44 - Wrap up and Goodbye.
 
-
-
-
 ## Prepared and Presented by :
 
 - [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
 - [Meriem Zaid](https://www.facebook.com/MeriemZaid)
-
-

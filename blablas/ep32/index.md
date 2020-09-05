@@ -3,7 +3,8 @@ date: 2020-03-30
 time: 20h
 duration: "01:00:57"
 title: "Moroccan Makers Efforts to Fight COVID-19"
-tags: ["COVID-19", "Makers"]
+tags: ["COVID-19"]
+category: "career"
 isNext: false
 video: "2649000091999006"
 published: true

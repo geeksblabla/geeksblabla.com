@@ -1,0 +1,41 @@
+@import "styles/index";
+
+.category-item {
+  list-style: none;
+  background: var(--secondary-bg-color);
+  border-radius: 45px;
+  color: var(--heading-color);
+  text-decoration: none;
+  margin-right: 24px;
+  margin-bottom: 16px;
+  padding: 0 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  white-space: nowrap;
+  @include breakpoint(mobileonly) {
+    margin-right: 8px;
+  }
+  &.active,
+  &:hover {
+    color: #ffffff;
+    background: linear-gradient(270deg, #a109d5 0%, #d9147d 100%);
+  }
+  &.active span {
+    color: #fff;
+  }
+  &:hover span {
+    color: #ffffff;
+  }
+  p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 0.8rem;
+      margin-left: 8px;
+      color: var(--text-color);
+    }
+  }
+}

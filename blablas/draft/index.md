@@ -4,6 +4,7 @@ time: "20h"
 duration: "1:30"
 title: "web frameworks"
 tags: ["react", "dev"]
+category: "dev"
 guest: "elazizi youssef"
 isNext: true
 published: false

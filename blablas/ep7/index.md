@@ -3,7 +3,8 @@ date: 2018-10-25
 time: 20h
 duration: "1:22:38"
 title: "Métier de développeur"
-tags: ["dev"]
+tags: ["dev", "career"]
+category: "career"
 isNext: false
 video: "2261166440782375"
 published: true

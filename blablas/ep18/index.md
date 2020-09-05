@@ -3,7 +3,8 @@ date: 2019-07-04
 time: 21h
 duration: "1:46:29"
 title: "GeeksBlabla MSS With Google Engineer Sghiouar Abdelfettah"
-tags: ["MSS"]
+tags: ["MSS", "career"]
+category: "MSS"
 isNext: false
 video: "2417671194960209"
 published: true
@@ -61,7 +62,7 @@ In this episode of GeeksBlabla MSS, we welcome Sghiouar Abdelfettah: Google Engi
 
 01:11 - Why joining Google in the USA is harder than joining Google in Europe?
 
-01:16 - Do we need a background in Mathematics in order to learn Algorithms and Data structures? 
+01:16 - Do we need a background in Mathematics in order to learn Algorithms and Data structures?
 
 01:20 - How can I improve my skills to become apt for a job like a software engineer?
 

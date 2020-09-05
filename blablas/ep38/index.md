@@ -3,7 +3,8 @@ date: 2020-05-03
 time: 22h:00min
 duration: "01:12:40"
 title: "MSS with Meriam Kharbat and Ouafae Aamer"
-tags: ["MSS", "entrepreneurship", "Software engineering"]
+tags: ["MSS", "entrepreneurship", "software engineering"]
+category: "MSS"
 isNext: false
 video: "864192424101038"
 published: true
@@ -12,7 +13,7 @@ url: ""
 podcastUrl: https://www.facebook.com/geeksblabla/videos/864192424101038/
 ---
 
-In this episode of GeeksBlabla, we discuss the success story for two  young women in the IT field in and outside Morocco.
+In this episode of GeeksBlabla, we discuss the success story for two young women in the IT field in and outside Morocco.
 
 ## Guests
 
@@ -20,14 +21,13 @@ In this episode of GeeksBlabla, we discuss the success story for two  young wome
 
 [Ouafae Aamer](https://www.facebook.com/ouafae.aamer)
 
-
 ## Notes
 
 0:00 - Introduction and welcoming
 
-0:05 - Education path 
+0:05 - Education path
 
-0:09 - tell us what your day job is 
+0:09 - tell us what your day job is
 
 0:19 - How long have you been working as Product Manager, Developer
 
@@ -44,10 +44,6 @@ In this episode of GeeksBlabla, we discuss the success story for two  young wome
 1:03 - What are some challenges you’ve faced ?
 
 1:12 - Are there any particular Moroccan women in tech who have inspired you?
-
-
-
-
 
 ## Prepared and Presented by :
 

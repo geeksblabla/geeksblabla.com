@@ -3,7 +3,8 @@ date: 2020-05-31
 time: 21h:30min
 duration: "02:00:00"
 title: "Ask Me Anything #2"
-tags: ["AMA"]
+tags: ["AMA", "DevC"]
+category: "AMA"
 isNext: false
 video: "247576546525955"
 published: true

@@ -3,7 +3,8 @@ date: 2019-05-18
 time: 15h08
 duration: "1:27:53"
 title: "Software security"
-tags: ["Security", "Backend", "Frontend"]
+tags: ["security", "backend", "frontend", "software engineering"]
+category: "dev"
 isNext: false
 video: "2392159647683053"
 published: true

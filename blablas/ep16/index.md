@@ -4,6 +4,7 @@ time: 22h
 duration: "1:25:54"
 title: "MSS with Amine Raghib"
 tags: ["MSS"]
+category: "MSS"
 isNext: false
 video: "2254586411440378"
 published: true
@@ -16,7 +17,6 @@ In this episode of GeeksBlabla, our guest Amine Raghib - a writer and founder of
 ## Guests
 
 [Amine Raghib](https://www.facebook.com/raghiblog/)
-
 
 ## Notes
 

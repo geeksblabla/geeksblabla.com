@@ -3,17 +3,15 @@ date: 2018-06-02
 time: 20h
 duration: "1:46:09"
 title: "AR, VR and Game Dev "
-tags: ["tech", "game dev", "ar", "vr"]
+tags: ["game dev", "AR", "VR"]
+category: "dev"
 isNext: false
 video: "2147536065478747"
 published: true
 audio:
-
 ---
 
-In this episode of GeeksBlabla, we discuss AR  , VR & Game Dev .
-
-
+In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .
 
 ## Guests
 
@@ -64,6 +62,3 @@ In this episode of GeeksBlabla, we discuss AR  , VR & Game Dev .
 [Soufian El Foukahi](https://twitter.com/souffanda/)
 
 [Mohammed Aboullaite](http://aboullaite.me/)
-
-
-

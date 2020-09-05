@@ -1,6 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblablas.com">
@@ -58,10 +60,14 @@ If you want to contribute check out the [help wanted](https://github.com/devC-Ca
 
       - Episode date, time, duration
       - Episode Title : Facebook live stream episode title.
-      - Tags : At least 1
+      - Tags : At least 1. You should stick to the following approach:
+        - For abbrevations: all lowercase i.e: "dev"
+        - For acronyms: all uppercase i.e: "MSS", "UX", "UI", "JS".
+        - For single and composite words: all lowercase i.e: "software engineering", "mobile dev", "career".
+      - category: one of the following: "MSS", "AMA", "career", "dev".
       - isNext : always `false`. `true` means the episode is the next one and should appear on the footer.
       - video : Facebook video id
-      - featured : default `false`, `true` will show the episode in the TOP EPISODE home page  Section 
+      - featured : default `false`, `true` will show the episode in the TOP EPISODE home page Section
 
 ```
 date: 2019-03-28
@@ -69,6 +75,7 @@ time: 20h
 duration: "01:09:00"
 title: "Open Source with Yassine Elouafi"
 tags: ["open source", "dev"]
+category: "dev"
 isNext: false
 video: "2254365704624093"
 published: true
@@ -99,7 +106,7 @@ In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk
 
 #### Notes :
 
-In the Notes section, you need to collect the most important part of the episode and try to find the right title for it using  this format : `h:min - title `
+In the Notes section, you need to collect the most important part of the episode and try to find the right title for it using this format : `h:min - title`
 
 ```
 0:00 - Intro
@@ -138,6 +145,7 @@ time: 20h
 duration: "1:09"
 title: "Introduction to Open Source"
 tags: ["open source", "dev"]
+category: "dev"
 isNext: false
 published: true
 video: "2244351238958873"
@@ -240,6 +248,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -3,7 +3,9 @@ date: 2020-06-13
 time: 20h:00min
 duration: "01:19:40"
 title: "Wiqaytna: Everything (technical) you need to know"
-tags: ["tech", "entrepreneurship", "Mobile development"]
+tags:
+  ["entrepreneurship", "mobile dev", "security", "COVID-19", "cybersecurity"]
+category: "dev"
 isNext: false
 video: "184114139689813"
 published: true

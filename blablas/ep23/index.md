@@ -3,7 +3,8 @@ date: 2019-11-24
 time: 21h16
 duration: "1:59:00"
 title: "Women In Tech"
-tags: ["women", "tech", "women in tech", "community"]
+tags: ["women", "career"]
+category: "career"
 isNext: false
 featured: true
 video: "2693122377415088"

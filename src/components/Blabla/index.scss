@@ -16,3 +16,11 @@
     margin-top: 0px;
   }
 }
+
+.categories {
+  margin-top: 25px;
+  @include breakpoint(mobileonly) {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}

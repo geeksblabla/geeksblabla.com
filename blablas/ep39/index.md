@@ -3,7 +3,8 @@ date: 2020-05-11
 time: 22h:30min
 duration: "02:15:04"
 title: "Blogging As a Developer"
-tags: ["dev", "blogging"]
+tags: ["dev", "blogging", "career", "backend", "frontend", "mobile dev", "web"]
+category: "career"
 isNext: false
 video: "655858025264119"
 published: true
