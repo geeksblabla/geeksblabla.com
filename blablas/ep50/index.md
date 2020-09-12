@@ -3,6 +3,7 @@ date: 2020-09-07
 time: 22h:15min
 duration: "01:06:16"
 title: "MSS With Mehdi Mourabit"
+category: "MSS"
 tags: ["entrepreneurship", "startup", "digital marketing"]
 isNext: false
 video: "325275602053324"
@@ -26,7 +27,7 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 00:03 - What is your academic background?
 
-00:05 - How did you do to combine between your study at IT field and marketing?
+00:05 - How did you do to combine your study in the IT field and marketing?
 
 00:06 - Have you had side projects in parallel with your study?
 
@@ -50,7 +51,7 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 00:45 - The Morocco ecosystem help launching a startup?
 
-00:47 - Do you think people start giving more important to digital marketing?
+00:47 - Do you think people start giving more importance to digital marketing?
 
 00:49 - What is digital marketing?
 
@@ -58,7 +59,7 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 00:53 - What it the best platform to use to find clients?
 
-00:56 - Is there a method to be on top of search at Google?
+00:56 - Is there a method to be on top of the search result at Google?
 
 01:01 - Are there tools that give you your ranking and what you need to improve on your website?
 
