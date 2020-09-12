@@ -13,7 +13,7 @@ url: ""
 podcastUrl: https://www.facebook.com/geeksblabla/videos/325275602053324
 ---
 
-In this episode of GeeksBlabla, we discuss best practices to build a resume, how to avoid most common mistakes and some tools to build a Good resume.
+In this episode of GeeksBlabla, our guest Mehdi Mourabit a a serial entrepreneur will share his story.
 
 ## Guests
 
