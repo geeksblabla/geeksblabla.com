@@ -51,7 +51,7 @@ context("Actions", () => {
     cy.wait(5000)
     cy.fixture("episode.json").then((episode) => {
       cy.get("#title", { timeout: 60000 }).type(episode.title)
-      cy.get("span").contains("Switch to HTML").click()
+      cy.get("button").contains("Switch to HTML").click()
       cy.get("textarea[name=description]").type(episode.description)
     })
     cy.wait(1000)
