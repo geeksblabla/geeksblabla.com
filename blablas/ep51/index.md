@@ -23,9 +23,9 @@ In this episode of GeeksBlabla, we discuss with our guests what is it like to wo
 
 - [Oussama Salimi](https://www.facebook.com/osama.salimi.1)
 
-- [Ahmed]()
+- [Ahmed Kachkach](http://kachkach.com/)
 
-- [Othmane]()
+- [Othmane Meniar](https://www.facebook.com/maniar.othmane)
 
 ## Notes
 
