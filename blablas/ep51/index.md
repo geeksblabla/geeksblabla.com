@@ -53,7 +53,7 @@ In this episode of GeeksBlabla, we discuss with our guests what is it like to wo
 
 1:39 - Is it important to change jobs after a period of time?
 
-1:55 - Freelancs vs CDI.
+1:55 - Freelance vs CDI.
 
 2:02 - Do I need to verify all the requirements to apply for a job abroad?
 
