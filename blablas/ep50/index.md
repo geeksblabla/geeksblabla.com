@@ -8,7 +8,7 @@ tags: ["entrepreneurship", "startup", "digital marketing"]
 isNext: false
 video: "325275602053324"
 published: true
-featured: true
+featured: false
 url: ""
 podcastUrl: https://www.facebook.com/geeksblabla/videos/325275602053324
 ---
