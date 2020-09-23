@@ -1,6 +1,6 @@
 ---
 date: 2020-09-12
-time: 21h:01min
+time: 20h:01min
 duration: "02:30:36"
 title: "Developers Working Abroad"
 tags: ["career"]
@@ -42,7 +42,7 @@ In this episode of GeeksBlabla, we discuss with our guests what is it like to wo
 
 0:35 - Is it less complicated to get promoted abroad?
 
-0:49 - Which is better as s first job in Morocco, to work in an "SSII" or in a startup?
+0:49 - Which is better as a first job in Morocco, to work in an "SSII" or in a startup?
 
 0:54 - How is the lifestyle abroad, in terms of cost and work-life?
 
