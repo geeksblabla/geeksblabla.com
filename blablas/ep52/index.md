@@ -19,7 +19,7 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 - [Anas Mazioudi](https://www.facebook.com/disklosr)
 
-- [Kafil Nasdami](https://www.linkedin.com/in/kafiln/)
+- [Kafil Nasdami](https://kafil.now.sh)
 
 - [Yassine Driouich](https://www.facebook.com/Programmation.Maroc)
 
