@@ -19,7 +19,7 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 - [Anas Mazioudi](https://www.facebook.com/disklosr)
 
-- [Kafil Nasdami](https://kafil.now.sh/)
+- [Kafil Nasdami](https://kafil.now.sh)
 
 - [Yassine Driouich](https://www.facebook.com/Programmation.Maroc)
 
@@ -31,7 +31,7 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 0:10 - What is the history of .NET and how did it become open source?
 
-0:23 - How did Microsoft made .NET cross-platform?
+0:23 - How did Microsoft make .NET cross-platform?
 
 0:25 - How to execute a .NET file in Linux?
 
@@ -47,7 +47,7 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 1:14 - How is package management done in .NET world?
 
-1:16 - What are the basic .NET concepts that every .Net developer has to be familiar with?
+1:16 - What are the basic .NET concepts that every .NET developer has to be familiar with?
 
 1:24 - How to get started with .NET?
 
@@ -63,7 +63,7 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 1:51 - Hosting for .NET web applications.
 
-1:52 - .NET ressources and courses.
+1:52 - .NET resources and courses.
 
 2:03 - What are the most popular libraries in C#?
 
