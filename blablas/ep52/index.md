@@ -43,7 +43,7 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 0:59 - .NET IDE on cloud.
 
-1:07 - Is there some aspects where .NET Core shines the most comparing to other stacks?
+1:07 - Is there some aspects where .NET Core shines the most compared to other stacks?
 
 1:14 - How is package management done in .NET world?
 
