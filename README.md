@@ -19,7 +19,7 @@ We talk about the hottest new topics and explain it to the community in a way th
 
 The website is built using [Gatsbyjs](http://gatsbyjs.org)
 
-## 🚀 Quick start
+##  Quick start
 
 1.  **Fork and clone the project**
 
