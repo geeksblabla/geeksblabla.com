@@ -8,7 +8,7 @@
   </a>
 </p>
 <h1 align="center">
-  GeeksBlabla Website
+  GeeksBlabla - A Website to learn
 </h1>
 
 Geeksblabla is a webinar where we meet to share and learn about awesome topics from the best.
