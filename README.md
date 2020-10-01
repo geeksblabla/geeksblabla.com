@@ -18,6 +18,7 @@ We Invite knowledgable and interesting people who are not always known to the pu
 We talk about the hottest new topics and explain it to the community in a way that is simple and approachable.
 
 The website is built using [Gatsbyjs](http://gatsbyjs.org)
+you can also suggest us about anything which you think is not that good and we will try to rectify it.
 
 ## 🚀 Quick start
 
