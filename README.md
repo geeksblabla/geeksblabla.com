@@ -43,14 +43,14 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org)
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-## 🧐 Want to contribute ?
+## 🧐 Want to contribute  in this amazing projecr?
 
 If you want to contribute check out the [help wanted](https://github.com/devC-Casa/geeksblabla.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+sort%3Aupdated-desc) issues for things that need fixing, or suggest some new features by opening new issues.
 
-## Add New Episode ?
+## Add New Episode  ?
 
 1.  **Follow the Quick start 👆**
-2.  **Create a new episode folder**
+2.  **Create a new episode folder from here**
 
     - Duplicate an existing episode folder and rename it with the correct episode number `epX`
 
