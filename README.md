@@ -27,7 +27,7 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org)
     git clone git@github.com:your-username/geeksblabla.com.git
     ```
 
-1.  **Start developing.**
+1.  **Start developing your carrier**
 
     Navigate into your new site’s directory and start it up.
 
