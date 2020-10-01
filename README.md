@@ -86,7 +86,7 @@ audio:
 
 Episode Notes should contain three sections:
 
-#### Description :
+#### Description in brief :
 
 A simple description of the episode like the following:
 
