@@ -11,7 +11,7 @@
   GeeksBlabla Website
 </h1>
 
-Geeksblabla is a webinar where we meet to share and learn about awesome topics from the best.
+Geeksblabla is a webinar where we meet to share and learn about awesome and amazing topics from the best.
 
 We Invite knowledgable and interesting people who are not always known to the public so that they can share their experiences.
 
