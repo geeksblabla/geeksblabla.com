@@ -11,9 +11,9 @@
   GeeksBlabla Website
 </h1>
 
-Geeksblabla is a webinar where we meet to share and learn about awesome topics from the best.
+Geeksblabla is a webinar where we meet to share and learn about amazing topics from the best.
 
-We Invite knowledgable and interesting people who are not always known to the public so that they can share their experiences.
+We Invite knowledgable and interesting people who are not always known to the public so they can share their experiences and get to learn many things.
 
 We talk about the hottest new topics and explain it to the community in a way that is simple and approachable.
 
@@ -45,7 +45,7 @@ The website is built using [Gatsbyjs](http://gatsbyjs.org)
 
 ## 🧐 Want to contribute ?
 
-If you want to contribute check out the [help wanted](https://github.com/devC-Casa/geeksblabla.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+sort%3Aupdated-desc) issues for things that need fixing, or suggest some new features by opening new issues.
+If you want to contribute, do check out the [help wanted](https://github.com/devC-Casa/geeksblabla.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+sort%3Aupdated-desc) issues for things that need fixing, or suggest some new features by opening new issues.
 
 ## Add New Episode ?
 
