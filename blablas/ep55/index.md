@@ -13,7 +13,7 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/776838066222971
 audio:
 ---
 
-In this episode of GeeksBlabla, we discuss with our guests Open Source and the much hyped Hacktoberfest.
+In this episode of GeeksBlabla, we discuss with our guests, Open Source and the much-hyped Hacktoberfest.
 
 ## Guests
 
@@ -39,7 +39,7 @@ In this episode of GeeksBlabla, we discuss with our guests Open Source and the m
 
 0:39 - What are your thoughts on Microsoft acquiring GitHub?
 
-0:47 - GitLab Vs GiHub.
+0:47 - GitLab Vs GitHub.
 
 0:48 - Why do large companies Open Source their tech?
 
@@ -59,9 +59,9 @@ In this episode of GeeksBlabla, we discuss with our guests Open Source and the m
 
 1:38 - Donations and Open Source.
 
-1:41 - What have you gained from Open Source as a contributer?
+1:41 - What have you gained from Open Source as a contributor?
 
-1:47 - What is a PR?
+1:47 - What is PR (Pull Request)?
 
 1:52 - Open Source in the Moroccan tech community.
 
@@ -98,4 +98,5 @@ In this episode of GeeksBlabla, we discuss with our guests Open Source and the m
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com/)
+
 - [Meriem Zaid](https://www.facebook.com/MeriemZaid)
