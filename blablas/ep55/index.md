@@ -2,7 +2,7 @@
 date: 2020-10-11
 time: 21h:01min
 duration: "02:46:57"
-title: "Hacktoberfest & Open source"
+title: "Hacktoberfest & Open Source"
 tags: ["open source", "dev"]
 category: "dev"
 isNext: false
