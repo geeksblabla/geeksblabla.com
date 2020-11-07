@@ -1,5 +1,5 @@
 import React from "react"
-
+import "../i18n/i18n"
 import Layout from "components/Layout"
 import {
   Hero,

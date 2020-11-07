@@ -5,6 +5,7 @@ const _ = require("lodash")
 //const PAGINATION_OFFSET = 7
 const fs = require("fs")
 //const contributers = require("./.all-contributorsrc")
+const locales = require(`./src/i18n/language-config`)
 
 const createPosts = (createPage, createRedirect, edges) => {
   edges.forEach(({ node }, i) => {
@@ -290,5 +291,28 @@ exports.sourceNodes = async ({
 
     // Create the actual data node
     actions.createNode(node)
+  })
+}
+
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions
+
+  deletePage(page)
+
+  // Grab the keys of locales and map over them
+  Object.keys(locales).map((lang) => {
+    // Use the values defined in "locales" to construct the path
+    const localizedPath = locales[lang].is_default
+      ? page.path
+      : `${locales[lang].path}${page.path}`
+
+    return createPage({
+      ...page,
+      path: localizedPath,
+      context: {
+        ...page.context,
+        locale: lang,
+      },
+    })
   })
 }

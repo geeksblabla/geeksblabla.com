@@ -7,21 +7,19 @@ import HeroImage from "assets/hero.svg"
 import HeroImageMobile from "assets/hero_mobile.svg"
 import HeroImageMobileLight from "assets/hero_mobile_light.svg"
 import "./index.scss"
-
+import { useTranslation } from "react-i18next"
 export default () => {
   const { dark } = useTheme()
+  const { t } = useTranslation()
 
   return (
     <div className="container hero">
       <div className="description">
-        <h1>Hottest technology trends, In Darija!</h1>
-        <p>
-          GeeksBlaBla is a community initiative, to discuss, highlight and share
-          the latest IT topics in Moroccan Darija.
-        </p>
+        <h1>{t("Hottest technology")}</h1>
+        <p>{t("intro")}</p>
         <div className="actions">
           <Link to="/blablas" className="button left">
-            <PlayIcon /> Start Watching
+            <PlayIcon /> {t("Start Watching")}
           </Link>
           {/* <Link to="/suggest-new-episode" className="button outline">
             Suggest a topic
