@@ -21,7 +21,7 @@ In this episode of GeeksBlabla, we invited Mohamed Youssfi, one of the most famo
 
 ## Notes
 
-0:00 - Introduction and welcome=ing
+0:00 - Introduction and welcoming
 
 0:04 - Who is Mohamed Youssfi ?
 
@@ -35,7 +35,7 @@ In this episode of GeeksBlabla, we invited Mohamed Youssfi, one of the most famo
 
 1:00 - Getting updated about the latest technologies?
 
-1:10 - How to deal with the level disparity between students?
+1:10 - How to deal with the level of disparity between students?
 
 1:16 - What do you think about the height of education in Morocco (IT)?
 
