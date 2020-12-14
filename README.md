@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-33-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
-  <a href="https://www.geeksblablas.com">
+  <a href="https://www.geeksblabla.com">
     <img alt="Gatsby" src="https://raw.githubusercontent.com/DevC-Casa/geeksblabla.com/master/static/images/logo.png" width="200" />
   </a>
 </p>
