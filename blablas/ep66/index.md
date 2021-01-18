@@ -13,14 +13,12 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/1312734475751456
 audio:
 ---
 
-In this episode of GeeksBlabla, we discussed some ways to present your best self in a tech interview, how to answer common questions, types of interviews, best practices and tips for better communication with the recruiter.
+In this episode of GeeksBlabla, we discussed with our guests Ali Lakrakbi and Saad Zabari what's IoT, its impact, Adopting IoT in Morocco, and more things about it.
 
 ## Guests
 
 - [Saad Zabari](https://www.facebook.com/zabari.saad)
 - [Ali Lakrakbi](https://www.facebook.com/alilakrakbi)
-- [Mohammed Aboullaite](https://aboullaite.me/)
-- [Ismail Tlemcani](https://www.facebook.com/profile.php?id=100010413469638)
 
 ## Notes
 
