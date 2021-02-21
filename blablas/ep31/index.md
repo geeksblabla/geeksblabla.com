@@ -17,7 +17,7 @@ This episode is an AMA (Ask Me Anything ) with GeeksBlabla Team ,During this epi
 
 ## Guests
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)
 
 [Youssouf El Azizi](https://elazizi.com/)
 

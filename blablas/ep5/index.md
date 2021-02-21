@@ -70,4 +70,4 @@ In this episode of GeeksBlabla MSS, we welcome Taher Alami , He has been involve
 
 [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
-[Soufian El Foukahi](https://twitter.com/souffanda)
+[Soufian El Foukahi](https://twitter.com/soufianelf)

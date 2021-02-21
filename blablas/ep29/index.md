@@ -61,6 +61,6 @@ In this episode of GeeksBlabla, we discuss JavaScript, History, Fundamental conc
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)
 
 [Youssouf El Azizi](https://elazizi.com/)

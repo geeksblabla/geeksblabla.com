@@ -106,4 +106,4 @@ In this episode of GeeksBlabla MSS, we welcome Sghiouar Abdelfettah: Google Engi
 
 [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
-[Soufian El Foukahi](https://twitter.com/souffanda)
+[Soufian El Foukahi](https://twitter.com/soufianelf)

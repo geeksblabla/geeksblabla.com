@@ -53,4 +53,4 @@ In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about
 
 [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)

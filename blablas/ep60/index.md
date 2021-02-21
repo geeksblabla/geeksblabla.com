@@ -55,4 +55,4 @@ In this episode of GeeksBlabla, we invited Mohamed Youssfi, one of the most famo
 
 - [Youssouf EL Azizi](https://elazizi.com/)
 
-- [Soufian El Foukahi](https://twitter.com/souffanda/)
+- [Soufian El Foukahi](https://twitter.com/soufianelf/)

@@ -79,4 +79,4 @@ In this episode of GeeksBlabla, our guest Mehdi Mourabit a a serial entrepreneur
 
 ## Prepared and Presented by
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)

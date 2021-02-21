@@ -80,4 +80,4 @@ In this episode of GeeksBlabla, we discuss Java, community and leadership with B
 
 [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)

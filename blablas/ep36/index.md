@@ -81,6 +81,6 @@ In this episode of GeeksBlabla we discuss, React, How to get started ,Core conce
 
 ## Prepared and Presented by :
 
-- [Soufian El Foukahi](https://twitter.com/souffanda/)
+- [Soufian El Foukahi](https://twitter.com/soufianelf/)
 
 - [Youssouf EL Azizi](https://elazizi.com/)

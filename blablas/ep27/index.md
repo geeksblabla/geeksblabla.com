@@ -67,6 +67,6 @@ In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To 
 
 [Youssouf El Azizi](https://twitter.com/ElaziziYoussouf)
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)
 
 [Mehdi Sakout](https://twitter.com/medyo80)

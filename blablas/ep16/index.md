@@ -76,6 +76,6 @@ In this episode of GeeksBlabla, our guest Amine Raghib - a writer and founder of
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[El Foukahi Soufian](https://twitter.com/souffanda/)
+[El Foukahi Soufian](https://twitter.com/soufianelf/)
 
 [Amine Maarouf](https://web.facebook.com/amiiiinema)

@@ -87,4 +87,4 @@ In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of U
 
 [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)

@@ -68,4 +68,4 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding i
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)

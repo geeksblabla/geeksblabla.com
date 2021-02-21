@@ -75,4 +75,4 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 [Meriem Zaid](https://www.facebook.com/MeriemZaid/)
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)

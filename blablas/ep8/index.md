@@ -66,6 +66,6 @@ In this episode of GeeksBlabla, we discuss Cybersecurity, Malware analysis and F
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/souffanda/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)
 
 [Aicha Aferiat](https://www.facebook.com/#)

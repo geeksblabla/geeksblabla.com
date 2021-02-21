@@ -71,7 +71,7 @@ In this special episode of GeeksBlabla, some of its core team members discussed 
 
 ## Prepared and Presented by :
 
-- [Soufian El Foukahi](https://twitter.com/souffanda/)
+- [Soufian El Foukahi](https://twitter.com/soufianelf/)
 
 - [Youssouf EL Azizi](https://elazizi.com/)
 
