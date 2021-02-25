@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-35-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblabla.com">
@@ -243,6 +243,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://moghwan.me"><img src="https://avatars2.githubusercontent.com/u/2495180?v=4?s=180" width="180px;" alt=""/><br /><sub><b>Marwane Chaoui</b></sub></a><br /><a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=moghwan" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/nainiayoub"><img src="https://avatars2.githubusercontent.com/u/50157142?v=4?s=180" width="180px;" alt=""/><br /><sub><b>Ayoub NAINIA</b></sub></a><br /><a href="#content-nainiayoub" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/outama-othmane"><img src="https://avatars2.githubusercontent.com/u/42810975?v=4?s=180" width="180px;" alt=""/><br /><sub><b>Outama Othmane</b></sub></a><br /><a href="#content-outama-othmane" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/sroui"><img src="https://avatars.githubusercontent.com/u/26446917?v=4?s=180" width="180px;" alt=""/><br /><sub><b>Soufiane Roui</b></sub></a><br /><a href="#content-sroui" title="Content">🖋</a></td>
   </tr>
 </table>
 
