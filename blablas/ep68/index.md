@@ -33,6 +33,8 @@ In this episode of GeeksBlabla, we invited Diaa Alhak El Fallous and Othmane Kin
 
 0:30 - Does a predefined roadmap consider a developer’s productivity?
 
+0:38 - How to prioritize tasks
+
 0:43 - How do you do to being consistent at work?
 
 1:08 - How to manage the situation when you need more time to grasp the task's skills or feel that you won’t meet some deadline?
