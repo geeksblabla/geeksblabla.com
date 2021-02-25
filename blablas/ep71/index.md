@@ -4,12 +4,12 @@ time: 20h:07min
 duration: "01:47:16"
 title: "Data Centers in Morocco"
 tags: ["datacenter"]
-category: "dev"
+category: "cloud"
 isNext: false
 published: true
-video: "104959281537162"
+video: "292275138906896"
 url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/104959281537162/
+podcastUrl: https://www.facebook.com/geeksblabla/videos/292275138906896/
 audio:
 ---
 
