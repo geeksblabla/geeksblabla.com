@@ -327,6 +327,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "sroui",
+      "name": "Soufiane Roui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26446917?v=4",
+      "profile": "https://github.com/sroui",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 5,
