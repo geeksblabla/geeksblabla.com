@@ -1,6 +1,6 @@
 import React from "react"
 
-export const LikeIcon = props => (
+export const LikeIcon = (props) => (
   <svg width="1.5em" height="1.5em" viewBox="0 0 18 18" fill="none" {...props}>
     <path
       fillRule="evenodd"
@@ -23,13 +23,13 @@ export const LikeIcon = props => (
     </defs>
   </svg>
 )
-export const DisLikeIcon = props => (
+export const DisLikeIcon = (props) => (
   <svg width="1.5em" height="1.5em" viewBox="0 0 18 18" fill="none" {...props}>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
       d="M2.336 3.387a4.443 4.443 0 0 1 6.449 0L9 3.61l.215-.223a4.443 4.443 0 0 1 6.45 0c1.78 1.848 1.78 4.846 0 6.695L9 17l-6.664-6.918c-1.781-1.85-1.781-4.847 0-6.695z"
-      fill="#fff"
+      fill="var(--text-color)"
     />
   </svg>
 )
