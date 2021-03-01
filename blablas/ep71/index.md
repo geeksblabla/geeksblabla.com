@@ -4,7 +4,7 @@ time: 20h:07min
 duration: "01:47:16"
 title: "Data Centers in Morocco"
 tags: ["datacenter"]
-category: "cloud"
+category: "dev"
 isNext: false
 published: true
 video: "292275138906896"
@@ -19,7 +19,7 @@ In this episode of GeeksBlabla, we invited Abdelfettah Sghiouar, Islam Abouelata
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
-- [Islam Abouelata](#)
+- [Islam Abouelata](https://web.facebook.com/islam.abouelata?_rdc=1&_rdr)
 
 - [Karim Benzidane](https://www.linkedin.com/in/benzidanekarim)
 
