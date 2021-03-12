@@ -16,7 +16,7 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "generate-podcast-files": "node ./podcast/generate_episode.js",
-    "upload-to-anchor": "cypress run --headless --spec 'cypress/integration/upload_episode.js'"
+    "upload-to-anchor": "cypress run --headed --browser chrome  --spec 'cypress/integration/upload_episode.js'"
   },
   "husky": {
     "hooks": {
