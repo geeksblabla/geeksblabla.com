@@ -13,7 +13,7 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/491357765578519/
 audio:
 ---
 
-Tech News & AMA #6 with our community members Ilyas, Othmane, Mehdi, Otmane, and Mohamed. During this episode, we discuss the latest Tech News and we answer audience questions about programming, community, new technologies, and much more.
+Tech News & AMA #8 with our community members Ilyas, Othmane, Mehdi, Otmane, and Mohamed. During this episode, we discuss the latest Tech News and we answer audience questions about programming, community, new technologies, and much more.
 
 ## Guests
 
