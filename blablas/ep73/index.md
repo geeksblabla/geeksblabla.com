@@ -2,7 +2,7 @@
 date: 2021-03-07
 time: 20h:00min
 duration: "02:12:38"
-title: "Women In Tech"
+title: "Women In Tech 2021"
 tags: ["dev", "career"]
 category: "career"
 isNext: false
@@ -13,7 +13,7 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/721107755256193/
 audio:
 ---
 
-In this special episode, we highlight the hidden category in Tech in general, Women and girls in tech in Morocco. The guests are students in IT & CS will share their experiences and their journey. 
+In this special episode, we highlight the hidden category in Tech in general, Women and girls in tech in Morocco. The guests are students in IT & CS will share their experiences and their journey.
 
 ## Guests
 
@@ -33,7 +33,7 @@ In this special episode, we highlight the hidden category in Tech in general, Wo
 
 0:08 - What influenced you to pursue a career in IT
 
-0:17 - What is it like to be a woman working in technology for you? 
+0:17 - What is it like to be a woman working in technology for you?
 
 0:27 - How could you convince a random Moroccan girl to be interested in programming?
 
@@ -55,7 +55,7 @@ In this special episode, we highlight the hidden category in Tech in general, Wo
 
 1:27 - What job did you dream of when you were a kid – your Plan A career path
 
-1:32 - How could men empower women in IT? 
+1:32 - How could men empower women in IT?
 
 1:37 - What do you think of StateOfDevMa survey results
 
