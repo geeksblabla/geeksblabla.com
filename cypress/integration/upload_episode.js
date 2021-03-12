@@ -14,7 +14,8 @@ context("Actions", () => {
     cy.wait(5000)
 
     // Upload File
-    cy.contains("New Episode", { timeout: 60000 }).click()
+    // cy.contains("New Episode", { timeout: 60000 }).click()
+    cy.visit("https://anchor.fm/dashboard/episode/new")
     cy.wait(5000)
     cy.get("input[type=file]").parent().attachFile(
       {
