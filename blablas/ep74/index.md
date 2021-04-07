@@ -65,4 +65,4 @@ In this episode, we talk about Monitoring, what is it about, what to consider in
 
 - [Meriem Zaid](https://www.facebook.com/MeriemZaid)
 
-- [Otmane Fettal](https://www.facebook.com/otmane.fettal)
+- [Otmane Fettal](https://twitter.com/ofettal)
