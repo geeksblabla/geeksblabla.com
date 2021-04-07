@@ -21,7 +21,7 @@ Tech News & AMA #9 with our community members Ahmed, Mohamed and Othman. During 
 
 - [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
 
-- [Otmane Fettal](https://www.facebook.com/otmane.fettal)
+- [Otmane Fettal](https://twitter.com/ofettal)
 
 ## Notes
 
