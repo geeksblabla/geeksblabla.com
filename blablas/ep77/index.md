@@ -13,7 +13,7 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/277369320636709
 audio:
 ---
 
-In the 77 Episode of Geeks BlaBla , We're taking a look at the landscape of Low Code / No Code technologies , These technologies are taking the world by storm , building a strong Hype around them , and expected to be an industry worth 23 Billion Dollars by 2023.
+In the 77 Episode of GeeksBlaBla , We're taking a look at the landscape of Low Code / No Code technologies; These technologies are taking the world by storm, building a strong Hype around them, and expected to be an industry worth 23 Billion Dollars by 2023.
 
 ## Guests
 
@@ -25,7 +25,7 @@ In the 77 Episode of Geeks BlaBla , We're taking a look at the landscape of Low 
 
 0:01 - Introduction.
 
-0:09 - Why It took no Code / Low Code mouvement all these years to reach mainstream ?
+0:09 - Why It took no Code / Low Code trends all these years to reach the mainstream?
 
 0:16 - Can Microsoft Excel / Access considered as Low Code / No Code Platform ?
 
