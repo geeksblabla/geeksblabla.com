@@ -6,6 +6,7 @@ title: "Developers Working Abroad"
 tags: ["career"]
 category: "career"
 isNext: false
+youtube: https://www.youtube.com/watch?v=jz-wNrMvKjY
 published: true
 featured: true
 video: "999456073888255"

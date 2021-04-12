@@ -7,6 +7,7 @@ tags: ["security", "backend", "frontend", "software engineering"]
 category: "dev"
 isNext: false
 video: "2392159647683053"
+youtube: https://www.youtube.com/watch?v=Fvv0ZglfYng
 published: true
 audio:
 ---

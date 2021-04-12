@@ -7,6 +7,7 @@ tags: ["android", "IOS", "mobile dev", "react native", "flutter"]
 category: "dev"
 isNext: false
 video: "272185967229889"
+youtube: https://www.youtube.com/watch?v=GFlWbEHmi4Y
 published: true
 featured: false
 url: ""

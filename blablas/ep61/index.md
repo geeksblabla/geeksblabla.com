@@ -6,6 +6,7 @@ title: "State of Dev in Morocco"
 tags: ["dev"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=RDhE0RUbkJI
 published: true
 video: "439772367033060"
 url:

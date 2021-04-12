@@ -7,6 +7,7 @@ tags: ["MSS", "entrepreneurship", "career", "AR"]
 category: "MSS"
 isNext: false
 video: "2295207890711563"
+youtube: https://www.youtube.com/watch?v=1CHPLeWnL5M
 published: true
 audio:
 url:

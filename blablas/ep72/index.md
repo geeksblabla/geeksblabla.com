@@ -6,6 +6,7 @@ title: "Tech News & AMA #8"
 tags: ["AMA"]
 category: "AMA"
 isNext: false
+youtube: https://www.youtube.com/watch?v=5lt-2ID1euI
 published: true
 video: "491357765578519"
 url:

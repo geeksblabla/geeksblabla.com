@@ -7,6 +7,7 @@ tags: ["DevC", "open source"]
 category: "dev"
 isNext: false
 video: "2982251615130868"
+youtube: https://www.youtube.com/watch?v=kRFMScRcIFc
 published: true
 featured: false
 url: ""

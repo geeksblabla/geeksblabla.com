@@ -6,6 +6,7 @@ title: "No Code / Low Code"
 tags: ["dev"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=I-km6iydoiw
 published: true
 video: "277369320636709"
 url:

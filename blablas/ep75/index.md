@@ -6,6 +6,7 @@ title: "IT Certifications"
 tags: ["dev"]
 category: "career"
 isNext: false
+youtube: https://www.youtube.com/watch?v=H-FWc-0s04c
 published: true
 video: "2959055287708192"
 url:

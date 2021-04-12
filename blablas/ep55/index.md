@@ -6,6 +6,7 @@ title: "Hacktoberfest & Open Source"
 tags: ["open source", "dev"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=A6mR8LdPLdQ
 published: true
 video: "776838066222971"
 url:

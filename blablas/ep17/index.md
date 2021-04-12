@@ -7,6 +7,7 @@ tags: ["serverless", "dev", "software engineering"]
 category: "dev"
 isNext: false
 video: "2402382573327427"
+youtube: https://www.youtube.com/watch?v=EHkP_ycfdUk
 published: true
 url:
 audio:

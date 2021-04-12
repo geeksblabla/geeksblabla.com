@@ -7,6 +7,7 @@ tags: ["dev", "blogging", "career", "backend", "frontend", "mobile dev", "web"]
 category: "career"
 isNext: false
 video: "655858025264119"
+youtube: https://www.youtube.com/watch?v=PP-9ffjk_4w
 published: true
 featured: true
 url: ""

@@ -7,6 +7,7 @@ tags: ["open source"]
 category: "dev"
 isNext: false
 video: "2323086011085395"
+youtube: https://www.youtube.com/watch?v=PHqAbG-Wgkg
 published: true
 audio:
 ---

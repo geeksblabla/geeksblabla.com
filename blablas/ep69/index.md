@@ -6,6 +6,7 @@ title: "Python Deep Dive"
 tags: ["dev"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=YIMFlSmIAAk
 published: true
 video: "805493146670306"
 url:
@@ -41,7 +42,7 @@ In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed D
 
 0:28 - Most known use cases of Python. In which use cases Python might be the best programming language to use ?
 
-0:33 - Is Python Slow ? If yes can we make it faster ? 
+0:33 - Is Python Slow ? If yes can we make it faster ?
 
 0:38 - Fundamental concepts you need to master before starting with Python.
 
@@ -49,7 +50,7 @@ In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed D
 
 0:46 - Why learn Python?
 
-0:50 - Programming Workflow in Python (package management, venv, IDE..). 
+0:50 - Programming Workflow in Python (package management, venv, IDE..).
 
 0:52 - Testing With Python.
 
@@ -74,7 +75,6 @@ In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed D
 - [Python the hard way](https://learnpythonthehardway.org/python3/)
 
 - [Ned Batchelder](https://nedbatchelder.com/blog/)
-
 
 ## Prepared and Presented by
 

@@ -7,6 +7,7 @@ tags: ["ML", "AI"]
 category: "dev"
 isNext: false
 video: "2272738262958526"
+youtube: https://www.youtube.com/watch?v=z4e8tPaygxw
 published: true
 audio:
 ---

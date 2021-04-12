@@ -7,6 +7,7 @@ tags: ["school", "career"]
 category: "career"
 isNext: false
 video: "2573269702733690"
+youtube: https://www.youtube.com/watch?v=8UKh2ZQQg3o
 published: true
 url:
 audio:
