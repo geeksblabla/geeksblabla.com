@@ -55,6 +55,7 @@ export const pageQuery = graphql`
             repoLink
             category
             audio
+            youtube
           }
           body
         }

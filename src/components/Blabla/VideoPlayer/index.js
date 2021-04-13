@@ -1,16 +1,13 @@
 import React, { useState, useRef, useEffect } from "react"
-import ReactPlayer from "react-player"
-import Loader from "components/Loader"
+import ReactPlayer from "react-player/youtube"
 import "./index.scss"
 
-const VideoPlayer = ({ video }) => {
-  const [ready, setReady] = useState(false)
+const VideoPlayer = ({ url }) => {
   const player = useRef(null)
 
   const seekToHash = () => {
     const hash = window.location.hash.substring(1) //Puts hash in variable, and removes the # character
-    console.log(player)
-    player.current.seekTo(parseInt(hash, 10), "seconds")
+    player.current.seekTo(parseFloat(hash), "seconds")
   }
   useEffect(() => {
     window.addEventListener("hashchange", seekToHash, false)
@@ -19,24 +16,19 @@ const VideoPlayer = ({ video }) => {
     }
   }, [])
 
-  const onReady = () => {
-    setReady(true)
+  const onError = (e) => {
+    console.log("facebook video player error ", e)
   }
-  const onError = () => {
-    console.log("facebook video player error ")
-    setReady(true)
-  }
-
   return (
     <div className="video-player">
-      {!ready && <Loader />}
       <ReactPlayer
+        className="react-player"
         playing
         width="100%"
-        height="auto"
+        height="100%"
         ref={player}
         controls
-        url={`https://www.facebook.com/facebook/videos/${video}`}
+        url={url}
         onBufferEnd={onReady}
         onError={onError}
       />

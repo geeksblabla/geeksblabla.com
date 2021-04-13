@@ -11714,10 +11714,10 @@ react-modal@^3.11.1:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
-react-player@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.1.0.tgz#7bf6f57a0e428318265e951667395cd15b6ac010"
-  integrity sha512-7phVl89BncbT7dall+CJSWBMK7MR/9Ar+glB/McBokVne7B3Gkzg6Wyap4XYGD3eWILq6u31MSWevWr2eFeW1w==
+react-player@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/react-player/-/react-player-2.9.0.tgz#ef7fe7073434087565f00ff219824e1e02c4b046"
+  integrity sha512-jNUkTfMmUhwPPAktAdIqiBcVUKsFKrVGH6Ocutj6535CNfM91yrvWxHg6fvIX8Y/fjYUPoejddwh7qboNV9vGA==
   dependencies:
     deepmerge "^4.0.0"
     load-script "^1.0.0"

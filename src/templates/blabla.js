@@ -6,6 +6,7 @@ import { Episode, EpisodesMenu, Categories } from "components/Blabla"
 
 export default ({ data: { mdx } }) => {
   const { fields, body, excerpt } = mdx
+  console.log({ fields })
   return (
     <Layout withNextEpisode>
       <div className="container categories">
@@ -42,6 +43,7 @@ export const pageQuery = graphql`
         audio
         tags
         category
+        youtube
       }
       body
     }
