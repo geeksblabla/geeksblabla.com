@@ -29,7 +29,6 @@ const VideoPlayer = ({ url }) => {
         ref={player}
         controls
         url={url}
-        onBufferEnd={onReady}
         onError={onError}
       />
     </div>
