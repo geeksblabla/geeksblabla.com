@@ -6,6 +6,7 @@ title: "Developer Productivity"
 tags: ["dev", "Developer Productivity"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=cTRm6EdxKb0
 published: true
 video: "204395911399267"
 url:

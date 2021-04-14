@@ -7,6 +7,7 @@ tags: ["angular", "JS", "frontend", "web", "dev"]
 category: "dev"
 isNext: false
 video: "269321810941867"
+youtube: https://www.youtube.com/watch?v=49Sr9WuxSHM
 published: true
 featured: false
 url: ""

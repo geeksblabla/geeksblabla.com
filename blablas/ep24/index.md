@@ -8,6 +8,7 @@ category: "MSS"
 isNext: false
 featured: true
 video: "2770524023008256"
+youtube: https://www.youtube.com/watch?v=QqicTaX4gfU
 published: true
 url: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"
 audio: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"

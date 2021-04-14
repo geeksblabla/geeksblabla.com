@@ -39,10 +39,7 @@ const generateMissedEpisode = async () => {
     // read file meta
     const meta = fm(fileContent)
     const title = `#${epNum} - ${meta.attributes.title.replace(/&quot;/g, "")}`
-    const videoUrl = `https://www.facebook.com/${meta.attributes.video.replace(
-      /&quot;/g,
-      ""
-    )}`
+    const videoUrl = meta.attributes.youtube
     const basePath = path.resolve(__dirname, "../")
     const episode = JSON.stringify({ title, videoUrl, description })
     fs.writeFileSync(`${basePath}/cypress/fixtures/episode.json`, episode)

@@ -6,6 +6,7 @@ title: "MSS with Abdelahad SATOUR"
 tags: ["MSS"]
 category: "MSS"
 isNext: false
+youtube: https://www.youtube.com/watch?v=kzYammaow-M
 published: true
 video: "828579597737140"
 url:

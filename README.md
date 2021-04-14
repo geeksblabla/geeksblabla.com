@@ -1,6 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblabla.com">
@@ -76,6 +78,7 @@ tags: ["open source", "dev"]
 category: "dev"
 isNext: false
 video: "2254365704624093"
+youtube: https://www.youtube.com/watch?v=kzYammaow-M
 published: true
 featured: false
 audio:
@@ -145,6 +148,7 @@ title: "Introduction to Open Source"
 tags: ["open source", "dev"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=kzYammaow-M
 published: true
 video: "2244351238958873"
 url:

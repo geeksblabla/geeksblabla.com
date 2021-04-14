@@ -10,13 +10,13 @@ const Episode = ({
   title,
   slug,
   date,
-  video,
+  youtube,
   audio,
   description,
   repoLink,
 }) => (
   <div className="episode">
-    <Player video={video} audio={audio} />
+    <Player url={youtube} audio={audio} />
     <div className="info">
       <div className="title">
         <p>{date}</p>
@@ -30,11 +30,9 @@ const Episode = ({
 
 export default Episode
 
-const Player = ({ audio, video }) => {
+const Player = ({ audio, url }) => {
   const { isVideo } = React.useContext(ModeContext)
   return (
-    <>
-      {isVideo ? <VideoPlayer video={video} /> : <AudioPlayer audio={audio} />}
-    </>
+    <>{isVideo ? <VideoPlayer url={url} /> : <AudioPlayer audio={audio} />}</>
   )
 }

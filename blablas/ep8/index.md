@@ -7,6 +7,7 @@ tags: ["cybersecurity", "security"]
 category: "dev"
 isNext: false
 video: "2003419829718683"
+youtube: https://www.youtube.com/watch?v=XFGc-P2Ig9w
 published: true
 audio:
 ---

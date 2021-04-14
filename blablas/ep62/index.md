@@ -6,6 +6,7 @@ title: "PhD in Computer Science"
 tags: ["career"]
 category: "career"
 isNext: false
+youtube: https://www.youtube.com/watch?v=ylR9JZfhULc
 published: true
 video: "150382659848274"
 url:

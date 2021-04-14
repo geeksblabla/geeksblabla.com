@@ -6,6 +6,7 @@ title: "Data Centers in Morocco"
 tags: ["datacenter"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=QB4CoBV6-J0
 published: true
 video: "292275138906896"
 url:

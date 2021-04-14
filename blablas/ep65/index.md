@@ -6,6 +6,7 @@ title: "Tech Interviews"
 tags: ["tech-interviews", "career"]
 category: "career"
 isNext: false
+youtube: https://www.youtube.com/watch?v=AlzjZ5Qxeyg
 published: true
 video: "234131721578215"
 url:

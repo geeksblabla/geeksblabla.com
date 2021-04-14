@@ -6,6 +6,7 @@ title: "Monitoring: Why, and How?"
 tags: ["dev"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=_i7wNzZUYJw
 published: true
 video: "164231705516803"
 url:

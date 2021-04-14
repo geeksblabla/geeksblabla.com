@@ -7,6 +7,7 @@ category: "MSS"
 tags: ["entrepreneurship", "startup", "digital marketing"]
 isNext: false
 video: "325275602053324"
+youtube: https://www.youtube.com/watch?v=kLgl5uDK5IM
 published: true
 featured: false
 url: ""

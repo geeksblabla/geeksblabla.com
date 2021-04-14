@@ -7,6 +7,7 @@ tags: ["DevC", "AMA"]
 category: "AMA"
 isNext: false
 video: "2963957556998234"
+youtube: https://www.youtube.com/watch?v=nTA2mTRlTD0
 published: true
 featured: false
 url: ""

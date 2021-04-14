@@ -7,6 +7,7 @@ tags: ["devops", "backend", "software engineering"]
 category: "dev"
 isNext: false
 video: "2656446701254345"
+youtube: https://www.youtube.com/watch?v=CUDS14nbxGU
 published: true
 featured: false
 url: ""

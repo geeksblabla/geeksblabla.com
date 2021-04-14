@@ -7,6 +7,7 @@ tags: ["UX", "UI", "frontend", "web", "mobile dev"]
 category: "dev"
 isNext: false
 video: "2151207101778310"
+youtube: https://www.youtube.com/watch?v=Zp6CSoa1S4Y
 published: true
 audio:
 ---

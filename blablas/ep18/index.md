@@ -7,6 +7,7 @@ tags: ["MSS", "career"]
 category: "MSS"
 isNext: false
 video: "2417671194960209"
+youtube: https://www.youtube.com/watch?v=tu29LZacZSA
 published: true
 url:
 audio:

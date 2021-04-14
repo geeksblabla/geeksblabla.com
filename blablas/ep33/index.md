@@ -7,6 +7,7 @@ tags: ["career", "software engineering"]
 category: "career"
 isNext: false
 video: "2653190094913339"
+youtube: https://www.youtube.com/watch?v=84T8HhvseeE
 published: true
 featured: false
 url: ""
