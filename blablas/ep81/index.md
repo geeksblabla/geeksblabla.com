@@ -43,7 +43,7 @@ In this episode of GeeksBlabla, we discuss with our community members about lear
 
 0:58 - RoadMap to follow while learning?
 
-1:08 - Self-thought developers and issues whit diplomats?
+1:08 - Self-thought developers and issues with diplomats?
 
 1:11 - Learning resources and how our guests approach learning new technologies?
 
@@ -57,7 +57,7 @@ In this episode of GeeksBlabla, we discuss with our community members about lear
 
 2:25 - QA.
 
-1:54 - Wrap up and goodbye
+2:39 - Wrap up and goodbye
 
 ## Links
 

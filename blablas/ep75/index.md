@@ -1,7 +1,7 @@
 ---
 date: 2021-03-21
 time: 20h:00min
-duration: "01:52:58"
+duration: "02:33:56"
 title: "IT Certifications"
 tags: ["dev"]
 category: "career"
