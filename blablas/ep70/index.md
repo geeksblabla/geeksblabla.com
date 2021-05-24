@@ -3,9 +3,10 @@ date: 2021-02-14
 time: 20h:06min
 duration: "02:20:34"
 title: "DataBases deep dive"
-tags: ["dev","databases"]
+tags: ["dev", "databases"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=1-5Iy8_ZbLs
 published: true
 video: "104959281537162"
 url:

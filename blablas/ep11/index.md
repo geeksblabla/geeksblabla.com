@@ -7,6 +7,7 @@ tags: ["web", "JS", "backend", "frontend"]
 category: "dev"
 isNext: false
 video: "2144076882491332"
+youtube: https://www.youtube.com/watch?v=y8mbKtOmNrg
 published: true
 audio:
 ---

@@ -6,6 +6,7 @@ title: "MSS with Mohamed Youssfi"
 tags: ["MSS"]
 category: "MSS"
 isNext: false
+youtube: https://www.youtube.com/watch?v=I7FwzqXm-uQ
 published: true
 video: "200434128392316"
 url:

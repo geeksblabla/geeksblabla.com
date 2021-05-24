@@ -7,6 +7,7 @@ tags: ["MSS", "cybersecurity", "entrepreneurship", "career"]
 category: "MSS"
 isNext: false
 video: "2301890400043312"
+youtube: https://www.youtube.com/watch?v=XVl0Y-7JZxw
 published: true
 audio: https://anchor.fm/s/88e3048/podcast/play/8871827/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37063179-48000-2-83a2df7aac338.m4a
 ---

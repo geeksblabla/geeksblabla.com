@@ -7,6 +7,7 @@ tags: ["self-taught", "game dev", "MSS"]
 category: "MSS"
 isNext: false
 video: "1135171186849770"
+youtube: https://www.youtube.com/watch?v=DFaRndHwuFY
 published: true
 featured: false
 url: ""

@@ -7,6 +7,7 @@ tags: ["COVID-19"]
 category: "career"
 isNext: false
 video: "2649000091999006"
+youtube: https://www.youtube.com/watch?v=XIiMb2z42Ms
 published: true
 featured: false
 url: ""

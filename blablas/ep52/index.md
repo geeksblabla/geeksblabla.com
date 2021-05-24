@@ -6,6 +6,7 @@ title: ".NET Deep Dive"
 tags: ["software engineering"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=f930PXnFiMs
 published: true
 video: "362896171543318"
 url:

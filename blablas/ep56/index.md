@@ -6,6 +6,7 @@ title: "MSS with Mehdi Belmekki"
 tags: ["MSS"]
 category: "MSS"
 isNext: false
+youtube: https://www.youtube.com/watch?v=EbLwd75TBXw
 published: true
 video: "790324511747449"
 url:
@@ -13,12 +14,11 @@ podcastUrl: https://www.facebook.com/geeksblabla/videos/790324511747449
 audio:
 ---
 
-In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently Services Sales Rep in GitHub in EMEA region. 
+In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently Services Sales Rep in GitHub in EMEA region.
 
 ## Guests
 
 - [Mehdi Belmekki](https://www.linkedin.com/in/belmekki/)
-
 
 ## Notes
 
@@ -36,7 +36,7 @@ In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently S
 
 0:24 - Can you tell us more about GitHub student pack?
 
-0:26 - You worked almost 6 years at Alfresco,  How was the experience ?
+0:26 - You worked almost 6 years at Alfresco, How was the experience ?
 
 0:35 - You started as Technical Consultant, then promoted to Principal, then Architect and finally Engagement Manager. First can you tell us more about Engagement manager role ?
 
@@ -52,7 +52,7 @@ In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently S
 
 1:06 - What are the issues you had while switching from Technical to Engagement manager?
 
-1:09 - Are there any future plans of Github  with Morocco ?
+1:09 - Are there any future plans of Github with Morocco ?
 
 1:12 - Do you have any special advice for people that want to get into Github?
 
@@ -69,8 +69,6 @@ In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently S
 1:33 - When GitHub sponsors will launch in Africa?
 
 1:38 - Wrap up and goodbye.
-
-
 
 ## Prepared and Presented by
 

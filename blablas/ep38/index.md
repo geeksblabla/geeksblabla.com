@@ -7,6 +7,7 @@ tags: ["MSS", "entrepreneurship", "software engineering"]
 category: "MSS"
 isNext: false
 video: "864192424101038"
+youtube: https://www.youtube.com/watch?v=QCCH7r9CB1g
 published: true
 featured: false
 url: ""

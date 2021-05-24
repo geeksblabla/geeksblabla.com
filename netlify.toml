@@ -2,3 +2,8 @@
     publish = "public"
     command = "npm run build && cd functions/db && yarn"
     functions = "functions"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"

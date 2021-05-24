@@ -221,6 +221,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       value: node.frontmatter.video || "",
     })
+
+    createNodeField({
+      name: "youtube",
+      node,
+      value: node.frontmatter.youtube || "",
+    })
     createNodeField({
       name: "audio",
       node,

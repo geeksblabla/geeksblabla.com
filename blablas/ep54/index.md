@@ -6,6 +6,7 @@ title: "MSS with Samir Benmakhlouf"
 tags: ["MSS"]
 category: "MSS"
 isNext: false
+youtube: https://www.youtube.com/watch?v=IPR2auK2vRg
 published: true
 video: "356871318697995"
 url:

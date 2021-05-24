@@ -8,6 +8,7 @@ category: "career"
 isNext: false
 video: "2902199879840669"
 featured: true
+youtube: https://www.youtube.com/watch?v=gvve_LEqtbI
 published: true
 url: "https://geeksblabla.com/blablas/geeks-blabla-kids"
 ---

@@ -6,6 +6,7 @@ title: "Career paths for software developers"
 tags: ["career"]
 category: "career"
 isNext: false
+youtube: https://www.youtube.com/watch?v=HZUKNz4Z1kg
 published: true
 video: "2748382285425506"
 url:

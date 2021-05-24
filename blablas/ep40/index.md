@@ -7,6 +7,7 @@ tags: ["self-taught", "software engineering", "career"]
 category: "career"
 isNext: false
 video: "2971727423053675"
+youtube: https://www.youtube.com/watch?v=EOnbBm31kiA
 published: true
 featured: false
 url: ""
