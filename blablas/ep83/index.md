@@ -2,8 +2,8 @@
 date: 2021-05-23
 time: 20h:03min
 duration: "2:02:50"
-title: "Software Security"
-tags: ["security"]
+title: "DevOps 101"
+tags: ["devops"]
 category: "dev"
 isNext: false
 featured: true
@@ -31,7 +31,7 @@ In this episode of GeeksBlabla, we're Revisiting the fundamentals of the DevOps 
 
 0:00 - Introduction and welcoming
 
-0:13 - Software developement and delivery process
+0:13 - Software development and delivery process
 
 0:20 - DevOPS Definition
 
