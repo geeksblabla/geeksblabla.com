@@ -6,6 +6,7 @@ title: "Women In Tech 2021"
 tags: ["dev", "career"]
 category: "career"
 isNext: false
+youtube: https://www.youtube.com/watch?v=E0vSLsaOal0
 published: true
 video: "721107755256193"
 url:

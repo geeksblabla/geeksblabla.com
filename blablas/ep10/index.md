@@ -7,6 +7,7 @@ tags: ["game dev", "AR", "VR"]
 category: "dev"
 isNext: false
 video: "2147536065478747"
+youtube: https://www.youtube.com/watch?v=R6173SwSg8w
 published: true
 audio:
 ---

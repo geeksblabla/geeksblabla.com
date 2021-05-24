@@ -8,6 +8,7 @@ category: "career"
 isNext: false
 featured: true
 video: "2458974807668203"
+youtube: https://www.youtube.com/watch?v=YALS9h3VBSU
 published: true
 url:
 audio:

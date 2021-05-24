@@ -52,6 +52,7 @@ export const pageQuery = graphql`
             video
             repoLink
             audio
+            youtube
           }
           body
         }
@@ -71,6 +72,7 @@ export const pageQuery = graphql`
         audio
         tags
         category
+        youtube
       }
       body
     }

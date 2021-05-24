@@ -7,6 +7,7 @@ tags: ["career"]
 category: "career"
 isNext: false
 video: "338981353771310"
+youtube: https://www.youtube.com/watch?v=eTaI-aYN9Vw
 published: true
 featured: true
 url: ""

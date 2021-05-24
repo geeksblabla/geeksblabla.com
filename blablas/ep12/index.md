@@ -7,6 +7,7 @@ tags: ["devops"]
 category: "dev"
 isNext: false
 video: "2140582549507432"
+youtube: https://www.youtube.com/watch?v=_tizAkqvivM
 published: true
 audio:
 ---

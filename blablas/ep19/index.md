@@ -7,6 +7,7 @@ tags: ["competitive programming"]
 category: "dev"
 isNext: false
 video: "2465296773530984"
+youtube: https://www.youtube.com/watch?v=jU12lUQMfSQ
 published: true
 url:
 audio:

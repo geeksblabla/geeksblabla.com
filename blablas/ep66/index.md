@@ -6,6 +6,7 @@ title: "Internet of Things"
 tags: ["internet-of-Things", "iot"]
 category: "dev"
 isNext: false
+youtube: https://www.youtube.com/watch?v=XYdc4poSATs
 published: true
 video: "1312734475751456"
 url:

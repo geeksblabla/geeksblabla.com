@@ -7,6 +7,7 @@ tags: ["spring", "java", "dev", "backend"]
 category: "dev"
 isNext: false
 video: "2801661513227840"
+youtube: https://www.youtube.com/watch?v=yj2GuZnBC8s
 published: true
 url: ""
 podcastUrl: ""

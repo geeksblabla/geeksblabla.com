@@ -7,6 +7,7 @@ tags: ["react", "JS", "frontend", "web", "dev", "mobile dev", "react native"]
 category: "dev"
 isNext: false
 video: "3112268152171433"
+youtube: https://www.youtube.com/watch?v=bJ0QPmf5V2Q
 published: true
 featured: false
 url: ""

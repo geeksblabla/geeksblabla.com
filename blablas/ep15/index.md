@@ -7,6 +7,7 @@ tags: ["backend", "software engineering", "dev"]
 category: "dev"
 isNext: false
 video: "2348668091860520"
+youtube: https://www.youtube.com/watch?v=_0xISo0SFJ4
 published: true
 url:
 audio:

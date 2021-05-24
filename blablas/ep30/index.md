@@ -7,6 +7,7 @@ tags: ["dev", "career"]
 category: "career"
 isNext: false
 video: "2948126105248046"
+youtube: https://www.youtube.com/watch?v=7H08TcRX5SE
 published: true
 featured: true
 url: ""
