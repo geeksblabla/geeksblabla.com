@@ -7,7 +7,7 @@ tags: ["security"]
 category: "dev"
 isNext: false
 featured: true
-youtube: https://www.youtube.com/watch?v=r5ZBLg5vL4M
+youtube: https://www.youtube.com/watch?v=r5ZBLg5vL4M&t=2526s&ab_channel=GeeksBlaBla
 published: true
 video: "4239695062759612"
 url:
