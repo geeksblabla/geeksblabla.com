@@ -14,7 +14,7 @@ podcastUrl: https://web.facebook.com/geeksblabla/videos/2944864289125301
 audio:
 ---
 
-Tech News & AMA #9 with our community members Mohamed,Meriem , soufiane, Abderahim and Youssouf . We discuss the latest Tech News during this episode, and we answer audience questions about programming, community, new technologies, and much more.
+Tech News & AMA #10 with our community members Mohamed,Meriem , soufiane, Abderahim and Youssouf . We discuss the latest Tech News during this episode, and we answer audience questions about programming, community, new technologies, and much more.
 
 ## Guests
 
