@@ -16,7 +16,7 @@ will return last episode data in case number of episode are not equal
 should covert markdown to HTML format for anchor description
 */
 const getMissedEpisodeData = async () => {
-  console.log(`Fetch Missed Episode ...... 🏃‍♂️🏃‍♂️🏃‍♂️ `)
+  console.log(`👉  Fetch Missed Episode ...... 🏃‍♂️🏃‍♂️🏃‍♂️ `)
   try {
     const AnchorEpisodes = await parser.parseURL(
       "https://anchor.fm/s/88e3048/podcast/rss"
@@ -39,10 +39,10 @@ const getMissedEpisodeData = async () => {
       )}`
       const videoUrl = meta.attributes.youtube
       const episode = { title, videoUrl, description }
-      console.log(`Episode Data collected Successfully ✅ `)
+      console.log(`👉  Episode Data collected Successfully ✅ `)
       return episode
     } catch (error) {
-      console.log("No new episode")
+      console.log("👉  No new episode")
       return null
     }
   } catch (error) {

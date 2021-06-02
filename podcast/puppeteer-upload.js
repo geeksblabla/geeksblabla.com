@@ -12,10 +12,10 @@ upload to anchor using puppeteer
 
 const email = process.env.ANCHOR_EMAIL
 const password = process.env.ANCHOR_PASSWORD
-const UPLOAD_TIMEOUT = process.env.UPLOAD_TIMEOUT || 60 * 5 * 1000
+const UPLOAD_TIMEOUT = process.env.UPLOAD_TIMEOUT || 60 * 7 * 1000
 
 const upload = async (episode) => {
-  console.log("👉 Launching puppeteer")
+  console.log("👉  Launching puppeteer")
   const browser = await puppeteer.launch({ args: ["--no-sandbox"] })
   const page = await browser.newPage()
 
@@ -37,7 +37,7 @@ const upload = async (episode) => {
   const inputFile = await page.$("input[type=file]")
   await inputFile.uploadFile(audioFile)
   console.log("👉  Uploading audio file")
-  await page.waitFor(25 * 1000)
+  await page.waitForTimeout(25 * 1000)
   await page.waitForFunction(
     'document.querySelector(".styles__saveButton___lWrNZ").getAttribute("disabled") === null',
     { timeout: UPLOAD_TIMEOUT }
@@ -59,7 +59,7 @@ const upload = async (episode) => {
 
   await browser.close()
   console.log(
-    "✅ The episode has been successfully submitted as draft to Anchor "
+    "👉  The episode has been successfully submitted as draft to Anchor ✅"
   )
 }
 
