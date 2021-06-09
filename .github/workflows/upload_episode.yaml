@@ -28,4 +28,4 @@ jobs:
         env: # Or as an environment variable
           ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
           ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
-        run: echo "$ANCHOR_EMAIL"
+        run: npm run upload-to-anchor

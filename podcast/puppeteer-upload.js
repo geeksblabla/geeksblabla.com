@@ -16,7 +16,7 @@ const UPLOAD_TIMEOUT = process.env.UPLOAD_TIMEOUT || 60 * 7 * 1000
 
 const upload = async (episode) => {
   console.log("👉  Launching puppeteer")
-  const browser = await puppeteer.launch({ args: ["--no-sandbox"] })
+  const browser = await puppeteer.launch({ args: ["--no-sandbox"] }) // to debug .launch({ devtools: true });
   const page = await browser.newPage()
 
   const navigationPromise = page.waitForNavigation()
@@ -26,7 +26,7 @@ const upload = async (episode) => {
   await page.setViewport({ width: 1600, height: 789 })
 
   await navigationPromise
-
+  console.log("#email", email)
   await page.type("#email", email)
   await page.type("#password", password)
   await page.click("button[type=submit]")

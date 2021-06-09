@@ -15,10 +15,15 @@ const episode = {
 */
 
 const upload_to_anchor = async () => {
-  const episode = await getMissedEpisodeData()
-  if (episode === null) return
-  await downloadAudioFormat(episode)
-  await upload(episode)
+  try {
+    const episode = await getMissedEpisodeData()
+    if (episode === null) return
+    await downloadAudioFormat(episode)
+    await upload(episode)
+  } catch (error) {
+    console.log("🚨 error uploading to anchor", error)
+    process.exit()
+  }
 }
 
 upload_to_anchor()
