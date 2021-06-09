@@ -14,13 +14,13 @@ podcastUrl: https://web.facebook.com/geeksblabla/videos/844144936214263
 audio:
 ---
 
-Celebrating 26 years of Java with our community members Badr, Marouane, and. During this episode we discuss the latest Java updates, and we answer audience questions about Java, and much more.
+Celebrating 26 years of Java with our community members Badr, Marouane, and Mohammed. During this episode we discuss the latest Java updates, and we answer audience questions about Java, and much more.
 
 ## Guests
 
 - [Badr Elhouari](https://twitter.com/badrelhouar)
   
-- [Marouane gazayni](#)
+- [Marouane gazayni](https://twitter.com/mgazanayi)
 
 ## Notes
 
@@ -49,8 +49,6 @@ Celebrating 26 years of Java with our community members Badr, Marouane, and. Dur
 01:14 Comments
 
 01:16 Wrap up and goodbye.
-
-## Links
 
 ## Prepared and Presented by
 
