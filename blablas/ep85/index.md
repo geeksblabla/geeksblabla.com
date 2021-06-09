@@ -24,31 +24,31 @@ Celebrating 26 years of Java with our community members Badr, Marouane, and Moha
 
 ## Notes
 
-00:00 Introduction
+00:00 - Introduction
 
-00:03 Why are we still using Java?
+00:03 - Why are we still using Java?
 
-00:09 Why backward compatibility important for Java?
+00:09 - Why backward compatibility important for Java?
 
-00:13 How they keep the promise of the new release cycle?
+00:13 - How they keep the promise of the new release cycle?
 
-00:16 What are JCP, JSR, and JEP?
+00:16 - What are JCP, JSR, and JEP?
 
-00:21 Why JVM powerful?
+00:21 - Why JVM powerful?
 
-00:27 What is the project in the ecosystem that pushes Java?
+00:27 - What is the project in the ecosystem that pushes Java?
 
-00:35 Comments
+00:35 - Comments
 
-01:03 The demand of java developers in the market (local market and international market)
+01:03 - The demand of java developers in the market (local market and international market)
 
-01:07 Is Java one of the options for new developers? And What are things that can help them to learn Java?
+01:07 - Is Java one of the options for new developers? And What are things that can help them to learn Java?
 
-01:11 Java still had 3 billion devices or this number decrease?
+01:11 - Java still had 3 billion devices or this number decrease?
 
-01:14 Comments
+01:14 - Comments
 
-01:16 Wrap up and goodbye.
+01:16 - Wrap up and goodbye.
 
 ## Prepared and Presented by
 
