@@ -7,7 +7,7 @@ on:
 jobs:
   upload_episode:
     # The type of runner that the job will run on
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-18.04
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -24,8 +24,8 @@ jobs:
       - name: Install Deps
         run: |
           npm install
-      - name: Generate Podcast Files  Upload Episode To Anchor Fm Using Puppeteer
+      - name: Generate Podcast Files and Upload Episode To Anchor Using Puppeteer
         env: # Or as an environment variable
           ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
           ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
-        run: npm run upload-to-anchor
+        run: echo "$ANCHOR_EMAIL"
