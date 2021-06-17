@@ -1,0 +1,53 @@
+.ais-PoweredBy {
+  display: flex;
+  justify-content: flex-end;
+}
+.Hits {
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+  li.ais-Hits-item {
+    margin-bottom: 1em;
+    a {
+      color: #fff;
+      h5 {
+        margin-bottom: 0.2em;
+      }
+    }
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+.SearchInput {
+  margin: 0 10px;
+  width: 75%;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+  padding: 10px 25px 10px 10px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+  color: #000000;
+}
+@media only screen and (max-width: 600px) {
+  .SearchInput {
+    display: none;
+  }
+}
+.result {
+  max-height: 80vh;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+  z-index: 2;
+  top: 80px;
+  left: 340px;
+  margin-top: 0.5em;
+  width: 80vw;
+  max-width: 30em;
+  box-shadow: 0 0 5px 0;
+  padding: 1em;
+  border-radius: 2px;
+  background: #111233;
+}
