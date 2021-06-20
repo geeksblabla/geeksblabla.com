@@ -1,21 +1,12 @@
 import { Link } from "gatsby"
 import { default as React } from "react"
 import {
-  connectStateResults,
   Highlight,
   Hits,
   Index,
   Snippet,
-  PoweredBy,
+  connectStateResults,
 } from "react-instantsearch-dom"
-const HitCount = connectStateResults(({ searchResults }) => {
-  const hitCount = searchResults && searchResults.nbHits
-  return hitCount > 0 ? (
-    <div className="HitCount">
-      {hitCount} result{hitCount !== 1 ? `s` : ``}
-    </div>
-  ) : null
-})
 const PageHit = ({ hit }) => (
   <div>
     <Link to={hit.slug}>
@@ -31,12 +22,24 @@ const HitsInIndex = ({ index }) => (
     <Hits className="Hits" hitComponent={PageHit} />
   </Index>
 )
-const SearchResult = ({ indices, className }) => (
-  <div className={className}>
-    {indices.map((index) => (
-      <HitsInIndex index={index} key={index.name} />
-    ))}
-    <PoweredBy />
+
+const NoResult = () => (
+  <div className="no-results">
+    <p>No search results</p>
   </div>
+)
+const Results = connectStateResults(
+  ({ searchState, searchResults, children }) =>
+    searchResults && searchResults.nbHits !== 0 ? children : <NoResult />
+)
+
+const SearchResult = ({ indices, className }) => (
+  <Results>
+    <div className={className}>
+      {indices.map((index) => (
+        <HitsInIndex index={index} key={index.name} />
+      ))}
+    </div>
+  </Results>
 )
 export default SearchResult
