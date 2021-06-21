@@ -8,6 +8,7 @@ jobs:
   upload_episode:
     # The type of runner that the job will run on
     runs-on: ubuntu-18.04
+    timeout-minutes: 10
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
