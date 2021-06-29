@@ -19,10 +19,12 @@ export default function Search({ indices }) {
 
   return (
     <Popup
+      contentStyle={{ border: "none" }}
+      className="search-popup"
       trigger={
         <div className="search-button">
           <button className="search-button-button">
-            <SearchIcon className="search-button-icon" />
+            <SearchIcon className="search-button-icon" /> Search
           </button>
         </div>
       }
@@ -40,7 +42,7 @@ export default function Search({ indices }) {
             <Box className="sticky" />
             <Result className="result" indices={indices} />
             <div className="ais-PoweredBy">
-              <span>Search by Algolia</span>
+              <span style={{ opacity: 0.5 }}> Search by Algolia</span>
             </div>
           </InstantSearch>
         </div>

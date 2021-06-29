@@ -57,4 +57,11 @@
 
 .icon-links {
   display: flex;
+  @include breakpoint(mobileonly) {
+    flex-direction: column;
+    justify-content: center;
+    .theme-toggle {
+      margin: auto auto;
+    }
+  }
 }
