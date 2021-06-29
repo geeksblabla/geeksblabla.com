@@ -5,6 +5,9 @@ import { Link } from "gatsby"
 import Spotify from "assets/spotify.svg"
 import ApplePodcast from "assets/apple-podcast.svg"
 import GooglePodcast from "assets/google-podcast.svg"
+import Search from "components/Search"
+
+const searchIndices = [{ name: `Blablas`, title: `Blablas` }]
 
 export default ({ id }) => (
   <>
@@ -69,6 +72,9 @@ export default ({ id }) => (
       />
     </a>
     {/* <ToggleMode id={id} /> */}
-    <ThemeToggle />
+    <div className="icon-links">
+      <ThemeToggle />
+      <Search indices={searchIndices} />
+    </div>
   </>
 )

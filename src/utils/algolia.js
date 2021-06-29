@@ -12,7 +12,7 @@ const queries = [
     query: `{
         allMdx(
           filter: {
-            frontmatter: { published: { eq: true }, isNext: { eq: false } }
+            frontmatter: { published: { eq: true }}
           }
         ) {
           edges {

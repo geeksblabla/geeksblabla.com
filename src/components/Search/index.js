@@ -4,25 +4,10 @@ import { InstantSearch, PoweredBy } from "react-instantsearch-dom"
 import Result from "./result"
 import Box from "./box"
 import "./index.scss"
-import Modal from "react-modal"
+import Popup from "reactjs-popup"
 import SearchIcon from "assets/search.svg"
 
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    transform: "translate(-50%, -50%)",
-    width: "40vw",
-    height: "70vh",
-    backgroundColor: "#111233",
-  },
-}
-
 export default function Search({ indices }) {
-  const rootRef = createRef()
-  const [query, setQuery] = useState()
   const searchClient = useMemo(
     () =>
       algoliasearch(
@@ -32,48 +17,34 @@ export default function Search({ indices }) {
     []
   )
 
-  const [modalIsOpen, setIsOpen] = React.useState(false)
-
-  function openModal() {
-    setIsOpen(true)
-  }
-
-  function closeModal() {
-    setIsOpen(false)
-  }
-
   return (
-    <>
-      <div className="search-container">
-        <div onClick={openModal}>
-          <SearchIcon style={{ width: "20px", fill: "#aaaaaa" }} />
-          <span>Search a Blablas</span>
+    <Popup
+      trigger={
+        <div className="search-button">
+          <button className="search-button-button">
+            <SearchIcon className="search-button-icon" />
+          </button>
         </div>
-      </div>
-
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={customStyles}
-      >
+      }
+      modal
+    >
+      {(close) => (
         <div>
-          <div className="close" onClick={() => setIsOpen(false)}>
-            {" "}
-            X{" "}
-          </div>
+          <button className="close" onClick={close}>
+            &times;
+          </button>
           <InstantSearch
             searchClient={searchClient}
             indexName={indices[0].name}
-            onSearchStateChange={({ query }) => setQuery(query)}
           >
             <Box className="sticky" />
-            {query && query.length > 0 ? (
-              <Result className="result" indices={indices} />
-            ) : null}
-            <PoweredBy />
+            <Result className="result" indices={indices} />
+            <div className="ais-PoweredBy">
+              <span>Search by Algolia</span>
+            </div>
           </InstantSearch>
         </div>
-      </Modal>
-    </>
+      )}
+    </Popup>
   )
 }

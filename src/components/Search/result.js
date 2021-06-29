@@ -23,14 +23,20 @@ const HitsInIndex = ({ index }) => (
   </Index>
 )
 
-const NoResult = () => (
+const NoResult = ({ text }) => (
   <div className="no-results">
-    <p>No search results</p>
+    <p>{text}</p>
   </div>
 )
 const Results = connectStateResults(
   ({ searchState, searchResults, children }) =>
-    searchResults && searchResults.nbHits !== 0 ? children : <NoResult />
+    searchResults && searchResults.query === "" ? (
+      <NoResult text="Something in your mind? search it!" />
+    ) : searchResults && searchResults.nbHits !== 0 ? (
+      children
+    ) : (
+      <NoResult text="No search results." />
+    )
 )
 
 const SearchResult = ({ indices, className }) => (
