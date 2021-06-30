@@ -13,8 +13,8 @@ const PageHit = ({ hit }) => (
       <h5>
         <Highlight attribute="title" hit={hit} tagName="mark" />
       </h5>
+      <Snippet attribute="excerpt" hit={hit} tagName="mark" />
     </Link>
-    <Snippet attribute="excerpt" hit={hit} tagName="mark" />
   </div>
 )
 const HitsInIndex = ({ index }) => (

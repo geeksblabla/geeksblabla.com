@@ -49,6 +49,8 @@
   color: var(--heading-color);
   background: var(--secondary-bg-color) !important;
   border-color: red;
+  display: flex;
+  flex-direction: column;
   .close {
     cursor: pointer;
     position: absolute;
@@ -98,16 +100,14 @@
   }
 
   .SearchInput {
-    margin: 0 10px;
+    margin: 0 6px;
     border: 1px solid #aaaaaa;
     border-radius: 10px;
     padding: 10px 25px 10px 10px;
   }
   .ais-PoweredBy {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
+    text-align: right;
+    font-size: 15px;
   }
   .Hits {
     ul {
@@ -116,28 +116,37 @@
     }
     li.ais-Hits-item {
       margin-bottom: 1em;
+      color: var(--text-color);
       a {
-        color: #fff;
+        // color: #fff;
+        color: var(--text-color);
         h5 {
           margin-bottom: 0.2em;
         }
       }
       padding-bottom: 15px;
-      border-bottom: 1px solid #fff;
+      border-bottom: 1px solid var(--text-color);
     }
   }
 
+  .ais-Snippet-highlighted,
+  .ais-Highlight-highlighted {
+    background: linear-gradient(90deg, #a109d5 0%, #d9147d 100%);
+    color: #fff;
+  }
+
   .result {
-    padding: 2em;
+    padding: 1em;
     overflow: auto;
     width: 100%;
-    max-height: 47vh;
     width: auto;
+    flex: 1;
   }
 
   .no-results {
-    min-height: 40vh;
-    margin-top: 25%;
+    color: var(--text-color);
+    flex: 1;
+    padding-top: 25%;
     p {
       text-align: center;
     }
@@ -182,8 +191,8 @@
     width: 100% !important;
     z-index: 999;
     .result {
-      padding: 0;
-      max-height: 28vh;
+      padding: 0.5rem;
+      // max-height: 28vh;
     }
 
     .close {

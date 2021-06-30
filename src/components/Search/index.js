@@ -19,6 +19,7 @@ export default function Search({ indices }) {
 
   return (
     <Popup
+      lockScroll
       contentStyle={{ border: "none" }}
       className="search-popup"
       trigger={
@@ -31,13 +32,14 @@ export default function Search({ indices }) {
       modal
     >
       {(close) => (
-        <div>
+        <>
           <button className="close" onClick={close}>
             &times;
           </button>
           <InstantSearch
             searchClient={searchClient}
             indexName={indices[0].name}
+            stalledSearchDelay={1000}
           >
             <Box className="sticky" />
             <Result className="result" indices={indices} />
@@ -45,7 +47,7 @@ export default function Search({ indices }) {
               <span style={{ opacity: 0.5 }}> Search by Algolia</span>
             </div>
           </InstantSearch>
-        </div>
+        </>
       )}
     </Popup>
   )

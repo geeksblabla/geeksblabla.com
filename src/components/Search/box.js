@@ -1,5 +1,6 @@
 import React from "react"
 import { connectSearchBox } from "react-instantsearch-dom"
+
 import SearchIcon from "assets/search.svg"
 
 export default connectSearchBox(({ refine, currentRefinement, className }) => (
@@ -12,7 +13,7 @@ export default connectSearchBox(({ refine, currentRefinement, className }) => (
       placeholder="Search Blabla"
       aria-label="Search"
       onChange={(e) => refine(e.target.value)}
-      value={currentRefinement}
-    ></input>
+      // value={currentRefinement}
+    />
   </form>
 ))
