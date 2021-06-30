@@ -1,5 +1,6 @@
 const config = require("./config/website")
 const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix
+require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
@@ -179,6 +180,14 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         exclude: ["/thanks/"],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia"),
       },
     },
   ],

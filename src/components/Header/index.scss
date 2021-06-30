@@ -54,3 +54,14 @@
   height: 64px;
   margin: 0;
 }
+
+.icon-links {
+  display: flex;
+  @include breakpoint(mobileonly) {
+    flex-direction: column;
+    justify-content: center;
+    .theme-toggle {
+      margin: auto auto;
+    }
+  }
+}
