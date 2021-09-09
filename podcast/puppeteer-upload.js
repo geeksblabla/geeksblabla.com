@@ -48,13 +48,13 @@ const upload = async (episode) => {
   await page.waitForSelector("#title")
   await page.type("#title", episode.title)
 
-  await page.click(".styles__modeToggleText___26-xx")
+  await page.click("div.css-1uh5hwd.css-1ago99h > label > div > div > button")
 
   await page.waitForSelector("textarea[name=description]")
   await page.type("textarea[name=description]", episode.description)
 
   console.log("👉  Save as Draft")
-  await page.click(".styles__draftButtonWrapper___qhZvW button")
+  await page.click("div.css-1bfy0s > button.styles__button___2oNPe.css-1w1qxic")
   await navigationPromise
 
   await browser.close()
