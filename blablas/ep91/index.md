@@ -39,9 +39,17 @@ In this episode of GeeksBlaBla we answer many questions around AI & ML, their fi
 
 1:01 - How to get started in AI ?
 
-1:01 - What are the main stages of AI ?
+1:03 - What are the main stages of AI ?
 
-1:38- Wrap up and goodbye
+1:06 - Application of AI techniques in insurance 
+
+1:13 - Application of AI techniques in advertising 
+
+1:21 - Business opportunities in african countries (Morocco) that AI will open
+
+1:26 - Jobs in AI 
+
+1:33- Wrap up and goodbye
 
 ## Links
 
@@ -50,6 +58,6 @@ In this episode of GeeksBlaBla we answer many questions around AI & ML, their fi
 
 ## Prepared and Presented by
 
-- [Ismail Tlemcani](https://elazizi.com/)
+- [Ismail Tlemcani](https://twitter.com/Ismailtlem)
 
-- [Meriem Zaid]()
+- [Meriem Zaid](https://twitter.com/_iMeriem)
