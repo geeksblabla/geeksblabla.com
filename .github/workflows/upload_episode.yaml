@@ -12,9 +12,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: "12"
+          node-version: "14"
+          cache: 'yarn'
 
       # Install And Configure youtube-dl
       - name: Install And Configure youtube-dl
@@ -23,10 +24,10 @@ jobs:
           sudo chmod a+rx /usr/local/bin/youtube-dl
 
       - name: Install Deps
-        run: |
-          npm install
+        run: yarn install --frozen-lockfile
+        
       - name: Generate Podcast Files and Upload Episode To Anchor Using Puppeteer
         env: # Or as an environment variable
           ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
           ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
-        run: npm run upload-to-anchor
+        run: yarn upload-to-anchor
