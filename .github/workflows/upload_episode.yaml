@@ -3,6 +3,8 @@ name: Upload Episode To Anchor Fm
 on:
   push:
     branches: [master]
+    paths:
+      - "blablas/**"
 
 jobs:
   upload_episode:
@@ -15,7 +17,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
-          cache: 'yarn'
+          cache: "yarn"
 
       # Install And Configure youtube-dl
       - name: Install And Configure youtube-dl
@@ -25,7 +27,7 @@ jobs:
 
       - name: Install Deps
         run: yarn install --frozen-lockfile
-        
+
       - name: Generate Podcast Files and Upload Episode To Anchor Using Puppeteer
         env: # Or as an environment variable
           ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
