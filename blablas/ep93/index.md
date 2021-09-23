@@ -10,7 +10,7 @@ youtube: https://www.youtube.com/watch?v=q9wmIdNAup4&ab
 published: true
 ---
 
-In this episode of GeeksBlaBla, we discuss with our guests about Reactive programming ecosystem, its deifference with Functio nal programming, its uses and many other details around the subject.
+In this episode of GeeksBlaBla, we discuss with our guests about Reactive programming ecosystem, its difference with Functional programming, its uses, and many other details around the subject.
 
 ## Guests
 
@@ -24,11 +24,11 @@ In this episode of GeeksBlaBla, we discuss with our guests about Reactive progra
 
 0:01 - Intro and welcoming.
 
-0:04 - What does reactive mean in programming ?
+0:04 - What does reactive mean in programming?
 
-0:10 - Where is it used ?
+0:10 - Where is it used?
 
-0:15 - What does RP solve ?
+0:15 - What does RP solve?
 
 0:25 - Advantages and disadvantages of Reactive programming 
 
@@ -38,19 +38,20 @@ In this episode of GeeksBlaBla, we discuss with our guests about Reactive progra
 
 1:05 - Main concepts behind this paradigm, and Observer patterns
 
-1:18 - Differences between Event Driven Programming and Reactive Programming
+1:18 - Differences between Event-Driven Programming and Reactive Programming
 
 1:22 - Reactive programming most used libraries, is it polyglot ?
 
 1:29 - Some Reactive programming libraries
 
-1:36 - How can Reactive programming make us better programmers ?
+1:36 - How can Reactive programming make us better programmers?
 
-1:52 - Difference between Cold and Hot Ovservables
+1:52 - Difference between Cold and Hot Observables
 
 1:56 - Is subjects like Observables
 
 2:05- Wrap up and goodbye
+
 
 ## Links
 
