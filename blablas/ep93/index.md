@@ -10,7 +10,7 @@ youtube: https://www.youtube.com/watch?v=q9wmIdNAup4&ab
 published: true
 ---
 
-In this episode of GeeksBlaBla, we discuss coding Bootcamps in morocco; what you need to learn before attending a coding bootcamps? Options we have in morocco ? How much does that cost to participate in coding bottcamps? And much more.
+In this episode of GeeksBlaBla, Reactive programming ecosystem, its deifference with Functional programming, its uses and many other details around the subject.
 
 ## Guests
 
