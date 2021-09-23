@@ -10,7 +10,7 @@ youtube: https://www.youtube.com/watch?v=q9wmIdNAup4&ab
 published: true
 ---
 
-In this episode of GeeksBlaBla, Reactive programming ecosystem, its deifference with Functional programming, its uses and many other details around the subject.
+In this episode of GeeksBlaBla, we discuss with our guests about Reactive programming ecosystem, its deifference with Functio nal programming, its uses and many other details around the subject.
 
 ## Guests
 
