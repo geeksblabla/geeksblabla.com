@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - "blablas/**"
+      - "podcast/**"
 
 jobs:
   upload_episode:
