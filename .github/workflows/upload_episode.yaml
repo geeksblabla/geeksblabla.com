@@ -1,6 +1,7 @@
 name: Upload Episode To Anchor Fm
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
     paths:
