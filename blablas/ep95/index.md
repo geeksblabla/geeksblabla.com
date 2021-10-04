@@ -10,7 +10,7 @@ youtube: https://www.youtube.com/watch?v=T0ebJvUiDG4&t=2432ss
 published: true
 ---
 
-In this episode, we talk about Open Source and the annual event Hacktoberfest. We answer your questions about how to get started with Open Source, the best practices, and how it could help advancing your career.
+In this episode, we talk about Open Source and the annual event Hacktoberfest. We answer your questions about getting started with Open Source, the best practices, and how it could help advance your career.
 
 ## Guests
 
@@ -29,15 +29,15 @@ In this episode, we talk about Open Source and the annual event Hacktoberfest. W
 
 0:30 - What are the types of contributions?
 
-0:40 - Are there any moroccan repos to contribute to ?
+0:40 - Are there any Moroccan repositories to contribute to?
 
 0:44 - How to promote your Open Source project?
 
 1:07 - Geeksblabla giveaway
 
-1:08 - How did your contribution to Open Source helped you in your career?
+1:08 - How did your contribution to Open Source help you in your career?
 
-1:12 - Did it help you getting hired easily ?
+1:12 - Did it help you get hired easily?
 
 1:28 - Open Source in Morocco 
 
