@@ -54,6 +54,32 @@ In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redu
 
 01:35 Open-source in morocco & Pieces of Advice for Moroccan programmers.
 
+## Links :
+
+[W3C](https://www.w3.org/)
+
+[SCSS](https://sass-lang.com/)
+
+[Purifycss](https://purifycss.online/)
+
+[Autoprefixer](https://autoprefixer.github.io/)
+
+[Can I use](https://caniuse.com/)
+
+[Reactjs](https://reactjs.org/)
+
+[Angular](https://angular.io/)
+
+[VueJs](https://vuejs.org/)
+
+[GraphQl](https://graphql.org/)
+
+[PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+
+[Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
+
+[WebAssembly](https://webassembly.org/)
+
 ## Prepared and Presented by :
 
 [Youssouf El Azizi](https://twitter.com/elaziziyoussouf/)
