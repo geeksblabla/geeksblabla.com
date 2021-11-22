@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblabla.com">
@@ -250,6 +250,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/otmos"><img src="https://avatars.githubusercontent.com/u/43470049?v=4?s=180" width="180px;" alt=""/><br /><sub><b>otmos</b></sub></a><br /><a href="#content-otmos" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/faissaloux"><img src="https://avatars.githubusercontent.com/u/60013703?v=4?s=180" width="180px;" alt=""/><br /><sub><b>Faissal Wahabali</b></sub></a><br /><a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=faissaloux" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.instagram.com/zakarialaoui10/"><img src="https://avatars.githubusercontent.com/u/63521765?v=4?s=180" width="180px;" alt=""/><br /><sub><b>ZAKARIA ELALAOUI</b></sub></a><br /><a href="#content-zakarialaoui10" title="Content">🖋</a></td>
   </tr>
 </table>
 
