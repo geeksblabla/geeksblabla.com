@@ -16,7 +16,7 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf, Mohamed, mo
 
 - [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
-- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
+- [Mohammed Aboullaite](https://aboullaite.me/)
 
 - [Yasser Tahiri](https://www.yezz.me/)
 
