@@ -13,7 +13,7 @@ download audio format form youtube
 
 const downloadAudioFormat = async (episode) => {
   const videoUrl = episode.videoUrl
-  const youtubeDlCommand = `youtube-dl -o ${audioFile}  -f 'bestaudio[ext=m4a]' '${videoUrl}'`
+  const youtubeDlCommand = `yt-dlp -o ${audioFile}  -f 'bestaudio[ext=m4a]' '${videoUrl}'`
   console.log(`👉  Downloading  ${videoUrl}  ...... 🏃‍♂️🏃‍♂️🏃‍♂️ `)
   console.log(`yt-dlp -o ${audioFile}  -f 'bestaudio[ext=m4a]' '${videoUrl}'`)
   const { stdout, stderr } = await exec(youtubeDlCommand)
