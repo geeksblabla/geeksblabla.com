@@ -24,8 +24,8 @@ jobs:
       # Install And Configure youtube-dl
       - name: Install And Configure youtube-dl
         run: |
-          sudo curl -k -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-          sudo chmod a+rx /usr/local/bin/youtube-dl
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
 
       - name: Install Deps
         run: yarn install --frozen-lockfile
