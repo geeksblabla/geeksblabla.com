@@ -1,0 +1,35 @@
+name: Upload description to Youtube
+
+on:
+  workflow_dispatch:
+  push:
+    #branches: [master]
+    paths:
+      - "blablas/**"
+
+jobs:
+  extract_description:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: jitterbit/get-changed-files@v1
+        continue-on-error: true
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "yarn"
+
+      #- name: Install Deps
+      #run: yarn install --frozen-lockfile
+
+      - name: Download markdown-to-txt
+        run: |
+          yarn add markdown-to-txt
+
+      - name: Extract description
+        run: |
+          echo ${{ steps.files.outputs.all }}
+          echo "const { markdownToTxt } = require('markdown-to-txt');" > extract.js
+          echo "const fs = require('fs');" >> extract.js
+          echo "console.log(markdownToTxt(fs.readFileSync('')));" >> extract.js
