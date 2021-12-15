@@ -2,23 +2,22 @@
 date: 2021-12-12
 time: 20h:00min
 duration: "2:28:53"
-title: "HThe weakest link: why all software needs security?"
+title: "The weakest link: why all software needs security?"
 tags: ["dev", "security"]
-category: "security"
+category: "dev"
 isNext: false
 youtube: https://www.youtube.com/watch?v=39M0RTjPMnA
 published: true
-featured: true
+featured: false
 ---
 
-During this episode we will go over common secuity breaches where the weakest service/software were exploited, why all components of a system should get their share of security evaluation, and why secure software design and coding are important for developers on all stacks.
+During this episode we will go over common security breaches where the weakest service/software were exploited, why all components of a system should get their share of security evaluation, and why secure software design and coding are important for developers on all stacks.
 
 ## Guests
 
 - [Hammadi Agharass](https://twitter.com/hagharass)
 
 - [Souhail Mssassi](https://www.linkedin.com/in/mssassi)
-
 
 ## Notes
 
@@ -57,8 +56,6 @@ During this episode we will go over common secuity breaches where the weakest se
 2:28 - Wrap up and Goodbye
 
 ## Links
-
-
 
 ## Prepared and Presented by
 
