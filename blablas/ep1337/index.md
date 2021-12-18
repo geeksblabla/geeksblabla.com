@@ -1,7 +1,7 @@
 ---
 date: 2021-12-06
 time: 20h:00min
-duration: "3:10:02"
+duration: "3:10:03"
 title: "Updated title"
 tags: ["career", "PFE"]
 category: "career"
