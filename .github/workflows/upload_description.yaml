@@ -17,7 +17,7 @@ jobs:
     outputs:
       all: ${{ steps.files.outputs.all }}
 
-  extract_description:
+  upload_description:
     runs-on: ubuntu-18.04
     needs: detect_changes
     steps:
@@ -38,54 +38,15 @@ jobs:
       - name: Extract descriptions and URLs
         id: extract_descriptions_and_urls
         run: |
-          echo ${{ needs.detect_changes.outputs.all }} > debug
-          extracted="["
+          echo "Changed files"
+          echo ${{ needs.detect_changes.outputs.all }}
           for changed_file in ${{ needs.detect_changes.outputs.all }}; do
             if echo $changed_file | grep -q "blablas"; then
-              echo "Do something with this ${changed_file}." >> debug
-              echo "cat $changed_file | grep youtube | head -1 | cut -d ' ' -f 2)" >> debug
               youtube_url=$(cat $changed_file | grep youtube | head -1 | cut -d ' ' -f 2)
-              echo "Youtube URL is $youtube_url" >> debug
+              echo "Youtube URL is $youtube_url"
 
-              echo "const { markdownToTxt } = require('markdown-to-txt');" > extract.js
-              echo "const fs = require('fs');" >> extract.js
-              echo "const strippedMarkdown = markdownToTxt(fs.readFileSync('${changed_file}', 'utf8'));" >> extract.js
-              echo "console.log(JSON.stringify({'url': '$youtube_url', 'description': strippedMarkdown}));" >> extract.js
-
-              cat extract.js
-              output=$(node extract.js)
-              extracted="$extracted$output,"
-
-              cat debug
+              yarn upload-description-to-youtube $youtube_url $changed_file
             fi
           done
-          extracted="${extracted%?}]"
-          echo $extracted > extracted.json
-
-      - uses: actions/upload-artifact@v2
-        with:
-          name: extracted.json
-          path: extracted.json
-
       #- name: Start SSH via tmate
       #uses: mxschmitt/action-tmate@v2
-
-  upload_description:
-    runs-on: ubuntu-18.04
-    needs: extract_description
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/download-artifact@v2
-        id: download
-        with:
-          name: extracted.json
-          path: extracted.json
-
-      - name: Install jq
-        run: sudo apt-get install jq
-
-      - name: Parse extracted JSON output
-        run: |
-          cat extracted.json/extracted.json | jq -r '.'
