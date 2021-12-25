@@ -1,5 +1,4 @@
 const { google } = require("googleapis")
-const fs = require("fs")
 
 const authorize = async ({
   clientId,
@@ -15,7 +14,7 @@ const authorize = async ({
   )
 
   oauth2Client.setCredentials({
-    access_token: "",
+    access_token: accessToken,
     refresh_token: refreshToken,
     scope: "https://www.googleapis.com/auth/youtube.force-ssl",
   })
