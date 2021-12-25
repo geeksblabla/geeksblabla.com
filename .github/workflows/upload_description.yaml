@@ -28,15 +28,21 @@ jobs:
         with:
           node-version: "14"
           cache: "yarn"
-      #- name: Install Deps
-      #run: yarn install --frozen-lockfile
 
-      - name: Install markdown-to-txt
-        run: |
-          yarn add markdown-to-txt
+      - name: Install Deps
+        run: yarn install
 
+        #- name: Install markdown-to-txt
+        #- run: |
+        #-   yarn add markdown-to-txt
       - name: Extract descriptions and URLs
         id: extract_descriptions_and_urls
+        env: # Or as an environment variable
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          REDIRECT_URL: ${{ secrets.REDIRECT_URL }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
         run: |
           echo "Changed files"
           echo ${{ needs.detect_changes.outputs.all }}

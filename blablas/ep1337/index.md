@@ -6,7 +6,7 @@ title: "Updated title"
 tags: ["career", "PFE"]
 category: "career"
 isNext: false
-youtube: https://www.youtube.com/watch?v=Ivts5p0Cwmo
+youtube: https://www.youtube.com/watch?v=Wb3tIugDJFs
 published: true
 featured: true
 ---
