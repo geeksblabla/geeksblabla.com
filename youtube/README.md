@@ -28,9 +28,14 @@ The next step consists of generating access and refresh tokens. This step is per
 - In a separate terminal tab (or window), cd to the youtube/ directory and run `node quickstart.js`. It will invite you to visit an OAuth2 consent form
 - Log in with the account you previously added to the list of test users
 - You will then be redirected to the redirect URL you previously configured. The query string will contain a "code" parameter. Copy its value
+
+![image](https://user-images.githubusercontent.com/1638227/147785146-423b38bf-6e2c-42be-89ab-e12ac76897d4.png)
+
 - Paste the newly acquired code in the `node quickstart.js` prompt. It will then exchange it for access and refresh tokens.
 
-If everything goes well, quickstart.js will store your tokens in the ~/.credentials directory.
+If everything goes well, quickstart.js will store your tokens in the ~/.credentials directory :
+
+![image](https://user-images.githubusercontent.com/1638227/147785008-9aca8a2c-f45f-4344-938c-1fc5ffcb4758.png)
 
 ## Github configuration
 
@@ -40,3 +45,5 @@ The final step consists of setting up the required Github secrets. For this, you
 - Client ID, client secret and redirect URL
 
 So in total, you'll have to set up five secrets : ACCESS_TOKEN, REFRESH_TOKEN, CLIENT_ID, CLIENT_SECRET and REDIRECT_URL
+
+Once that's taken care of, the action can be tested by pushing a new episode or updating an existing one.
