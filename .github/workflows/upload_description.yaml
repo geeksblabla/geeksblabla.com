@@ -32,12 +32,9 @@ jobs:
       - name: Install Deps
         run: yarn install
 
-        #- name: Install markdown-to-txt
-        #- run: |
-        #-   yarn add markdown-to-txt
       - name: Extract descriptions and URLs
         id: extract_descriptions_and_urls
-        env: # Or as an environment variable
+        env:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           REDIRECT_URL: ${{ secrets.REDIRECT_URL }}
@@ -54,5 +51,3 @@ jobs:
               yarn upload-description-to-youtube $youtube_url $changed_file
             fi
           done
-      #- name: Start SSH via tmate
-      #uses: mxschmitt/action-tmate@v2
