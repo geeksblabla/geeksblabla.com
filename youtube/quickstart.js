@@ -4,12 +4,9 @@ var { google } = require("googleapis")
 var OAuth2 = google.auth.OAuth2
 
 // If modifying these scopes, delete your previously saved credentials
-// at ~/.credentials/youtube-nodejs-quickstart.json
+// at ./youtube-nodejs-quickstart.json
 var SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
-var TOKEN_DIR =
-  (process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE) +
-  "/.credentials/"
-var TOKEN_PATH = TOKEN_DIR + "youtube-nodejs-quickstart.json"
+var TOKEN_PATH = "./oauth-tokens.json"
 
 // Load client secrets from a local file.
 fs.readFile("client_secret.json", function processClientSecrets(err, content) {
@@ -83,13 +80,6 @@ function getNewToken(oauth2Client, callback) {
  * @param {Object} token The token to store to disk.
  */
 function storeToken(token) {
-  try {
-    fs.mkdirSync(TOKEN_DIR)
-  } catch (err) {
-    if (err.code != "EEXIST") {
-      throw err
-    }
-  }
   fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
     if (err) throw err
     console.log("Token stored to " + TOKEN_PATH)
