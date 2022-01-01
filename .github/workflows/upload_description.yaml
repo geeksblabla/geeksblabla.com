@@ -40,14 +40,8 @@ jobs:
           REDIRECT_URL: ${{ secrets.REDIRECT_URL }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+          UPDATED_FILES: ${{ needs.detect_changes.outputs.all }}
         run: |
           echo "Changed files"
           echo ${{ needs.detect_changes.outputs.all }}
-          for changed_file in ${{ needs.detect_changes.outputs.all }}; do
-            if echo $changed_file | grep -q "blablas"; then
-              youtube_url=$(cat $changed_file | grep youtube | head -1 | cut -d ' ' -f 2)
-              echo "Youtube URL is $youtube_url"
-
-              yarn upload-description-to-youtube $youtube_url $changed_file
-            fi
-          done
+          yarn upload-description-to-youtube

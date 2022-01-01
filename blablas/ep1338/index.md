@@ -11,4 +11,4 @@ published: true
 featured: true
 ---
 
-Updated episode
+New episode

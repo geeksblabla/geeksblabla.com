@@ -1,9 +1,9 @@
 const fs = require("fs")
 const process = require("process")
-const { markdownToTxt } = require("markdown-to-txt")
 
 const authorize = require("./get-tokens")
 const uploadDescription = require("./upload-description")
+const getEpisodeDetails = require("./get-episode-details")
 
 ;(async () => {
   const youtubeUrl = process.argv[2]
@@ -14,25 +14,35 @@ const uploadDescription = require("./upload-description")
   const redirectUrl = process.env.REDIRECT_URL
   const accessToken = process.env.ACCESS_TOKEN
   const refreshToken = process.env.REFRESH_TOKEN
+  const updatedFiles = process.env.UPDATED_FILES.trim().split(" ")
 
-  try {
-    console.log("Logging in...")
-    const auth = await authorize({
-      clientId,
-      clientSecret,
-      redirectUrl,
-      accessToken,
-      refreshToken,
-    })
-    console.log("Parsing description...")
-    const description = markdownToTxt(fs.readFileSync(episodeFile, "utf8"))
+  console.log("Logging in...")
+  const auth = await authorize({
+    clientId,
+    clientSecret,
+    redirectUrl,
+    accessToken,
+    refreshToken,
+  })
 
-    console.log("Uploading description...")
-    await uploadDescription({ youtubeUrl, description, auth })
-    console.log("Updated description successfully!")
-  } catch (e) {
-    console.error("Failed to update video description")
-    console.error(e)
-    process.exitCode = 1
+  for (const episodeFile of updatedFiles) {
+    console.log(`Current file : ${episodeFile}`)
+    if (!episodeFile.startsWith("blablas")) {
+      console.log(`Not an episode, skipping`)
+      continue
+    }
+    try {
+      console.log(`👉  Parsing description and youtube URL from ${episodeFile}`)
+      const { youtubeUrl, description } = getEpisodeDetails(episodeFile)
+
+      console.log(`Uploading description to ${youtubeUrl}...`)
+      await uploadDescription({ youtubeUrl, description, auth })
+      console.log(`👉  Episode description updated Successfully ✅ `)
+    } catch (e) {
+      console.error("Failed to update video description")
+      console.error(e)
+      process.exitCode = 1
+      continue
+    }
   }
 })()
