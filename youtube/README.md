@@ -22,9 +22,9 @@ You can now download your credentials as a JSON file.
 
 The next step consists of generating access and refresh tokens. This step is performed manually.
 
-- Copy the JSON file you downloaded in the previous step to the youtube/ directory of the project
+- Copy the JSON file you downloaded in the previous step to the `youtube/tokens` directory of the project
 - Rename it to client_secret.json
-- On a new terminal tab (or window), run `nc -l localhost -p 3000`
+- On a new terminal tab (or window), run `nc -l localhost -p 3000` on mac `nc -l localhost 3000`
 - In a separate terminal tab (or window), cd to the youtube/ directory and run `node quickstart.js`. It will invite you to visit an OAuth2 consent form
 - Log in with the account you previously added to the list of test users
 - You will then be redirected to the redirect URL you previously configured. The query string will contain a "code" parameter. Copy its value
@@ -33,7 +33,7 @@ The next step consists of generating access and refresh tokens. This step is per
 
 - Paste the newly acquired code in the `node quickstart.js` prompt. It will then exchange it for access and refresh tokens.
 
-If everything goes well, quickstart.js will store your tokens in the ~/.credentials directory :
+If everything goes well, quickstart.js will store your tokens in the `youtube/tokens/oauth-tokens.json` directory :
 
 ![image](https://user-images.githubusercontent.com/1638227/147785008-9aca8a2c-f45f-4344-938c-1fc5ffcb4758.png)
 
@@ -44,6 +44,6 @@ The final step consists of setting up the required Github secrets. For this, you
 - Access and refresh tokens, retrieved from step #2
 - Client ID, client secret and redirect URL
 
-So in total, you'll have to set up five secrets : ACCESS_TOKEN, REFRESH_TOKEN, CLIENT_ID, CLIENT_SECRET and REDIRECT_URL
+So in total, you'll have to set up five secrets : YOUTUBE_ACCESS_TOKEN, YOUTUBE_REFRESH_TOKEN, YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET and YOUTUBE_REDIRECT_URL
 
 Once that's taken care of, the action can be tested by pushing a new episode or updating an existing one.
