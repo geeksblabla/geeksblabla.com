@@ -1,7 +1,7 @@
 const fs = require("fs")
 const process = require("process")
 
-const authorize = require("./get-tokens")
+const getAuth = require("./get-auth")
 const uploadDescription = require("./upload-description")
 const getEpisodeDetails = require("./get-episode-details")
 
@@ -9,21 +9,10 @@ const getEpisodeDetails = require("./get-episode-details")
   const youtubeUrl = process.argv[2]
   const episodeFile = process.argv[3]
 
-  const clientId = process.env.CLIENT_ID
-  const clientSecret = process.env.CLIENT_SECRET
-  const redirectUrl = process.env.REDIRECT_URL
-  const accessToken = process.env.ACCESS_TOKEN
-  const refreshToken = process.env.REFRESH_TOKEN
   const updatedFiles = process.env.UPDATED_FILES.trim().split(" ")
 
   console.log("Logging in...")
-  const auth = await authorize({
-    clientId,
-    clientSecret,
-    redirectUrl,
-    accessToken,
-    refreshToken,
-  })
+  const auth = await getAuth()
 
   for (const episodeFile of updatedFiles) {
     console.log(`Current file : ${episodeFile}`)
