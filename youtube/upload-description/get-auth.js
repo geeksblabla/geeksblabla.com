@@ -2,11 +2,11 @@ const { google } = require("googleapis")
 
 let auth = null
 
-const clientId = process.env.CLIENT_ID
-const clientSecret = process.env.CLIENT_SECRET
-const redirectUrl = process.env.REDIRECT_URL
-const accessToken = process.env.ACCESS_TOKEN
-const refreshToken = process.env.REFRESH_TOKEN
+const clientId = process.env.YOUTUBE_CLIENT_ID
+const clientSecret = process.env.YOUTUBE_CLIENT_SECRET
+const redirectUrl = process.env.YOUTUBE_REDIRECT_URL
+const accessToken = process.env.YOUTUBE_ACCESS_TOKEN
+const refreshToken = process.env.YOUTUBE_REFRESH_TOKEN
 
 const getAuth = async () => {
   if (auth === null) {
