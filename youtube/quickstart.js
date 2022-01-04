@@ -6,10 +6,13 @@ var OAuth2 = google.auth.OAuth2
 // If modifying these scopes, delete your previously saved credentials
 // at ./youtube-nodejs-quickstart.json
 var SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
-var TOKEN_PATH = "./oauth-tokens.json"
+var TOKEN_PATH = "./tokens/oauth-tokens.json"
 
 // Load client secrets from a local file.
-fs.readFile("client_secret.json", function processClientSecrets(err, content) {
+fs.readFile("./tokens/client_secret.json", function processClientSecrets(
+  err,
+  content
+) {
   if (err) {
     console.log("Error loading client secret file: " + err)
     return

@@ -40,8 +40,11 @@ jobs:
           REDIRECT_URL: ${{ secrets.REDIRECT_URL }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
-          UPDATED_FILES: ${{ needs.detect_changes.outputs.all }}
         run: |
           echo "Changed files"
           echo ${{ needs.detect_changes.outputs.all }}
-          yarn upload-description-to-youtube
+          for changed_file in ${{ needs.detect_changes.outputs.all }}; do
+            if echo $changed_file | grep -q "blablas"; then
+              yarn upload-description-to-youtube $changed_file
+            fi
+          done

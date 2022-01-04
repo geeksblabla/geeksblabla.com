@@ -1,37 +1,30 @@
 const fs = require("fs")
+const dotenv = require("dotenv")
+dotenv.config()
 const process = require("process")
-
-const getAuth = require("./get-auth")
+const getEpisodeDetails = require("./episode-details")
 const uploadDescription = require("./upload-description")
-const getEpisodeDetails = require("./get-episode-details")
 
-;(async () => {
-  const youtubeUrl = process.argv[2]
-  const episodeFile = process.argv[3]
-
-  const updatedFiles = process.env.UPDATED_FILES.trim().split(" ")
-
-  console.log("Logging in...")
-  const auth = await getAuth()
-
-  for (const episodeFile of updatedFiles) {
-    console.log(`Current file : ${episodeFile}`)
-    if (!episodeFile.startsWith("blablas")) {
-      console.log(`Not an episode, skipping`)
-      continue
-    }
-    try {
-      console.log(`👉  Parsing description and youtube URL from ${episodeFile}`)
-      const { youtubeUrl, description } = getEpisodeDetails(episodeFile)
-
-      console.log(`Uploading description to ${youtubeUrl}...`)
-      await uploadDescription({ youtubeUrl, description, auth })
-      console.log(`👉  Episode description updated Successfully ✅ `)
-    } catch (e) {
-      console.error("Failed to update video description")
-      console.error(e)
-      process.exitCode = 1
-      continue
-    }
+const syncEpisodeDescription = async () => {
+  const episodeFile = process.argv[2]
+  if (!episodeFile.includes("blablas")) {
+    console.log(`Not an episode, skipping`)
+    return
   }
-})()
+
+  try {
+    console.log(`👉  Parsing description and youtube URL from ${episodeFile}`)
+    const { youtubeUrl, description } = getEpisodeDetails(episodeFile)
+    console.log(youtubeUrl, description)
+
+    console.log(`Uploading description to ${youtubeUrl}...`)
+    await uploadDescription({ youtubeUrl, description })
+    console.log(`👉  Episode description updated Successfully ✅ `)
+  } catch (e) {
+    console.error("Failed to update video description")
+    console.error(e)
+    process.exit(1)
+  }
+}
+
+syncEpisodeDescription()
