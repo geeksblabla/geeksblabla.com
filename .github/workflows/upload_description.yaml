@@ -15,7 +15,7 @@ jobs:
         continue-on-error: true
         id: files
     outputs:
-      all: ${{ steps.files.outputs.all }}
+      added_modified: ${{ steps.files.outputs.added_modified }}
 
   upload_description:
     runs-on: ubuntu-18.04
@@ -42,8 +42,8 @@ jobs:
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
         run: |
           echo "Changed files"
-          echo ${{ needs.detect_changes.outputs.all }}
-          for changed_file in ${{ needs.detect_changes.outputs.all }}; do
+          echo ${{ needs.detect_changes.outputs.added_modified }}
+          for changed_file in ${{ needs.detect_changes.outputs.added_modified }}; do
             if echo $changed_file | grep -q "blablas"; then
               yarn upload-description-to-youtube $changed_file
             fi
