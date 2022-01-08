@@ -1,9 +1,9 @@
-name: Upload description to Youtube
+name: Sync Episode Notes with Youtube Description
 
 on:
   workflow_dispatch:
   push:
-    #branches: [master]
+    branches: [master]
     paths:
       - "blablas/**"
 
