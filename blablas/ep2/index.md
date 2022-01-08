@@ -20,39 +20,39 @@ In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redu
 
 ## Notes
 
-00:00 Introduction.
+00:00:00 Introduction.
 
-00:02 How he started programming ?
+00:02:00 How he started programming ?
 
-00:08 How he started his open-source projects ?
+00:08:00 How he started his open-source projects ?
 
-00:13 How to grow and progress in software programming ?
+00:13:00 How to grow and progress in software programming ?
 
-00:18 follow the trends in programming.
+00:18:00 follow the trends in programming.
 
-00:24 What are your favorites patterns and paradigms?
+00:24:00 What are your favorites patterns and paradigms?
 
-00:37 Functional programming.
+00:37:00 Functional programming.
 
-00:42 How do you find time for the opensource ?
+00:42:00 How do you find time for the opensource ?
 
-00:44 Books or tutorials ?
+00:44:00 Books or tutorials ?
 
-00:48 What is the "Thought leaders".
+00:48:00 What is the "Thought leaders".
 
-00:52 Why should i work in the open source.
+00:52:00 Why should i work in the open source.
 
-00:56 Pieces of Advice for a junior developer to start the open-source.
+00:56:00 Pieces of Advice for a junior developer to start the open-source.
 
-01:01 How did you start the Redux-saga?
+01:01:00 How did you start the Redux-saga?
 
-01:10 What is the difference between Redux-saga and CQRS ?
+01:10:00 What is the difference between Redux-saga and CQRS ?
 
-01:15 Talk about Hooks, Pure components and React fiber.
+01:15:00 Talk about Hooks, Pure components and React fiber.
 
-01:32 Future projects in the open-source ?
+01:32:00 Future projects in the open-source ?
 
-01:35 Open-source in morocco & Pieces of Advice for Moroccan programmers.
+01:35:00 Open-source in morocco & Pieces of Advice for Moroccan programmers.
 
 ## Links :
 

@@ -28,39 +28,39 @@ Tech News & AMA #8 with our community members Ilyas, Othmane, Mehdi, Otmane, and
 
 ## Notes
 
-0:01 - Introduction.
+0:01:00 - Introduction.
 
-0:05 - New Social Media Platform: ClubHouse
+0:05:00 - New Social Media Platform: ClubHouse
 
-0:15 - The guy who hacked into PayPal, apple, MS
+0:15:00 - The guy who hacked into PayPal, apple, MS
 
-0:33 - Bitcoin: News, Energy, future ...
+0:33:00 - Bitcoin: News, Energy, future ...
 
-0:43 - Jeff Bezos Steps down as Amazon CEO
+0:43:00 - Jeff Bezos Steps down as Amazon CEO
 
-0:50 - Some fact and opinions about Java and JEE
+0:50:00 - Some fact and opinions about Java and JEE
 
-1:06 - Intro to Rust
+1:06:00 - Intro to Rust
 
-1:13 - Lambda function and serverless
+1:13:00 - Lambda function and serverless
 
-1:18 - Oracle java SE Certification
+1:18:00 - Oracle java SE Certification
 
-1:21 - Python compared to JAVA
+1:21:00 - Python compared to JAVA
 
-1:24 - Remote Jobs with companies such as Toptal, xteam ...
+1:24:00 - Remote Jobs with companies such as Toptal, xteam ...
 
-1:32 - Flutter
+1:32:00 - Flutter
 
-1:35 - Minimum skills that you should learn to start applying for a react job
+1:35:00 - Minimum skills that you should learn to start applying for a react job
 
-1:40 - should i know compiler structure and language theory to be a good software engineer
+1:40:00 - should i know compiler structure and language theory to be a good software engineer
 
-1:46 - PHP
+1:46:00 - PHP
 
-1:58 - Front-end vs. back-end
+1:58:00 - Front-end vs. back-end
 
-2:07 - Wrap up and goodbye.
+2:07:00 - Wrap up and goodbye.
 
 ## Links
 

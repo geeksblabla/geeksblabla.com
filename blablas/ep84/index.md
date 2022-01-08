@@ -26,33 +26,33 @@ Tech News & AMA #11 with our community members Mohamed, Abderahim and Youssouf .
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:01:00 - Intro and welcoming.
 
-0:03 - Updates from our guests about their new job experience.
+0:03:00 - Updates from our guests about their new job experience.
 
-0:05 - The best way to land a remote job with international startups.
+0:05:00 - The best way to land a remote job with international startups.
 
-0:16 - Difference between working in morocco and working for a big international company such as Spotify.
+0:16:00 - Difference between working in morocco and working for a big international company such as Spotify.
 
-0:34 - How to deal with boredom with school subjects?
+0:34:00 - How to deal with boredom with school subjects?
 
-0:43 - Advice and resources to start an AWS career.
+0:43:00 - Advice and resources to start an AWS career.
 
-0:48 - State management in React.
+0:48:00 - State management in React.
 
-0:56 - What technical practices heavily used in Spotify and not used or ignored in morocco.
+0:56:00 - What technical practices heavily used in Spotify and not used or ignored in morocco.
 
-1:12 - The best way to get a motivating job.
+1:12:00 - The best way to get a motivating job.
 
-1:20 - Google IO 2021 News.
+1:20:00 - Google IO 2021 News.
 
-1:28 - GraphQl vs REST API.
+1:28:00 - GraphQl vs REST API.
 
-1:38 - ElectronJS
+1:38:00 - ElectronJS
 
-1:50 - Interview process at Spotify.
+1:50:00 - Interview process at Spotify.
 
-2:01 - Wrap up and goodbye.
+2:01:00 - Wrap up and goodbye.
 
 ## Links
 

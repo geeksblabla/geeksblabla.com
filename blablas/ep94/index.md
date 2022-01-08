@@ -14,7 +14,6 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf and Meriem. 
 
 ## Guests
 
-
 - [Mohammed Akiour](https://www.facebook.com/mohammedakiour)
 
 - [Meryem Aboulfoujja](https://www.facebook.com/maar.yeem.946)
@@ -23,31 +22,31 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf and Meriem. 
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:01:00 - Intro and welcoming.
 
-0:03 - What is Manara?
+0:03:00 - What is Manara?
 
-0:10 - Is it an online program? How can you manage it if the participant is a worker ?
+0:10:00 - Is it an online program? How can you manage it if the participant is a worker ?
 
-0:13 - Do they prepare you for interviews, meetup with the talent hunters?
+0:13:00 - Do they prepare you for interviews, meetup with the talent hunters?
 
-0:15 - How did you find out about Manara ?
+0:15:00 - How did you find out about Manara ?
 
-0:20 - Is it a free program?
+0:20:00 - Is it a free program?
 
-0:24 - How do you select BlablaConf talks ?
+0:24:00 - How do you select BlablaConf talks ?
 
-0:29 - Epic Games scores for developers in Apple court case 
+0:29:00 - Epic Games scores for developers in Apple court case
 
-0:34 - How did you find the last Apple event ?
+0:34:00 - How did you find the last Apple event ?
 
-0:38 - StackOverFlow 2021 survey insights
+0:38:00 - StackOverFlow 2021 survey insights
 
-0:57 - StateOfDev survey
+0:57:00 - StateOfDev survey
 
-1:15 - Geeksblabla giveaway
+1:15:00 - Geeksblabla giveaway
 
-1:20 - Wrap up and goodbye
+1:20:00 - Wrap up and goodbye
 
 ## Links
 

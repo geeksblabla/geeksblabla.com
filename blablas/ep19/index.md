@@ -17,21 +17,21 @@ In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan
 
 ## Notes
 
-00:00 - Introduction: Welcoming and presenting guests.
+00:00:00 - Introduction: Welcoming and presenting guests.
 
-00:05 - What is Competitive programming and why it's important?
+00:05:00 - What is Competitive programming and why it's important?
 
-00:16 - Types of Competitive programming.
+00:16:00 - Types of Competitive programming.
 
-00:24 - who can participate and How?
+00:24:00 - who can participate and How?
 
-00:40 - History behind Competitive programming.
+00:40:00 - History behind Competitive programming.
 
-00:50 - Competitive programming in Morocco: best scores
+00:50:00 - Competitive programming in Morocco: best scores
 
-01:01 - How we can improve our scores
+01:01:00 - How we can improve our scores
 
-01:10 - Q/A
+01:10:00 - Q/A
 
 ## Link
 

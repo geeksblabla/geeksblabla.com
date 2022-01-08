@@ -22,53 +22,53 @@ In this episode of GeeksBlabla, our guest Mehdi Mourabit a a serial entrepreneur
 
 ## Notes
 
-00:00 - Introduction and welcoming.
+00:00:00 - Introduction and welcoming.
 
-00:02 - Who is Mehdi Mourabit?
+00:02:00 - Who is Mehdi Mourabit?
 
-00:03 - What is your academic background?
+00:03:00 - What is your academic background?
 
-00:05 - How did you do to combine your study in the IT field and marketing?
+00:05:00 - How did you do to combine your study in the IT field and marketing?
 
-00:06 - Have you had side projects in parallel with your study?
+00:06:00 - Have you had side projects in parallel with your study?
 
-00:16 - Why did you choose to continue your study and not to focus only on your projects?
+00:16:00 - Why did you choose to continue your study and not to focus only on your projects?
 
-00:19 - When you started your first company and why you start with this concept?
+00:19:00 - When you started your first company and why you start with this concept?
 
-00:21 - What is the specialty of your company Webeuz?
+00:21:00 - What is the specialty of your company Webeuz?
 
-00:22 - Why did you choose to create a company and not to work as an employee?
+00:22:00 - Why did you choose to create a company and not to work as an employee?
 
-00:26 - How many collaborators you currently have in your company?
+00:26:00 - How many collaborators you currently have in your company?
 
-00:27 - After Webeuz you start many startups can you talk about this experience?
+00:27:00 - After Webeuz you start many startups can you talk about this experience?
 
-00:33 - How was your participation with Ohmylead in international competitions?
+00:33:00 - How was your participation with Ohmylead in international competitions?
 
-00:36 - Will you continue on the current domain of Ohmylead
+00:36:00 - Will you continue on the current domain of Ohmylead
 
-00:38 - Can you talk about your startup Myads?
+00:38:00 - Can you talk about your startup Myads?
 
-00:45 - The Morocco ecosystem help launching a startup?
+00:45:00 - The Morocco ecosystem help launching a startup?
 
-00:47 - Do you think people start giving more importance to digital marketing?
+00:47:00 - Do you think people start giving more importance to digital marketing?
 
-00:49 - What is digital marketing?
+00:49:00 - What is digital marketing?
 
-00:50 - Can you give us some strategies to do in digital marketing?
+00:50:00 - Can you give us some strategies to do in digital marketing?
 
-00:53 - What it the best platform to use to find clients?
+00:53:00 - What it the best platform to use to find clients?
 
-00:56 - Is there a method to be on top of the search result at Google?
+00:56:00 - Is there a method to be on top of the search result at Google?
 
-01:01 - Are there tools that give you your ranking and what you need to improve on your website?
+01:01:00 - Are there tools that give you your ranking and what you need to improve on your website?
 
-01:01 - Are there tools that give you your ranking and what you need to improve on your website?
+01:01:00 - Are there tools that give you your ranking and what you need to improve on your website?
 
-01:03 - What are your recommendations and advice to anyone who wants to start entrepreneurship?
+01:03:00 - What are your recommendations and advice to anyone who wants to start entrepreneurship?
 
-01:05 - Wrap up and Goodbye.
+01:05:00 - Wrap up and Goodbye.
 
 ## Links
 

@@ -25,30 +25,30 @@ In this episode of GeeksBlabla, we discuss JavaScript, History, Fundamental conc
 
 ## Notes
 
-0:00 - Episode Introduction and Guests Intro.
+0:00:00 - Episode Introduction and Guests Intro.
 
-0:08 - What is Javascript, History of Javascript?
+0:08:00 - What is Javascript, History of Javascript?
 
-0:30 - Why we should learn Javascript.
+0:30:00 - Why we should learn Javascript.
 
-0:41 - Is Javascript a language for beginners?
+0:41:00 - Is Javascript a language for beginners?
 
-0:44 - Javascript Hard Part :
+0:44:00 - Javascript Hard Part :
 
 - Scope
 - Hoisting
 - Event loop
 - Js engine
 
-1:00 - Javascript Ecosystem: Polyfills, bundlers, babel, Eslint.
+1:00:00 - Javascript Ecosystem: Polyfills, bundlers, babel, Eslint.
 
-1:18 - Q/A
+1:18:00 - Q/A
 
-1:30 - Frameworks: ReactJs, Angular, VueJs
+1:30:00 - Frameworks: ReactJs, Angular, VueJs
 
-1:50 - Typing in Javascript: Typescript, Flow
+1:50:00 - Typing in Javascript: Typescript, Flow
 
-1:55 - The state of Javascript and the future
+1:55:00 - The state of Javascript and the future
 
 ## Links
 

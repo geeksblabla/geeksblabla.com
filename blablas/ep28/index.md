@@ -23,39 +23,39 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 
 ## Notes
 
-00:01 - Introduction & Guests presentation
+00:01:00 - Introduction & Guests presentation
 
-00:04 - When and how they know Programming ?
+00:04:00 - When and how they know Programming ?
 
-00:12 - Difficulties encountered & thier solutions
+00:12:00 - Difficulties encountered & thier solutions
 
-00:16 - How they improved their skills?
+00:16:00 - How they improved their skills?
 
-00:20 - Have you ever practiced these skills in competition?
+00:20:00 - Have you ever practiced these skills in competition?
 
-00:25 - How do you like the field of information technology?
+00:25:00 - How do you like the field of information technology?
 
-00:29 - How did your family and friends react to you when they know you love programming?
+00:29:00 - How did your family and friends react to you when they know you love programming?
 
-00:34 - Do you have some plans to explain your IT knowledge in Darija to your friends , your family , and others kids ?
+00:34:00 - Do you have some plans to explain your IT knowledge in Darija to your friends , your family , and others kids ?
 
-00:41 - How did you get the idea for your projects?
+00:41:00 - How did you get the idea for your projects?
 
-00:46 - Your workflow creating new projects?
+00:46:00 - Your workflow creating new projects?
 
-00:56 - Are you thinking about new projects in the future?
+00:56:00 - Are you thinking about new projects in the future?
 
-00:59 - Connected devices (Q:Ayman A:Achraf)
+00:59:00 - Connected devices (Q:Ayman A:Achraf)
 
-01:02 - Do you have plans for your studies (the program) ?
+01:02:00 - Do you have plans for your studies (the program) ?
 
-01:07 - QA
+01:07:00 - QA
 
-01:17 - What do you expect your parents to improve your technical skills?
+01:17:00 - What do you expect your parents to improve your technical skills?
 
-01:27 - What your advice for kids in your age to start programming?
+01:27:00 - What your advice for kids in your age to start programming?
 
-01:31 - Final words and goodbye.
+01:31:00 - Final words and goodbye.
 
 ## Links
 

@@ -16,21 +16,21 @@ On this episode of Geeksblabla hosted by (Mohammed Aboullaite) : The guests Souf
 
 ## Notes
 
-00:00 - Introduction : Welcoming and presenting guests
+00:00:00 - Introduction : Welcoming and presenting guests
 
-00:03: - What is the definition(s) of developer job ?
+00:03:00: - What is the definition(s) of developer job ?
 
-00:07 - How a new developers can choose the best profile for there skills ?
+00:07:00 - How a new developers can choose the best profile for there skills ?
 
-00:20 - Is anybody can be developer ?
+00:20:00 - Is anybody can be developer ?
 
-00:39 - Any advice to developers to complete their education ?
+00:39:00 - Any advice to developers to complete their education ?
 
-00:43 - In our context (Moroccan) why we don't have the culture of monitoring junior developer inside companies ?
+00:43:00 - In our context (Moroccan) why we don't have the culture of monitoring junior developer inside companies ?
 
-00:59 - What's differences between Junior, and Senior developers ?
+00:59:00 - What's differences between Junior, and Senior developers ?
 
-01:08 - Final thoughts ?
+01:08:00 - Final thoughts ?
 
 ## Links
 

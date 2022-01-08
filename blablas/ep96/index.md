@@ -24,31 +24,31 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf, Mohamed, mo
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:01:00 - Intro and welcoming.
 
-0:04 - Community friends updates
+0:04:00 - Community friends updates
 
-0:09 - New Mac book pro with M1 pro
+0:09:00 - New Mac book pro with M1 pro
 
-0:22 - New Generation of CPUs and servers
+0:22:00 - New Generation of CPUs and servers
 
-0:29 - Next 12 features
+0:29:00 - Next 12 features
 
-0:33 - Rust based tools in Javascript ecosystem tools
+0:33:00 - Rust based tools in Javascript ecosystem tools
 
-0:42 - Remix run: a new react based framework for SSR
+0:42:00 - Remix run: a new react based framework for SSR
 
-0:47 - New Python version 3.10 updates
+0:47:00 - New Python version 3.10 updates
 
-0:57 - PHP new updates
+0:57:00 - PHP new updates
 
-1:09 - What is Web3?
+1:09:00 - What is Web3?
 
-1:18 - Opportunity for people with no degrees
+1:18:00 - Opportunity for people with no degrees
 
-1:22 - QA
+1:22:00 - QA
 
-1:31 - Wrap up and goodbye
+1:31:00 - Wrap up and goodbye
 
 ## Links
 

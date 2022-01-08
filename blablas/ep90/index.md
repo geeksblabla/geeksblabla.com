@@ -26,25 +26,25 @@ In this episode of GeeksBlaBla with our community members Ahmed, Ismail, Smakosh
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:01:00 - Intro and welcoming.
 
-0:05 - What is self-branding?
+0:05:00 - What is self-branding?
 
-0:09 - Is self-branding something only experts can do, or should beginners take it seriously too?
+0:09:00 - Is self-branding something only experts can do, or should beginners take it seriously too?
 
-0:14 - Learning in public.
+0:14:00 - Learning in public.
 
-0:21 - Guests' experiences on self-branding and how they benefit from it in their career?
+0:21:00 - Guests' experiences on self-branding and how they benefit from it in their career?
 
-0:54 - Self-branding for beginners.
+0:54:00 - Self-branding for beginners.
 
-1:05 - Tools and tricks to market yourself: Blogging, open-source, social media, and learning in public.
+1:05:00 - Tools and tricks to market yourself: Blogging, open-source, social media, and learning in public.
 
-1:16 - How to start blogging?
+1:16:00 - How to start blogging?
 
-1:24 - The secret power of open-source contribution for your self-branding.
+1:24:00 - The secret power of open-source contribution for your self-branding.
 
-1:38- Wrap up and goodbye
+1:38:00- Wrap up and goodbye
 
 ## Links
 

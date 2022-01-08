@@ -23,31 +23,31 @@ In this episode of GeeksBlabla, we discuss the new app Wiqaytna, released in Jun
 
 ## Notes
 
-0:00 - Introduction
+0:00:00 - Introduction
 
-0:05 - The timeline that was required to build the app was legendary, no more than a month! what challenges did you face to honor this commitment ?
+0:05:00 - The timeline that was required to build the app was legendary, no more than a month! what challenges did you face to honor this commitment ?
 
-0:13 - Can you give us an idea about the app workflow in general, so everyone understands how it works from an end user perspective.
+0:13:00 - Can you give us an idea about the app workflow in general, so everyone understands how it works from an end user perspective.
 
-0:16 - what happens when someone is confirmed positive?
+0:16:00 - what happens when someone is confirmed positive?
 
-0:19 - Why going for low energy technology (Bluetooth) in the first place?
+0:19:00 - Why going for low energy technology (Bluetooth) in the first place?
 
-0:22 - Noticed that the app heavily consume battery energy, especially on iOS
+0:22:00 - Noticed that the app heavily consume battery energy, especially on iOS
 
-0:25 - Does the mobile devices communicate with an external API?
+0:25:00 - Does the mobile devices communicate with an external API?
 
-0:32 - What is the backend stack that you used?
+0:32:00 - What is the backend stack that you used?
 
-0:43 - Why the fork relationship was not maintained with the original repository?
+0:43:00 - Why the fork relationship was not maintained with the original repository?
 
-0:51 - The app being published by Ministry of interior creates confusion.
+0:51:00 - The app being published by Ministry of interior creates confusion.
 
-1:00 - Is it possible to contribute to the project ? What is the process ?
+1:00:00 - Is it possible to contribute to the project ? What is the process ?
 
-1:04 - Why there was no marketing campaign regarding the app ?
+1:04:00 - Why there was no marketing campaign regarding the app ?
 
-1:19 - Wrap up and Goodbye.
+1:19:00 - Wrap up and Goodbye.
 
 ## Prepared and Presented by :
 

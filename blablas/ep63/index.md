@@ -28,43 +28,43 @@ Tech News & AMA #6 with our community members Meriem, Youssouf, Abderrahim, Abde
 
 ## Notes
 
-0:01 - Introduction.
+0:01:00 - Introduction.
 
-0:04 - Biggest Tech News in 2020 and the impact of COVID-19.
+0:04:00 - Biggest Tech News in 2020 and the impact of COVID-19.
 
-0:13 - Google Outage.
+0:13:00 - Google Outage.
 
-0:22 - Google monopoly case.
+0:22:00 - Google monopoly case.
 
-0:35 - The worst-ever US government cyber-attack.
+0:35:00 - The worst-ever US government cyber-attack.
 
-0:43 - New IOS 14 privacy policies?
+0:43:00 - New IOS 14 privacy policies?
 
-0:54 - GoDaddy Employees Were Told They Were Getting a Holiday Bonus. It Was Actually a Phishing Test.
+0:54:00 - GoDaddy Employees Were Told They Were Getting a Holiday Bonus. It Was Actually a Phishing Test.
 
-0:59 - Zero click venerability & NSO Group.
+0:59:00 - Zero click venerability & NSO Group.
 
-1:07 - SI and Big Data in Morocco.
+1:07:00 - SI and Big Data in Morocco.
 
-1:12 - Bitcoin Approaching \$30k.
+1:12:00 - Bitcoin Approaching \$30k.
 
-1:20 - What is a good backend tech stack to build a social media platform?
+1:20:00 - What is a good backend tech stack to build a social media platform?
 
-1:22 - Research labs in Morocco.
+1:22:00 - Research labs in Morocco.
 
-1:28 - SEO for react apps.
+1:28:00 - SEO for react apps.
 
-1:30 - React Native vs Flutter?
+1:30:00 - React Native vs Flutter?
 
-1:43 - Angular Universal.
+1:43:00 - Angular Universal.
 
-1:50 - Rust and what kind of project we can build with ?
+1:50:00 - Rust and what kind of project we can build with ?
 
-1:54 - Are there any PAAS, CAAS companies in Morocco?
+1:54:00 - Are there any PAAS, CAAS companies in Morocco?
 
-2:09 - React Server Component?
+2:09:00 - React Server Component?
 
-2:11 - Wrap up and goodbye.
+2:11:00 - Wrap up and goodbye.
 
 ## Links
 

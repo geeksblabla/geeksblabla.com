@@ -24,27 +24,27 @@ In this episode of GeeksBlabla, we discuss the success story for two young women
 
 ## Notes
 
-0:00 - Introduction and welcoming
+0:00:00 - Introduction and welcoming
 
-0:05 - Education path
+0:05:00 - Education path
 
-0:09 - tell us what your day job is
+0:09:00 - tell us what your day job is
 
-0:19 - How long have you been working as Product Manager, Developer
+0:19:00 - How long have you been working as Product Manager, Developer
 
-0:22 - What do you do besides being a software engineer by day
+0:22:00 - What do you do besides being a software engineer by day
 
-0:31 - how did you get where you are today and how did you come to work at (field intelligence inc )
+0:31:00 - how did you get where you are today and how did you come to work at (field intelligence inc )
 
-0:38 - What was your childhood dream? was it IT related ?
+0:38:00 - What was your childhood dream? was it IT related ?
 
-0:41 - What influenced you to pursue a career in IT
+0:41:00 - What influenced you to pursue a career in IT
 
-0:48 - What led you to embark on an international career
+0:48:00 - What led you to embark on an international career
 
-1:03 - What are some challenges you’ve faced ?
+1:03:00 - What are some challenges you’ve faced ?
 
-1:12 - Are there any particular Moroccan women in tech who have inspired you?
+1:12:00 - Are there any particular Moroccan women in tech who have inspired you?
 
 ## Prepared and Presented by :
 

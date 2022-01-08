@@ -22,25 +22,25 @@ In this episode of GeeksBlaBla, we discuss coding Bootcamps in morocco; what you
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:01:00 - Intro and welcoming.
 
-0:05 - What is a Bootcamp?
+0:05:00 - What is a Bootcamp?
 
-0:08 - Can bootcamp replace studies in university?
+0:08:00 - Can bootcamp replace studies in university?
 
-0:19 - Does it work for everyone/people with no experience and people with CS degrees?
+0:19:00 - Does it work for everyone/people with no experience and people with CS degrees?
 
-0:37 - Process of a Bootcamp.
+0:37:00 - Process of a Bootcamp.
 
-1:01 - How much does a coding Bootcamp cost?
+1:01:00 - How much does a coding Bootcamp cost?
 
-1:12 - Coding bootcamp for children.
+1:12:00 - Coding bootcamp for children.
 
-1:16 - Coding bootcamp vs online course.
+1:16:00 - Coding bootcamp vs online course.
 
-1:27 - Drawbacks of Bootcamps?
+1:27:00 - Drawbacks of Bootcamps?
 
-1:37- Wrap up and goodbye
+1:37:00- Wrap up and goodbye
 
 ## Links
 

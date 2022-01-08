@@ -20,29 +20,29 @@ In this episode, we talk about Open Source and the annual event Hacktoberfest. W
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:01:00 - Intro and welcoming.
 
-0:04 - What is hacktoberfest
+0:04:00 - What is hacktoberfest
 
-0:09 - What are the least requirements to start with Hacktoberfest and Open Source?
+0:09:00 - What are the least requirements to start with Hacktoberfest and Open Source?
 
-0:30 - What are the types of contributions?
+0:30:00 - What are the types of contributions?
 
-0:40 - Are there any Moroccan repositories to contribute to?
+0:40:00 - Are there any Moroccan repositories to contribute to?
 
-0:44 - How to promote your Open Source project?
+0:44:00 - How to promote your Open Source project?
 
-1:07 - Geeksblabla giveaway
+1:07:00 - Geeksblabla giveaway
 
-1:08 - How did your contribution to Open Source help you in your career?
+1:08:00 - How did your contribution to Open Source help you in your career?
 
-1:12 - Did it help you get hired easily?
+1:12:00 - Did it help you get hired easily?
 
-1:28 - Open Source in Morocco
+1:28:00 - Open Source in Morocco
 
-1:55 - Hacktoberfest participation
+1:55:00 - Hacktoberfest participation
 
-2:00 - Wrap up and Goodbye
+2:00:00 - Wrap up and Goodbye
 
 ## Links
 

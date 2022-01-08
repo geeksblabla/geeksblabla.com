@@ -26,41 +26,41 @@ In this episode of GeeksBlabla, we invited Abdelfettah Sghiouar, Islam Abouelata
 
 ## Notes
 
-0:00 - Introduction.
+0:00:00 - Introduction.
 
-0:05 - What’s a datacenter?
+0:05:00 - What’s a datacenter?
 
-0:09 - How does the datacenter work?
+0:09:00 - How does the datacenter work?
 
-0:17 - What are the criteria to build a data center?
+0:17:00 - What are the criteria to build a data center?
 
-0:24 - What job positions exist, and what people do?
+0:24:00 - What job positions exist, and what people do?
 
-0:36 - What are datacenter impact on environment?
+0:36:00 - What are datacenter impact on environment?
 
-0:44 - Should you care as a developer?
+0:44:00 - Should you care as a developer?
 
-0:47 - Questions and Comments
+0:47:00 - Questions and Comments
 
-0:55 - CNCF Casablanca Community announcement
+0:55:00 - CNCF Casablanca Community announcement
 
-1:08 - What are datacenters exist in Morocco?
+1:08:00 - What are datacenters exist in Morocco?
 
-1:09 - What do you think of the new datacenter in benguerir?
+1:09:00 - What do you think of the new datacenter in benguerir?
 
-1:12 - Why are datacenters important for Morocco?
+1:12:00 - Why are datacenters important for Morocco?
 
-1:18 - What’s an ISP (Internet Service Provider), IXP (Internet Exchange Point) and POP (Point of Presence)?
+1:18:00 - What’s an ISP (Internet Service Provider), IXP (Internet Exchange Point) and POP (Point of Presence)?
 
-1:21 - Why are datacenters important for Internet?
+1:21:00 - Why are datacenters important for Internet?
 
-1:24 - What does it mean to have a home datacenter?
+1:24:00 - What does it mean to have a home datacenter?
 
-1:32 - What studies do I have to do to work in a datacenter?
+1:32:00 - What studies do I have to do to work in a datacenter?
 
-1:35 - Questions and Comments
+1:35:00 - Questions and Comments
 
-1:45 - Wrap up and goodbye.
+1:45:00 - Wrap up and goodbye.
 
 ## Prepared and Presented by
 

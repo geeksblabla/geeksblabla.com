@@ -25,21 +25,21 @@ In this episode of GeeksBlabla, we celebrate the 100th episode, we discussed how
 
 ## Notes
 
-0:02 - Introduction
+0:02:00 - Introduction
 
-0:04 - How the podcast started?
+0:04:00 - How the podcast started?
 
-0:23 - The secret behind podcast consistency.
+0:23:00 - The secret behind podcast consistency.
 
-0:43 - Audience reviews
+0:43:00 - Audience reviews
 
-0:59 - Episodes preparation and tools we use
+0:59:00 - Episodes preparation and tools we use
 
-1:10 - Statistics quiz
+1:10:00 - Statistics quiz
 
-1:19 - Geeksblabla funny moments
+1:19:00 - Geeksblabla funny moments
 
-1:38 - Wrap up & Goodbye
+1:38:00 - Wrap up & Goodbye
 
 ## Prepared and Presented by
 

@@ -16,29 +16,29 @@ In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Bou
 
 ## Notes
 
-0:00 - Intro && new DevC events
+0:00:00 - Intro && new DevC events
 
-0:03 - About Abdelkader Boudih
+0:03:00 - About Abdelkader Boudih
 
-0:06 - History of the web, web2 and web3
+0:06:00 - History of the web, web2 and web3
 
-0:10 - HTML && CSS
+0:10:00 - HTML && CSS
 
-0:16 - How to start learning Web fundamentals ?
+0:16:00 - How to start learning Web fundamentals ?
 
-0:33 - Web designer vs front-end developer
+0:33:00 - Web designer vs front-end developer
 
-0:30 - CSS Tools
+0:30:00 - CSS Tools
 
-0:40 - Browsers engines
+0:40:00 - Browsers engines
 
-0:46 - How to start on server side projects?
+0:46:00 - How to start on server side projects?
 
-0:58 - Compiled and interpreted Languages
+0:58:00 - Compiled and interpreted Languages
 
-1:04 - Databases && ORMs
+1:04:00 - Databases && ORMs
 
-1:11 - Javascript Ecosystem
+1:11:00 - Javascript Ecosystem
 
     - Why javascript is so famous
     - Js framework
@@ -46,7 +46,7 @@ In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Bou
     - Angular
     - Vuejs
 
-2:16 - Exiting web dev stuff in 2018 you need to know
+2:16:00 - Exiting web dev stuff in 2018 you need to know
 
     - GraphQl
     - PWA

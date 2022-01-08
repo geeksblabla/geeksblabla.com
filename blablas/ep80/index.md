@@ -30,33 +30,33 @@ Tech News & AMA #10 with our community members Mohamed,Meriem , soufiane, Abdera
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:01:00 - Intro and welcoming.
 
-0:03 - updates from our guests about their learning experience in the last months.
+0:03:00 - updates from our guests about their learning experience in the last months.
 
-0:07 - New javascript build tools using no-js language such us esbuild, snowpack...
+0:07:00 - New javascript build tools using no-js language such us esbuild, snowpack...
 
-0:27 - Expo vs React Native.
+0:27:00 - Expo vs React Native.
 
-0:46 - Abderahim experience with s7aba podcast.
+0:46:00 - Abderahim experience with s7aba podcast.
 
-0:52 - Advice to find internships.
+0:52:00 - Advice to find internships.
 
-1:00 - Generalist vs specialist
+1:00:00 - Generalist vs specialist
 
-1:06 - Ramadan and productivity
+1:06:00 - Ramadan and productivity
 
-1:12 - Apple event M1 in ipad pro...
+1:12:00 - Apple event M1 in ipad pro...
 
-1:20 - Nvidia new SoCs for cars and other plans to take over server workloads
+1:20:00 - Nvidia new SoCs for cars and other plans to take over server workloads
 
-1:24 - Google rolling FLoC out to tester and the resistance from the industry and community
+1:24:00 - Google rolling FLoC out to tester and the resistance from the industry and community
 
-1:32 - Generalist vs specialist
+1:32:00 - Generalist vs specialist
 
-1:40 - QA
+1:40:00 - QA
 
-2:51 - Wrap up and goodbye.
+2:51:00 - Wrap up and goodbye.
 
 ## Links
 

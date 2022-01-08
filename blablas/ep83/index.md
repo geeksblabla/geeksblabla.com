@@ -29,23 +29,23 @@ In this episode of GeeksBlabla, we're Revisiting the fundamentals of the DevOps 
 
 ## Notes
 
-0:00 - Introduction and welcoming
+0:00:00 - Introduction and welcoming
 
-0:13 - Software development and delivery process
+0:13:00 - Software development and delivery process
 
-0:20 - DevOPS Definition
+0:20:00 - DevOPS Definition
 
-0:34 - DevOps Goals and Pillars
+0:34:00 - DevOps Goals and Pillars
 
-0:56 - Automation
+0:56:00 - Automation
 
-1:03 - Observability and Monitoring
+1:03:00 - Observability and Monitoring
 
-1:22 - Q/A
+1:22:00 - Q/A
 
-1:42 - Toolchain
+1:42:00 - Toolchain
 
-1:59 - Wrap up and goodbye
+1:59:00 - Wrap up and goodbye
 
 ## Links
 
