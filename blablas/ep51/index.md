@@ -31,39 +31,39 @@ In this episode of GeeksBlabla, we discuss with our guests what is it like to wo
 
 ## Notes
 
-0:01 - Introduction
+0:00:00 - Introduction
 
-0:04 - What is your academic background and where have you worked in Morocco?
+0:04:00 - What is your academic background and where have you worked in Morocco?
 
-0:09 - What to consider if you want to work abroad for the first time?
+0:09:00 - What to consider if you want to work abroad for the first time?
 
-0:19 - Does the position you are applying for abroad take into consideration your Moroccan diploma?
+0:19:00 - Does the position you are applying for abroad take into consideration your Moroccan diploma?
 
-0:25 - What are the pros and cons of working abroad?
+0:25:00 - What are the pros and cons of working abroad?
 
-0:35 - Is it less complicated to get promoted abroad?
+0:35:00 - Is it less complicated to get promoted abroad?
 
-0:49 - Which is better as a first job in Morocco, to work in an "SSII" or in a startup?
+0:49:00 - Which is better as a first job in Morocco, to work in an "SSII" or in a startup?
 
-0:54 - How is the lifestyle abroad, in terms of cost and work-life?
+0:54:00 - How is the lifestyle abroad, in terms of cost and work-life?
 
-1:16 - What to consider when applying for remote jobs in Europe?
+1:16:00 - What to consider when applying for remote jobs in Europe?
 
-1:19 - Is English the primary work-language in Europe?
+1:19:00 - Is English the primary work-language in Europe?
 
-1:25 - What are the best job sectors to apply for abroad?
+1:25:00 - What are the best job sectors to apply for abroad?
 
-1:39 - Is it important to change jobs after a period of time?
+1:39:00 - Is it important to change jobs after a period of time?
 
-1:55 - Freelance vs CDI.
+1:55:00 - Freelance vs CDI.
 
-2:02 - Do I need to verify all the requirements to apply for a job abroad?
+2:02:00 - Do I need to verify all the requirements to apply for a job abroad?
 
-2:12 - How to negotiate your salary?
+2:12:00 - How to negotiate your salary?
 
-2:20 - Work permits abroad.
+2:20:00 - Work permits abroad.
 
-2:26 - Wrap up and goodbye.
+2:26:00 - Wrap up and goodbye.
 
 ## Links
 

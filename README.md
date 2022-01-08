@@ -1,6 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblabla.com">
@@ -108,13 +110,13 @@ In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk
 In the Notes section, you need to collect the most important part of the episode and try to find the right title for it using this format : `h:min - title`
 
 ```
-0:00 - Intro
+0:00:00 - Intro
 
-0:03 - The history of web and W3C?
+0:03:00 - The history of web and W3C?
 
 	...
 
-1:57 - when you can find trending web technologies?
+1:57:00 - when you can find trending web technologies?
 
 ```
 
@@ -161,13 +163,13 @@ In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk
 
 ## Notes
 h:min - title
-0:00 - Intro
+0:00:00 - Intro
 
-0:03 - The history of web and W3C?
+0:03:00 - The history of web and W3C?
 
 	...
 
-1:57 - when you can find trending web technologies?
+1:57:00 - when you can find trending web technologies?
 
 ## Links
 

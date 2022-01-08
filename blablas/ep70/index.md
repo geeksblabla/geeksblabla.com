@@ -26,33 +26,33 @@ In this episode of GeeksBlabla, we invited Taoufik Khamouli, Anouar Boukhatem an
 
 ## Notes
 
-0:00 - Introduction.
+0:00:00 - Introduction.
 
-0:06 - What do we mean by a Database?
+0:06:00 - What do we mean by a Database?
 
-0:10 - Why do we need databases?
+0:10:00 - Why do we need databases?
 
-0:20 - What are the different types of databases and why we have more than one?
+0:20:00 - What are the different types of databases and why we have more than one?
 
-0:39 - What are ACID properties, and why are they important?
+0:39:00 - What are ACID properties, and why are they important?
 
-0:51 - What is denormalization and, when we need it?
+0:51:00 - What is denormalization and, when we need it?
 
-0:55 - What consideration to decide between database types?
+0:55:00 - What consideration to decide between database types?
 
-1:29 - Open-source vs. proprietary database, Which one is better?
+1:29:00 - Open-source vs. proprietary database, Which one is better?
 
-1:34 - What is Indexing and how to use it well?
+1:34:00 - What is Indexing and how to use it well?
 
-1:37 - What is CAP theorem, and why is it important?
+1:37:00 - What is CAP theorem, and why is it important?
 
-1:42 - What are the requirements to have High Availability & Data Replication in databases?
+1:42:00 - What are the requirements to have High Availability & Data Replication in databases?
 
-1:49 - What are Backup & Restore Policies best practices?
+1:49:00 - What are Backup & Restore Policies best practices?
 
-1:56 - Advice about Performance Optimization.
+1:56:00 - Advice about Performance Optimization.
 
-2:19 - Wrap up and goodbye.
+2:19:00 - Wrap up and goodbye.
 
 # Links
 

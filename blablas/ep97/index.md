@@ -27,25 +27,25 @@ We talk about the end of study internship(PFE) in this episode. How to find a go
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
-0:15 - What are the main goals of an end of studies internship?
+0:15:00 - What are the main goals of an end of studies internship?
 
-0:50 - How to deal if your option is not related to development as we don't have enough opportunities on other options such Big data.
+0:50:00 - How to deal if your option is not related to development as we don't have enough opportunities on other options such Big data.
 
-0:54 - Are universities helping students find PFE?
+0:54:00 - Are universities helping students find PFE?
 
-1:04 - How and Where can I find internship opportunities?
+1:04:00 - How and Where can I find internship opportunities?
 
-1:23 - Big companies vs medium and startups, which one is the best for an internship (advantages and disadvantages)?
+1:23:00 - Big companies vs medium and startups, which one is the best for an internship (advantages and disadvantages)?
 
-1:32 - Resumes and Interviews
+1:32:00 - Resumes and Interviews
 
-2:07 - Should companies pay interns?
+2:07:00 - Should companies pay interns?
 
-2:26 - How to succeed during the internship?
+2:26:00 - How to succeed during the internship?
 
-3:00 - Wrap up and Goodbye
+3:00:00 - Wrap up and Goodbye
 
 ## Links
 

@@ -178,7 +178,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       name: "duration",
       node,
-      value: node.frontmatter.duration ? node.frontmatter.duration : "01:00",
+      value: node.frontmatter.duration ? node.frontmatter.duration : "01:00:00",
     })
 
     createNodeField({

@@ -23,21 +23,21 @@ In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev
 
 ## Notes
 
-0:02 - Introduction
+0:00:00 - Introduction
 
-0:05 - Overview
+0:05:00 - Overview
 
-0:11 - Profile
+0:11:00 - Profile
 
-0:36 - Education and Learning
+0:36:00 - Education and Learning
 
-1:01 - Work
+1:01:00 - Work
 
-1:36 - Technology
+1:36:00 - Technology
 
-2:07 - Community
+2:07:00 - Community
 
-2:23 - Wrap up & Goodbye
+2:23:00 - Wrap up & Goodbye
 
 ## Links
 

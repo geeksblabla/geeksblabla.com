@@ -24,29 +24,29 @@ In this episode of GeeksBlabla, we invited Diaa Alhak El Fallous and Othmane Kin
 
 ## Notes
 
-0:01 - Introduction.
+0:00:00 - Introduction.
 
-0:04 - What do we mean with Productivity?
+0:04:00 - What do we mean with Productivity?
 
-0:08 - How to measure productivity?
+0:08:00 - How to measure productivity?
 
-0:20 - What do we mean with Productivity for a developer working alone, and How he measure it?
+0:20:00 - What do we mean with Productivity for a developer working alone, and How he measure it?
 
-0:30 - Does a predefined roadmap consider a developer’s productivity?
+0:30:00 - Does a predefined roadmap consider a developer’s productivity?
 
-0:38 - How to prioritize tasks
+0:38:00 - How to prioritize tasks
 
-0:43 - How do you do to being consistent at work?
+0:43:00 - How do you do to being consistent at work?
 
-1:08 - How to manage the situation when you need more time to grasp the task's skills or feel that you won’t meet some deadline?
+1:08:00 - How to manage the situation when you need more time to grasp the task's skills or feel that you won’t meet some deadline?
 
-1:13 - What are the criteria to promote a person?
+1:13:00 - What are the criteria to promote a person?
 
-1:23 - How can a developer avoid burnout?
+1:23:00 - How can a developer avoid burnout?
 
-1:36 - Tips to handle distractions and to be more productive while working
+1:36:00 - Tips to handle distractions and to be more productive while working
 
-1:54 - Wrap up and goodbye.
+1:54:00 - Wrap up and goodbye.
 
 ## Prepared and Presented by
 

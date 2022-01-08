@@ -17,23 +17,23 @@ On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk ab
 
 ## Notes
 
-0:00 - Introduction
+0:00:00 - Introduction
 
-0:05 - what is Serverless ?
+0:05:00 - what is Serverless ?
 
-0:09 - Pay as you consume 🤔?
+0:09:00 - Pay as you consume 🤔?
 
-0:15 - Serverless limitation
+0:15:00 - Serverless limitation
 
-0:20 - Pros and Cons
+0:20:00 - Pros and Cons
 
-0:30 - Can we use serverless for any project ?
+0:30:00 - Can we use serverless for any project ?
 
-0:40 - Programing languages and serverless
+0:40:00 - Programing languages and serverless
 
-0:55 - Serverless best practices
+0:55:00 - Serverless best practices
 
-1:04 - Should I use serverless in my next Project ?
+1:04:00 - Should I use serverless in my next Project ?
 
 ## Link
 

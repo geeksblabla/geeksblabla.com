@@ -22,33 +22,33 @@ In this episode of GeeksBlabla, Meriem and Ismail invited Abdelghani Achibane wh
 
 ## Notes
 
-0:00 - Introduction and welcoming
+0:00:00 - Introduction and welcoming
 
-0:03 - What is Software testing ?
+0:03:00 - What is Software testing ?
 
-0:06 - History of Software testing ?
+0:06:00 - History of Software testing ?
 
-0:08 - Difference between debugging and testing
+0:08:00 - Difference between debugging and testing
 
-0:09 - Why do we need to test ?
+0:09:00 - Why do we need to test ?
 
-0:22 - Manual tests ?
+0:22:00 - Manual tests ?
 
-0:28 - Automated tests ?
+0:28:00 - Automated tests ?
 
-0:31 - Software testing lifecycle ? What do we automate in testing ? Relation between automated tests and CI ?
+0:31:00 - Software testing lifecycle ? What do we automate in testing ? Relation between automated tests and CI ?
 
-0:49 - Types of automated tests ?
+0:49:00 - Types of automated tests ?
 
-0:59 - TDD vs BDD ? Testing strategy ?
+0:59:00 - TDD vs BDD ? Testing strategy ?
 
-1:11 - Testing metrics ?
+1:11:00 - Testing metrics ?
 
-1:19 - Popular tools used in automated testing of web applications ? APIs ? Desktop applications ?
+1:19:00 - Popular tools used in automated testing of web applications ? APIs ? Desktop applications ?
 
-1:31 - Ressources to start in QA engineering ?
+1:31:00 - Ressources to start in QA engineering ?
 
-1:54 - Wrap up and goodbye
+1:54:00 - Wrap up and goodbye
 
 ## Prepared and Presented by
 

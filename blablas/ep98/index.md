@@ -21,7 +21,7 @@ During this episode we will go over common security breaches where the weakest s
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:07:00 - Exciting security news: Log4j zero-day exploit meltdown.
 

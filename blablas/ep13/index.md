@@ -16,35 +16,35 @@ In this episode, Geeksblabla team talks about the Open source licenses & standar
 
 ## Notes
 
-00:00 - Introduction : Welcoming to the new season
+00:00:00 - Introduction : Welcoming to the new season
 
-00:01 - What is Software licensing ?
+00:01:00 - What is Software licensing ?
 
-00:02 - Does writing code with no license gives the right to others to use it ?
+00:02:00 - Does writing code with no license gives the right to others to use it ?
 
-00:05 - What's the history of Open Source Licensing ?
+00:05:00 - What's the history of Open Source Licensing ?
 
-00:09 - Difference between Open Source Software, Free Software & Freeware (Gratis software) ?
+00:09:00 - Difference between Open Source Software, Free Software & Freeware (Gratis software) ?
 
-00:14 - Families of Open source Licenses
+00:14:00 - Families of Open source Licenses
 
-00:16 - Copyright and copyleft, what's the difference ?
+00:16:00 - Copyright and copyleft, what's the difference ?
 
-00:19 - GPL, AGPL and LGPL ?
+00:19:00 - GPL, AGPL and LGPL ?
 
-00:23 - Are licenses related to territories ? (International and national licenses)
+00:23:00 - Are licenses related to territories ? (International and national licenses)
 
-00:25 - Does GPL gives freedom to commercial companies ?
+00:25:00 - Does GPL gives freedom to commercial companies ?
 
-00:26 - Is using multiple licenses in one project possible ?
+00:26:00 - Is using multiple licenses in one project possible ?
 
-00:32 - How to make sure other people are following my license ?
+00:32:00 - How to make sure other people are following my license ?
 
-00:40 - How open source licenses problems are solved legally in Morocco ?
+00:40:00 - How open source licenses problems are solved legally in Morocco ?
 
-00:45 - How to chose the license that fits the most my project ?
+00:45:00 - How to chose the license that fits the most my project ?
 
-00:53 - Why should I mark my projects with Open Source License ?
+00:53:00 - Why should I mark my projects with Open Source License ?
 
 ## Links
 

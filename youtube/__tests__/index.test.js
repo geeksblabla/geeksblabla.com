@@ -1,6 +1,6 @@
 const path = require("path")
 
-const getEpisodeDetails = require("../episode-details/get-episode-details")
+const getEpisodeDetails = require("../episode-details")
 
 describe("Youtube workflow ", () => {
   test("should return the correct episode description and youtube url ", () => {

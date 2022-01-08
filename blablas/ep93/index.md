@@ -18,40 +18,37 @@ In this episode of GeeksBlaBla, we discuss with our guests about Reactive progra
 
 - [Ilyasse Benrkia](https://twitter.com/benrkiailyasse)
 
-
-
 ## Notes
 
-0:01 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
-0:04 - What does reactive mean in programming?
+0:04:00 - What does reactive mean in programming?
 
-0:10 - Where is it used?
+0:10:00 - Where is it used?
 
-0:15 - What does RP solve?
+0:15:00 - What does RP solve?
 
-0:25 - Advantages and disadvantages of Reactive programming 
+0:25:00 - Advantages and disadvantages of Reactive programming
 
-0:34 - Reactive programming in Java/JS/Angular
+0:34:00 - Reactive programming in Java/JS/Angular
 
-0:46 - Reactive programming vs Functional programming
+0:46:00 - Reactive programming vs Functional programming
 
-1:05 - Main concepts behind this paradigm, and Observer patterns
+1:05:00 - Main concepts behind this paradigm, and Observer patterns
 
-1:18 - Differences between Event-Driven Programming and Reactive Programming
+1:18:00 - Differences between Event-Driven Programming and Reactive Programming
 
-1:22 - Reactive programming most used libraries, is it polyglot ?
+1:22:00 - Reactive programming most used libraries, is it polyglot ?
 
-1:29 - Some Reactive programming libraries
+1:29:00 - Some Reactive programming libraries
 
-1:36 - How can Reactive programming make us better programmers?
+1:36:00 - How can Reactive programming make us better programmers?
 
-1:52 - Difference between Cold and Hot Observables
+1:52:00 - Difference between Cold and Hot Observables
 
-1:56 - Is subjects like Observables
+1:56:00 - Is subjects like Observables
 
-2:05- Wrap up and goodbye
-
+2:05:00- Wrap up and goodbye
 
 ## Links
 
@@ -64,7 +61,6 @@ In this episode of GeeksBlaBla, we discuss with our guests about Reactive progra
 - [Reactive Streams](https://www.reactive-streams.org/)
 
 - [The Reactive Manifesto](https://www.reactivemanifesto.org/)
-
 
 ## Prepared and Presented by
 

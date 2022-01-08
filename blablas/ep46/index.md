@@ -26,31 +26,31 @@ In this episode of GeeksBlabla, we discuss Mobile development with some Amazing 
 
 ## Notes
 
-0:00 - Introduction and welcoming.
+0:00:00 - Introduction and welcoming.
 
-0:08 - Mobile Development? History?
+0:08:00 - Mobile Development? History?
 
-0:14 - Mobile Development and how it’s different from Web or desktop development (challenges).
+0:14:00 - Mobile Development and how it’s different from Web or desktop development (challenges).
 
-0:23 - State of Mobile Dev in Morocco and worldwide (jobs, technologies salaries)
+0:23:00 - State of Mobile Dev in Morocco and worldwide (jobs, technologies salaries)
 
-0:47 - Solution for Mobile Development(Native, Cross-platform, hybrid, PWA)
+0:47:00 - Solution for Mobile Development(Native, Cross-platform, hybrid, PWA)
 
-0:55 - Flutter
+0:55:00 - Flutter
 
-1:09 - Native Development (Android)
+1:09:00 - Native Development (Android)
 
-1:15 - React Native
+1:15:00 - React Native
 
-1:21 - Cross Platform issues with upgrade.
+1:21:00 - Cross Platform issues with upgrade.
 
-1:34 - Fuchsia and the future of Android.
+1:34:00 - Fuchsia and the future of Android.
 
-1:36 - Build and distribute Mobile Apps
+1:36:00 - Build and distribute Mobile Apps
 
-1:39 - Code Push
+1:39:00 - Code Push
 
-1:47 - QA.
+1:47:00 - QA.
 
 ## Links
 

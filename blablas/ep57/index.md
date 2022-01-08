@@ -28,55 +28,55 @@ In this episode of GeeksBlabla, we discuss with our guests the different career 
 
 ## Notes
 
-0:01 - Introduction.
+0:00:00 - Introduction.
 
-0:02 - What are the career progressions for software developers/engineers in the tech industry and how much time does it take to progress from one level to another?
+0:02:00 - What are the career progressions for software developers/engineers in the tech industry and how much time does it take to progress from one level to another?
 
-0:19 - What are the common mistakes developers and software engineers do in their career?
+0:19:00 - What are the common mistakes developers and software engineers do in their career?
 
-0:28 - Why learning english is a must when it comes to software engineering?
+0:28:00 - Why learning english is a must when it comes to software engineering?
 
-0:29 - Generalist vs Specialist in the tech industry.
+0:29:00 - Generalist vs Specialist in the tech industry.
 
-0:35 - A mistake to avoid if you want to be taken seriously as a software engineer/developer.
+0:35:00 - A mistake to avoid if you want to be taken seriously as a software engineer/developer.
 
-0:38 - What are the different kinds of companies a software engineer/developer could work for?
+0:38:00 - What are the different kinds of companies a software engineer/developer could work for?
 
-0:40 - Tell us about your experience working for a services company and how was the career progression system like?
+0:40:00 - Tell us about your experience working for a services company and how was the career progression system like?
 
-0:44 - What exactly is a services comapany?
+0:44:00 - What exactly is a services comapany?
 
-0:49 - The career path of software engineer in a product company.
+0:49:00 - The career path of software engineer in a product company.
 
-0:56 - What are the different types of product companies?
+0:56:00 - What are the different types of product companies?
 
-0:59 - Career evolutions in product companies.
+0:59:00 - Career evolutions in product companies.
 
-1:04 - Global Distribution System and why airplane tickets can get very expensive?
+1:04:00 - Global Distribution System and why airplane tickets can get very expensive?
 
-1:06 - Software engineers in Startups.
+1:06:00 - Software engineers in Startups.
 
-1:10 - How the implementation of General Data Protection Regulation impacted Startups?
+1:10:00 - How the implementation of General Data Protection Regulation impacted Startups?
 
-1:15 - Advice for Startups employees.
+1:15:00 - Advice for Startups employees.
 
-1:18 - What should I look for when it comes to Startup equity?
+1:18:00 - What should I look for when it comes to Startup equity?
 
-1:26 - If there are no well-defined rules in a company regarding advancement in the hierarchy, how can we progress?
+1:26:00 - If there are no well-defined rules in a company regarding advancement in the hierarchy, how can we progress?
 
-1:28 - What are the optimal career paths for someone who would like to work in Europe?
+1:28:00 - What are the optimal career paths for someone who would like to work in Europe?
 
-1:32 - Freelance career path for software engineers?
+1:32:00 - Freelance career path for software engineers?
 
-1:38 - Public organizations and software engineering.
+1:38:00 - Public organizations and software engineering.
 
-1:44 - What are the disadvantages of working in public organizations after graduation?
+1:44:00 - What are the disadvantages of working in public organizations after graduation?
 
-1:46 - How companies invest in your learning/training?
+1:46:00 - How companies invest in your learning/training?
 
-1:57 - How to evolve as an infrastructure junior engineer?
+1:57:00 - How to evolve as an infrastructure junior engineer?
 
-1:59 - Wrap up and goodbye.
+1:59:00 - Wrap up and goodbye.
 
 ## Links
 

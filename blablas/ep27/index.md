@@ -23,21 +23,21 @@ In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To 
 
 ## Notes
 
-00:00 - Introduction: Welcoming, guests intro.
+00:00:00 - Introduction: Welcoming, guests intro.
 
-00:05 - What is an Indie hacking, Side Project and side Product?
+00:05:00 - What is an Indie hacking, Side Project and side Product?
 
-00:16 - My first Step as an indie Hacker: How to get started?
+00:16:00 - My first Step as an indie Hacker: How to get started?
 
-00:24 - How to get and stay motived ?
+00:24:00 - How to get and stay motived ?
 
-00:32 - Working alone vs finding a partner, and how to find a partner ( co-founder)
+00:32:00 - Working alone vs finding a partner, and how to find a partner ( co-founder)
 
-00:36 - When to take a side project "seriously" and start working on it full time ? What are the metrics to track ?
+00:36:00 - When to take a side project "seriously" and start working on it full time ? What are the metrics to track ?
 
-00:39 - What skills do you need to launch a successful side project ?
+00:39:00 - What skills do you need to launch a successful side project ?
 
-00:45 - Side Project Step by Step:
+00:45:00 - Side Project Step by Step:
 
         * Validate Your idea
         * MVP
@@ -45,11 +45,11 @@ In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To 
         * B2B vs B2C
         * Go Public & Share your product
 
-01:18 - QA
+01:18:00 - QA
 
-01:26 - Successful side Project by Moroccan Makers.
+01:26:00 - Successful side Project by Moroccan Makers.
 
-01:33 - Resources
+01:33:00 - Resources
 
 ## Links
 

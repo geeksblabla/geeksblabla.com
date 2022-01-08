@@ -18,47 +18,47 @@ In this episode of GeeksBlabla, Geeksblabla team with the amazing Ahmed and Mouk
 
 ## Notes
 
-0:00 - Introduction and guests intro
+0:00:00 - Introduction and guests intro
 
-0:06 - What are the different kinds of freelancing?
+0:06:00 - What are the different kinds of freelancing?
 
-0:09 - How can you find your first freelancing client?
+0:09:00 - How can you find your first freelancing client?
 
-0:12 - How to deal with the contract and paperwork when finding a Client?
+0:12:00 - How to deal with the contract and paperwork when finding a Client?
 
-0:20 - How to professionally deal with clients?
+0:20:00 - How to professionally deal with clients?
 
-0:26 - What pay interval can Moroccan freelancers expect?
+0:26:00 - What pay interval can Moroccan freelancers expect?
 
-0:27 - How Freelancers can manage savings for retirement and insurance etc?
+0:27:00 - How Freelancers can manage savings for retirement and insurance etc?
 
-0:33 - How to determine the project's scope and effectively estimate cost and time?
+0:33:00 - How to determine the project's scope and effectively estimate cost and time?
 
-0:38 - How to ensure that the client will pay and how to deal with them when they refuse to pay?
+0:38:00 - How to ensure that the client will pay and how to deal with them when they refuse to pay?
 
-0:46 - How can you scale and boost your career as a freelancer?
+0:46:00 - How can you scale and boost your career as a freelancer?
 
-0:53 - Can I be employed and still work as a freelancer?
+0:53:00 - Can I be employed and still work as a freelancer?
 
-0:55 - What's the perfect time to make the switch and become a freelancer?
+0:55:00 - What's the perfect time to make the switch and become a freelancer?
 
-0:58 - What advice can you give to beginners to land their first gig?
+0:58:00 - What advice can you give to beginners to land their first gig?
 
-0:59 - Is part-time freelancing possible with Moroccan clients?
+0:59:00 - Is part-time freelancing possible with Moroccan clients?
 
-1:00 - Are there teams that work on big freelancing projects?
+1:00:00 - Are there teams that work on big freelancing projects?
 
-1:01 - Is it better to work with one client for a long period of time or multiple clients for shorter periods of time?
+1:01:00 - Is it better to work with one client for a long period of time or multiple clients for shorter periods of time?
 
-1:02 - What are the required skills to start a freelancing business as a software architect?
+1:02:00 - What are the required skills to start a freelancing business as a software architect?
 
-1:06 - What is the difference between working as an "Autoentrepreneur" or open a web development agency?
+1:06:00 - What is the difference between working as an "Autoentrepreneur" or open a web development agency?
 
-1:07 - What's the difference between Moroccan and international freelance opportunities?
+1:07:00 - What's the difference between Moroccan and international freelance opportunities?
 
-1:09 - Learn to always educate and depend on yourself!
+1:09:00 - Learn to always educate and depend on yourself!
 
-1:10 - Outro and wrap up.
+1:10:00 - Outro and wrap up.
 
 ## Links
 
