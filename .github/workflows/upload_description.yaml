@@ -1,0 +1,50 @@
+name: Upload description to Youtube
+
+on:
+  workflow_dispatch:
+  push:
+    #branches: [master]
+    paths:
+      - "blablas/**"
+
+jobs:
+  detect_changes:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: jitterbit/get-changed-files@v1
+        continue-on-error: true
+        id: files
+    outputs:
+      added_modified: ${{ steps.files.outputs.added_modified }}
+
+  upload_description:
+    runs-on: ubuntu-18.04
+    needs: detect_changes
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        name: Install node
+        with:
+          node-version: "14"
+          cache: "yarn"
+
+      - name: Install Deps
+        run: yarn install
+
+      - name: Extract descriptions and URLs
+        id: extract_descriptions_and_urls
+        env:
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          REDIRECT_URL: ${{ secrets.REDIRECT_URL }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+        run: |
+          echo "Changed files"
+          echo ${{ needs.detect_changes.outputs.added_modified }}
+          for changed_file in ${{ needs.detect_changes.outputs.added_modified }}; do
+            if echo $changed_file | grep -q "blablas"; then
+              yarn upload-description-to-youtube $changed_file
+            fi
+          done

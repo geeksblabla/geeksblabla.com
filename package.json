@@ -11,10 +11,11 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "test": "jest",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "upload-to-anchor": "node ./podcast/index.js"
+    "upload-to-anchor": "node ./podcast/index.js",
+    "upload-description-to-youtube": "node ./youtube/index.js"
   },
   "husky": {
     "hooks": {
@@ -50,9 +51,11 @@
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-sharp": "^2.3.9",
     "gatsby-transformer-yaml": "^2.2.20",
+    "googleapis": "^92.0.0",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
     "isomorphic-fetch": "^2.2.1",
+    "markdown-to-txt": "^2.0.0",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
     "node-sass": "^4.13.0",
@@ -75,14 +78,20 @@
   },
   "devDependencies": {
     "all-contributors-cli": "^6.11.2",
+    "babel-jest": "^27.4.5",
+    "babel-preset-gatsby": "^2.4.0",
     "eslint-plugin-graphql": "^3.1.1",
     "front-matter": "^3.1.0",
     "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-sentry": "^1.0.1",
     "husky": "^4.2.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.4.5",
+    "marked": "^4.0.8",
     "prettier": "^2.0.4",
     "pretty-quick": "^2.0.1",
     "puppeteer": "^10.0.0",
+    "react-test-renderer": "^17.0.2",
     "rss-parser": "^3.7.6",
     "showdown": "^1.9.1"
   },
