@@ -26,7 +26,7 @@ In this episode of GeeksBlaBla with our community members Ahmed, Ismail, Smakosh
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:05:00 - What is self-branding?
 

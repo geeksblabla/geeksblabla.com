@@ -20,7 +20,7 @@ In this episode, we talk about Open Source and the annual event Hacktoberfest. W
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:04:00 - What is hacktoberfest
 

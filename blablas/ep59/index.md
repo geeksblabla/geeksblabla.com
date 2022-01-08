@@ -26,7 +26,7 @@ Ask Me Anything episode #5 with our community members and guests Youssouf, Abder
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:04:00 - How have you heard about Facebook Developer Circles Community Challenge?
 

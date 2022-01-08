@@ -24,7 +24,7 @@ Ask Me Anything episode #4 with our community members Youssouf, Meriem, Abdelfet
 
 ## Notes
 
-0:01:00 - Introduction
+0:00:00 - Introduction
 
 0:03:00 - What is going on with TikTok?
 

@@ -31,7 +31,7 @@ In this episode of GeeksBlabla, we discuss with our guests what is it like to wo
 
 ## Notes
 
-0:01:00 - Introduction
+0:00:00 - Introduction
 
 0:04:00 - What is your academic background and where have you worked in Morocco?
 

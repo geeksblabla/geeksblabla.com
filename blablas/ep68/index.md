@@ -24,7 +24,7 @@ In this episode of GeeksBlabla, we invited Diaa Alhak El Fallous and Othmane Kin
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:04:00 - What do we mean with Productivity?
 

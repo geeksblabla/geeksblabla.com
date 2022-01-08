@@ -26,7 +26,7 @@ Ask Me Anything episode #3 with our community members Mohammed, Ismail and Youss
 
 ## Notes
 
-0:02:00 - Introduction
+0:00:00 - Introduction
 
 0:05:00 - Share with us your latest experiences.
 

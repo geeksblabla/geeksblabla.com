@@ -22,6 +22,8 @@ In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of U
 
 ## Notes
 
+0:00:00 - Intro and welcoming
+
 0:03:00 - Who is Yassine El Kachchani?
 
 0:06:00 - Were you interested in entrepreneurship as a student?

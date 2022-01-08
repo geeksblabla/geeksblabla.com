@@ -22,7 +22,7 @@ In this episode of GeeksBlaBla, we discuss coding Bootcamps in morocco; what you
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:05:00 - What is a Bootcamp?
 

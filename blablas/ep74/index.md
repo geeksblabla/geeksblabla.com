@@ -26,7 +26,7 @@ In this episode, we talk about Monitoring, what is it about, what to consider in
 
 ## Notes
 
-0:02:00 - Introduction.
+0:00:00 - Introduction.
 
 0:05:00 - What is Monitoring?
 

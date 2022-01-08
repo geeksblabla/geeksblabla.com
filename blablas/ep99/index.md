@@ -23,7 +23,7 @@ In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev
 
 ## Notes
 
-0:02:00 - Introduction
+0:00:00 - Introduction
 
 0:05:00 - Overview
 

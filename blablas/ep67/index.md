@@ -26,7 +26,7 @@ Tech News & AMA #6 with our community members Abderrahim, Youssouf, Abderrahim, 
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:04:00 - New WhatsApp Privacy.
 

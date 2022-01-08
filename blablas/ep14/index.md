@@ -24,7 +24,7 @@ In this episode of GeeksBlabla, team talks about the Software security, definiti
 
 ## Notes
 
-00:01:00 - Introduction
+00:00:00 - Introduction
 
 00:05:00 - What is software security?
 

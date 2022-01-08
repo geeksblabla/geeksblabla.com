@@ -26,7 +26,7 @@ Tech News & AMA #11 with our community members Mohamed, Abderahim and Youssouf .
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:03:00 - Updates from our guests about their new job experience.
 

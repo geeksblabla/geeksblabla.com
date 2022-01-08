@@ -23,7 +23,7 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 
 ## Notes
 
-00:01:00 - Introduction & Guests presentation
+00:00:00 - Introduction & Guests presentation
 
 00:04:00 - When and how they know Programming ?
 

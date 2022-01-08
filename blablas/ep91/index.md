@@ -18,7 +18,7 @@ In this episode of GeeksBlaBla we answer many questions around AI & ML, their fi
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:04:00 - Typical day of a data scientist
 

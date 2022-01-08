@@ -24,7 +24,7 @@ In the 77 Episode of GeeksBlaBla , We're taking a look at the landscape of Low C
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:09:00 - Why It took no Code / Low Code trends all these years to reach the mainstream?
 

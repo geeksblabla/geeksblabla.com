@@ -28,7 +28,7 @@ In this episode of GeeksBlabla, we discuss with our guests, Open Source and the 
 
 ## Notes
 
-0:02:00 - Introduction
+0:00:00 - Introduction
 
 0:06:00 - Tell us about your first experience with Open Source.
 

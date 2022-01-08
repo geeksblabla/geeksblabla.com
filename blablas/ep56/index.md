@@ -22,7 +22,7 @@ In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently S
 
 ## Notes
 
-0:02:00 - Introduction and welcome=ing
+0:00:00 - Introduction and welcome=ing
 
 0:02:00 - Who is Mehdi Belmekki ?
 

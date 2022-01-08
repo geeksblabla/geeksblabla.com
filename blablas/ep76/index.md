@@ -26,7 +26,7 @@ Tech News & AMA #9 with our community members Ahmed, Mohamed and Othman. During 
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:03:00 - NFTs
 

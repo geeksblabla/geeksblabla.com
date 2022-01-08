@@ -24,7 +24,7 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf, Mohamed, mo
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:04:00 - Community friends updates
 

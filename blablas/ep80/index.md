@@ -30,7 +30,7 @@ Tech News & AMA #10 with our community members Mohamed,Meriem , soufiane, Abdera
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:03:00 - updates from our guests about their learning experience in the last months.
 

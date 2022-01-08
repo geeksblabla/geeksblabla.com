@@ -26,7 +26,7 @@ On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite
 
 ## Notes
 
-00:01:00 - Guests presentation
+00:00:00 - Guests presentation
 
 00:04:00 - Difference between AI and Machine learning
 

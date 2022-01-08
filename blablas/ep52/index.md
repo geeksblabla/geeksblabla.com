@@ -26,7 +26,7 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 ## Notes
 
-0:01:00 - Introduction
+0:00:00 - Introduction
 
 0:03:00 - What exactly is .NET?
 

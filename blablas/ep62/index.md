@@ -24,7 +24,7 @@ In this episode of GeeksBlabla, we discuss with our guests Karim Mouhssine and M
 
 ## Notes
 
-0:02:00 - Introduction
+0:00:00 - Introduction
 
 0:03:00 - What is PhD, How long does it take, Objective of a PHD and How to apply for a CS PHD in Morocco ?
 

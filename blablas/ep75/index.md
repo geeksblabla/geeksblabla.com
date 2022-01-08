@@ -26,7 +26,7 @@ In this episode, we talk about Certificates in the IT field; why should you care
 
 ## Notes
 
-0:02:00 - Introduction.
+0:00:00 - Introduction.
 
 0:10:00 - Why should you care about certifications?
 

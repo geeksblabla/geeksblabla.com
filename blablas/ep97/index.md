@@ -27,7 +27,7 @@ We talk about the end of study internship(PFE) in this episode. How to find a go
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:15:00 - What are the main goals of an end of studies internship?
 

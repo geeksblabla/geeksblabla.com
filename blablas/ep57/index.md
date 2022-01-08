@@ -28,7 +28,7 @@ In this episode of GeeksBlabla, we discuss with our guests the different career 
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:02:00 - What are the career progressions for software developers/engineers in the tech industry and how much time does it take to progress from one level to another?
 

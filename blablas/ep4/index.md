@@ -20,7 +20,7 @@ In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about
 
 ## Notes
 
-00:01:00 - Who is Mohamed Zakariae El Khdime?
+00:00:00 - Who is Mohamed Zakariae El Khdime?
 
 00:03:00 - What is your academic background?
 

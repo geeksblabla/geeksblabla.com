@@ -28,7 +28,7 @@ In this special episode, we highlight the hidden category in Tech in general, Wo
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:03:00 - How did you become interested in engineering
 

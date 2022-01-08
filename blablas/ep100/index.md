@@ -25,7 +25,7 @@ In this episode of GeeksBlabla, we celebrate the 100th episode, we discussed how
 
 ## Notes
 
-0:02:00 - Introduction
+0:00:00 - Introduction
 
 0:04:00 - How the podcast started?
 

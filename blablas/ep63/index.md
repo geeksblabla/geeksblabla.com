@@ -28,7 +28,7 @@ Tech News & AMA #6 with our community members Meriem, Youssouf, Abderrahim, Abde
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:04:00 - Biggest Tech News in 2020 and the impact of COVID-19.
 

@@ -17,7 +17,7 @@ On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amin
 
 ## Notes
 
-00:02:00 - Introduction
+00:00:00 - Introduction
 
 00:07:00 - Codebase
 

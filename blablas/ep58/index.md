@@ -26,7 +26,7 @@ In this episode of GeeksBlabla, we will discover with our guests how the Interne
 
 ## Notes
 
-0:02:00 - Introduction.
+0:00:00 - Introduction.
 
 0:07:00 - Briefly, how does the Internet work?
 

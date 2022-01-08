@@ -26,7 +26,7 @@ In this episode of GeeksBlaBla with our community members Wassim, Ismail, Abdera
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:06:00 - The power of javascript and the secret behind it
 

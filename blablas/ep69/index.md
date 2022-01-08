@@ -24,7 +24,7 @@ In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed D
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:03:00 - What is Python and what made it so famous?
 

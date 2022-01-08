@@ -22,7 +22,7 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf and Meriem. 
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:03:00 - What is Manara?
 

@@ -20,7 +20,7 @@ In this episode of GeeksBlaBla, we discuss with our guests about Reactive progra
 
 ## Notes
 
-0:01:00 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
 0:04:00 - What does reactive mean in programming?
 

@@ -28,7 +28,7 @@ Tech News & AMA #8 with our community members Ilyas, Othmane, Mehdi, Otmane, and
 
 ## Notes
 
-0:01:00 - Introduction.
+0:00:00 - Introduction.
 
 0:05:00 - New Social Media Platform: ClubHouse
 

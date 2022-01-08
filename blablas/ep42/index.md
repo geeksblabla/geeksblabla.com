@@ -24,7 +24,7 @@ Ask Me Anything episode #2 with our community members Mohammed and Abdelkader, D
 
 ## Notes
 
-0:02:00 - Introduction
+0:00:00 - Introduction
 
 0:04:00 - Which tech topic have you been interested in recently?
 
