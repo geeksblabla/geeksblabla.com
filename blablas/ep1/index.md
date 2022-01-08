@@ -17,7 +17,7 @@ On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Husse
 
 ## Notes
 
-00:00:00 - Introduction : Welcoming and presenting guests
+00:00:00 - Introduction and welcoming guests
 
 00:01:00 - What is Open source ?
 
@@ -40,8 +40,6 @@ On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Husse
 00:42:00 - What is the golden advices for a beginner contributor in open source projects ?
 
 00:49:00 - Is the code written inside company during 9-5 work belong to the developer or the company ?
-
-00:55:00 -
 
 ## Links
 
