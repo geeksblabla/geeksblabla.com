@@ -35,11 +35,11 @@ jobs:
       - name: Extract descriptions and URLs
         id: extract_descriptions_and_urls
         env:
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-          REDIRECT_URL: ${{ secrets.REDIRECT_URL }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+          CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          REDIRECT_URL: ${{ secrets.YOUTUBE_REDIRECT_URL }}
+          ACCESS_TOKEN: ${{ secrets.YOUTUBE_ACCESS_TOKEN }}
+          REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: |
           echo "Changed files"
           echo ${{ needs.detect_changes.outputs.added_modified }}
