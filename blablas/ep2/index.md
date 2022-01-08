@@ -20,7 +20,7 @@ In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redu
 
 ## Notes
 
-00:00:00 Introduction.
+00:00:00 Introduction and welcoming guests
 
 00:02:00 How he started programming ?
 
