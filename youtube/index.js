@@ -15,7 +15,7 @@ const syncEpisodeDescription = async () => {
   try {
     console.log(`👉  Parsing description and youtube URL from ${episodeFile}`)
     const { youtubeUrl, description } = getEpisodeDetails(episodeFile)
-    console.log(youtubeUrl, description)
+    console.log(description)
 
     console.log(`Uploading description to ${youtubeUrl}...`)
     await uploadDescription({ youtubeUrl, description })

@@ -53,7 +53,7 @@ contributor at Angular, Core contributor Nodejs and Ambassador for Auth0
 
 1:18:00 - (comments) Talking about web views, do you recommend specific one? (in Angular context) (Cordova, Capacitorjs)
 
-1:20:00 - (comments) What is the future of Web Assembly> It's time to jump and start learning it?
+1:20:00 - (comments) What is the future of Web Assembly, It's time to jump and start learning it?
 
 1:21:00 - Advice for geeksblabla community
 
