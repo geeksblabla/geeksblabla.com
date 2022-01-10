@@ -19,7 +19,6 @@ In this Episode of GeeksBlabla , we discussed how to make Apps for the Apple Eco
 
 - [Badre Belghiti Daha](https://www.linkedin.com/in/bbd-29674219)
 
-- [Otmane Fettal](https://twitter.com/ofettal)
 
 ## Notes
 
