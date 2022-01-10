@@ -42,6 +42,12 @@ In this Episode of GeeksBlabla , we discussed how to make Apps for the Apple Eco
 
 1:48:00 - Conclusion
 
+## Links
+
+- [Mobile Development Episode](https://geeksblabla.com/blablas/mobile-development)
+
+- [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+
 ## Prepared and Presented by
 
 - [Otmane Fettal](https://twitter.com/ofettal)
