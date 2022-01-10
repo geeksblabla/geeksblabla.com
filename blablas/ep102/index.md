@@ -1,5 +1,5 @@
 ---
-date: 2022-01-02
+date: 2022-01-09
 time: 20h:00min
 duration: "01:57:17"
 title: "Developing iOS Apps"
@@ -19,14 +19,13 @@ In this Episode of GeeksBlabla , we discussed how to make Apps for the Apple Eco
 
 - [Badre Belghiti Daha](https://www.linkedin.com/in/bbd-29674219)
 
-
 ## Notes
 
 0:00:00 - Introduction
 
 0:03:00 - The Apple Ecosystem
 
-0:09:45 - Apple vs Android developement 
+0:09:45 - Apple vs Android developement
 
 0:27:00 - How to Develop Apps for iOS
 
@@ -36,7 +35,7 @@ In this Episode of GeeksBlabla , we discussed how to make Apps for the Apple Eco
 
 1:21:00 - Hybrid iOS Developement
 
-1:27:00 - Web Developement vs Mobile Developement 
+1:27:00 - Web Developement vs Mobile Developement
 
 1:33:20 - Getting your App published into the Appstore
 
