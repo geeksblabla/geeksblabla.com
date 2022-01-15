@@ -87,7 +87,7 @@
     "husky": "^4.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.5",
-    "marked": "^4.0.8",
+    "marked": "^4.0.10",
     "prettier": "^2.0.4",
     "pretty-quick": "^2.0.1",
     "puppeteer": "^10.0.0",
