@@ -11,7 +11,7 @@ published: true
 featured: true
 ---
 
-In this episode, we’re gonna break down an easy-to-understand explanation of NFT, and all the ways Web3 could change the way the world works. Our guests will respond to these subjects related questions.
+In this episode, we’re going to break down an easy-to-understand explanation of NFT, and all the ways Web3 could change the way the world works. Then, our guests will respond to these subjects related questions.
 
 ## Guests
 
@@ -33,7 +33,7 @@ In this episode, we’re gonna break down an easy-to-understand explanation of N
 
 0:11:00 - Thoughts about when you first heard about web3.
 
-0:18:00 - How do you think it can revolutionise the future of the web in certain domains?
+0:18:00 - How do you think it can revolutionize the future of the web in certain domains?
 
 0:24:00 - Web3.0 and DApp transparency.
 
@@ -51,7 +51,7 @@ In this episode, we’re gonna break down an easy-to-understand explanation of N
 
 1:24:00 - NFT Derivatives.
 
-1:34:00 - What is Ethereum and how does it relate to NFT?
+1:34:00 - What is Ethereum, and how does it relate to NFT?
 
 1:39:00 - Limitations of NFT.
 
@@ -61,15 +61,13 @@ In this episode, we’re gonna break down an easy-to-understand explanation of N
 
 1:54:00 - Layer 2 (L2 solutions).
 
-2:00:00 - Now anything/nothing can be sold as NFT, do you think that it's now mainstream?
+2:00:00 - Now, anything/nothing can be sold as NFT. Do you think that it's now mainstream?
 
-2:09:00 - What if DeFi ?
+2:09:00 - What if DeFi?
 
-2:12:00 - What are the existing Defi apps ?
+2:12:00 - What are the existing Defi apps?
 
 2:15:00 - Uniswap/sushi swap.
-
-2:35:00 - Wrap up & Goodbye.
 
 ## Links
 
