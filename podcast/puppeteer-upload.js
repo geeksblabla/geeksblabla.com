@@ -39,10 +39,10 @@ const upload = async (episode) => {
   console.log("👉  Uploading audio file")
   await page.waitForTimeout(25 * 1000)
   await page.waitForFunction(
-    'document.querySelector(".styles__saveButton___lWrNZ").getAttribute("disabled") === null',
+    'document.querySelector(".styles__saveButton___SeocS").getAttribute("disabled") === null',
     { timeout: UPLOAD_TIMEOUT }
   )
-  await page.click(".styles__saveButton___lWrNZ")
+  await page.click(".styles__saveButton___SeocS")
   await navigationPromise
   console.log("👉  Adding title and description")
   await page.waitForSelector("#title")
