@@ -21,7 +21,6 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
-
 ## Notes
 
 0:00:00 - Introduction
@@ -30,15 +29,15 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 
 0:10:32 - Time management advice for beginners.
 
-0:21:00 - Yundax experience with Notion apps and making profitable projects.
+0:21:00 - Youssef experience with Notion apps and doing profitable projects.
 
 0:33:00 - Career advice about PFE internship on salesforce and its future for a developer.
 
 0:38:00 - Can a developer combine between Dev and DevOps?
 
-0:41:00 - K8s certifications: More valuable ones for a career (CNCK,CKAD, CKA or CKS).
+0:41:00 - K8s certifications: More valuable ones for a career (CNCK, CKAD, CKA, or CKS).
 
-0:44:00 - Does the school and/or diploma in IT matter ?
+0:44:00 - Does the school and diploma in IT matter?
 
 0:55:00 - Do developers need to learn about marketing in addition to programming?
 
@@ -46,7 +45,7 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 
 1:08:00 - First GDE in Morocco.
 
-1:13:00 - The maintainer of faker.js made a new version of the library that breaks the code just to send out an ideological message about Aaron Swartz (RIP), and the result is that GitHub shut him down entirely. WDYT?
+1:13:00 - faker.js story
 
 1:32:00 - Giveaway.
 
@@ -58,6 +57,18 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 
 1:59:00 - Wrap up & Goodbye
 
+## Picks
+
+- [Atomic Habit](https://jamesclear.com/atomic-habits)
+
+- [How to Get Rich](https://www.youtube.com/watch?v=1-TZqOsVCNM)
+
+- [Storytel](https://www.storytel.com/eg/ar/)
+
+- [The Ministry for the Future](https://www.amazon.com/Ministry-Future-Kim-Stanley-Robinson/dp/0316300136)
+
+- [Save to Notion](https://twitter.com/savetonotion)
+
 ## Links
 
 - [The Dark side of open source, What really happened to faker.js](https://www.youtube.com/watch?v=R6S-b_k-ZKY)
@@ -68,7 +79,7 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 
 - [GDE program application form](https://drive.google.com/file/d/10BX6nebskPv8Pc3gscSV1A35LwoFOP_y/view)
 
-- [Morocco’s Chari valued at $100M](https://techcrunch.com/2022/01/20/moroccos-chari-valued-at-100m-in-bridge-round-as-it-looks-to-pilot-bnpl-services/)
+- [Morocco’s Chari valued at \$100M](https://techcrunch.com/2022/01/20/moroccos-chari-valued-at-100m-in-bridge-round-as-it-looks-to-pilot-bnpl-services/)
 
 ## Prepared and Presented by
 
