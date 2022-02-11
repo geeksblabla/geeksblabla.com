@@ -10,7 +10,7 @@ youtube: https://www.youtube.com/watch?v=NaVuKdEd1H8
 published: true
 ---
 
-Tech News & AMA #13 with our community members Abderrahim, Youssouf, Mohamed, mohamed and Yasser. We discuss the latest Tech News during this episode, and we answer audience questions about programming, community, new technologies, and much more.
+Tech News & AMA #14 with our community members Abderrahim, Youssouf, Mohamed, mohamed and Yasser. We discuss the latest Tech News during this episode, and we answer audience questions about programming, community, new technologies, and much more.
 
 ## Guests
 
