@@ -2,7 +2,7 @@
 date: 2022-02-13
 time: 20h:00min
 duration: "1:50:11"
-title: "#106 - Amazon WEB Services"
+title: "Amazon WEB Services"
 tags: ["AWS", "geeksblabla", "Cloud", "Amazon", "Databases", "AI", "Serverless"]
 category: "dev"
 isNext: false
@@ -11,13 +11,14 @@ published: true
 featured: true
 ---
 
-On the 106th Episode of Geeksblabla we're having a discussion around Amazon Web Services , how it was launched , its strenghts and capabilities , as well as discussions around Serverless , Databases and AI/ML services in AWS.
+On the 106th Episode of Geeksblabla we're having a discussion around Amazon Web Services, how it was launched, its strenghts and capabilities, as well as discussions around Serverless, Databases and AI/ML services in AWS.
 
 ## Guests
 
 - [Ilyas Bakouch](https://twitter.com/isbkch)
 
 - [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
+
 
 ## Notes
 
@@ -44,12 +45,12 @@ On the 106th Episode of Geeksblabla we're having a discussion around Amazon Web 
 1:46:12 - Closing
 
 
-## Picks
-
-
 
 ## Links
 
+- [Ilyas Youtube Channel](https://twitter.com/isbkch)
+
+- [S7aba Podcast](https://s7aba.ma/)
 
 
 ## Prepared and Presented by
