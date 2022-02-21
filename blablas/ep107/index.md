@@ -37,7 +37,7 @@ In this special episode, our guests share with us some failures stories, How tho
 
 0:42:02 - Learnings from failure stories
 
-0:57:17 - Challenging the term `failure.`
+0:57:17 - Challenging the term failure.
 
 0:59:00 - How does society and the education system impact how we see failure?
 
