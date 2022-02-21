@@ -2,10 +2,10 @@ name: Sync Episode Notes with Youtube Description
 
 on:
   workflow_dispatch:
-  push:
-    branches: [master]
-    paths:
-      - "blablas/**"
+  # push:
+  #   branches: [master]
+  #   paths:
+  #     - "blablas/**"
 
 jobs:
   detect_changes:
