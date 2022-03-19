@@ -48,7 +48,11 @@ const upload = async (episode) => {
   await page.waitForSelector("#title")
   await page.type("#title", episode.title)
 
-  await page.click("label[for='description'] > div > div > button")
+//   await page.click("label[for='description'] > div > div > button")
+  const [switchToHTMLButton] = await page.$x("//button[contains(., 'HTML')]")
+  if (switchToHTMLButton) {
+    await switchToHTMLButton.click()
+  }
 
   await page.waitForSelector("textarea[name=description]")
   await page.type("textarea[name=description]", episode.description)
