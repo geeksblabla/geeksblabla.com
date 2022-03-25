@@ -4,7 +4,7 @@ time: 20h:00min
 duration: "1:29:52"
 title: "DigiGirlz x WIT 22"
 tags: ["dev", "WIT", "DigiGirlz"]
-category: "WIT"
+category: "career"
 isNext: false
 youtube: https://www.youtube.com/watch?v=G7SIYlXHx7Y
 published: true
