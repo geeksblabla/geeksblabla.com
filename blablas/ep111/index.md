@@ -2,7 +2,7 @@
 date: 2022-03-20
 time: 20h:00min
 duration: "1:29:52"
-title: "Service mesh demystified"
+title: "DigiGirlz x WIT 22 "
 tags: ["dev", "WIT", "DigiGirlz"]
 category: "WIT"
 isNext: false
