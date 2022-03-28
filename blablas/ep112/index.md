@@ -1,5 +1,5 @@
 ---
-date: 2022-01-23
+date: 2022-03-27
 time: 20h:00min
 duration: "1:06:12"
 title: "MSS with Amine Chouki"
@@ -8,10 +8,7 @@ category: "MSS"
 isNext: false
 youtube: https://www.youtube.com/watch?v=nPec-1y4YHg
 published: true
-video: "378713600565366"
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/378713600565366
-audio:
+
 ---
 
 In this episode of GeeksBlabla, we invited Amine Chouki, Staff Engineer - Docker, Inc.
