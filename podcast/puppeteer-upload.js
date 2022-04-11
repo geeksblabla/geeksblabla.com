@@ -1,3 +1,4 @@
+// inspired by https://github.com/Schrodinger-Hat/youtube-to-anchorfm/blob/main/index.js
 const path = require("path")
 const puppeteer = require("puppeteer")
 
@@ -36,19 +37,25 @@ const upload = async (episode) => {
 
   const inputFile = await page.$("input[type=file]")
   await inputFile.uploadFile(audioFile)
+
   console.log("👉  Uploading audio file")
   await page.waitForTimeout(25 * 1000)
-  await page.waitForFunction(
-    'document.querySelector(".styles__saveButton___SeocS").getAttribute("disabled") === null',
+  await page.waitForXPath(
+    '//button[text()="Save episode" and not(boolean(@disabled))]',
     { timeout: UPLOAD_TIMEOUT }
   )
-  await page.click(".styles__saveButton___SeocS")
+  const [saveButton] = await page.$x(
+    '//button[text()="Save episode" and not(boolean(@disabled))]'
+  )
+  await saveButton.click()
   await navigationPromise
+
   console.log("👉  Adding title and description")
-  await page.waitForSelector("#title")
+  await page.waitForSelector("#title", { visible: true })
+  await page.waitForTimeout(2000)
   await page.type("#title", episode.title)
 
-//   await page.click("label[for='description'] > div > div > button")
+  //   await page.click("label[for='description'] > div > div > button")
   const [switchToHTMLButton] = await page.$x("//button[contains(., 'HTML')]")
   if (switchToHTMLButton) {
     await switchToHTMLButton.click()
