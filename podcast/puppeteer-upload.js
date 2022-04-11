@@ -41,11 +41,11 @@ const upload = async (episode) => {
   console.log("👉  Uploading audio file")
   await page.waitForTimeout(25 * 1000)
   await page.waitForXPath(
-    "//button[contains(., 'Save changes') and not(boolean(@disabled))]",
+    "//button[contains(., 'Save episode') and not(boolean(@disabled))]",
     { timeout: UPLOAD_TIMEOUT }
   )
   const [saveButton] = await page.$x(
-    "//button[contains(., 'Save changes') and not(boolean(@disabled))]"
+    "//button[contains(., 'Save episode') and not(boolean(@disabled))]"
   )
   await saveButton.click()
   await navigationPromise
