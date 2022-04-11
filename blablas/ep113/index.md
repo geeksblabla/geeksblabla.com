@@ -8,7 +8,7 @@ category: "career"
 isNext: false
 youtube: https://www.youtube.com/watch?v=qAGmL2GGATo
 published: true
-
+featured: false
 ---
 
 In this episode of GeeksBlabla, we talk about tech talks; why you should care? How to choose a good topic? How to prepare and the right place to start.
@@ -32,13 +32,13 @@ In this episode of GeeksBlabla, we talk about tech talks; why you should care? H
 
 0:25:20 - How to choose a good topic?
 
-0:39:00 - When i can find open CFPs and places for my first talks? 
+0:39:00 - When i can find open CFPs and places for my first talks?
 
 0:53:00 - Tips to get accepted in a CFP
 
-1:04:00 - Preparing for a tech talk 
+1:04:00 - Preparing for a tech talk
 
-1:27:00 - Conclusion 
+1:27:00 - Conclusion
 
 
 ## Links

@@ -8,7 +8,6 @@ category: "career"
 isNext: false
 youtube: https://www.youtube.com/watch?v=G7SIYlXHx7Y
 published: true
-featured: false
 ---
 
 In this special episode, we honor the internation women's month. Our guest from Digigirlz will talk about their experience in such IT programs, and answer all of your questions.
