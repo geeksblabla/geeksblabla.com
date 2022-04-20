@@ -61,6 +61,7 @@ In this episode, we review one of the most famous books in IT; we discuss the "C
 - [Warp](https://www.warp.dev/)
 - [Dev Rel](https://www.devrelbook.com/)
 - [Beautiful Code](https://www.oreilly.com/library/view/beautiful-code/9780596510046/)
+- [Slimane Youtube Channel](https://www.youtube.com/channel/UCAKherxCCvXWHyGaeQKy-Jw) 
 
 ## Prepared and Presented by
 
