@@ -8,7 +8,7 @@ category: "book"
 isNext: false
 youtube: https://www.youtube.com/watch?v=oeuMCO4CYyg
 published: true
-featured: false
+featured: true
 ---
 
 In this episode, we review one of the most famous books in IT; we discuss the "Clean code" book. We highlight the main ideas, our experience with the book, and discussions around the clean code tricks and resources to write clean code.
