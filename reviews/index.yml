@@ -11,11 +11,11 @@
   role: Manager,
   organization: SGA Technologies & Services
 - name: Anas AIT BAHA
-  avatar: ./images/anas.png
+  avatar: ./images/anas.jpg
   review: |
     Geeks BlaBla is the best place where you can have an idea about whatever IT topic you want from experts, simplified enough!
   role: Software Engineer,
-  organization: SQLI
+  organization: Oracle Labs
 - name: El Housseine Jaafari
   avatar: ./images/jaafari.jpg
   review: |
