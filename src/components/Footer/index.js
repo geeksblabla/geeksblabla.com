@@ -25,16 +25,39 @@ export default ({ style }) => (
             <p>Follow</p>
             <ul>
               <li>
-                <a href={"https://www.youtube.com/c/GeeksBlaBla01"}>Youtube</a>
+                <a
+                  target={"_blank"}
+                  href={"https://www.youtube.com/c/GeeksBlaBla01"}
+                >
+                  Youtube
+                </a>
               </li>
               <li>
-                <a href={"https://www.facebook.com/geeksblabla/"}>Facebook</a>
+                <a target={"_blank"} href={"https://twitter.com/geeksblabla"}>
+                  Twitter
+                </a>
               </li>
               <li>
-                <a href={"https://twitter.com/geeksblabla"}>Twitter</a>
+                <a
+                  target={"_blank"}
+                  href={"https://www.linkedin.com/company/69317726/"}
+                >
+                  LinkedIn
+                </a>
               </li>
               <li>
-                <a href={"https://www.instagram.com/geeksblabla/?hl=fr"}>
+                <a
+                  target={"_blank"}
+                  href={"https://www.facebook.com/geeksblabla/"}
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  target={"_blank"}
+                  href={"https://www.instagram.com/geeksblabla/?hl=fr"}
+                >
                   Instagram
                 </a>
               </li>
@@ -42,20 +65,23 @@ export default ({ style }) => (
           </div>
 
           <div className={"Footer-main-community"}>
-            <p>Project community</p>
+            <p>More</p>
             <ul>
               <li>
                 <a target={"_blank"} href="https://www.stateofdev.ma">
-                  stateofdev
+                  StateOfDev.ma
                 </a>
               </li>
               <li>
                 <a target={"_blank"} href="https://www.blablaconf.com">
-                  blablaconf
+                  BlablaConf.com
                 </a>
               </li>
               <li>
-                <a target={"_blank"} href="https://www.awesome-morocco.com">
+                <a
+                  target={"_blank"}
+                  href="https://github.com/DevC-Casa/awesome-morocco"
+                >
                   awesome-morocco
                 </a>
               </li>
@@ -109,7 +135,7 @@ export default ({ style }) => (
       </div>
 
       <div className={"Footer-copyright"}>
-        <p>© DevC Casablanca 2018 - {new Date().getFullYear()}</p>
+        <p>© Geeksblabla 2018 - {new Date().getFullYear()}</p>
       </div>
     </div>
   </div>
