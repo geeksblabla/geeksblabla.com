@@ -56,7 +56,7 @@
     "graphql-tag": "^2.10.1",
     "isomorphic-fetch": "^2.2.1",
     "markdown-to-txt": "^2.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.27",
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
