@@ -1,14 +1,112 @@
 @import "styles/index";
 
-.footer {
+.Footer {
   background: var(--secondary-bg-color);
   color: var(--text-color);
-  padding: 2rem;
-  padding-bottom: 1rem;
+  padding: 0 4rem;
   text-align: center;
-  svg {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin: 0.4rem;
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+    width: 100%;
+  }
+
+  &-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+    gap: 25px;
+
+    &-links {
+      display: flex;
+      justify-content: center;
+      text-align: left;
+      gap: 20%;
+      flex: 1;
+    }
+
+    &-bloc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      box-sizing: border-box;
+    }
+
+    &-contribution {
+      margin: auto;
+    }
+
+    &-logo {
+      svg {
+        height: 90px;
+        width: auto;
+        margin: 0.4rem;
+      }
+    }
+  }
+  &-copyright {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem;
+
+    p {
+      margin: 0;
+      font-size: 0.8em;
+    }
+  }
+
+  @media screen and (max-width: 60em) {
+    &-main {
+      flex-direction: row;
+      gap: 50px 25px;
+
+      &-logo {
+        width: 100%;
+      }
+
+      &-links {
+        flex-direction: row;
+        text-align: left;
+        flex: 1;
+        gap: 50px;
+      }
+
+      &-contribution {
+        flex: 1;
+      }
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    &-main {
+      flex-direction: column;
+      gap: 50px;
+
+      &-logo {
+        width: 100%;
+      }
+
+      &-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+      }
+
+      &-contribution {
+        flex: 1;
+      }
+    }
+    &-copyright {
+      text-align: center;
+      justify-content: center;
+    }
   }
 }
