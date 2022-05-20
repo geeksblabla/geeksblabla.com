@@ -91,12 +91,12 @@ export default ({ style }) => (
 
         <div className={"Footer-main-contribution"}>
           <p>
-            <Link
-              to="https://github.com/DevC-Casa/geeksblabla.com"
-              rel="noopener"
+            <a
+              href="https://github.com/DevC-Casa/geeksblabla.com"
+              target={"_blank"}
             >
               Want to Contribute?
-            </Link>
+            </a>
           </p>
 
           <p>
@@ -109,8 +109,7 @@ export default ({ style }) => (
             By{" "}
             <a
               href="https://www.facebook.com/groups/DevC.Casablanca/"
-              target="_blank"
-              rel="noopener noreferrer"
+              target={"_blank"}
             >
               {" "}
               DevC Casa Team{" "}
@@ -124,12 +123,12 @@ export default ({ style }) => (
           </p>
           <p>
             Sourced on{" "}
-            <Link
-              to="https://github.com/DevC-Casa/geeksblabla.com"
-              rel="noopener"
+            <a
+              href="https://github.com/DevC-Casa/geeksblabla.com"
+              target="_blank"
             >
               GitHub
-            </Link>
+            </a>
           </p>
         </div>
       </div>
