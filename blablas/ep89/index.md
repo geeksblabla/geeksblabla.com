@@ -20,7 +20,7 @@ In this episode of GeeksBlaBla with our community members Wassim, Ismail, Abdera
 
 - [Soubai Abderahim](https://soubai.me)
 
-- [Abdullah Iraamane](https://www.facebook.com/abdullah.eraman)
+- [Abdullah Iraamane](https://www.linkedin.com/in/aairaamane/)
 
 - [Ismail Ghallou](https://twitter.com/smakosh)
 
