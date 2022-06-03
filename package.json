@@ -39,7 +39,7 @@
     "gatsby-plugin-algolia": "^0.20.1",
     "gatsby-plugin-feed": "^2.5.7",
     "gatsby-plugin-manifest": "^2.2.34",
-    "gatsby-plugin-mdx": "^1.0.64",
+    "gatsby-plugin-mdx": "^2.14.1",
     "gatsby-plugin-offline": "^3.0.30",
     "gatsby-plugin-preload-fonts": "^1.0.27",
     "gatsby-plugin-react-helmet": "^3.1.18",
