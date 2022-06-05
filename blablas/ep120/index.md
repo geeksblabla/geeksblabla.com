@@ -31,7 +31,7 @@ In this Episode , we will discover what quantum computers are and how they work.
 
 0:12:04 - Brief definition of quantum physics
 
-0:22:13 - How does quantum computers work ?
+0:22:13 - How do quantum computers work ?
 
 0:26:23 - Quantum supremacy and the cost of making quantum computers.
 
