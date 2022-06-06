@@ -27,25 +27,25 @@ In this Episode , we will discover what quantum computers are and how they work.
 
 0:01:34 - Guest Introduction
 
-0:02:52 - What is a quantum computer ?
+0:02:52 - What is a quantum computer?
 
 0:12:04 - Brief definition of quantum physics
 
-0:22:13 - How do quantum computers work ?
+0:22:13 - How do quantum computers work?
 
 0:26:23 - Quantum supremacy and the cost of making quantum computers.
 
-0:30:04 - What are Qubits and how they differ from normal bits ?
+0:30:04 - What are Qubits and how they differ from normal bits?
 
-0:32:50 - Can quantum computers replace ordinary computers ?
+0:32:50 - Can quantum computers replace ordinary computers?
 
-0:42:11 - In which fields are(/will) quantum computers mostly used ?
+0:42:11 - In which fields are(/will) quantum computers mostly used?
 
 0:56:07 - Q/A
 
-1:06:04 - Can anyone use quantum computers and how ?
+1:06:04 - Can anyone use quantum computers and how?
 
-1:10:50 - How do we program quantum computer (algorithms and programming languages) ?
+1:10:50 - How do we program quantum computer (algorithms and programming languages)?
 
 1:14:37 - Other recourses and tools to learn Quantum Computing
 
