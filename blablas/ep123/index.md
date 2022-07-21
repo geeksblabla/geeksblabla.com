@@ -4,7 +4,7 @@ time: 20h:00min
 duration: "1:29:18"
 title: "Create Great Documentation"
 tags: ["Dev", "geeksblabla"]
-category: "Dev"
+category: "dev"
 isNext: false
 youtube: https://www.youtube.com/watch?v=R52Rt-iFPgs&t=1106s
 published: true
