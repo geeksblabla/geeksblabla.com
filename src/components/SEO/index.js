@@ -1,4 +1,3 @@
-import path from "path"
 import React from "react"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
@@ -69,7 +68,7 @@ const SEO = ({
         : `${seo.canonicalUrl}/${seo.banner}`
 
       const url = postUrl
-        ? `${seo.canonicalUrl}${path.sep}${postUrl}`
+        ? `${seo.canonicalUrl}/${postUrl}`
         : seo.canonicalUrl
       const datePublished = false
 
