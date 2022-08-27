@@ -24,7 +24,7 @@ export default ({ content, repoLink }) => (
           rel="noopener noreferrer"
           href={repoLink}
         >
-          Edit notes on GitHub
+          ✍️ Edit on GitHub – PRs welcome!
         </a>
       </div>
     </React.Fragment>
