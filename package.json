@@ -15,7 +15,7 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "upload-to-anchor": "node ./podcast/index.js",
-    "upload-description-to-youtube": "node ./youtube/index.js"
+    "generate-youtube-description": "node ./youtube/index.js"
   },
   "husky": {
     "hooks": {

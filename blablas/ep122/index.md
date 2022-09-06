@@ -6,7 +6,7 @@ title: "Tech News & AMA #18"
 tags: ["AMA", "geeksblabla"]
 category: "AMA"
 isNext: false
-youtube: https://www.youtube.com/watch?v=M_Fndyna8VI&t=28s
+youtube: https://www.youtube.com/watch?v=M_Fndyna8VI
 published: true
 featured: false
 ---
