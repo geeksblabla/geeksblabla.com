@@ -4,7 +4,7 @@ time: 20h:00min
 duration: "1:30:27"
 title: "DevoxxMa Special"
 tags: ["Dev"]
-category: "DEV"
+category: "dev"
 isNext: false
 youtube: https://youtu.be/UaulAxzEvdk
 published: true
@@ -42,7 +42,7 @@ In this episode we dicuss DevoxxMA's return this year, news and other details wi
 
 1:27:26 - Geeksblabla Giveaway
 
-1:30:27 - Wrap up and Goodbye!
+1:29:00 - Wrap up and Goodbye!
 
 ## Links
 
