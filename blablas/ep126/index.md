@@ -3,7 +3,7 @@ date: 2022-09-18
 time: 20h:05min
 duration: "2:00:45"
 title: "All about Agile"
-tags: ["Dev"]
+tags: ["Dev","Agile","Project","Management"]
 category: "dev"
 isNext: false
 youtube: https://youtu.be/UcaHNJR7s-0
