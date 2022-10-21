@@ -98,6 +98,9 @@
   "keywords": [
     "gatsby"
   ],
+  "resolutions": {
+    "sharp": "0.31.1"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
