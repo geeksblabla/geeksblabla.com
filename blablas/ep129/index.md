@@ -15,7 +15,7 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 ## Guests
 
-- [Manal Benchrif](https://twitter.com/benchrifmanal)
+- [Manal Benchrif](https://www.linkedin.com/in/manalbenchrif/)
 
 - [Abderrahim soubai](https://www.soubai.me/)
 
