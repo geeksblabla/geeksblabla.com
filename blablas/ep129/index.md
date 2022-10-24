@@ -1,7 +1,7 @@
 ---
-date: 2022-07-24
+date: 2022-07-23
 time: 20h:00min
-duration: "1:57:20"
+duration: "1:57:21"
 title: "AMA & Tech News #20"
 tags: ["AMA", "geeksblabla"]
 category: "AMA"
