@@ -4,19 +4,21 @@ time: 20h:00min
 duration: "1:57:20"
 title: "AMA & Tech News #20"
 tags: ["AMA", "geeksblabla"]
-category: "dev"
+category: "AMA"
 isNext: false
 youtube: https://www.youtube.com/watch?v=FrhrvdQwmSo
 published: true
 featured: false
 ---
 
-In today's episode we dive into documentation, its rules, ethics, best practices and some tools that help to get started.
+Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and Manal. During this episode, we discuss 
 ## Guests
 
-- [Manal Benchrif](https://twitter.com/BadQuinn3)
+- [Manal Benchrif](https://twitter.com/benchrifmanal)
 
-- [Mohammed Aboullaite](https://twitter.com/laytoun)
+- [Abderrahim soubai](https://www.soubai.me/)
+
+- [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
 ## Notes
 
