@@ -52,9 +52,15 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 ## Links
 
-- [Technical Writing One introduction](https://developers.google.com/tech-writing/one)
-- [Bookstack](https://www.bookstackapp.com/)
-- [Docusaurus](https://docusaurus.io/)
+- [](https://cfp.blablaconf.com/)
+- [](https://geeksblabla.com/.../hacktoberfest-open-source-2021)
+- [](https://hacktoberfest.com/?fbclid=IwAR3W6o4ImjsK40Min99_hTt6tWrNT-atkdeso9xUjQDBiNbbwLoxOGZlo-M)
+- [Build Your First Sentiment Analysis Web App with Streamlit with Manal Benchrif |BlaBlaConf 2021](https://www.youtube.com/watch?v=5plMb36qvLM)
+- [MNPC 2022 Editorial](https://www.youtube.com/watch?v=QQLSbj1shHs&fbclid=IwAR3MRJ6eFhTJJH8JFswcZXV5t4M4M1WjsWts6ytZ0QnM99Md5ln7U_evAko)
+- [2022 State of the Java Ecosystem Report](https://newrelic.com/resources/report/2022-state-of-java-ecosystem?fbclid=IwAR02xExRGP71qS94gNiX765jJ2MBBILdmvLi6vecgOe8yLSEuek9KQRnLKk)
+- [stackblitz](https://stackblitz.com/codeflow?fbclid=IwAR0egKhHTfHSOEHDSKG1jD783L3fQ3Y5NNQzb5xyeKJ_JOVN89-YdBtwWi8)
+- [Top 5 Biggest Technology Trends In 2023 (Aikyo)](https://medium.com/@aikyo.io/top-5-biggest-technology-trends-in-2023-7242256b1834)
+- [rytr](https://rytr.me/?fbclid=IwAR36x8L6w4OZ9XQygrDN5I7qD-Xvj9ASnIsTrDu-h8Ag7l3FUrN-p_Cb13g)
 
 
 ## Prepared and Presented by
