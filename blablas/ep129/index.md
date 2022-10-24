@@ -11,7 +11,8 @@ published: true
 featured: false
 ---
 
-Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and Manal. During this episode, we discuss 2023 IT trends predictions , blablaconf , hacktoberfest-open-source ... 
+Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and Manal. During this episode, we discuss 2023 IT trends predictions, BlablaConf updates, Hacktoberfest, and much more.
+
 ## Guests
 
 - [Manal Benchrif](https://twitter.com/benchrifmanal)
@@ -24,6 +25,27 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 0:00:00 - Introduction and welcoming
 
+0:03:30 - Guests learning during last months
+
+0:06:00 - Hacktoberfest
+
+0:13:45 - Blablaconf update and call for speakers
+
+0:26:00 - Moroccan national programming contest 2022
+
+0:58:00 - State of Java report
+
+1:01:00 - React new async rendering
+
+1:10:00 - react query, qraphql, fetch, axios
+
+1:15:00 - QA
+
+1:23:40 - 2023 IT predictions
+
+1:48:50 - GeeksBlabla Picks
+
+1:44:00 - warming up and goodbye
 
 ## Links
 
@@ -37,7 +59,6 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 - [Top 5 Biggest Technology Trends In 2023 (Aikyo)](https://medium.com/@aikyo.io/top-5-biggest-technology-trends-in-2023-7242256b1834)
 - [rytr](https://rytr.me/?fbclid=IwAR36x8L6w4OZ9XQygrDN5I7qD-Xvj9ASnIsTrDu-h8Ag7l3FUrN-p_Cb13g)
 - [stateofdev](https://stateofdev.ma/)
-
 
 ## Prepared and Presented by
 
