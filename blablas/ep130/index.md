@@ -17,7 +17,7 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 - [bigfanjs](https://twitter.com/bigfanjs)
 
-- [Mohamed El Ayadi](https://www.linkedin.com/in/mohamed-el-ayadi-2a34749a?originalSubdomain=ma)
+- [Mohamed El Ayadi](https://www.linkedin.com/in/mohamed-el-ayadi-2a34749a/)
 
 
 ## Notes
@@ -27,6 +27,7 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 ## Links
 - [Frontend Masters](https://frontendmasters.com/)
+- [](
 - [How to learn typescript for react developers](https://elazizi.com/how-to-learn-type-script-for-react-developers)
 
 ## Prepared and Presented by
