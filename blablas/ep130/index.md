@@ -37,6 +37,7 @@ React JS Revisited with our community members Adel, Youssouf and Mohamed. During
 - [Cypress](https://www.cypress.io/)
 - [React fiber architecture](https://github.com/acdlite/react-fiber-architecture)
 - [Vite vs. Next + turbopack HMR Benchmark](https://github.com/yyx990803/vite-vs-next-turbo-hmr)
+- [Functional Light JS](https://github.com/getify/Functional-Light-JS)
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com/)
