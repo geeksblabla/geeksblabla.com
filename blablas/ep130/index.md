@@ -29,7 +29,7 @@ React JS Revisited with our community members Adel, Youssouf and Mohamed. During
 - [The Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react?fbclid=IwAR203siAUBKktmC610k6cWjVidvmXxxujwM5rsBXelgxq3pxeQGvBbaoxmA)
 - [How to learn typescript for react developers](https://elazizi.com/how-to-learn-type-script-for-react-developers)
 - [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS?fbclid=IwAR01y6xrO3WZJ9czBi9-TFDAkgpJmgLR50lCU3n9QHcvOvMasx9p-qdVc44)
-- [Figma to Code (HTML, Tailwind, Flutter, SwiftUI)](https://www.figma.com/community/plugin/842128343887142055/Figma-to-Code-(HTML%2C-Tailwind%2C-Flutter%2C-SwiftUI)
+- [Figma to Code : HTML, Tailwind, Flutter, SwiftUI](https://www.figma.com/community/plugin/842128343887142055/Figma-to-Code-(HTML%2C-Tailwind%2C-Flutter%2C-SwiftUI)
 
 ## Prepared and Presented by
 
