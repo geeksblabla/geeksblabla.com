@@ -15,9 +15,9 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 ## Guests
 
-- [bigfanjs]()
+- [bigfanjs](https://twitter.com/bigfanjs)
 
-- [Mohamed El Ayadi]()
+- [Mohamed El Ayadi](https://www.linkedin.com/in/mohamed-el-ayadi-2a34749a?originalSubdomain=ma)
 
 
 ## Notes
