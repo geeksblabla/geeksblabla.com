@@ -33,6 +33,7 @@ React JS Revisited with our community members Adel, Youssouf and Mohamed. During
 - [Formik](https://formik.org/)
 - [Ant design](https://ant.design/)
 - [Headless UI](https://headlessui.com/)
+- [Cypress](https://www.cypress.io/)
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com/)
