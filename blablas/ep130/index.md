@@ -11,8 +11,7 @@ published: true
 featured: false
 ---
 
-Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and Manal. During this episode, we discuss 2023 IT trends predictions, BlablaConf updates, Hacktoberfest, and much more.
-
+React JS Revisited with our community members Adel, Youssouf and Mohamed. During this episode, we discuss React Ecosystem , Next , Javascript , Typescript ...
 ## Guests
 
 - [bigfanjs](https://twitter.com/bigfanjs)
@@ -27,8 +26,9 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 ## Links
 - [Frontend Masters](https://frontendmasters.com/)
-- [](
+- [The Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react?fbclid=IwAR203siAUBKktmC610k6cWjVidvmXxxujwM5rsBXelgxq3pxeQGvBbaoxmA)
 - [How to learn typescript for react developers](https://elazizi.com/how-to-learn-type-script-for-react-developers)
+- [You Dont Know JS](https://github.com/getify/You-Dont-Know-JS?fbclid=IwAR01y6xrO3WZJ9czBi9-TFDAkgpJmgLR50lCU3n9QHcvOvMasx9p-qdVc44)
 
 ## Prepared and Presented by
 
