@@ -22,6 +22,7 @@ React JS Revisited with our community members Adel, Youssouf and Mohamed. During
 ## Notes
 
 0:00:00 - Introduction and welcoming
+1:46:00 - React News
 
 
 ## Links
