@@ -35,6 +35,7 @@ React JS Revisited with our community members Adel, Youssouf and Mohamed. During
 - [Ant design](https://ant.design/)
 - [Headless UI](https://headlessui.com/)
 - [Cypress](https://www.cypress.io/)
+- [React fiber architecture](https://github.com/acdlite/react-fiber-architecture)
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com/)
