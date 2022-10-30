@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-React JS Revisited with our community members Adel, Youssouf and Mohamed. During this episode, we discuss React Ecosystem : Next, Redux, Javascript, Typescript, tailwind ...
+React JS Revisited with our community members Adel, Youssouf and Mohamed. During this episode, we discuss React Ecosystem : Next, Redux, Javascript, Typescript, tailwind , State management ...
 ## Guests
 
 - [bigfanjs](https://twitter.com/bigfanjs)
