@@ -25,39 +25,39 @@ In this episode of GeeksBlabla, we discussed some ways to present your best self
 
 ## Notes
 
-0:00 - Introduction and welcoming.
+0:00:00 - Introduction and welcoming.
 
-0:08 - Types of interviews
+0:08:00 - Types of interviews
 
-0:22 - Things to do before and after the interview
+0:22:00 - Things to do before and after the interview
 
-0:29 - Types of technical interviews
+0:29:00 - Types of technical interviews
 
-0:52 - Tips for better communication with the recruiter
+0:52:00 - Tips for better communication with the recruiter
 
-1:00 - How to prepare for technical questions
+1:00:00 - How to prepare for technical questions
 
-1:19 - QA.
+1:19:00 - QA.
 
-1:46 - Tell Me About Yourself.
+1:46:00 - Tell Me About Yourself.
 
-1:52 - Why Should We Hire You?
+1:52:00 - Why Should We Hire You?
 
-1:54 - Why did you leave (or why are you leaving) your job?
+1:54:00 - Why did you leave (or why are you leaving) your job?
 
-1:55 - What Are Your Greatest Strengths and Weaknesses?
+1:55:00 - What Are Your Greatest Strengths and Weaknesses?
 
-2:01 - What are your goals?
+2:01:00 - What are your goals?
 
-2:04 - Can you talk about a technical challenge you faced and how you handled it?
+2:04:00 - Can you talk about a technical challenge you faced and how you handled it?
 
-2:06 - When was the last time you had a problem with a coworker ? How did you handle it?
+2:06:00 - When was the last time you had a problem with a coworker ? How did you handle it?
 
-2:09 - Salary expectation
+2:09:00 - Salary expectation
 
-2:20 - QA.
+2:20:00 - QA.
 
-2:43 - Conclusion and Goodbye.
+2:43:00 - Conclusion and Goodbye.
 
 ## Links
 

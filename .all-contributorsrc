@@ -355,6 +355,24 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "zakarialaoui10",
+      "name": "ZAKARIA ELALAOUI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63521765?v=4",
+      "profile": "https://www.instagram.com/zakarialaoui10/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "deleusec",
+      "name": "Corentin Deleuse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59571508?v=4",
+      "profile": "https://github.com/deleusec",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 5,

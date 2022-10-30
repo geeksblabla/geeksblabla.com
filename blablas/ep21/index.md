@@ -29,29 +29,29 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding i
 
 ## Notes
 
-00:00 - Introduction: Welcoming and presenting guests.
+00:00:00 - Introduction: Welcoming and presenting guests.
 
-00:08 - First year of school experience and some tips.
+00:08:00 - First year of school experience and some tips.
 
-00:28 - Tips to deal with upcoming years of school and The importance of self-learning.
+00:28:00 - Tips to deal with upcoming years of school and The importance of self-learning.
 
-00:36 - The importance of school degrees in the development field?
+00:36:00 - The importance of school degrees in the development field?
 
-00:38 - Freelancing while studying.
+00:38:00 - Freelancing while studying.
 
-00:40 - The importance of extracurricular activities in academic and professional careers.
+00:40:00 - The importance of extracurricular activities in academic and professional careers.
 
-00:50 - Are exams scores quite important for your professional careers?
+00:50:00 - Are exams scores quite important for your professional careers?
 
-00:58 - How to find a good end-of-school project (PFE) and prepare for the professional world ?
+00:58:00 - How to find a good end-of-school project (PFE) and prepare for the professional world ?
 
-01:11 - End-of-school project (PFE) in a multinational company Vs Startup.
+01:11:00 - End-of-school project (PFE) in a multinational company Vs Startup.
 
-01:19 - How to prepare for a good project presentation ?
+01:19:00 - How to prepare for a good project presentation ?
 
-01:26 - How to choose a good internship topic ?
+01:26:00 - How to choose a good internship topic ?
 
-01:32 - Wrap up and goodbye!
+01:32:00 - Wrap up and goodbye!
 
 ## Links
 

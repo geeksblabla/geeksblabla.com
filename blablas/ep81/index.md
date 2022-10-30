@@ -33,31 +33,31 @@ In this episode of GeeksBlabla, we discuss with our community members about lear
 
 ## Notes
 
-0:00 - Introduction and welcoming
+0:00:00 - Introduction and welcoming
 
-0:03 - Why is self-learning important for students and employers?
+0:03:00 - Why is self-learning important for students and employers?
 
-0:26 - Best ways to know what to learn and how to find your path on self-learning as a beginner?
+0:26:00 - Best ways to know what to learn and how to find your path on self-learning as a beginner?
 
-0:50 - how to form a self-learning habit?
+0:50:00 - how to form a self-learning habit?
 
-0:58 - RoadMap to follow while learning?
+0:58:00 - RoadMap to follow while learning?
 
-1:08 - Self-thought developers and issues with diplomats?
+1:08:00 - Self-thought developers and issues with diplomats?
 
-1:11 - Learning resources and how our guests approach learning new technologies?
+1:11:00 - Learning resources and how our guests approach learning new technologies?
 
-1:31 - How to filter learning resources?
+1:31:00 - How to filter learning resources?
 
-1:45 - Tools, tricks, and methodologies for learning consistency.
+1:45:00 - Tools, tricks, and methodologies for learning consistency.
 
-1:56 - What is enough while learning?
+1:56:00 - What is enough while learning?
 
-2:10 - How to manage your time, energy, and focus?
+2:10:00 - How to manage your time, energy, and focus?
 
-2:25 - QA.
+2:25:00 - QA.
 
-2:39 - Wrap up and goodbye
+2:39:00 - Wrap up and goodbye
 
 ## Links
 

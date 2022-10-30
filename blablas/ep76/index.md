@@ -26,23 +26,23 @@ Tech News & AMA #9 with our community members Ahmed, Mohamed and Othman. During 
 
 ## Notes
 
-0:01 - Introduction.
+0:00:00 - Introduction.
 
-0:03 - NFTs
+0:03:00 - NFTs
 
-0:16 - 'Make it legal' book.
+0:16:00 - 'Make it legal' book.
 
-0:32 - Remote work future
+0:32:00 - Remote work future
 
-0:50 - Job satisfaction and How do people end up loving what they do?
+0:50:00 - Job satisfaction and How do people end up loving what they do?
 
-1:18 - OVH outage
+1:18:00 - OVH outage
 
-1:30 - New Windows updates
+1:30:00 - New Windows updates
 
-1:37 - QA
+1:37:00 - QA
 
-1:51 - Wrap up and goodbye.
+1:51:00 - Wrap up and goodbye.
 
 ## Links
 

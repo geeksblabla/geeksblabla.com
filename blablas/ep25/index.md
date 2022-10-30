@@ -25,59 +25,59 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 ## Notes
 
-0:00 - Welcoming guests
+0:00:00 - Welcoming guests
 
-0:04 - Who is Amine Bekkaoui ?
+0:04:00 - Who is Amine Bekkaoui ?
 
-0:06 - When did you start Java ?
+0:06:00 - When did you start Java ?
 
-0:10 - How did you develop your skills in Java ?
+0:10:00 - How did you develop your skills in Java ?
 
-0:18 - Do you think Java will still be a dominant programming language ?
+0:18:00 - Do you think Java will still be a dominant programming language ?
 
-0:20 - What we can do with Java ?
+0:20:00 - What we can do with Java ?
 
-0:36 - What is JVM(Java Virtual Machine) tuning ?
+0:36:00 - What is JVM(Java Virtual Machine) tuning ?
 
-0:42 - How can i start Java ?
+0:42:00 - How can i start Java ?
 
-0:43 - What are the Java licensing changes?
+0:43:00 - What are the Java licensing changes?
 
-0:47 - What are the best practices for modern industrial Java projects ?
+0:47:00 - What are the best practices for modern industrial Java projects ?
 
-0:50 - What is JVM in general ?
+0:50:00 - What is JVM in general ?
 
-0:56 - What are the most important Java Concepts ?
+0:56:00 - What are the most important Java Concepts ?
 
-0:59 - What is the best Java framework ?
+0:59:00 - What is the best Java framework ?
 
-1:01 - Is Java a fully open source programming language ?
+1:01:00 - Is Java a fully open source programming language ?
 
-1:03 - What are the required skills to start learning Java ?
+1:03:00 - What are the required skills to start learning Java ?
 
-1:05 - Which Java framework should I start with ?
+1:05:00 - Which Java framework should I start with ?
 
-1:09 - Why Java is still in a high demand ?
+1:09:00 - Why Java is still in a high demand ?
 
-1:10 - What are the GraalVM limits ?
+1:10:00 - What are the GraalVM limits ?
 
-1:12 - Can NodeJs replace Java ?
+1:12:00 - Can NodeJs replace Java ?
 
-1:13 - Scala is only for Big Data ?
+1:13:00 - Scala is only for Big Data ?
 
-1:14 - What is Jigsaw Project ?
+1:14:00 - What is Jigsaw Project ?
 
-1:19 - Why JavaEE becomes JakartaEE ?
+1:19:00 - Why JavaEE becomes JakartaEE ?
 
-1:23 - Unsafe Java Api
+1:23:00 - Unsafe Java Api
 
-1:25 - What is AOP(Aspect Oriented Programming) ?
+1:25:00 - What is AOP(Aspect Oriented Programming) ?
 
-1:28 - Are JavaEE and Spring the same ?
+1:28:00 - Are JavaEE and Spring the same ?
 
-1:39 - Maven VS Gradle
+1:39:00 - Maven VS Gradle
 
-1:42 - What are the most stable JVM languages ?
+1:42:00 - What are the most stable JVM languages ?
 
 ## Links
 

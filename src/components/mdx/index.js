@@ -2,12 +2,12 @@
 import React from "react"
 
 export default {
-  a: props => <a {...props} target="_blank" />,
+  a: (props) => <a {...props} target="_blank" />,
   h1: ({ children, ...props }) => <h4 {...props}>{children}</h4>,
   h2: ({ children, ...props }) => <h4 {...props}>{children}</h4>,
   h3: ({ children, ...props }) => <h4 {...props}>{children}</h4>,
   p: ({ children, ...props }) => {
-    const regex = /[0-9]{1,2}:[0-9]{1,2}/
+    const regex = /[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}/
 
     let time, seconds, text
 
@@ -16,8 +16,12 @@ export default {
 
       if (time) {
         let timeArray = time[0].split(":")
+        console.log(timeArray)
+
         seconds =
-          parseInt(timeArray[0], 10) * 3600 + parseInt(timeArray[1], 10) * 60
+          parseInt(timeArray[0], 10) * 3600 +
+          parseInt(timeArray[1], 10) * 60 +
+          parseInt(timeArray[2], 10)
         text = children.slice(time[0].length, children.length)
       }
     }

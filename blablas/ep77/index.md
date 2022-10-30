@@ -24,29 +24,29 @@ In the 77 Episode of GeeksBlaBla , We're taking a look at the landscape of Low C
 
 ## Notes
 
-0:01 - Introduction.
+0:00:00 - Introduction.
 
-0:09 - Why It took no Code / Low Code trends all these years to reach the mainstream?
+0:09:00 - Why It took no Code / Low Code trends all these years to reach the mainstream?
 
-0:16 - Can Microsoft Excel / Access considered as Low Code / No Code Platform ?
+0:16:00 - Can Microsoft Excel / Access considered as Low Code / No Code Platform ?
 
-0:28 - What’s the current state of the Low Code / No Code Ecosystem ?
+0:28:00 - What’s the current state of the Low Code / No Code Ecosystem ?
 
-0:50 - Trends in Low Code / No Code Ecosystem ?
+0:50:00 - Trends in Low Code / No Code Ecosystem ?
 
-1:04 - What are the good practices to follow ?
+1:04:00 - What are the good practices to follow ?
 
-1:09 - What are the opportunities for developers in a low code context ?
+1:09:00 - What are the opportunities for developers in a low code context ?
 
-1:13 - Integration between Low Code / No Code Apps and Traditional Business apps ?
+1:13:00 - Integration between Low Code / No Code Apps and Traditional Business apps ?
 
-1:19 - Vendor Lock-In and Portability ?
+1:19:00 - Vendor Lock-In and Portability ?
 
-1:27 - Are Low Code / No Code Apps ready for Production and Missing Critical Scenarios ?
+1:27:00 - Are Low Code / No Code Apps ready for Production and Missing Critical Scenarios ?
 
-1:30 - Low Code / No Code Apps longevity ?
+1:30:00 - Low Code / No Code Apps longevity ?
 
-1:35 - Wrap up and goodbye
+1:35:00 - Wrap up and goodbye
 
 ## Links
 

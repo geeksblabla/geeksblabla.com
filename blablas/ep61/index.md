@@ -24,23 +24,23 @@ In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev
 
 ## Notes
 
-0:02 - Introduction
+0:00:00 - Introduction
 
-0:05 - How important is it to have these kind of initiatives?
+0:05:00 - How important is it to have these kind of initiatives?
 
-0:20 - Overview
+0:20:00 - Overview
 
-0:26 - Profile
+0:26:00 - Profile
 
-0:53 - Education and Learning
+0:53:00 - Education and Learning
 
-1:22 - Work
+1:22:00 - Work
 
-2:00 - Technology
+2:00:00 - Technology
 
-2:13 - Community
+2:13:00 - Community
 
-2:44 - Wrap up & Goodbye
+2:44:00 - Wrap up & Goodbye
 
 ## Links
 

@@ -22,35 +22,35 @@ In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .
 
 ## Notes
 
-00:00 - Introduction
+00:00:00 - Introduction
 
-00:07 - What is VR ?
+00:07:00 - What is VR ?
 
-00:11 - History of Gaming ?
+00:11:00 - History of Gaming ?
 
-00:20 - Begin your career as a Game Developper ?
+00:20:00 - Begin your career as a Game Developper ?
 
-00:27 - Difference between VR & AR ?(open computer vision framework)
+00:27:00 - Difference between VR & AR ?(open computer vision framework)
 
-00:33 - Game dev Tools ?
+00:33:00 - Game dev Tools ?
 
-00:36 - Game dev Process ?
+00:36:00 - Game dev Process ?
 
-00:46 - Java & Game dev ?
+00:46:00 - Java & Game dev ?
 
-00:51 - Game Design Patterns ?
+00:51:00 - Game Design Patterns ?
 
-00:55 - Game Art ?
+00:55:00 - Game Art ?
 
-01:03 - Ai in Game dev ?
+01:03:00 - Ai in Game dev ?
 
-01:09 - Graphics in Game dev ?
+01:09:00 - Graphics in Game dev ?
 
-01:15 - Managing Audio in Game dev ?
+01:15:00 - Managing Audio in Game dev ?
 
-01:19 - Advices for beginners ?
+01:19:00 - Advices for beginners ?
 
-01:40 - Conclusion
+01:40:00 - Conclusion
 
 ## Links
 

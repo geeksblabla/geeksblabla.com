@@ -24,45 +24,45 @@ In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed D
 
 ## Notes
 
-0:01 - Introduction.
+0:00:00 - Introduction.
 
-0:03 - What is Python and what made it so famous?
+0:03:00 - What is Python and what made it so famous?
 
-0:08 - Is Python 2 vs Python 3 still relevant ?
+0:08:00 - Is Python 2 vs Python 3 still relevant ?
 
-0:13 - Do you recommend beginners to start with Python?
+0:13:00 - Do you recommend beginners to start with Python?
 
-0:17 - How to get started with Python ?
+0:17:00 - How to get started with Python ?
 
-0:24 - Python in the job market. Job offers for Python in Morocco and outside.
+0:24:00 - Python in the job market. Job offers for Python in Morocco and outside.
 
-0:25 - Is learning (panda,numpy,pyplot..pandas) enough to work as a backend developer?
+0:25:00 - Is learning (panda,numpy,pyplot..pandas) enough to work as a backend developer?
 
-0:26 - When to use and when not to use Python?
+0:26:00 - When to use and when not to use Python?
 
-0:28 - Most known use cases of Python. In which use cases Python might be the best programming language to use ?
+0:28:00 - Most known use cases of Python. In which use cases Python might be the best programming language to use ?
 
-0:33 - Is Python Slow ? If yes can we make it faster ?
+0:33:00 - Is Python Slow ? If yes can we make it faster ?
 
-0:38 - Fundamental concepts you need to master before starting with Python.
+0:38:00 - Fundamental concepts you need to master before starting with Python.
 
-0:43 - Frameworks & CMS used in Python for web dev. In which scenario use Django or Flask ?
+0:43:00 - Frameworks & CMS used in Python for web dev. In which scenario use Django or Flask ?
 
-0:46 - Why learn Python?
+0:46:00 - Why learn Python?
 
-0:50 - Programming Workflow in Python (package management, venv, IDE..).
+0:50:00 - Programming Workflow in Python (package management, venv, IDE..).
 
-0:52 - Testing With Python.
+0:52:00 - Testing With Python.
 
-0:56 - Deploy your Python project.
+0:56:00 - Deploy your Python project.
 
-0:58 - Famous Projects built with Python.
+0:58:00 - Famous Projects built with Python.
 
-1:01 - Resources and Tools.
+1:01:00 - Resources and Tools.
 
-1:05 - Do you think universities should switch from Java to Python?
+1:05:00 - Do you think universities should switch from Java to Python?
 
-1:17 - Wrap up and goodbye.
+1:17:00 - Wrap up and goodbye.
 
 # Links
 

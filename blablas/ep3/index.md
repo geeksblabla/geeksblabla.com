@@ -20,41 +20,41 @@ In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & Crypto
 
 ## Notes
 
-0:00 - Episode Introduction and Guests Intro
+0:00:00 - Episode Introduction and Guests Intro
 
-0:03 - What is Cryptocurrency?
+0:03:00 - What is Cryptocurrency?
 
-0:16 - What is the difference between the private consortium and the Blockchain?
+0:16:00 - What is the difference between the private consortium and the Blockchain?
 
-0:22 - How do new nodes join the public blockchain?
+0:22:00 - How do new nodes join the public blockchain?
 
-0:25 - What is the meaning of "Mining" and why we need it?
+0:25:00 - What is the meaning of "Mining" and why we need it?
 
-0:34 - Do Cryptocurrencies encourage illegal activities and money laundering?
+0:34:00 - Do Cryptocurrencies encourage illegal activities and money laundering?
 
-0:38 - What is "Forking"?
+0:38:00 - What is "Forking"?
 
-0:43 - What is the difference between "Soft fork" and "Hard fork"?
+0:43:00 - What is the difference between "Soft fork" and "Hard fork"?
 
-0:46 - Is there a precise time for the Ethereum fork?
+0:46:00 - Is there a precise time for the Ethereum fork?
 
-0:47 - What are "Distributed Operations" in the context of Cryptocurrency?
+0:47:00 - What are "Distributed Operations" in the context of Cryptocurrency?
 
-0:52 - Do Blockchain solution providers have control over the applications?
+0:52:00 - Do Blockchain solution providers have control over the applications?
 
-0:58 - What is "Proof of Stake"?
+0:58:00 - What is "Proof of Stake"?
 
-1:02 - What are the use cases of the Blockchain other than Cryptocurrency?
+1:02:00 - What are the use cases of the Blockchain other than Cryptocurrency?
 
-1:07 - Can we do business with the Blockchain in Morocco?
+1:07:00 - Can we do business with the Blockchain in Morocco?
 
-1:08 - What are the required skills to become a Blockchain developer?
+1:08:00 - What are the required skills to become a Blockchain developer?
 
-1:17 - What companies are looking for Blockchain developers?
+1:17:00 - What companies are looking for Blockchain developers?
 
-1:19 - The future of Blockchain and Cryptocurrencies from the point of view of Badr?
+1:19:00 - The future of Blockchain and Cryptocurrencies from the point of view of Badr?
 
-1:23 - What are some of the Blockchain hot topics?
+1:23:00 - What are some of the Blockchain hot topics?
 
 ## Links
 

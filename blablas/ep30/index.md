@@ -26,33 +26,33 @@ In this episode of GeeksBlabla, we discuss remote working for developers, How to
 
 ## Notes
 
-0:00 - Episode Introduction and Guests Intro.
+0:00:00 - Episode Introduction and Guests Intro.
 
-0:05 - What is working remotely?
+0:05:00 - What is working remotely?
 
-0:10 - Working remotely vs working from Home (during COVID-19).
+0:10:00 - Working remotely vs working from Home (during COVID-19).
 
-0:15 - Why did you choose to work remote and when did you start it?
+0:15:00 - Why did you choose to work remote and when did you start it?
 
-0:20 - Challenges for remote developers.
+0:20:00 - Challenges for remote developers.
 
-0:25 - How to convince your managers to work remotely?
+0:25:00 - How to convince your managers to work remotely?
 
-0:30 - How to find remote jobs offers?
+0:30:00 - How to find remote jobs offers?
 
-0:35 - Manage your personal life as a remote developer.
+0:35:00 - Manage your personal life as a remote developer.
 
-0:50 - Soft Skills for a remote developer.
+0:50:00 - Soft Skills for a remote developer.
 
-0:54 - Best practices for remote developers to manage their tasks.
+0:54:00 - Best practices for remote developers to manage their tasks.
 
-1:00 - What are your hobbies outside of work?
+1:00:00 - What are your hobbies outside of work?
 
-1:05 - Legal requirements for a remote developer and Understanding company taxation in Morocco.
+1:05:00 - Legal requirements for a remote developer and Understanding company taxation in Morocco.
 
-1:21 - Q/A
+1:21:00 - Q/A
 
-1:33 - Resources & Tools
+1:33:00 - Resources & Tools
 
 ## Links
 

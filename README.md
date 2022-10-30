@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-39-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblabla.com">
@@ -108,13 +108,13 @@ In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk
 In the Notes section, you need to collect the most important part of the episode and try to find the right title for it using this format : `h:min - title`
 
 ```
-0:00 - Intro
+0:00:00 - Intro
 
-0:03 - The history of web and W3C?
+0:03:00 - The history of web and W3C?
 
 	...
 
-1:57 - when you can find trending web technologies?
+1:57:00 - when you can find trending web technologies?
 
 ```
 
@@ -161,13 +161,13 @@ In this episode of GeeksBlabla, Geeksblabla team (and guest name in case  ) talk
 
 ## Notes
 h:min - title
-0:00 - Intro
+0:00:00 - Intro
 
-0:03 - The history of web and W3C?
+0:03:00 - The history of web and W3C?
 
 	...
 
-1:57 - when you can find trending web technologies?
+1:57:00 - when you can find trending web technologies?
 
 ## Links
 
@@ -250,6 +250,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/otmos"><img src="https://avatars.githubusercontent.com/u/43470049?v=4?s=180" width="180px;" alt=""/><br /><sub><b>otmos</b></sub></a><br /><a href="#content-otmos" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/faissaloux"><img src="https://avatars.githubusercontent.com/u/60013703?v=4?s=180" width="180px;" alt=""/><br /><sub><b>Faissal Wahabali</b></sub></a><br /><a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=faissaloux" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.instagram.com/zakarialaoui10/"><img src="https://avatars.githubusercontent.com/u/63521765?v=4?s=180" width="180px;" alt=""/><br /><sub><b>ZAKARIA ELALAOUI</b></sub></a><br /><a href="#content-zakarialaoui10" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/deleusec"><img src="https://avatars.githubusercontent.com/u/59571508?v=4?s=180" width="180px;" alt=""/><br /><sub><b>Corentin Deleuse</b></sub></a><br /><a href="https://github.com/DevC-Casa/geeksblabla.com/commits?author=deleusec" title="Code">💻</a></td>
   </tr>
 </table>
 

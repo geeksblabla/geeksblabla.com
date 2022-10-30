@@ -26,31 +26,31 @@ In this episode, we talk about Certificates in the IT field; why should you care
 
 ## Notes
 
-0:02 - Introduction.
+0:00:00 - Introduction.
 
-0:10 - Why should you care about certifications?
+0:10:00 - Why should you care about certifications?
 
-0:28 - Types of IT certifications.
+0:28:00 - Types of IT certifications.
 
-0:38 - The best period to get a certificate ( junior or senior )
+0:38:00 - The best period to get a certificate ( junior or senior )
 
-0:43 - Certification vs open-source contributions vs blogging.
+0:43:00 - Certification vs open-source contributions vs blogging.
 
-0:25 - How to say that a resource is behaving normally?
+0:25:00 - How to say that a resource is behaving normally?
 
-0:51 - Why are IT certifications so expensive?
+0:51:00 - Why are IT certifications so expensive?
 
-1:03 - Is certifications from the learning platform worth it?
+1:03:00 - Is certifications from the learning platform worth it?
 
-1:07 - Why some people/companies criticize certifications and interpret them as a bad sign?
+1:07:00 - Why some people/companies criticize certifications and interpret them as a bad sign?
 
-1:22 - Certifications for beginners.
+1:22:00 - Certifications for beginners.
 
-1:46 - How to prepare for a certificate?
+1:46:00 - How to prepare for a certificate?
 
-2:07 - The most valuable certificates in Morocco.
+2:07:00 - The most valuable certificates in Morocco.
 
-2:28 - Wrap up and goodbye.
+2:28:00 - Wrap up and goodbye.
 
 ## Certifications
 

@@ -28,39 +28,39 @@ In this special episode, we highlight the hidden category in Tech in general, Wo
 
 ## Notes
 
-0:01 - Introduction.
+0:00:00 - Introduction.
 
-0:03 - How did you become interested in engineering
+0:03:00 - How did you become interested in engineering
 
-0:08 - What influenced you to pursue a career in IT
+0:08:00 - What influenced you to pursue a career in IT
 
-0:17 - What is it like to be a woman working in technology for you?
+0:17:00 - What is it like to be a woman working in technology for you?
 
-0:27 - How could you convince a random Moroccan girl to be interested in programming?
+0:27:00 - How could you convince a random Moroccan girl to be interested in programming?
 
-0:35 - Why we don't see many ladies involved in communities in Morocco?
+0:35:00 - Why we don't see many ladies involved in communities in Morocco?
 
-0:50 - Is it true the is no wage difference between men and women working in Tech in Morocco?
+0:50:00 - Is it true the is no wage difference between men and women working in Tech in Morocco?
 
-0:53 - How can we help as a tech community to empower more WIT?
+0:53:00 - How can we help as a tech community to empower more WIT?
 
-0:54 - Is it easy or hard to find a job or Internship
+0:54:00 - Is it easy or hard to find a job or Internship
 
-0:58 - Did you ever faced discrimination in a job interview where they prefered a man instead?
+0:58:00 - Did you ever faced discrimination in a job interview where they prefered a man instead?
 
-1:00 - Do you feel that women in technology careers face barriers not faced by their male counterparts?
+1:00:00 - Do you feel that women in technology careers face barriers not faced by their male counterparts?
 
-1:05 - What are some challenges you’ve faced.
+1:05:00 - What are some challenges you’ve faced.
 
-1:12 - OHow can women balance between their work time, home & family time?
+1:12:00 - OHow can women balance between their work time, home & family time?
 
-1:27 - What job did you dream of when you were a kid – your Plan A career path
+1:27:00 - What job did you dream of when you were a kid – your Plan A career path
 
-1:32 - How could men empower women in IT?
+1:32:00 - How could men empower women in IT?
 
-1:37 - What do you think of StateOfDevMa survey results
+1:37:00 - What do you think of StateOfDevMa survey results
 
-2:12 - Wrap up and goodbye.
+2:12:00 - Wrap up and goodbye.
 
 ## Links
 

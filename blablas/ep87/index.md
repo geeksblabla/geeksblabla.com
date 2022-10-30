@@ -24,33 +24,33 @@ In this episode of GeeksBlabla, we invited Moroccan Googlers Karima, Rachid, Meh
 
 ## Notes
 
-0:00 - Introduction and welcoming
+0:00:00 - Introduction and welcoming
 
-0:05 - Guests academic path
+0:05:00 - Guests academic path
 
-0:16 - Do you think your academic studies in morocco give you enough concepts to start a job at Google?
+0:16:00 - Do you think your academic studies in morocco give you enough concepts to start a job at Google?
 
-0:34 - Should joining FAANG be an objective for every developer?
+0:34:00 - Should joining FAANG be an objective for every developer?
 
-0:43 - What is your job at google?
+0:43:00 - What is your job at google?
 
-0:58 - Working in morocco vs working on a big company such as Google.
+0:58:00 - Working in morocco vs working on a big company such as Google.
 
-1:11 - Is working at Google stressful?
+1:11:00 - Is working at Google stressful?
 
-1:25 - Bad sides of working at Google (or at a similar size tech company), what don’t you like about your job?
+1:25:00 - Bad sides of working at Google (or at a similar size tech company), what don’t you like about your job?
 
-1:42 - Salaries at Google
+1:42:00 - Salaries at Google
 
-1:53 - As a student, what should I focus on to make joining Google easier?
+1:53:00 - As a student, what should I focus on to make joining Google easier?
 
-1:58 - How can competitive programming help you join Google?
+1:58:00 - How can competitive programming help you join Google?
 
-2:08 - Process to join Google.
+2:08:00 - Process to join Google.
 
-2:18 - Interviews Process and how to prepare them.
+2:18:00 - Interviews Process and how to prepare them.
 
-2:40 - Wrap up and goodbye
+2:40:00 - Wrap up and goodbye
 
 ## Links
 

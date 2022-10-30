@@ -20,37 +20,37 @@ In this episode of GeeksBlaBla with our community members Wassim, Ismail, Abdera
 
 - [Soubai Abderahim](https://soubai.me)
 
-- [Abdullah Iraamane](https://www.facebook.com/abdullah.eraman)
+- [Abdullah Iraamane](https://www.linkedin.com/in/aairaamane/)
 
 - [Ismail Ghallou](https://twitter.com/smakosh)
 
 ## Notes
 
-0:01 - Intro and welcoming.
+0:00:00 - Intro and welcoming.
 
-0:06 - The power of javascript and the secret behind it
+0:06:00 - The power of javascript and the secret behind it
 
-0:13 - Do you think Javascript is the right language to start with as a beginner?
+0:13:00 - Do you think Javascript is the right language to start with as a beginner?
 
-0:28 - Javascript learning RoadMap
+0:28:00 - Javascript learning RoadMap
 
-0:45 - JavaScript libraries and frameworks, how to choose?
+0:45:00 - JavaScript libraries and frameworks, how to choose?
 
-1:19 - Is Typescript the new Javascript?
+1:19:00 - Is Typescript the new Javascript?
 
-1:33 - Javascript in the backend.
+1:33:00 - Javascript in the backend.
 
-1:41 - Javascript new tools systems; esbuild, wite, snowpack.
+1:41:00 - Javascript new tools systems; esbuild, wite, snowpack.
 
-1:53 - Javascript testing tools and libraries.
+1:53:00 - Javascript testing tools and libraries.
 
-2:02 - WebAssemby
+2:02:00 - WebAssemby
 
-2:07 - Github Copilot demo
+2:07:00 - Github Copilot demo
 
-2:35 - The future of javascript.
+2:35:00 - The future of javascript.
 
-2:45- Wrap up and goodbye
+2:45:00- Wrap up and goodbye
 
 ## Links
 

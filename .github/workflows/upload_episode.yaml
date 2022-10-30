@@ -12,7 +12,7 @@ jobs:
   upload_episode:
     # The type of runner that the job will run on
     runs-on: ubuntu-18.04
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -24,8 +24,9 @@ jobs:
       # Install And Configure youtube-dl
       - name: Install And Configure youtube-dl
         run: |
-          sudo curl -k -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
-          sudo chmod a+rx /usr/local/bin/youtube-dl
+          sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux -O /usr/local/bin/yt-dlp_linux
+          sudo chmod a+rx /usr/local/bin/yt-dlp_linux
+          sudo ln -s /usr/local/bin/yt-dlp_linux /usr/local/bin/yt-dlp
 
       - name: Install Deps
         run: yarn install --frozen-lockfile

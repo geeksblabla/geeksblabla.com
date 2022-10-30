@@ -22,33 +22,33 @@ In this episode of GeeksBlabla, we invited Abdelahad SATOUR, a developer, tech s
 
 ## Notes
 
-0:00 - Introduction and welcoming
+0:00:00 - Introduction and welcoming
 
-0:02 - Who is Abdelahad SATOUR?
+0:02:00 - Who is Abdelahad SATOUR?
 
-0:11 - Studies and school activities
+0:11:00 - Studies and school activities
 
-0:15 - Learning experience in high school and how to get the best of it?
+0:15:00 - Learning experience in high school and how to get the best of it?
 
-0:19 - Abdelahad's first steps as an entrepreneur.
+0:19:00 - Abdelahad's first steps as an entrepreneur.
 
-0:28 - The secrets behind his commitment and motivation.
+0:28:00 - The secrets behind his commitment and motivation.
 
-0:58 - What is success for Abdelahad?
+0:58:00 - What is success for Abdelahad?
 
-1:04 - Getting things done.
+1:04:00 - Getting things done.
 
-1:10 - Learning and get updated about tech.
+1:10:00 - Learning and get updated about tech.
 
-1:16 - How to know what works for you as a learning method?
+1:16:00 - How to know what works for you as a learning method?
 
-1:19 - How to be focused on your work?
+1:19:00 - How to be focused on your work?
 
-1:23 - Why certifications?
+1:23:00 - Why certifications?
 
-1:30 - QA
+1:30:00 - QA
 
-1:50 - Wrap up and goodbye
+1:50:00 - Wrap up and goodbye
 
 ## Prepared and Presented by
 
