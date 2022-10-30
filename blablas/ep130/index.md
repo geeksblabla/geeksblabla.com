@@ -32,6 +32,7 @@ React JS Revisited with our community members Adel, Youssouf and Mohamed. During
 - [Figma to Code (HTML, Tailwind, Flutter, SwiftUI)](https://www.figma.com/community/plugin/842128343887142055/Figma-to-Code-HTML%2C-Tailwind%2C-Flutter%2C-SwiftUI)
 - [Formik](https://formik.org/)
 - [Ant design](https://ant.design/)
+- [Headless UI](https://headlessui.com/)
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com/)
