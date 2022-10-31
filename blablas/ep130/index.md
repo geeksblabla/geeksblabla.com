@@ -4,7 +4,7 @@ time: 20h:00min
 duration: "2:19:18"
 title: "React JS Revisited"
 tags: ["Dev", "geeksblabla", "react"]
-category: "DEV"
+category: "dev"
 isNext: false
 youtube: https://www.youtube.com/watch?v=6lXH3vhfEHI
 published: true
