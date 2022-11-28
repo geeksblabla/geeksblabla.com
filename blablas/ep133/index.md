@@ -1,7 +1,7 @@
 ---
 date: 2022-11-20
 time: 20h:00min
-duration: "1:00:56"
+duration: "2:00:56"
 title: "SaaS for developers"
 tags: ["saas", "entrepreneurship", "making"]
 category: "dev"
