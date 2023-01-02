@@ -59,9 +59,11 @@ const upload = async (episode) => {
   const [switchToHTMLButton] = await page.$x("//button[contains(., 'HTML')]")
   if (switchToHTMLButton) {
     await switchToHTMLButton.click()
+  } else {
+    console.log("❌  No switch to HTML button")
   }
 
-  await page.waitForSelector("textarea[name=description]")
+  await page.waitForSelector("textarea[name=description]", { visible: true })
   await page.type("textarea[name=description]", episode.description)
 
   console.log("👉  Save as Draft")
