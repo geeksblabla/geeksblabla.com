@@ -2,10 +2,8 @@ const path = require("path")
 const fs = require("fs")
 const fm = require("front-matter")
 
-const Parser = require("rss-parser")
 const showdown = require("showdown")
 
-const parser = new Parser()
 const converter = new showdown.Converter()
 converter.setOption("metadata", true)
 
@@ -15,15 +13,9 @@ will return last episode data in case number of episode are not equal
 
 should covert markdown to HTML format for anchor description
 */
-const getMissedEpisodeData = async () => {
-  console.log(`👉  Fetch Missed Episode ...... 🏃‍♂️🏃‍♂️🏃‍♂️ `)
+const getEpisodeData = async (epNum) => {
   try {
-    const AnchorEpisodes = await parser.parseURL(
-      "https://anchor.fm/s/88e3048/podcast/rss"
-    )
-    const epNum = AnchorEpisodes.items.length
     const missedEpisodeFile = `../blablas/ep${epNum}/index.md`
-
     try {
       const fileContent = fs.readFileSync(
         path.resolve(__dirname, missedEpisodeFile),
@@ -42,7 +34,7 @@ const getMissedEpisodeData = async () => {
       console.log(`👉  Episode Data collected Successfully ✅ `)
       return episode
     } catch (error) {
-      console.log("👉  No new episode")
+      console.log("👉  No  episode")
       return null
     }
   } catch (error) {
@@ -51,4 +43,4 @@ const getMissedEpisodeData = async () => {
   }
 }
 
-module.exports = getMissedEpisodeData
+module.exports = getEpisodeData

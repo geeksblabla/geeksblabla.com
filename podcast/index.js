@@ -1,5 +1,6 @@
 const downloadAudioFormat = require("./download-audio-format")
-const getMissedEpisodeData = require("./get-missed-episode-data")
+const getEpisodeData = require("./get-episode-data")
+const getMissedEpisodeNumber = require("./get-missed-episode")
 const upload = require("./puppeteer-upload")
 
 /*
@@ -16,7 +17,8 @@ const episode = {
 
 const upload_to_anchor = async () => {
   try {
-    const episode = await getMissedEpisodeData()
+    const episodeNumber = await getMissedEpisodeNumber()
+    const episode = await getEpisodeData(episodeNumber)
     if (episode === null) return
     await downloadAudioFormat(episode)
     await upload(episode)
