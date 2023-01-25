@@ -24,7 +24,7 @@ const upload = async (episode) => {
 
   await page.goto("https://anchor.fm/dashboard/episode/new")
 
-  await page.setViewport({ width: 1600, height: 789 })
+  await page.setViewport({ width: 2800, height: 1800 })
 
   await navigationPromise
   console.log("#email", email)
