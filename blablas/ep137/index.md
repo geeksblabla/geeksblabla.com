@@ -1,5 +1,5 @@
 ---
-date: 2022-02-12
+date: 2023-02-12
 time: 20h:00min
 duration: "1:49:44"
 title: "State of Dev in Morocco 2022"

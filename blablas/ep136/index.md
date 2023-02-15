@@ -1,5 +1,5 @@
 ---
-date: 2022-01-29
+date: 2023-01-29
 time: 20h:00min
 duration: "1:45:21"
 title: "AMA & Tech News #22"
