@@ -4,7 +4,7 @@ time: 20h:05min
 duration: "1:38:02"
 title: "MSS with Adil TOUATI"
 tags: ["MSS", "geeksblabla", "Cloud", "DevOPS", "Microsoft"]
-category: "dev"
+category: "MSS"
 isNext: false
 youtube: https://www.youtube.com/watch?v=nDb3hLIMrP0
 published: true
@@ -12,6 +12,7 @@ featured: false
 ---
 
 In this Episode of Geeksblabla , We're joined by the amazing Adil Touati who shared with us precious insights from his amazing career in the Software Industry.
+
 ## Guests
 
 - [Adil TOUATI](https://www.linkedin.com/in/adiltouati/)
@@ -39,7 +40,6 @@ In this Episode of Geeksblabla , We're joined by the amazing Adil Touati who sha
 1:35:00 - Conclusion
 
 ## Links
-
 
 ## Prepared and Presented by
 
