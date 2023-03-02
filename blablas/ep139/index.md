@@ -2,11 +2,11 @@
 date: 2023-02-26
 time: 20h:07min
 duration: "1:46:34"
-title: " Book Review : Range: Why Generalists Triumph in a Specialized World"
+title: "Range: Why Generalists Triumph in a Specialized World"
 tags: ["Book", "growth", "career"]
 category: "book"
 isNext: false
-youtube: https://www.youtube.com/watch?v=E2ipt93liok&t=1843s
+youtube: https://www.youtube.com/watch?v=E2ipt93liok
 published: true
 featured: false
 ---
