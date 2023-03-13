@@ -6,20 +6,34 @@ on:
     branches: [master]
     paths:
       - "blablas/**"
-      - "podcast/**"
+      - "scripts/**"
 
 jobs:
   upload_episode:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-18.04
     timeout-minutes: 12
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scripts
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: 18
           cache: "yarn"
+      - name: 📦 Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
+
+      - name: 📦 Restore Project Dependencies (node_modules)
+        uses: actions/cache@v3
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/scripts/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       # Install And Configure youtube-dl
       - name: Install And Configure youtube-dl
@@ -29,7 +43,7 @@ jobs:
           sudo ln -s /usr/local/bin/yt-dlp_linux /usr/local/bin/yt-dlp
 
       - name: Install Deps
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Generate Podcast Files and Upload Episode To Anchor Using Puppeteer
         env: # Or as an environment variable

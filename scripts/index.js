@@ -21,7 +21,7 @@ const upload_to_anchor = async () => {
     const episode = await getEpisodeData(episodeNumber)
     if (episode === null) return
     await downloadAudioFormat(episode)
-    await upload(episode)
+    await upload({ episode })
   } catch (error) {
     console.log("🚨 error uploading to anchor", error)
     process.exit()

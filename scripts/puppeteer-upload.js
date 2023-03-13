@@ -3,21 +3,27 @@ const path = require("path")
 const puppeteer = require("puppeteer")
 
 const basePath = path.resolve(__dirname, "../")
-const audioFile = `${basePath}/podcast/episode.m4a`
 
 /*
-
 upload to anchor using puppeteer
-
 */
 
 const email = process.env.ANCHOR_EMAIL
 const password = process.env.ANCHOR_PASSWORD
 const UPLOAD_TIMEOUT = process.env.UPLOAD_TIMEOUT || 60 * 7 * 1000
 
-const upload = async (episode) => {
+const uploadToAnchor = async ({
+  episode,
+  audioFile = "episode.m4a",
+  debug = false,
+}) => {
   console.log("👉  Launching puppeteer")
-  const browser = await puppeteer.launch({ args: ["--no-sandbox"] }) // to debug .launch({ devtools: true });
+  let browser = null
+  if (debug) {
+    browser = await puppeteer.launch({ devtools: true })
+  } else {
+    browser = await puppeteer.launch({ args: ["--no-sandbox"] })
+  }
   const page = await browser.newPage()
 
   const navigationPromise = page.waitForNavigation()
@@ -27,7 +33,6 @@ const upload = async (episode) => {
   await page.setViewport({ width: 2800, height: 1800 })
 
   await navigationPromise
-  console.log("#email", email)
   await page.type("#email", email)
   await page.type("#password", password)
   await page.click("button[type=submit]")
@@ -36,7 +41,8 @@ const upload = async (episode) => {
   await page.waitForSelector("input[type=file]")
 
   const inputFile = await page.$("input[type=file]")
-  await inputFile.uploadFile(audioFile)
+  const audioFilepath = `${basePath}/scripts/${audioFile}`
+  await inputFile.uploadFile(audioFilepath)
 
   console.log("👉  Uploading audio file")
   await page.waitForTimeout(25 * 1000)
@@ -80,4 +86,4 @@ const upload = async (episode) => {
   )
 }
 
-module.exports = upload
+module.exports = uploadToAnchor
