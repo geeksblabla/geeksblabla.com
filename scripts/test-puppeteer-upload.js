@@ -10,7 +10,7 @@ const run_script = async () => {
     await uploadToAnchor({
       episode: testEpisodeData,
       audioFile: "test.m4a",
-      debug: false,
+      debug: true,
     })
   } catch (error) {
     console.log("🚨 error uploading to anchor", error)

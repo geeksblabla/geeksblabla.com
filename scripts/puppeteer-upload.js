@@ -1,8 +1,6 @@
 // inspired by https://github.com/Schrodinger-Hat/youtube-to-anchorfm/blob/main/index.js
-const path = require("path")
 const puppeteer = require("puppeteer")
-
-const basePath = path.resolve(__dirname, "../")
+const { audioFileBasePath } = require("./utils")
 
 /*
 upload to anchor using puppeteer
@@ -25,13 +23,12 @@ const uploadToAnchor = async ({
     browser = await puppeteer.launch({ args: ["--no-sandbox"] })
   }
   const page = await browser.newPage()
+  await page.setViewport({ width: 2800, height: 1800 })
 
   const navigationPromise = page.waitForNavigation()
 
   await page.goto("https://podcasters.spotify.com/pod/dashboard/episode/new")
-
-  await page.setViewport({ width: 2800, height: 1800 })
-
+  await page.waitForTimeout(5 * 1000)
   await navigationPromise
   await page.type("#email", email)
   await page.type("#password", password)
@@ -41,7 +38,7 @@ const uploadToAnchor = async ({
   await page.waitForSelector("input[type=file]")
 
   const inputFile = await page.$("input[type=file]")
-  const audioFilepath = `${basePath}/scripts/${audioFile}`
+  const audioFilepath = `${audioFileBasePath}/${audioFile}`
   await inputFile.uploadFile(audioFilepath)
 
   console.log("👉  Uploading audio file")
