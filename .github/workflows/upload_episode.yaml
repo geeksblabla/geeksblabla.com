@@ -11,7 +11,7 @@ on:
 jobs:
   upload_episode:
     timeout-minutes: 12
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     defaults:
       run:
         working-directory: scripts
@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: "14"
           cache: "yarn"
       - name: 📦 Get yarn cache directory path
         id: yarn-cache-dir-path
