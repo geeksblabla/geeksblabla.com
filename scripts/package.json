@@ -11,10 +11,7 @@
   "dependencies": {},
   "devDependencies": {
     "marked": "^4.0.8",
-    "prettier": "^2.0.4",
-    "pretty-quick": "^2.0.1",
     "puppeteer": "^10.0.0",
-    "react-test-renderer": "^17.0.2",
     "rss-parser": "^3.7.6",
     "showdown": "^1.9.1",
     "front-matter": "^3.1.0"

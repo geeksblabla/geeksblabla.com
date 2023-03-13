@@ -28,7 +28,7 @@ const uploadToAnchor = async ({
 
   const navigationPromise = page.waitForNavigation()
 
-  await page.goto("https://anchor.fm/dashboard/episode/new")
+  await page.goto("https://podcasters.spotify.com/pod/dashboard/episode/new")
 
   await page.setViewport({ width: 2800, height: 1800 })
 
