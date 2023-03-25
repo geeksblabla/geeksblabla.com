@@ -2,7 +2,7 @@
 date: 2023-03-19
 time: 19h:00min
 duration: "2:28:43"
-title: "Mental Health for developers 🇲🇦 الصحة النفسية للمبرمجين"
+title: "Mental Health for developers"
 tags: [ "career"]
 category: "career"
 isNext: false
