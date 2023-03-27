@@ -4,7 +4,7 @@ time: 22h:00min
 duration: "2:30:14"
 title: "Tech News & AMA #23"
 tags: ["ama", "ai", "chat-gpt"]
-category: "ama"
+category: "AMA"
 isNext: false
 youtube: https://www.youtube.com/watch?v=0x1a-7JK_co
 published: true
