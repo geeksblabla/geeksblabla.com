@@ -31,7 +31,7 @@ Tech News & AMA #22 with our community members Yousssouf, Kawtar, Abderahim, Otm
 
 0:42:50 - ChatGpt Plugins, how is will be used in the future? and the launch of Bard Google assistant.
 
-1:11:00 - How nerves vs excited our guests about AI revolution we are living in?
+1:11:00 - How nervous vs excited our guests about AI revolution we are living in?
 
 1:27:00 - Spark of AGI with GPT-4.
 
