@@ -28,15 +28,15 @@ In this Episode we discuss chelleges we face as IT workers in terms of Mental he
 
 0:00:00 - Introduction and welcoming
 
-0:03:20 - First assumtions about mental Health.
+0:03:20 - First assumptions about mental Health.
 
 0:21:00 - Are developers provided with adequate resources to manage workload and stress, such as time management tools, stress reduction techniques, and support from colleagues or supervisors?
 
 0:42:20 - Are managers trained in recognizing signs of mental health issues and equipped to provide support and resources for those who may be struggling?
 
-0:56:10 - How to avoid negativity  between your team members?
+0:56:10 - How to avoid negativity between your team members?
 
-1:03:00 - Is it good to build personal relatonshi with team members or stay pfessional?
+1:03:00 - Is it good to build personal relationship with team members or stay professional?
 
 1:10:26 - Is there a way to split the job's way of thinking with normal life?
 
