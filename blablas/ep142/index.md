@@ -36,7 +36,7 @@ In this Episode we discuss chelleges we face as IT workers in terms of Mental he
 
 0:56:10 - How to avoid negativity between your team members?
 
-1:03:00 - Is it good to build personal relatonship with team members or stay pfessional?
+1:03:00 - Is it good to build personal relationship with team members or stay professional?
 
 1:10:26 - Is there a way to split the job's way of thinking with normal life?
 
