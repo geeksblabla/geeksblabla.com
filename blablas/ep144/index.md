@@ -14,7 +14,7 @@ featured: false
 In this episode we discuss the fundamental concepts of computer networking and how learning them can make you a better software engineer.
 
 ## Guests
-- [Yassine Moumen]()
+- [Yassine Moumen](https://www.linkedin.com/in/yassine-moumen)
 - [Soubai Abderahim](https://soubai.me)
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 - [Mohammed Daoudi](https://twitter.com/MIduoad)
