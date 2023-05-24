@@ -22,19 +22,33 @@ In this episode of GeeksBlaBla, We discuss the state of Linux, why Linux is impo
 - [Otmane Fettal](https://twitter.com/OFettal)
 
 ## Notes
+
 0:00:00 - Introduction and welcoming
+
 0:03:10 - What is a Linux ?
+
 0:10:40 - Linux History
+
 0:29:00 - How linux works ?
+
 0:34:10 - Difference between Linux and other operating systems
+
 0:43:10 - Difference between Linux distributions
+
 1:16:00 - Why is Linux is used in the Server side (Data Centers, Cloud...)
+
 1:25:30 - Linux Virtualization 
+
 1:41:00 - Linux Containers
+
 1:52:27 - Linux Security
+
 2:09:35 - Giveaway
+
 2:10:45 - As a developer should I use Linux? and why?
+
 2:32:10 - How to learn Linux?
+
 2:42:50 - GeeksBlaBla picks
 
 ## Links
