@@ -4,7 +4,7 @@ time: 20h:00min
 duration: "1:57:44"
 title: "The Art of Cybersecurity"
 tags: ["career", "cybersecurity"]
-category: "Dev"
+category: "dev"
 isNext: false
 youtube: https://www.youtube.com/watch?v=XNrNHn15BTk
 published: true
