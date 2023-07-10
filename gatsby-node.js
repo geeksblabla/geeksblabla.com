@@ -189,7 +189,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       name: "category",
       node,
-      value: node.frontmatter.category || "",
+      value: node.frontmatter.category.toLowerCase() || "",
     })
     createNodeField({
       name: "featured",

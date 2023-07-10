@@ -4,6 +4,7 @@ import "./index.scss"
 import kebabCase from "lodash/kebabCase"
 
 export default ({ category, active, totalCount }) => {
+  const categoryName = category.charAt(0).toUpperCase() + category.slice(1)
   return (
     <Link
       to={`/${kebabCase(category)}`}
@@ -13,7 +14,7 @@ export default ({ category, active, totalCount }) => {
     >
       <div>
         <p>
-          {category}
+          {categoryName}
           <span>{totalCount}</span>
         </p>
       </div>
