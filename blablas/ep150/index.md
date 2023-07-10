@@ -3,15 +3,15 @@ date: 2023-06-18
 time: 20h:00min
 duration: "1:57:44"
 title: "The Art of Cybersecurity"
-tags: [ "career", "cybersecurity"]
-category: "DEV"
+tags: ["career", "cybersecurity"]
+category: "Dev"
 isNext: false
 youtube: https://www.youtube.com/watch?v=XNrNHn15BTk
 published: true
 featured: false
 ---
 
-In this episode, we discuss the state of Cybersecurity in Morocco, the challenges and opportunities that this field faces, how to get started and most important resources that help to learn it. 
+In this episode, we discuss the state of Cybersecurity in Morocco, the challenges and opportunities that this field faces, how to get started and most important resources that help to learn it.
 
 ## Guests
 
@@ -19,24 +19,23 @@ In this episode, we discuss the state of Cybersecurity in Morocco, the challenge
 
 [Othmane Menouar](https://www.linkedin.com/in/othmane-menouar-a11903128/)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
 
 0:10:28 - The current state of cybersecurity in Morocco? Are there any unique challenges or opportunities specific to the country
 
-0:27:07 -  Examples or case studies of cyber attacks or breaches that have occurred in Morocco, What were the lessons learned from those incidents?
+0:27:07 - Examples or case studies of cyber attacks or breaches that have occurred in Morocco, What were the lessons learned from those incidents?
 
-0:37:56 - Laws and regulations, fines for data exposure 
+0:37:56 - Laws and regulations, fines for data exposure
 
 0:47:31 - What can Morocco do to improve in terms of preventing attacks and breaches in other systems
 
-1:03:00 - Is Cybersecurity in Morocco or/and Africa promising ? why ? 
+1:03:00 - Is Cybersecurity in Morocco or/and Africa promising ? why ?
 
 1:06:04 - from software to cybesecurity, what to learn ?
 
-1:15:10 - Is Maths mandatory in cybersecurity field ? 
+1:15:10 - Is Maths mandatory in cybersecurity field ?
 
 1:19:42 - Books recommandations from guests
 
@@ -48,7 +47,7 @@ In this episode, we discuss the state of Cybersecurity in Morocco, the challenge
 
 1:47:00 - Certifications Vs Diplomas in cybersecurity
 
-1:52:00 - Advices from guests 
+1:52:00 - Advices from guests
 
 1:57:44 - Conclusion and goodbye.
 
