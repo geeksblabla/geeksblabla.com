@@ -10,6 +10,18 @@ const email = process.env.ANCHOR_EMAIL
 const password = process.env.ANCHOR_PASSWORD
 const UPLOAD_TIMEOUT = process.env.UPLOAD_TIMEOUT || 60 * 7 * 1000
 
+async function clickDom(page, domBtn) {
+  await page.evaluate((elem) => {
+    elem.click()
+  }, domBtn)
+}
+
+async function clickXpath(page, xpath, options = {}) {
+  await page.waitForXPath(xpath, options)
+  const [xpathBtn] = await page.$x(xpath)
+  await clickDom(page, xpathBtn)
+}
+
 const uploadToAnchor = async ({
   episode,
   audioFile = "episode.m4a",
@@ -23,13 +35,17 @@ const uploadToAnchor = async ({
     browser = await puppeteer.launch({ args: ["--no-sandbox"] })
   }
   const page = await browser.newPage()
-  await page.setViewport({ width: 2800, height: 1800 })
 
   const navigationPromise = page.waitForNavigation()
 
   await page.goto("https://podcasters.spotify.com/pod/dashboard/episode/new")
-  await page.waitForTimeout(5 * 1000)
+  await page.setViewport({ width: 1600, height: 789 })
+  await new Promise((r) => {
+    setTimeout(r, 25 * 1000)
+  })
   await navigationPromise
+
+  await page.waitForSelector("#email")
   await page.type("#email", email)
   await page.type("#password", password)
   await page.click("button[type=submit]")
@@ -42,20 +58,24 @@ const uploadToAnchor = async ({
   await inputFile.uploadFile(audioFilepath)
 
   console.log("👉  Uploading audio file")
-  await page.waitForTimeout(25 * 1000)
-  await page.waitForXPath(
-    "//button[contains(., 'Save episode') and not(boolean(@disabled))]",
+  console.log("Waiting for upload to finish")
+  await new Promise((r) => {
+    setTimeout(r, 25 * 1000)
+  })
+
+  await clickXpath(
+    page,
+    '//span[contains(text(),"Save")]/parent::button[not(boolean(@disabled))]',
     { timeout: UPLOAD_TIMEOUT }
   )
-  const [saveButton] = await page.$x(
-    "//button[contains(., 'Save episode') and not(boolean(@disabled))]"
-  )
-  await saveButton.click()
   await navigationPromise
 
   console.log("👉  Adding title and description")
   await page.waitForSelector("#title", { visible: true })
-  await page.waitForTimeout(2000)
+  // Wait some time so any field refresh doesn't mess up with our input
+  await new Promise((r) => {
+    setTimeout(r, 2000)
+  })
   await page.type("#title", episode.title)
 
   //   await page.click("label[for='description'] > div > div > button")
