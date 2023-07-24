@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-In this episode, we discuss LLMs, how everything started, how they work, and how to use frameworks such as LangChain to develop intelligent applications with them.
+In this episode, we discuss Large Language Models (LLMs): how everything started, how do they work, and how to use frameworks such as LangChain to develop intelligent applications.
 
 ## Guests
 
@@ -23,25 +23,25 @@ In this episode, we discuss LLMs, how everything started, how they work, and how
 
 ## Notes
 
-0:00:00 - Introduction and welcoming
+0:00:00 - Introduction and Welcome Notes
 
 0:05:33 - History of LLMs
 
 0:12:00 - The role of transformers in LLMs
 
-0:21:00 - How LLMs differ from other AI methods
+0:21:00 - How LLMs differ from other AI methods.
 
 0:26:00 - Emergent Abilities of Large Language Models
 
-0:42:00 - HaggingFace and the role or open-source in LLMs
+0:42:00 - HuggingFace and the role or open-source in LLMs development
 
 0:47:00 - Open source LLMs.
 
-1:04:00 - Using LLMs to build smart apps.
+1:04:00 - Using LLMs to build Smart Apps.
 
-1:39:00 - Advices for software engineers with no AI background to start with LLMs.
+1:39:00 - Advice for Software Engineers with no AI background to get started with LLMs.
 
-1:46:00 - Conclusion and goodbye.
+1:46:00 - Conclusion and Goodbye.
 
 ## Links
 
