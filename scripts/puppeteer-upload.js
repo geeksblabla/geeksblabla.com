@@ -41,12 +41,12 @@ const uploadToAnchor = async ({
   await page.goto("https://podcasters.spotify.com/pod/dashboard/episode/new")
   await page.setViewport({ width: 1600, height: 789 })
   await new Promise((r) => {
-    setTimeout(r, 25 * 1000)
+    setTimeout(r, 5 * 1000)
   })
   await navigationPromise
-  await clickXpath(page, '//span[text()="Log in with email"]/parent::button')
+  await clickXpath(page, '//button[contains(text(),"email")]')
   await new Promise((r) => {
-    setTimeout(r, 25 * 1000)
+    setTimeout(r, 20 * 1000)
   })
   await page.waitForSelector("#email")
   await page.type("#email", email)
