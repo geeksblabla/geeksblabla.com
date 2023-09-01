@@ -1,5 +1,5 @@
 ---
-date: 2023-06-30
+date: 2023-07-30
 time: 20h:00min
 duration: "2:28:48"
 title: "Tech New & AMA #26"
@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-Tech News & AMA #25 with our community members Mehdi, Abdul, Abderahim, and Youssouf. During this episode, we discuss the whodesign.ma initiative, and we answer audience questions about learning, switching technologies, frameworks, and much more.
+Tech News & AMA #26 with our community members Mehdi, Abdul, Abderahim, and Youssouf. During this episode, we discuss the whodesign.ma initiative, and we answer audience questions about learning, switching technologies, frameworks, and much more.
 
 ## Guests
 
