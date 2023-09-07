@@ -2,7 +2,7 @@
 date: 2023-09-03
 time: 20h:00min
 duration: "1:29:19"
-title: "#155 - Back to School 🇲🇦"
+title: "Back to School"
 tags: ["career", "learning", "student life"]
 category: "career"
 isNext: false
@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-In This Episode we discuss the Moroccan IT student's life, How to make the most of your academic years, and how to prepare for the job market.
+In This episode, we discuss the Moroccan IT student's life, How to make the most of your academic years, and how to prepare for the job market.
 
 ## Guests
 
@@ -28,19 +28,19 @@ In This Episode we discuss the Moroccan IT student's life, How to make the most 
 
 0:00:00 - Introduction and welcoming
 
-0:03:04 - What is your ultimate goal of an academic year as an IT student?
+0:03:04 - What is your ultimate goal for an academic year as an IT student?
 
-0:13:00 - How to deal with stress, and How to approach the generalist nature of your curriculum?
+0:13:00 - How to deal with stress, and how to approach the generalist nature of your curriculum?
 
-0:38:50 - How does participating in events and watching content online affects you as a student ?
+0:38:50 - How does participating in events and watching content online affect you as a student?
 
-0:53:30 - How to prepare for internships from your first year!
+0:53:30 - How to prepare for internships in your first year!
 
 0:37:00 - Perfection vs delivery and how to balance between them.
 
 1:09:06 - Question: How to choose a technology to learn?
 
-1:14:06 - How to deal with imposter as a student?
+1:14:06 - How to deal with imposter syndrome as a student?
 
 1:19:36 - Conclusion and goodbye.
 
