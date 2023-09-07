@@ -1,6 +1,6 @@
 {
   "projectName": "geeksblabla.com",
-  "projectOwner": "DevC-Casa",
+  "projectOwner": "geeksblabla",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -373,8 +373,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kaizendae",
+      "name": "Elasri Abdelati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17480866?v=4",
+      "profile": "https://stackoverflow.com/users/6242698/elasri",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 5,
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs"
 }
