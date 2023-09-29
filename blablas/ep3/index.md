@@ -16,7 +16,7 @@ In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & Crypto
 
 ## Guests
 
-[Badr Bellaj](http://bellaj.freehostia.com/)
+[Badr Bellaj](https://www.linkedin.com/in/bellajbadr/)
 
 ## Notes
 

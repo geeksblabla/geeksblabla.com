@@ -15,7 +15,7 @@ In this episode, we’re going to break down an easy-to-understand explanation o
 
 ## Guests
 
-- [Badr Bellaj](http://bellaj.freehostia.com/)
+- [Badr Bellaj](https://www.linkedin.com/in/bellajbadr/)
 
 - [Alae Zorkane](https://www.alaazorkane.me/)
 
@@ -29,7 +29,7 @@ In this episode, we’re going to break down an easy-to-understand explanation o
 
 0:04:00 - Short Web history.
 
-0:06:00 - Web1.0 Web2.0 and now Web3.0, what is the real difference? 
+0:06:00 - Web1.0 Web2.0 and now Web3.0, what is the real difference?
 
 0:11:00 - Thoughts about when you first heard about web3.
 
