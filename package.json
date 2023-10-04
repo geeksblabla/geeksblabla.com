@@ -33,7 +33,7 @@
     "algoliasearch": "^4.9.2",
     "auth0-js": "^9.12.1",
     "emotion": "^10.0.27",
-    "gatsby": "^2.18.17",
+    "gatsby": "^5.12.5",
     "gatsby-image": "^2.2.37",
     "gatsby-mdx": "^1.0.0",
     "gatsby-plugin-algolia": "^0.20.1",
