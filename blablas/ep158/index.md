@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-Tech News & AMA #26 with our community members Ilias, Nouamane, Faisal, and Youssouf. During this episode, we discuss the next Devoxx Morocco conference, Hacktoberfest, AI, bun and much more.
+In this eisode we discuss more of L3arbi, that was resented by the DevoxxMA team at the vent, from a technical point of view with Nouamane and Faissal.
 
 ## Guests
 
