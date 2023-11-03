@@ -2,7 +2,7 @@
 date: 2023-10-22
 time: 20h:00min
 duration: "2:00:39"
-title: "L3arbi chatbot: A Technical deep dive"
+title: "L3arbi ChatBot: A Technical deep dive"
 tags: ["dev"]
 category: "dev"
 isNext: false
@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-In this eisode we discuss more of L3arbi, that was resented by the DevoxxMA team at the vent, from a technical point of view with Nouamane and Faissal.
+In this episode we discuss more of L3arbi, that was resented by the DevoxxMA team at the vent, from a technical point of view with Nouamane and Faissal.
 
 ## Guests
 
@@ -25,7 +25,7 @@ In this eisode we discuss more of L3arbi, that was resented by the DevoxxMA team
 
 0:01:21 - Who/what is l3arbi?
 
-0:16:24 - Is there possibilties that L3arbi will learn other arabic dialects other than darija?
+0:16:24 - Is there possibilities that L3arbi will learn other arabic dialects other than darija?
 
 0:26:35 - Challenges of audio transcription
 
@@ -33,11 +33,11 @@ In this eisode we discuss more of L3arbi, that was resented by the DevoxxMA team
 
 0:32:56 - Data training and Whisper and how many hours of darija data is used ?
 
-0:34:30 - Format of data that is used for training, and arcitecture of web application presented in DevoxxMA
+0:34:30 - Format of data that is used for training, and architecture of web application presented in DevoxxMA
 
 0:39:37 - The use case of DevoxxMA
 
-0:44:30 - Finetuning of an LLM, models and details 
+0:44:30 - Fine-tuning of an LLM, models and details 
 
 0:56:20 - Evaluation set for different dialects per regions in morocco
 
