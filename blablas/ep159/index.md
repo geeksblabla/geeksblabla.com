@@ -2,7 +2,7 @@
 date: 2023-10-28
 time: 20h:00min
 duration: "2:05:41"
-title: "It Depends: The Art of decision-making - ماشي أي حاجة دارتها نيتفليكس خاص نديروها 👌🏻"
+title: "It Depends: The Art of decision-making"
 tags: ["dev"]
 category: "dev"
 isNext: false
