@@ -44,10 +44,12 @@ const uploadToAnchor = async ({
     setTimeout(r, 5 * 1000)
   })
   await navigationPromise
-  await clickXpath(page, '//button[contains(text(),"email")]')
+  await clickXpath(page, '//button[text()="Continue"]')
   await new Promise((r) => {
     setTimeout(r, 20 * 1000)
   })
+
+  //*[@id="app-content"]/div/div[3]/div[2]/button
   await page.waitForSelector("#email")
   await page.type("#email", email)
   await page.type("#password", password)
