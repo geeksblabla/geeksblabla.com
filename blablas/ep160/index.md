@@ -2,7 +2,7 @@
 date: 2023-11-05
 time: 20h:00min
 duration: "2:19:34"
-title: "Java in 2023 - 🇲🇦 اش واقع فالجاڤا ؟ واش جاڤا بقيا مطلوبة ولا صافي ؟ 🤔"
+title: "Java in 2023"
 tags: ["dev"]
 category: "dev"
 isNext: false
@@ -15,9 +15,17 @@ In this episode we discuss the Java updates and features in 2023, with Aicha Laa
 
 ## Guests
 
-- [Faissal Boutaounte](https://twitter.com/bfaissal)
+- [Aicha Laafia](https://twitter.com/AichaLaafia)
 
-- [Nouamane Tazi](https://www.linkedin.com/in/nouamanetazi/)
+- [Hamza Belmellouki](https://www.linkedin.com/in/hamzabelmellouki/)
+
+- [Ossama Ismaili](https://x.com/ossamaismaili)
+
+- [Adnane Belmadiaf](https://www.facebook.com/AdnaneBelmadiaf)
+
+- [Marouane gazayni](https://twitter.com/mgazanayi)
+
+- [Ibrahim Mestadi](https://x.com/ibrahimmestadi)
 
 ## Notes
 
@@ -39,7 +47,7 @@ In this episode we discuss the Java updates and features in 2023, with Aicha Laa
 
 1:10:00 - The project Leyden
 
-1:14:35 - What are the limitations of java in the serverless?
+1:14:35 - What are the limitations of Java in the serverless?
 
 1:16:00 - Java benchmark and comparison with other languages
 
@@ -49,19 +57,19 @@ In this episode we discuss the Java updates and features in 2023, with Aicha Laa
 
 1:33:00 - Is Java slow and/or Verbose?
 
-1:35:00 - Migration from old to new java versions tips, feedback and recommendations 
+1:35:00 - Migration from old to new Java versions tips, feedback and recommendations
 
 1:47:00 - Answer the questions from the comments
 
-2:12:00 - Recommendations for new java devs
+2:12:00 - Recommendations for new Java devs
 
 2:18:00 - Conclusion and goodbye.
 
 ## Links
 
 - [Languages comparison](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
-- [Picocli](https://picocli.info/)
 
+- [Picocli](https://picocli.info/)
 
 ## Prepared and Presented by
 
