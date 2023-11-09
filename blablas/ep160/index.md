@@ -6,7 +6,7 @@ title: "Java in 2023"
 tags: ["dev"]
 category: "dev"
 isNext: false
-youtube: https://www.youtube.com/watch?v=hTV90OlKlOg
+youtube: https://www.youtube.com/watch?v=VkJtIaTGRsk
 published: true
 featured: false
 ---
