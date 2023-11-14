@@ -2,7 +2,7 @@
 date: 2023-11-12
 time: 20h:00min
 duration: "3:20:22"
-title: "JavaScript in 2023 - TS, React, Angular, Astro, Qwik, Bun, Htmx"
+title: "JavaScript in 2023"
 tags: ["dev"]
 category: "dev"
 isNext: false
@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-In this episode we discuss the JavaScript updates and features in 2023, with Abderrahim Soubai Idrissi, Ayoub Alouane, Wassim CHEGHAM, Mouad Sidqi, Niima  Chigr, and Youssouf El Azizi.
+In this episode, we discuss the JavaScript updates and features in 2023, with Abderrahim Soubai Idrissi, Ayoub Alouane, Wassim CHEGHAM, Mouad Sidqi, Niima  Chigr, and Youssouf El Azizi.
 
 ## Guests
 
@@ -29,13 +29,13 @@ In this episode we discuss the JavaScript updates and features in 2023, with Abd
 
 0:00:00 - Introduction and welcoming
 
-0:06:00 - Is Typescript the new javascript?
+0:06:00 - Is Typescript the new Javascript?
 
-0:10:00 - To start a new project in 2023-2024, which one is better, JavaScript or TypeScript?
+0:10:00 - Which is better for starting a new project in 2023-2024: JavaScript or TypeScript?
 
-0:19:00 - Are we just making the frontend complex with too many concepts?
+0:19:00 - Are we  making the front-end development too complex with too many concepts?
 
-0:32:00 - walking through some of the most important concepts in frontend: Hydration, islands, resumability
+0:32:00 - Walking through some of the most important concepts in frontend: Hydration, islands, resumability.
 
 1:16:00 - Are compilers the new frameworks?
 
@@ -47,9 +47,9 @@ In this episode we discuss the JavaScript updates and features in 2023, with Abd
 
 2:03:00 - Answer the questions from the comments
 
-2:14:00 - How to stay updated with trends?
+2:14:00 - How do you stay updated with Javascript trends?
 
-2:23:00 - Frameworks updates
+2:23:00 - Frameworks updates: Angualar, React, Qwik, Next ...
 
 2:49:00 - Bun
 
