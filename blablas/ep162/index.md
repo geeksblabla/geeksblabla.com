@@ -1,17 +1,17 @@
 ---
-date: 2023-11-12
+date: 2023-11-19
 time: 20h:00min
 duration: "3:54:50"
-title: "PHP 🐘 in 2023"
+title: "PHP in 2023"
 tags: ["dev"]
 category: "dev"
 isNext: false
-youtube: https://www.youtube.com/watch?v=T2caZNK6jhE&t=12s
+youtube: https://www.youtube.com/watch?v=T2caZNK6jhE
 published: true
 featured: false
 ---
 
-In this episode, we discuss the JavaScript updates and features in 2023, with Abderrahim Soubai Idrissi, Ayoub Alouane, Wassim CHEGHAM, Mouad Sidqi, Niima  Chigr, and Youssouf El Azizi.
+In this episode, we discuss the latest PHP features in 2023, frameworks, and much more with our community friends.
 
 ## Guests
 
