@@ -6,12 +6,12 @@ title: "DevOps in 2023"
 tags: ["career"]
 category: "career"
 isNext: false
-youtube: https://www.youtube.com/live/jgLmsiLsC5U?si=Ds0rqBK6i-M9NIO5
+youtube: https://www.youtube.com/watch?v=jgLmsiLsC5U
 published: true
 featured: false
 ---
 
-In this episode, we discuss the state of DevOps in 2023, highlights of key changes/improvements, new rising roles, and the most recent emerging practices. 
+In this episode, we discuss the state of DevOps in 2023 and highlight key changes/improvements, new rising roles, and the most recent emerging practices. 
 
 
 ## Guests
@@ -35,7 +35,7 @@ In this episode, we discuss the state of DevOps in 2023, highlights of key chang
 
 00:00:00 - Introduction and welcoming
 
-00:05:55 - State of DevOps in 2023 : Key changes, notable shifts and improvements.
+00:05:55 - State of DevOps in 2023: Key changes, notable shifts and improvements.
 
 00:08:35 - Definition of DevOps and highlights on some DevOps misconceptions
 
@@ -47,9 +47,9 @@ In this episode, we discuss the state of DevOps in 2023, highlights of key chang
 
 01:10:02  - The rise of Low-Code/No-Code platforms and whether they threaten DevOps jobs or there will be a new role created
 
-01:38:52  - What is Platform Engineering ?
+01:38:52  - What is Platform Engineering?
 
-01:54:50  -  Should a DevOps/Platform/SRE engineer be a developer beforehand ? 
+01:54:50  -  Should a DevOps/Platform/SRE engineer be a developer beforehand? 
 
 02:10:59  - What advice to give for juniors to get started and build a successful DevOps career?
 
