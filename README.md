@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.geeksblabla.com">
@@ -218,7 +218,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="20%"><a href="https://melbarch.com"><img src="https://avatars0.githubusercontent.com/u/12951727?v=4?s=180" width="180px;" alt="Mohamed ELBARCHANY"/><br /><sub><b>Mohamed ELBARCHANY</b></sub></a><br /><a href="#content-melbarch" title="Content">🖋</a></td>
       <td align="center" valign="top" width="20%"><a href="https://github.com/kelmag"><img src="https://avatars0.githubusercontent.com/u/29312717?v=4?s=180" width="180px;" alt="Khalil El Maghraoui"/><br /><sub><b>Khalil El Maghraoui</b></sub></a><br /><a href="#content-kelmag" title="Content">🖋</a></td>
       <td align="center" valign="top" width="20%"><a href="https://pingfrommorocco.blogspot.com"><img src="https://avatars2.githubusercontent.com/u/1638227?v=4?s=180" width="180px;" alt="Azi Hassan"/><br /><sub><b>Azi Hassan</b></sub></a><br /><a href="#content-azihassan" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="20%"><a href="http://pixelhint.com"><img src="https://avatars3.githubusercontent.com/u/13198653?v=4?s=180" width="180px;" alt="ijja"/><br /><sub><b>ijja</b></sub></a><br /><a href="https://github.com/geeksblabla/geeksblabla.com/commits?author=ijja" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/ijja"><img src="https://avatars3.githubusercontent.com/u/13198653?v=4?s=180" width="180px;" alt="ijja"/><br /><sub><b>ijja</b></sub></a><br /><a href="https://github.com/geeksblabla/geeksblabla.com/commits?author=ijja" title="Code">💻</a></td>
     </tr>
     <tr>
       <td align="center" valign="top" width="20%"><a href="https://github.com/bondif"><img src="https://avatars2.githubusercontent.com/u/24433897?v=4?s=180" width="180px;" alt="Mohamed BOUKHLIF"/><br /><sub><b>Mohamed BOUKHLIF</b></sub></a><br /><a href="#content-bondif" title="Content">🖋</a> <a href="https://github.com/geeksblabla/geeksblabla.com/commits?author=bondif" title="Code">💻</a></td>
@@ -254,6 +254,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="20%"><a href="https://www.instagram.com/zakarialaoui10/"><img src="https://avatars.githubusercontent.com/u/63521765?v=4?s=180" width="180px;" alt="ZAKARIA ELALAOUI"/><br /><sub><b>ZAKARIA ELALAOUI</b></sub></a><br /><a href="#content-zakarialaoui10" title="Content">🖋</a></td>
       <td align="center" valign="top" width="20%"><a href="https://github.com/deleusec"><img src="https://avatars.githubusercontent.com/u/59571508?v=4?s=180" width="180px;" alt="Corentin Deleuse"/><br /><sub><b>Corentin Deleuse</b></sub></a><br /><a href="https://github.com/geeksblabla/geeksblabla.com/commits?author=deleusec" title="Code">💻</a></td>
       <td align="center" valign="top" width="20%"><a href="https://stackoverflow.com/users/6242698/elasri"><img src="https://avatars.githubusercontent.com/u/17480866?v=4?s=180" width="180px;" alt="Elasri Abdelati"/><br /><sub><b>Elasri Abdelati</b></sub></a><br /><a href="#content-kaizendae" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/britel-chaimaa20"><img src="https://avatars.githubusercontent.com/u/52888345?v=4?s=180" width="180px;" alt="Britel Chaimaa"/><br /><sub><b>Britel Chaimaa</b></sub></a><br /><a href="#content-britel-chaimaa20" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
