@@ -64,7 +64,7 @@ export default () => {
           >
             Mailing List
           </a>{" "}
-          to get updates about GeeksBlaBla and DevC Events
+          to get updates about GeeksBlaBla, StateOfDev.ma, Awesome Morocco, and BlaBlaConf events 
         </p>
       </div>
     </div>

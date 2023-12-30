@@ -80,7 +80,7 @@ export default ({ style }) => (
               <li>
                 <a
                   target={"_blank"}
-                  href="https://github.com/DevC-Casa/awesome-morocco"
+                  href="https://github.com/geeksblabla/awesome-morocco"
                 >
                   awesome-morocco
                 </a>
@@ -92,7 +92,7 @@ export default ({ style }) => (
         <div className={"Footer-main-contribution"}>
           <p>
             <a
-              href="https://github.com/DevC-Casa/geeksblabla.com"
+              href="https://github.com/geeksblabla/geeksblabla.com"
               target={"_blank"}
             >
               Want to Contribute?
@@ -106,14 +106,6 @@ export default ({ style }) => (
             </span>{" "}
           </p>
           <p>
-            By{" "}
-            <a
-              href="https://www.facebook.com/groups/DevC.Casablanca/"
-              target={"_blank"}
-            >
-              {" "}
-              DevC Casa Team{" "}
-            </a>{" "}
             using
           </p>
           <p>
@@ -124,7 +116,7 @@ export default ({ style }) => (
           <p>
             Sourced on{" "}
             <a
-              href="https://github.com/DevC-Casa/geeksblabla.com"
+              href="https://github.com/geeksblabla/geeksblabla.com"
               target="_blank"
             >
               GitHub
