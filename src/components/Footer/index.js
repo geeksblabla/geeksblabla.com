@@ -40,7 +40,9 @@ export default ({ style }) => (
               <li>
                 <a
                   target={"_blank"}
-                  href={"https://www.linkedin.com/company/69317726/"}
+                  href={
+                    "https://www.linkedin.com/company/geeksblabla-community"
+                  }
                 >
                   LinkedIn
                 </a>
@@ -105,9 +107,7 @@ export default ({ style }) => (
               ❤️
             </span>{" "}
           </p>
-          <p>
-            using
-          </p>
+          <p>using</p>
           <p>
             <Figma /> <ReactIcon alt="react" /> <GatsbyJs /> <FunaDB />{" "}
             <Auth0 />

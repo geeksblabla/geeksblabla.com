@@ -82,7 +82,7 @@ In this episode of GeeksBlabla, we discuss with our guests, Open Source and the 
 
 - [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
-- [Open Source with Yassine Elouafi](https://geeksblabla.com/blablas/open-source-with-yassine-elouafi)
+- [Open Source with Yassine Elouafi](https://geeksblabla.io/blablas/open-source-with-yassine-elouafi)
 
 - [Facebook Developer Circles Community Challenge](https://developercircles2020.devpost.com/)
 

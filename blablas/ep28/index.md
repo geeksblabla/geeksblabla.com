@@ -10,7 +10,7 @@ video: "2902199879840669"
 featured: true
 youtube: https://www.youtube.com/watch?v=gvve_LEqtbI
 published: true
-url: "https://geeksblabla.com/blablas/geeks-blabla-kids"
+url: "https://geeksblabla.io/blablas/geeks-blabla-kids"
 ---
 
 A Special episode to encourage youth minds in the coding industry,In this episode of GeeksBlabla Ayman and Achraf, 2 boys under 16, share their story with programming and robotics.

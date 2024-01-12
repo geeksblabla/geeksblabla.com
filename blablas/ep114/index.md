@@ -13,13 +13,11 @@ featured: false
 
 In this episode of GeeksBlabla, our community friends, Zakaria and Hamza, share their journey switching their careers to IT with us; we answer Why and How and some advice for people who want to switch their careers to IT.
 
-
 ## Guests
 
 - [Hamza Hanafi](https://www.linkedin.com/in/hamza-hanfi-9ba77b137/)
 
 - [Zackaria S](https://twitter.com/gitignorer)
-
 
 ## Notes
 
@@ -47,13 +45,11 @@ In this episode of GeeksBlabla, our community friends, Zakaria and Hamza, share 
 
 1:40:00 - Conclusion
 
-
 ## Links
 
 - [Freecodecamp](https://www.freecodecamp.org/)
-- [Coding Bootcamp in Morocco](https://geeksblabla.com/blablas/coding-bootcamp-in-morocco)
+- [Coding Bootcamp in Morocco](https://geeksblabla.io/blablas/coding-bootcamp-in-morocco)
 - [Stateofdev.ma](https://stateofdev.ma/)
-
 
 ## Prepared and Presented by
 

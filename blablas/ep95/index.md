@@ -52,7 +52,7 @@ In this episode, we talk about Open Source and the annual event Hacktoberfest. W
 
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
 
-- [Hacktoberfest & Open source previous Episode](https://geeksblabla.com/blablas/hacktoberfest-open-source)
+- [Hacktoberfest & Open source previous Episode](https://geeksblabla.io/blablas/hacktoberfest-open-source)
 
 ## Prepared and Presented by
 

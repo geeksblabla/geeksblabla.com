@@ -10,14 +10,14 @@ Social Media
 Facebook: https://www.facebook.com/geeksblabla
 Instagram:  https://www.instagram.com/geeksblabla
 Twitter: https://www.twitter.com/geeksblabla
-Linkedin: https://www.linkedin.com/company/69317726/
+Linkedin: https://www.linkedin.com/company/geeksblabla-community
 
 
 
 Community projects :
 --------------------------------
 
-Geeksblabla:  https://geeksblabla.com/
+Geeksblabla:  https://geeksblabla.io/
 GeeksBlaBla is a community initiative, to discuss, highlight and share the latest IT topics in Moroccan Darija.
 
 Awesome Morocco: https://github.com/DevC-Casa/awesome-morocco

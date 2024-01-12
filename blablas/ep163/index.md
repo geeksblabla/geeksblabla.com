@@ -23,7 +23,6 @@ In this episode, we discuss the latest Python features and fileds of usage in 20
 
 - [Hamza Haddaa](https://twitter.com/HamzaHaddaa)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -32,9 +31,9 @@ In this episode, we discuss the latest Python features and fileds of usage in 20
 
 0:08:40 - Emerging trends or technologies in the Python ecosystem that are particularly noteworthy this year
 
-0:21:00 - How do you anticipate Python's role evolving in the domain of Data Science and ML 
+0:21:00 - How do you anticipate Python's role evolving in the domain of Data Science and ML
 
-0:35:00 - Major updates or changes in Python frameworks or libraries that developers should be aware of 
+0:35:00 - Major updates or changes in Python frameworks or libraries that developers should be aware of
 
 0:41:00 - Python is addressing challenges related to scalability and performance, especially in the context of modern applications
 
@@ -54,16 +53,15 @@ In this episode, we discuss the latest Python features and fileds of usage in 20
 
 - [JetBrains Survey](https://www.jetbrains.com/lp/devecosystem-2022/python/)
 
-- [Python Deep Dive Episode](https://geeksblabla.com/blablas/python-deep-dive)
+- [Python Deep Dive Episode](https://geeksblabla.io/blablas/python-deep-dive)
 
-- [Understanding the Python Global Interpreter](https://elmkarami.com/blog/understanding_the_gil/ )
+- [Understanding the Python Global Interpreter](https://elmkarami.com/blog/understanding_the_gil/)
 
 - [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
 
 - [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide)
 
 - [Book recommandation from Hamza](noor-book.com/hok5sf)
-
 
 ## Prepared and Presented by
 

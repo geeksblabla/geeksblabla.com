@@ -1,4 +1,4 @@
-Sitemap: https://geeksblabla.com/sitemap.xml
+Sitemap: https://geeksblabla.io/sitemap.xml
 
 User-agent: *
 Disallow: /thanks/

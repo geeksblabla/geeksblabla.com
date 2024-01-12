@@ -134,11 +134,11 @@ Ask Me Anything episode #5 with our community members and guests Youssouf, Abder
 
 - [SAD DNS Explained](https://blog.cloudflare.com/sad-dns-explained/)
 
-- [Hacktoberfest & Open Source](https://geeksblabla.com/blablas/hacktoberfest-open-source)
+- [Hacktoberfest & Open Source](https://geeksblabla.io/blablas/hacktoberfest-open-source)
 
 - [Awesome Morocco](https://github.com/DevC-Casa/awesome-morocco)
 
-- [.NET deep dive](https://geeksblabla.com/blablas/net-deep-dive)
+- [.NET deep dive](https://geeksblabla.io/blablas/net-deep-dive)
 
 ## Prepared and Presented by
 

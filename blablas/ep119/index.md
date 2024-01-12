@@ -51,7 +51,7 @@ Tech News & AMA #17 with our community members Mohamed, and Abdullah. During thi
 
 - [Oracle Labs](https://labs.oracle.com/pls/apex/labs/r/labs/intro)
 - [StateOfDev.ma](https://stateofdev.ma/)
-- [Self-taught developers episode](https://geeksblabla.com/blablas/self-taught-developers)
+- [Self-taught developers episode](https://geeksblabla.io/blablas/self-taught-developers)
 
 ## Prepared and Presented by
 
