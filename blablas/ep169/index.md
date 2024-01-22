@@ -3,7 +3,7 @@ date: 2024-01-14
 time: 20h:00min
 duration: "1:41:51"
 title: "WebAssembly in 2024"
-tags: ["dev","wasm"]
+tags: ["dev", "wasm"]
 category: "dev"
 isNext: false
 youtube: https://www.youtube.com/watch?v=M3IBIFHwLBE
@@ -37,12 +37,11 @@ In this episode, We discuss The state of webassembly in 2024
 
 1:02:07 - is it worth it to learn WASM.
 
-1:20:55  - Resource to learn WASM.
+1:20:55 - Resource to learn WASM.
 
-1:36:18  - Prediction and WASM future
+1:36:18 - Prediction and WASM future
 
-1:40:29  - Conclusion and Goodbye
-
+1:40:29 - Conclusion and Goodbye
 
 ## Links
 
