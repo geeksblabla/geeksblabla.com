@@ -6,12 +6,12 @@ title: "From Code Passion to First Dollar"
 tags: ["career"]
 category: "career"
 isNext: false
-youtube: https://www.youtube.com/live/6wsSnklIzNU?si=Ryl0UwtkEMBmyxUQ
+youtube: https://www.youtube.com/watch?v=6wsSnklIzNU
 published: true
 featured: false
 ---
 
-In this episode, we discuss how to go from code passion to first dollar, concrete strategies to get started, and many more with the very talented guests.
+In this episode, we discuss how to turn code passion into profit. We'll cover concrete strategies to get started and more, with our talented guests.
 
 ## Guests
 
@@ -28,31 +28,31 @@ In this episode, we discuss how to go from code passion to first dollar, concret
 
 0:00:00 - Introduction and welcoming
 
-0:04:50 - Is the Solopreneur, or Indie Maker, fields for all software engineers?
+0:04:50 - Is the solopreneur or indie maker field suitable for all software engineers?
 
-0:07:18 - What type of software enginners can be an Indie Maker?
+0:07:18 - What types of software engineers can be indie makers?
 
-0:15:08 - The transition from an employee to Solopreneur, and following your passion
+0:15:08 - The transition from being an employee to a solopreneur and following your passion.
 
-0:22:00 - Upsides and downsides of solopreneur journey
+0:22:00 - Upsides and downsides of the solopreneur journey.
 
-0:25:45 - Tips to find ideas to make your first product 
+0:25:45 - Tips to find ideas to make your first product.
 
-0:35:30 - Tips to gather first budget to get started, and the minimum budget needed
+0:35:30 - Tips to gather the first budget to get started and the minimum budget needed.
 
-0:50:58 - Tips for time allocation for the new path 
+0:50:58 - Tips for Time Allocation as a Solopreneur 
 
-0:57:01 - Idea Generation and Validation
+0:57:01 - Idea generation and validation.
 
-1:01:10 - Tips to generate first dollar with your current skill, with or without experience
+1:01:10 - Tips to generate your first dollar with your current skill, with or without experience.
 
-1:13:13 - Tips to  find the right audience 
+1:13:13 - Tips to Find the Right Audience 
 
-1:24:00 - Is indie hacking similar to dropshipping ? 
+1:24:00 - Is indie hacking similar to dropshipping? 
 
-1:38:06 - Deadly trap: Think globally and generate more income
+1:38:06 - Deadly trap: Think globally and generate more income.
 
-1:45:10 - Deadly trap: procrastinating grwth and developping ideas 
+1:45:10 - Deadly trap: procrastinating growth and developing ideas.
 
 1:54:00 - Geeksblabla picks & QA
 
