@@ -2,7 +2,7 @@
 date: 2024-03-10
 time: 21h:00min
 duration: "1:29:29"
-title: "Blanat Coding Challenge #BCC discussion"
+title: "Blanat Coding Challenge"
 tags: ["dev"]
 category: "dev"
 isNext: false
@@ -27,17 +27,17 @@ In this episode, we discuss the new challenge Blanat, we hosted participants and
 
 0:07:20 - Blanat challenge in numbers.
 
-0:09:30 - The winner word.
+0:09:30 - The winner's words.
 
-0:18:18 - Other participants word.
+0:18:18 - Other participant's words.
 
 0:56:00 - RAFFLE.
 
-1:04:05 - Mehdi talks about runner app.
+1:04:05 - Challenge runner application.
 
-1:09:00 - the idea how it comes up.
+1:09:00 - The idea of how the challenge came up from.
 
-1:12:45 - how we manage PRs.
+1:12:45 - How we manage PRs.
 
 1:14:50 - Things to improve.
 
