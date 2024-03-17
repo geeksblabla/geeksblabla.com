@@ -2,16 +2,16 @@
 date: 2024-03-10
 time: 21h:00min
 duration: "1:29:29"
-title: "#173 - Blanat Coding Challenge #BCC discussion"
-tags: ["DEV"]
-category: "DEV"
+title: "Blanat Coding Challenge #BCC discussion"
+tags: ["dev"]
+category: "dev"
 isNext: false
 youtube: https://www.youtube.com/watch?v=gOnapDngTuk
 published: true
 featured: false
 ---
 
-In this episode, we discuss how to prepare for talks, taking 3 months long vacations and the future of the tech industry in 2024.
+In this episode, we discuss the new challenge Blanat, we hosted participants and organizers to talk about it.
 
 ## Guests
 
@@ -51,4 +51,4 @@ In this episode, we discuss how to prepare for talks, taking 3 months long vacat
 
 ## Prepared and Presented by
 
-- [Adnan MERRAKCHI]
+- [Adnan MERRAKCHI](https://twitter.com/adnanmrakchi)
