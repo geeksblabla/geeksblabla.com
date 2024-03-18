@@ -15,9 +15,15 @@ In this episode, we discuss the new challenge Blanat, we hosted participants and
 
 ## Guests
 
-- [Djalal](https://twitter.com/enlamp)
+- [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
-- [Ahmed El Azzabi](https://mylink.fyi/elazzabi)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
+
+- [Zakaria Moumen](https://www.linkedin.com/in/zakaria-moumen/)
+
+- [Youssfi Saad](https://www.linkedin.com/in/yousfisaad/)
+
+- [Mehdi Essalhi]()
 
 ## Notes
 
