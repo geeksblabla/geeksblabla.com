@@ -2,7 +2,7 @@
 date: 2023-03-24
 time: 22h:00min
 duration: "2:13:58"
-title: "نقاش: 10 نصائح للنجاح كمبرمج فعالم المعلوميات"
+title: "Ten Principles for Growth as an Engineer"
 tags: ["career", "dev", "tips", "programming", "success"]
 category: "career"
 isNext: false
@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-In this episode we discuss 10 tips for success in the IT world, and how to become an effective programmer. espcially for the Moroccan context.
+In this episode, we discuss 10 tips for success in the IT world, and how to become an effective programmer. especially for the Moroccan context.
 we based our discussion on the following article [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b)
 
 ## Guests
