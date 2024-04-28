@@ -48,5 +48,5 @@ In this episode, We discuss 7 Pillars that can helps us lead a more comfortable 
 
 ## Prepared and Presented by
 
-- [Adnan M'RAKCHI](https://twitter.com/adnanmrakchi)
+- [Adnan M'RAKCHI](https://twitter.com/_admerra)
 - [Otmane FETTAL](https://twitter.com/ofettal)

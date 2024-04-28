@@ -81,4 +81,4 @@ In this episode, we explore the newest Rust features in 2023, practical use case
 
 ## Prepared and Presented by
 
-- [Adnan M'RAKCHI](https://twitter.com/adnanmrakchi)
+- [Adnan M'RAKCHI](https://twitter.com/_admerra)
