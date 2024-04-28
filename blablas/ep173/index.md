@@ -57,4 +57,4 @@ In this episode, we discuss the new challenge Blanat, we hosted participants and
 
 ## Prepared and Presented by
 
-- [Adnan MERRAKCHI](https://twitter.com/adnanmrakchi)
+- [Adnan MERRAKCHI](https://twitter.com/_admerra)

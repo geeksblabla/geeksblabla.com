@@ -23,7 +23,7 @@ In this episode, we discuss the state of development in Morocco. We talk about t
 
 - [Nouamane Tazi](https://www.linkedin.com/in/nouamanetazi/)
 
-- [Adnan MERRAKCHI](https://twitter.com/adnanmrakchi)
+- [Adnan MERRAKCHI](https://twitter.com/_admerra)
 
 ## Notes
 
