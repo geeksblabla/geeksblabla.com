@@ -6,7 +6,7 @@ title: "Tech News & AMA #31"
 tags: ["ama"]
 category: "ama"
 isNext: false
-youtube: hhttps://www.youtube.com/watch?v=R19JBanjhnQ
+youtube: https://www.youtube.com/watch?v=R19JBanjhnQ
 published: true
 featured: false
 ---
