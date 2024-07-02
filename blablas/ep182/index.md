@@ -1,5 +1,5 @@
 ---
-date: 2024 -06 -09
+date: 2024-06-09
 time: 20h:00min
 duration: "2:03:14"
 title: "Kubernetes عشر سنوات مع"
