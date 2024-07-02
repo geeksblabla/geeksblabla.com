@@ -1,5 +1,5 @@
 ---
-date: 2024 -06 -02
+date: 2024-06-02
 time: 20h:00min
 duration: "1:17:05"
 title: "Tech News & AMA #31"
