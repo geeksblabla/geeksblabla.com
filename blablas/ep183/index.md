@@ -1,5 +1,5 @@
 ---
-date: 2024 -06 -23
+date: 2024-06-23
 time: 20h:00min
 duration: "1:28:14"
 title: "State of AI"
