@@ -6,7 +6,7 @@ title: "State of AI"
 tags: ["dev"]
 category: "dev"
 isNext: false
-youtube: https://www.youtube.com/live/3a_spEXK02o?si=t_EyVhke_8mgRJHC
+youtube: https://www.youtube.com/watch?v=3a_spEXK02o&t=162s
 published: true
 featured: false
 ---
