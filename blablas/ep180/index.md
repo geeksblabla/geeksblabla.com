@@ -1,5 +1,5 @@
 ---
-date: 2024 -05 -12
+date: 2024-05-12
 time: 20h:00min
 duration: "1:45:17"
 title: "Data engineer 101"
