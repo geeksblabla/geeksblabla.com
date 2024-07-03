@@ -35,7 +35,7 @@ In this episode we adress the concern of information economy or "why people don'
 
 0:37:08 - Comparison to neighboring countries 
 
-0:47:31 - ow educational system prepare students for the information economy
+0:47:31 - How educational system prepare students for the information economy
 
 1:02:40 - Working on infrastructure and mindset / Behavior
 
@@ -43,7 +43,7 @@ In this episode we adress the concern of information economy or "why people don'
 
 1:24:48 - Q&A / Giveaway
 
-2:06:08 - Conclusion and Goodbye
+2:06:05 - Conclusion and Goodbye
 
 
 ## Links
