@@ -6,7 +6,7 @@ title: "Kubernetes عشر سنوات مع"
 tags: ["dev"]
 category: "dev"
 isNext: false
-youtube: https://www.youtube.com/live/eI1r6hS8gF0?si=F63xeJsOQpkdjHLB
+youtube: https://www.youtube.com/watch?v=eI1r6hS8gF0
 published: true
 featured: false
 ---
