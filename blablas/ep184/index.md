@@ -1,5 +1,5 @@
 ---
-date: 2024 -06 -30
+date: 2024-06-30
 time: 20h:00min
 duration: "2:06:08"
 title: "Why aren't people ready to buy digital information?"
