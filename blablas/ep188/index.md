@@ -1,47 +1,56 @@
 ---
-date: 2024-07-21
+date: 2024-07-28
 time: 20h:00min
-duration: "2:27:01"
-title: "Back to basics واش الاساسيات مازال ضرورية 🤔؟"
+duration: "1:33:36"
+title: "Why it is important to test? Crowdstrike meltdown"
 tags: ["dev"]
 category: "dev"
 isNext: false
-youtube: https://www.youtube.com/live/k9jMvSybyYY?si=CvmioZTh7UiuqxH2
+youtube: https://www.youtube.com/live/JT0k1sYv7-c?si=BxN8n3wN6TpaswFT
 published: true
 featured: false
 ---
 
-In this episode, we will discuss the fundamental skills every developer needs to master. These essentials will help you become a stronger and more proficient developer.
+In this episode, we discussed the famous issue between CrowdStrike and Microsoft, and we also highlighted the importance of testing.
 
 ## Guests
 
 
-- [Marouane Gazanayi](https://www.linkedin.com/in/marouanegazanayi/)
-- [Abdelziz eroui](https://www.linkedin.com/in/aeroui/)
-- [Slimane Akalie](https://www.linkedin.com/in/slimaneakalie/)
-- [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
+- [Abdelfattah Sghiouar](https://twitter.com/boredabdel)
 
+- [Abderahman Instagram ](https://www.instagram.com/abdulbenbrahim/)
+
+- [Hammadi Agharass](https://twitter.com/hagharass)
 
 
 ## Notes
 
 0:00:00 - Introduction and welcoming
 
-0:04:52 - What are the fundamental skills every software engineer needs to master?
+0:05:30 - We all witnessed the problem of Microsoft and CrowdStrike. What happened exactly?
 
-0:29:05 - How deeply should I delve into the fundamentals?
+0:16:25 - Do you think this problem will make people lose trust in systems in general?
 
-0:50:30 - The fundamentals that a back-end developer needs?
+0:26:40 - explainning some concepts like kerenel, vm, etc?
 
-1:25:00 - How can I effectively manage the difficulty of learning the fundamentals?
+0:32:05 - Is it good to use more than one OS to avoid a single point of failure issue?
 
-2:03:30 - is the main purpose of school to teach findamentls?
+0:39:15 - After what happened, do you think in the coming days we will see a new solution for testing to avoid this problem?
 
-2:16:25 - picks of guests.
+0:46:05 - Could we use AI to test these solutions?
+
+0:51:05 - Is this the first time we've had something similar?
+
+1:02:15 - After what happened, do you thing business and finance departments will give more importance to IT?
+
+1:18:16 - What did we learn from what happened?
+
+
+
 
 ## Links
 
 
 ## Prepared and Presented by
 
-- [Adnan MERRAKCHI](https://twitter.com/_admerra)
+- [Mourad Mtouaa](https://twitter.com/mouradxmt)
