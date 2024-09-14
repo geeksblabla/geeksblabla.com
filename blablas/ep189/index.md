@@ -11,7 +11,7 @@ published: true
 featured: false
 ---
 
-In this episode, we discussed the famous issue between CrowdStrike and Microsoft, and we also highlighted the importance of testing.
+In this episode, we discussed the technology of Large Language Models (LLMs) and its and significant development in recent years, we discuss what these models are and how they work with our experts.
 
 ## Guests
 
