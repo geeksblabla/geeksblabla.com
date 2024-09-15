@@ -15,7 +15,7 @@ In this Geeksblabla episode, Mohammed Adnane Abouchadi talks about how he became
 
 ## Guests
 
-- [Mohamed Adnane Abouchadi](https://www.linkedin.com/in/mohamed-adnane-abouchadi)
+- [Mohamed Adnane Abouchadi](https://abouchadi.com/)
 
 ## Notes
 
