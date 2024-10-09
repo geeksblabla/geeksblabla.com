@@ -2,7 +2,7 @@
 date: 2023-03-19
 duration: "2:28:43"
 title: "Mental Health for developers"
-tags: [ "career"]
+tags: ["career"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=urFGhkMFgTg
 published: true
@@ -20,7 +20,6 @@ In this Episode we discuss chelleges we face as IT workers in terms of Mental he
 - [Achraf Aamri](http://linkedin.com/in/achrafaamri/)
 
 - [Mohammed Daoudi](https://twitter.com/MIduoad)
-
 
 ## Notes
 
@@ -63,7 +62,6 @@ In this Episode we discuss chelleges we face as IT workers in terms of Mental he
 - [Mountains of the Mind](https://www.amazon.com/Mountains-Mind-Adventures-Reaching-Summit/dp/0375714065)
 
 - [وفي أنفسكم](https://www.youtube.com/playlist?list=PLsRtYZTCYnEdOlfBZP9RRtFzSzfjpI4nV)
-
 
 ## Prepared and Presented by
 

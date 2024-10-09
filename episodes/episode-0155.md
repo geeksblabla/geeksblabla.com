@@ -21,7 +21,6 @@ In This episode, we discuss the Moroccan IT student's life, How to make the most
 
 - [Soubai Abderahim](https://soubai.me)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming

@@ -2,6 +2,7 @@
 /*
 
 # Except these files & folders
+!episodes
 !/src
 !/public
 !/.github

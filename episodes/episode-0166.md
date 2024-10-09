@@ -21,8 +21,6 @@ In this episode, we discuss the state of .net Ecosystem in 2023 and highlight ke
 
 - [Youssef Bensadik](https://www.linkedin.com/in/youssefbensadik/)
 
-
-
 ## Notes
 
 00:00:00 - Introduction and welcoming
@@ -35,7 +33,7 @@ In this episode, we discuss the state of .net Ecosystem in 2023 and highlight ke
 
 00:35:00 - Building Web Applications with Dotnet
 
-00:50:00 - Building Desktop applications with Dotnet 
+00:50:00 - Building Desktop applications with Dotnet
 
 00:58:00 - Dotnet Aspire
 
@@ -57,10 +55,6 @@ In this episode, we discuss the state of .net Ecosystem in 2023 and highlight ke
 
 - [uefimaze](https://github.com/MichalStrehovsky/uefimaze)
 
-
 ## Prepared and Presented by
 
 - [Otmane FETTAL](https://twitter.com/OFettal)
-
-
-

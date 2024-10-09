@@ -23,7 +23,7 @@ In this episode, we review a series of Cal Newport's books and discuss each of t
 
 0:00:00 - Introduction and welcoming
 
-0:03:50 - Intro about the author:  Call Newport and Books 
+0:03:50 - Intro about the author: Call Newport and Books
 
 0:07:00 - So good they can't ignore you
 

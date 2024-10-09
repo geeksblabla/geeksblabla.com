@@ -9,7 +9,7 @@ published: true
 featured: false
 ---
 
-In this Episode , we celebrate 10 years of Kubernetes, its beginning and the transition frol open source to a full solution to manage containers. All with our speacial guests, who will share their expertise and achievements working with the solution. 
+In this Episode , we celebrate 10 years of Kubernetes, its beginning and the transition frol open source to a full solution to manage containers. All with our speacial guests, who will share their expertise and achievements working with the solution.
 
 ## Guests
 
@@ -21,22 +21,21 @@ In this Episode , we celebrate 10 years of Kubernetes, its beginning and the tra
 
 - [Abderrahim Soubai Idrissi](https://www.soubai.me/)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
 
 0:03:39 - What is Kubernetes ?
 
-0:08:09 - How long have you been working with Kubernetes ? How was your personal experience? 
+0:08:09 - How long have you been working with Kubernetes ? How was your personal experience?
 
 0:23:56 - How do use Kubernetes at your daily job/projects?
 
-0:38:03 - Do you use any plugins in your daily work with Kubernetes ? 
+0:38:03 - Do you use any plugins in your daily work with Kubernetes ?
 
 0:44:31 - Tips for managing clusters
 
-0:48:59 - Best practices of using & working with Kubernetes 
+0:48:59 - Best practices of using & working with Kubernetes
 
 1:01:26 - Usage of cluster API in the industry today
 
@@ -44,7 +43,7 @@ In this Episode , we celebrate 10 years of Kubernetes, its beginning and the tra
 
 1:22:29 - Book recommandation to quick start with Kubernetes
 
-1:28:18 - Kubernetes ingress / API 
+1:28:18 - Kubernetes ingress / API
 
 1:32:35 - Did kubernetes made it easy for the CN apps to use ?
 
@@ -53,7 +52,6 @@ In this Episode , we celebrate 10 years of Kubernetes, its beginning and the tra
 1:50:02 - The future of Kubernetes
 
 2:03:10 - Conclusion and Goodbye
-
 
 ## Links
 

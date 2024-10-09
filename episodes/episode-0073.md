@@ -6,8 +6,6 @@ tags: ["dev", "career"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=E0vSLsaOal0
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/721107755256193/
 ---
 
 In this special episode, we highlight the hidden category in Tech in general, Women and girls in tech in Morocco. The guests are students in IT & CS will share their experiences and their journey.

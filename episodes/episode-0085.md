@@ -6,8 +6,6 @@ tags: ["dev", "Java"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=2FcCOLzhqPo
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/844144936214263
 ---
 
 Celebrating 26 years of Java with our community members Badr, Marouane, and Mohammed. During this episode we discuss the latest Java updates, and we answer audience questions about Java, and much more.

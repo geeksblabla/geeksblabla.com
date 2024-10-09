@@ -6,8 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=IPR2auK2vRg
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/356871318697995
 ---
 
 In this episode of GeeksBlabla, we invited Samir Benmakhlouf who is the current CEO of London Academy School and previous Country Manager of Microsoft Morocco

@@ -6,8 +6,6 @@ tags: ["career"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=ylR9JZfhULc
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/150382659848274
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests Karim Mouhssine and Mohamed, who had experience in PhD before, everything about PhD and how to apply for it in Morocco.

@@ -2,7 +2,18 @@
 date: 2022-05-22
 duration: "1:21:51"
 title: "Making Great Tech Products"
-tags: ["Software", "Project", "Project Management", "Agile", "Scrum", "Delivery", "Collaboration" , "Product", "Product Management"]
+tags:
+  [
+    "Software",
+    "Project",
+    "Project Management",
+    "Agile",
+    "Scrum",
+    "Delivery",
+    "Collaboration",
+    "Product",
+    "Product Management",
+  ]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=7Nl-7Zri1Hg
 published: true
@@ -14,7 +25,6 @@ In this Episode , we will discuss what do we need to know to build great tech pr
 ## Guests
 
 - [Hassan BelHabib Filali](https://www.linkedin.com/in/hassan-belhabib-filali-0404b418/)
-
 
 ## Notes
 
@@ -32,7 +42,7 @@ In this Episode , we will discuss what do we need to know to build great tech pr
 
 0:36:20 - Ingrediants to build better products
 
-0:38:00 - Challenging Ideas and making them into reality 
+0:38:00 - Challenging Ideas and making them into reality
 
 0:49:25 - What comes next ?
 

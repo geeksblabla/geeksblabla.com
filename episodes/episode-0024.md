@@ -7,7 +7,6 @@ category: "MSS"
 featured: true
 youtube: https://www.youtube.com/watch?v=QqicTaX4gfU
 published: true
-url: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"
 ---
 
 In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of United Remote.

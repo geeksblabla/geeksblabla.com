@@ -6,8 +6,6 @@ tags: ["JS", "web", "react", "angular", "frontend", "backend", "dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=9D7JAuhJjuU
 published: true
-url: ""
-podcastUrl: ""
 ---
 
 In this episode of GeeksBlabla, we discuss JavaScript, History, Fundamental concepts, Javascript Ecosystem and a lot of topics around it

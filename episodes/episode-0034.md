@@ -7,8 +7,6 @@ category: "dev"
 youtube: https://www.youtube.com/watch?v=CUDS14nbxGU
 published: true
 featured: false
-url: ""
-podcastUrl: ""
 ---
 
 In this episode, Abderrahim share with us some important practices and tips about building Hight Availability systems, scaling web applications and handling high traffic

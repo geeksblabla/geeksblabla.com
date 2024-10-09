@@ -19,7 +19,6 @@ Data engineering is a critical field in data science that involves preparing the
 
 - [Omaima Khalil](https://twitter.com/BadQuinn3)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -50,10 +49,9 @@ Data engineering is a critical field in data science that involves preparing the
 
 1:32:17 - What future trends should data engineers be aware of?
 
-1:41:00 -  Geeksblabla Picks
+1:41:00 - Geeksblabla Picks
 
-2:18:30  - Conclusion and Goodbye
-
+2:18:30 - Conclusion and Goodbye
 
 ## Links
 
@@ -65,7 +63,6 @@ Data engineering is a critical field in data science that involves preparing the
 
 - [Simplifying Data Engineering and Analytics with Delta](https://www.packtpub.com/product/simplifying-data-engineering-and-analytics-with-delta/9781801814867)
 
-
 ## Prepared and Presented by
 
- - [Meriem Zaid](https://twitter.com/_iMeriem)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

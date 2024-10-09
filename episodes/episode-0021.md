@@ -6,7 +6,6 @@ tags: ["school", "career"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=8UKh2ZQQg3o
 published: true
-url:
 ---
 
 In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding in computer science studies.

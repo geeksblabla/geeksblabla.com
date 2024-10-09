@@ -7,8 +7,6 @@ category: "MSS"
 youtube: https://www.youtube.com/watch?v=DFaRndHwuFY
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/1135171186849770/
 ---
 
 In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gameplay Programmer who used to work in different games in Morocco, while being a med student, and made it to a big firm.

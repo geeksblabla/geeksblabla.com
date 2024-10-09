@@ -19,7 +19,6 @@ In this Episode , we’re going over the news that was impactful during the prev
 
 - [Oumayma Essarhi](https://www.linkedin.com/in/oumayma-essarhi/)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -36,18 +35,17 @@ In this Episode , we’re going over the news that was impactful during the prev
 
 0:37:39 - New AI Gadgets like Humane and Rabbit R1
 
-0:42:08 - How does your Environment look (Underrated gadgets, tools, …) 
+0:42:08 - How does your Environment look (Underrated gadgets, tools, …)
 
 0:49:06 - Cloud Providers entering Morocco
 
 0:54:14 - Neuralink second trial
 
-0:58:25 - leaked Google search engine algorithm 
+0:58:25 - leaked Google search engine algorithm
 
 1:04:42 - Q&A
 
 1:17:00 - Conclusion and Goodbye
-
 
 ## Links
 
@@ -67,4 +65,4 @@ In this Episode , we’re going over the news that was impactful during the prev
 
 ## Prepared and Presented by
 
- - [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://twitter.com/MIduoad)

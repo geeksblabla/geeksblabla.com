@@ -35,7 +35,7 @@ In this episode of GeeksBlaBla, We discuss the state of Linux, why Linux is impo
 
 1:16:00 - Why is Linux is used in the Server side (Data Centers, Cloud...)
 
-1:25:30 - Linux Virtualization 
+1:25:30 - Linux Virtualization
 
 1:41:00 - Linux Containers
 
@@ -50,10 +50,12 @@ In this episode of GeeksBlaBla, We discuss the state of Linux, why Linux is impo
 2:42:50 - GeeksBlaBla picks
 
 ## Links
+
 - [LPIC](https://www.lpi.org/our-certifications/lpic-1-overview)
 - [Linux Foundation Certification](https://training.linuxfoundation.org/training/introduction-to-linux/)
 - [The Linux programming interface](https://man7.org/tlpi/)
 
 ## Prepared and Presented by
+
 - [Meriem Zaid](https://twitter.com/_imeriem)
 - [Mohammed Daoudi](https://www.linkedin.com/in/iduoad/)

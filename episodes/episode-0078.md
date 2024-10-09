@@ -6,8 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=kzYammaow-M
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/828579597737140
 ---
 
 In this episode of GeeksBlabla, we invited Abdelahad SATOUR, a developer, tech serial entrepreneur, and learner; Abdelahad has more than 31 certificates in the IT and business fields; during the episode, he shared with us his professional and personal experiences.

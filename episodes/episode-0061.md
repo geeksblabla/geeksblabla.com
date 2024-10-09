@@ -6,8 +6,6 @@ tags: ["dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=RDhE0RUbkJI
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/439772367033060
 ---
 
 In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev.ma with our guests and answer your questions about the survey.

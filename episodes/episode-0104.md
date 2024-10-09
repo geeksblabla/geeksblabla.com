@@ -6,8 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=dUQHPOPaVd8
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/1051278222083870
 ---
 
 In this episode of GeeksBlabla, we invited Mehdi Daoudi, CEO and Co-Founder - Catchpoint Systems, Inc.
@@ -56,7 +54,7 @@ In this episode of GeeksBlabla, we invited Mehdi Daoudi, CEO and Co-Founder - Ca
 
 1:26:00 - What is the advice you can give to someone who is trying to build a startup?
 
-1:28:00 - What would you advise your 20-year-old self? 
+1:28:00 - What would you advise your 20-year-old self?
 
 1:29:00 - Wrap up and goodbye
 

@@ -13,13 +13,10 @@ In this episode, we will discuss the fundamental skills every developer needs to
 
 ## Guests
 
-
 - [Marouane Gazanayi](https://www.linkedin.com/in/marouanegazanayi/)
 - [Abdelziz eroui](https://www.linkedin.com/in/aeroui/)
 - [Slimane Akalie](https://www.linkedin.com/in/slimaneakalie/)
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
-
-
 
 ## Notes
 
@@ -38,7 +35,6 @@ In this episode, we will discuss the fundamental skills every developer needs to
 2:16:25 - picks of guests.
 
 ## Links
-
 
 ## Prepared and Presented by
 

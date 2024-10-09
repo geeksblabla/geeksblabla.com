@@ -6,8 +6,6 @@ tags: ["open source", "dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=A6mR8LdPLdQ
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/776838066222971
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests, Open Source and the much-hyped Hacktoberfest.

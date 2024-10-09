@@ -21,14 +21,13 @@ In this episode, we explore the newest Rust features in 2023, practical use case
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
 
 0:04:15 - What is Rust?
 
-0:09:15 - Why Rust? And why is it the most admired language among developers? 
+0:09:15 - Why Rust? And why is it the most admired language among developers?
 
 0:20:09 - Advocating Rust over C/C++ pain
 
@@ -75,7 +74,6 @@ In this episode, we explore the newest Rust features in 2023, practical use case
 - [Rust Compiler Development Guide](https://rustc-dev-guide.rust-lang.org/)
 
 - [Rust for Rustaceans](https://rust-for-rustaceans.com/)
-
 
 ## Prepared and Presented by
 

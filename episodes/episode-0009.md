@@ -6,7 +6,6 @@ tags: ["MSS", "entrepreneurship", "career", "AR"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=1CHPLeWnL5M
 published: true
-url:
 ---
 
 In this episode of GeeksBlabla MSS, we welcome Taher Alami , He has been involved in the Moroccan tech community for the last 21 years. As a Web Consultant & Serial Web Entrepreneur, we'll talk about weboma, Moroccan community, startup ecosystem, and more ...

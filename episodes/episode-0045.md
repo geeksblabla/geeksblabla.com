@@ -7,8 +7,6 @@ category: "dev"
 youtube: https://www.youtube.com/watch?v=49Sr9WuxSHM
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/269321810941867/
 ---
 
 In this episode of GeeksBlabla we discuss Angular with some Amazing Community folks, How to get started ,Core concepts, Angular Ecosystem and a lot of topics around it.

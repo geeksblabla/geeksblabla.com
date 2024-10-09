@@ -7,8 +7,6 @@ category: "career"
 youtube: https://www.youtube.com/watch?v=PP-9ffjk_4w
 published: true
 featured: true
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/655858025264119/
 ---
 
 In this episode of GeeksBlabla, we discuss blogging for developer, How to get started, How blogging will help you in your dev career, How to write your first blog post and some secret keys for a successful blog post.

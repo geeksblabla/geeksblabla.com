@@ -17,7 +17,6 @@ In this episode, We have a discussion around Salesforce
 
 - [Houssam SAOUDY](https://www.linkedin.com/in/houssamsaoudy/)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -37,7 +36,6 @@ In this episode, We have a discussion around Salesforce
 1:13:10 - Building a Successful Career with Salesforce
 
 1:47:30 - Conclusion and Goodbye
-
 
 ## Links
 

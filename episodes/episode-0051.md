@@ -7,8 +7,6 @@ category: "career"
 youtube: https://www.youtube.com/watch?v=jz-wNrMvKjY
 published: true
 featured: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/999456073888255
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests what is it like to work abroad as a developer.

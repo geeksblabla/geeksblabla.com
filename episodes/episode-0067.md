@@ -6,8 +6,6 @@ tags: ["AMA"]
 category: "AMA"
 youtube: https://www.youtube.com/watch?v=GPTjXQ0QHxw
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/172380927993448/
 ---
 
 Tech News & AMA #6 with our community members Abderrahim, Youssouf, Abderrahim, Otmane, and Mohamed. During this episode, we discuss the latest Tech News and we answer audience questions about programming, community, new technologies, and much more.

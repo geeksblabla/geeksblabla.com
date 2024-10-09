@@ -6,8 +6,6 @@ tags: ["dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=_i7wNzZUYJw
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/164231705516803/
 ---
 
 In this episode, we talk about Monitoring, what is it about, what to consider in a project roadmap, how to do it and its different types with our guests..

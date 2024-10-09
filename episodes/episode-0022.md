@@ -6,7 +6,6 @@ tags: ["school", "career", "dev"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=yCR-gU5io9s
 published: true
-url:
 ---
 
 In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding as Junior Devs in Morocco.

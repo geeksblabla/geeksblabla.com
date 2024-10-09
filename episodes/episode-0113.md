@@ -11,7 +11,6 @@ featured: false
 
 In this episode of GeeksBlabla, we talk about tech talks; why you should care? How to choose a good topic? How to prepare and the right place to start.
 
-
 ## Guests
 
 - [Djalal](https://twitter.com/enlamp)
@@ -38,7 +37,6 @@ In this episode of GeeksBlabla, we talk about tech talks; why you should care? H
 
 1:27:00 - Conclusion
 
-
 ## Links
 
 - [Antoine de Saint-Exupéry](https://www.goodreads.com/quotes/19905-perfection-is-achieved-not-when-there-is-nothing-more-to)
@@ -46,7 +44,6 @@ In this episode of GeeksBlabla, we talk about tech talks; why you should care? H
 - [Preparing for a Teck talk](https://overreacted.io/preparing-for-tech-talk-part-1-motivation/)
 - [Julia Evans](https://jvns.ca/talks/)
 - [Developers Conferences Agenda/List](https://github.com/scraly/developers-conferences-agenda)
-
 
 ## Prepared and Presented by
 

@@ -7,8 +7,6 @@ category: "dev"
 featured: true
 youtube: https://www.youtube.com/watch?v=r5ZBLg5vL4M
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/4239695062759612
 ---
 
 In this episode of GeeksBlabla, we discuss with our community members about software security, what is software security, tricks for effective and productive learning.

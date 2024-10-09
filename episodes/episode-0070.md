@@ -6,8 +6,6 @@ tags: ["dev", "databases"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=1-5Iy8_ZbLs
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/104959281537162/
 ---
 
 In this episode of GeeksBlabla, we invited Taoufik Khamouli, Anouar Boukhatem and El Housseine Jaafari to talk about Databases, different types and, some advanced topics.

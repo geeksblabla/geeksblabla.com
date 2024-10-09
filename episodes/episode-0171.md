@@ -21,7 +21,6 @@ In this episode, we discuss how to turn code passion into profit. We'll cover co
 
 - [Younes Rahim](https://x.com/switcode)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -38,15 +37,15 @@ In this episode, we discuss how to turn code passion into profit. We'll cover co
 
 0:35:30 - Tips to gather the first budget to get started and the minimum budget needed.
 
-0:50:58 - Tips for Time Allocation as a Solopreneur 
+0:50:58 - Tips for Time Allocation as a Solopreneur
 
 0:57:01 - Idea generation and validation.
 
 1:01:10 - Tips to generate your first dollar with your current skill, with or without experience.
 
-1:13:13 - Tips to Find the Right Audience 
+1:13:13 - Tips to Find the Right Audience
 
-1:24:00 - Is indie hacking similar to dropshipping? 
+1:24:00 - Is indie hacking similar to dropshipping?
 
 1:38:06 - Deadly trap: Think globally and generate more income.
 
@@ -56,13 +55,12 @@ In this episode, we discuss how to turn code passion into profit. We'll cover co
 
 2:18:30 - Conclusion and Goodbye
 
-
 ## Links
 
 - [Indiehackers](www.indiehackers.com)
 - [Gumroad](gumroad.com)
 - [NameCheap](namecheap.com)
-- [Acquire](acquire.com) 
+- [Acquire](acquire.com)
 - [Blogpost by Ayoub Moustaid](https://blog.acquire.com/startup-acquisition-episode-76/)
 - [WebFlow apps](https://webflow.com/apps)
 - [carrd.co](carrd.co)

@@ -6,7 +6,6 @@ tags: ["MSS", "career"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=tu29LZacZSA
 published: true
-url:
 ---
 
 In this episode of GeeksBlabla MSS, we welcome Sghiouar Abdelfettah: Google Engineer at Google, to talk about his journey in IT field

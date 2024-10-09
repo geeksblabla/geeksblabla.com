@@ -6,8 +6,6 @@ tags: ["internet-of-Things", "iot"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=XYdc4poSATs
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/1312734475751456
 ---
 
 In this episode of GeeksBlabla, we discussed with our guests Ali Lakrakbi and Saad Zabari what's IoT, its impact, Adopting IoT in Morocco, and more things about it.

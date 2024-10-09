@@ -8,8 +8,6 @@ category: "dev"
 youtube: https://www.youtube.com/watch?v=M-c9CP4ERlY
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/184114139689813/
 ---
 
 In this episode of GeeksBlabla, we discuss the new app Wiqaytna, released in June from a technical point of view with Zouheir Lakhdissi. Also to answer all questions related to the app.

@@ -7,8 +7,6 @@ category: "career"
 youtube: https://www.youtube.com/watch?v=EOnbBm31kiA
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/2971727423053675/
 ---
 
 In this episode of GeeksBlabla, we discuss with self-taught developers about their experience, how they get started and how they made it professionally.

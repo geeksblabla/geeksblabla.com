@@ -2,7 +2,7 @@
 date: 2024-04-21
 duration: "3:15:53"
 title: "DevRel and tech talks"
-tags: ["devrel","tech-talks"]
+tags: ["devrel", "tech-talks"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=8uKEwWbgRBc
 published: true
@@ -24,7 +24,6 @@ We're back with Part Two of "Preparing for a Tech Talk" expanding on our previou
 - [Ayoub Alouane](https://twitter.com/alouane_med)
 
 - [Mohammed Abboulait](https://twitter.com/laytoun)
-
 
 ## Notes
 
@@ -56,8 +55,8 @@ We're back with Part Two of "Preparing for a Tech Talk" expanding on our previou
 
 3:01:20 - Last word.
 
-
 ## Links
 
 ## Prepared and Presented by
+
 [Adnan MERRAKCHI](https://twitter.com/_admerra)

@@ -6,8 +6,6 @@ tags: ["AMA"]
 category: "AMA"
 youtube: https://www.youtube.com/watch?v=hUmgd_hH1xY
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/327655085127704
 ---
 
 Ask Me Anything episode #4 with our community members Youssouf, Meriem, Abdelfettah and Mohamed. During this episode we answer audience questions as well as discussing the latest tech news.

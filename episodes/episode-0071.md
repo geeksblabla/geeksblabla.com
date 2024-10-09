@@ -6,8 +6,6 @@ tags: ["datacenter"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=QB4CoBV6-J0
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/292275138906896/
 ---
 
 In this episode of GeeksBlabla, we invited Abdelfettah Sghiouar, Islam Abouelata and Karim Benzidane to talk about Data Centers.

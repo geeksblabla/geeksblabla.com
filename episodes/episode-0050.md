@@ -7,8 +7,6 @@ tags: ["entrepreneurship", "startup", "digital marketing"]
 youtube: https://www.youtube.com/watch?v=kLgl5uDK5IM
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/325275602053324
 ---
 
 In this episode of GeeksBlabla, our guest Mehdi Mourabit a a serial entrepreneur will share his story.

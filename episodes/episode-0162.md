@@ -79,7 +79,6 @@ In this episode, we discuss the latest PHP features in 2023, frameworks, and muc
 
 - [PHP the right way](https://phptherightway.com/)
 
-
 ## Prepared and Presented by
 
 - [Hamza Makraz](https://twitter.com/makraz_hamza)

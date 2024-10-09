@@ -19,7 +19,6 @@ In this episode, we discussed the technology of Large Language Models (LLMs) and
 
 - [Taha Bouhsine](https://twitter.com/Tahabsn)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -38,14 +37,7 @@ In this episode, we discussed the technology of Large Language Models (LLMs) and
 
 1:41:00 - what is steps to integrate LLM in your app ?
 
-
-
-
-
-
-
 ## Links
-
 
 ## Prepared and Presented by
 

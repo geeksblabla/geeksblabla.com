@@ -2,12 +2,21 @@
 date: 2022-10-16
 duration: "1:37:36"
 title: "Let’s talk about Operating Systems"
-tags: ["Dev","Architecture","101","fundementals","Software","Operating Systems"]
+tags:
+  [
+    "Dev",
+    "Architecture",
+    "101",
+    "fundementals",
+    "Software",
+    "Operating Systems",
+  ]
 category: "dev"
 youtube: https://youtu.be/qDMl9Zx2Mjg
 published: true
 featured: false
 ---
+
 In this episode we discuss the fundemental concepts of Operating Systems
 
 ## Guests
@@ -18,7 +27,7 @@ In this episode we discuss the fundemental concepts of Operating Systems
 
 0:00:00 - Introduction and welcoming.
 
-0:01:50 - What's an Operating System ? 
+0:01:50 - What's an Operating System ?
 
 0:13:08 - Computer Start-up Process
 
@@ -26,7 +35,7 @@ In this episode we discuss the fundemental concepts of Operating Systems
 
 0:27:00 - What's an Operating System Shell ?
 
-0:29:20 - What's a Process ? 
+0:29:20 - What's a Process ?
 
 0:33:50 - OS Process Management
 
@@ -45,8 +54,6 @@ In this episode we discuss the fundemental concepts of Operating Systems
 ## Links
 
 - [Microsoft Linux Distro](https://github.com/microsoft/CBL-Mariner)
-
-
 
 ## Prepared and Presented by
 

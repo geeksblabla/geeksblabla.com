@@ -2,7 +2,7 @@
 date: 2023-06-25
 duration: "1:56:07"
 title: "Tech New & AMA #25"
-tags: [ "AMA"]
+tags: ["AMA"]
 category: "AMA"
 youtube: https://www.youtube.com/watch?v=s7hn-CtjSj0
 published: true
@@ -18,7 +18,6 @@ Tech News & AMA #25 with our community members Mehdi, Zak and Abderrahim. During
 - [Zak Elfassi](https://twitter.com/zakelfassi)
 
 - [Soubai Abderahim](https://soubai.me)
-
 
 ## Notes
 

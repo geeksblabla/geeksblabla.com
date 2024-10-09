@@ -7,8 +7,6 @@ category: "career"
 youtube: https://www.youtube.com/watch?v=XIiMb2z42Ms
 published: true
 featured: false
-url: ""
-podcastUrl: ""
 ---
 
 In this episode We're welcoming 2 great heroes, Mohamed and Hamid are doing amazing jobs, pushing innovation and making things to save lives in Morocco and beat Covid-19!

@@ -7,8 +7,6 @@ category: "dev"
 featured: true
 youtube: https://www.youtube.com/watch?v=aWtuTFqtpN0
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/393209238528150
 ---
 
 In this episode of GeeksBlabla, we're Revisiting the fundamentals of the DevOps Culture and toolchain.

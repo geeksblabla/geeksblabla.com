@@ -6,8 +6,6 @@ tags: ["dev"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=H-FWc-0s04c
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/2959055287708192/
 ---
 
 In this episode, we talk about Certificates in the IT field; why should you care? How will certificates help you in your career, the essential certifications you should have, and how to prepare for those certificates?

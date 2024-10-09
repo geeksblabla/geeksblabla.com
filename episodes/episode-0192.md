@@ -17,7 +17,6 @@ In this episode, we will explore Vector databases, a cutting-edge technology rev
 - [Taha Bouhsine](https://twitter.com/Tahabsn)
 - [Merouane Zouaid](https://x.com/merouanezouaid)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -30,7 +29,7 @@ In this episode, we will explore Vector databases, a cutting-edge technology rev
 
 0:31:58 - Vector databases and AI
 
-0:46:30 - Dealing with "curse of dimensionality" in Vector Databases 
+0:46:30 - Dealing with "curse of dimensionality" in Vector Databases
 
 0:55:02 - Privacy concerns while using Vector databases
 
@@ -44,13 +43,11 @@ In this episode, we will explore Vector databases, a cutting-edge technology rev
 
 - [Extracting Training Data from Large Language Models](https://arxiv.org/pdf/2012.07805)
 - [30 days of ML](https://30daysofml.framer.ai/)
-- [Strategy of pickinga Vector database](https://www.reddit.com/r/LangChain/comments/170jigz/my_strategy_for_picking_a_vector_database_a/ )
+- [Strategy of pickinga Vector database](https://www.reddit.com/r/LangChain/comments/170jigz/my_strategy_for_picking_a_vector_database_a/)
 - [PGrounding AI in reality with a little help from Data Commons](https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/?linkId=10989162)
 - [DataGemma](https://ai.google.dev/gemma/docs/datagemma)
 - [Masked Image Modeling with Vector-Quantized Visual Tokenizers](https://arxiv.org/pdf/2208.06366)
 - [An Any-to-Any Vision Model for Tens of Tasks and Modalities](https://arxiv.org/abs/2406.09406)
-
-
 
 ## Prepared and Presented by
 

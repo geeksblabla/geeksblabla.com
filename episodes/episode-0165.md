@@ -9,8 +9,7 @@ published: true
 featured: false
 ---
 
-In this episode, we discuss the state of DevOps in 2023 and highlight key changes/improvements, new rising roles, and the most recent emerging practices. 
-
+In this episode, we discuss the state of DevOps in 2023 and highlight key changes/improvements, new rising roles, and the most recent emerging practices.
 
 ## Guests
 
@@ -28,7 +27,6 @@ In this episode, we discuss the state of DevOps in 2023 and highlight key change
 
 - [Abdelati El Asri](https://twitter.com/kaizendae)
 
-
 ## Notes
 
 00:00:00 - Introduction and welcoming
@@ -41,19 +39,19 @@ In this episode, we discuss the state of DevOps in 2023 and highlight key change
 
 00:49:02 - How was SRE implemented by Google ?
 
-00:59:02  - Hierarchy challenges in Tech companies
+00:59:02 - Hierarchy challenges in Tech companies
 
-01:10:02  - The rise of Low-Code/No-Code platforms and whether they threaten DevOps jobs or there will be a new role created
+01:10:02 - The rise of Low-Code/No-Code platforms and whether they threaten DevOps jobs or there will be a new role created
 
-01:38:52  - What is Platform Engineering?
+01:38:52 - What is Platform Engineering?
 
-01:54:50  -  Should a DevOps/Platform/SRE engineer be a developer beforehand? 
+01:54:50 - Should a DevOps/Platform/SRE engineer be a developer beforehand?
 
-02:10:59  - What advice to give for juniors to get started and build a successful DevOps career?
+02:10:59 - What advice to give for juniors to get started and build a successful DevOps career?
 
-02:22:30  - The role of a Cloud Architect in DevOps 
+02:22:30 - The role of a Cloud Architect in DevOps
 
-02:23:27  - The effects of AI in DevOps
+02:23:27 - The effects of AI in DevOps
 
 02:24:44 - Conclusion and goodbye
 
@@ -73,12 +71,8 @@ In this episode, we discuss the state of DevOps in 2023 and highlight key change
 
 - [DevsInStyle](https://open.spotify.com/show/5G7yZTN1k0ylfouanYBMYI)
 
-
-
 ## Prepared and Presented by
 
 - [Chaimaa BRITEL](https://twitter.com/ChaimaaBritel)
 
 - [Abdelati EL ASRI](https://twitter.com/kaizendae)
-
-

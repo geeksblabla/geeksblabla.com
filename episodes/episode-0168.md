@@ -39,7 +39,6 @@ In this episode, We discuss 7 Pillars that can helps us lead a more comfortable 
 
 2:06:30 - Conclusion and Goodbye
 
-
 ## Links
 
 - [Range Book Review](https://www.youtube.com/watch?v=E2ipt93liok)

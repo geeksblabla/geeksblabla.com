@@ -17,14 +17,13 @@ In this episode, we discuss What's new in the AI , Windows and Nvidia
 - [Merouane Zouaid](https://x.com/merouanezouaid)
 - [Marwane Chaoui](https://x.com/moghwan)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
 
 0:05:30 - What did we learn in the last month
 
-0:20:00 - Bouyaad App Showcase 
+0:20:00 - Bouyaad App Showcase
 
 0:26:00 - Buildspace Showacase
 
@@ -47,7 +46,6 @@ In this episode, we discuss What's new in the AI , Windows and Nvidia
 - [Buildspace](https://buildspace.so/)
 
 - [Stocks for the Long Run](https://www.amazon.com/Stocks-Long-Run-Definitive-Investment/dp/0071800514)
-
 
 ## Prepared and Presented by
 

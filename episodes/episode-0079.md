@@ -6,8 +6,6 @@ tags: ["software testing"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=iCc9kIGoQo4&ab_channel=GeeksBlaBla
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/207865764102607
 ---
 
 In this episode of GeeksBlabla, Meriem and Ismail invited Abdelghani Achibane who is a Quality Assurance Engineer to talk about Software testing and QA Engineering

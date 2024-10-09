@@ -7,8 +7,6 @@ category: "career"
 youtube: https://www.youtube.com/watch?v=7H08TcRX5SE
 published: true
 featured: true
-url: ""
-podcastUrl: ""
 ---
 
 In this episode of GeeksBlabla, we discuss remote working for developers, How to get started, find your next remote job, manage your life as a remote developer, tools and best practices.

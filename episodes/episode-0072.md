@@ -6,8 +6,6 @@ tags: ["AMA"]
 category: "AMA"
 youtube: https://www.youtube.com/watch?v=5lt-2ID1euI
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/491357765578519/
 ---
 
 Tech News & AMA #8 with our community members Ilyas, Othmane, Mehdi, Otmane, and Mohamed. During this episode, we discuss the latest Tech News and we answer audience questions about programming, community, new technologies, and much more.

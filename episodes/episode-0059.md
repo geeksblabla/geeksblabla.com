@@ -6,8 +6,6 @@ tags: ["AMA"]
 category: "AMA"
 youtube: https://www.youtube.com/watch?v=IQlzDiEjAXY
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/1325807077758112
 ---
 
 Ask Me Anything episode #5 with our community members and guests Youssouf, Abderrahim, Ouissal and Mohamed. During this episode we answer audience questions about programming, community, new technologies and much more.

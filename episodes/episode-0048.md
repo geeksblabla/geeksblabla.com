@@ -7,8 +7,6 @@ category: "AMA"
 youtube: https://www.youtube.com/watch?v=90t3BRQ1460
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/272282090889246/
 ---
 
 Ask Me Anything episode #3 with our community members Mohammed, Ismail and Youssouf, During this episode we answer audience questions about programming, community,new technologies and much more.

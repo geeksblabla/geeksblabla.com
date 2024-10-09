@@ -6,8 +6,6 @@ tags: ["dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=8BPT8ElBVnQ
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/659009884978348
 ---
 
 In this episode of GeeksBlabla, we will discover with our guests how the Internet actually works.

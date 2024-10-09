@@ -19,6 +19,7 @@ In this episode we discuss the fundamental concepts of computer networking and h
 - [Mohammed Daoudi](https://twitter.com/MIduoad)
 
 ## Notes
+
 0:00:00 - Introduction and welcoming
 
 0:02:40 - What is networking?
@@ -38,7 +39,9 @@ In this episode we discuss the fundamental concepts of computer networking and h
 1:08:45 - Geeksblabla picks
 
 ## Links
+
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
 
 ## Prepared and Presented by
+
 - [Mohammed Daoudi](https://twitter.com/MIduoad)

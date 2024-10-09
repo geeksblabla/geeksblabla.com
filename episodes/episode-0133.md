@@ -12,6 +12,7 @@ featured: false
 In this episode of GeeksBlaBla, we discuss the Software As A Service business model going from how to build a SaaS product to how to launch it in the market.
 
 ## Guests
+
 - [Djalal](https://twitter.com/enlamp)
 
 - [Moustaid Ayoub](https://twitter.com/mstdayoub)
@@ -36,7 +37,7 @@ In this episode of GeeksBlaBla, we discuss the Software As A Service business mo
 
 1:21:14 - Pre mature optimization and Over Engineering in SaaS
 
-1:28:30 - Saas Pricing Models 
+1:28:30 - Saas Pricing Models
 
 1:37:00 - SaaS Marketing and Branding
 
@@ -47,12 +48,13 @@ In this episode of GeeksBlaBla, we discuss the Software As A Service business mo
 1:53:24 - 1:06:00 - Wrap up & Goodbye
 
 ## Links
+
 - [40 SaaS Starter Kits & Boilerplates Based On Your Favourite Programming Language / Framework](https://www.indiehackers.com/post/40-saas-starter-kits-boilerplates-based-on-your-favourite-programming-language-framework-35387161e0)
 - [#77 - No code / Low code GeeksBlaBla Episode](https://www.youtube.com/watch?v=I-km6iydoiw)
 - [SaaS Pricing Calculator](https://indiebrands.io/saas-pricing-calculator)
 - [How to get the first users for my SaaS, micro-SaaS, App?](https://twitter.com/mstdayoub/status/1593368786777915392)
 - [Compare FastSpring and Paddle](https://www.g2.com/compare/fastspring-vs-paddle)
 
-
 ## Prepared and Presented by
+
 [Mohammed Daoudi](https://www.iduoad.com)

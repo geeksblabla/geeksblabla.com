@@ -2,12 +2,13 @@
 date: 2022-09-25
 duration: "2:04:32"
 title: "Software Architecture Fundamentals"
-tags: ["Dev","Architecture","101","fundementals","Software"]
+tags: ["Dev", "Architecture", "101", "fundementals", "Software"]
 category: "dev"
 youtube: https://youtu.be/ObWFqaTm3Hk
 published: true
 featured: false
 ---
+
 In this episode we discuss the fundemental concepts for building resilient and evolving Software.
 
 ## Guests
@@ -44,7 +45,6 @@ In this episode we discuss the fundemental concepts for building resilient and e
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 - [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable)
 - [Building Evolutionary Architectures](https://www.amazon.com/Building-Evolutionary-Architectures-Support-Constant)
-
 
 ## Prepared and Presented by
 

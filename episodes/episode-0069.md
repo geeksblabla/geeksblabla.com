@@ -6,8 +6,6 @@ tags: ["dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=YIMFlSmIAAk
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/805493146670306/
 ---
 
 In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed Daoudi to talk about Python, how to get started with it and some of its perspectives.

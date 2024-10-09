@@ -18,7 +18,6 @@ In this episode, we will have a roundtable discussion to benefit from the guests
 - [Adil TOUATI](https://www.linkedin.com/in/adiltouati/)
 - [Abdelmajid ANEDDAME](https://www.linkedin.com/in/abdelmajidaneddame)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -40,7 +39,6 @@ In this episode, we will have a roundtable discussion to benefit from the guests
 1:45:00 - Conclusion
 
 ## Links
-
 
 ## Prepared and Presented by
 

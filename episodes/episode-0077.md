@@ -6,8 +6,6 @@ tags: ["dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=I-km6iydoiw
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/277369320636709
 ---
 
 In the 77 Episode of GeeksBlaBla , We're taking a look at the landscape of Low Code / No Code technologies; These technologies are taking the world by storm, building a strong Hype around them, and expected to be an industry worth 23 Billion Dollars by 2023.

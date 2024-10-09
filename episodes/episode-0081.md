@@ -7,8 +7,6 @@ category: "career"
 featured: true
 youtube: https://www.youtube.com/watch?v=QKKRE8iunJg
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/497523134622676
 ---
 
 In this episode of GeeksBlabla, we discuss with our community members about learning how to learn, the best place to found resources, tricks for effective and productive learning.

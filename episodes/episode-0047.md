@@ -7,8 +7,6 @@ category: "MSS"
 youtube: https://www.youtube.com/watch?v=mKwXcC7VPac
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/260426718593877/
 ---
 
 In this episode of GeeksBlabla, our guest Adnane Belmadiaf a frontend developer and also a very known person in Linux community who contributed to Ubuntu and will share his story.

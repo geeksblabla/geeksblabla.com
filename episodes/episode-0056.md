@@ -6,8 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=EbLwd75TBXw
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/790324511747449
 ---
 
 In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently Services Sales Rep in GitHub in EMEA region.

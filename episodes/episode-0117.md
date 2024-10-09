@@ -2,7 +2,16 @@
 date: 2022-05-08
 duration: "1:31:38"
 title: "Software Project Management"
-tags: ["Software", "Project", "Project Management", "Agile", "Scrum", "Delivery", "Collaboration"]
+tags:
+  [
+    "Software",
+    "Project",
+    "Project Management",
+    "Agile",
+    "Scrum",
+    "Delivery",
+    "Collaboration",
+  ]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=PTrk2tUhbdY
 published: true
@@ -14,7 +23,6 @@ In this Episode , we will walkthrough the path of managing a software project fr
 ## Guests
 
 - [Adil BAAJ](https://www.linkedin.com/in/adil-baaj/)
-
 
 ## Notes
 
@@ -28,7 +36,7 @@ In this Episode , we will walkthrough the path of managing a software project fr
 
 0:18:00 - Tools and processes necessary to implement a Software Project ?
 
-0:25:00 - Software Project Management Methodologies 
+0:25:00 - Software Project Management Methodologies
 
 0:30:00 - Planification management
 

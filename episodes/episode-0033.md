@@ -7,8 +7,6 @@ category: "career"
 youtube: https://www.youtube.com/watch?v=84T8HhvseeE
 published: true
 featured: false
-url: ""
-podcastUrl: ""
 ---
 
 In this episode, we discuss Agile Project Management, How to get started, agile frameworks and How to spread an agile mindset in your company.

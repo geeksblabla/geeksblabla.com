@@ -15,7 +15,6 @@ we based our discussion on the following article [Ten Principles for Growth as a
 ## Guests
 
 - [Marouane gazayni](https://twitter.com/mgazanayi)
-  
 - [Youssouf El Azizi](https://elazizi.com/)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)

@@ -6,8 +6,6 @@ tags: ["MSS", "entrepreneurship", "devoxx", "java", "career"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=EvUOVUzB8rY
 published: true
-url:
-podcastUrl:
 ---
 
 In this episode of GeeksBlabla, we discuss Java, community and leadership with Badr, the Java champion, serial entrepreneur and the CIO of xHub.

@@ -6,8 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=SgOfKQY5ubw
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/3029399233957482
 ---
 
 In this episode of GeeksBlabla, we invited Wassim CHEGHAM, Sr. JavaScript Developer Advocate at Microsoft, Core

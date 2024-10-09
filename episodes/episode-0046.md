@@ -7,8 +7,6 @@ category: "dev"
 youtube: https://www.youtube.com/watch?v=GFlWbEHmi4Y
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/272185967229889/
 ---
 
 In this episode of GeeksBlabla, we discuss Mobile development with some Amazing Community folks, How to get started, Native, cross-platform solution, hybrid solutions, PWA, and a lot of topics around it.

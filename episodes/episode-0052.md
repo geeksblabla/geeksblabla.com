@@ -6,8 +6,6 @@ tags: ["software engineering"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=f930PXnFiMs
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/362896171543318
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests the overall basic and advanced concepts of .NET.

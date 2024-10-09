@@ -6,7 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=nPec-1y4YHg
 published: true
-
 ---
 
 In this episode of GeeksBlabla, we invited Amine Chouki, Staff Engineer - Docker, Inc.
@@ -35,7 +34,7 @@ In this episode of GeeksBlabla, we invited Amine Chouki, Staff Engineer - Docker
 
 0:45:00 - Aspiring Software Engineers tips
 
-0:52:00 - Tips to future entrepreneurs 
+0:52:00 - Tips to future entrepreneurs
 
 0:59:52 - Conclusion
 

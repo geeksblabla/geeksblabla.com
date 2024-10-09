@@ -6,8 +6,6 @@ tags: ["dev", "indie", "career"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=bDrUAza36ec
 published: true
-url:
-podcastUrl:
 ---
 
 In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To Get Started, Best Practices, Useful resources and Much More with the amazing Mehdi and Motaquillah.

@@ -9,7 +9,7 @@ published: true
 featured: false
 ---
 
-Special episode about AI and the latests announcements made by Apple, Microsoft and Google. We discuss the news and answer your questions with our guests. 
+Special episode about AI and the latests announcements made by Apple, Microsoft and Google. We discuss the news and answer your questions with our guests.
 
 ## Guests
 
@@ -17,15 +17,13 @@ Special episode about AI and the latests announcements made by Apple, Microsoft 
 
 - [Taha Bouhsine](https://www.linkedin.com/in/tahabsn)
 
-
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
 
 0:03:39 - Microsoft vs Google vs Apple announcements
 
-0:24:37 - Google I/O updates 
+0:24:37 - Google I/O updates
 
 0:30:32 - Microsoft updates, and privacy concerns
 
@@ -33,14 +31,13 @@ Special episode about AI and the latests announcements made by Apple, Microsoft 
 
 0:50:40 - OpenAI / Chatgpt-4o
 
-0:55:20 - Chatgpt-4o / Claude 
+0:55:20 - Chatgpt-4o / Claude
 
 1:19:51 - Current state of small models that run locally
 
 1:25:06 - Q&A
 
 1:28:10 - Conclusion and Goodbye
-
 
 ## Links
 
@@ -57,7 +54,6 @@ Special episode about AI and the latests announcements made by Apple, Microsoft 
 - [Gemini Flash](https://deepmind.google/technologies/gemini/flash/)
 
 - [Transformers Optimization: Part 1 - KV Cache](https://r4j4n.github.io/blogs/posts/kv/)
-
 
 ## Prepared and Presented by
 

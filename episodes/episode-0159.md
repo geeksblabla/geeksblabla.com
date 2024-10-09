@@ -11,7 +11,6 @@ featured: false
 
 In this episode of GeeksBlabla, we discuss with our guests the art of decision-making, how to make better decisions, and how to deal with the consequences of our decisions.
 
-
 ## Guests
 
 - [Meriem Zaid](https://www.facebook.com/MeriemZaid)
@@ -41,12 +40,12 @@ In this episode of GeeksBlabla, we discuss with our guests the art of decision-m
 1:59:56 - Book recommendations, Closing and Goodbye
 
 ## Books
+
 - Algorithms to live by.
 - Thinking, Fast and Slow.
 - Build: An Unorthodox Guide to Making Things Worth Making
 - The Decision Book: Fifty Models for Strategic Thinking
 - Linux System Programming: Talking Directly to the Kernel and C Library
-
 
 ## Prepared and Presented by
 

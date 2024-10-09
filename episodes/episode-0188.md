@@ -13,13 +13,11 @@ In this episode, we discussed the famous issue between CrowdStrike and Microsoft
 
 ## Guests
 
-
 - [Abdelfattah Sghiouar](https://twitter.com/boredabdel)
 
 - [Abderahman Instagram ](https://www.instagram.com/abdulbenbrahim/)
 
 - [Hammadi Agharass](https://twitter.com/hagharass)
-
 
 ## Notes
 
@@ -43,11 +41,7 @@ In this episode, we discussed the famous issue between CrowdStrike and Microsoft
 
 1:18:16 - What did we learn from what happened?
 
-
-
-
 ## Links
-
 
 ## Prepared and Presented by
 

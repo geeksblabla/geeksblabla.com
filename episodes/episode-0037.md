@@ -7,8 +7,6 @@ category: "MSS"
 youtube: https://www.youtube.com/watch?v=QJw9P_oDQ5o
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/530406154307944/
 ---
 
 In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with Mouhssine Lakhdissi, Professor, CTO and Co-Founder of Neoxia Morocco.

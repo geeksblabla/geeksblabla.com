@@ -7,8 +7,6 @@ category: "AMA"
 youtube: https://www.youtube.com/watch?v=FizzGMnYwX0
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/247576546525955/
 ---
 
 Ask Me Anything episode #2 with our community members Mohammed and Abdelkader, During this episode we answer audience questions about programming, community,new technologies and much more.

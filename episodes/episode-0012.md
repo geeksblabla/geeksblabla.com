@@ -4,7 +4,6 @@ duration: "1:09:42"
 title: "Introduction to Open Source"
 tags: ["open source", "dev"]
 category: "dev"
-url:
 youtube: https://www.youtube.com/watch?v=_tizAkqvivM
 published: true
 ---

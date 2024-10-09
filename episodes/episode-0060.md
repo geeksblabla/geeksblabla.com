@@ -6,8 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=I7FwzqXm-uQ
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/200434128392316
 ---
 
 In this episode of GeeksBlabla, we invited Mohamed Youssfi, one of the most famous university school teachers in morocco, we discuss his experience and IT education in morocco.

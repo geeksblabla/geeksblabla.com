@@ -6,8 +6,6 @@ tags: ["spring", "java", "dev", "backend"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=yj2GuZnBC8s
 published: true
-url: ""
-podcastUrl: ""
 ---
 
 In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java language, and why you should learn it, they talk also about the strength of The JVM, the best practices as Java Developer.

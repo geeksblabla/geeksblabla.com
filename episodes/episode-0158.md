@@ -35,7 +35,7 @@ In this episode we discuss more of L3arbi, that was resented by the DevoxxMA tea
 
 0:39:37 - The use case of DevoxxMA
 
-0:44:30 - Fine-tuning of an LLM, models and details 
+0:44:30 - Fine-tuning of an LLM, models and details
 
 0:56:20 - Evaluation set for different dialects per regions in morocco
 
@@ -55,7 +55,6 @@ In this episode we discuss more of L3arbi, that was resented by the DevoxxMA tea
 - [Translation demo for/from any language](https://huggingface.co/spaces/Geonmo/nllb-translation-demo)
 - [Common Voice](https://commonvoice.mozilla.org/)
 - [Whisper API](https://whisperapi.com/)
-
 
 ## Prepared and Presented by
 

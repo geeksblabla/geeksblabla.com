@@ -17,7 +17,6 @@ On the 106th Episode of Geeksblabla we're having a discussion around Amazon Web 
 
 - [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
-
 ## Notes
 
 0:00:00 - Introduction
@@ -42,14 +41,11 @@ On the 106th Episode of Geeksblabla we're having a discussion around Amazon Web 
 
 1:46:12 - Closing
 
-
-
 ## Links
 
 - [Ilyas Youtube Channel](https://twitter.com/isbkch)
 
 - [S7aba Podcast](https://s7aba.ma/)
-
 
 ## Prepared and Presented by
 

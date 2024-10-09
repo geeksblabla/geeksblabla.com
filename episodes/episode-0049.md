@@ -7,8 +7,6 @@ category: "career"
 youtube: https://www.youtube.com/watch?v=eTaI-aYN9Vw
 published: true
 featured: true
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/338981353771310/
 ---
 
 In this episode of GeeksBlabla, we discuss best practices to build a resume, how to avoid most common mistakes and some tools to build a Good resume.

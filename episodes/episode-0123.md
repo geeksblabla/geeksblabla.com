@@ -10,6 +10,7 @@ featured: false
 ---
 
 In today's episode we dive into documentation, its rules, ethics, best practices and some tools that help to get started.
+
 ## Guests
 
 - [Omaima Khalil](https://twitter.com/BadQuinn3)
@@ -51,7 +52,6 @@ In today's episode we dive into documentation, its rules, ethics, best practices
 - [Technical Writing One introduction](https://developers.google.com/tech-writing/one)
 - [Bookstack](https://www.bookstackapp.com/)
 - [Docusaurus](https://docusaurus.io/)
-
 
 ## Prepared and Presented by
 

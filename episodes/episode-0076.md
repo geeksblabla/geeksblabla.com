@@ -6,8 +6,6 @@ tags: ["AMA"]
 category: "AMA"
 youtube: https://www.youtube.com/watch?v=K9DZ8aRCNzE
 published: true
-url:
-podcastUrl: https://web.facebook.com/geeksblabla/videos/4094347893948929
 ---
 
 Tech News & AMA #9 with our community members Ahmed, Mohamed and Othman. During this episode, we discuss the latest Tech News, **Make it legal** Ahmed's book and we answer audience questions about programming, community, new technologies, and much more.

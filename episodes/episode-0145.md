@@ -17,11 +17,12 @@ In this episode we discuss the end of DevC program initiated by Meta, the impact
 - [Hamza Makraz](https://web.facebook.com/MakrazHamza)
 
 ## Notes
+
 0:00:00 - Introduction and welcoming
 
-0:02:40 - A bit of DevC pogram History 
+0:02:40 - A bit of DevC pogram History
 
-0:10:01 - The many meetups held by devC Morocco 
+0:10:01 - The many meetups held by devC Morocco
 
 0:20:50 - Community of DevC
 
@@ -35,7 +36,6 @@ In this episode we discuss the end of DevC program initiated by Meta, the impact
 
 0:58:46 - Wrap up & Good bye
 
-
-
 ## Prepared and Presented by
+
 - [Meriem zaid](https://twitter.com/iMeriem_)

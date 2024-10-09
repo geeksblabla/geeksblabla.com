@@ -9,7 +9,7 @@ published: true
 featured: false
 ---
 
-In this episode, we discuss the JavaScript updates and features in 2023, with Abderrahim Soubai Idrissi, Ayoub Alouane, Wassim CHEGHAM, Mouad Sidqi, Niima  Chigr, and Youssouf El Azizi.
+In this episode, we discuss the JavaScript updates and features in 2023, with Abderrahim Soubai Idrissi, Ayoub Alouane, Wassim CHEGHAM, Mouad Sidqi, Niima Chigr, and Youssouf El Azizi.
 
 ## Guests
 
@@ -21,7 +21,7 @@ In this episode, we discuss the JavaScript updates and features in 2023, with Ab
 
 - [Mouad Sidqi](https://twitter.com/vmod__)
 
-- [Niima  Chigr](https://www.linkedin.com/in/niima-chigr)
+- [Niima Chigr](https://www.linkedin.com/in/niima-chigr)
 
 ## Notes
 
@@ -31,7 +31,7 @@ In this episode, we discuss the JavaScript updates and features in 2023, with Ab
 
 0:10:00 - Which is better for starting a new project in 2023-2024: JavaScript or TypeScript?
 
-0:19:00 - Are we  making the front-end development too complex with too many concepts?
+0:19:00 - Are we making the front-end development too complex with too many concepts?
 
 0:32:00 - Walking through some of the most important concepts in frontend: Hydration, islands, resumability.
 
@@ -56,7 +56,6 @@ In this episode, we discuss the JavaScript updates and features in 2023, with Ab
 3:10:00 - Geeksblabla Picks
 
 3:17:00 - Conclusion and goodbye.
-
 
 ## Links
 

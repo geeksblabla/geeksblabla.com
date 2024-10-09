@@ -7,8 +7,6 @@ category: "MSS"
 youtube: https://www.youtube.com/watch?v=QCCH7r9CB1g
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/864192424101038/
 ---
 
 In this episode of GeeksBlabla, we discuss the success story for two young women in the IT field in and outside Morocco.

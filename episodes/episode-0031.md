@@ -7,8 +7,6 @@ category: "AMA"
 youtube: https://www.youtube.com/watch?v=nTA2mTRlTD0
 published: true
 featured: false
-url: ""
-podcastUrl: ""
 ---
 
 This episode is an AMA (Ask Me Anything ) with GeeksBlabla Team ,During this episode we answer audience Questions about programming, community,new technologies and much more.

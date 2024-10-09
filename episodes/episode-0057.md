@@ -6,8 +6,6 @@ tags: ["career"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=HZUKNz4Z1kg
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/2748382285425506
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests the different career paths for software developers as well as the challenges that aspiring software developers could face in their journey.

@@ -6,8 +6,6 @@ tags: ["MSS"]
 category: "MSS"
 youtube: https://www.youtube.com/watch?v=w_oWwCKtVuk
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/243301970516290/
 ---
 
 In this episode of GeeksBlabla, we invited Aboulfeth, a tech serial entrepreneur who started his first business at the early age of 17. He dropped out of college at 21, became ICANN accredited at 24, attended the World Economic Forum at 25, and went to Harvard at 26 and Hajj and Burning Man at 27.

@@ -6,7 +6,6 @@ tags: ["backend", "software engineering", "dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=_0xISo0SFJ4
 published: true
-url:
 ---
 
 On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amine Hakkoue explore the 12 factor app methodology which is is a set of best practices that enable applications to be resilient, scalable and portable.

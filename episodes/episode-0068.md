@@ -6,8 +6,6 @@ tags: ["dev", "Developer Productivity"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=cTRm6EdxKb0
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/204395911399267/
 ---
 
 In this episode of GeeksBlabla, we invited Diaa Alhak El Fallous and Othmane Kinane, and we discuss Developer Productivity Definition, tools, and more things about it.

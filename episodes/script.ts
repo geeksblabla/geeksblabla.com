@@ -1,59 +1,59 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import * as fs from "fs";
+import * as path from "path";
 
-const episodesDir = 'episodes';
+const episodesDir = "./episodes";
 
-interface Episode {
-  filename: string;
-  date: Date;
-}
+function processFile(filePath: string) {
+  const content = fs.readFileSync(filePath, "utf8");
+  const lines = content.split("\n");
+  let inFrontmatter = false;
+  let frontmatterStart = -1;
+  let frontmatterEnd = -1;
 
-function extractDate(filePath: string): Date | null {
-  const content = fs.readFileSync(filePath, 'utf-8');
-  const match = content.match(/date:\s*(\d{4}-\d{2}-\d{2})/);
-  if (match) {
-    return new Date(match[1]);
-  }
-  return null;
-}
-
-function renameEpisodes() {
-  const files = fs.readdirSync(episodesDir);
-  const episodes: Episode[] = [];
-
-  for (const filename of files) {
-    if (filename.endsWith('.md')) {
-      const filePath = path.join(episodesDir, filename);
-      const date = extractDate(filePath);
-      if (date) {
-        episodes.push({ filename, date });
+  // Find frontmatter boundaries
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].trim() === "---") {
+      if (!inFrontmatter) {
+        inFrontmatter = true;
+        frontmatterStart = i;
+      } else {
+        frontmatterEnd = i;
+        break;
       }
     }
   }
 
-  episodes.sort((a, b) => a.date.getTime() - b.date.getTime());
+  if (frontmatterStart !== -1 && frontmatterEnd !== -1) {
+    const frontmatter = lines.slice(frontmatterStart + 1, frontmatterEnd);
+    const updatedFrontmatter = frontmatter.filter(line => {
+      const key = line.split(":")[0].trim();
+      return !["isNext", "time", "video", "podcastUrl", "url"].includes(key);
+    });
 
-  for (let i = 0; i < episodes.length; i++) {
-    const oldFilename = episodes[i].filename;
-    const newFilename = `episode-${(i + 1).toString().padStart(4, '0')}.md`;
-    const oldPath = path.join(episodesDir, oldFilename);
-    const newPath = path.join(episodesDir, newFilename);
+    const updatedContent = [
+      ...lines.slice(0, frontmatterStart + 1),
+      ...updatedFrontmatter,
+      ...lines.slice(frontmatterEnd),
+    ].join("\n");
 
-    let content = fs.readFileSync(oldPath, 'utf-8');
-
-    // Update the episode number in the title if it exists
-    content = content.replace(
-      /(title:\s*".*?)\s*#\d+/,
-      `$1 #${i + 1}`
-    );
-
-    fs.writeFileSync(newPath, content);
-    fs.unlinkSync(oldPath);
-
-    console.log(`Renamed ${oldFilename} to ${newFilename}`);
+    fs.writeFileSync(filePath, updatedContent);
   }
-
-  console.log("Renaming complete!");
 }
 
-renameEpisodes();
+function processDirectory(dir: string) {
+  const files = fs.readdirSync(dir);
+
+  for (const file of files) {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
+
+    if (stat.isDirectory()) {
+      processDirectory(filePath);
+    } else if (path.extname(file) === ".md") {
+      processFile(filePath);
+    }
+  }
+}
+
+processDirectory(episodesDir);
+console.log("Processing complete.");

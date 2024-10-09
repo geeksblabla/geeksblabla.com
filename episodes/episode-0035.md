@@ -7,8 +7,6 @@ category: "dev"
 youtube: https://www.youtube.com/watch?v=kRFMScRcIFc
 published: true
 featured: false
-url: ""
-podcastUrl: https://web.facebook.com/youssouf.elazizi/videos/2982251615130868
 ---
 
 In this special episode of GeeksBlabla, some of its core team members discussed what is DevC community, how it started and how Facebook supports DevC. At the end, the members revealed some of the secrets and memories they had in the community.

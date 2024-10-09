@@ -7,8 +7,6 @@ category: "dev"
 youtube: https://www.youtube.com/watch?v=bJ0QPmf5V2Q
 published: true
 featured: false
-url: ""
-podcastUrl: https://www.facebook.com/geeksblabla/videos/3112268152171433/
 ---
 
 In this episode of GeeksBlabla we discuss, React, How to get started ,Core concepts, React Ecosystem and a lot of topics around it.

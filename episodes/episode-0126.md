@@ -2,12 +2,13 @@
 date: 2022-09-18
 duration: "2:00:45"
 title: "All about Agile"
-tags: ["Dev","Agile","Project","Management"]
+tags: ["Dev", "Agile", "Project", "Management"]
 category: "dev"
 youtube: https://youtu.be/UcaHNJR7s-0
 published: true
 featured: false
 ---
+
 In this episode we discuss Agile from Business , Project and Developement/Operation Perspectives.
 
 ## Guests

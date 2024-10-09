@@ -7,7 +7,6 @@ category: "career"
 featured: true
 youtube: https://www.youtube.com/watch?v=fSH4oI6mDnQ
 published: true
-url:
 ---
 
 In this episode of GeeksBlabla, our guests discuss how we can empower women in moroccan Tech industry.

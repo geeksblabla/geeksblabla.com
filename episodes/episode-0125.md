@@ -15,7 +15,6 @@ In this episode we dicuss DevoxxMA's return this year, news and other details wi
 
 - [Badr Elhouari](https://twitter.com/badrelhouari)
 
-
 ## Notes
 
 0:00:00 - Introduction and welcoming.

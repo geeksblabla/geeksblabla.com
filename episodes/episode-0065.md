@@ -6,8 +6,6 @@ tags: ["tech-interviews", "career"]
 category: "career"
 youtube: https://www.youtube.com/watch?v=AlzjZ5Qxeyg
 published: true
-url:
-podcastUrl: https://www.facebook.com/geeksblabla/videos/234131721578215
 ---
 
 In this episode of GeeksBlabla, we discussed some ways to present your best self in a tech interview, how to answer common questions, types of interviews, best practices and tips for better communication with the recruiter.
