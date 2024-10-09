@@ -1,11 +1,9 @@
 ---
 date: 2023-03-19
-time: 19h:00min
 duration: "2:28:43"
 title: "Mental Health for developers"
 tags: [ "career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=urFGhkMFgTg
 published: true
 featured: false

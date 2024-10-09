@@ -1,17 +1,13 @@
 ---
 date: 2022-01-23
-time: 20h:01min
 duration: "1:30:52"
 title: "MSS with Mehdi Daoudi"
 tags: ["MSS"]
 category: "MSS"
-isNext: false
 youtube: https://www.youtube.com/watch?v=dUQHPOPaVd8
 published: true
-video: "1051278222083870"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/1051278222083870
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Mehdi Daoudi, CEO and Co-Founder - Catchpoint Systems, Inc.

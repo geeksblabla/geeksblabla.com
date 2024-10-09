@@ -1,11 +1,9 @@
 ---
 date: 2021-10-03
-time: 20h:00min
 duration: "2:00:46"
 title: "Hacktoberfest & Open Source 2021"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=T0ebJvUiDG4&t=2432ss
 published: true
 ---

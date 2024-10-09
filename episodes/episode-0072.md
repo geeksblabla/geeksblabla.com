@@ -1,17 +1,13 @@
 ---
 date: 2021-02-28
-time: 20h:00min
 duration: "02:10:26"
 title: "Tech News & AMA #8"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=5lt-2ID1euI
 published: true
-video: "491357765578519"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/491357765578519/
-audio:
 ---
 
 Tech News & AMA #8 with our community members Ilyas, Othmane, Mehdi, Otmane, and Mohamed. During this episode, we discuss the latest Tech News and we answer audience questions about programming, community, new technologies, and much more.

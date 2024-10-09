@@ -1,11 +1,9 @@
 ---
 date: 2023-11-12
-time: 20h:00min
 duration: "3:20:22"
 title: "JavaScript in 2023"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=BI9C_uH2Y2E
 published: true
 featured: false

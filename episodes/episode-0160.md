@@ -1,11 +1,9 @@
 ---
 date: 2023-11-05
-time: 20h:00min
 duration: "2:19:34"
 title: "Java in 2023"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=VkJtIaTGRsk
 published: true
 featured: false

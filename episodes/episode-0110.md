@@ -1,11 +1,9 @@
 ---
 date: 2022-03-13
-time: 20h:00min
 duration: "1:07:44"
 title: "Service mesh demystified"
 tags: ["dev", "Service mesh ", "architecture"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=LGPUjmNieNI
 published: true
 featured: false

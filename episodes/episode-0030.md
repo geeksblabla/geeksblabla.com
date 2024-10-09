@@ -1,12 +1,9 @@
 ---
 date: 2020-03-21
-time: 20h
 duration: "01:39:54"
 title: "Working Remotely as a Developer"
 tags: ["dev", "career"]
 category: "career"
-isNext: false
-video: "2948126105248046"
 youtube: https://www.youtube.com/watch?v=7H08TcRX5SE
 published: true
 featured: true

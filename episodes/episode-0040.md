@@ -1,12 +1,9 @@
 ---
 date: 2020-05-17
-time: 22h:30min
 duration: "01:44:48"
 title: "Self-Taught Developers"
 tags: ["self-taught", "software engineering", "career"]
 category: "career"
-isNext: false
-video: "2971727423053675"
 youtube: https://www.youtube.com/watch?v=EOnbBm31kiA
 published: true
 featured: false

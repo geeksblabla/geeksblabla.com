@@ -1,18 +1,14 @@
 ---
 date: 2020-09-12
-time: 20h:01min
 duration: "02:30:36"
 title: "Developers Working Abroad"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=jz-wNrMvKjY
 published: true
 featured: true
-video: "999456073888255"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/999456073888255
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests what is it like to work abroad as a developer.

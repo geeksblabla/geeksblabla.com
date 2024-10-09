@@ -1,11 +1,9 @@
 ---
 date: 2022-10-30
-time: 20h:00min
 duration: "2:19:18"
 title: "React JS Revisited"
 tags: ["Dev", "geeksblabla", "react"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=6lXH3vhfEHI
 published: true
 featured: false

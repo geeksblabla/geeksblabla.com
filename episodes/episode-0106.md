@@ -1,11 +1,9 @@
 ---
 date: 2022-02-13
-time: 20h:00min
 duration: "1:50:11"
 title: "Amazon WEB Services"
 tags: ["AWS", "geeksblabla", "Cloud", "Amazon", "Databases", "AI", "Serverless"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=oy5q4QXmNaU
 published: true
 featured: true

@@ -1,12 +1,9 @@
 ---
 date: 2020-06-14
-time: 20h:00min
 duration: "02:37:04"
 title: "Angular Deep Dive"
 tags: ["angular", "JS", "frontend", "web", "dev"]
 category: "dev"
-isNext: false
-video: "269321810941867"
 youtube: https://www.youtube.com/watch?v=49Sr9WuxSHM
 published: true
 featured: false

@@ -1,17 +1,13 @@
 ---
 date: 2021-01-24
-time: 20h:03min
 duration: "02:20:26"
 title: "Tech News & AMA #7"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=GPTjXQ0QHxw
 published: true
-video: "172380927993448"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/172380927993448/
-audio:
 ---
 
 Tech News & AMA #6 with our community members Abderrahim, Youssouf, Abderrahim, Otmane, and Mohamed. During this episode, we discuss the latest Tech News and we answer audience questions about programming, community, new technologies, and much more.

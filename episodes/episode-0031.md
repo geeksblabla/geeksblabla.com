@@ -1,12 +1,9 @@
 ---
 date: 2020-03-28
-time: 20h
 duration: "02:24:36"
 title: "AMA With GeeksBlabla Team "
 tags: ["DevC", "AMA"]
 category: "AMA"
-isNext: false
-video: "2963957556998234"
 youtube: https://www.youtube.com/watch?v=nTA2mTRlTD0
 published: true
 featured: false

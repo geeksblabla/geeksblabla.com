@@ -1,11 +1,9 @@
 ---
 date: 2022-05-08
-time: 20h:00min
 duration: "1:31:38"
 title: "Software Project Management"
 tags: ["Software", "Project", "Project Management", "Agile", "Scrum", "Delivery", "Collaboration"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=PTrk2tUhbdY
 published: true
 featured: false

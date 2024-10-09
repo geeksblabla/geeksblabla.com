@@ -1,11 +1,9 @@
 ---
 date: 2024-03-10
-time: 21h:00min
 duration: "1:29:29"
 title: "Blanat Coding Challenge"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=gOnapDngTuk
 published: true
 featured: false

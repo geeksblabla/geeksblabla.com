@@ -1,17 +1,13 @@
 ---
 date: 2019-12-29
-time: 21h
 duration: "2:18:03"
 title: "Geeksblabla MSS with Yassine El Kachchani"
 tags: ["MSS", "entrepreneurship", "career"]
 category: "MSS"
-isNext: false
 featured: true
-video: "2770524023008256"
 youtube: https://www.youtube.com/watch?v=QqicTaX4gfU
 published: true
 url: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"
-audio: "https://www.facebook.com/sfoukahi/videos/2770524023008256/"
 ---
 
 In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of United Remote.

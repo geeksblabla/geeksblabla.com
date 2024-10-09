@@ -1,17 +1,13 @@
 ---
 date: 2020-12-06
-time: 20h:00min
 duration: "03:25:00"
 title: "MSS with Mohamed Youssfi"
 tags: ["MSS"]
 category: "MSS"
-isNext: false
 youtube: https://www.youtube.com/watch?v=I7FwzqXm-uQ
 published: true
-video: "200434128392316"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/200434128392316
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Mohamed Youssfi, one of the most famous university school teachers in morocco, we discuss his experience and IT education in morocco.

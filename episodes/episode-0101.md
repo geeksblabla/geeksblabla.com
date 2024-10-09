@@ -1,11 +1,9 @@
 ---
 date: 2022-01-02
-time: 20h:00min
 duration: "02:08:27"
 title: "Microsoft Azure Ecosystem"
 tags: ["101", "Microsoft", "Azure"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=U2Kem64cZ_0
 published: true
 featured: true

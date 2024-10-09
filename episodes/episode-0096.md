@@ -1,11 +1,9 @@
 ---
 date: 2021-11-28
-time: 20h:00min
 duration: "1:37:12"
 title: "Tech News & AMA #14"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=NaVuKdEd1H8
 published: true
 ---

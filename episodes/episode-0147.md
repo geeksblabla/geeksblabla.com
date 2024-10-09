@@ -1,11 +1,9 @@
 ---
 date: 2023-05-21
-time: 20h:10min
 duration: "2:47:16"
 title: "State of linux"
 tags: ["linux", "containers", "docker"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=fHqwAE8qFSM
 published: true
 featured: false

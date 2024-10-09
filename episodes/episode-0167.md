@@ -1,11 +1,9 @@
 ---
 date: 2023-12-24
-time: 20h:00min
 duration: "2:48:40"
 title: "Year in Review 2023"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=4Cs8O3VchnE
 published: true
 featured: false

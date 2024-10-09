@@ -1,17 +1,13 @@
 ---
 date: 2020-10-04
-time: 21h:00min
 duration: "01:08:20"
 title: "MSS with Samir Benmakhlouf"
 tags: ["MSS"]
 category: "MSS"
-isNext: false
 youtube: https://www.youtube.com/watch?v=IPR2auK2vRg
 published: true
-video: "356871318697995"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/356871318697995
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Samir Benmakhlouf who is the current CEO of London Academy School and previous Country Manager of Microsoft Morocco

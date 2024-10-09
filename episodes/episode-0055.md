@@ -1,17 +1,13 @@
 ---
 date: 2020-10-11
-time: 21h:01min
 duration: "02:46:57"
 title: "Hacktoberfest & Open Source"
 tags: ["open source", "dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=A6mR8LdPLdQ
 published: true
-video: "776838066222971"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/776838066222971
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests, Open Source and the much-hyped Hacktoberfest.

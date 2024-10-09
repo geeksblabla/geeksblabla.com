@@ -1,11 +1,9 @@
 ---
 date: 2022-04-17
-time: 22h:00min
 duration: "1:48:48"
 title: "Clean Code"
 tags: ["book", "clean code"]
 category: "book"
-isNext: false
 youtube: https://www.youtube.com/watch?v=oeuMCO4CYyg
 published: true
 featured: true

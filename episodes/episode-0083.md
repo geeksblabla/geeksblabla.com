@@ -1,18 +1,14 @@
 ---
 date: 2021-05-23
-time: 20h:03min
 duration: "2:02:50"
 title: "DevOps 101"
 tags: ["devops"]
 category: "dev"
-isNext: false
 featured: true
 youtube: https://www.youtube.com/watch?v=aWtuTFqtpN0
 published: true
-video: "393209238528150"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/393209238528150
-audio:
 ---
 
 In this episode of GeeksBlabla, we're Revisiting the fundamentals of the DevOps Culture and toolchain.

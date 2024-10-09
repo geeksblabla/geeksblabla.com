@@ -1,12 +1,9 @@
 ---
 date: 2020-01-12
-time: 21h
 duration: "01:44:03"
 title: "Deep Dive in Java"
 tags: ["spring", "java", "dev", "backend"]
 category: "dev"
-isNext: false
-video: "2801661513227840"
 youtube: https://www.youtube.com/watch?v=yj2GuZnBC8s
 published: true
 url: ""

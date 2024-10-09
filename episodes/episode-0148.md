@@ -1,11 +1,9 @@
 ---
 date: 2023-05-28
-time: 22h:00min
 duration: "2:30:14"
 title: "Tech News & AMA #24"
 tags: ["ama", "google-io", "microsft-build", "angular"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=CvsVn2mulwk
 published: true
 featured: false

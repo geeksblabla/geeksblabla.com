@@ -1,11 +1,9 @@
 ---
 date: 2021-12-19
-time: 20h:00min
 duration: "02:30:00"
 title: "State of Dev in Morocco 2021"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=bEkwDuGGD34
 published: true
 featured: true

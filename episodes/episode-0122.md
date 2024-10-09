@@ -1,11 +1,9 @@
 ---
 date: 2022-07-03
-time: 20h:00min
 duration: "1:51:51"
 title: "Tech News & AMA #18"
 tags: ["AMA", "geeksblabla"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=M_Fndyna8VI
 published: true
 featured: false

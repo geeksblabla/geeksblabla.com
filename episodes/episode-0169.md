@@ -1,11 +1,9 @@
 ---
 date: 2024-01-14
-time: 20h:00min
 duration: "1:41:51"
 title: "WebAssembly in 2024"
 tags: ["dev", "wasm"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=M3IBIFHwLBE
 published: true
 featured: false

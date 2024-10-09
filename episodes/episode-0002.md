@@ -1,15 +1,11 @@
 ---
 date: 2018-05-26
-time: 20h
 duration: "2:46:10"
 title: "Web Dev JS frameworks, Best practices"
 tags: ["web", "JS", "backend", "frontend"]
 category: "dev"
-isNext: false
-video: "2144076882491332"
 youtube: https://www.youtube.com/watch?v=y8mbKtOmNrg
 published: true
-audio:
 ---
 
 In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Boudih talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.

@@ -1,11 +1,9 @@
 ---
 date: 2023-09-03
-time: 20h:00min
 duration: "1:29:19"
 title: "Back to School"
 tags: ["career", "learning", "student life"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=Q688u-Y44tU
 published: true
 featured: false

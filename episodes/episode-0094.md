@@ -1,11 +1,9 @@
 ---
 date: 2021-09-26
-time: 20h:00min
 duration: "1:20:12"
 title: "Tech News & AMA #13"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=lrUgCaZyUBc&ab_channel=GeeksBlaBla
 published: true
 ---

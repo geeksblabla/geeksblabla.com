@@ -1,11 +1,9 @@
 ---
 date: 2023-03-05
-time: 20h:07min
 duration: "2:18:52"
 title: "Tech Education in Morocco"
 tags: ["education", "morocco"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=3r7lXiS5Mqc
 published: true
 featured: false

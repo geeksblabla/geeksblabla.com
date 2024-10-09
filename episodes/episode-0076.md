@@ -1,17 +1,13 @@
 ---
 date: 2021-03-28
-time: 20h:00min
 duration: "01:52:00"
 title: "Tech News & AMA #9"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=K9DZ8aRCNzE
 published: true
-video: "4094347893948929"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/4094347893948929
-audio:
 ---
 
 Tech News & AMA #9 with our community members Ahmed, Mohamed and Othman. During this episode, we discuss the latest Tech News, **Make it legal** Ahmed's book and we answer audience questions about programming, community, new technologies, and much more.

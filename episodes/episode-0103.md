@@ -1,11 +1,9 @@
 ---
 date: 2022-01-16
-time: 20h:00min
 duration: "02:35:49"
 title: "NFT & Web3.0"
 tags: ["web3", "nft", "crypto", "blockchain", "DeFi", "Ethereum"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=j4rUZvjR8ZQ
 published: true
 featured: true

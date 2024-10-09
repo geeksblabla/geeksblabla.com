@@ -1,11 +1,9 @@
 ---
 date: 2023-05-15
-time: 20h:10min
 duration: "2:06:31"
 title: "Scaling Back: Amazon's Prime Video and the Return of the Monolith"
 tags: ["architecture", "microservices", "monolith", "functions", "lambda", "deployement"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=GqUFdwXbVog
 published: true
 featured: false

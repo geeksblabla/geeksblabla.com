@@ -1,11 +1,9 @@
 ---
 date: 2021-09-19
-time: 20h:00min
 duration: "2:05:10"
 title: "Reactive Programming"
 tags: ["dev", "react"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=q9wmIdNAup4&ab
 published: true
 ---

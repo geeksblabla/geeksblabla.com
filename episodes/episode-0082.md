@@ -1,18 +1,14 @@
 ---
 date: 2021-05-16
-time: 20h:03min
 duration: "2:17:34"
 title: "Software Security 2021"
 tags: ["security"]
 category: "dev"
-isNext: false
 featured: true
 youtube: https://www.youtube.com/watch?v=r5ZBLg5vL4M
 published: true
-video: "4239695062759612"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/4239695062759612
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss with our community members about software security, what is software security, tricks for effective and productive learning.

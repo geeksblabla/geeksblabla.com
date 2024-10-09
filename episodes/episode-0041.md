@@ -1,12 +1,9 @@
 ---
 date: 2020-05-25
-time: 20h:30min
 duration: "02:13:00"
 title: "PHP Deep Dive"
 tags: ["php", "dev", "web", "backend"]
 category: "dev"
-isNext: false
-video: "866401943834929"
 youtube: https://www.youtube.com/watch?v=QxSk1jvim-c
 published: true
 featured: false

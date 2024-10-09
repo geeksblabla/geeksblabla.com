@@ -1,17 +1,13 @@
 ---
 date: 2020-12-27
-time: 20h:03min
 duration: "02:15:26"
 title: "Tech News & AMA #6"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=RIZLJGi_WR4
 published: true
-video: "503863377255590"
 url:
 podcastUrl: https://www.facebook.com/104120241264783/videos/503863377255590/
-audio:
 ---
 
 Tech News & AMA #6 with our community members Meriem, Youssouf, Abderrahim, Abdelfettah, and Mohamed. During this episode, we discuss the latest Tech News and we answer audience questions about programming, community, new technologies, and much more.

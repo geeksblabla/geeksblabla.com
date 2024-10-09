@@ -1,11 +1,9 @@
 ---
 date: 2021-12-12
-time: 20h:00min
 duration: "2:28:53"
 title: "The weakest link: why all software needs security?"
 tags: ["dev", "security"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=39M0RTjPMnA
 published: true
 featured: false

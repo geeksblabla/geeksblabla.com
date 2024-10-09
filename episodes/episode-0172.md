@@ -1,11 +1,9 @@
 ---
 date: 2024-02-11
-time: 20h:00min
 duration: "2:32:08"
 title: "AMA & Tech News #29"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=Z8_k-PnLaEo
 published: true
 featured: false

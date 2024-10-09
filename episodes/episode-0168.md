@@ -1,11 +1,9 @@
 ---
 date: 2024-01-07
-time: 20h:00min
 duration: "2:18:30"
 title: "7 Pillars to be comfortable in your Professional Life"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=UKXczSzD2mA
 published: true
 featured: false

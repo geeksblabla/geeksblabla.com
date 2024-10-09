@@ -1,17 +1,13 @@
 ---
 date: 2020-09-19
-time: 20h:08min
 duration: "02:10:54"
 title: ".NET Deep Dive"
 tags: ["software engineering"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=f930PXnFiMs
 published: true
-video: "362896171543318"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/362896171543318
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests the overall basic and advanced concepts of .NET.

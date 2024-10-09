@@ -1,12 +1,9 @@
 ---
 date: 2020-02-29
-time: 21h
 duration: "01:32:00"
 title: "GeeksBlabla Kids"
 tags: ["kids"]
 category: "career"
-isNext: false
-video: "2902199879840669"
 featured: true
 youtube: https://www.youtube.com/watch?v=gvve_LEqtbI
 published: true

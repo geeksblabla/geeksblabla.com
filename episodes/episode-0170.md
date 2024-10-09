@@ -1,11 +1,9 @@
 ---
 date: 2024-01-21
-time: 20h:00min
 duration: "1:55:07"
 title: "Let's Discover Salesforce"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=hZUk7EAuyQQ
 published: true
 featured: false

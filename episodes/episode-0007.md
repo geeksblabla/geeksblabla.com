@@ -1,15 +1,11 @@
 ---
 date: 2018-10-25
-time: 20h
 duration: "1:22:38"
 title: "Métier de développeur"
 tags: ["dev", "career"]
 category: "career"
-isNext: false
-video: "2261166440782375"
 youtube: https://www.youtube.com/watch?v=1luq94KV-xM
 published: true
-audio:
 ---
 
 On this episode of Geeksblabla hosted by (Mohammed Aboullaite) : The guests Soufian , Faissal ,Youssouf and Othmane talks about The bounds of "job of developer" from many point of views educational , technical and psychologic ..etc.

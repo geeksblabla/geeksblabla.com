@@ -1,11 +1,9 @@
 ---
 date: 2024-04-28
-time: 20h:00min
 duration: "2:37:14"
 title: "Legacy Code & Technical debts"
 tags: ["legacy", "technical debts"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=mIPFRUCODN4
 published: true
 featured: false

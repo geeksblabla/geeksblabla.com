@@ -1,11 +1,9 @@
 ---
 date: 2023-10-22
-time: 20h:00min
 duration: "2:00:39"
 title: "L3arbi ChatBot: A Technical deep dive"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=hTV90OlKlOg
 published: true
 featured: false

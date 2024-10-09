@@ -1,11 +1,9 @@
 ---
 date: 2022-05-22
-time: 20h:00min
 duration: "1:21:51"
 title: "Making Great Tech Products"
 tags: ["Software", "Project", "Project Management", "Agile", "Scrum", "Delivery", "Collaboration" , "Product", "Product Management"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=7Nl-7Zri1Hg
 published: true
 featured: false

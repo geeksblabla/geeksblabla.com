@@ -1,17 +1,13 @@
 ---
 date: 2019-11-24
-time: 21h16
 duration: "1:59:00"
 title: "Women In Tech"
 tags: ["women", "career"]
 category: "career"
-isNext: false
 featured: true
-video: "2693122377415088"
 youtube: https://www.youtube.com/watch?v=fSH4oI6mDnQ
 published: true
 url:
-audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2019-11-8/37064067-48000-2-7061c427555f3.m4a
 ---
 
 In this episode of GeeksBlabla, our guests discuss how we can empower women in moroccan Tech industry.

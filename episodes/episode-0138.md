@@ -1,11 +1,9 @@
 ---
 date: 2023-02-19
-time: 20h:07min
 duration: "2:00:41"
 title: "Developer Seniority"
 tags: ["dev", "senior", "growth", "career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=rfArf1AnH0Y
 published: true
 featured: false

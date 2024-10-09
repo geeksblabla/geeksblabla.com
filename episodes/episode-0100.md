@@ -1,11 +1,9 @@
 ---
 date: 2021-12-26
-time: 20h:00min
 duration: "02:30:00"
 title: "The 100th Episode"
 tags: ["100", "geeksblabla"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=1Ds--L9ERf0
 published: true
 featured: true

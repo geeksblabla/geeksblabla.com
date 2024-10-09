@@ -1,11 +1,9 @@
 ---
 date: 2023-07-23
-time: 20h:00min
 duration: "01:38:49"
 title: "Google Cloud Platform"
 tags: ["Google Cloud", "Cloud", "GCP"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=EzMHiEcZj7M
 published: true
 featured: false

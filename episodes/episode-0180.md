@@ -1,11 +1,9 @@
 ---
 date: 2024-05-12
-time: 20h:00min
 duration: "1:45:17"
 title: "Data engineer 101"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/live/mxV9Bx1ZsZg?si=5QnDE6RCcNOBuW1T
 published: true
 featured: false

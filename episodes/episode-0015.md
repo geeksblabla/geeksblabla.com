@@ -1,15 +1,11 @@
 ---
 date: 2019-05-18
-time: 15h08
 duration: "1:27:53"
 title: "Software security"
 tags: ["security", "backend", "frontend", "software engineering"]
 category: "dev"
-isNext: false
-video: "2392159647683053"
 youtube: https://www.youtube.com/watch?v=Fvv0ZglfYng
 published: true
-audio:
 ---
 
 In this episode of GeeksBlabla, team talks about the Software security, definition, techniques and tools.

@@ -1,12 +1,9 @@
 ---
 date: 2020-06-07
-time: 20h:00min
 duration: "01:58:26"
 title: "MSS with Omar Guendeli"
 tags: ["self-taught", "game dev", "MSS"]
 category: "MSS"
-isNext: false
-video: "1135171186849770"
 youtube: https://www.youtube.com/watch?v=DFaRndHwuFY
 published: true
 featured: false

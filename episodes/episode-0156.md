@@ -1,11 +1,9 @@
 ---
 date: 2023-09-24
-time: 20h:00min
 duration: "2:52:38"
 title: "How to be a -10x developer "
 tags: ["career", "learning", "productivity"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=GFqhbHDGoX0
 published: true
 featured: false

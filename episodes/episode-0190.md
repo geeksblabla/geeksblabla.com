@@ -1,11 +1,9 @@
 ---
 date: 2024-09-15
-time: 20h:00min
 duration: "2:04:55"
 title: "Prompt Engineering"
 tags: ["AI"]
 category: "AI"
-isNext: false
 youtube: https://www.youtube.com/watch?v=2UGde_wf4ZM
 published: true
 featured: false

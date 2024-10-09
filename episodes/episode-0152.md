@@ -1,11 +1,9 @@
 ---
 date: 2023-07-09
-time: 20h:00min
 duration: "02:01:08"
 title: "The State of AR and VR"
 tags: ["AR", "VR", "XR"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=Ey8itgwTQVs
 published: true
 featured: false

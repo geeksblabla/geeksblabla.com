@@ -1,11 +1,9 @@
 ---
 date: 2021-07-12
-time: 20h:00min
 duration: "1:43:34"
 title: "Marketing Yourself as a Developer"
 tags: ["dev", "self-branding"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=SA_H8wI0KYQ
 published: true
 ---

@@ -1,11 +1,9 @@
 ---
 date: 2023-10-28
-time: 20h:00min
 duration: "2:05:41"
 title: "It Depends: The Art of decision-making"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=2fBzXrAECRU
 published: true
 featured: false

@@ -1,11 +1,9 @@
 ---
 date: 2022-06-05
-time: 20h:00min
 duration: "1:23:28"
 title: "Quantum computing"
 tags: ["Quantum Computing"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=flTK46tRlOc
 published: true
 featured: false

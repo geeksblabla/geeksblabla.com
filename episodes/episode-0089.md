@@ -1,11 +1,9 @@
 ---
 date: 2021-07-04
-time: 20h:00min
 duration: "2:47:43"
 title: "JavaScript Ecosystem"
 tags: ["dev", "javascript"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=FXBoKlQLVdc
 published: true
 ---

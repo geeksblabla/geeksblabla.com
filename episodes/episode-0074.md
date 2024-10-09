@@ -1,17 +1,13 @@
 ---
 date: 2021-03-14
-time: 20h:00min
 duration: "01:52:58"
 title: "Monitoring: Why, and How?"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=_i7wNzZUYJw
 published: true
-video: "164231705516803"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/164231705516803/
-audio:
 ---
 
 In this episode, we talk about Monitoring, what is it about, what to consider in a project roadmap, how to do it and its different types with our guests..

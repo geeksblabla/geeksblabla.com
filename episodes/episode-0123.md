@@ -1,11 +1,9 @@
 ---
 date: 2022-07-17
-time: 20h:00min
 duration: "1:29:18"
 title: "Create Great Documentation"
 tags: ["Dev", "geeksblabla"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=R52Rt-iFPgs&t=1106s
 published: true
 featured: false

@@ -1,11 +1,9 @@
 ---
 date: 2021-09-05
-time: 20h:00min
 duration: "1:33:34"
 title: "AI & ML"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=X3kIl90GJnk&ab_channel=GeeksBlaBla
 published: true
 ---

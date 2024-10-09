@@ -1,12 +1,9 @@
 ---
 date: 2020-04-20
-time: 20h:30min
 duration: "02:43:43"
 title: "React Deep Dive"
 tags: ["react", "JS", "frontend", "web", "dev", "mobile dev", "react native"]
 category: "dev"
-isNext: false
-video: "3112268152171433"
 youtube: https://www.youtube.com/watch?v=bJ0QPmf5V2Q
 published: true
 featured: false

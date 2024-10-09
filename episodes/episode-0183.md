@@ -1,11 +1,9 @@
 ---
 date: 2024-06-23
-time: 20h:00min
 duration: "1:28:14"
 title: "State of AI"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=3a_spEXK02o&t=162s
 published: true
 featured: false

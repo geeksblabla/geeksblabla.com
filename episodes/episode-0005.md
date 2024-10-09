@@ -1,15 +1,11 @@
 ---
 date: 2018-09-27
-time: 20h52
 duration: "1:45:48"
 title: "Malware analysis and forensics"
 tags: ["cybersecurity", "security"]
 category: "dev"
-isNext: false
-video: "2003419829718683"
 youtube: https://www.youtube.com/watch?v=XFGc-P2Ig9w
 published: true
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss Cybersecurity, Malware analysis and Forensics with Soufiane Tahiri.

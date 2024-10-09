@@ -1,16 +1,12 @@
 ---
 date: 2018-10-13
-time: 22h
 duration: "1:25:54"
 title: "MSS with Amine Raghib"
 tags: ["MSS"]
 category: "MSS"
-isNext: false
-video: "2254586411440378"
 youtube: https://www.youtube.com/watch?v=DlE3drGZgpo
 published: true
 url:
-audio:
 ---
 
 In this episode of GeeksBlabla, our guest Amine Raghib - a writer and founder of the Professional Blog , and he is also known for his episodes on a YouTube channel of the same name that has achieved great success attracting millions of viewers - will share his story.

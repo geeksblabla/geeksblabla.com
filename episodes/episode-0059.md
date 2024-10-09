@@ -1,17 +1,13 @@
 ---
 date: 2020-11-29
-time: 20h:03min
 duration: "02:44:26"
 title: "Ask Me Anything #5"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=IQlzDiEjAXY
 published: true
-video: "1325807077758112"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/1325807077758112
-audio:
 ---
 
 Ask Me Anything episode #5 with our community members and guests Youssouf, Abderrahim, Ouissal and Mohamed. During this episode we answer audience questions about programming, community, new technologies and much more.

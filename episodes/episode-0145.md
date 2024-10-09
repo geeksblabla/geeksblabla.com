@@ -1,11 +1,9 @@
 ---
 date: 2023-05-07
-time: 22h:00min
 duration: "0:58:46"
 title: "Developer Circles Morocco: A farewell"
 tags: ["dev", "career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=YhAc4go0qTI
 published: true
 featured: false

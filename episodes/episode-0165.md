@@ -1,11 +1,9 @@
 ---
 date: 2023-12-10
-time: 20h:00min
 duration: "2:30:41"
 title: "DevOps in 2023"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=jgLmsiLsC5U
 published: true
 featured: false

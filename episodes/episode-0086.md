@@ -1,17 +1,13 @@
 ---
 date: 2021-06-13
-time: 20h:01min
 duration: "1:27:20"
 title: "MSS with Wassim CHEGHAM"
 tags: ["MSS"]
 category: "MSS"
-isNext: false
 youtube: https://www.youtube.com/watch?v=SgOfKQY5ubw
 published: true
-video: "3029399233957482"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/3029399233957482
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Wassim CHEGHAM, Sr. JavaScript Developer Advocate at Microsoft, Core

@@ -1,11 +1,9 @@
 ---
 date: 2022-01-30
-time: 20h:00min
 duration: "1:59:44"
 title: "Tech News & AMA #15"
 tags: ["AMA", "geeksblabla"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=4_h-lxi3GlU
 published: true
 featured: true

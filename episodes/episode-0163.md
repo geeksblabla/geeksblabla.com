@@ -1,11 +1,9 @@
 ---
 date: 2023-11-26
-time: 20h:00min
 duration: "2:02:42"
 title: "Python in 2023"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=Zgdg4Hx_g7M
 published: true
 featured: false

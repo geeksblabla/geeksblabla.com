@@ -1,11 +1,9 @@
 ---
 date: 2024-01-28
-time: 20h:00min
 duration: "2:18:48"
 title: "From Code Passion to First Dollar"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=6wsSnklIzNU
 published: true
 featured: false

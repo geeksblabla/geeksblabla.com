@@ -1,11 +1,9 @@
 ---
 date: 2024-07-14
-time: 20h:00min
 duration: "1:45:22"
 title: "The Journey of Continuous Learning in Tech"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=Wp_8hDXaZB4&ab
 published: true
 featured: false

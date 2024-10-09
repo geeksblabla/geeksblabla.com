@@ -1,18 +1,14 @@
 ---
 date: 2018-05-19
-time: 20h
 duration: "2:00:13"
 title: "Devops"
 tags: ["devops"]
 category: "dev"
-isNext: false
-video: "2140582549507432"
 youtube: https://www.youtube.com/watch?v=_tizAkqvivM
 published: true
-audio:
 ---
 
-On this episode of Geeksblabla : Soufian (Host) , Mohammed Aboullaite , Mohammed Ezzarghili , Youssouf and Amine talks about DevOps : Definitions , brief history , Work flow , Tools and best practices ..etc.
+On this episode of Geeksblabla : Soufian , Mohammed Aboullaite , Mohammed Ezzarghili , Youssouf and Amine talks about DevOps : Definitions , brief history , Work flow , Tools and best practices ..etc.
 
 ## Notes
 

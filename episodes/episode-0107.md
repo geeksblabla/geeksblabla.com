@@ -1,11 +1,9 @@
 ---
 date: 2022-02-20
-time: 20h:00min
 duration: "1:42:10"
 title: "Fail gloriously!"
 tags: ["career", "failure"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=SkIAxJqo4IQ
 published: true
 featured: true

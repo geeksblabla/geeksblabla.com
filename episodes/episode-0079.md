@@ -1,17 +1,13 @@
 ---
 date: 2021-04-18
-time: 22h:00min
 duration: "1:56:15"
 title: "Testing & QA Engineering"
 tags: ["software testing"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=iCc9kIGoQo4&ab_channel=GeeksBlaBla
 published: true
-video: "207865764102607"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/207865764102607
-audio:
 ---
 
 In this episode of GeeksBlabla, Meriem and Ismail invited Abdelghani Achibane who is a Quality Assurance Engineer to talk about Software testing and QA Engineering

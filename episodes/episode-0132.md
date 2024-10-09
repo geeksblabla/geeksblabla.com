@@ -1,11 +1,9 @@
 ---
 date: 2022-11-13
-time: 20h:05min
 duration: "1:27:02"
 title: "Coding for Kids"
 tags: ["kids", "learning"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=EpV5GA-kPos
 published: true
 featured: false

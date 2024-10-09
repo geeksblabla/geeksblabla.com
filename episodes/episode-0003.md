@@ -1,15 +1,11 @@
 ---
 date: 2018-06-02
-time: 20h
 duration: "1:46:09"
 title: "AR, VR and Game Dev "
 tags: ["game dev", "AR", "VR"]
 category: "dev"
-isNext: false
-video: "2147536065478747"
 youtube: https://www.youtube.com/watch?v=R6173SwSg8w
 published: true
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .

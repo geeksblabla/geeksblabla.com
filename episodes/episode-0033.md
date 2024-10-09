@@ -1,12 +1,9 @@
 ---
 date: 2020-04-04
-time: 20h
 duration: "01:52:07"
 title: "Agile Project Management"
 tags: ["career", "software engineering"]
 category: "career"
-isNext: false
-video: "2653190094913339"
 youtube: https://www.youtube.com/watch?v=84T8HhvseeE
 published: true
 featured: false

@@ -1,11 +1,9 @@
 ---
 date: 2022-09-11
-time: 20h:00min
 duration: "1:30:27"
 title: "DevoxxMa Special"
 tags: ["Dev"]
 category: "dev"
-isNext: false
 youtube: https://youtu.be/UaulAxzEvdk
 published: true
 featured: false

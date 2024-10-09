@@ -1,11 +1,9 @@
 ---
 date: 2022-05-29
-time: 20h:00min
 duration: "1:44:51"
 title: "Tech News & AMA #17"
 tags: ["AMA", "geeksblabla"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=00Z7mP3IhTI
 published: true
 featured: false

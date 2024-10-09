@@ -1,17 +1,13 @@
 ---
 date: 2020-09-27
-time: 20h:04min
 duration: "02:26:48"
 title: "Ask Me Anything #4"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=hUmgd_hH1xY
 published: true
-video: "327655085127704"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/327655085127704
-audio:
 ---
 
 Ask Me Anything episode #4 with our community members Youssouf, Meriem, Abdelfettah and Mohamed. During this episode we answer audience questions as well as discussing the latest tech news.

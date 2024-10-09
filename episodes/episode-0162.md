@@ -1,11 +1,9 @@
 ---
 date: 2023-11-19
-time: 20h:00min
 duration: "3:54:50"
 title: "PHP in 2023"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=T2caZNK6jhE
 published: true
 featured: false

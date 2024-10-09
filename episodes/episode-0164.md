@@ -1,11 +1,9 @@
 ---
 date: 2023-12-03
-time: 20h:00min
 duration: "2:25:31"
 title: "Rust in 2023"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=J7Z1mxrrlKo
 published: true
 featured: false

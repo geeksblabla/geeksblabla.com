@@ -1,12 +1,9 @@
 ---
 date: 2020-04-12
-time: 20h:30min
 duration: "01:57:56"
 title: "DevC Community"
 tags: ["DevC", "open source"]
 category: "dev"
-isNext: false
-video: "2982251615130868"
 youtube: https://www.youtube.com/watch?v=kRFMScRcIFc
 published: true
 featured: false

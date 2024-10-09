@@ -1,11 +1,9 @@
 ---
 date: 2023-06-04
-time: 20h:00min
 duration: "1:51:43"
 title: "Building Smart Apps with LLMs"
 tags: ["LLMs", "ChatGPT", "langChain"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=u5-GEYiKUAg
 published: true
 featured: false

@@ -1,11 +1,9 @@
 ---
 date: 2021-09-12
-time: 20h:00min
 duration: "1:45:12"
 title: "Coding Bootcamp in Morocco"
 tags: ["bootcamps", "3wa", "gomycode"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=pKkQXY3yaYc
 published: true
 ---

@@ -1,12 +1,9 @@
 ---
 date: 2020-03-14
-time: 21h
 duration: "02:01:03"
 title: "Deep Dive in JavaScript"
 tags: ["JS", "web", "react", "angular", "frontend", "backend", "dev"]
 category: "dev"
-isNext: false
-video: "2932270973500226"
 youtube: https://www.youtube.com/watch?v=9D7JAuhJjuU
 published: true
 url: ""

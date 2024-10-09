@@ -1,11 +1,9 @@
 ---
 date: 2022-01-09
-time: 20h:00min
 duration: "01:57:17"
 title: "Developing iOS Apps"
 tags: ["102", "Apple", "iOS", "Swift", "ObjectiveC", "UiKit", "SwiftUI"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=RfTHsACWTlo
 published: true
 featured: true

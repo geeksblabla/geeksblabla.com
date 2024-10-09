@@ -1,11 +1,9 @@
 ---
 date: 2022-04-03
-time: 22h:00min
 duration: "1:33:11"
 title: "Preparing for a Tech Talk"
 tags: ["Tech talk"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=qAGmL2GGATo
 published: true
 featured: false

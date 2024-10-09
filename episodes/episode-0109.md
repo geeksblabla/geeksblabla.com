@@ -1,11 +1,9 @@
 ---
 date: 2022-03-06
-time: 20h:00min
 duration: "2:30:40"
 title: "UX/UI for the rest of us"
 tags: ["career", "UX/UI", "design"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=d-oyZE33X3s
 published: true
 featured: true

@@ -1,11 +1,9 @@
 ---
 date: 2023-01-22
-time: 20h:00min
 duration: "2:27:47"
 title: "AI-Powered Tools & The Future Of Software"
 tags: ["ChatGPT", "geeksblabla"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=C3ScZBa3sIs
 published: true
 featured: true

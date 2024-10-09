@@ -1,17 +1,13 @@
 ---
 date: 2021-01-17
-time: 20h:06min
 duration: "01:52:14"
 title: "Internet of Things"
 tags: ["internet-of-Things", "iot"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=XYdc4poSATs
 published: true
-video: "1312734475751456"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/1312734475751456
-audio:
 ---
 
 In this episode of GeeksBlabla, we discussed with our guests Ali Lakrakbi and Saad Zabari what's IoT, its impact, Adopting IoT in Morocco, and more things about it.

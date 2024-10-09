@@ -1,11 +1,9 @@
 ---
 date: 2023-04-02
-time: 22h:00min
 duration: "1:11:47"
 title: "Networking Demystified 🇲🇦"
 tags: ["dev", "networking"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=qF8fouovKro
 published: true
 featured: false

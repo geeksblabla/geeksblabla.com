@@ -1,11 +1,9 @@
 ---
 date: 2021-12-05
-time: 20h:00min
 duration: "3:09:51"
 title: "How to succeed in end of study internship (PFE)"
 tags: ["career", "PFE"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=Ivts5p0Cwmo
 published: true
 featured: true

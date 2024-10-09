@@ -1,17 +1,13 @@
 ---
 date: 2021-04-11
-time: 20h:00min
 duration: "1:55:00"
 title: "MSS with Abdelahad SATOUR"
 tags: ["MSS"]
 category: "MSS"
-isNext: false
 youtube: https://www.youtube.com/watch?v=kzYammaow-M
 published: true
-video: "828579597737140"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/828579597737140
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Abdelahad SATOUR, a developer, tech serial entrepreneur, and learner; Abdelahad has more than 31 certificates in the IT and business fields; during the episode, he shared with us his professional and personal experiences.

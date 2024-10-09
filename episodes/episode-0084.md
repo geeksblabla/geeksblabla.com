@@ -1,17 +1,13 @@
 ---
 date: 2021-05-30
-time: 20h:00min
 duration: "02:04:00"
 title: "Tech News & AMA #11"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=-Zat3Q0dz7M
 published: true
-video: "2944864289125301"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/2944864289125301
-audio:
 ---
 
 Tech News & AMA #11 with our community members Mohamed, Abderahim and Youssouf . We discuss the latest Tech News during this episode, and we answer audience questions about programming, community, new technologies, and much more.

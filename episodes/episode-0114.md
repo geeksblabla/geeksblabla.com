@@ -1,11 +1,9 @@
 ---
 date: 2022-04-10
-time: 22h:00min
 duration: "1:44:42"
 title: "Switching Careers into IT"
 tags: ["Switching Careers"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=tZxHxZGRaTE
 published: true
 featured: false

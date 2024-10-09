@@ -1,11 +1,9 @@
 ---
 date: 2024-06-02
-time: 20h:00min
 duration: "1:17:05"
 title: "Tech News & AMA #31"
 tags: ["ama"]
 category: "ama"
-isNext: false
 youtube: https://www.youtube.com/watch?v=R19JBanjhnQ
 published: true
 featured: false

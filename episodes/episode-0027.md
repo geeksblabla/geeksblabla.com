@@ -1,12 +1,9 @@
 ---
 date: 2020-02-16
-time: 21h
 duration: "01:40:00"
 title: "Side Projects & Indie Hacking"
 tags: ["dev", "indie", "career"]
 category: "career"
-isNext: false
-video: "2873170349410289"
 youtube: https://www.youtube.com/watch?v=bDrUAza36ec
 published: true
 url:

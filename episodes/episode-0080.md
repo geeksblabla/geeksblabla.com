@@ -1,17 +1,13 @@
 ---
 date: 2021-04-25
-time: 21h:30min
 duration: "02:50:00"
 title: "Tech News & AMA #10"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=xlPtcJnDeec
 published: true
-video: "2944864289125301"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/2944864289125301
-audio:
 ---
 
 Tech News & AMA #10 with our community members Mohamed,Meriem , soufiane, Abderahim and Youssouf . We discuss the latest Tech News during this episode, and we answer audience questions about programming, community, new technologies, and much more.

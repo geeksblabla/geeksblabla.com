@@ -1,16 +1,12 @@
 ---
 date: 2019-06-02
-time: 22h
 duration: "1:09:27"
 title: "Serverless"
 tags: ["serverless", "dev", "software engineering"]
 category: "dev"
-isNext: false
-video: "2402382573327427"
 youtube: https://www.youtube.com/watch?v=EHkP_ycfdUk
 published: true
 url:
-audio:
 ---
 
 On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk about Serverless && Faas, A complete introduction, Pros and Cons And why you should start working with Faas.

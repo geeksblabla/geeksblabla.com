@@ -1,11 +1,9 @@
 ---
 date: 2022-10-16
-time: 20h:15min
 duration: "1:37:36"
 title: "Let’s talk about Operating Systems"
 tags: ["Dev","Architecture","101","fundementals","Software","Operating Systems"]
 category: "dev"
-isNext: false
 youtube: https://youtu.be/qDMl9Zx2Mjg
 published: true
 featured: false

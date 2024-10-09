@@ -1,11 +1,9 @@
 ---
 date: 2023-07-30
-time: 20h:00min
 duration: "2:28:48"
 title: "Tech New & AMA #26"
 tags: ["AMA"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=2FCwniKc2J4
 published: true
 featured: false

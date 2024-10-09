@@ -1,17 +1,13 @@
 ---
 date: 2020-11-22
-time: 20h:06min
 duration: "02:38:56"
 title: "How Does the Internet Work?"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=8BPT8ElBVnQ
 published: true
-video: "659009884978348"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/659009884978348
-audio:
 ---
 
 In this episode of GeeksBlabla, we will discover with our guests how the Internet actually works.

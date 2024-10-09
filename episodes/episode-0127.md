@@ -1,11 +1,9 @@
 ---
 date: 2022-09-25
-time: 20h:05min
 duration: "2:04:32"
 title: "Software Architecture Fundamentals"
 tags: ["Dev","Architecture","101","fundementals","Software"]
 category: "dev"
-isNext: false
 youtube: https://youtu.be/ObWFqaTm3Hk
 published: true
 featured: false

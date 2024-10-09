@@ -1,15 +1,11 @@
 ---
 date: 2018-06-09
-time: 20h
 duration: "2:00:40"
 title: "UX, UI & design principles"
 tags: ["UX", "UI", "frontend", "web", "mobile dev"]
 category: "dev"
-isNext: false
-video: "2151207101778310"
 youtube: https://www.youtube.com/watch?v=Zp6CSoa1S4Y
 published: true
-audio:
 ---
 
 In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZOUHRI and EL AZIZI's Brothers, talk about The UX, UI definitions, the process to follow, tools to use,...and how to initiate the domain.

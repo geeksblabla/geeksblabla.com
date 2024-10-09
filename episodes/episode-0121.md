@@ -1,11 +1,9 @@
 ---
 date: 2022-06-26
-time: 20h:00min
 duration: "1:46:22"
 title: "Cal Newport books"
 tags: ["book", "cal newport"]
 category: "book"
-isNext: false
 youtube: https://www.youtube.com/watch?v=4Bjzbdc2ApY
 published: true
 featured: false

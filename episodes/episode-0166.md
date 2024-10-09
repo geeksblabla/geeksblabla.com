@@ -1,11 +1,9 @@
 ---
 date: 2023-12-17
-time: 20h:00min
 duration: "1:52:59"
 title: "The State of .NET in 2023"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=3D_CLzQ_9jU
 published: true
 featured: false

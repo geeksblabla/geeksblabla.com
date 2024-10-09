@@ -1,15 +1,11 @@
 ---
 date: 2019-05-11
-time: 22h
 duration: "1:05:23"
 title: "Open source licenses & standards"
 tags: ["open source"]
 category: "dev"
-isNext: false
-video: "2323086011085395"
 youtube: https://www.youtube.com/watch?v=PHqAbG-Wgkg
 published: true
-audio:
 ---
 
 In this episode, Geeksblabla team talks about the Open source licenses & standards, starting from the definition of software licensing to the commonly known Open source software licenses such as MIT, GPL ..etc.

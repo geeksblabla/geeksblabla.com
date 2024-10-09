@@ -1,11 +1,9 @@
 ---
 date: 2023-03-12
-time: 20h:07min
 duration: "2:18:52"
 title: "Mastering code review"
 tags: ["code", "review"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=Y9SVoU2RBNw
 published: true
 featured: false

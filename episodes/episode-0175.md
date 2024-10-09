@@ -1,11 +1,9 @@
 ---
 date: 2024-03-24
-time: 22h:00min
 duration: "2:13:58"
 title: "Ten Principles for Growth as an Engineer"
 tags: ["career", "dev", "tips", "programming", "success"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=X7pMqC-0bNw
 published: true
 featured: false

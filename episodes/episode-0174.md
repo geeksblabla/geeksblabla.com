@@ -1,11 +1,9 @@
 ---
 date: 2024-03-17
-time: 20h:00min
 duration: "2:52:59"
 title: "State of Dev in Morocco 2023"
 tags: ["stateofdev", "geeksblabla"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=htXPDy4Esuo
 published: true
 featured: true

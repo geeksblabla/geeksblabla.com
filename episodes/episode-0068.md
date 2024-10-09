@@ -1,17 +1,13 @@
 ---
 date: 2021-01-31
-time: 20h:01min
 duration: "02:00:13"
 title: "Developer Productivity"
 tags: ["dev", "Developer Productivity"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=cTRm6EdxKb0
 published: true
-video: "204395911399267"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/204395911399267/
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Diaa Alhak El Fallous and Othmane Kinane, and we discuss Developer Productivity Definition, tools, and more things about it.

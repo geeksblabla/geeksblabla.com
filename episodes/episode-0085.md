@@ -1,17 +1,13 @@
 ---
 date: 2021-06-06
-time: 20h:03min
 duration: "01:19:09"
 title: "Celebrating 26 years of Java !"
 tags: ["dev", "Java"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=2FcCOLzhqPo
 published: true
-video: "844144936214263"
 url:
 podcastUrl: https://web.facebook.com/geeksblabla/videos/844144936214263
-audio:
 ---
 
 Celebrating 26 years of Java with our community members Badr, Marouane, and Mohammed. During this episode we discuss the latest Java updates, and we answer audience questions about Java, and much more.

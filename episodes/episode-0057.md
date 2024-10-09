@@ -1,17 +1,13 @@
 ---
 date: 2020-11-15
-time: 20h:02min
 duration: "02:03:28"
 title: "Career paths for software developers"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=HZUKNz4Z1kg
 published: true
-video: "2748382285425506"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/2748382285425506
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests the different career paths for software developers as well as the challenges that aspiring software developers could face in their journey.

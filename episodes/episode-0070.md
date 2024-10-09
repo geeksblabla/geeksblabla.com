@@ -1,17 +1,13 @@
 ---
 date: 2021-02-14
-time: 20h:06min
 duration: "02:20:34"
 title: "DataBases deep dive"
 tags: ["dev", "databases"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=1-5Iy8_ZbLs
 published: true
-video: "104959281537162"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/104959281537162/
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Taoufik Khamouli, Anouar Boukhatem and El Housseine Jaafari to talk about Databases, different types and, some advanced topics.

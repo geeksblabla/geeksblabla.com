@@ -1,11 +1,9 @@
 ---
 date: 2021-06-20
-time: 20h:00min
 duration: "2:49:00"
 title: "Working at Google with Moroccan Googlers"
 tags: ["career", "google"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=PX3TlIhP5uY
 published: true
 ---

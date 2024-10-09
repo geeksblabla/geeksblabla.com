@@ -1,17 +1,13 @@
 ---
 date: 2021-02-21
-time: 20h:07min
 duration: "01:47:16"
 title: "Data Centers in Morocco"
 tags: ["datacenter"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=QB4CoBV6-J0
 published: true
-video: "292275138906896"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/292275138906896/
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Abdelfettah Sghiouar, Islam Abouelata and Karim Benzidane to talk about Data Centers.

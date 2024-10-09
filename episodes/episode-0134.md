@@ -1,11 +1,9 @@
 ---
 date: 2022-11-28
-time: 20h:00min
 duration: "1:53:21"
 title: "AMA & Tech News #21"
 tags: ["AMA", "geeksblabla"]
 category: "AMA"
-isNext: false
 youtube: https://www.youtube.com/watch?v=3Q2dAMGYPXg
 published: true
 featured: false

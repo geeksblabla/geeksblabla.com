@@ -1,11 +1,9 @@
 ---
 date: 2024-04-21
-time: 20h:00min
 duration: "3:15:53"
 title: "DevRel and tech talks"
 tags: ["devrel","tech-talks"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=8uKEwWbgRBc
 published: true
 featured: false

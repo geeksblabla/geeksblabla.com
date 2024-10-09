@@ -1,11 +1,9 @@
 ---
 date: 2024-07-28
-time: 20h:00min
 duration: "1:33:36"
 title: "Why it is important to test? Crowdstrike meltdown"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/live/JT0k1sYv7-c?si=BxN8n3wN6TpaswFT
 published: true
 featured: false

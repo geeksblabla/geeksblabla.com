@@ -1,17 +1,13 @@
 ---
 date: 2020-12-13
-time: 20h:00min
 duration: "02:44:00"
 title: "State of Dev in Morocco"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=RDhE0RUbkJI
 published: true
-video: "439772367033060"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/439772367033060
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev.ma with our guests and answer your questions about the survey.

@@ -1,16 +1,12 @@
 ---
 date: 2019-07-31
-time: 21h
 duration: "1:28:48"
 title: "Competitive programming, how to become good at!"
 tags: ["competitive programming"]
 category: "dev"
-isNext: false
-video: "2465296773530984"
 youtube: https://www.youtube.com/watch?v=jU12lUQMfSQ
 published: true
 url:
-audio:
 ---
 
 In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan talk about what is Competitive Programing, How to become good at and why you need to be a part of the next competition.

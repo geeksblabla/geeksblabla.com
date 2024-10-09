@@ -1,14 +1,10 @@
 ---
 date: 2019-03-21
-time: 20h
 duration: "1:09:42"
 title: "Introduction to Open Source"
 tags: ["open source", "dev"]
 category: "dev"
-video: "2244351238958873"
 url:
-audio: https://anchor.fm/s/88e3048/podcast/play/8871912/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37063879-48000-2-b323ed7dbb0f6.m4a
-isNext: false
 youtube: https://www.youtube.com/watch?v=_tizAkqvivM
 published: true
 ---

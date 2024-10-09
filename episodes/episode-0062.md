@@ -1,17 +1,13 @@
 ---
 date: 2020-12-20
-time: 20h:00min
 duration: "01:44:50"
 title: "PhD in Computer Science"
 tags: ["career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=ylR9JZfhULc
 published: true
-video: "150382659848274"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/150382659848274
-audio:
 ---
 
 In this episode of GeeksBlabla, we discuss with our guests Karim Mouhssine and Mohamed, who had experience in PhD before, everything about PhD and how to apply for it in Morocco.

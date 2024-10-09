@@ -1,11 +1,9 @@
 ---
 date: 2023-02-12
-time: 20h:00min
 duration: "1:49:44"
 title: "State of Dev in Morocco 2022"
 tags: ["stateofdev", "geeksblabla"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=bRi8IT5coHs
 published: true
 featured: false

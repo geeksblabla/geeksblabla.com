@@ -1,17 +1,13 @@
 ---
 date: 2021-02-07
-time: 20h:00min
 duration: "01:17:01"
 title: "Python Deep Dive"
 tags: ["dev"]
 category: "dev"
-isNext: false
 youtube: https://www.youtube.com/watch?v=YIMFlSmIAAk
 published: true
-video: "805493146670306"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/805493146670306/
-audio:
 ---
 
 In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed Daoudi to talk about Python, how to get started with it and some of its perspectives.

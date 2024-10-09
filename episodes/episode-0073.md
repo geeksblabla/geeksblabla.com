@@ -1,17 +1,13 @@
 ---
 date: 2021-03-07
-time: 20h:00min
 duration: "02:12:38"
 title: "Women In Tech 2021"
 tags: ["dev", "career"]
 category: "career"
-isNext: false
 youtube: https://www.youtube.com/watch?v=E0vSLsaOal0
 published: true
-video: "721107755256193"
 url:
 podcastUrl: https://www.facebook.com/geeksblabla/videos/721107755256193/
-audio:
 ---
 
 In this special episode, we highlight the hidden category in Tech in general, Women and girls in tech in Morocco. The guests are students in IT & CS will share their experiences and their journey.

@@ -1,11 +1,9 @@
 ---
 date: 2022-03-27
-time: 20h:00min
 duration: "1:06:12"
 title: "MSS with Amine Chouki"
 tags: ["MSS"]
 category: "MSS"
-isNext: false
 youtube: https://www.youtube.com/watch?v=nPec-1y4YHg
 published: true
 

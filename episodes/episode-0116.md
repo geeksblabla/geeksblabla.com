@@ -1,11 +1,9 @@
 ---
 date: 2022-04-24
-time: 22h:00min
 duration: "1:42:15"
 title: "Clean Code (part 2)"
 tags: ["book", "clean code"]
 category: "book"
-isNext: false
 youtube: https://www.youtube.com/watch?v=H9ltgucbk5A
 published: true
 featured: false
