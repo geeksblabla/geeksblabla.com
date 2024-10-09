@@ -1,49 +1,63 @@
 ---
-date: 2019-05-25
-time: 22h
-duration: "1:19:23"
-title: "The twelve-factor App"
-tags: ["backend", "software engineering", "dev"]
+date: 2019-05-18
+time: 15h08
+duration: "1:27:53"
+title: "Software security"
+tags: ["security", "backend", "frontend", "software engineering"]
 category: "dev"
 isNext: false
-video: "2348668091860520"
-youtube: https://www.youtube.com/watch?v=_0xISo0SFJ4
+video: "2392159647683053"
+youtube: https://www.youtube.com/watch?v=Fvv0ZglfYng
 published: true
-url:
 audio:
 ---
 
-On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amine Hakkoue explore the 12 factor app methodology which is is a set of best practices that enable applications to be resilient, scalable and portable.
+In this episode of GeeksBlabla, team talks about the Software security, definition, techniques and tools.
+
+## Guests
+
+[Soubai Abderahim](https://soubai.me)
+
+[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+
+[Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
 
 ## Notes
 
 00:00:00 - Introduction
 
-00:07:00 - Codebase
+00:05:00 - What is software security?
 
-00:13:00 - Dependencies
+00:11:00 - Cybersecurity's history
 
-00:20:00 - Config
+00:17:00 - What is OWASP?
 
-00:24:00 - Backing Services
+00:23:00 - OWASP Top 10 of 2019
 
-00:30:00 - Build, release, run
+00:23:00 - What is SQL injection attack and how to prevent it?
 
-00:34:00 - Processes
+00:35:00 - Difference between XSS and CSRF
 
-00:39:00 - Port Binding
+00:37:00 - What is XSS and how to prevent it?
 
-00:44:00 - Concurrency
+00:46:00 - What is CSRF and how to prevent it?
 
-00:55:00 - Disposability
+00:53:00 - What are static analysis tools?
 
-00:58:00 - Dev/prod parity
+01:01:00 - What are vulnerability scanning tools and what attacks protect from?
 
-01:03:00 - Logs
+01:08:00 - What are dynamic security testing tools?
 
-01:10:00 - Admin processes
+01:14:00 - What is the solution if a project's dependency has a security vulnerability?
 
-## Links
+01:19:00 - GraalVM Security
 
-- [12 factors app website](https://12factor.net/)
-- [12 factors app website source code](https://github.com/heroku/12factor)
+01:24:00 - Conclusion
+
+01:27:00 - Goodbye!
+
+## Prepared and Presented by :
+
+[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+
+[Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)

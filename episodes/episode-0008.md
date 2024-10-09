@@ -1,72 +1,68 @@
 ---
-date: 2018-09-27
-time: 20h52
-duration: "1:45:48"
-title: "Malware analysis and forensics"
-tags: ["cybersecurity", "security"]
+date: 2018-11-14
+time: 20h
+duration: "1:19:55"
+title: "ML & AI!"
+tags: ["ML", "AI"]
 category: "dev"
 isNext: false
-video: "2003419829718683"
-youtube: https://www.youtube.com/watch?v=XFGc-P2Ig9w
+video: "2272738262958526"
+youtube: https://www.youtube.com/watch?v=z4e8tPaygxw
 published: true
 audio:
 ---
 
-In this episode of GeeksBlabla, we discuss Cybersecurity, Malware analysis and Forensics with Soufiane Tahiri.
+On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite and Amine will be talking with their guests about Machine Learning and AI. The guests of the episode are Ahmed Kachkach and Redouane Lguensat
 
 ## Guests
 
-[Soufiane Tahiri](https://www.linkedin.com/in/soufianetahiri)
+[Amine Hakkou](https://www.facebook.com/hakkou.me)
 
-[Mohamed Zakariae El Khdime](https://www.facebook.com/infom2z)
+[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+
+[Ahmed Kachkach](https://www.facebook.com/kachkach.ahmed)
+
+[Redouane Lguensat](https://www.facebook.com/redouane.lguensat)
 
 ## Notes
 
-00:00:00 - Introduction
+00:00:00 - Guests presentation
 
-00:03:00 - Who is Soufiane Tahiri?
+00:04:00 - Difference between AI and Machine learning
 
-00:20:00 - What is the purpose of cybersecurity?
+00:08:00 - Why using Machine learning and not just use if statements ?
 
-00:21:00 - What is the motivation to keep going on this domain?
+00:13:00 - Difference between machine learning and data mining + Difference between AI and big data.
 
-00:24:00 - What are the areas of cybersecurity?
+00:17:00 - When machine learning and AI was first introduced. What is the cause of the interest on these subjects in the recent years ?
 
-00:31:00 - Will the cybersecurity market grow?
+00:25:00 - What are the most affected industries ?
 
-00:35:00 - What is cybersecurity?
+00:29:00 - Are recommanded system that Ahmed is working on content-based or collaborative filtering ?
 
-00:38:00 - Is vulnerability the result of a bad developer?
+00:30:00 - Singularity ?
 
-00:45:00 - What is cyber forensics?
+00:35:00 - Social impact of AI ?
 
-00:54:00 - Forensics need knowledge in all fields of computer science?
+00:38:00 - Question for Ahmed. How can you recommand content for new users without using tracking ?
 
-01:00:00 - How to get into cybersecurity?
+00:40:00 - Recommanded materials to start learning.
 
-01:07:00 - What skills do you look for in a candidate?
+00:55:00 - Is it required to have a powerful computer to start practising machine learning ?
 
-01:11:00 - Certification is a criterion for recruiting?
+00:58:00 - Futur of AI Engineering, machine-learning engineering in the world and particularly in Morocco ?
 
-01:13:00 - Which profiles are the most looked for in the cybersecurity industry?
+01:05:00 - Will Machine learning replace developers ?
 
-01:18:00 - What are the services in your company?
+01:09:00 - AI Frameworks ?
 
-01:28:00 - Advice for people who want to get started.
-
-01:36:00 - What are the vulnerabilities most encountered in your daily work?
-
-01:38:00 - Change the field of work to cybersecurity at the age of 27 is it late?
-
-01:40:00 - Conclusion
+01:13:00 - Final words and goodbye.
 
 ## Links
 
-- [Podcast URL](https://www.facebook.com/sfoukahi/videos/2003419829718683/)
-- [Mastering Mobile Forensics](https://www.amazon.com/Mastering-Mobile-Forensics-Soufiane-Tahiri-ebook/dp/B01DT4D5OG)
-
-## Prepared and Presented by :
-
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
-
-[Aicha]
+- [Kaggle](https://www.kaggle.com/)
+- [Image-net](http://www.image-net.org/)
+- [Machine learning course](https://www.coursera.org/learn/machine-learning)
+- [Deep learning course](https://www.coursera.org/specializations/deep-learning)
+- [Colab](https://colab.research.google.com/)
+- [تويشيات في تطبيق الرياضيات](https://www.facebook.com/AppliedMathsInDarija/)

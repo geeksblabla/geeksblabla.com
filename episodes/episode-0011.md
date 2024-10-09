@@ -1,71 +1,71 @@
 ---
-date: 2018-05-26
+date: 2019-01-24
 time: 20h
-duration: "2:46:10"
-title: "Web Dev JS frameworks, Best practices"
-tags: ["web", "JS", "backend", "frontend"]
+duration: "1:27:22"
+title: "Blockchain & CryptoCurrency with Badr Bellaj"
+tags: ["blockchain", "cryptocurrency"]
 category: "dev"
 isNext: false
-video: "2144076882491332"
-youtube: https://www.youtube.com/watch?v=y8mbKtOmNrg
+video: "2321040174795001"
+youtube: https://www.youtube.com/watch?v=OTEpZ1bfdzY
 published: true
-audio:
+audio: https://anchor.fm/s/88e3048/podcast/play/8871862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37063521-48000-2-e55d2bc2a3e0f.m4a
 ---
 
-In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Boudih talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
+In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & CryptoCurrency
+
+## Guests
+
+[Badr Bellaj](https://www.linkedin.com/in/bellajbadr/)
 
 ## Notes
 
-0:00:00 - Intro && new DevC events
+0:00:00 - Episode Introduction and Guests Intro
 
-0:03:00 - About Abdelkader Boudih
+0:03:00 - What is Cryptocurrency?
 
-0:06:00 - History of the web, web2 and web3
+0:16:00 - What is the difference between the private consortium and the Blockchain?
 
-0:10:00 - HTML && CSS
+0:22:00 - How do new nodes join the public blockchain?
 
-0:16:00 - How to start learning Web fundamentals ?
+0:25:00 - What is the meaning of "Mining" and why we need it?
 
-0:33:00 - Web designer vs front-end developer
+0:34:00 - Do Cryptocurrencies encourage illegal activities and money laundering?
 
-0:30:00 - CSS Tools
+0:38:00 - What is "Forking"?
 
-0:40:00 - Browsers engines
+0:43:00 - What is the difference between "Soft fork" and "Hard fork"?
 
-0:46:00 - How to start on server side projects?
+0:46:00 - Is there a precise time for the Ethereum fork?
 
-0:58:00 - Compiled and interpreted Languages
+0:47:00 - What are "Distributed Operations" in the context of Cryptocurrency?
 
-1:04:00 - Databases && ORMs
+0:52:00 - Do Blockchain solution providers have control over the applications?
 
-1:11:00 - Javascript Ecosystem
+0:58:00 - What is "Proof of Stake"?
 
-    - Why javascript is so famous
-    - Js framework
-    - Reactjs
-    - Angular
-    - Vuejs
+1:02:00 - What are the use cases of the Blockchain other than Cryptocurrency?
 
-2:16:00 - Exiting web dev stuff in 2018 you need to know
+1:07:00 - Can we do business with the Blockchain in Morocco?
 
-    - GraphQl
-    - PWA
-    - WebAssemply
-    - Service Worker
+1:08:00 - What are the required skills to become a Blockchain developer?
 
-<br/>
+1:17:00 - What companies are looking for Blockchain developers?
+
+1:19:00 - The future of Blockchain and Cryptocurrencies from the point of view of Badr?
+
+1:23:00 - What are some of the Blockchain hot topics?
 
 ## Links
 
-- [W3C](https://www.w3.org/)
-- [SCSS](https://sass-lang.com/)
-- [purifycss](https://purifycss.online/)
-- [Autoprefixer](https://autoprefixer.github.io/)
-- [Can I use](https://caniuse.com/)
-- [Reactjs](https://reactjs.org/)
-- [Angular](https://angular.io/)
-- [VueJs](https://vuejs.org/)
-- [graphQl](https://graphql.org/)
-- [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-- [Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
-- [WebAssembly](https://webassembly.org/)
+[Bitcoin](https://bitcoin.org/)
+
+[Ethereum](https://ethereum.org/)
+
+[Blockchain by example](https://www.packtpub.com/big-data-and-business-intelligence/blockchain-example)
+
+## Prepared and Presented by :
+
+[Mohammed Aboullaite](https://twitter.com/laytoun)
+
+[Mohamed Ez-zarghili](https://twitter.com/ezzarghili)

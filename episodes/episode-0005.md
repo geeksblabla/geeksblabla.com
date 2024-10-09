@@ -1,74 +1,72 @@
 ---
-date: 2018-12-19
-time: 20h
-duration: "1:22:14"
-title: "MSS with Taher Alami"
-tags: ["MSS", "entrepreneurship", "career", "AR"]
-category: "MSS"
+date: 2018-09-27
+time: 20h52
+duration: "1:45:48"
+title: "Malware analysis and forensics"
+tags: ["cybersecurity", "security"]
+category: "dev"
 isNext: false
-video: "2295207890711563"
-youtube: https://www.youtube.com/watch?v=1CHPLeWnL5M
+video: "2003419829718683"
+youtube: https://www.youtube.com/watch?v=XFGc-P2Ig9w
 published: true
 audio:
-url:
 ---
 
-In this episode of GeeksBlabla MSS, we welcome Taher Alami , He has been involved in the Moroccan tech community for the last 21 years. As a Web Consultant & Serial Web Entrepreneur, we'll talk about weboma, Moroccan community, startup ecosystem, and more ...
+In this episode of GeeksBlabla, we discuss Cybersecurity, Malware analysis and Forensics with Soufiane Tahiri.
 
 ## Guests
 
-- [Taher Alami](https://twitter.com/taheralami)
+[Soufiane Tahiri](https://www.linkedin.com/in/soufianetahiri)
+
+[Mohamed Zakariae El Khdime](https://www.facebook.com/infom2z)
 
 ## Notes
 
-00:00:00 - Introduction: Welcoming and presenting the guest.
+00:00:00 - Introduction
 
-00:10:00 - Taher Alami's first years in web development.
+00:03:00 - Who is Soufiane Tahiri?
 
-00:15:00 - First experience with entrepreneurship.
+00:20:00 - What is the purpose of cybersecurity?
 
-00:18:00 - Can anyone become a software developer? and How to be successful as a web developer?
+00:21:00 - What is the motivation to keep going on this domain?
 
-00:22:00 - Future of the Moroccan web.
+00:24:00 - What are the areas of cybersecurity?
 
-00:25:00 - The Moroccan web community and its future.
+00:31:00 - Will the cybersecurity market grow?
 
-00:29:00 - Working as a developer in Dubai.
+00:35:00 - What is cybersecurity?
 
-00:32:00 - Startup ecosystem in Morocco.
+00:38:00 - Is vulnerability the result of a bad developer?
 
-00:40:00 - Is it easier to start a startup in Dubai than Morocco?
+00:45:00 - What is cyber forensics?
 
-00:41:00 - focus on learning one technology or multiple at once?
+00:54:00 - Forensics need knowledge in all fields of computer science?
 
-00:49:00 - Why should learn about blockchain as a freenalcer?
+01:00:00 - How to get into cybersecurity?
 
-00:52:00 - Investment in Africa and Taher Alami experience in this field.
+01:07:00 - What skills do you look for in a candidate?
 
-00:59:00 - Big data and cloud computing in Morocco.
+01:11:00 - Certification is a criterion for recruiting?
 
-01:02:00 - AR and Spark AR.
+01:13:00 - Which profiles are the most looked for in the cybersecurity industry?
 
-01:08:00 - Advice for youth Entrepreneurs/Developers.
+01:18:00 - What are the services in your company?
 
-01:12:00 - Freezone in Dubai.
+01:28:00 - Advice for people who want to get started.
 
-01:21:00 - Wrap up and goodbye!
+01:36:00 - What are the vulnerabilities most encountered in your daily work?
+
+01:38:00 - Change the field of work to cybersecurity at the age of 27 is it late?
+
+01:40:00 - Conclusion
 
 ## Links
 
-[Maroc Entrepreneurs](https://marocentrepreneurs.com/)
-
-[Astrolabs](https://astrolabs.com/)
-
-[infive Dubai](https://infive.ae/)
-
-[modum](https://modum.io/)
-
-[abweb](https://www.abweb.biz/)
+- [Podcast URL](https://www.facebook.com/sfoukahi/videos/2003419829718683/)
+- [Mastering Mobile Forensics](https://www.amazon.com/Mastering-Mobile-Forensics-Soufiane-Tahiri-ebook/dp/B01DT4D5OG)
 
 ## Prepared and Presented by :
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)
 
-[Soufian El Foukahi](https://twitter.com/soufianelf)
+[Aicha]

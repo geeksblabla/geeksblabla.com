@@ -1,63 +1,62 @@
 ---
-date: 2019-05-18
-time: 15h08
-duration: "1:27:53"
-title: "Software security"
-tags: ["security", "backend", "frontend", "software engineering"]
+date: 2019-05-11
+time: 22h
+duration: "1:05:23"
+title: "Open source licenses & standards"
+tags: ["open source"]
 category: "dev"
 isNext: false
-video: "2392159647683053"
-youtube: https://www.youtube.com/watch?v=Fvv0ZglfYng
+video: "2323086011085395"
+youtube: https://www.youtube.com/watch?v=PHqAbG-Wgkg
 published: true
 audio:
 ---
 
-In this episode of GeeksBlabla, team talks about the Software security, definition, techniques and tools.
-
-## Guests
-
-[Soubai Abderahim](https://soubai.me)
-
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
-
-[Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+In this episode, Geeksblabla team talks about the Open source licenses & standards, starting from the definition of software licensing to the commonly known Open source software licenses such as MIT, GPL ..etc.
 
 ## Notes
 
-00:00:00 - Introduction
+00:00:00 - Introduction : Welcoming to the new season
 
-00:05:00 - What is software security?
+00:01:00 - What is Software licensing ?
 
-00:11:00 - Cybersecurity's history
+00:02:00 - Does writing code with no license gives the right to others to use it ?
 
-00:17:00 - What is OWASP?
+00:05:00 - What's the history of Open Source Licensing ?
 
-00:23:00 - OWASP Top 10 of 2019
+00:09:00 - Difference between Open Source Software, Free Software & Freeware (Gratis software) ?
 
-00:23:00 - What is SQL injection attack and how to prevent it?
+00:14:00 - Families of Open source Licenses
 
-00:35:00 - Difference between XSS and CSRF
+00:16:00 - Copyright and copyleft, what's the difference ?
 
-00:37:00 - What is XSS and how to prevent it?
+00:19:00 - GPL, AGPL and LGPL ?
 
-00:46:00 - What is CSRF and how to prevent it?
+00:23:00 - Are licenses related to territories ? (International and national licenses)
 
-00:53:00 - What are static analysis tools?
+00:25:00 - Does GPL gives freedom to commercial companies ?
 
-01:01:00 - What are vulnerability scanning tools and what attacks protect from?
+00:26:00 - Is using multiple licenses in one project possible ?
 
-01:08:00 - What are dynamic security testing tools?
+00:32:00 - How to make sure other people are following my license ?
 
-01:14:00 - What is the solution if a project's dependency has a security vulnerability?
+00:40:00 - How open source licenses problems are solved legally in Morocco ?
 
-01:19:00 - GraalVM Security
+00:45:00 - How to chose the license that fits the most my project ?
 
-01:24:00 - Conclusion
+00:53:00 - Why should I mark my projects with Open Source License ?
 
-01:27:00 - Goodbye!
+## Links
 
-## Prepared and Presented by :
-
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
-
-[Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [GNU - Richard Stallman](https://en.wikipedia.org/wiki/GNU_Project)
+- [Free Software Foundation](https://www.fsf.org/)
+- [Mozilla Foundation](https://foundation.mozilla.org/fr/)
+- [Apache Foundation](https://www.apache.org/)
+- [GENERAL PUBLIC LICENSE (GPL)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- [AFFERO GENERAL PUBLIC LICENSE (AGPL)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+- [LESSER GENERAL PUBLIC LICENSE (GPL)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
+- [Copyleft](https://www.copyleft.org/)
+- [MIT](https://en.wikipedia.org/wiki/Free_Software_Foundation)
+- [Choose a license #1](https://ufal.github.io/public-license-selector/)
+- [Choose a license #2](https://choosealicense.com/)
+- [Adding a license on github](https://help.github.com/en/articles/adding-a-license-to-a-repository)

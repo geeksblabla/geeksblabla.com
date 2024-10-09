@@ -1,71 +1,65 @@
 ---
-date: 2019-01-24
+date: 2018-06-02
 time: 20h
-duration: "1:27:22"
-title: "Blockchain & CryptoCurrency with Badr Bellaj"
-tags: ["blockchain", "cryptocurrency"]
+duration: "1:46:09"
+title: "AR, VR and Game Dev "
+tags: ["game dev", "AR", "VR"]
 category: "dev"
 isNext: false
-video: "2321040174795001"
-youtube: https://www.youtube.com/watch?v=OTEpZ1bfdzY
+video: "2147536065478747"
+youtube: https://www.youtube.com/watch?v=R6173SwSg8w
 published: true
-audio: https://anchor.fm/s/88e3048/podcast/play/8871862/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37063521-48000-2-e55d2bc2a3e0f.m4a
+audio:
 ---
 
-In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & CryptoCurrency
+In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .
 
 ## Guests
 
-[Badr Bellaj](https://www.linkedin.com/in/bellajbadr/)
+[Omar Guendeli](https://guendeliomar.com)
+
+[Amine Hakkou](https://www.hakkou.me/)
 
 ## Notes
 
-0:00:00 - Episode Introduction and Guests Intro
+00:00:00 - Introduction
 
-0:03:00 - What is Cryptocurrency?
+00:07:00 - What is VR ?
 
-0:16:00 - What is the difference between the private consortium and the Blockchain?
+00:11:00 - History of Gaming ?
 
-0:22:00 - How do new nodes join the public blockchain?
+00:20:00 - Begin your career as a Game Developper ?
 
-0:25:00 - What is the meaning of "Mining" and why we need it?
+00:27:00 - Difference between VR & AR ?(open computer vision framework)
 
-0:34:00 - Do Cryptocurrencies encourage illegal activities and money laundering?
+00:33:00 - Game dev Tools ?
 
-0:38:00 - What is "Forking"?
+00:36:00 - Game dev Process ?
 
-0:43:00 - What is the difference between "Soft fork" and "Hard fork"?
+00:46:00 - Java & Game dev ?
 
-0:46:00 - Is there a precise time for the Ethereum fork?
+00:51:00 - Game Design Patterns ?
 
-0:47:00 - What are "Distributed Operations" in the context of Cryptocurrency?
+00:55:00 - Game Art ?
 
-0:52:00 - Do Blockchain solution providers have control over the applications?
+01:03:00 - Ai in Game dev ?
 
-0:58:00 - What is "Proof of Stake"?
+01:09:00 - Graphics in Game dev ?
 
-1:02:00 - What are the use cases of the Blockchain other than Cryptocurrency?
+01:15:00 - Managing Audio in Game dev ?
 
-1:07:00 - Can we do business with the Blockchain in Morocco?
+01:19:00 - Advices for beginners ?
 
-1:08:00 - What are the required skills to become a Blockchain developer?
-
-1:17:00 - What companies are looking for Blockchain developers?
-
-1:19:00 - The future of Blockchain and Cryptocurrencies from the point of view of Badr?
-
-1:23:00 - What are some of the Blockchain hot topics?
+01:40:00 - Conclusion
 
 ## Links
 
-[Bitcoin](https://bitcoin.org/)
-
-[Ethereum](https://ethereum.org/)
-
-[Blockchain by example](https://www.packtpub.com/big-data-and-business-intelligence/blockchain-example)
+- [GAMASUTRA](https://www.gamasutra.com/)
+- [GAME DEV](https://gamedev.net/)
+- [GD CONF](https://gdconf.com/)
 
 ## Prepared and Presented by :
 
-[Mohammed Aboullaite](https://twitter.com/laytoun)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)
 
-[Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
+[Mohammed Aboullaite](http://aboullaite.me/)

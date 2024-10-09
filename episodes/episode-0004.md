@@ -1,57 +1,74 @@
 ---
-date: 2018-12-26
-time: 20h14
-duration: "1:24:32"
-title: "MSS with  Mohamed Zakariae El Khdime!"
-tags: ["MSS", "cybersecurity", "entrepreneurship", "career"]
-category: "MSS"
+date: 2018-06-09
+time: 20h
+duration: "2:00:40"
+title: "UX, UI & design principles"
+tags: ["UX", "UI", "frontend", "web", "mobile dev"]
+category: "dev"
 isNext: false
-video: "2301890400043312"
-youtube: https://www.youtube.com/watch?v=XVl0Y-7JZxw
+video: "2151207101778310"
+youtube: https://www.youtube.com/watch?v=Zp6CSoa1S4Y
 published: true
-audio: https://anchor.fm/s/88e3048/podcast/play/8871827/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37063179-48000-2-83a2df7aac338.m4a
+audio:
 ---
 
-In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about his success story.
+In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZOUHRI and EL AZIZI's Brothers, talk about The UX, UI definitions, the process to follow, tools to use,...and how to initiate the domain.
 
 ## Guests
 
-[Mohamed Zakariae El Khdime](https://www.facebook.com/infom2z)
+[Amine Maarouf](https://web.facebook.com/amiiiinema)
+
+[Youssouf EL Azizi](https://elazizi.com/)
+
+[Ismail EL Azizi](https://ismailelazizi.com/)
+
+[Maroua EZOUHRI](https://www.facebook.com/maroua.ezouhri.1)
 
 ## Notes
 
-00:00:00 - Who is Mohamed Zakariae El Khdime?
+00:00:00 - Intro.
 
-00:03:00 - What is your academic background?
+00:2:00 - Flash news: Microsoft acquisition of github.
 
-00:06:00 - did you study in any public high school?
+00:15:00 - Who's Smail El Azizi?
 
-00:20:00 - How did you switch from developement to security?
+00:17:00 - What's UX?
 
-00:22:00 - What is cybersecurity?
+00:19:00 - UX before UI, How much it's true?
 
-00:25:00 - Why do hackers always wear hoodies? Behind the stereotype?
+00:26:00 - What are best tools to buil the UX and test it?
 
-00:26:00 - What is your first project in entrepreneurship?
+00:28:00 - The process of UX.
 
-00:31:00 - How to start a career in cybersecurity?
+00:35:00 - How much UI updates can infuence the UX?
 
-00:33:00 - How to found a startup in Dubai?
+00:38:00 - UX depends on the device, but not on the developpement tools (framworks,...).
 
-00:46:00 - Advice for people who want to found a startup.
+00:41:00 - Can UX influence badely the SEO?
 
-00:46:00 - What kind of knowledge and amount of capital required for someone to take on entrepreneurship?
+00:45:00 - Examine the psychology of the user is important for UX.
 
-00:51:00 - How did you manage to get funds?
+00:47:00 - What's UI?
 
-00:59:00 - What are your future plans, and what kind of advice could you give to someone who wants to get into cybersecurity?
+00:55:00 - UX design tools: AdobeXD.
 
-01:10:00 - Mohammed Aboullaite: Thanking DevC team and launch DevC projects for 2019
+00:59:00 - To be a good developper, should we be expert in UX/UI?
 
-01:24:00 - Goodbye!
+1:07:00 - To be good at UI, should we be an artist?
 
-## Prepared and Presented by :
+1:15:00 - How we mesure contrast? Tools?
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+1:19:00 - UI tools.
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+1:27:00 - Advices to build a good UI.
+
+1:32:00 - Best way to initiate in UX/UI domain : Best practices, Ressources and things to avoid.
+
+## Links
+
+- [Intersting video about Digital War, Marounae Lamharzi](https://www.youtube.com/watch?v=Saqb2Fk58aw&feature=youtu.be&fbclid=IwAR0WkKsgg30BnjrYbka_K5esdrR83Of7FFvBHGX_oTlEend-CD7JPqpgYZI)
+- [Figma](Www.figma.com)
+- [To test colors](https://coolors.co/)
+- [Flat colors collections for inspiration](https://flatuicolors.com/)
+- [Another reference to choose colors](http://colorsupplyyy.com/app/)
+- [To learn UI: Steve Schoger](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)

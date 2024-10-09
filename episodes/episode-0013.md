@@ -1,62 +1,117 @@
 ---
-date: 2019-05-11
-time: 22h
-duration: "1:05:23"
-title: "Open source licenses & standards"
-tags: ["open source"]
+date: 2019-03-28
+time: 20h
+duration: "1:48:05"
+title: "Open Source with Yassine Elouafi"
+tags: ["open source", "dev", "react", "web", "frontend"]
 category: "dev"
 isNext: false
-video: "2323086011085395"
-youtube: https://www.youtube.com/watch?v=PHqAbG-Wgkg
+video: "2254365704624093"
+youtube: https://www.youtube.com/watch?v=i75VSwgRD1k
 published: true
-audio:
+audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2019-11-8/37064067-48000-2-7061c427555f3.m4a
 ---
 
-In this episode, Geeksblabla team talks about the Open source licenses & standards, starting from the definition of software licensing to the commonly known Open source software licenses such as MIT, GPL ..etc.
+In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redux-sagas library about his success story working as an open source contributors and maintainer of one of the biggest library on React ecosystem.
+
+## Guests
+
+[Yassin El ouafi](https://twitter.com/yassineelouafi2/)
 
 ## Notes
 
-00:00:00 - Introduction : Welcoming to the new season
+00:00:00 Introduction and welcoming guests
 
-00:01:00 - What is Software licensing ?
+00:02:00 How he started programming ?
 
-00:02:00 - Does writing code with no license gives the right to others to use it ?
+00:08:00 How he started his open-source projects ?
 
-00:05:00 - What's the history of Open Source Licensing ?
+00:13:00 How to grow and progress in software programming ?
 
-00:09:00 - Difference between Open Source Software, Free Software & Freeware (Gratis software) ?
+00:18:00 follow the trends in programming.
 
-00:14:00 - Families of Open source Licenses
+00:24:00 What are your favorites patterns and paradigms?
 
-00:16:00 - Copyright and copyleft, what's the difference ?
+00:37:00 Functional programming.
 
-00:19:00 - GPL, AGPL and LGPL ?
+00:42:00 How do you find time for the opensource ?
 
-00:23:00 - Are licenses related to territories ? (International and national licenses)
+00:44:00 Books or tutorials ?
 
-00:25:00 - Does GPL gives freedom to commercial companies ?
+00:48:00 What is the "Thought leaders".
 
-00:26:00 - Is using multiple licenses in one project possible ?
+00:52:00 Why should i work in the open source.
 
-00:32:00 - How to make sure other people are following my license ?
+00:56:00 Pieces of Advice for a junior developer to start the open-source.
 
-00:40:00 - How open source licenses problems are solved legally in Morocco ?
+01:01:00 How did you start the Redux-saga?
 
-00:45:00 - How to chose the license that fits the most my project ?
+01:10:00 What is the difference between Redux-saga and CQRS ?
 
-00:53:00 - Why should I mark my projects with Open Source License ?
+01:15:00 Talk about Hooks, Pure components and React fiber.
 
-## Links
+01:32:00 Future projects in the open-source ?
 
-- [GNU - Richard Stallman](https://en.wikipedia.org/wiki/GNU_Project)
-- [Free Software Foundation](https://www.fsf.org/)
-- [Mozilla Foundation](https://foundation.mozilla.org/fr/)
-- [Apache Foundation](https://www.apache.org/)
-- [GENERAL PUBLIC LICENSE (GPL)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-- [AFFERO GENERAL PUBLIC LICENSE (AGPL)](https://www.gnu.org/licenses/agpl-3.0.en.html)
-- [LESSER GENERAL PUBLIC LICENSE (GPL)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
-- [Copyleft](https://www.copyleft.org/)
-- [MIT](https://en.wikipedia.org/wiki/Free_Software_Foundation)
-- [Choose a license #1](https://ufal.github.io/public-license-selector/)
-- [Choose a license #2](https://choosealicense.com/)
-- [Adding a license on github](https://help.github.com/en/articles/adding-a-license-to-a-repository)
+01:35:00 Open-source in morocco & Pieces of Advice for Moroccan programmers.
+
+## Links :
+
+[W3C](https://www.w3.org/)
+
+[SCSS](https://sass-lang.com/)
+
+[Purifycss](https://purifycss.online/)
+
+[Autoprefixer](https://autoprefixer.github.io/)
+
+[Can I use](https://caniuse.com/)
+
+[Reactjs](https://reactjs.org/)
+
+[Angular](https://angular.io/)
+
+[VueJs](https://vuejs.org/)
+
+[GraphQl](https://graphql.org/)
+
+[PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+
+[Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
+
+[WebAssembly](https://webassembly.org/)
+
+## Links :
+
+[W3C](https://www.w3.org/)
+
+[SCSS](https://sass-lang.com/)
+
+[Purifycss](https://purifycss.online/)
+
+[Autoprefixer](https://autoprefixer.github.io/)
+
+[Can I use](https://caniuse.com/)
+
+[Reactjs](https://reactjs.org/)
+
+[Angular](https://angular.io/)
+
+[VueJs](https://vuejs.org/)
+
+[GraphQl](https://graphql.org/)
+
+[PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+
+[Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
+
+[WebAssembly](https://webassembly.org/)
+
+## Prepared and Presented by :
+
+[Youssouf El Azizi](https://twitter.com/elaziziyoussouf/)
+
+[Soufian El Foukahi](https://twitter.com/soufianelf/)
+
+[Amine Hakkou](https://twitter.com/amine_hakkou/)
+
+...

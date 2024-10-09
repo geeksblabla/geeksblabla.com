@@ -1,74 +1,74 @@
 ---
-date: 2018-06-09
+date: 2018-12-19
 time: 20h
-duration: "2:00:40"
-title: "UX, UI & design principles"
-tags: ["UX", "UI", "frontend", "web", "mobile dev"]
-category: "dev"
+duration: "1:22:14"
+title: "MSS with Taher Alami"
+tags: ["MSS", "entrepreneurship", "career", "AR"]
+category: "MSS"
 isNext: false
-video: "2151207101778310"
-youtube: https://www.youtube.com/watch?v=Zp6CSoa1S4Y
+video: "2295207890711563"
+youtube: https://www.youtube.com/watch?v=1CHPLeWnL5M
 published: true
 audio:
+url:
 ---
 
-In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZOUHRI and EL AZIZI's Brothers, talk about The UX, UI definitions, the process to follow, tools to use,...and how to initiate the domain.
+In this episode of GeeksBlabla MSS, we welcome Taher Alami , He has been involved in the Moroccan tech community for the last 21 years. As a Web Consultant & Serial Web Entrepreneur, we'll talk about weboma, Moroccan community, startup ecosystem, and more ...
 
 ## Guests
 
-[Amine Maarouf](https://web.facebook.com/amiiiinema)
-
-[Youssouf EL Azizi](https://elazizi.com/)
-
-[Ismail EL Azizi](https://ismailelazizi.com/)
-
-[Maroua EZOUHRI](https://www.facebook.com/maroua.ezouhri.1)
+- [Taher Alami](https://twitter.com/taheralami)
 
 ## Notes
 
-00:00:00 - Intro.
+00:00:00 - Introduction: Welcoming and presenting the guest.
 
-00:2:00 - Flash news: Microsoft acquisition of github.
+00:10:00 - Taher Alami's first years in web development.
 
-00:15:00 - Who's Smail El Azizi?
+00:15:00 - First experience with entrepreneurship.
 
-00:17:00 - What's UX?
+00:18:00 - Can anyone become a software developer? and How to be successful as a web developer?
 
-00:19:00 - UX before UI, How much it's true?
+00:22:00 - Future of the Moroccan web.
 
-00:26:00 - What are best tools to buil the UX and test it?
+00:25:00 - The Moroccan web community and its future.
 
-00:28:00 - The process of UX.
+00:29:00 - Working as a developer in Dubai.
 
-00:35:00 - How much UI updates can infuence the UX?
+00:32:00 - Startup ecosystem in Morocco.
 
-00:38:00 - UX depends on the device, but not on the developpement tools (framworks,...).
+00:40:00 - Is it easier to start a startup in Dubai than Morocco?
 
-00:41:00 - Can UX influence badely the SEO?
+00:41:00 - focus on learning one technology or multiple at once?
 
-00:45:00 - Examine the psychology of the user is important for UX.
+00:49:00 - Why should learn about blockchain as a freenalcer?
 
-00:47:00 - What's UI?
+00:52:00 - Investment in Africa and Taher Alami experience in this field.
 
-00:55:00 - UX design tools: AdobeXD.
+00:59:00 - Big data and cloud computing in Morocco.
 
-00:59:00 - To be a good developper, should we be expert in UX/UI?
+01:02:00 - AR and Spark AR.
 
-1:07:00 - To be good at UI, should we be an artist?
+01:08:00 - Advice for youth Entrepreneurs/Developers.
 
-1:15:00 - How we mesure contrast? Tools?
+01:12:00 - Freezone in Dubai.
 
-1:19:00 - UI tools.
-
-1:27:00 - Advices to build a good UI.
-
-1:32:00 - Best way to initiate in UX/UI domain : Best practices, Ressources and things to avoid.
+01:21:00 - Wrap up and goodbye!
 
 ## Links
 
-- [Intersting video about Digital War, Marounae Lamharzi](https://www.youtube.com/watch?v=Saqb2Fk58aw&feature=youtu.be&fbclid=IwAR0WkKsgg30BnjrYbka_K5esdrR83Of7FFvBHGX_oTlEend-CD7JPqpgYZI)
-- [Figma](Www.figma.com)
-- [To test colors](https://coolors.co/)
-- [Flat colors collections for inspiration](https://flatuicolors.com/)
-- [Another reference to choose colors](http://colorsupplyyy.com/app/)
-- [To learn UI: Steve Schoger](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
+[Maroc Entrepreneurs](https://marocentrepreneurs.com/)
+
+[Astrolabs](https://astrolabs.com/)
+
+[infive Dubai](https://infive.ae/)
+
+[modum](https://modum.io/)
+
+[abweb](https://www.abweb.biz/)
+
+## Prepared and Presented by :
+
+[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+
+[Soufian El Foukahi](https://twitter.com/soufianelf)

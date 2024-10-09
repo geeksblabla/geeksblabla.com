@@ -1,117 +1,71 @@
 ---
-date: 2019-03-28
+date: 2018-05-26
 time: 20h
-duration: "1:48:05"
-title: "Open Source with Yassine Elouafi"
-tags: ["open source", "dev", "react", "web", "frontend"]
+duration: "2:46:10"
+title: "Web Dev JS frameworks, Best practices"
+tags: ["web", "JS", "backend", "frontend"]
 category: "dev"
 isNext: false
-video: "2254365704624093"
-youtube: https://www.youtube.com/watch?v=i75VSwgRD1k
+video: "2144076882491332"
+youtube: https://www.youtube.com/watch?v=y8mbKtOmNrg
 published: true
-audio: https://d3ctxlq1ktw2nl.cloudfront.net/production/2019-11-8/37064067-48000-2-7061c427555f3.m4a
+audio:
 ---
 
-In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redux-sagas library about his success story working as an open source contributors and maintainer of one of the biggest library on React ecosystem.
-
-## Guests
-
-[Yassin El ouafi](https://twitter.com/yassineelouafi2/)
+In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Boudih talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
 
 ## Notes
 
-00:00:00 Introduction and welcoming guests
+0:00:00 - Intro && new DevC events
 
-00:02:00 How he started programming ?
+0:03:00 - About Abdelkader Boudih
 
-00:08:00 How he started his open-source projects ?
+0:06:00 - History of the web, web2 and web3
 
-00:13:00 How to grow and progress in software programming ?
+0:10:00 - HTML && CSS
 
-00:18:00 follow the trends in programming.
+0:16:00 - How to start learning Web fundamentals ?
 
-00:24:00 What are your favorites patterns and paradigms?
+0:33:00 - Web designer vs front-end developer
 
-00:37:00 Functional programming.
+0:30:00 - CSS Tools
 
-00:42:00 How do you find time for the opensource ?
+0:40:00 - Browsers engines
 
-00:44:00 Books or tutorials ?
+0:46:00 - How to start on server side projects?
 
-00:48:00 What is the "Thought leaders".
+0:58:00 - Compiled and interpreted Languages
 
-00:52:00 Why should i work in the open source.
+1:04:00 - Databases && ORMs
 
-00:56:00 Pieces of Advice for a junior developer to start the open-source.
+1:11:00 - Javascript Ecosystem
 
-01:01:00 How did you start the Redux-saga?
+    - Why javascript is so famous
+    - Js framework
+    - Reactjs
+    - Angular
+    - Vuejs
 
-01:10:00 What is the difference between Redux-saga and CQRS ?
+2:16:00 - Exiting web dev stuff in 2018 you need to know
 
-01:15:00 Talk about Hooks, Pure components and React fiber.
+    - GraphQl
+    - PWA
+    - WebAssemply
+    - Service Worker
 
-01:32:00 Future projects in the open-source ?
+<br/>
 
-01:35:00 Open-source in morocco & Pieces of Advice for Moroccan programmers.
+## Links
 
-## Links :
-
-[W3C](https://www.w3.org/)
-
-[SCSS](https://sass-lang.com/)
-
-[Purifycss](https://purifycss.online/)
-
-[Autoprefixer](https://autoprefixer.github.io/)
-
-[Can I use](https://caniuse.com/)
-
-[Reactjs](https://reactjs.org/)
-
-[Angular](https://angular.io/)
-
-[VueJs](https://vuejs.org/)
-
-[GraphQl](https://graphql.org/)
-
-[PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-
-[Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
-
-[WebAssembly](https://webassembly.org/)
-
-## Links :
-
-[W3C](https://www.w3.org/)
-
-[SCSS](https://sass-lang.com/)
-
-[Purifycss](https://purifycss.online/)
-
-[Autoprefixer](https://autoprefixer.github.io/)
-
-[Can I use](https://caniuse.com/)
-
-[Reactjs](https://reactjs.org/)
-
-[Angular](https://angular.io/)
-
-[VueJs](https://vuejs.org/)
-
-[GraphQl](https://graphql.org/)
-
-[PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
-
-[Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
-
-[WebAssembly](https://webassembly.org/)
-
-## Prepared and Presented by :
-
-[Youssouf El Azizi](https://twitter.com/elaziziyoussouf/)
-
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
-
-[Amine Hakkou](https://twitter.com/amine_hakkou/)
-
-...
+- [W3C](https://www.w3.org/)
+- [SCSS](https://sass-lang.com/)
+- [purifycss](https://purifycss.online/)
+- [Autoprefixer](https://autoprefixer.github.io/)
+- [Can I use](https://caniuse.com/)
+- [Reactjs](https://reactjs.org/)
+- [Angular](https://angular.io/)
+- [VueJs](https://vuejs.org/)
+- [graphQl](https://graphql.org/)
+- [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+- [Service Worker](https://developers.google.com/web/ilt/pwa/introduction-to-service-worker)
+- [WebAssembly](https://webassembly.org/)

@@ -1,65 +1,57 @@
 ---
-date: 2018-06-02
-time: 20h
-duration: "1:46:09"
-title: "AR, VR and Game Dev "
-tags: ["game dev", "AR", "VR"]
-category: "dev"
+date: 2018-12-26
+time: 20h14
+duration: "1:24:32"
+title: "MSS with  Mohamed Zakariae El Khdime!"
+tags: ["MSS", "cybersecurity", "entrepreneurship", "career"]
+category: "MSS"
 isNext: false
-video: "2147536065478747"
-youtube: https://www.youtube.com/watch?v=R6173SwSg8w
+video: "2301890400043312"
+youtube: https://www.youtube.com/watch?v=XVl0Y-7JZxw
 published: true
-audio:
+audio: https://anchor.fm/s/88e3048/podcast/play/8871827/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-8%2F37063179-48000-2-83a2df7aac338.m4a
 ---
 
-In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .
+In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about his success story.
 
 ## Guests
 
-[Omar Guendeli](https://guendeliomar.com)
-
-[Amine Hakkou](https://www.hakkou.me/)
+[Mohamed Zakariae El Khdime](https://www.facebook.com/infom2z)
 
 ## Notes
 
-00:00:00 - Introduction
+00:00:00 - Who is Mohamed Zakariae El Khdime?
 
-00:07:00 - What is VR ?
+00:03:00 - What is your academic background?
 
-00:11:00 - History of Gaming ?
+00:06:00 - did you study in any public high school?
 
-00:20:00 - Begin your career as a Game Developper ?
+00:20:00 - How did you switch from developement to security?
 
-00:27:00 - Difference between VR & AR ?(open computer vision framework)
+00:22:00 - What is cybersecurity?
 
-00:33:00 - Game dev Tools ?
+00:25:00 - Why do hackers always wear hoodies? Behind the stereotype?
 
-00:36:00 - Game dev Process ?
+00:26:00 - What is your first project in entrepreneurship?
 
-00:46:00 - Java & Game dev ?
+00:31:00 - How to start a career in cybersecurity?
 
-00:51:00 - Game Design Patterns ?
+00:33:00 - How to found a startup in Dubai?
 
-00:55:00 - Game Art ?
+00:46:00 - Advice for people who want to found a startup.
 
-01:03:00 - Ai in Game dev ?
+00:46:00 - What kind of knowledge and amount of capital required for someone to take on entrepreneurship?
 
-01:09:00 - Graphics in Game dev ?
+00:51:00 - How did you manage to get funds?
 
-01:15:00 - Managing Audio in Game dev ?
+00:59:00 - What are your future plans, and what kind of advice could you give to someone who wants to get into cybersecurity?
 
-01:19:00 - Advices for beginners ?
+01:10:00 - Mohammed Aboullaite: Thanking DevC team and launch DevC projects for 2019
 
-01:40:00 - Conclusion
-
-## Links
-
-- [GAMASUTRA](https://www.gamasutra.com/)
-- [GAME DEV](https://gamedev.net/)
-- [GD CONF](https://gdconf.com/)
+01:24:00 - Goodbye!
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
 
-[Mohammed Aboullaite](http://aboullaite.me/)
+[Soufian El Foukahi](https://twitter.com/soufianelf/)

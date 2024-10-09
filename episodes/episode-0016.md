@@ -1,82 +1,49 @@
 ---
-date: 2018-10-13
+date: 2019-05-25
 time: 22h
-duration: "1:25:54"
-title: "MSS with Amine Raghib"
-tags: ["MSS"]
-category: "MSS"
+duration: "1:19:23"
+title: "The twelve-factor App"
+tags: ["backend", "software engineering", "dev"]
+category: "dev"
 isNext: false
-video: "2254586411440378"
-youtube: https://www.youtube.com/watch?v=DlE3drGZgpo
+video: "2348668091860520"
+youtube: https://www.youtube.com/watch?v=_0xISo0SFJ4
 published: true
 url:
 audio:
 ---
 
-In this episode of GeeksBlabla, our guest Amine Raghib - a writer and founder of the Professional Blog , and he is also known for his episodes on a YouTube channel of the same name that has achieved great success attracting millions of viewers - will share his story.
-
-## Guests
-
-[Amine Raghib](https://www.facebook.com/raghiblog/)
+On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amine Hakkoue explore the 12 factor app methodology which is is a set of best practices that enable applications to be resilient, scalable and portable.
 
 ## Notes
 
-0:00:00 - Introduction and welcoming.
+00:00:00 - Introduction
 
-0:01:00 - Who is Amine Raghib?
+00:07:00 - Codebase
 
-0:03:00 - How your dream began?
+00:13:00 - Dependencies
 
-0:06:00 - When you started as a web developer more than 10 years ago? How was the web experience back then?
+00:20:00 - Config
 
-0:08:00 - Has anyone helped you get started?
+00:24:00 - Backing Services
 
-0:12:00 - How did you get the idea of ​​creating content the first time?
+00:30:00 - Build, release, run
 
-0:14:00 - What is the difference between white hat hackers and black hat hackers?
+00:34:00 - Processes
 
-0:17:00 - What can you advise who wants to start creating IT content in Arabic?
+00:39:00 - Port Binding
 
-0:22:00 - Did you see that the Arab technical content will be improved?
+00:44:00 - Concurrency
 
-0:31:00 - The free content and the donations.
+00:55:00 - Disposability
 
-0:33:00 - Have you thought about helping young people, so Arabic content will be rich?
+00:58:00 - Dev/prod parity
 
-0:36:00 - The problem is that people who provide good content do not support others.
+01:03:00 - Logs
 
-0:39:00 - the problem of criticizing content creators.
-
-0:44:00 - what are the difficulties that you affront when you want to create content to different cultures and countries?
-
-0:47:00 - Do you think that the technical competitions do not let us know the true Moroccan level of technology.
-
-0:54:00 - Does the problem lie in finding ideas for applying ideas?
-
-0:59:00 - Moroccan mentality, and tech events .
-
-1:03:00 - What mistakes have you made in your career?.
-
-1:10:00 - Is the transition from providing deep technical content to simple content, a good decision for you?.
-
-1:12:00 - What is the funniest thing, your follower asked for?
-
-1:15:00 - how the sponsors came to you? , and how you choose the sponsors?
-
-1:18:00 - What is the last advice you give to anyone who wants to blog and create content in Arabic?
-
-1:23:00 - How do you see the presence of Moroccans in technology? and have ever seen someone who marked you?
-
-2:15:00 - Wrap up & bye bye
+01:10:00 - Admin processes
 
 ## Links
 
-[Almohtarif Channel](https://www.youtube.com/channel/UCO58fldVogtwlz7c2PTeWrg)
-
-## Prepared and Presented by :
-
-[Mohammed Aboullaite](https://twitter.com/laytoun)
-
-[El Foukahi Soufian](https://twitter.com/soufianelf/)
-
-[Amine Maarouf](https://web.facebook.com/amiiiinema)
+- [12 factors app website](https://12factor.net/)
+- [12 factors app website source code](https://github.com/heroku/12factor)

@@ -1,68 +1,82 @@
 ---
-date: 2018-11-14
-time: 20h
-duration: "1:19:55"
-title: "ML & AI!"
-tags: ["ML", "AI"]
-category: "dev"
+date: 2018-10-13
+time: 22h
+duration: "1:25:54"
+title: "MSS with Amine Raghib"
+tags: ["MSS"]
+category: "MSS"
 isNext: false
-video: "2272738262958526"
-youtube: https://www.youtube.com/watch?v=z4e8tPaygxw
+video: "2254586411440378"
+youtube: https://www.youtube.com/watch?v=DlE3drGZgpo
 published: true
+url:
 audio:
 ---
 
-On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite and Amine will be talking with their guests about Machine Learning and AI. The guests of the episode are Ahmed Kachkach and Redouane Lguensat
+In this episode of GeeksBlabla, our guest Amine Raghib - a writer and founder of the Professional Blog , and he is also known for his episodes on a YouTube channel of the same name that has achieved great success attracting millions of viewers - will share his story.
 
 ## Guests
 
-[Amine Hakkou](https://www.facebook.com/hakkou.me)
-
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
-
-[Ahmed Kachkach](https://www.facebook.com/kachkach.ahmed)
-
-[Redouane Lguensat](https://www.facebook.com/redouane.lguensat)
+[Amine Raghib](https://www.facebook.com/raghiblog/)
 
 ## Notes
 
-00:00:00 - Guests presentation
+0:00:00 - Introduction and welcoming.
 
-00:04:00 - Difference between AI and Machine learning
+0:01:00 - Who is Amine Raghib?
 
-00:08:00 - Why using Machine learning and not just use if statements ?
+0:03:00 - How your dream began?
 
-00:13:00 - Difference between machine learning and data mining + Difference between AI and big data.
+0:06:00 - When you started as a web developer more than 10 years ago? How was the web experience back then?
 
-00:17:00 - When machine learning and AI was first introduced. What is the cause of the interest on these subjects in the recent years ?
+0:08:00 - Has anyone helped you get started?
 
-00:25:00 - What are the most affected industries ?
+0:12:00 - How did you get the idea of ​​creating content the first time?
 
-00:29:00 - Are recommanded system that Ahmed is working on content-based or collaborative filtering ?
+0:14:00 - What is the difference between white hat hackers and black hat hackers?
 
-00:30:00 - Singularity ?
+0:17:00 - What can you advise who wants to start creating IT content in Arabic?
 
-00:35:00 - Social impact of AI ?
+0:22:00 - Did you see that the Arab technical content will be improved?
 
-00:38:00 - Question for Ahmed. How can you recommand content for new users without using tracking ?
+0:31:00 - The free content and the donations.
 
-00:40:00 - Recommanded materials to start learning.
+0:33:00 - Have you thought about helping young people, so Arabic content will be rich?
 
-00:55:00 - Is it required to have a powerful computer to start practising machine learning ?
+0:36:00 - The problem is that people who provide good content do not support others.
 
-00:58:00 - Futur of AI Engineering, machine-learning engineering in the world and particularly in Morocco ?
+0:39:00 - the problem of criticizing content creators.
 
-01:05:00 - Will Machine learning replace developers ?
+0:44:00 - what are the difficulties that you affront when you want to create content to different cultures and countries?
 
-01:09:00 - AI Frameworks ?
+0:47:00 - Do you think that the technical competitions do not let us know the true Moroccan level of technology.
 
-01:13:00 - Final words and goodbye.
+0:54:00 - Does the problem lie in finding ideas for applying ideas?
+
+0:59:00 - Moroccan mentality, and tech events .
+
+1:03:00 - What mistakes have you made in your career?.
+
+1:10:00 - Is the transition from providing deep technical content to simple content, a good decision for you?.
+
+1:12:00 - What is the funniest thing, your follower asked for?
+
+1:15:00 - how the sponsors came to you? , and how you choose the sponsors?
+
+1:18:00 - What is the last advice you give to anyone who wants to blog and create content in Arabic?
+
+1:23:00 - How do you see the presence of Moroccans in technology? and have ever seen someone who marked you?
+
+2:15:00 - Wrap up & bye bye
 
 ## Links
 
-- [Kaggle](https://www.kaggle.com/)
-- [Image-net](http://www.image-net.org/)
-- [Machine learning course](https://www.coursera.org/learn/machine-learning)
-- [Deep learning course](https://www.coursera.org/specializations/deep-learning)
-- [Colab](https://colab.research.google.com/)
-- [تويشيات في تطبيق الرياضيات](https://www.facebook.com/AppliedMathsInDarija/)
+[Almohtarif Channel](https://www.youtube.com/channel/UCO58fldVogtwlz7c2PTeWrg)
+
+## Prepared and Presented by :
+
+[Mohammed Aboullaite](https://twitter.com/laytoun)
+
+[El Foukahi Soufian](https://twitter.com/soufianelf/)
+
+[Amine Maarouf](https://web.facebook.com/amiiiinema)
