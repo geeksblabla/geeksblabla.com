@@ -1,29 +1,10 @@
 ---
-import { getCollection } from "astro:content";
-
-const podcast = await getCollection("podcast");
-const sortedPodcast = podcast.sort(
-  (a, b) => a.data.date.getTime() - b.data.date.getTime()
-);
-
-console.log(sortedPodcast);
+import Layout from "@/components/layout.astro";
+import Hero from "@/components/home/hero.astro";
+import ValuesAndMission from "@/components/home/values-and-mission.astro";
 ---
 
-<!doctype html>
-<html lang="en">
-  <main>
-    {sortedPodcast.length}
-    <ul>
-      {
-        sortedPodcast.map(episode => (
-          <li>
-            <a href={`/podcast/${episode.id}`}>{episode.data.title}</a>
-          </li>
-        ))
-      }
-    </ul>
-    <h1>🧑‍🚀 Hello, Astronaut!</h1>
-  </main>
-
-
-</html>
+<Layout>
+  <Hero />
+  <ValuesAndMission />
+</Layout>

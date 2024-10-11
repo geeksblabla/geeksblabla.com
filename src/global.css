@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'CommitMono';
-  src: url('/fonts/CommitMono-400-Regular.otf') format('woff2');
+  src: url('/fonts/CommitMono-400-Regular.otf') format('otf');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -12,9 +12,9 @@
 
 @font-face {
   font-family: 'CommitMono';
-  src: url('/fonts/CommitMono-700-Regular.otf') format('woff2');
+  src: url('/fonts/CommitMono-700-Regular.otf') format('otf');
   font-weight: 700;
-  font-style: normal;
+  font-style: bold;
   font-display: swap;
 }
 

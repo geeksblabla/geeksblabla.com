@@ -1,5 +1,4 @@
 ---
-import Header from "./header.astro";
 import Footer from "./footer.astro";
 // import { AstroSeo } from "@astrolib/seo";
 import "@/global.css";
@@ -124,10 +123,7 @@ const title = titleProp || "State Of Dev In Morocco 🇲🇦";
   </head>
 
   <body>
-    <Header />
-    <main>
-      <slot />
-    </main>
+    <slot />
     <Footer />
     <!-- <GoogleAnalytics id="UA-127901499-5" /> -->
   </body>

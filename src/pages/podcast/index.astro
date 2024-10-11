@@ -1,0 +1,29 @@
+---
+import { getCollection } from "astro:content";
+
+const podcast = await getCollection("podcast");
+const sortedPodcast = podcast.sort(
+  (a, b) => a.data.date.getTime() - b.data.date.getTime()
+);
+
+console.log(sortedPodcast);
+---
+
+<!doctype html>
+<html lang="en">
+  <main>
+    {sortedPodcast.length}
+    <ul>
+      {
+        sortedPodcast.map(episode => (
+          <li>
+            <a href={`/podcast/${episode.id}`}>{episode.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+    <h1>🧑‍🚀 Hello, Astronaut!</h1>
+  </main>
+
+
+</html>

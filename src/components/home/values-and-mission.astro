@@ -1,0 +1,75 @@
+---
+import ConsistencyIcon from "@/assets/values/consistency.svg?raw";
+import simplicityIcon from "@/assets/values/simplicity.svg?raw";
+import transparencyIcon from "@/assets/values/transparency.svg?raw";
+import inclusivenessIcon from "@/assets/values/inclusiveness.svg?raw";
+import empathyIcon from "@/assets/values/empathy.svg?raw";
+import accountabilityIcon from "@/assets/values/accountability.svg?raw";
+
+type VV = {
+  icon: string;
+  name: string;
+};
+const values: VV[] = [
+  { icon: ConsistencyIcon, name: "CONSISTENCY" },
+  { icon: simplicityIcon, name: "SIMPLICITY" },
+  { icon: transparencyIcon, name: "TRANSPARENCY" },
+  { icon: inclusivenessIcon, name: "INCLUSIVENESS" },
+  { icon: empathyIcon, name: "EMPATHY" },
+  { icon: accountabilityIcon, name: "ACCOUNTABILITY" },
+];
+---
+
+<section class="bg-[#F2F4F7] py-16 font-light">
+  <div class="container mx-auto px-4">
+    <h2 class="mb-8 text-4xl font-bold">Our mission</h2>
+    <p
+      class="mb-12 max-w-[800px] text-paragraph-lg font-thin text-neutral-dark-50"
+    >
+      is to Empower Moroccan 🇲🇦 IT enthusiasts and beyond to thrive through
+      continuous learning, exchange, collaboration, and innovation.
+    </p>
+
+    <div class="flex flex-col gap-8 sm:flex-row">
+      <div>
+        <h3 class="mb-4 text-heading-sm font-light">Knowledge Exchange</h3>
+        <p class="text-paragraph-sm text-neutral-dark-50">
+          Between novice learners and seasoned professionals, we create a
+          supportive environment for skill enhancement.
+        </p>
+      </div>
+      <div>
+        <h3 class="mb-4 text-heading-sm font-light">Inclusive Diversity</h3>
+        <p class="text-paragraph-sm text-neutral-dark-50">
+          Embracing the different perspectives & backgrounds to enrich our
+          collective knowledge and inspire innovation.
+        </p>
+      </div>
+      <div>
+        <h3 class="mb-4 text-heading-sm font-light">Tech for Social Impact</h3>
+        <p class="text-paragraph-sm text-neutral-dark-50">
+          Harness the collective power of the community to drive positive
+          change.
+        </p>
+      </div>
+    </div>
+
+    <h2 class="mb-8 text-4xl font-bold">Our values</h2>
+    <div class="grid grid-cols-2 gap-8 md:grid-cols-3">
+      {
+        values.map(value => (
+          <div class="flex flex-col items-center">
+            <Fragment
+              set:html={value.icon}
+              alt={value.name}
+              class="mb-4 h-24"
+            />
+            <span class="py-4 text-heading-sm font-light text-neutral-dark-20">
+              {value.name}
+            </span>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
