@@ -22,9 +22,7 @@ function getIconNames(dir: string): string[] {
 const iconNames = getIconNames(iconsDirectory);
 ---
 
-<section
-  class="flex max-w-screen-xl flex-wrap items-center gap-4 p-8 py-8 text-3xl md:mx-auto"
->
+<section class="container flex flex-wrap items-center gap-4 p-8 py-8 text-3xl">
   {
     iconNames
       .filter(name => name !== "instagram")

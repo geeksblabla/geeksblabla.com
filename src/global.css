@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'CommitMono';
-  src: url('/fonts/CommitMono-400-Regular.woff2') format('woff2');
+  src: url('/fonts/CommitMono-400-Regular.otf') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'CommitMono';
-  src: url('/fonts/CommitMono-700-Regular.woff2') format('woff2');
+  src: url('/fonts/CommitMono-700-Regular.otf') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -24,6 +24,10 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+  @apply mx-auto w-full max-w-screen-lg px-4 md:px-0;
 }
 
 

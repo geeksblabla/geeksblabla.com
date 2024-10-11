@@ -46,14 +46,14 @@ export const SOCIALS: SocialObjects = {
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
-  twitter: {
+  x: {
     href: "https://twitter.com/geeksblabla",
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
   },
-  instagram: {
-    href: "https://www.instagram.com/geeks_blabla",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
+  // instagram: {
+  //   href: "https://www.instagram.com/geeks_blabla",
+  //   linkTitle: `${SITE.title} on Instagram`,
+  //   active: true,
+  // },
 };

@@ -1,6 +1,6 @@
 ---
 import Header from "./header.astro";
-// import Footer from "./footer.astro";
+import Footer from "./footer.astro";
 // import { AstroSeo } from "@astrolib/seo";
 import "@/global.css";
 // import GoogleAnalytics from "@/components/google-analytics.astro";
@@ -128,7 +128,7 @@ const title = titleProp || "State Of Dev In Morocco 🇲🇦";
     <main>
       <slot />
     </main>
-    <!-- <Footer /> -->
+    <Footer />
     <!-- <GoogleAnalytics id="UA-127901499-5" /> -->
   </body>
 </html>
