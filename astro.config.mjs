@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
+import icon from "astro-icon";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
@@ -15,6 +16,7 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
+    icon(),
   ],
   markdown: {
     remarkPlugins: [

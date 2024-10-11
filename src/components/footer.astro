@@ -1,0 +1,134 @@
+---
+import Logo from "@/assets/logo.svg?raw";
+import { SOCIALS } from "@/config";
+---
+
+<footer class="mt-24">
+  <div
+    class="mx-auto grid max-w-screen-xl gap-x-12 gap-y-8 px-4 py-10 sm:px-20 md:grid-cols-2 xl:grid-cols-3 xl:px-10"
+  >
+    <div class="max-w-sm">
+      <div class="mb-6 flex h-10 items-center space-x-2">
+        <Fragment set:html={Logo} />
+      </div>
+      <div class="text-gray-500">
+        Participate and let us know what working in tech really looks like in
+        Morocco 🇲🇦
+      </div>
+    </div>
+    <div class="">
+      <div class="mb-2 mt-4 font-medium xl:mb-4">Community</div>
+      <nav aria-label="Guides Navigation" class="text-gray-500">
+        <ul class="space-y-3">
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href="https://geeksblabla.io"
+              target="_blank"
+            >
+              geeksblabla.io
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href="https://stateofdev.ma"
+              target="_blank"
+            >
+              stateofdev.ma
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href="https://github.com/geeksblabla/awesome-morocco"
+              target="_blank"
+            >
+              awesome-morocco.dev
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href="https://tally.so/r/meqj6E"
+              target="_blank"
+            >
+              Join the team
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="">
+      <div class="mb-2 mt-4 font-medium xl:mb-4">Links</div>
+      <nav aria-label="Footer Navigation" class="text-gray-500">
+        <ul class="space-y-3">
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href={SOCIALS.youtube.href}
+              target="_blank"
+            >
+              Youtube
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href={SOCIALS.linkedin.href}
+              target="_blank"
+            >
+              Linkedin
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href={SOCIALS.facebook.href}
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href={SOCIALS.twitter.href}
+              target="_blank"
+            >
+              X("Previously Twitter")
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href={SOCIALS.instagram.href}
+              target="_blank"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              class="hover:text-emerald-600 hover:underline"
+              href={SOCIALS.github.href}
+              target="_blank"
+            >
+              Github
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="border-t">
+    <div
+      class="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center text-gray-500 sm:px-20 lg:flex-row lg:justify-between lg:text-left xl:px-10"
+    >
+      <p class="">Made with ❤️ by Geeksblabla Team</p>
+      <p class="">
+        © {new Date().getFullYear()} Geeksblabla | All Rights Reserved
+      </p>
+    </div>
+  </div>
+</footer>

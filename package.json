@@ -17,8 +17,11 @@
   "dependencies": {
     "@astrojs/check": "^0.9.3",
     "@astrojs/rss": "^4.0.7",
+    "@radix-ui/react-slot": "^1.1.0",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.15.12",
+    "astro-icon": "^1.1.1",
+    "class-variance-authority": "^0.7.0",
     "fuse.js": "^7.0.0",
     "lodash.kebabcase": "^4.1.1",
     "remark-collapse": "^0.1.2",
@@ -48,6 +51,7 @@
     "prettier-plugin-tailwindcss": "^0.6.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.3",
     "tsx": "^4.19.1",
     "typescript-eslint": "^8.5.0"
   },

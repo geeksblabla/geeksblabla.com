@@ -25,41 +25,35 @@ export const LOGO_IMAGE = {
   height: 46,
 };
 
-export const SOCIALS: SocialObjects = [
-  {
-    name: "Github",
+export const SOCIALS: SocialObjects = {
+  github: {
     href: "https://github.com/geeksblabla",
     linkTitle: `${SITE.title} on Github`,
     active: true,
   },
-  {
-    name: "YouTube",
+  youtube: {
     href: "https://www.youtube.com/channel/UCW2WV7NKU0WPyuv4YoNSqBA",
     linkTitle: `${SITE.title} on YouTube`,
     active: true,
   },
-  {
-    name: "LinkedIn",
+  linkedin: {
     href: "https://www.linkedin.com/company/geeksblabla",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
-  {
-    name: "Facebook",
+  facebook: {
     href: "https://www.facebook.com/geeksblabla",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
-  {
-    name: "Twitter",
+  twitter: {
     href: "https://twitter.com/geeksblabla",
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
   },
-  {
-    name: "Instagram",
+  instagram: {
     href: "https://www.instagram.com/geeks_blabla",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
-];
+};

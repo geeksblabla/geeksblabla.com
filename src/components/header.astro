@@ -1,0 +1,124 @@
+---
+import { Icon } from "astro-icon/components";
+import HeaderLink from "./header-link.astro";
+import Logo from "@/assets/logo.svg?raw";
+
+const navItems = [
+  { label: "Home", href: "/" },
+  { label: "Podcast", href: "/podcast" },
+  { label: "About us", href: "/about" },
+  { label: "Blog", href: "/blog" },
+  { label: "Style Guide", href: "/style" },
+];
+
+const socialIcons = [
+  { icon: "search", href: "#", ariaLabel: "Search" },
+  { icon: "youtube", href: "#", ariaLabel: "YouTube" },
+  { icon: "spotify", href: "#", ariaLabel: "Spotify" },
+  { icon: "facebook", href: "#", ariaLabel: "Facebook" },
+  // { icon: "google-podcasts", href: "#", ariaLabel: "Google Podcasts" },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header
+  class="relative z-[99] w-full max-w-screen-xl bg-transparent px-4 py-4 text-emerald-900 md:mx-auto"
+>
+  <div class="flex items-center justify-between">
+    <a href="/" class="z-10" aria-label="Geeks Blabla logo">
+      <div
+        class="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black"
+      >
+        <Fragment set:html={Logo} />
+      </div>
+    </a>
+    <div class="md:hidden">
+      <input type="checkbox" id="navbar-open" class="peer hidden" />
+      <label
+        for="navbar-open"
+        class="group relative z-20 cursor-pointer peer-checked:fixed peer-checked:right-4 peer-checked:top-4"
+        aria-label="Toggle Navigation"
+      >
+        <span class="sr-only">Toggle Navigation</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 group-[.peer:checked+&]:hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="hidden h-6 w-6 group-[.peer:checked+&]:block"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </label>
+
+      <nav
+        aria-label="Header Navigation"
+        class="fixed inset-0 z-10 flex translate-x-full transform items-center justify-center bg-white bg-opacity-95 transition-transform duration-300 ease-in-out peer-checked:translate-x-0"
+      >
+        <ul class="flex flex-col items-center space-y-6 text-lg">
+          {
+            navItems.map(item => (
+              <li>
+                <HeaderLink
+                  label={item.label}
+                  href={item.href}
+                  isActive={currentPath === item.href}
+                />
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </div>
+
+    <nav
+      aria-label="Header Navigation"
+      class="hidden flex-row items-center md:flex"
+    >
+      <ul class="flex flex-row items-center space-x-6">
+        {
+          navItems.map(item => (
+            <li>
+              <HeaderLink
+                label={item.label}
+                href={item.href}
+                isActive={currentPath === item.href}
+              />
+            </li>
+          ))
+        }
+        {
+          socialIcons.map(item => (
+            <li>
+              <a
+                href={item.href}
+                aria-label={item.ariaLabel}
+                class="text-gray-600 hover:text-gray-800"
+              >
+                <Icon name={item.icon} class="h-5 w-5" />
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
