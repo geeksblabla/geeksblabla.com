@@ -1,0 +1,62 @@
+---
+import { Image } from "astro:assets";
+import testimonialsData from "./testimonials.json";
+
+interface Testimonial {
+  name: string;
+  role: string;
+  company: string;
+  profile_image: string;
+  video?: string;
+  quote?: string;
+}
+
+const testimonials: Testimonial[] = testimonialsData;
+---
+
+<section class="py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="mb-12 text-3xl font-bold">Testimonials</h2>
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+      {
+        testimonials.map(testimonial => (
+          <div class="overflow-hidden rounded-lg bg-white shadow-md">
+            {testimonial.video && (
+              <div class="relative">
+                <video
+                  src={testimonial.video}
+                  width={400}
+                  height={300}
+                  class="h-48 w-full object-cover"
+                />
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                  <button class="text-4xl text-white" aria-label="Play video">
+                    ▶
+                  </button>
+                </div>
+              </div>
+            )}
+            <div class="p-6">
+              {testimonial.quote && (
+                <p class="mb-4 text-sm">{testimonial.quote}</p>
+              )}
+              <div class="flex items-center">
+                <Image
+                  src={testimonial.profile_image}
+                  alt={testimonial.name}
+                  width={40}
+                  height={40}
+                  class="mr-3 h-10 w-10 rounded-full"
+                />
+                <div>
+                  <p class="font-bold">{testimonial.name}</p>
+                  <p class="text-sm text-gray-600">{testimonial.role}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
