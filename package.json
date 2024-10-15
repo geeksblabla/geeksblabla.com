@@ -20,6 +20,7 @@
     "@radix-ui/react-slot": "^1.1.0",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.15.12",
+    "astro-cloudinary": "^1.1.2",
     "astro-icon": "^1.1.1",
     "class-variance-authority": "^0.7.0",
     "fuse.js": "^7.0.0",

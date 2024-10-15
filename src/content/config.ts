@@ -1,5 +1,6 @@
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
+import { cldAssetsLoader } from "astro-cloudinary/loaders";
 
 const podcast = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: "episodes" }),
@@ -16,4 +17,11 @@ const podcast = defineCollection({
   }),
 });
 
-export const collections = { podcast };
+const gallery = defineCollection({
+  loader: cldAssetsLoader({
+    limit: 10,
+    folder: "community-gallery",
+  }),
+});
+
+export const collections = { podcast, gallery };
