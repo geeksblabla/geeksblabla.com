@@ -1,29 +1,19 @@
 ---
-import { getCollection } from "astro:content";
+import Hero from "@/components/podcast/hero.astro";
+import Layout from "@/components/layout.astro";
+import Stats from "@/components/podcast/stats.astro";
+import EpisodeTypes from "@/components/podcast/episode-types.astro";
 
-const podcast = await getCollection("podcast");
-const sortedPodcast = podcast.sort(
-  (a, b) => a.data.date.getTime() - b.data.date.getTime()
-);
+// import { getCollection } from "astro:content";
 
-console.log(sortedPodcast);
+// const podcast = await getCollection("podcast");
+// const sortedPodcast = podcast.sort(
+//   (a, b) => a.data.date.getTime() - b.data.date.getTime()
+// );
 ---
 
-<!doctype html>
-<html lang="en">
-  <main>
-    {sortedPodcast.length}
-    <ul>
-      {
-        sortedPodcast.map(episode => (
-          <li>
-            <a href={`/podcast/${episode.id}`}>{episode.data.title}</a>
-          </li>
-        ))
-      }
-    </ul>
-    <h1>🧑‍🚀 Hello, Astronaut!</h1>
-  </main>
-
-
-</html>
+<Layout>
+  <Hero />
+  <Stats />
+  <EpisodeTypes />
+</Layout>

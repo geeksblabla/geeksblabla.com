@@ -1,0 +1,65 @@
+[
+  {
+    "name": "@ElazizlYoussouf",
+    "role": "Mobile tribe lead",
+    "company": "@bytesio",
+    "profile_image": "/testimonials/elazizlyoussouf.jpg",
+    "video": "/testimonials/elazizlyoussouf.mp4"
+  },
+  {
+    "name": "@_iMeriem",
+    "role": "Software engineer",
+    "company": "@Ultraken",
+    "profile_image": "/testimonials/imeriem.jpg",
+    "video": "/testimonials/imeriem.mp4"
+  },
+  {
+    "name": "@adnanmarokchi",
+    "role": "Full stack java developer",
+    "company": "@ti4it.com",
+    "profile_image": "/testimonials/adnanmarokchi.jpg",
+    "video": "/testimonials/adnanmarokchi.mp4"
+  },
+  {
+    "name": "@SarahDev",
+    "role": "Frontend Developer",
+    "company": "@TechInnovate",
+    "profile_image": "/testimonials/sarahdev.jpg",
+    "quote": "The insights I gained from this team were invaluable. Their expertise in modern web development practices has significantly improved our project's performance and user experience."
+  },
+  {
+    "name": "@AlexDataSci",
+    "role": "Data Scientist",
+    "company": "@DataDriven",
+    "profile_image": "/testimonials/alexdatasci.jpg",
+    "quote": "I'm impressed by the depth of knowledge this team possesses. They provided clear, actionable advice that has helped us optimize our data processing pipelines."
+  },
+  {
+    "name": "@EmilyUX",
+    "role": "UX Designer",
+    "company": "@DesignMasters",
+    "profile_image": "/testimonials/emilyux.jpg",
+    "quote": "Working with this team has been a game-changer for our design process. Their insights on user-centric design and accessibility have elevated our product to new heights."
+  },
+  {
+    "name": "@SarahDev",
+    "role": "Frontend Developer",
+    "company": "@TechInnovate",
+    "profile_image": "/testimonials/sarahdev.jpg",
+    "quote": "The insights I gained from this team were invaluable. Their expertise in modern web development practices has significantly improved our project's performance and user experience."
+  },
+  {
+    "name": "@AlexDataSci",
+    "role": "Data Scientist",
+    "company": "@DataDriven",
+    "profile_image": "/testimonials/alexdatasci.jpg",
+    "quote": "I'm impressed by the depth of knowledge this team possesses. They provided clear, actionable advice that has helped us optimize our data processing pipelines."
+  },
+  {
+    "name": "@EmilyUX",
+    "role": "UX Designer",
+    "company": "@DesignMasters",
+    "profile_image": "/testimonials/emilyux.jpg",
+    "quote": "Working with this team has been a game-changer for our design process. Their insights on user-centric design and accessibility have elevated our product to new heights."
+  }
+]

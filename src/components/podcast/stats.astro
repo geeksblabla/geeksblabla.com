@@ -1,0 +1,48 @@
+---
+import guestsIcon from "@/assets/podcast/guests.svg?raw";
+import hoursIcon from "@/assets/podcast/hours.svg?raw";
+import viewsIcon from "@/assets/podcast/views.svg?raw";
+
+type Stat = {
+  title: string;
+  description: string;
+  icon: string;
+};
+const stats: Stat[] = [
+  {
+    title: "265+",
+    description: "Guests invited",
+    icon: guestsIcon,
+  },
+  {
+    title: "17m",
+    description: "Total hours",
+    icon: viewsIcon,
+  },
+  {
+    title: "15k+",
+    description: "Minutes of value",
+    icon: hoursIcon,
+  },
+];
+---
+
+<section class="bg-[#F2F4F7] py-16 font-light">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-2 gap-8 md:grid-cols-3">
+      {
+        stats.map(stat => (
+          <div class="flex flex-col items-center">
+            <Fragment set:html={stat.icon} alt={stat.title} class="mb-4 h-28" />
+            <span class="py-4 text-heading-lg font-bold text-neutral-dark-20">
+              {stat.title}
+            </span>
+            <p class="text-heading-sm font-thin text-neutral-dark-20">
+              {stat.description}
+            </p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

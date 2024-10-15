@@ -1,0 +1,74 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+export interface EpisodeType {
+  title: string;
+  description: string;
+  image: ImageMetadata;
+  badge?: string;
+
+  link: {
+    text: string;
+    url: string;
+  };
+}
+
+export interface Props {
+  episode: EpisodeType;
+  fullWidth?: boolean;
+}
+
+const { episode, fullWidth } = Astro.props as Props;
+---
+
+<div
+  class:list={[
+    "overflow-hidden rounded-lg border border-[#C3CAD4] bg-white",
+    { "col-span-1 md:col-span-2": fullWidth },
+  ]}
+>
+  <div class="bg-[#FAFBFD] px-4 py-1 text-[20px] text-[#7CB4FE]">{">_"}</div>
+  <div
+    class:list={[
+      "flex",
+      { "flex-col md:flex-row-reverse": fullWidth, "flex-col": !fullWidth },
+      "items-start p-6",
+    ]}
+  >
+    <Image
+      src={episode.image}
+      alt={episode.title}
+      class:list={[
+        "max-h-[350px] object-contain",
+        { "m-6": !fullWidth, "ml-6": fullWidth },
+      ]}
+    />
+    <div class:list={["flex-1", { "pr-0 md:pr-6": fullWidth }]}>
+      <div class="mb-2 flex items-start">
+        <h3 class="text-heading-lg">{episode.title}</h3>
+      </div>
+      <div class="flex items-start">
+        <svg
+          width="20"
+          height="18"
+          viewBox="0 0 20 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.4 -9.53674e-07H1.6V16.4H7.2V17.6H0.4V-9.53674e-07ZM6.79219 17.6V16.4H19.1922V17.6H6.79219Z"
+            fill="#292D33"></path>
+        </svg>
+        <div class="flex-1 pl-2">
+          <p class="mb-4 text-paragraph-lg text-neutral-dark-20">
+            {episode.description}
+          </p>
+          <a href={episode.link.url} class="text-primary text-paragraph-lg">
+            {episode.link.text}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,71 @@
+---
+import FaqItem from "./faq-item.astro";
+
+const faqs = [
+  {
+    question:
+      "This is my first time finding out about Geeksblabla, where do I start?",
+    answer:
+      "Geeksblabla offers a lot, the easiest way to start is find a podcast episode of a topic that interests you. Learn more about our initiatives such as stateofdev survey and blablaconf in the projects section.\n\nTip: Hearing about tech topics in Darija helps to have a wide general knowledge.",
+  },
+  {
+    question: "Why is content not 100% in Darija?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "Who can benefit from the Geeksblabla community?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "How can I join/contribute to Geeksblabla?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "Is Geeksblabla only a podcast?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "How is Geeksblabla funded?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "How can I stay updated with Geeksblabla's activities?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "Where can I read more about your initiatives?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "How is BlablaConf different from Geeksblabla?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "How can I be part of episodes?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "How can I suggest episodes?",
+    answer: "", // Add the answer when available
+  },
+  {
+    question: "How can I get a T-shirt?",
+    answer: "", // Add the answer when available
+  },
+];
+---
+
+<section class="bg-[#F2F4F7] py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="text-heading-sm font-bold">FAQ</h2>
+    <div class="space-y-1 pt-4">
+      {
+        faqs.map((faq, index) => (
+          <FaqItem label={faq.question} checked={index === 0}>
+            <Fragment set:html={faq.answer} />
+          </FaqItem>
+        ))
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,60 @@
+---
+import devEpisodesImage from "@/assets/podcast/dev-episode.svg";
+import mssEpisodesImage from "@/assets/podcast/mss-episode.svg";
+import careerEpisodesImage from "@/assets/podcast/career-episode.svg";
+import techNewsImage from "@/assets/podcast/ama-episode.svg";
+import bookReviewsImage from "@/assets/podcast/books-episode.svg";
+import EpisodeTypeItem from "./episode-type-item.astro";
+import type { EpisodeType } from "./episode-type-item.astro";
+
+const episodes: EpisodeType[] = [
+  {
+    title: "Dev episodes",
+    description:
+      "An open, deep dive discussion around anything and everything related to programming & software engineering. Tech and everything in between.",
+    image: devEpisodesImage,
+    link: { text: "Watch the latest dev episode", url: "#" },
+  },
+  {
+    title: "MSS episodes",
+    description:
+      "In Moroccan Success Story episodes, we invite a Moroccan icon in the IT and related fields, to share their experiences, lessons learned and knowledge with the Moroccan community.",
+    image: mssEpisodesImage,
+    link: { text: "Watch the latest MSS episode", url: "#" },
+  },
+  {
+    title: "Career episodes",
+    description:
+      "Explore career paths, job opportunities, and professional growth in the tech industry with our career-focused episodes.",
+    image: careerEpisodesImage,
+    link: { text: "Watch the latest career episode", url: "#" },
+  },
+  {
+    title: "AMA & tech news",
+    description:
+      "Stay up-to-date with the latest tech news and get your questions answered in our Ask Me Anything sessions.",
+    image: techNewsImage,
+    link: { text: "Watch the latest news episode", url: "#" },
+  },
+  {
+    title: "Book & article reviews",
+    description:
+      "Dive into insightful reviews of programming books and articles, exploring key concepts and practical applications in software development.",
+    image: bookReviewsImage,
+    link: { text: "Watch the latest review episode", url: "#" },
+  },
+];
+---
+
+<section class="py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="mb-8 text-heading-sm font-bold">Episodes On the Menu</h2>
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+      {
+        episodes.map((episode, index) => (
+          <EpisodeTypeItem fullWidth={index === 2} episode={episode} />
+        ))
+      }
+    </div>
+  </div>
+</section>
