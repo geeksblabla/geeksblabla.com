@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import heroImage from "@/assets/podcast/hero-image.png";
-import { Button } from "../button";
+import { Button, ButtonLink } from "../button";
 import Header from "../header.astro";
 import { Icon } from "astro-icon/components";
 ---
@@ -22,9 +22,9 @@ import { Icon } from "astro-icon/components";
           discuss, highlight and share the latest technology topics
         </p>
         <div class="flex space-x-4">
-          <Button>
+          <ButtonLink href="/podcast" variant="secondary">
             Watch Podcast <Icon name="arrow-right" class="ml-2 rotate-45" />
-          </Button>
+          </ButtonLink>
           <Button variant="outline">
             Surprise me <Icon name="arrow-right" class="ml-2" />
           </Button>

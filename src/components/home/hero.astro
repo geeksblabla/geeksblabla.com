@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import heroImage from "@/assets/hero-image.png";
-import { Button } from "../button";
+import { ButtonLink } from "../button";
 import Header from "../header.astro";
 import { Icon } from "astro-icon/components";
 ---
@@ -23,12 +23,12 @@ import { Icon } from "astro-icon/components";
           many more.
         </p>
         <div class="flex space-x-4">
-          <Button>
+          <ButtonLink href="#projects">
             Discover projects <Icon name="arrow-right" class="ml-2 rotate-45" />
-          </Button>
-          <Button variant="outline">
+          </ButtonLink>
+          <ButtonLink href="/podcast" variant="outline">
             Podcast <Icon name="arrow-right" class="ml-2" />
-          </Button>
+          </ButtonLink>
         </div>
       </div>
     </div>
