@@ -1,6 +1,8 @@
 ---
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
+import { ButtonLink } from "../button";
+import { Icon } from "astro-icon/components";
 
 export interface EpisodeType {
   title: string;
@@ -33,7 +35,7 @@ const { episode, fullWidth } = Astro.props as Props;
     class:list={[
       "flex",
       { "flex-col md:flex-row-reverse": fullWidth, "flex-col": !fullWidth },
-      "items-start p-6",
+      "h-full items-start p-6",
     ]}
   >
     <Image
@@ -44,11 +46,11 @@ const { episode, fullWidth } = Astro.props as Props;
         { "m-6": !fullWidth, "ml-6": fullWidth },
       ]}
     />
-    <div class:list={["flex-1", { "pr-0 md:pr-6": fullWidth }]}>
+    <div class:list={["h-full flex-1", { "pr-0 md:pr-6": fullWidth }]}>
       <div class="mb-2 flex items-start">
         <h3 class="text-heading-lg">{episode.title}</h3>
       </div>
-      <div class="flex items-start">
+      <div class="flex h-full flex-1 items-start">
         <svg
           width="20"
           height="18"
@@ -60,13 +62,16 @@ const { episode, fullWidth } = Astro.props as Props;
             d="M0.4 -9.53674e-07H1.6V16.4H7.2V17.6H0.4V-9.53674e-07ZM6.79219 17.6V16.4H19.1922V17.6H6.79219Z"
             fill="#292D33"></path>
         </svg>
-        <div class="flex-1 pl-2">
-          <p class="mb-4 text-paragraph-lg text-neutral-dark-20">
-            {episode.description}
-          </p>
-          <a href={episode.link.url} class="text-primary text-paragraph-lg">
+        <div class="pl-2">
+          <div class="mb-4 text-paragraph-lg text-neutral-dark-20">
+            <p>
+              {episode.description}
+            </p>
+          </div>
+          <ButtonLink href={episode.link.url} variant="outline">
             {episode.link.text}
-          </a>
+            <Icon name="external-link" class="ml-1 h-4 w-4" />
+          </ButtonLink>
         </div>
       </div>
     </div>
