@@ -1,0 +1,29 @@
+---
+import { render, type CollectionEntry } from "astro:content";
+import { YouTube } from "@astro-community/astro-embed-youtube";
+
+type Props = {
+  episode: CollectionEntry<"podcast">;
+};
+
+const { episode } = Astro.props;
+
+const { Content } = await render(episode);
+---
+
+<div class="pl-2">
+  <div
+    class="aspect-w-16 aspect-h-9 relative m-auto aspect-video w-full rounded-lg shadow-lg duration-300 hover:translate-y-3"
+  >
+    <YouTube
+      id={episode.data.youtube}
+      posterQuality="high"
+      class="aspect-w-16 aspect-h-9 aspect-video w-full max-w-[1000px] rounded-lg"
+    />
+  </div>
+  <div class="p-4 py-12">
+    <article class="prose">
+      <Content />
+    </article>
+  </div>
+</div>

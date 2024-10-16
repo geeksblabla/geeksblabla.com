@@ -1,11 +1,14 @@
 ---
+import Header from "@/components/header.astro";
+import Layout from "@/components/layout.astro";
+import EpisodeContent from "@/components/podcast/episode-content.astro";
+import EpisodesList from "@/components/podcast/episodes-list.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
-import { render } from "astro:content";
 
 export async function getStaticPaths() {
   const posts = await getCollection("podcast");
   return posts.map(episode => ({
-    params: { slug: episode.id },
+    params: { slug: episode.data.episodeSlug },
     props: episode,
   }));
 }
@@ -14,9 +17,18 @@ type Props = CollectionEntry<"podcast">;
 const episode = Astro.props;
 
 console.log(episode);
-const { Content } = await render(episode);
 ---
 
-<main>
-  <Content />
-</main>
+<Layout>
+  <div class="bg-[#F2F4F7]">
+    <Header />
+    <div class="container mx-auto px-4 py-16">
+      <div class="flex flex-row">
+        <EpisodesList />
+        <div class="flex-1">
+          <EpisodeContent episode={episode} />
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

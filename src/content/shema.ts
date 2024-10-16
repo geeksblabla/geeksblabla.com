@@ -10,14 +10,25 @@ const getYoutubeThumbnail = (youtubeUrl?: string) => {
   return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 };
 
+const transformDate = (date: string) => {
+  const dateObj = new Date(date);
+  const options: Intl.DateTimeFormatOptions = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+  return dateObj.toLocaleDateString("en-US", options);
+};
+
 export const episodeSchema = z
   .object({
     title: z.string(),
     date: z.coerce.date(),
+    dateString: z.string().optional(),
     duration: z.string(),
     tags: z.array(z.string()),
     category: z.string(),
-    youtube: z.string().url().optional(),
+    youtube: z.string().url(),
     published: z.boolean(),
     featured: z.boolean().optional().default(false),
     heroImage: z.string().optional(),
@@ -27,9 +38,11 @@ export const episodeSchema = z
   .transform(arg => {
     const heroImage = getYoutubeThumbnail(arg.youtube);
     const episodeSlug = arg.slug ? arg.slug : slugify(arg.title);
+    const dateString = transformDate(arg.date.toISOString());
     return {
       ...arg,
       heroImage,
       episodeSlug,
+      dateString,
     };
   });
