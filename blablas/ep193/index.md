@@ -16,7 +16,7 @@ In this episode, we discuss the Digital Morocco 2030 strategy, its key component
 ## Guests
 
 - [Badr Bellaj](https://www.linkedin.com/in/bellajbadr/)
-- [Mouhssine Lakhdissi](https://www.linkedin.com/in/mlakhdissi/))
+- [Mouhssine Lakhdissi](https://www.linkedin.com/in/mlakhdissi/)
 - [Maryem Nairi](https://www.linkedin.com/in/nairi-meryem/)
 - [Ali Khyatti](https://www.linkedin.com/in/khyatti-ali/)
 
@@ -41,7 +41,7 @@ In this episode, we discuss the Digital Morocco 2030 strategy, its key component
 
 2:33:30 - How Developers and the Community Can Contribute to This Strategy
 
-2:43:00 - Conclusion
+2:43:00 - Wrap up and goodbye
 
 ## Links
 
