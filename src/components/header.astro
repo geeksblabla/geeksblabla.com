@@ -77,7 +77,9 @@ const currentPath = Astro.url.pathname;
                 <HeaderLink
                   label={item.label}
                   href={item.href}
-                  isActive={currentPath === item.href}
+                  isActive={
+                    currentPath === item.href || currentPath === `${item.href}/`
+                  }
                 />
               </li>
             ))

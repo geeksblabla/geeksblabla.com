@@ -18,7 +18,7 @@
   font-display: swap;
 }
 
-* {
+body {
   font-family: 'CommitMono', monospace;
   color: #1A1C1E;
 }
