@@ -8,7 +8,7 @@ const navItems = [
   { label: "Podcast", href: "/podcast" },
   { label: "About us", href: "/about" },
   { label: "Blog", href: "/blog" },
-  { label: "Style Guide", href: "/style" },
+  { label: "Brand Style", href: "/brand" },
 ];
 
 const socialIcons = [
@@ -90,7 +90,7 @@ const currentPath = Astro.url.pathname;
       aria-label="Header Navigation"
       class="hidden flex-row items-center md:flex"
     >
-      <ul class="flex flex-row items-center space-x-6">
+      <ul class="flex flex-row items-center space-x-2">
         {
           navItems.map(item => (
             <li>

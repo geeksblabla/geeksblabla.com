@@ -13,11 +13,18 @@ const { label, href, external = false, isActive = false } = Astro.props;
 
 <a
   href={href}
-  class={`inline-flex items-center px-2 py-2 text-label-sm font-sans text-black transition-colors duration-200 ${
+  class={`relative inline-flex items-center px-2  pl-4 text-label-sm font-sans text-black transition-colors duration-200 ${
     isActive ? "font-bold" : "font-normal"
   }`}
   target={external ? "_blank" : undefined}
 >
-  {isActive && <Icon name="arrow-right" class="mr-1 h-4 w-4" />}
+  {
+    isActive && (
+      <Icon
+        name="arrow-right"
+        class="absolute left-0 top-1/2 h-3.5 w-3.5 -translate-y-1/2 transform"
+      />
+    )
+  }
   {label}
 </a>

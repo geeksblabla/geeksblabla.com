@@ -24,8 +24,13 @@ const iconNames = getIconNames(iconsDirectory);
 
 <section class="container flex flex-wrap items-center gap-4 p-8 py-8 text-3xl">
   {
-    iconNames
-      .filter(name => name !== "instagram")
-      .map(name => <Icon name={name} />)
+    iconNames.map(name => (
+      <div class="group relative">
+        <Icon name={name} title={name} class="cursor-pointer" />
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 transform whitespace-nowrap rounded bg-gray-800 px-2 py-1 text-xs text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          {name}
+        </span>
+      </div>
+    ))
   }
 </section>
