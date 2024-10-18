@@ -18,6 +18,24 @@ const values: VV[] = [
   { icon: empathyIcon, name: "EMPATHY" },
   { icon: accountabilityIcon, name: "ACCOUNTABILITY" },
 ];
+
+const mission = [
+  {
+    title: "Knowledge Exchange",
+    description:
+      "Between novice learners and seasoned professionals, we create a supportive environment for skill enhancement.",
+  },
+  {
+    title: "Inclusive Diversity",
+    description:
+      "Embracing the different perspectives & backgrounds to enrich our collective knowledge and inspire innovation.",
+  },
+  {
+    title: "Tech for Social Impact",
+    description:
+      "Harness the collective power of the community to drive positive change.",
+  },
+];
 ---
 
 <section class="bg-[#F2F4F7] py-16 font-light">
@@ -26,35 +44,24 @@ const values: VV[] = [
     <p
       class="mb-12 max-w-[800px] text-paragraph-lg font-thin text-neutral-dark-50"
     >
-      is to Empower Moroccan 🇲🇦 IT enthusiasts and beyond to thrive through
+      Is to Empower Moroccan 🇲🇦 IT enthusiasts and beyond to thrive through
       continuous learning, exchange, collaboration, and innovation.
     </p>
 
-    <div class="flex flex-col gap-8 sm:flex-row">
-      <div>
-        <h3 class="mb-4 text-heading-sm font-light">Knowledge Exchange</h3>
-        <p class="text-paragraph-sm text-neutral-dark-50">
-          Between novice learners and seasoned professionals, we create a
-          supportive environment for skill enhancement.
-        </p>
-      </div>
-      <div>
-        <h3 class="mb-4 text-heading-sm font-light">Inclusive Diversity</h3>
-        <p class="text-paragraph-sm text-neutral-dark-50">
-          Embracing the different perspectives & backgrounds to enrich our
-          collective knowledge and inspire innovation.
-        </p>
-      </div>
-      <div>
-        <h3 class="mb-4 text-heading-sm font-light">Tech for Social Impact</h3>
-        <p class="text-paragraph-sm text-neutral-dark-50">
-          Harness the collective power of the community to drive positive
-          change.
-        </p>
-      </div>
+    <div class="mb-12 grid grid-cols-1 gap-8 sm:grid-cols-3">
+      {
+        mission.map(item => (
+          <div>
+            <h4 class="mb-4 text-label-lg font-semibold">{item.title}</h4>
+            <p class="text-paragraph-sm text-neutral-dark-50">
+              {item.description}
+            </p>
+          </div>
+        ))
+      }
     </div>
 
-    <h2 class="mb-8 text-4xl font-bold">Our values</h2>
+    <h2 class="my-8 text-4xl font-bold">Our values</h2>
     <div class="grid grid-cols-2 gap-8 md:grid-cols-3">
       {
         values.map(value => (

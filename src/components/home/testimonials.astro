@@ -1,7 +1,9 @@
 ---
 import { Image } from "astro:assets";
 import testimonialsData from "./testimonials.json";
+import avatarSrc from "@/assets/testimonials/avatar.png";
 
+// TODO use content layer to load testimonials to make sure we validate the data first
 interface Testimonial {
   name: string;
   role: string;
@@ -42,7 +44,7 @@ const testimonials: Testimonial[] = testimonialsData;
               )}
               <div class="flex items-center">
                 <Image
-                  src={testimonial.profile_image}
+                  src={avatarSrc}
                   alt={testimonial.name}
                   width={40}
                   height={40}

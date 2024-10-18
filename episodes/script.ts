@@ -56,4 +56,3 @@ function processDirectory(dir: string) {
 }
 
 processDirectory(episodesDir);
-console.log("Processing complete.");

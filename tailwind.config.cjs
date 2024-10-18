@@ -86,56 +86,56 @@ module.exports = {
       },
       fontSize: {
         title: [
-          "76px",
+          "clamp(3rem, 2.5rem + 2.5vw, 4.75rem)",
           {
             lineHeight: "105%",
             letterSpacing: "-0.01em",
           },
         ],
         "heading-lg": [
-          "44px",
+          "clamp(2rem, 1.75rem + 1.25vw, 2.75rem)",
           {
             lineHeight: "125%",
             letterSpacing: "0",
           },
         ],
         "heading-sm": [
-          "32px",
+          "clamp(1.5rem, 1.375rem + 0.625vw, 2rem)",
           {
             lineHeight: "115%",
             letterSpacing: "0",
           },
         ],
         "label-lg": [
-          "24px",
+          "clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5rem)",
           {
             lineHeight: "150%",
             letterSpacing: "0",
           },
         ],
         "label-sm": [
-          "20px",
+          "clamp(1.125rem, 1.0938rem + 0.1563vw, 1.25rem)",
           {
             lineHeight: "135%",
             letterSpacing: "0.01em",
           },
         ],
         "paragraph-lg": [
-          "18px",
+          "clamp(1rem, 0.9688rem + 0.1563vw, 1.125rem)",
           {
             lineHeight: "165%",
             letterSpacing: "-0.01em",
           },
         ],
         "paragraph-sm": [
-          "16px",
+          "clamp(0.875rem, 0.8594rem + 0.0781vw, 1rem)",
           {
             lineHeight: "155%",
             letterSpacing: "-0.02em",
           },
         ],
         "paragraph-xs": [
-          "14px",
+          "clamp(0.75rem, 0.7344rem + 0.0781vw, 0.875rem)",
           {
             lineHeight: "155%",
             letterSpacing: "-0.01em",
