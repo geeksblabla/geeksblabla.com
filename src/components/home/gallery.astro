@@ -1,6 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 const gallery = await getCollection("gallery");
+
+console.log(gallery);
 ---
 
 <section class="bg-[#F2F4F7] py-16">
@@ -47,24 +49,6 @@ const gallery = await getCollection("gallery");
   is:inline
   src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
 ></script>
-
-<!-- <script is:inline>
-  const swiperEl = document.querySelector("swiper-container");
-  const swiperParams = {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    navigation: true,
-    pagination: {
-      clickable: true,
-    },
-    keyboard: {
-      enabled: true,
-    },
-  };
-
-  Object.assign(swiperEl, swiperParams);
-  swiperEl.initialize();
-</script> -->
 
 <style>
   swiper-container {
