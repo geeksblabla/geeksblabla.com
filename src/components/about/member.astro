@@ -1,0 +1,27 @@
+---
+import { Image } from "astro:assets";
+
+export interface MemberProps {
+  name: string;
+  x_handle: string;
+  profile_image: string;
+  status: string;
+}
+
+const { name, x_handle, profile_image } = Astro.props;
+---
+
+<div class="md:mb mb-2">
+  <Image
+    class="mx-auto overflow-hidden rounded-t-[4px]"
+    src={profile_image}
+    alt={name}
+    width={297}
+    height={330}
+    loading="lazy"
+  />
+  <div class="mx-auto rounded-b-[4px] bg-[#0E0F10] p-4">
+    <h3 class="mb-2 truncate text-xl font-semibold text-white">{name}</h3>
+    <p class="text-gray-400">{x_handle}</p>
+  </div>
+</div>
