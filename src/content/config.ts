@@ -29,4 +29,8 @@ const gallery = !import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME
       }),
     });
 
-export const collections = { podcast, gallery };
+const team = defineCollection({
+  loader: file("src/components/about/team-members.json"),
+});
+
+export const collections = { podcast, gallery, team };
