@@ -1,14 +1,18 @@
 ---
-import teamMembers from "./team-members.json";
 import Member from "./member.astro";
 import type { MemberProps } from "./member.astro";
+import { getCollection } from "astro:content";
 
-const activeMembers = (teamMembers as MemberProps[]).filter(
-  member => member.status === "active"
-);
-const pastMembers = (teamMembers as MemberProps[]).filter(
-  member => member.status === "past"
-);
+const teamCollection = await getCollection("team");
+const teamMembers: MemberProps[] = teamCollection.map(member => ({
+  name: member.data.name,
+  x_handle: member.data.x_handle,
+  profile_image: member.data.profile_image,
+  status: member.data.status,
+}));
+
+const activeMembers = teamMembers.filter(member => member.status === "active");
+const pastMembers = teamMembers.filter(member => member.status === "past");
 ---
 
 <section id="team" class="bg-[#1A1C1E] py-16">
