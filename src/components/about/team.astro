@@ -1,12 +1,12 @@
 ---
-import teamData from "./team-members.json";
+import teamMembers from "./team-members.json";
 import Member from "./member.astro";
 import type { MemberProps } from "./member.astro";
 
-const activeMembers: MemberProps[] = teamData.filter(
+const activeMembers = (teamMembers as MemberProps[]).filter(
   member => member.status === "active"
 );
-const pastMembers: MemberProps[] = teamData.filter(
+const pastMembers = (teamMembers as MemberProps[]).filter(
   member => member.status === "past"
 );
 ---

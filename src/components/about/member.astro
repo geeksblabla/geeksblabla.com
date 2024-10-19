@@ -6,7 +6,7 @@ export interface MemberProps {
   name: string;
   x_handle: string;
   profile_image: string;
-  status: string;
+  status: "active" | "past";
 }
 
 const { name, x_handle, profile_image } = Astro.props;
