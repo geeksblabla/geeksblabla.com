@@ -9,13 +9,22 @@ published: true
 featured: false
 ---
 
+<!-- section-description -->
+
 In this episode, we will explore Vector databases, a cutting-edge technology revolutionizing data storage and retrieval. We'll examine how these systems efficiently handle high-dimensional data, enabling advanced search capabilities and powering modern AI applications across various industries.
+
+<!-- /section-description -->
+
+<!-- section-guests -->
 
 ## Guests
 
 - [Oumayma Essarhi](https://twitter.com/oumayma_es_)
 - [Taha Bouhsine](https://twitter.com/Tahabsn)
 - [Merouane Zouaid](https://x.com/merouanezouaid)
+<!-- /section-guests -->
+
+<!-- section-notes -->
 
 ## Notes
 
@@ -39,6 +48,10 @@ In this episode, we will explore Vector databases, a cutting-edge technology rev
 
 1:27:00 - Conclusion
 
+<!-- /section-notes -->
+
+<!-- section-links -->
+
 ## Links
 
 - [Extracting Training Data from Large Language Models](https://arxiv.org/pdf/2012.07805)
@@ -48,7 +61,11 @@ In this episode, we will explore Vector databases, a cutting-edge technology rev
 - [DataGemma](https://ai.google.dev/gemma/docs/datagemma)
 - [Masked Image Modeling with Vector-Quantized Visual Tokenizers](https://arxiv.org/pdf/2208.06366)
 - [An Any-to-Any Vision Model for Tens of Tasks and Modalities](https://arxiv.org/abs/2406.09406)
+<!-- /section-links -->
+
+<!-- section-hosts -->
 
 ## Prepared and Presented by
 
 - [Meriem Zaid](https://www.linkedin.com/in/meriem-zaid-652852187/)
+<!-- /section-hosts -->

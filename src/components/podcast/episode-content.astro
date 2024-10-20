@@ -1,6 +1,8 @@
 ---
-import { render, type CollectionEntry } from "astro:content";
+import { type CollectionEntry } from "astro:content";
 import { YouTube } from "@astro-community/astro-embed-youtube";
+import { extractEpisodeContent } from "@/lib/podcast-utils";
+import { Markdown } from "@astropub/md";
 
 type Props = {
   episode: CollectionEntry<"podcast">;
@@ -8,7 +10,9 @@ type Props = {
 
 const { episode } = Astro.props;
 
-const { Content } = await render(episode);
+const episodeContent = extractEpisodeContent(episode.body ?? "");
+
+// const { Content } = await render(episode);
 ---
 
 <div class="pl-2">
@@ -23,7 +27,8 @@ const { Content } = await render(episode);
   </div>
   <div class="p-4 py-12">
     <article class="prose">
-      <Content />
+      <Markdown of={episodeContent.description} />
+      <Markdown of={episodeContent.notes} />
     </article>
   </div>
 </div>
