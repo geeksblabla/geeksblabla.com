@@ -32,12 +32,12 @@ export const SOCIALS: SocialObjects = {
     active: true,
   },
   youtube: {
-    href: "https://www.youtube.com/channel/UCW2WV7NKU0WPyuv4YoNSqBA",
+    href: "https://www.youtube.com/@GeeksBlaBla01",
     linkTitle: `${SITE.title} on YouTube`,
     active: true,
   },
   linkedin: {
-    href: "https://www.linkedin.com/company/geeksblabla",
+    href: "https://www.linkedin.com/company/geeksblabla-community",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
@@ -52,7 +52,7 @@ export const SOCIALS: SocialObjects = {
     active: true,
   },
   instagram: {
-    href: "https://www.instagram.com/geeks_blabla",
+    href: "https://www.instagram.com/geeksblabla",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
