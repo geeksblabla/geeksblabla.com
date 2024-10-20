@@ -15,10 +15,12 @@ const activeMembers = teamMembers.filter(member => member.status === "active");
 const pastMembers = teamMembers.filter(member => member.status === "past");
 ---
 
-<section id="team" class="bg-[#1A1C1E] py-16">
+<section id="team" class="bg-neutral-dark-20 py-16">
   <div class="container mx-auto">
     <!-- Active Team Members -->
-    <h2 class="mb-6 text-center text-3xl font-bold text-white md:text-left">
+    <h2
+      class="mb-6 text-center text-heading-sm text-neutral-light-50 md:text-left"
+    >
       Meet Our Team
     </h2>
     <div
@@ -37,10 +39,14 @@ const pastMembers = teamMembers.filter(member => member.status === "past");
     </div>
 
     <!-- Past Members -->
-    <h2 class="mb-2 text-center text-3xl font-bold text-white md:text-left">
+    <h2
+      class="mb-2 text-center text-heading-sm text-neutral-light-50 md:text-left"
+    >
       Former Team Members
     </h2>
-    <p class="mb-6 text-center text-gray-300 md:text-left">
+    <p
+      class="mb-6 text-center text-paragraph-sm text-neutral-light-0 md:text-left"
+    >
       No effort goes unappreciated. On behalf of the community, we thank our
       ex-team members for their contributions and lasting impact. 🙏
     </p>
