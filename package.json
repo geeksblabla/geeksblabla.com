@@ -19,6 +19,7 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/mdx": "^3.1.8",
     "@astrojs/rss": "^4.0.7",
+    "@astropub/md": "^1.0.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^4.15.12",
