@@ -1,10 +1,9 @@
 ---
 import Member from "./member.astro";
-import type { MemberProps } from "./member.astro";
 import { getCollection } from "astro:content";
 
 const teamCollection = await getCollection("team");
-const teamMembers: MemberProps[] = teamCollection.map(member => ({
+const teamMembers = teamCollection.map(member => ({
   name: member.data.name,
   x_handle: member.data.x_handle,
   profile_image: member.data.profile_image,

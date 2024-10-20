@@ -1,7 +1,7 @@
 import { file, glob } from "astro/loaders";
 import { defineCollection } from "astro:content";
 import { cldAssetsLoader } from "astro-cloudinary/loaders";
-import { episodeSchema } from "./shema";
+import { episodeSchema, teamSchema } from "./shema";
 /**
  * Podcast collection
  * Read episodes markdown files from episodes folder in the root of the project
@@ -31,6 +31,7 @@ const gallery = !import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME
 
 const team = defineCollection({
   loader: file("src/components/about/team-members.json"),
+  schema: teamSchema,
 });
 
 export const collections = { podcast, gallery, team };
