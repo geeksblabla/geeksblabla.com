@@ -46,3 +46,13 @@ export const episodeSchema = z
       dateString,
     };
   });
+
+export const teamSchema = z.object({
+  id: z.number(),
+  name: z.string().min(1, "Name cannot be empty"),
+  x_handle: z.string().regex(/^@\w+$/, "Invalid Twitter handle format"),
+  profile_image: z
+    .string()
+    .regex(/\.(jpg|jpeg|png|gif)$/, "Invalid image file format"),
+  status: z.enum(["active", "past"]),
+});
