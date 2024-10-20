@@ -21,16 +21,16 @@ const { name, x_handle, profile_image } = Astro.props;
     height={330}
     loading="lazy"
   />
-  <div class="mx-auto rounded-b-[4px] bg-[#0E0F10] p-4">
-    <h3 class="mb-2 truncate text-xl font-semibold text-white">{name}</h3>
+  <div class="mx-auto rounded-b-[4px] bg-neutral-dark-0 p-4">
+    <h3 class="mb-2 truncate text-label-sm text-neutral-light-50">{name}</h3>
     <div class="flex items-center space-x-2">
+      <Icon name="x" class="h-5 w-5 text-neutral-light-30" />
       <a
         href={`https://x.com/${x_handle}`}
-        class="text-white hover:text-gray-400"
+        class="text-neutral-light-50 hover:text-neutral-light-0"
       >
-        <Icon name="x" class="h-5 w-5" />
+        <p>{x_handle}</p>
       </a>
-      <p class="text-gray-400">{x_handle}</p>
     </div>
   </div>
 </div>
