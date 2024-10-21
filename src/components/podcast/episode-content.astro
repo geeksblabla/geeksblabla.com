@@ -1,9 +1,9 @@
 ---
 import { type CollectionEntry } from "astro:content";
-import { YouTube } from "@astro-community/astro-embed-youtube";
 import { extractEpisodeContent } from "@/lib/podcast-utils";
 import { Markdown } from "@astropub/md";
 import { Icon } from "astro-icon/components";
+import VideoPlayer from "../video-player.astro";
 
 type Props = {
   episode: CollectionEntry<"podcast">;
@@ -15,15 +15,7 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
 ---
 
 <div class="pl-2">
-  <div
-    class="aspect-w-16 aspect-h-9 relative m-auto aspect-video w-full rounded-lg shadow-lg duration-300 hover:translate-y-3"
-  >
-    <YouTube
-      id={episode.data.youtube}
-      posterQuality="high"
-      class="aspect-w-16 aspect-h-9 aspect-video w-full max-w-[1000px] rounded-lg"
-    />
-  </div>
+  <VideoPlayer src={episode.data.youtube} />
   <div class="p-4 py-12">
     <article>
       <div class="pose">
@@ -113,3 +105,27 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
     </article>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const youtubeVideo = document.querySelector(
+      "youtube-video"
+    ) as HTMLVideoElement;
+    const seekToTimestamp = () => {
+      const hash = window.location.hash;
+      if (hash && hash.startsWith("#")) {
+        const seconds = parseInt(hash.slice(1), 10);
+        if (!isNaN(seconds) && youtubeVideo) {
+          console.log("seeking to", youtubeVideo);
+          youtubeVideo.currentTime = seconds;
+        }
+      }
+    };
+
+    // Initial check on page load
+    seekToTimestamp();
+
+    // Listen for hash changes(clicks from notes)
+    window.addEventListener("hashchange", seekToTimestamp);
+  });
+</script>
