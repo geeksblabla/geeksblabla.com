@@ -1,6 +1,8 @@
 ---
 import Card from "./card";
 import type { CollectionEntry } from "astro:content";
+import getReadingTime from "reading-time";
+
 import { ButtonLink } from "@/components/button";
 import Layout from "../layout.astro";
 import { SITE } from "@/config";
@@ -21,13 +23,17 @@ const next = pageNum < totalPages ? "" : "disabled";
 <Layout title={`Articles | ${SITE.title}`}>
   <Header />
   <main class="container mx-auto">
-    <ul>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
       {
-        articles.map(({ data }) => (
-          <Card href={`/blog/${data.postSlug}`} frontmatter={data} />
+        articles.map(({ data, body = "" }) => (
+          <Card
+            href={`/blog/${data.postSlug}`}
+            frontmatter={data}
+            minutesRead={getReadingTime(body).text}
+          />
         ))
       }
-    </ul>
+    </div>
     {
       totalPages > 1 && (
         <nav class="mb-8 mt-auto flex justify-center" aria-label="Pagination">

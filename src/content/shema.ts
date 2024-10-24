@@ -16,17 +16,17 @@ export const episodeSchema = z
     youtube: z.string().url(),
     published: z.boolean(),
     featured: z.boolean().optional().default(false),
-    heroImage: z.string().optional(),
+    ogImage: z.string().optional(),
     slug: z.string().optional(),
     episodeSlug: z.string().optional(),
   })
   .transform(arg => {
-    const heroImage = getYoutubeThumbnail(arg.youtube);
+    const ogImage = getYoutubeThumbnail(arg.youtube);
     const episodeSlug = arg.slug ? arg.slug : slugify(arg.title);
     const dateString = transformDateToLocaleString(arg.date.toISOString());
     return {
       ...arg,
-      heroImage,
+      ogImage,
       episodeSlug,
       dateString,
     };
@@ -48,9 +48,11 @@ export const blogSchema = z
   })
   .transform(arg => {
     const postSlug = arg.postSlug ? arg.postSlug : slugify(arg.title);
+    const ogImage = arg.ogImage ? arg.ogImage : `${arg.title}.png`;
     return {
       ...arg,
       postSlug,
+      ogImage,
     };
   });
 

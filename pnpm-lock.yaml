@@ -47,6 +47,9 @@ importers:
       lodash.kebabcase:
         specifier: ^4.1.1
         version: 4.1.1
+      reading-time:
+        specifier: ^1.5.0
+        version: 1.5.0
       remark-collapse:
         specifier: ^0.1.2
         version: 0.1.2
@@ -54,7 +57,7 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0
       satori:
-        specifier: ^0.11.0
+        specifier: ^0.11.2
         version: 0.11.2
       tailwindcss:
         specifier: ^3.4.11
@@ -3150,6 +3153,9 @@ packages:
   readdirp@4.0.2:
     resolution: {integrity: sha512-yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==}
     engines: {node: '>= 14.16.0'}
+
+  reading-time@1.5.0:
+    resolution: {integrity: sha512-onYyVhBNr4CmAxFsKS7bz+uTLRakypIe4R+5A824vBSkQy/hB3fZepoVEf8OVAxzLvK+H/jm9TzpI3ETSm64Kg==}
 
   regex@4.3.3:
     resolution: {integrity: sha512-r/AadFO7owAq1QJVeZ/nq9jNS1vyZt+6t1p/E59B56Rn2GCya+gr1KSyOzNL/er+r+B7phv5jG2xU2Nz1YkmJg==}
@@ -7405,6 +7411,8 @@ snapshots:
       picomatch: 2.3.1
 
   readdirp@4.0.2: {}
+
+  reading-time@1.5.0: {}
 
   regex@4.3.3: {}
 
