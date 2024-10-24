@@ -53,13 +53,19 @@ Button.displayName = "Button";
 
 export interface ButtonLinkProps
   extends React.AnchorHTMLAttributes<HTMLAnchorElement>,
-    VariantProps<typeof buttonVariants> {}
+    VariantProps<typeof buttonVariants> {
+  ariaLabel?: string;
+  title?: string;
+  disabled?: boolean;
+}
 
 const ButtonLink = React.forwardRef<HTMLAnchorElement, ButtonLinkProps>(
-  ({ className, variant, size, ...props }, ref) => {
+  ({ className, variant, size, disabled, href, ...props }, ref) => {
     return (
       <a
         className={cn(buttonVariants({ variant, size, className }))}
+        href={disabled ? "#" : href}
+        tabIndex={disabled ? -1 : 0}
         ref={ref}
         {...props}
       />

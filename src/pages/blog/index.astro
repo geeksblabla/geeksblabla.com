@@ -1,11 +1,21 @@
 ---
-import Layout from "@/components/layout.astro";
-import Header from "@/components/header.astro";
+import { SITE } from "@/config";
+import Articles from "@/components/blog/articles.astro";
+import { getSortedArticles, getPageNumbers } from "@/lib/utils";
+
+import { getCollection } from "astro:content";
+
+const articles = await getCollection("blog");
+
+const sortedArticles = getSortedArticles(articles);
+
+const totalPages = getPageNumbers(sortedArticles.length);
+
+const paginatedArticles = sortedArticles.slice(0, SITE.postPerPage);
 ---
 
-<Layout>
-  <Header />
-  <div class="container mx-auto px-4">
-    <h1>Blog</h1>
-  </div>
-</Layout>
+<Articles
+  articles={paginatedArticles}
+  pageNum={1}
+  totalPages={totalPages.length}
+/>

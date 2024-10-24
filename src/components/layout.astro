@@ -1,70 +1,58 @@
 ---
+import { SITE } from "@/config";
 import Footer from "./footer.astro";
-// import { AstroSeo } from "@astrolib/seo";
+import { AstroSeo } from "@astrolib/seo";
 import "@/global.css";
-// import GoogleAnalytics from "@/components/google-analytics.astro";
 
-interface Props {
+export interface Props {
   title?: string;
-  year?: number;
+  author?: string;
   description?: string;
+  ogImage?: string;
 }
 
-const { title: titleProp } = Astro.props;
-const title = titleProp || "GeeksBlabla Community";
-// const description =
-//   descriptionProp ||
-//   "Participate and let us know what working in tech really looks like in Morocco 🇲🇦";
+const {
+  title = SITE.title,
+  author = SITE.author,
+  description = SITE.desc,
+  ogImage = SITE.ogImage,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const socialImageURL = new URL(
+  ogImage ? ogImage : SITE.ogImage,
+  Astro.url.origin
+).href;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title} | GeeksBlabla Community</title>
-    <!-- Add other meta tags, stylesheets, etc. -->
-    <!-- <>
-      {
-        year === undefined ? (
-          <AstroSeo
-            title={title}
-            description={description}
-            canonical="https://stateofdev.ma"
-            openGraph={{
-              url: "https://stateofdev.ma",
-              title: "State Of Dev In Morocco",
-              description:
-                "Participate and let  us know what working in tech really looks like in Morocco 🇲🇦",
-              images: [
-                {
-                  url: "https://www.stateofdev.ma/images/state-of-dev-cover.jpg",
-                },
-              ],
-              site_name: "StateOfDevMa",
-            }}
-          />
-        ) : (
-          <AstroSeo
-            title={`State Of Dev In Morocco ${year} 🇲🇦`}
-            description={`State Of Dev In Morocco ${year} 🇲🇦 | Moroccan developers jobs satisfaction, salaries, and community contribution, how they learn and level up, which tools they’re using, and what they want to learn next. `}
-            canonical="https://stateofdev.ma"
-            openGraph={{
-              url: `https://stateofdev.ma/${year}`,
-              title: `State Of Dev In Morocco ${year} 🇲🇦`,
-              description: `State Of Dev In Morocco ${year} 🇲🇦 | Moroccan developers jobs satisfaction, salaries, and community contribution, how they learn and level up, which tools they’re using, and what they want to learn next. `,
-              images: [
-                // TODO: refactor image as props
-                {
-                  url: "https://www.stateofdev.ma/images/state-of-dev-cover.jpg",
-                },
-              ],
-              site_name: "StateOfDevMa",
-            }}
-          />
-        )
-      }
-    </> -->
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="author" content={author} />
+
+    <AstroSeo
+      title={title}
+      description={description}
+      canonical={canonicalURL.toString()}
+      openGraph={{
+        url: canonicalURL.toString(),
+        title: title,
+        description: description,
+        images: [
+          {
+            url: socialImageURL,
+          },
+        ],
+        site_name: title,
+      }}
+    />
+
     <!-- icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
@@ -113,10 +101,6 @@ const title = titleProp || "GeeksBlabla Community";
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
@@ -125,6 +109,5 @@ const title = titleProp || "GeeksBlabla Community";
   <body>
     <slot />
     <Footer />
-    <!-- <GoogleAnalytics id="UA-127901499-5" /> -->
   </body>
 </html>

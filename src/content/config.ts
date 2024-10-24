@@ -1,7 +1,7 @@
 import { file, glob } from "astro/loaders";
 import { defineCollection } from "astro:content";
 import { cldAssetsLoader } from "astro-cloudinary/loaders";
-import { episodeSchema, teamSchema } from "./shema";
+import { blogSchema, episodeSchema, teamSchema } from "./shema";
 /**
  * Podcast collection
  * Read episodes markdown files from episodes folder in the root of the project
@@ -11,6 +11,11 @@ import { episodeSchema, teamSchema } from "./shema";
 const podcast = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: "episodes" }),
   schema: episodeSchema,
+});
+
+const blog = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: "articles" }),
+  schema: blogSchema,
 });
 
 /**
@@ -34,4 +39,4 @@ const team = defineCollection({
   schema: teamSchema,
 });
 
-export const collections = { podcast, gallery, team };
+export const collections = { podcast, gallery, team, blog };

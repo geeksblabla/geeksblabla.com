@@ -1,24 +1,9 @@
+import {
+  getYoutubeThumbnail,
+  slugify,
+  transformDateToLocaleString,
+} from "@/lib/utils";
 import { z } from "astro:content";
-import { slug as slugger } from "github-slugger";
-
-const slugify = (str: string) => slugger(str);
-
-const getYoutubeThumbnail = (youtubeUrl?: string) => {
-  if (!youtubeUrl) return ""; // TODO: add default image in case of no thumbnail
-  const videoId = youtubeUrl.split("v=")[1];
-  if (!videoId) return ""; // TODO: add default image in case of no thumbnail
-  return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
-};
-
-const transformDate = (date: string) => {
-  const dateObj = new Date(date);
-  const options: Intl.DateTimeFormatOptions = {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  };
-  return dateObj.toLocaleDateString("en-US", options);
-};
 
 export const episodeSchema = z
   .object({
@@ -38,7 +23,7 @@ export const episodeSchema = z
   .transform(arg => {
     const heroImage = getYoutubeThumbnail(arg.youtube);
     const episodeSlug = arg.slug ? arg.slug : slugify(arg.title);
-    const dateString = transformDate(arg.date.toISOString());
+    const dateString = transformDateToLocaleString(arg.date.toISOString());
     return {
       ...arg,
       heroImage,
@@ -46,6 +31,30 @@ export const episodeSchema = z
       dateString,
     };
   });
+
+export const blogSchema = z
+  .object({
+    author: z.string().optional().default("Geeksblabla Team"),
+    pubDatetime: z.date(),
+    title: z.string(),
+    postSlug: z.string().optional(),
+    featured: z.boolean().optional(),
+    draft: z.boolean().optional(),
+    tags: z.array(z.string()).default(["others"]),
+    keywords: z.array(z.string()).default([""]),
+    ogImage: z.string().optional(),
+    description: z.string().optional().default(""),
+    published: z.boolean().optional().default(true),
+  })
+  .transform(arg => {
+    const postSlug = arg.postSlug ? arg.postSlug : slugify(arg.title);
+    return {
+      ...arg,
+      postSlug,
+    };
+  });
+
+export type ArticleFrontmatter = z.infer<typeof blogSchema>;
 
 export const teamSchema = z.object({
   id: z.number(),
