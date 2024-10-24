@@ -48,7 +48,7 @@ const categories = [
   <ul class="space-y-2">
     {
       sortedPodcast.map(episode => (
-        <a href={`/podcast/${episode.data.episodeSlug}`} class="block">
+        <a href={`/podcast/${episode.data.slug}`} class="block">
           <li class="cursor-pointer overflow-hidden rounded-lg bg-white p-4">
             <div class="flex items-center space-x-4">
               <div class="rounded-md border-2 border-black bg-white p-1">

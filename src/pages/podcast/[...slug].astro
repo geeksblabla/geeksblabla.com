@@ -8,7 +8,7 @@ import { type CollectionEntry, getCollection } from "astro:content";
 export async function getStaticPaths() {
   const posts = await getCollection("podcast");
   return posts.map(episode => ({
-    params: { slug: episode.data.episodeSlug },
+    params: { slug: episode.data.slug },
     props: episode,
   }));
 }

@@ -27,7 +27,7 @@ const next = pageNum < totalPages ? "" : "disabled";
       {
         articles.map(({ data, body = "" }) => (
           <Card
-            href={`/blog/${data.postSlug}`}
+            href={`/blog/${data.slug}`}
             frontmatter={data}
             minutesRead={getReadingTime(body).text}
           />

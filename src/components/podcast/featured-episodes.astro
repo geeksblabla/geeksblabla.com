@@ -15,7 +15,7 @@ const featuredEpisodes = podcast
     <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
       {
         featuredEpisodes.map(episode => (
-          <a href={`/podcast/${episode.data.episodeSlug}`} class="block">
+          <a href={`/podcast/${episode.data.slug}`} class="block">
             <div class="relative cursor-pointer transition-transform duration-300 hover:scale-105">
               <img
                 src={episode.data.ogImage}

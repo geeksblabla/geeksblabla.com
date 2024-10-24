@@ -18,16 +18,15 @@ export const episodeSchema = z
     featured: z.boolean().optional().default(false),
     ogImage: z.string().optional(),
     slug: z.string().optional(),
-    episodeSlug: z.string().optional(),
   })
   .transform(arg => {
     const ogImage = getYoutubeThumbnail(arg.youtube);
-    const episodeSlug = arg.slug ? arg.slug : slugify(arg.title);
+    const slug = arg.slug ? arg.slug : slugify(arg.title);
     const dateString = transformDateToLocaleString(arg.date.toISOString());
     return {
       ...arg,
       ogImage,
-      episodeSlug,
+      slug,
       dateString,
     };
   });
@@ -37,7 +36,7 @@ export const blogSchema = z
     author: z.string().optional().default("Geeksblabla Team"),
     pubDatetime: z.date(),
     title: z.string(),
-    postSlug: z.string().optional(),
+    slug: z.string().optional(),
     featured: z.boolean().optional(),
     draft: z.boolean().optional(),
     tags: z.array(z.string()).default(["others"]),
@@ -47,11 +46,11 @@ export const blogSchema = z
     published: z.boolean().optional().default(true),
   })
   .transform(arg => {
-    const postSlug = arg.postSlug ? arg.postSlug : slugify(arg.title);
+    const slug = arg.slug ? arg.slug : slugify(arg.title);
     const ogImage = arg.ogImage ? arg.ogImage : `${arg.title}.png`;
     return {
       ...arg,
-      postSlug,
+      slug,
       ogImage,
     };
   });

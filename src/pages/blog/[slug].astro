@@ -14,7 +14,7 @@ export interface Props {
 export async function getStaticPaths() {
   const articles = await getCollection("blog", ({ data }) => !data.draft);
   const articlePaths = articles.map(article => ({
-    params: { slug: article.data.postSlug },
+    params: { slug: article.data.slug },
     props: { article },
   }));
 
