@@ -1,9 +1,8 @@
 ---
-import { Image } from "astro:assets";
-import heroImage from "@/assets/hero-image.png";
 import { ButtonLink } from "../button";
 import Header from "../header.astro";
 import { Icon } from "astro-icon/components";
+import HeroAnimation from "./hero-animation.astro";
 ---
 
 <section class="relative overflow-hidden bg-[#D3DAE5]">
@@ -34,11 +33,12 @@ import { Icon } from "astro-icon/components";
     </div>
   </div>
   <div class="container pointer-events-none relative z-20 mx-auto -mt-32 px-4">
-    <Image
+    <HeroAnimation />
+    <!-- <Image
       src={heroImage}
       alt="Hero Illustration showing various IT-related icons and activities"
       class="w-full"
-    />
+    /> -->
   </div>
 </section>
 

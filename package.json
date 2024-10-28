@@ -22,6 +22,7 @@
     "@astropub/md": "^1.0.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@resvg/resvg-js": "^2.6.2",
+    "@rive-app/canvas": "^2.21.6",
     "astro": "^4.15.12",
     "astro-cloudinary": "^1.1.2",
     "astro-icon": "^1.1.1",

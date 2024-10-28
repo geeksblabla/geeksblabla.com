@@ -1,0 +1,24 @@
+---
+
+---
+
+<div class="relative origin-bottom scale-[1.40]">
+  <canvas id="canvas" class="-mt-24 w-full"></canvas>
+</div>
+
+<!-- consider using canvas lit -->
+<script is:inline src="https://unpkg.com/@rive-app/canvas@2.20.0"></script>
+<script>
+  import { Rive } from "@rive-app/canvas";
+  const r = new Rive({
+    src: "/animations/podcast_hero_graphic.riv",
+    canvas: document.getElementById("canvas") as HTMLCanvasElement,
+    autoplay: true,
+
+    // stateMachines: "Motion",
+    onLoad: () => {
+      // Ensure the drawing surface matches the canvas size and device pixel ratio
+      r.resizeDrawingSurfaceToCanvas();
+    },
+  });
+</script>
