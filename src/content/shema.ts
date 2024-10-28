@@ -47,11 +47,9 @@ export const blogSchema = z
   })
   .transform(arg => {
     const slug = arg.slug ? arg.slug : slugify(arg.title);
-    const ogImage = arg.ogImage ? arg.ogImage : `${arg.title}.png`;
     return {
       ...arg,
       slug,
-      ogImage,
     };
   });
 

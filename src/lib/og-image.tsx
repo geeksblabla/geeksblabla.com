@@ -1,30 +1,12 @@
-import type { SatoriOptions } from "satori";
 import satori from "satori";
 import { SITE } from "@/config";
-import { writeFile } from "node:fs/promises";
 import { Resvg } from "@resvg/resvg-js";
 
-const fetchFonts = async () => {
-  // Regular Font
-  // TODO: change fonts here
-  const fontFileRegular = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
-  );
-  const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
+import { type CollectionEntry } from "astro:content";
+import loadGoogleFonts, { type FontOptions } from "./load-fonts";
 
-  // Bold Font
-  const fontFileBold = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.bold.ttf"
-  );
-  const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
-
-  return { fontRegular, fontBold };
-};
-
-const { fontRegular, fontBold } = await fetchFonts();
-
-const ogImage = (text: string) => {
-  return (
+export const articleOgImage = async (article: CollectionEntry<"blog">) => {
+  return satori(
     <div
       style={{
         background: "#fefbfb",
@@ -82,7 +64,7 @@ const ogImage = (text: string) => {
               overflow: "hidden",
             }}
           >
-            {text}
+            {article.data.title}
           </p>
           <div
             style={{
@@ -93,7 +75,19 @@ const ogImage = (text: string) => {
               fontSize: 28,
             }}
           >
-            <span></span>
+            <span>
+              by{" "}
+              <span
+                style={{
+                  color: "transparent",
+                }}
+              >
+                "
+              </span>
+              <span style={{ overflow: "hidden", fontWeight: "bold" }}>
+                {article.data.author}
+              </span>
+            </span>
 
             <span style={{ overflow: "hidden", fontWeight: "bold" }}>
               {SITE.title}
@@ -101,50 +95,27 @@ const ogImage = (text: string) => {
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    {
+      width: 1200,
+      height: 630,
+      embedFont: true,
+      fonts: (await loadGoogleFonts(
+        article.data.title + article.data.author + SITE.title + "by"
+      )) as FontOptions[],
+    }
   );
 };
 
-const options: SatoriOptions = {
-  width: 1200,
-  height: 630,
-  embedFont: true,
-  fonts: [
-    {
-      name: "IBM Plex Mono",
-      data: fontRegular,
-      weight: 400,
-      style: "normal",
-    },
-    {
-      name: "IBM Plex Mono",
-      data: fontBold,
-      weight: 600,
-      style: "normal",
-    },
-  ],
-};
+function svgBufferToPngBuffer(svg: string) {
+  const resvg = new Resvg(svg);
+  const pngData = resvg.render();
+  return pngData.asPng();
+}
 
-type IMAGE_FORMATS = "svg" | "png";
-
-export const generateOgImage = async (
-  mytext = SITE.title,
-  format: IMAGE_FORMATS = "svg"
-) => {
-  const svg = await satori(ogImage(mytext), options);
-
-  // render png in production mode
-  if (format === "png") {
-    const resvg = new Resvg(svg);
-    const pngData = resvg.render();
-    const pngBuffer = pngData.asPng();
-
-    console.info("Output PNG Image  :", `${mytext}.png`);
-    // TODO:not sure what going on here, but astro check is complaining here
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    //@ts-ignore
-    await writeFile(`./dist/${mytext}.png`, pngBuffer);
-  }
-
-  return svg;
-};
+export async function generateOgImageForArticle(
+  article: CollectionEntry<"blog">
+) {
+  const svg = await articleOgImage(article);
+  return svgBufferToPngBuffer(svg);
+}
