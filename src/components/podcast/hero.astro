@@ -13,12 +13,14 @@ import HeroAnimation from "./hero-animation.astro";
   <div class="container relative z-10 mx-auto px-4 pt-16">
     <div class="flex flex-col items-center lg:flex-row">
       <div class="z-10">
-        <h1 class="font-sans text-title font-bold">
-          A podcast with awesome IT geeks, In Darija!
+        <h1 class="max-w-screen-lg font-sans text-title font-bold">
+          A podcast with awesome <br /> IT geeks, In Darija!
         </h1>
         <p class="my-8 max-w-[600px] font-sans text-label-sm font-thin">
           At GeeksBlaBla podcast, is where we host brilliant IT people to
-          discuss, highlight and share the latest technology topics
+          discuss, highlight and share the latest technology topics.
+          <br />
+          Join us every Sunday!
         </p>
         <div class="flex space-x-4 py-4">
           <ButtonLink href="/podcast" variant="secondary">
@@ -31,7 +33,7 @@ import HeroAnimation from "./hero-animation.astro";
       </div>
     </div>
   </div>
-  <div class="container pointer-events-none relative z-20 mx-auto -mt-28 px-4">
+  <div class="container pointer-events-none relative z-20 mx-auto -mt-36 px-4">
     <HeroAnimation />
   </div>
 </section>

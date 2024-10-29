@@ -2,24 +2,21 @@
 import { Icon } from "astro-icon/components";
 
 import { getCollection } from "astro:content";
+import EpisodesListItem from "./episodes-list-item.astro";
+import { getPodcastCategories } from "@/lib/podcast-utils";
 
 const podcast = await getCollection("podcast");
 const sortedPodcast = podcast.sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
 
-// Mock data for categories (replace with actual data)
-const categories = [
-  { name: "Dev", count: 76 },
-  { name: "Career", count: 43 },
-  { name: "AMA", count: 28 },
-  { name: "MSS", count: 20 },
-  { name: "Books", count: 4 },
-];
+const categories = getPodcastCategories(sortedPodcast).sort(
+  (a, b) => b.count - a.count
+);
 ---
 
 <div
-  class="mx-auto w-full max-w-[360px] overflow-hidden rounded-lg bg-[#E2E7EE] p-4 shadow-md"
+  class="max mx-auto w-full max-w-[430px] overflow-hidden rounded-lg bg-[#E2E7EE] p-4 shadow-md"
 >
   <div class="pb-4">
     <div class="relative">
@@ -37,7 +34,7 @@ const categories = [
     <div class="mt-4 flex flex-wrap gap-2">
       {
         categories.map(category => (
-          <span class="rounded-full bg-white px-3 py-1 text-sm font-medium text-gray-700">
+          <span class="rounded-full bg-white px-3 py-1 text-sm font-medium uppercase text-gray-700">
             {category.name}({category.count})
           </span>
         ))
@@ -46,31 +43,6 @@ const categories = [
   </div>
 
   <ul class="space-y-2">
-    {
-      sortedPodcast.map(episode => (
-        <a href={`/podcast/${episode.data.slug}`} class="block">
-          <li class="cursor-pointer overflow-hidden rounded-lg bg-white p-4">
-            <div class="flex items-center space-x-4">
-              <div class="rounded-md border-2 border-black bg-white p-1">
-                {episode.data.published ? (
-                  <Icon name="play" class="h-4 w-4 text-black" />
-                ) : (
-                  <Icon name="pause" class="h-4 w-4 text-black" />
-                )}
-              </div>
-              <div class="flex-1">
-                <p class="truncate text-lg font-bold text-gray-900">
-                  {episode.data.title}
-                </p>
-                <div class="flex flex-row justify-between text-sm text-gray-500">
-                  <p class="text-sm text-gray-500">{episode.data.dateString}</p>
-                  <p class="text-sm text-gray-500">{episode.data.duration}</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        </a>
-      ))
-    }
+    {sortedPodcast.map(episode => <EpisodesListItem episode={episode} />)}
   </ul>
 </div>

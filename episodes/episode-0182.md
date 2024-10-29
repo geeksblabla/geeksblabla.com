@@ -1,7 +1,7 @@
 ---
 date: 2024-06-09
 duration: "2:03:14"
-title: "Kubernetes عشر سنوات مع"
+title: "10 years of Kubernetes"
 tags: ["dev"]
 category: "dev"
 youtube: https://www.youtube.com/watch?v=eI1r6hS8gF0

@@ -21,6 +21,7 @@
 body {
   font-family: 'CommitMono', monospace;
   color: #1A1C1E;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  @apply mx-auto w-full max-w-screen-lg px-4 md:px-0;
+  @apply mx-auto w-full max-w-screen-xl px-4 md:px-0;
 }
 
 

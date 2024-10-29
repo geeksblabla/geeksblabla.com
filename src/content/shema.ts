@@ -5,6 +5,15 @@ import {
 } from "@/lib/utils";
 import { z } from "astro:content";
 
+export const podcastCategorySchema = z.enum([
+  "dev",
+  "career",
+  "ama",
+  "mss",
+  "books",
+  "ai",
+]);
+
 export const episodeSchema = z
   .object({
     title: z.string(),
@@ -12,7 +21,7 @@ export const episodeSchema = z
     dateString: z.string().optional(),
     duration: z.string(),
     tags: z.array(z.string()),
-    category: z.string(),
+    category: podcastCategorySchema,
     youtube: z.string().url(),
     published: z.boolean(),
     featured: z.boolean().optional().default(false),

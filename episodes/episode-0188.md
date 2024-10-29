@@ -4,7 +4,7 @@ duration: "1:33:36"
 title: "Why it is important to test? Crowdstrike meltdown"
 tags: ["dev"]
 category: "dev"
-youtube: https://www.youtube.com/live/JT0k1sYv7-c?si=BxN8n3wN6TpaswFT
+youtube: https://www.youtube.com/watch?v=JT0k1sYv7-c
 published: true
 featured: false
 ---

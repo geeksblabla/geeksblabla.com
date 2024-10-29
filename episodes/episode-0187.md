@@ -1,10 +1,10 @@
 ---
 date: 2024-07-21
 duration: "2:27:01"
-title: "Back to basics واش الاساسيات مازال ضرورية 🤔؟"
+title: "Back to basics"
 tags: ["dev"]
 category: "dev"
-youtube: https://www.youtube.com/live/k9jMvSybyYY?si=CvmioZTh7UiuqxH2
+youtube: https://www.youtube.com/watch?v=k9jMvSybyYY
 published: true
 featured: false
 ---

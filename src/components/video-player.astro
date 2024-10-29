@@ -4,13 +4,18 @@ type Props = {
 };
 
 const { src } = Astro.props;
+const autoplay = import.meta.env.PROD ? true : false;
 ---
 
 <media-theme-sutro
   class="aspect-w-16 aspect-h-9 aspect-video w-full overflow-hidden rounded-md"
 >
-  <youtube-video src={src} slot="media" playsinline autoplay crossorigin
-  ></youtube-video>
+  <youtube-video
+    src={src}
+    slot="media"
+    playsinline
+    autoplay={autoplay}
+    crossorigin></youtube-video>
 </media-theme-sutro>
 
 <script
