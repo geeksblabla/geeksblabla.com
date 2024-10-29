@@ -56,4 +56,9 @@ export const SOCIALS: SocialObjects = {
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
+  spotify: {
+    href: "https://open.spotify.com/show/0UlTBXh7iH6x0HO6FgYzAD",
+    linkTitle: `${SITE.title} on Spotify`,
+    active: true,
+  },
 };

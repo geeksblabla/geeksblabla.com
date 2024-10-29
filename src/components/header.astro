@@ -2,6 +2,13 @@
 import { Icon } from "astro-icon/components";
 import HeaderLink from "./header-link.astro";
 import Logo from "@/assets/logo.svg?raw";
+import { SOCIALS } from "@/config";
+
+interface Props {
+  withSocialIcons?: boolean;
+}
+
+const { withSocialIcons = true } = Astro.props;
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -13,9 +20,9 @@ const navItems = [
 
 const socialIcons = [
   { icon: "search", href: "#", ariaLabel: "Search" },
-  { icon: "youtube", href: "#", ariaLabel: "YouTube" },
-  { icon: "spotify", href: "#", ariaLabel: "Spotify" },
-  { icon: "facebook", href: "#", ariaLabel: "Facebook" },
+  { icon: "youtube", href: SOCIALS.youtube.href, ariaLabel: "YouTube" },
+  { icon: "spotify", href: SOCIALS.spotify.href, ariaLabel: "Spotify" },
+  { icon: "linkedin", href: SOCIALS.linkedin.href, ariaLabel: "LinkedIn" },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -90,7 +97,7 @@ const currentPath = Astro.url.pathname;
 
     <nav
       aria-label="Header Navigation"
-      class="hidden flex-row items-center md:flex"
+      class="hidden flex-1 flex-row items-center justify-between pl-36 md:flex"
     >
       <ul class="flex flex-row items-center space-x-2">
         {
@@ -104,18 +111,27 @@ const currentPath = Astro.url.pathname;
             </li>
           ))
         }
+      </ul>
+      <ul class="flex flex-row items-center space-x-4">
         {
-          socialIcons.map(item => (
-            <li>
-              <a
-                href={item.href}
-                aria-label={item.ariaLabel}
-                class="text-gray-600 hover:text-gray-800"
-              >
-                <Icon name={item.icon} class="h-5 w-5" />
-              </a>
-            </li>
-          ))
+          withSocialIcons &&
+            socialIcons.map(item => (
+              <li>
+                <a
+                  href={item.href}
+                  aria-label={item.ariaLabel}
+                  class="flex items-center text-gray-600 hover:text-gray-800"
+                >
+                  <Icon name={item.icon} class="h-5 w-5" />
+                  {item.ariaLabel && (
+                    <span class="sr-only">{item.ariaLabel}</span>
+                  )}
+                  {item.ariaLabel === "Search" && (
+                    <span class="ml-2 mr-3 font-bold">Search</span>
+                  )}
+                </a>
+              </li>
+            ))
         }
       </ul>
     </nav>
