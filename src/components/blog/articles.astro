@@ -4,9 +4,6 @@ import type { CollectionEntry } from "astro:content";
 import getReadingTime from "reading-time";
 
 import { ButtonLink } from "@/components/button";
-import Layout from "../layout.astro";
-import { SITE } from "@/config";
-import Header from "../header.astro";
 
 export interface Props {
   pageNum: number;
@@ -20,52 +17,41 @@ const prev = pageNum > 1 ? "" : "disabled";
 const next = pageNum < totalPages ? "" : "disabled";
 ---
 
-<Layout title={`Articles | ${SITE.title}`}>
-  <Header />
-  <main class="container mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-      {
-        articles.map(({ data, body = "" }) => (
-          <Card
-            href={`/blog/${data.slug}`}
-            frontmatter={data}
-            minutesRead={getReadingTime(body).text}
-          />
-        ))
-      }
-    </div>
+<main class="container mx-auto">
+  {pageNum === 1 && <h2 class="py-8 text-heading-sm">All Articles</h2>}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     {
-      totalPages > 1 && (
-        <nav class="mb-8 mt-auto flex justify-center" aria-label="Pagination">
-          <ButtonLink
-            disabled={prev === "disabled"}
-            href={`/blog/${pageNum - 1 !== 1 ? "/" + (pageNum - 1) : ""}`}
-            className={`mr-4 select-none ${prev}`}
-            ariaLabel="Previous"
-            variant="ghost"
-          >
-            Prev
-          </ButtonLink>
-          <ButtonLink
-            disabled={next === "disabled"}
-            href={`/blog/${pageNum + 1}`}
-            className={`ml-4 select-none ${next}`}
-            ariaLabel="Next"
-            variant="ghost"
-          >
-            Next
-          </ButtonLink>
-        </nav>
-      )
+      articles.map(({ data, body = "" }) => (
+        <Card
+          href={`/blog/${data.slug}`}
+          frontmatter={data}
+          minutesRead={getReadingTime(body).text}
+        />
+      ))
     }
-  </main>
-</Layout>
-
-<style>
-  .disabled {
-    @apply pointer-events-none select-none opacity-50;
+  </div>
+  {
+    totalPages > 1 && (
+      <nav class="mb-8 mt-auto flex justify-center" aria-label="Pagination">
+        <ButtonLink
+          disabled={prev === "disabled"}
+          href={`/blog/${pageNum - 1 !== 1 ? "/" + (pageNum - 1) : ""}`}
+          className={`mr-4 select-none ${prev}`}
+          ariaLabel="Previous"
+          variant="ghost"
+        >
+          Prev
+        </ButtonLink>
+        <ButtonLink
+          disabled={next === "disabled"}
+          href={`/blog/${pageNum + 1}`}
+          className={`ml-4 select-none ${next}`}
+          ariaLabel="Next"
+          variant="ghost"
+        >
+          Next
+        </ButtonLink>
+      </nav>
+    )
   }
-  body {
-    @apply bg-[#F2F4F7];
-  }
-</style>
+</main>

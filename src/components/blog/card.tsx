@@ -8,21 +8,34 @@ export interface Props {
   minutesRead?: string;
 }
 
-export default function Card({ href, frontmatter, fullWidth = false }: Props) {
+export default function Card({
+  href,
+  frontmatter,
+  fullWidth = false,
+  minutesRead,
+}: Props) {
   const { title, description, author, ogImage, slug } = frontmatter;
   const imageUrl = ogImage ? ogImage : `/blog/${slug}.png`;
   return (
-    <div className="group border-b border-neutral-300 pb-8 pt-6">
+    <div className="group flex flex-col border-b border-neutral-300 pb-8 pt-6 md:flex-row">
       {fullWidth && (
-        <div>
+        <div className="w-full md:w-1/2">
           <img src={imageUrl} alt={title} />
         </div>
       )}
-      <div className="flex h-full flex-col border-neutral-300 group-odd:border-r group-odd:pr-4 group-even:pl-4">
-        {/* <div className="flex justify-between pb-4 text-xs">
-          <p>{transformDateToLocaleString(pubDatetime)}</p>
-          <p>{minutesRead}</p>
-        </div> */}
+      <div
+        className={`flex h-full flex-col border-neutral-300 ${
+          !fullWidth
+            ? "md:group-odd:border-r md:group-odd:pr-4 md:group-even:pl-4"
+            : "pl-3 md:w-2/3"
+        }`}
+      >
+        {fullWidth && (
+          <div className="flex items-center justify-end text-xs">
+            {/* <p>{transformDateToLocaleString(pubDatetime)}</p> */}
+            <p className="text-right text-neutral-dark-50">{minutesRead}</p>
+          </div>
+        )}
         <div className="flex flex-1 flex-row justify-between">
           <a href={href} className="block text-label-lg">
             <h2 className="text-label-lg">{title}</h2>

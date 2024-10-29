@@ -4,6 +4,9 @@ import Articles from "@/components/blog/articles.astro";
 import { getSortedArticles, getPageNumbers } from "@/lib/utils";
 
 import { getCollection } from "astro:content";
+import BlogHero from "@/components/blog/blog-hero.astro";
+import Layout from "@/components/layout.astro";
+import Header from "@/components/header.astro";
 
 const articles = await getCollection("blog");
 
@@ -14,8 +17,21 @@ const totalPages = getPageNumbers(sortedArticles.length);
 const paginatedArticles = sortedArticles.slice(0, SITE.postPerPage);
 ---
 
-<Articles
-  articles={paginatedArticles}
-  pageNum={1}
-  totalPages={totalPages.length}
-/>
+<Layout title={`Articles | ${SITE.title}`}>
+  <Header />
+  <BlogHero
+    latestArticle={sortedArticles[0]}
+    featuredArticles={sortedArticles.slice(1, 3)}
+  />
+  <Articles
+    articles={paginatedArticles}
+    pageNum={1}
+    totalPages={totalPages.length}
+  />
+</Layout>
+
+<style>
+  body {
+    @apply bg-[#F2F4F7];
+  }
+</style>
