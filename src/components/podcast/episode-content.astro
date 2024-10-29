@@ -27,11 +27,12 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
         {
           episodeContent.hosts.map(host => (
             <a
-              class="mt-2 block rounded-lg bg-[#D3DAE5] px-2 py-1 no-underline transition-transform hover:scale-105"
+              class="mt-2 flex w-fit items-center rounded-lg bg-[#D3DAE5] px-2 py-1 no-underline transition-transform hover:scale-105"
               href={host.url}
               target="_blank"
             >
               {host.title}
+              <Icon name="external-link-styled" class="ml-2 h-4 w-4" />
             </a>
           ))
         }
@@ -42,11 +43,12 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
         {
           episodeContent.guests.map(guest => (
             <a
-              class="mt-2 block rounded-lg bg-[#D3DAE5] px-2 py-1 no-underline transition-transform hover:scale-105"
+              class="mt-2 flex w-fit items-center rounded-lg bg-[#D3DAE5] px-2 py-1 no-underline transition-transform hover:scale-105"
               href={guest.url}
               target="_blank"
             >
-              {guest.title}
+              {guest.title}{" "}
+              <Icon name="external-link-styled" class="ml-2 h-4 w-4" />
             </a>
           ))
         }
@@ -89,17 +91,31 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
           </div>
         </div>
       </div>
-      <div class="pose pt-4">
-        <Markdown of={episodeContent.notes} />
-      </div>
-      <div class="mt-4 pl-4">
-        <h3 class="text-label-sm">Links:</h3>
+      <div class="mt-4 rounded-lg bg-white">
+        <div class="space-y-2 p-4">
+          <h3 class="text-label-sm font-medium text-gray-900">Notes:</h3>
+          <div class="prose [&>p]:!my-0 [&_a]:font-bold">
+            <Markdown of={episodeContent.notes} />
+          </div>
+        </div>
         {
-          episodeContent.links.map(link => (
-            <a href={link.url} target="_blank" class="text-link block py-1">
-              🔗 {link.title}
-            </a>
-          ))
+          episodeContent.links?.length > 0 && (
+            <div class="mt-4 rounded-lg bg-white p-4">
+              <h3 class="text-label-sm font-medium text-gray-900">Links:</h3>
+              <div class="mt-2 space-y-2">
+                {episodeContent.links.map(link => (
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    class="flex w-fit items-center rounded-lg bg-[#E2E7EE]/50 px-4 py-2 text-gray-900 transition-colors hover:bg-[#D3DAE5]/50"
+                  >
+                    <span class="font-medium">{link.title}</span>
+                    <Icon name="external-link-styled" class="ml-2 h-4 w-4" />
+                  </a>
+                ))}
+              </div>
+            </div>
+          )
         }
       </div>
     </article>

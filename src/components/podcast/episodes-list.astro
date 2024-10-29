@@ -43,6 +43,13 @@ const categories = getPodcastCategories(sortedPodcast).sort(
   </div>
 
   <ul class="space-y-2">
-    {sortedPodcast.map(episode => <EpisodesListItem episode={episode} />)}
+    {
+      sortedPodcast.map((episode, index) => (
+        <EpisodesListItem
+          episode={episode}
+          number={sortedPodcast.length - index}
+        />
+      ))
+    }
   </ul>
 </div>

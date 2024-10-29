@@ -4,9 +4,10 @@ import type { CollectionEntry } from "astro:content";
 
 export interface Props {
   episode: CollectionEntry<"podcast">;
+  number: number;
 }
 
-const { episode } = Astro.props as Props;
+const { episode, number } = Astro.props as Props;
 const isCurrentEpisode =
   episode.data.slug === Astro.url.pathname.split("/").pop();
 ---
@@ -15,9 +16,14 @@ const isCurrentEpisode =
   <li
     class="group relative cursor-pointer overflow-hidden rounded-lg bg-white transition-colors hover:bg-gray-50"
   >
+    <div
+      class="absolute -right-1 -top-1 text-5xl font-extrabold text-gray-500/5"
+    >
+      #{number}
+    </div>
     {
       isCurrentEpisode && (
-        <div class="absolute inset-x-0 -bottom-8 flex items-center justify-evenly opacity-10">
+        <div class="absolute inset-x-0 -bottom-8 flex items-center justify-evenly opacity-5">
           <svg class="w-full" viewBox="0 0 60 16">
             {Array.from({ length: 20 }).map((_, i) => (
               <rect
@@ -87,7 +93,7 @@ const isCurrentEpisode =
       transform: scaleY(0.5);
     }
     50% {
-      transform: scaleY(1);
+      transform: scaleY(0.8);
     }
   }
 </style>
