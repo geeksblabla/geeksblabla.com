@@ -48,3 +48,13 @@ export const getSortedArticles = (articles: CollectionEntry<"blog">[]) =>
         Math.floor(new Date(b.data.pubDatetime).getTime() / 1000) -
         Math.floor(new Date(a.data.pubDatetime).getTime() / 1000)
     );
+
+export const startViewTransition = (callback: () => void) => {
+  if (document && "startViewTransition" in document) {
+    document.startViewTransition(() => {
+      callback();
+    });
+  } else {
+    callback();
+  }
+};

@@ -23,9 +23,7 @@ const episode = Astro.props;
     <div class="container mx-auto px-4 py-16">
       <div class="flex flex-row">
         <div class="relative">
-          <div class="sticky top-0 max-h-[calc(100vh)] overflow-y-auto">
-            <EpisodesList />
-          </div>
+          <EpisodesList />
         </div>
         <div class="flex-1">
           <EpisodeContent episode={episode} />

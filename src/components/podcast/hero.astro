@@ -3,6 +3,11 @@ import { Button, ButtonLink } from "../button";
 import Header from "../header.astro";
 import { Icon } from "astro-icon/components";
 import HeroAnimation from "./hero-animation.astro";
+import { getCollection } from "astro:content";
+import { getLastEpisode } from "@/lib/podcast-utils";
+
+const podcast = await getCollection("podcast");
+const lastEpisode = getLastEpisode(podcast);
 ---
 
 <section class="relative overflow-hidden bg-[#D4E3DE]">
@@ -23,7 +28,10 @@ import HeroAnimation from "./hero-animation.astro";
           Join us every Sunday!
         </p>
         <div class="flex space-x-4 py-4">
-          <ButtonLink href="/podcast" variant="secondary">
+          <ButtonLink
+            href={`/podcast/${lastEpisode.data.slug}`}
+            variant="secondary"
+          >
             Watch Podcast <Icon name="arrow-right" class="ml-2 rotate-45" />
           </ButtonLink>
           <Button variant="outline">

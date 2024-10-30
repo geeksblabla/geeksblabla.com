@@ -97,3 +97,9 @@ export function getPodcastCategories(podcast: CollectionEntry<"podcast">[]) {
 
   return categories;
 }
+
+export function getLastEpisode(podcast: CollectionEntry<"podcast">[]) {
+  return podcast.sort(
+    (a, b) => b.data.date.getTime() - a.data.date.getTime()
+  )[0];
+}

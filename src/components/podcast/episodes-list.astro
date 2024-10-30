@@ -13,12 +13,15 @@ const sortedPodcast = podcast.sort(
 const categories = getPodcastCategories(sortedPodcast).sort(
   (a, b) => b.count - a.count
 );
+
+console.log(categories);
 ---
 
 <div
-  class="max mx-auto w-full max-w-[430px] overflow-hidden rounded-lg bg-[#E2E7EE] p-4 shadow-md"
+  class="sticky top-0 mx-auto h-[calc(100vh)] w-full max-w-[430px] overflow-hidden rounded-lg bg-[#E2E7EE] shadow-md"
+  id="episodes-list-container"
 >
-  <div class="pb-4">
+  <div class="p-4 pb-4">
     <div class="relative">
       <input
         type="text"
@@ -34,15 +37,20 @@ const categories = getPodcastCategories(sortedPodcast).sort(
     <div class="mt-4 flex flex-wrap gap-2">
       {
         categories.map(category => (
-          <span class="rounded-full bg-white px-3 py-1 text-sm font-medium uppercase text-gray-700">
+          <button
+            class="category-filter rounded-full bg-white px-3 py-1 text-sm font-medium uppercase text-gray-700 transition-colors hover:bg-black hover:text-white"
+            data-category={category.name.toLowerCase()}
+          >
             {category.name}({category.count})
-          </span>
+          </button>
         ))
       }
     </div>
   </div>
-
-  <ul class="space-y-2">
+  <ul
+    class="max-h-[calc(100vh-160px)] space-y-2 overflow-y-auto p-4 [&::-webkit-scrollbar-thumb]:bg-gray-500/50 [&::-webkit-scrollbar]:w-[3px]"
+    id="episodes-list"
+  >
     {
       sortedPodcast.map((episode, index) => (
         <EpisodesListItem
@@ -53,3 +61,66 @@ const categories = getPodcastCategories(sortedPodcast).sort(
     }
   </ul>
 </div>
+
+<!-- Scroll to top when scrolling inside the list to make sure we are giving the user a smooth experience -->
+<script>
+  const container = document.getElementById("episodes-list-container");
+  const list = document.getElementById("episodes-list");
+  // TODO: can be optimized
+  list?.addEventListener("scroll", () => {
+    if (list.scrollTop > 0) {
+      container?.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+</script>
+
+<!-- Category filtering : when clicking on a category, filter the episodes and highlight the active category -->
+<script>
+  import { startViewTransition } from "@/lib/utils";
+
+  const categoryButtons = document.querySelectorAll(".category-filter");
+  const episodes = document.querySelectorAll("#episodes-list > a");
+  let activeCategory: string | null = null;
+
+  categoryButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const category = button.getAttribute("data-category");
+
+      // Toggle active state
+      if (activeCategory === category) {
+        activeCategory = null;
+        button.classList.remove("bg-black", "text-white");
+        button.classList.add("bg-white", "text-gray-700");
+        // Show all episodes
+        episodes.forEach(episode => {
+          episode.classList.remove("hidden");
+        });
+      } else {
+        // Remove active state from previous button
+        categoryButtons.forEach(btn => {
+          btn.classList.remove("bg-black", "text-white");
+          btn.classList.add("bg-white", "text-gray-700");
+        });
+
+        // Add active state to clicked button
+        button.classList.remove("bg-white", "text-gray-700");
+        button.classList.add("bg-black", "text-white");
+        activeCategory = category;
+
+        startViewTransition(() => {
+          // Filter episodes
+          episodes.forEach(episode => {
+            if (
+              episode.getAttribute("data-category")?.toLowerCase() ===
+              activeCategory?.toLowerCase()
+            ) {
+              episode.classList.remove("hidden");
+            } else {
+              episode.classList.add("hidden");
+            }
+          });
+        });
+      }
+    });
+  });
+</script>

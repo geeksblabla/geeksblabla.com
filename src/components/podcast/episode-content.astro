@@ -14,7 +14,7 @@ const { episode } = Astro.props;
 const episodeContent = extractEpisodeContent(episode.body ?? "");
 ---
 
-<div class="pl-2">
+<div class="pl-2 font-mono">
   <VideoPlayer src={episode.data.youtube} />
   <div class="p-4 py-12">
     <article>
@@ -92,7 +92,7 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
         </div>
       </div>
       <div class="mt-4 rounded-lg bg-white">
-        <div class="space-y-2 p-4">
+        <div class="space-y-2 p-4 pt-8">
           <h3 class="text-label-sm font-medium text-gray-900">Notes:</h3>
           <div class="prose [&>p]:!my-0 [&_a]:font-bold">
             <Markdown of={episodeContent.notes} />
@@ -117,6 +117,15 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
             </div>
           )
         }
+      </div>
+      <div class="mt-4 flex justify-end">
+        <a
+          href={`https://github.com/GeeksBlaBla/geeksblabla.com/edit/main/${episode.filePath}`}
+          class="text-right font-sans text-label-sm font-medium text-gray-900 underline"
+          target="_blank"
+        >
+          Edit on GitHub – PRs welcome
+        </a>
       </div>
     </article>
   </div>

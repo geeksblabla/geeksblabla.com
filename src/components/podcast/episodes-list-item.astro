@@ -12,7 +12,11 @@ const isCurrentEpisode =
   episode.data.slug === Astro.url.pathname.split("/").pop();
 ---
 
-<a href={`/podcast/${episode.data.slug}`} class="block">
+<a
+  href={`/podcast/${episode.data.slug}`}
+  class="block"
+  data-category={episode.data.category.toLowerCase()}
+>
   <li
     class="group relative cursor-pointer overflow-hidden rounded-lg bg-white transition-colors hover:bg-gray-50"
   >
