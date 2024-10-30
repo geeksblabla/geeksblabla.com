@@ -3,7 +3,7 @@ date: 2020-11-29
 duration: "02:44:26"
 title: "Ask Me Anything #5"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=IQlzDiEjAXY
 published: true
 ---

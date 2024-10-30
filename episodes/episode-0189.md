@@ -3,7 +3,7 @@ date: 2024-09-01
 duration: "2:29:25"
 title: "A gentle introduction to LLMs."
 tags: ["AI"]
-category: "AI"
+category: "ai"
 youtube: https://www.youtube.com/watch?v=0Bg83WRvtO8&ab_channel=GeeksBlaBla
 published: true
 featured: false

@@ -3,7 +3,7 @@ date: 2021-06-27
 duration: "2:08:23"
 title: "Tech News & AMA #12"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=P9FeWS3Bb9A&ab_channel=GeeksBlaBla
 published: true
 ---

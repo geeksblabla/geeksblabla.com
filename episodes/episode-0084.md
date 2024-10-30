@@ -3,7 +3,7 @@ date: 2021-05-30
 duration: "02:04:00"
 title: "Tech News & AMA #11"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=-Zat3Q0dz7M
 published: true
 ---

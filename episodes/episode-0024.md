@@ -3,7 +3,7 @@ date: 2019-12-29
 duration: "2:18:03"
 title: "Geeksblabla MSS with Yassine El Kachchani"
 tags: ["MSS", "entrepreneurship", "career"]
-category: "MSS"
+category: "mss"
 featured: true
 youtube: https://www.youtube.com/watch?v=QqicTaX4gfU
 published: true

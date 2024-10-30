@@ -3,7 +3,7 @@ date: 2021-04-25
 duration: "02:50:00"
 title: "Tech News & AMA #10"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=xlPtcJnDeec
 published: true
 ---

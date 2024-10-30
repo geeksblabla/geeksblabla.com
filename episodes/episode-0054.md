@@ -3,7 +3,7 @@ date: 2020-10-04
 duration: "01:08:20"
 title: "MSS with Samir Benmakhlouf"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=IPR2auK2vRg
 published: true
 ---

@@ -3,7 +3,7 @@ date: 2023-06-25
 duration: "1:56:07"
 title: "Tech New & AMA #25"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=s7hn-CtjSj0
 published: true
 featured: false

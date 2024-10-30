@@ -3,7 +3,7 @@ date: 2023-10-01
 duration: "2:10:40"
 title: "Tech New & AMA #27"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=WKDrPojAehE
 published: true
 featured: false

@@ -10,7 +10,7 @@ export const podcastCategorySchema = z.enum([
   "career",
   "ama",
   "mss",
-  "books",
+  "book",
   "ai",
 ]);
 
@@ -32,11 +32,13 @@ export const episodeSchema = z
     const ogImage = getYoutubeThumbnail(arg.youtube);
     const slug = arg.slug ? arg.slug : slugify(arg.title);
     const dateString = transformDateToLocaleString(arg.date.toISOString());
+    const category = arg.category.toLowerCase();
     return {
       ...arg,
       ogImage,
       slug,
       dateString,
+      category,
     };
   });
 

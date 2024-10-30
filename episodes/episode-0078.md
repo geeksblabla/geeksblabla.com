@@ -3,7 +3,7 @@ date: 2021-04-11
 duration: "1:55:00"
 title: "MSS with Abdelahad SATOUR"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=kzYammaow-M
 published: true
 ---

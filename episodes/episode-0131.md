@@ -3,7 +3,7 @@ date: 2022-11-06
 duration: "1:38:02"
 title: "MSS with Adil TOUATI"
 tags: ["MSS", "geeksblabla", "Cloud", "DevOPS", "Microsoft"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=nDb3hLIMrP0
 published: true
 featured: false

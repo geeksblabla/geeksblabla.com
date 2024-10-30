@@ -3,7 +3,7 @@ date: 2024-09-15
 duration: "2:04:55"
 title: "Prompt Engineering"
 tags: ["AI"]
-category: "AI"
+category: "ai"
 youtube: https://www.youtube.com/watch?v=2UGde_wf4ZM
 published: true
 featured: false

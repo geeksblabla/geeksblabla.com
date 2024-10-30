@@ -3,7 +3,7 @@ date: 2022-09-05
 duration: "2:06:51"
 title: "Tech News & AMA #19"
 tags: ["AMA", "geeksblabla"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=5sAt9Q7aysA
 published: true
 featured: false

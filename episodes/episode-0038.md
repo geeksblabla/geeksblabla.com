@@ -3,7 +3,7 @@ date: 2020-05-03
 duration: "01:12:40"
 title: "MSS with Meriam Kharbat and Ouafae Aamer"
 tags: ["MSS", "entrepreneurship", "software engineering"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=QCCH7r9CB1g
 published: true
 featured: false

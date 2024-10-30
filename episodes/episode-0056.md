@@ -3,7 +3,7 @@ date: 2020-11-08
 duration: "01:38:00"
 title: "MSS with Mehdi Belmekki"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=EbLwd75TBXw
 published: true
 ---

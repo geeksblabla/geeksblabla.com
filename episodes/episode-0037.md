@@ -3,7 +3,7 @@ date: 2020-04-24
 duration: "01:58:42"
 title: "MSS with Mouhsine Lakhdissi"
 tags: ["MSS", "entrepreneurship"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=QJw9P_oDQ5o
 published: true
 featured: false

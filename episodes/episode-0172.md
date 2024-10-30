@@ -3,7 +3,7 @@ date: 2024-02-11
 duration: "2:32:08"
 title: "AMA & Tech News #29"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=Z8_k-PnLaEo
 published: true
 featured: false

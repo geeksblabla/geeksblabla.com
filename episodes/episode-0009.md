@@ -3,7 +3,7 @@ date: 2018-12-19
 duration: "1:22:14"
 title: "MSS with Taher Alami"
 tags: ["MSS", "entrepreneurship", "career", "AR"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=1CHPLeWnL5M
 published: true
 ---

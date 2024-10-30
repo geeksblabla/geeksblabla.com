@@ -3,7 +3,7 @@ date: 2019-07-04
 duration: "1:46:29"
 title: "GeeksBlabla MSS With Google Engineer Sghiouar Abdelfettah"
 tags: ["MSS", "career"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=tu29LZacZSA
 published: true
 ---

@@ -3,7 +3,7 @@ date: 2020-01-19
 duration: "01:43:00"
 title: "MSS with Badr El Houari"
 tags: ["MSS", "entrepreneurship", "devoxx", "java", "career"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=EvUOVUzB8rY
 published: true
 ---

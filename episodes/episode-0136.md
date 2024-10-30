@@ -3,7 +3,7 @@ date: 2023-01-29
 duration: "1:45:21"
 title: "AMA & Tech News #22"
 tags: ["AMA", "geeksblabla"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=Rx0k9xZdTuE
 published: true
 featured: false

@@ -2,7 +2,7 @@
 date: 2020-09-07
 duration: "01:06:16"
 title: "MSS With Mehdi Mourabit"
-category: "MSS"
+category: "mss"
 tags: ["entrepreneurship", "startup", "digital marketing"]
 youtube: https://www.youtube.com/watch?v=kLgl5uDK5IM
 published: true

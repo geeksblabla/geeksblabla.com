@@ -3,7 +3,7 @@ date: 2023-03-26
 duration: "2:30:14"
 title: "Tech News & AMA #23"
 tags: ["ama", "ai", "chat-gpt"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=0x1a-7JK_co
 published: true
 featured: false

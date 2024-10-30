@@ -3,7 +3,7 @@ date: 2022-01-23
 duration: "1:30:52"
 title: "MSS with Mehdi Daoudi"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=dUQHPOPaVd8
 published: true
 ---

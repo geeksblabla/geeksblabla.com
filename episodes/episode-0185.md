@@ -3,7 +3,7 @@ date: 2024-07-07
 duration: "2:16:19"
 title: "AMA & Tech News #32"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=QZhKeIXcsKA
 published: true
 featured: false

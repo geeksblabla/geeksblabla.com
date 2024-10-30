@@ -3,7 +3,7 @@ date: 2020-07-05
 duration: "01:30:00"
 title: "Ask Me Anything #3"
 tags: ["AMA", "DevC"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=90t3BRQ1460
 published: true
 featured: false

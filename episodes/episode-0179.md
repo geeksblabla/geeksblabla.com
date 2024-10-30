@@ -3,7 +3,7 @@ date: 2024-05-05
 duration: "2:16:19"
 title: "AMA & Tech News #30"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=HVdjS6NaEz8&pp=ygULZ2Vla3NibGFibGE%3D
 published: true
 featured: false

@@ -3,7 +3,7 @@ date: 2021-06-13
 duration: "1:27:20"
 title: "MSS with Wassim CHEGHAM"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=SgOfKQY5ubw
 published: true
 ---

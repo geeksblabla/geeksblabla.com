@@ -3,7 +3,7 @@ date: 2020-06-28
 duration: "02:15:20"
 title: "MSS with Adnane Belmadiaf"
 tags: ["linux", "open source", "MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=mKwXcC7VPac
 published: true
 featured: false

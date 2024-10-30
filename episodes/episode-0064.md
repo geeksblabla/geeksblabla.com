@@ -3,7 +3,7 @@ date: 2021-01-03
 duration: "1:33:00"
 title: "MSS with Aboulfeth Hamza"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=w_oWwCKtVuk
 published: true
 ---

@@ -3,7 +3,7 @@ date: 2018-10-13
 duration: "1:25:54"
 title: "MSS with Amine Raghib"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=DlE3drGZgpo
 published: true
 ---

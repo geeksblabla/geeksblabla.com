@@ -3,7 +3,7 @@ date: 2020-12-06
 duration: "03:25:00"
 title: "MSS with Mohamed Youssfi"
 tags: ["MSS"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=I7FwzqXm-uQ
 published: true
 ---

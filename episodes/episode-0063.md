@@ -3,7 +3,7 @@ date: 2020-12-27
 duration: "02:15:26"
 title: "Tech News & AMA #6"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=RIZLJGi_WR4
 published: true
 ---

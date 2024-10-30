@@ -3,7 +3,7 @@ date: 2022-10-23
 duration: "1:57:21"
 title: "AMA & Tech News #20"
 tags: ["AMA", "geeksblabla"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=FrhrvdQwmSo
 published: true
 featured: false

@@ -3,7 +3,7 @@ date: 2021-01-24
 duration: "02:20:26"
 title: "Tech News & AMA #7"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=GPTjXQ0QHxw
 published: true
 ---

@@ -3,7 +3,7 @@ date: 2021-02-28
 duration: "02:10:26"
 title: "Tech News & AMA #8"
 tags: ["AMA"]
-category: "AMA"
+category: "ama"
 youtube: https://www.youtube.com/watch?v=5lt-2ID1euI
 published: true
 ---

@@ -3,7 +3,7 @@ date: 2024-03-31
 duration: "1:27:32"
 title: "MSS with Mohamed Adnane Abouchadi"
 tags: ["career", "dev", "mss", "success", "disability"]
-category: "MSS"
+category: "mss"
 youtube: https://www.youtube.com/watch?v=HRGLTomaEXE
 published: true
 featured: false
