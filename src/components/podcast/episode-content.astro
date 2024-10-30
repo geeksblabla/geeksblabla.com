@@ -14,9 +14,9 @@ const { episode } = Astro.props;
 const episodeContent = extractEpisodeContent(episode.body ?? "");
 ---
 
-<div class="pl-2 font-mono">
+<div class="font-mono md:pl-2">
   <VideoPlayer src={episode.data.youtube} />
-  <div class="p-4 py-12">
+  <div class="p-0 py-8 md:p-4 md:py-12">
     <article>
       <div class="pose">
         <Markdown of={episodeContent.description} />

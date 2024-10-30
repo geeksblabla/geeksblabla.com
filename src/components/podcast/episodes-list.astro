@@ -13,12 +13,44 @@ const sortedPodcast = podcast.sort(
 const categories = getPodcastCategories(sortedPodcast).sort(
   (a, b) => b.count - a.count
 );
-
-console.log(categories);
 ---
 
+<!-- Add toggle button for mobile -->
+<button
+  id="episodes-drawer-toggle"
+  class="fixed bottom-4 left-4 z-[102] rounded-full bg-black p-3 text-white shadow-lg md:hidden"
+  aria-label="Toggle episodes list"
+>
+  <svg
+    class="list-icon h-6 w-6"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M4 6h16M4 12h16M4 18h16"></path>
+  </svg>
+  <svg
+    class="close-icon hidden h-6 w-6"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M6 18L18 6M6 6l12 12"></path>
+  </svg>
+</button>
+
 <div
-  class="sticky top-0 mx-auto h-[calc(100vh)] w-full max-w-[430px] overflow-hidden rounded-lg bg-[#E2E7EE] shadow-md"
+  class="fixed left-0 top-0 z-[101] h-[calc(100vh)] w-[85%] max-w-[430px] -translate-x-full transform bg-[#E2E7EE] shadow-md transition-transform duration-300 ease-in-out md:sticky md:top-0 md:w-full md:translate-x-0"
   id="episodes-list-container"
 >
   <div class="p-4 pb-4">
@@ -48,7 +80,7 @@ console.log(categories);
     </div>
   </div>
   <ul
-    class="max-h-[calc(100vh-160px)] space-y-2 overflow-y-auto p-4 [&::-webkit-scrollbar-thumb]:bg-gray-500/50 [&::-webkit-scrollbar]:w-[3px]"
+    class="max-h-[calc(100vh-160px)] space-y-2 overflow-y-auto p-4 pb-12 [&::-webkit-scrollbar-thumb]:bg-gray-500/50 [&::-webkit-scrollbar]:w-[3px]"
     id="episodes-list"
   >
     {
@@ -62,11 +94,17 @@ console.log(categories);
   </ul>
 </div>
 
+<!-- Add overlay for mobile -->
+<div
+  id="episodes-drawer-overlay"
+  class="fixed inset-0 z-30 hidden bg-black/50 md:hidden"
+>
+</div>
+
 <!-- Scroll to top when scrolling inside the list to make sure we are giving the user a smooth experience -->
 <script>
   const container = document.getElementById("episodes-list-container");
   const list = document.getElementById("episodes-list");
-  // TODO: can be optimized
   list?.addEventListener("scroll", () => {
     if (list.scrollTop > 0) {
       container?.scrollIntoView({ behavior: "smooth" });
@@ -122,5 +160,42 @@ console.log(categories);
         });
       }
     });
+  });
+</script>
+
+<!-- Drawer functionality -->
+<script>
+  const drawerToggle = document.getElementById("episodes-drawer-toggle");
+  const drawerContainer = document.getElementById("episodes-list-container");
+  const overlay = document.getElementById("episodes-drawer-overlay");
+  const listIcon = drawerToggle?.querySelector(".list-icon");
+  const closeIcon = drawerToggle?.querySelector(".close-icon");
+
+  function toggleDrawer() {
+    drawerContainer?.classList.toggle("-translate-x-full");
+    overlay?.classList.toggle("hidden");
+    listIcon?.classList.toggle("hidden");
+    closeIcon?.classList.toggle("hidden");
+    document.body.style.overflow =
+      document.body.style.overflow === "hidden" ? "auto" : "hidden";
+  }
+
+  function closeDrawer() {
+    drawerContainer?.classList.remove("translate-x-0");
+    drawerContainer?.classList.add("-translate-x-full");
+    overlay?.classList.add("hidden");
+    listIcon?.classList.remove("hidden");
+    closeIcon?.classList.add("hidden");
+    document.body.style.overflow = "auto";
+  }
+
+  drawerToggle?.addEventListener("click", toggleDrawer);
+  overlay?.addEventListener("click", closeDrawer);
+
+  // Close drawer on wider screens
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 768) {
+      closeDrawer();
+    }
   });
 </script>
