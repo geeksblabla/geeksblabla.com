@@ -105,11 +105,13 @@ const categories = getPodcastCategories(sortedPodcast).sort(
 <script>
   const container = document.getElementById("episodes-list-container");
   const list = document.getElementById("episodes-list");
-  list?.addEventListener("scroll", () => {
-    if (list.scrollTop > 0) {
-      container?.scrollIntoView({ behavior: "smooth" });
-    }
-  });
+  if (window.innerWidth >= 768) {
+    list?.addEventListener("scroll", () => {
+      if (list.scrollTop > 0) {
+        container?.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  }
 </script>
 
 <!-- Category filtering : when clicking on a category, filter the episodes and highlight the active category -->
