@@ -42,25 +42,27 @@ const isCurrentEpisode =
         </div>
       )
     }
-    <div class="relative flex items-center space-x-4 p-4">
+    <div class="relative flex items-center space-x-4 p-3 md:p-4">
       <div class="rounded-md border-2 border-black bg-white p-1">
         {
           !isCurrentEpisode ? (
-            <Icon name="play" class="h-4 w-4 text-black" />
+            <Icon name="play" class="h-3 w-3 text-black md:h-4 md:w-4" />
           ) : (
-            <Icon name="pause" class="h-4 w-4 text-black" />
+            <Icon name="pause" class="h-3 w-3 text-black md:h-4 md:w-4" />
           )
         }
       </div>
       <div class="flex-1 overflow-hidden">
         <div class="overflow-hidden whitespace-nowrap">
           <p
-            class="group-hover:pr-full inline-block text-lg font-bold text-gray-900 group-hover:animate-marquee"
+            class="group-hover:pr-full inline-block text-base font-bold text-gray-900 group-hover:animate-marquee md:text-lg"
           >
             {episode.data.title}
           </p>
         </div>
-        <div class="flex flex-row justify-between text-sm text-gray-500">
+        <div
+          class="flex flex-row justify-between text-xs text-gray-500 md:text-sm"
+        >
           <p class="text-sm text-gray-500">{episode.data.dateString}</p>
           <p class="text-sm text-gray-500">{episode.data.duration}</p>
         </div>
