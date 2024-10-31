@@ -18,7 +18,7 @@ type Props = CollectionEntry<"podcast">;
 const episode = Astro.props;
 ---
 
-<ViewTransitions />
+<ViewTransitions fallback="none" />
 <Layout>
   <div class="bg-[#F2F4F7]">
     <Header transition:persist />
