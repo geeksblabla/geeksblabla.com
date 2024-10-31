@@ -4,6 +4,7 @@ import Layout from "@/components/layout.astro";
 import EpisodeContent from "@/components/podcast/episode-content.astro";
 import EpisodesList from "@/components/podcast/episodes-list.astro";
 import { type CollectionEntry, getCollection } from "astro:content";
+import { ViewTransitions } from "astro:transitions";
 
 export async function getStaticPaths() {
   const posts = await getCollection("podcast");
@@ -17,12 +18,13 @@ type Props = CollectionEntry<"podcast">;
 const episode = Astro.props;
 ---
 
+<ViewTransitions />
 <Layout>
   <div class="bg-[#F2F4F7]">
-    <Header />
+    <Header transition:persist />
     <div class="container mx-auto py-4 md:py-16">
       <div class="flex flex-row">
-        <div class="relative">
+        <div class="relative" transition:persist>
           <EpisodesList />
         </div>
         <div class="flex-1">

@@ -66,14 +66,22 @@ const categories = getPodcastCategories(sortedPodcast).sort(
       />
     </div>
 
-    <div class="mt-4 flex flex-wrap gap-2">
+    <div id="category-filter-buttons" class="mt-4 flex flex-wrap gap-2">
+      <button
+        class="category-filter rounded-lg bg-white px-3 py-1 text-sm font-medium text-gray-700 transition-colors hover:bg-black hover:text-white"
+        data-filter="all"
+      >
+        All ({sortedPodcast.length})
+      </button>
       {
         categories.map(category => (
           <button
-            class="category-filter rounded-full bg-white px-3 py-1 text-sm font-medium uppercase text-gray-700 transition-colors hover:bg-black hover:text-white"
-            data-category={category.name.toLowerCase()}
+            class="category-filter rounded-lg bg-white px-3 py-1 text-sm font-medium text-gray-700 transition-colors hover:bg-black hover:text-white"
+            data-filter={category.name.toLowerCase()}
           >
-            {category.name}({category.count})
+            {category.name.charAt(0).toUpperCase() +
+              category.name.slice(1).toLowerCase()}
+            ({category.count})
           </button>
         ))
       }
@@ -130,55 +138,60 @@ const categories = getPodcastCategories(sortedPodcast).sort(
   }
 </script>
 
+<style>
+  .active {
+    background-color: black;
+    color: white;
+  }
+</style>
+
 <!-- Category filtering : when clicking on a category, filter the episodes and highlight the active category -->
 <script>
   import { startViewTransition } from "@/lib/utils";
 
   const categoryButtons = document.querySelectorAll(".category-filter");
-  const episodes = document.querySelectorAll("#episodes-list > a");
-  let activeCategory: string | null = null;
+  const categoryFilterContainer = document.getElementById(
+    "category-filter-buttons"
+  );
+  const episodes = document.querySelectorAll("#episodes-list > li");
+  let episodeIndex = 0;
+
+  episodes.forEach(episode => {
+    // @ts-expect-error not sure what going with style property here
+    episode.style.viewTransitionName = `episode-${++episodeIndex}`;
+  });
 
   categoryButtons.forEach(button => {
-    button.addEventListener("click", () => {
-      const category = button.getAttribute("data-category");
+    button.addEventListener("click", e => {
+      const episodeCategory = button.getAttribute("data-filter");
 
-      // Toggle active state
-      if (activeCategory === category) {
-        activeCategory = null;
-        button.classList.remove("bg-black", "text-white");
-        button.classList.add("bg-white", "text-gray-700");
-        // Show all episodes
-        episodes.forEach(episode => {
-          episode.classList.remove("hidden");
-        });
-      } else {
-        // Remove active state from previous button
-        categoryButtons.forEach(btn => {
-          btn.classList.remove("bg-black", "text-white");
-          btn.classList.add("bg-white", "text-gray-700");
-        });
-
-        // Add active state to clicked button
-        button.classList.remove("bg-white", "text-gray-700");
-        button.classList.add("bg-black", "text-white");
-        activeCategory = category;
-
-        startViewTransition(() => {
-          // Filter episodes
-          episodes.forEach(episode => {
-            if (
-              episode.getAttribute("data-category")?.toLowerCase() ===
-              activeCategory?.toLowerCase()
-            ) {
-              episode.classList.remove("hidden");
-            } else {
-              episode.classList.add("hidden");
-            }
-          });
-        });
-      }
+      startViewTransition(() => {
+        updateActiveButton(e.target as HTMLElement);
+        filterEpisodes(episodeCategory || "all");
+      });
     });
   });
+
+  function updateActiveButton(newButton: HTMLElement) {
+    categoryFilterContainer
+      ?.querySelector(".active")
+      ?.classList.remove("active");
+    newButton.classList.add("active");
+  }
+
+  function filterEpisodes(filter: string) {
+    episodes.forEach(episode => {
+      // get each conferences category
+      const episodeCategory = episode.getAttribute("data-category");
+
+      // check if that category matches with the filter
+      if (filter === "all" || filter === episodeCategory) {
+        episode.removeAttribute("hidden");
+      } else {
+        episode.setAttribute("hidden", "");
+      }
+    });
+  }
 </script>
 
 <!-- Drawer functionality -->
@@ -265,4 +278,45 @@ const categories = getPodcastCategories(sortedPodcast).sort(
 
   // Initial check
   checkScrollPosition();
+</script>
+
+<!-- View transitions  with astro, we need to persist the scroll position for body and list-->
+<script>
+  let bodyScrollPosition = 0;
+  let listScrollPosition = 0;
+
+  function setActiveEpisodeItem() {
+    // set old active item to false
+    const playingEpisodeItem = document.querySelector("a[data-playing=true]");
+    if (playingEpisodeItem) {
+      playingEpisodeItem.setAttribute("data-playing", "false");
+    }
+
+    // get the new active episode item by checking the url pathname
+    // searching for the href attribute that match the new pathname
+    // add data-playing attribute with value true to the new active episode item
+    const newPathname = window.location.pathname;
+    // get the new episode item
+    const activeEpisodeItem = document.querySelector(
+      `a[href='${newPathname}']`
+    );
+    if (activeEpisodeItem) {
+      activeEpisodeItem?.setAttribute("data-playing", "true");
+    }
+  }
+
+  document.addEventListener("astro:before-swap", () => {
+    const list = document.getElementById("episodes-list");
+    bodyScrollPosition = window.scrollY;
+    listScrollPosition = list?.scrollTop || 0;
+  });
+
+  document.addEventListener("astro:after-swap", () => {
+    const list = document.getElementById("episodes-list");
+    window.scrollTo(0, bodyScrollPosition);
+    if (list) {
+      list.scrollTop = listScrollPosition;
+    }
+    setActiveEpisodeItem();
+  });
 </script>

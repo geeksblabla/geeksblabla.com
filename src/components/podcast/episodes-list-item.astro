@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 import type { CollectionEntry } from "astro:content";
+import AudioWave from "./audio-wave.astro";
 
 export interface Props {
   episode: CollectionEntry<"podcast">;
@@ -12,45 +13,35 @@ const isCurrentEpisode =
   episode.data.slug === Astro.url.pathname.split("/").pop();
 ---
 
-<a
-  href={`/podcast/${episode.data.slug}`}
-  class="block"
-  data-category={episode.data.category.toLowerCase()}
->
-  <li
-    class="group relative cursor-pointer overflow-hidden rounded-lg bg-white transition-colors hover:bg-gray-50"
+<li data-category={episode.data.category.toLowerCase()}>
+  <a
+    href={`/podcast/${episode.data.slug}`}
+    data-playing={isCurrentEpisode ? "true" : "false"}
+    class="group relative block cursor-pointer overflow-hidden rounded-lg bg-white transition-colors hover:bg-gray-50"
   >
     <div
       class="absolute -right-1 -top-1 text-5xl font-extrabold text-gray-500/5"
     >
       #{number}
     </div>
-    {
-      isCurrentEpisode && (
-        <div class="absolute inset-x-0 -bottom-8 flex items-center justify-evenly opacity-5">
-          <svg class="w-full" viewBox="0 0 60 16">
-            {Array.from({ length: 20 }).map((_, i) => (
-              <rect
-                fill="fill-[#E2E7EE]"
-                x={1 + i * 3}
-                y="2"
-                width="2"
-                height="12"
-              />
-            ))}
-          </svg>
-        </div>
-      )
-    }
+
+    <div
+      class="absolute inset-x-0 -bottom-8 flex items-center justify-evenly opacity-5 group-data-[playing=false]:hidden"
+    >
+      <AudioWave />
+    </div>
     <div class="relative flex items-center space-x-4 p-3 md:p-4">
       <div class="rounded-md border-2 border-black bg-white p-1">
-        {
-          !isCurrentEpisode ? (
-            <Icon name="play" class="h-3 w-3 text-black md:h-4 md:w-4" />
-          ) : (
-            <Icon name="pause" class="h-3 w-3 text-black md:h-4 md:w-4" />
-          )
-        }
+        <Icon
+          name="play"
+          data-icon="play"
+          class="h-3 w-3 text-black group-data-[playing=true]:hidden md:h-4 md:w-4"
+        />
+        <Icon
+          name="pause"
+          data-icon="pause"
+          class="h-3 w-3 text-black group-data-[playing=false]:hidden md:h-4 md:w-4"
+        />
       </div>
       <div class="flex-1 overflow-hidden">
         <div class="overflow-hidden whitespace-nowrap">
@@ -68,38 +59,5 @@ const isCurrentEpisode =
         </div>
       </div>
     </div>
-  </li>
-</a>
-
-<style>
-  rect {
-    transform-origin: bottom;
-    animation: scale 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-  }
-
-  rect:nth-child(4n + 1) {
-    animation-delay: 0s;
-  }
-
-  rect:nth-child(4n + 2) {
-    animation-delay: 0.2s;
-  }
-
-  rect:nth-child(4n + 3) {
-    animation-delay: 0.4s;
-  }
-
-  rect:nth-child(4n) {
-    animation-delay: 0.6s;
-  }
-
-  @keyframes scale {
-    0%,
-    100% {
-      transform: scaleY(0.5);
-    }
-    50% {
-      transform: scaleY(0.8);
-    }
-  }
-</style>
+  </a>
+</li>
