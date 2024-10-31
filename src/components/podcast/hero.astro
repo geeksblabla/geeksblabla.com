@@ -11,37 +11,43 @@ const lastEpisode = getLastEpisode(podcast);
 ---
 
 <section class="relative overflow-hidden bg-[#D4E3DE]">
-  <div class="absolute inset-0 z-0">
+  <div class="absolute inset-0 z-0 hidden lg:block">
     <div class="bg-grid-pattern absolute inset-0 opacity-10"></div>
   </div>
   <Header />
-  <div class="container relative z-10 mx-auto px-4 pt-16">
+  <div class="container relative z-10 mx-auto pt-8 md:pt-16">
     <div class="flex flex-col items-center lg:flex-row">
       <div class="z-10">
-        <h1 class="max-w-screen-lg font-sans text-title font-bold">
-          A podcast with awesome <br /> IT geeks, In Darija!
+        <h1
+          class="w-full max-w-screen-lg text-center font-sans text-heading-lg font-bold md:text-left md:text-title"
+        >
+          A podcast with awesome <br class="hidden md:block" /> IT geeks, In Darija!
         </h1>
-        <p class="my-8 max-w-[600px] font-sans text-label-sm font-thin">
+        <p
+          class="my-8 max-w-[600px] text-center font-sans text-label-sm font-thin md:text-left"
+        >
           At GeeksBlaBla podcast, is where we host brilliant IT people to
           discuss, highlight and share the latest technology topics.
           <br />
-          Join us every Sunday!
+          Join us every Sunday! 8:00 PM
         </p>
-        <div class="flex space-x-4 py-4">
+        <div class="flex justify-center space-x-4 py-4 md:justify-start">
           <ButtonLink
             href={`/podcast/${lastEpisode.data.slug}`}
             variant="secondary"
           >
             Watch Podcast <Icon name="arrow-right" class="ml-2 rotate-45" />
           </ButtonLink>
-          <Button variant="outline">
+          <Button variant="outline" className="hidden self-center md:flex">
             Surprise me <Icon name="arrow-right" class="ml-2" />
           </Button>
         </div>
       </div>
     </div>
   </div>
-  <div class="container pointer-events-none relative z-20 mx-auto -mt-36 px-4">
+  <div
+    class="container pointer-events-none relative z-20 mx-auto mt-2 px-4 md:-mt-36"
+  >
     <HeroAnimation />
   </div>
 </section>

@@ -5,18 +5,36 @@ import transparencyIcon from "@/assets/values/transparency.svg?raw";
 import inclusivenessIcon from "@/assets/values/inclusiveness.svg?raw";
 import empathyIcon from "@/assets/values/empathy.svg?raw";
 import accountabilityIcon from "@/assets/values/accountability.svg?raw";
+import { Icon } from "astro-icon/components";
 
 type VV = {
   icon: string;
   name: string;
+  inlineIcon: string;
 };
 const values: VV[] = [
-  { icon: ConsistencyIcon, name: "CONSISTENCY" },
-  { icon: simplicityIcon, name: "SIMPLICITY" },
-  { icon: transparencyIcon, name: "TRANSPARENCY" },
-  { icon: inclusivenessIcon, name: "INCLUSIVENESS" },
-  { icon: empathyIcon, name: "EMPATHY" },
-  { icon: accountabilityIcon, name: "ACCOUNTABILITY" },
+  {
+    icon: ConsistencyIcon,
+    name: "CONSISTENCY",
+    inlineIcon: "values/consistency",
+  },
+  { icon: simplicityIcon, name: "SIMPLICITY", inlineIcon: "values/simplicity" },
+  {
+    icon: transparencyIcon,
+    name: "TRANSPARENCY",
+    inlineIcon: "values/transparency",
+  },
+  {
+    icon: inclusivenessIcon,
+    name: "INCLUSIVENESS",
+    inlineIcon: "values/inclusiveness",
+  },
+  { icon: empathyIcon, name: "EMPATHY", inlineIcon: "values/empathy" },
+  {
+    icon: accountabilityIcon,
+    name: "ACCOUNTABILITY",
+    inlineIcon: "values/accountability",
+  },
 ];
 
 const mission = [
@@ -40,9 +58,11 @@ const mission = [
 
 <section class="bg-[#F2F4F7] py-16 font-light">
   <div class="container mx-auto px-4">
-    <h2 class="mb-8 text-4xl font-bold">Our mission</h2>
+    <h2 class="mb-8 text-center text-4xl font-bold md:text-left">
+      Our mission
+    </h2>
     <p
-      class="mb-12 max-w-[800px] text-paragraph-lg font-thin text-neutral-dark-50"
+      class="mb-12 max-w-[800px] text-center text-paragraph-lg font-thin text-neutral-dark-50 md:text-left"
     >
       Is to Empower Moroccan 🇲🇦 IT enthusiasts and beyond to thrive through
       continuous learning, exchange, collaboration, and innovation.
@@ -52,8 +72,10 @@ const mission = [
       {
         mission.map(item => (
           <div>
-            <h4 class="mb-4 text-label-lg font-semibold">{item.title}</h4>
-            <p class="text-paragraph-sm text-neutral-dark-50">
+            <h4 class="mb-4 text-center text-label-lg font-semibold md:text-left">
+              {item.title}
+            </h4>
+            <p class="text-center text-paragraph-sm text-neutral-dark-50 md:text-left">
               {item.description}
             </p>
           </div>
@@ -61,17 +83,16 @@ const mission = [
       }
     </div>
 
-    <h2 class="my-8 text-4xl font-bold">Our values</h2>
+    <h2 class="my-8 text-center text-4xl font-bold md:text-left">Our values</h2>
     <div class="grid grid-cols-2 gap-8 md:grid-cols-3">
       {
         values.map(value => (
           <div class="flex flex-col items-center">
-            <Fragment
-              set:html={value.icon}
-              alt={value.name}
-              class="mb-4 h-24"
-            />
-            <span class="py-4 text-heading-sm font-light text-neutral-dark-20">
+            <div class="mb-4 h-24">
+              <Icon name={value.inlineIcon} class="h-full w-24" />
+              {/* <Fragment set:html={value.icon} alt={value.name} /> */}
+            </div>
+            <span class="py-4 text-paragraph-sm font-light text-neutral-dark-20 md:text-heading-sm">
               {value.name}
             </span>
           </div>

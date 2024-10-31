@@ -16,7 +16,7 @@ const { latestArticle, featuredArticles } = Astro.props;
   <div class="">
     <Card
       href={`/blog/${latestArticle.data.slug}`}
-      fullWidth
+      withCover
       frontmatter={latestArticle.data}
       minutesRead={getReadingTime(latestArticle?.body ?? "").text}
     />
