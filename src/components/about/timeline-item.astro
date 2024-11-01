@@ -52,7 +52,7 @@ const { title, date, image } = Astro.props as Props;
   <div class="w-full py-8 md:w-1/2 md:px-8">
     <div class="flex items-start justify-between">
       <h2 class="text-heading-sm text-neutral-dark-30">{title}</h2>
-      <p class="text-label-xs whitespace-nowrap">{date}</p>
+      <p class="text-label-xs whitespace-nowrap group-last:hidden">{date}</p>
     </div>
     <div class="pt-4">
       <slot />
