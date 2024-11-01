@@ -320,3 +320,37 @@ const categories = getPodcastCategories(sortedPodcast).sort(
     setActiveEpisodeItem();
   });
 </script>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const seekToTimestamp = () => {
+      console.log("DOMContentLoaded");
+      const youtubeVideo = document.querySelector(
+        "youtube-video"
+      ) as HTMLVideoElement;
+      console.log("youtubeVideo", youtubeVideo);
+      const hash = window.location.hash;
+      if (hash && hash.startsWith("#")) {
+        console.log("hash", hash);
+        const seconds = parseInt(hash.slice(1), 10);
+        if (!isNaN(seconds) && youtubeVideo) {
+          console.log("seeking to", youtubeVideo);
+          youtubeVideo.currentTime = seconds;
+        }
+      }
+    };
+
+    // Initial check on page load
+    seekToTimestamp();
+
+    // Listen for hash changes(clicks from notes)
+    document.addEventListener("hashchange", seekToTimestamp);
+  });
+</script>
+
+<script>
+  console.log("rerun", window);
+  document.addEventListener("hashchange", () => {
+    console.log("hashchange");
+  });
+</script>

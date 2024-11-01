@@ -130,27 +130,3 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
     </article>
   </div>
 </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const youtubeVideo = document.querySelector(
-      "youtube-video"
-    ) as HTMLVideoElement;
-    const seekToTimestamp = () => {
-      const hash = window.location.hash;
-      if (hash && hash.startsWith("#")) {
-        const seconds = parseInt(hash.slice(1), 10);
-        if (!isNaN(seconds) && youtubeVideo) {
-          console.log("seeking to", youtubeVideo);
-          youtubeVideo.currentTime = seconds;
-        }
-      }
-    };
-
-    // Initial check on page load
-    seekToTimestamp();
-
-    // Listen for hash changes(clicks from notes)
-    window.addEventListener("hashchange", seekToTimestamp);
-  });
-</script>

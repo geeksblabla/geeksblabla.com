@@ -9,24 +9,23 @@ export interface Props {
 }
 
 const { episode, number } = Astro.props as Props;
-const isCurrentEpisode =
-  episode.data.slug === Astro.url.pathname.split("/").pop();
+const isCurrentEpisode = Astro.url.pathname.includes(episode.data.slug);
 ---
 
 <li data-category={episode.data.category.toLowerCase()}>
   <a
-    href={`/podcast/${episode.data.slug}`}
+    href={`/podcast/${episode.data.slug}/`}
     data-playing={isCurrentEpisode ? "true" : "false"}
-    class="group relative block cursor-pointer overflow-hidden rounded-lg bg-white transition-colors hover:bg-gray-50"
+    class="group relative block cursor-pointer overflow-hidden rounded-lg transition-colors hover:bg-gray-50 data-[playing=false]:bg-white data-[playing=true]:bg-[#114997]"
   >
     <div
-      class="absolute -right-1 -top-1 text-5xl font-extrabold text-gray-500/5"
+      class="absolute -right-1 -top-1 text-5xl font-extrabold group-data-[playing=false]:text-gray-500/5 group-data-[playing=true]:text-white/20"
     >
       #{number}
     </div>
 
     <div
-      class="absolute inset-x-0 -bottom-8 flex items-center justify-evenly opacity-5 group-data-[playing=false]:hidden"
+      class="absolute inset-x-0 -bottom-8 flex items-center justify-evenly opacity-5 group-data-[playing=false]:hidden group-data-[playing=true]:text-white group-data-[playing=true]:opacity-10"
     >
       <AudioWave />
     </div>
@@ -46,16 +45,16 @@ const isCurrentEpisode =
       <div class="flex-1 overflow-hidden">
         <div class="overflow-hidden whitespace-nowrap">
           <p
-            class="group-hover:pr-full inline-block text-base font-bold text-gray-900 group-hover:animate-marquee md:text-lg"
+            class="group-hover:pr-full inline-block text-base font-bold group-hover:animate-marquee group-data-[playing=false]:text-gray-900 group-data-[playing=true]:text-white md:text-lg"
           >
             {episode.data.title}
           </p>
         </div>
         <div
-          class="flex flex-row justify-between text-xs text-gray-500 md:text-sm"
+          class="flex flex-row justify-between text-xs group-data-[playing=false]:text-gray-500 group-data-[playing=true]:text-white md:text-sm"
         >
-          <p class="text-sm text-gray-500">{episode.data.dateString}</p>
-          <p class="text-sm text-gray-500">{episode.data.duration}</p>
+          <p class="text-sm">{episode.data.dateString}</p>
+          <p class="text-sm">{episode.data.duration}</p>
         </div>
       </div>
     </div>
