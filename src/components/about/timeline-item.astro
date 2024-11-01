@@ -13,34 +13,35 @@ const { title, date, image } = Astro.props as Props;
 ---
 
 <div
-  class="group relative flex flex-col bg-white py-12 md:flex-row-reverse even:md:flex-row"
+  class="group relative flex flex-col px-4 py-8 md:flex-row-reverse md:p-0 md:py-20 even:md:flex-row"
 >
   {/* Horizontal line spanning 70% of width, positioned 15% from left */}
   <div
-    class="absolute bottom-0 left-[calc(15%+5px)] h-[1px] w-[calc(70%-10px)] bg-neutral-dark-10 group-last:hidden"
+    class="absolute bottom-0 left-[calc(10%+5px)] hidden h-[1px] w-[calc(80%-10px)] bg-neutral-dark-30 group-last:hidden md:block"
   >
   </div>
-
   {
     /* Vertical line positioned either 15% from left or right depending on odd/even */
   }
   <div
-    class="absolute bottom-0 top-[5px] z-10 h-[calc(100%-10px)] w-[1px] rounded-full bg-neutral-dark-10 group-odd:right-[15%] group-even:left-[15%]"
+    class="absolute bottom-0 top-[5px] z-10 hidden h-[calc(100%-10px)] w-[1px] rounded-full bg-neutral-dark-30 group-last:h-full group-odd:right-[10%] group-even:left-[10%] md:block"
   >
   </div>
 
   {/* Right corner piece - rotates -90deg on even items */}
   <div
-    class="absolute bottom-0 right-[calc(15%)] z-10 h-[10px] w-[10px] rounded-br-md border-b border-r border-neutral-dark-10 group-last:hidden group-even:-bottom-[9px] group-even:-rotate-90"
+    class="absolute bottom-0 right-[calc(10%)] z-10 hidden h-[10px] w-[10px] rounded-br-md border-b border-r border-neutral-dark-30 group-last:hidden group-even:-bottom-[9px] group-even:-rotate-90 md:block"
   >
   </div>
 
   {/* Left corner piece - rotates 90deg on odd items */}
   <div
-    class="absolute bottom-0 left-[calc(15%)] z-10 h-[10px] w-[10px] rounded-bl-md border-b border-l border-neutral-dark-10 group-last:hidden group-odd:-bottom-[9px] group-odd:rotate-90"
+    class="absolute bottom-0 left-[calc(10%)] z-10 hidden h-[10px] w-[10px] rounded-bl-md border-b border-l border-neutral-dark-30 group-last:hidden group-odd:-bottom-[9px] group-odd:rotate-90 md:block"
   >
   </div>
-  <div class="z-20 flex w-1/2 items-center justify-center">
+  <div
+    class="z-20 flex w-full items-center justify-center group-odd:bg-neutral-light-50 md:w-1/2 md:group-odd:bg-transparent"
+  >
     <Image
       class="mx-auto overflow-hidden rounded-t-[4px]"
       src={image}
@@ -48,13 +49,12 @@ const { title, date, image } = Astro.props as Props;
       alt="DevC Casa illustration"
     />
   </div>
-
-  <div class="w-1/2 p-8">
+  <div class="w-full py-8 md:w-1/2 md:px-8">
     <div class="flex items-start justify-between">
       <h2 class="text-heading-sm text-neutral-dark-30">{title}</h2>
       <p class="text-label-xs whitespace-nowrap">{date}</p>
     </div>
-    <div>
+    <div class="pt-8">
       <slot />
     </div>
   </div>
