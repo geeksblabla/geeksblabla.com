@@ -6,7 +6,7 @@
   <canvas id="canvas" class="w-full md:-mt-24"></canvas>
 </div>
 
-<!-- consider using canvas lit -->
+<!-- TODO: consider using canvas lit -->
 <script is:inline src="https://unpkg.com/@rive-app/canvas@2.20.0"></script>
 <script>
   import { Rive } from "@rive-app/canvas";
@@ -14,8 +14,6 @@
     src: "/animations/comm_hero_graphics.riv",
     canvas: document.getElementById("canvas") as HTMLCanvasElement,
     autoplay: true,
-
-    // stateMachines: "Motion",
     onLoad: () => {
       // Ensure the drawing surface matches the canvas size and device pixel ratio
       r.resizeDrawingSurfaceToCanvas();
