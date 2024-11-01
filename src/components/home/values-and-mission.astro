@@ -1,40 +1,24 @@
 ---
-import ConsistencyIcon from "@/assets/values/consistency.svg?raw";
-import simplicityIcon from "@/assets/values/simplicity.svg?raw";
-import transparencyIcon from "@/assets/values/transparency.svg?raw";
-import inclusivenessIcon from "@/assets/values/inclusiveness.svg?raw";
-import empathyIcon from "@/assets/values/empathy.svg?raw";
-import accountabilityIcon from "@/assets/values/accountability.svg?raw";
-import { Icon } from "astro-icon/components";
+import ConsistencyIcon from "@/assets/values/consistency.png";
+import simplicityIcon from "@/assets/values/simplicity.png";
+import transparencyIcon from "@/assets/values/transparency.png";
+import inclusivenessIcon from "@/assets/values/inclusiveness.png";
+import empathyIcon from "@/assets/values/empathy.png";
+import accountabilityIcon from "@/assets/values/accountability.png";
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
 
 type VV = {
-  icon: string;
+  icon: ImageMetadata;
   name: string;
-  inlineIcon: string;
 };
 const values: VV[] = [
-  {
-    icon: ConsistencyIcon,
-    name: "CONSISTENCY",
-    inlineIcon: "values/consistency",
-  },
-  { icon: simplicityIcon, name: "SIMPLICITY", inlineIcon: "values/simplicity" },
-  {
-    icon: transparencyIcon,
-    name: "TRANSPARENCY",
-    inlineIcon: "values/transparency",
-  },
-  {
-    icon: inclusivenessIcon,
-    name: "INCLUSIVENESS",
-    inlineIcon: "values/inclusiveness",
-  },
-  { icon: empathyIcon, name: "EMPATHY", inlineIcon: "values/empathy" },
-  {
-    icon: accountabilityIcon,
-    name: "ACCOUNTABILITY",
-    inlineIcon: "values/accountability",
-  },
+  { icon: ConsistencyIcon, name: "CONSISTENCY" },
+  { icon: simplicityIcon, name: "SIMPLICITY" },
+  { icon: transparencyIcon, name: "TRANSPARENCY" },
+  { icon: inclusivenessIcon, name: "INCLUSIVENESS" },
+  { icon: empathyIcon, name: "EMPATHY" },
+  { icon: accountabilityIcon, name: "ACCOUNTABILITY" },
 ];
 
 const mission = [
@@ -89,8 +73,7 @@ const mission = [
         values.map(value => (
           <div class="flex flex-col items-center">
             <div class="mb-4 h-24">
-              <Icon name={value.inlineIcon} class="h-full w-24" />
-              {/* <Fragment set:html={value.icon} alt={value.name} /> */}
+              <Image src={value.icon} class="h-full w-24" alt={value.name} />
             </div>
             <span class="py-4 text-paragraph-sm font-light text-neutral-dark-20 md:text-heading-sm">
               {value.name}
