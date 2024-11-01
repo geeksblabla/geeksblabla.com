@@ -24,7 +24,7 @@ const { title, date, image } = Astro.props as Props;
     /* Vertical line positioned either 15% from left or right depending on odd/even */
   }
   <div
-    class="absolute bottom-0 top-[5px] z-10 hidden h-[calc(100%-10px)] w-[1px] rounded-full bg-neutral-dark-30 group-last:h-full group-odd:right-[10%] group-even:left-[10%] md:block"
+    class="absolute bottom-0 top-[5px] z-10 hidden h-[calc(100%-10px)] w-[1px] rounded-full bg-neutral-dark-30 group-odd:right-[10%] group-even:left-[10%] md:block"
   >
   </div>
 
@@ -54,7 +54,7 @@ const { title, date, image } = Astro.props as Props;
       <h2 class="text-heading-sm text-neutral-dark-30">{title}</h2>
       <p class="text-label-xs whitespace-nowrap">{date}</p>
     </div>
-    <div class="pt-8">
+    <div class="pt-4">
       <slot />
     </div>
   </div>
