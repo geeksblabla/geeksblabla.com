@@ -1,12 +1,28 @@
 ---
+import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
 const gallery = await getCollection("gallery");
 ---
 
 <section class="bg-[#F2F4F7] py-16">
   <div class="container mx-auto px-4">
-    <h2 class="mb-6 text-heading-lg font-bold">Gallery</h2>
-    <div class="overflow-hidden rounded-lg border border-neutral-dark-20">
+    <div class="flex flex-row items-center justify-between">
+      <h2 class="mb-6 text-heading-lg font-bold">Gallery</h2>
+      <div
+        class="flex flex-row items-center justify-center text-neutral-dark-50"
+      >
+        <p class="mr-4 text-paragraph-lg">You can use arrows to navigate</p>
+        <div class="flex flex-row font-bold">
+          [<Icon name="arrow-left" class="mt-[5px] h-3 w-3" />]
+        </div>
+        <div class="flex flex-row font-bold">
+          [<Icon name="arrow-right" class="mt-[5px] h-3 w-3" />]
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden rounded-lg border border-neutral-dark-20"
+    >
       <div class="bg-[#FAFBFD] px-3 py-2">
         <svg
           width="50"
@@ -39,6 +55,22 @@ const gallery = await getCollection("gallery");
           ))
         }
       </swiper-container>
+      <div
+        class="absolute bottom-8 z-10 flex w-full flex-row items-center justify-center gap-5"
+      >
+        <button
+          id="arrow-left"
+          class="flex flex-row rounded-full border-2 border-neutral-dark-20 bg-white p-3 font-bold"
+        >
+          <Icon name="arrow-left" class="h-5 w-5" />
+        </button>
+        <button
+          id="arrow-right"
+          class="flex flex-row rounded-full border-2 border-neutral-dark-20 bg-white p-3 font-bold"
+        >
+          <Icon name="arrow-right" class="h-5 w-5" />
+        </button>
+      </div>
     </div>
   </div>
 </section>
@@ -69,4 +101,30 @@ const gallery = await getCollection("gallery");
     height: 100%;
     object-fit: cover;
   }
+  swiper-container::part(button-prev) {
+    display: none;
+  }
+
+  swiper-container::part(button-next) {
+    display: none;
+  }
+  swiper-container::part(pagination) {
+    display: none;
+  }
 </style>
+
+<script>
+  const swiperEl = document.querySelector("swiper-container");
+  const buttonLeftEl = document.getElementById("arrow-left");
+  const buttonRightEl = document.getElementById("arrow-right");
+
+  buttonLeftEl?.addEventListener("click", () => {
+    // @ts-expect-error swiperEl is not typed
+    swiperEl?.swiper.slidePrev();
+  });
+
+  buttonRightEl?.addEventListener("click", () => {
+    // @ts-expect-error swiperEl is not typed
+    swiperEl?.swiper.slideNext();
+  });
+</script>
