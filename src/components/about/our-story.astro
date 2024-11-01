@@ -7,6 +7,7 @@ import blablaConfImage from "@/assets/about/blabla-conf.png";
 import episode100Image from "@/assets/about/episode-100.png";
 import geeksblablaNGOImage from "@/assets/about/geeksblabla-ngo.png";
 import whatsnextImage from "@/assets/about/whats-next.png";
+import { Icon } from "astro-icon/components";
 
 const timelineItems: Array<TimelineItemType & { description: string }> = [
   {
@@ -55,7 +56,7 @@ const timelineItems: Array<TimelineItemType & { description: string }> = [
     title: "What's next?",
     date: "...",
     description:
-      "Building on our rich history of growth and community impact, the future of Geeksblabla shines brightly with promise.<br/><br/> Geeksblabla has evolved beyond being just a podcast; it has grown into a vibrant community, encompassing multiple initiatives and projects.As we look ahead, our commitment to serving the Moroccan community remains strong. We will continue to innovate and expand our initiatives, staying true to our core values of learning, collaboration, and inclusivity. Through Geeksblabla and upcoming projects, we aim to foster even deeper connections, empower aspiring tech enthusiasts, and provide platforms for meaningful exchanges.<br/><br/> Together, we will move forward, creating environments where knowledge flourishes and aspirations soar.",
+      "Building on our rich history of growth and community impact, the future of Geeksblabla shines brightly with promise.<br/><br/> Geeksblabla has evolved beyond being just a podcast; it has grown into a vibrant community, encompassing multiple initiatives and projects. As we look ahead, our commitment to serving the Moroccan community remains strong. We will continue to innovate and expand our initiatives, staying true to our core values of learning, collaboration, and inclusivity. Through Geeksblabla and upcoming projects, we aim to foster even deeper connections, empower aspiring tech enthusiasts, and provide platforms for meaningful exchanges.<br/><br/> Together, we will move forward, creating environments where knowledge flourishes and aspirations soar.",
     image: whatsnextImage,
   },
 ];
@@ -63,11 +64,20 @@ const timelineItems: Array<TimelineItemType & { description: string }> = [
 
 <section id="history" class="bg-neutral-light-20">
   <div class="container mx-auto !px-0">
-    <h2
-      class="mb-6 text-center text-heading-lg font-bold text-neutral-dark-10 sm:text-left"
-    >
-      About Us
-    </h2>
+    <div class="flex flex-col items-center md:flex-row md:justify-between">
+      <h2
+        class="mb-4 text-center text-heading-lg font-bold text-neutral-dark-10 sm:text-left"
+      >
+        About Us
+      </h2>
+      <a
+        href="#team"
+        class="flex items-center gap-2 text-label-sm font-bold text-neutral-dark-10 hover:text-neutral-dark-20"
+      >
+        Go to Team members
+        <Icon name="arrow-down" class="h-5 w-5" />
+      </a>
+    </div>
 
     {
       timelineItems.map(item => (
