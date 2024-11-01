@@ -39,9 +39,7 @@ const { title, date, image } = Astro.props as Props;
     class="absolute bottom-0 left-[calc(10%)] z-10 hidden h-[10px] w-[10px] rounded-bl-md border-b border-l border-neutral-dark-30 group-last:hidden group-odd:-bottom-[9px] group-odd:rotate-90 md:block"
   >
   </div>
-  <div
-    class="z-20 flex w-full items-center justify-center group-odd:bg-neutral-light-50 md:w-1/2 md:group-odd:bg-transparent"
-  >
+  <div class="z-20 flex w-full items-center justify-center md:w-1/2">
     <Image
       class="mx-auto overflow-hidden rounded-t-[4px]"
       src={image}
