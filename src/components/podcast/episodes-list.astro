@@ -13,6 +13,11 @@ const sortedPodcast = podcast.sort(
 const categories = getPodcastCategories(sortedPodcast).sort(
   (a, b) => b.count - a.count
 );
+
+const allCategories = [
+  { name: "All", count: sortedPodcast.length },
+  ...categories,
+];
 ---
 
 <!-- Add toggle button for mobile -->
@@ -67,16 +72,10 @@ const categories = getPodcastCategories(sortedPodcast).sort(
     </div>
 
     <div id="category-filter-buttons" class="mt-4 flex flex-wrap gap-2">
-      <button
-        class="category-filter rounded-lg bg-white px-3 py-1 text-sm font-medium text-gray-700 transition-colors hover:bg-black hover:text-white"
-        data-filter="all"
-      >
-        All ({sortedPodcast.length})
-      </button>
       {
-        categories.map(category => (
+        allCategories.map(category => (
           <button
-            class="category-filter rounded-lg bg-white px-3 py-1 text-sm font-medium text-gray-700 transition-colors hover:bg-black hover:text-white"
+            class="category-filter rounded-lg bg-[#D3DAE5] px-3 py-1 text-sm font-medium text-gray-700 transition-colors hover:bg-[#114997] hover:text-white"
             data-filter={category.name.toLowerCase()}
           >
             {category.name.charAt(0).toUpperCase() +
@@ -140,7 +139,7 @@ const categories = getPodcastCategories(sortedPodcast).sort(
 
 <style>
   .active {
-    background-color: black;
+    background-color: #114997;
     color: white;
   }
 </style>
