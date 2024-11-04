@@ -1,0 +1,69 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<div
+  class="absolute bottom-0 left-0 right-0 flex justify-center bg-gradient-to-t from-white/90 to-white/10 p-4"
+  aria-label="Scroll controls"
+  id="scroll-control"
+>
+  <button
+    class="rounded-full bg-black p-3 text-white opacity-70 transition-transform hover:opacity-100"
+    id="scroll-button"
+  >
+    <Icon
+      name="arrow-down"
+      class="h-6 w-6 transition-transform"
+      id="scroll-icon"
+    />
+  </button>
+</div>
+
+<!--  scroll control functionality -->
+<script>
+  const list = document.getElementById("episodes-list");
+  const scrollButton = document.getElementById("scroll-button");
+  const scrollIcon = document.getElementById("scroll-icon");
+
+  let isAtBottom = false;
+
+  function checkScrollPosition() {
+    if (!list) return;
+
+    const atBottom =
+      list.scrollHeight - list.scrollTop <= list.clientHeight + 50;
+
+    if (atBottom !== isAtBottom) {
+      isAtBottom = atBottom;
+      if (isAtBottom) {
+        scrollIcon?.style.setProperty("transform", "rotate(180deg)");
+      } else {
+        scrollIcon?.style.setProperty("transform", "rotate(0deg)");
+      }
+    }
+  }
+
+  function handleScroll() {
+    if (!list) return;
+
+    if (isAtBottom) {
+      // Scroll to top
+      list.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    } else {
+      // Scroll to bottom
+      list.scrollTo({
+        top: list.scrollTop + window.innerHeight,
+        behavior: "smooth",
+      });
+    }
+  }
+
+  list?.addEventListener("scroll", checkScrollPosition);
+  scrollButton?.addEventListener("click", handleScroll);
+
+  // Initial check
+  checkScrollPosition();
+</script>

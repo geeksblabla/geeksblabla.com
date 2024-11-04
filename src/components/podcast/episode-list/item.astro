@@ -12,11 +12,15 @@ const { episode, number } = Astro.props as Props;
 const isCurrentEpisode = Astro.url.pathname.includes(episode.data.slug);
 ---
 
-<li data-category={episode.data.category.toLowerCase()}>
+<li
+  data-category={episode.data.category.toLowerCase()}
+  data-episode-number={number}
+  data-playing={isCurrentEpisode ? "true" : "false"}
+  class="group"
+>
   <a
     href={`/podcast/${episode.data.slug}/`}
-    data-playing={isCurrentEpisode ? "true" : "false"}
-    class="group relative block cursor-pointer overflow-hidden rounded-lg transition-colors hover:bg-gray-50 data-[playing=false]:bg-white data-[playing=true]:bg-[#114997]"
+    class="relative block cursor-pointer overflow-hidden rounded-lg transition-colors hover:bg-gray-50 group-data-[playing=false]:bg-white group-data-[playing=true]:bg-[#114997]"
   >
     <div
       class="absolute -right-1 -top-1 text-5xl font-extrabold group-data-[playing=false]:text-gray-500/5 group-data-[playing=true]:text-white/20"

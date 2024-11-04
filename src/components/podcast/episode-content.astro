@@ -92,7 +92,7 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
         </div>
       </div>
       <div class="mt-4 rounded-lg bg-white">
-        <div class="space-y-2 p-4 pt-8">
+        <div class="space-y-2 p-4 pt-8" id="markdown-notes">
           <h3 class="text-label-sm font-medium text-gray-900">Notes:</h3>
           <div class="prose [&>p]:!my-0 [&_a]:font-bold">
             <Markdown of={episodeContent.notes} />
@@ -130,3 +130,45 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
     </article>
   </div>
 </div>
+
+<script is:inline>
+  // Get all links inside markdown-notes and add data-astro-reload attribute
+  // mainly because we are using viewtransasition in the page and we want astro to ignore those links
+  // maybe should be done in the build process not when the page is loaded
+  const updateLinks = () => {
+    const markdownNotes = document.getElementById("markdown-notes");
+    if (markdownNotes) {
+      const links = markdownNotes.querySelectorAll("a");
+      links.forEach(link => {
+        link.setAttribute("data-astro-reload", "");
+      });
+    }
+  };
+
+  document.addEventListener("astro:after-swap", updateLinks);
+  document.addEventListener("DOMContentLoaded", updateLinks);
+</script>
+
+<script>
+  const seekToTimestamp = () => {
+    const youtubeVideo = document.querySelector(
+      "youtube-video"
+    ) as HTMLVideoElement;
+    const hash = window.location.hash;
+    if (hash && hash.startsWith("#")) {
+      const seconds = parseInt(hash.slice(1), 10);
+      if (!isNaN(seconds) && youtubeVideo) {
+        youtubeVideo.currentTime = seconds;
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", () => {
+    // Initial check on page load
+    seekToTimestamp();
+    // Listen for hash changes(clicks from notes)
+    window.addEventListener("hashchange", seekToTimestamp);
+  });
+  window.addEventListener("astro:after-swap", () => {
+    window.addEventListener("hashchange", seekToTimestamp);
+  });
+</script>
