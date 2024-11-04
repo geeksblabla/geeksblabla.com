@@ -4,6 +4,7 @@ import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
 import EpisodesListItem from "./episodes-list-item.astro";
 import { getPodcastCategories } from "@/lib/podcast-utils";
+import EpisodesListSearch from "./episodes-list-search.astro";
 
 const podcast = await getCollection("podcast");
 const sortedPodcast = podcast.sort(
@@ -55,21 +56,12 @@ const allCategories = [
 </button>
 
 <div
+  data-pagefind-ignore
   class="fixed left-0 top-0 z-[101] h-[calc(100vh)] w-[85%] max-w-[430px] -translate-x-full transform bg-[#E2E7EE] shadow-md transition-transform duration-300 ease-in-out md:sticky md:top-0 md:w-full md:translate-x-0"
   id="episodes-list-container"
 >
   <div class="p-4 pb-4">
-    <div class="relative">
-      <input
-        type="text"
-        placeholder="Search episodes"
-        class="w-full rounded-full bg-white py-2 pl-10 pr-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-      />
-      <Icon
-        name="search"
-        class="absolute left-3 top-2.5 h-5 w-5 text-gray-400"
-      />
-    </div>
+    <EpisodesListSearch />
 
     <div id="category-filter-buttons" class="mt-4 flex flex-wrap gap-2">
       {

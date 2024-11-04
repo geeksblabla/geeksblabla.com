@@ -1,0 +1,41 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<div class="relative">
+  <input
+    type="text"
+    id="episodes-list-search"
+    placeholder="Search episodes"
+    class="w-full rounded-full bg-white py-2 pl-10 pr-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  />
+  <Icon name="search" class="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
+</div>
+
+<script>
+  // Client-side search functionality
+  const searchInput = document.getElementById("episodes-list-search");
+  const episodesList = document.getElementById("episodes-list");
+  const episodeItems = episodesList?.querySelectorAll("li[data-category]");
+
+  searchInput?.addEventListener("input", e => {
+    const searchTerm = (e.target as HTMLInputElement).value.toLowerCase();
+
+    if (episodeItems) {
+      Array.from(episodeItems).forEach(item => {
+        const title =
+          item.querySelector("h3")?.textContent?.toLowerCase() || "";
+        const description =
+          item.querySelector("p")?.textContent?.toLowerCase() || "";
+
+        const matches =
+          title.includes(searchTerm) || description.includes(searchTerm);
+        if (matches) {
+          item.setAttribute("hidden", "");
+        } else {
+          item.setAttribute("hidden", "true");
+        }
+      });
+    }
+  });
+</script>

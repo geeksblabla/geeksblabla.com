@@ -8,10 +8,14 @@ import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
 import mdx from "@astrojs/mdx";
+import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  build: {
+    format: "file",
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
@@ -20,6 +24,7 @@ export default defineConfig({
     sitemap(),
     icon(),
     mdx(),
+    pagefind(),
   ],
   markdown: {
     remarkPlugins: [
