@@ -65,7 +65,7 @@ const allCategories = [
     <EpisodesListFilter allCategories={allCategories} />
   </div>
   <ul
-    class="max-h-[calc(100vh-80px)] space-y-2 overflow-y-auto p-4 pb-12 [&::-webkit-scrollbar-thumb]:bg-gray-500/50 [&::-webkit-scrollbar]:w-[3px]"
+    class="max-h-[calc(100vh-140px)] space-y-2 overflow-y-auto p-4 pb-12 [&::-webkit-scrollbar-thumb]:bg-gray-500/50 [&::-webkit-scrollbar]:w-[3px]"
     id="episodes-list"
   >
     {
@@ -89,15 +89,50 @@ const allCategories = [
 
 <!-- Scroll to top when scrolling inside the list to make sure we are giving the user a smooth experience -->
 <script>
-  const container = document.getElementById("episodes-list-container");
-  const list = document.getElementById("episodes-list");
-  if (window.innerWidth >= 768) {
-    list?.addEventListener("scroll", () => {
-      if (list.scrollTop > 0) {
-        container?.scrollIntoView({ behavior: "smooth" });
+  let isAutoScrolling = false;
+  const scrollToTop = () => {
+    const container = document.getElementById("episodes-list-container");
+    const list = document.getElementById("episodes-list");
+    if (window.innerWidth >= 768) {
+      list?.addEventListener("scroll", () => {
+        if (list.scrollTop > 0 && !isAutoScrolling) {
+          console.log("scrolling to top");
+          container?.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    }
+  };
+
+  const activeItemVisible = () => {
+    const activeEpisodeItem = document.querySelector("li[data-playing=true]");
+    if (activeEpisodeItem) {
+      const list = document.getElementById("episodes-list");
+      if (list) {
+        const itemRect = activeEpisodeItem.getBoundingClientRect();
+        const listRect = list.getBoundingClientRect();
+
+        const isAbove = itemRect.top < listRect.top;
+        const isBelow = itemRect.bottom > listRect.bottom;
+
+        if (isAbove || isBelow) {
+          isAutoScrolling = true;
+          list.scrollTop = itemRect.top - listRect.top;
+          setTimeout(() => {
+            isAutoScrolling = false;
+          }, 3000); // Adjust timeout to match scroll duration
+        }
       }
-    });
-  }
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    scrollToTop();
+    activeItemVisible();
+  });
+  document.addEventListener("astro:after-swap", () => {
+    scrollToTop();
+    activeItemVisible();
+  });
 </script>
 
 <!-- Drawer functionality -->
