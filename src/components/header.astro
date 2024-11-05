@@ -3,6 +3,7 @@ import { Icon } from "astro-icon/components";
 import HeaderLink from "./header-link.astro";
 import Logo from "@/assets/logo.svg?raw";
 import { SOCIALS } from "@/config";
+import Search from "./search.astro";
 
 interface Props {
   withSocialIcons?: boolean;
@@ -19,7 +20,6 @@ const navItems = [
 ];
 
 const socialIcons = [
-  { icon: "search", href: "#", ariaLabel: "Search" },
   { icon: "youtube", href: SOCIALS.youtube.href, ariaLabel: "YouTube" },
   { icon: "spotify", href: SOCIALS.spotify.href, ariaLabel: "Spotify" },
   { icon: "linkedin", href: SOCIALS.linkedin.href, ariaLabel: "LinkedIn" },
@@ -105,6 +105,7 @@ const currentPath = Astro.url.pathname;
         }
       </ul>
       <ul class="flex flex-row items-center space-x-4">
+        <Search />
         {
           withSocialIcons &&
             socialIcons.map(item => (
@@ -115,12 +116,6 @@ const currentPath = Astro.url.pathname;
                   class="flex items-center text-gray-600 hover:text-gray-800"
                 >
                   <Icon name={item.icon} class="h-5 w-5" />
-                  {item.ariaLabel && (
-                    <span class="sr-only">{item.ariaLabel}</span>
-                  )}
-                  {item.ariaLabel === "Search" && (
-                    <span class="ml-2 mr-3 font-bold">Search</span>
-                  )}
                 </a>
               </li>
             ))
