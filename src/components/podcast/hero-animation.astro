@@ -7,15 +7,15 @@
 </div>
 
 <!-- consider using canvas lit -->
-<script is:inline src="https://unpkg.com/@rive-app/canvas@2.20.0"></script>
+<script is:inline src="https://unpkg.com/@rive-app/canvas-lite@2.23.4"></script>
+
+<!-- <script is:inline src="https://unpkg.com/@rive-app/canvas@2.20.0"></script> -->
 <script>
   import { Rive } from "@rive-app/canvas";
   const r = new Rive({
     src: "/animations/podcast_hero_graphic.riv",
     canvas: document.getElementById("canvas") as HTMLCanvasElement,
     autoplay: true,
-
-    // stateMachines: "Motion",
     onLoad: () => {
       // Ensure the drawing surface matches the canvas size and device pixel ratio
       r.resizeDrawingSurfaceToCanvas();

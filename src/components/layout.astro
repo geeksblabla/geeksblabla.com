@@ -66,5 +66,26 @@ const socialImageURL = new URL(
   <body>
     <slot />
     <Footer />
+    <script>
+      const observerCallback: IntersectionObserverCallback = entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.setAttribute("data-visible-in-the-view", "true");
+          }
+        });
+      };
+
+      // Create observer with options
+      const observer = new IntersectionObserver(observerCallback, {
+        threshold: 0.1, // Trigger when at least 10% of the element is visible
+      });
+
+      // Observe all elements with the data attribute
+      document
+        .querySelectorAll("[data-visible-in-the-view]")
+        .forEach(element => {
+          observer.observe(element);
+        });
+    </script>
   </body>
 </html>

@@ -27,9 +27,18 @@ const testimonials: Testimonial[] = testimonialsData;
               <div class="relative">
                 <video
                   src={testimonial.video}
-                  class="aspect-[9/12] w-full object-cover"
+                  class="aspect-[9/16] w-full object-cover"
+                  id={`video-${testimonial.name}`}
                 />
-                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                <div
+                  class="absolute inset-0 flex cursor-pointer items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300"
+                  id={`overlay-${testimonial.name}`}
+                  onclick={`
+                    document.getElementById('video-${testimonial.name}').play();
+                    this.style.opacity = '0';
+                    setTimeout(() => this.style.display = 'none', 300);
+                  `}
+                >
                   <button class="text-4xl text-white" aria-label="Play video">
                     ▶
                   </button>
