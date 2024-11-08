@@ -2,58 +2,67 @@
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 
-export type TimelineItemType = {
+type ImageWidth = "1/2" | "1/3" | "2/3" | "full";
+
+export interface TimelineItemType {
   title: string;
   date: string;
-  image: ImageMetadata;
-};
+  images: Array<{
+    src: ImageMetadata;
+    width: ImageWidth;
+  }>;
+}
 
 type Props = TimelineItemType;
-const { title, date, image } = Astro.props as Props;
+const { title, date, images } = Astro.props as Props;
+
+const getWidthClass = (width: ImageWidth) => {
+  switch (width) {
+    case "1/2":
+      return "w-full md:w-[calc(50%-0.25rem)]";
+    case "1/3":
+      return "w-full md:w-[calc(33.333%-0.25rem)]";
+    case "2/3":
+      return "w-full md:w-[calc(66.666%-0.25rem)]";
+    case "full":
+      return "w-full";
+    default:
+      return "w-full";
+  }
+};
 ---
 
-<div
-  class="group relative flex flex-col px-4 py-8 md:flex-row-reverse md:p-0 md:py-20 even:md:flex-row"
->
-  {/* Horizontal line spanning 70% of width, positioned 15% from left */}
-  <div
-    class="absolute bottom-0 left-[calc(10%+5px)] hidden h-[1px] w-[calc(80%-10px)] bg-neutral-dark-30 group-last:hidden md:block"
-  >
-  </div>
-  {
-    /* Vertical line positioned either 15% from left or right depending on odd/even */
-  }
-  <div
-    class="absolute bottom-0 top-[5px] z-10 hidden h-[calc(100%-10px)] w-[1px] rounded-full bg-neutral-dark-30 group-odd:right-[10%] group-even:left-[10%] md:block"
-  >
-  </div>
+<div class="group relative flex flex-col pb-20">
+  <div class="flex w-full items-center justify-center">
+    <div class="w-full">
+      <div class="">
+        <p
+          class="text-label-m whitespace-nowrap text-neutral-600 group-last:hidden"
+        >
+          {date}
+        </p>
+        <h2 class="py-4 pl-4 text-heading-sm text-neutral-dark-30">{title}</h2>
+      </div>
 
-  {/* Right corner piece - rotates -90deg on even items */}
-  <div
-    class="absolute bottom-0 right-[calc(10%)] z-10 hidden h-[10px] w-[10px] rounded-br-md border-b border-r border-neutral-dark-30 group-last:hidden group-even:-bottom-[9px] group-even:-rotate-90 md:block"
-  >
-  </div>
-
-  {/* Left corner piece - rotates 90deg on odd items */}
-  <div
-    class="absolute bottom-0 left-[calc(10%)] z-10 hidden h-[10px] w-[10px] rounded-bl-md border-b border-l border-neutral-dark-30 group-last:hidden group-odd:-bottom-[9px] group-odd:rotate-90 md:block"
-  >
-  </div>
-  <div class="z-20 flex w-full items-center justify-center md:w-1/2">
-    <Image
-      class="mx-auto overflow-hidden rounded-t-[4px]"
-      src={image}
-      loading="lazy"
-      alt="DevC Casa illustration"
-    />
-  </div>
-  <div class="w-full py-8 md:w-1/2 md:px-8">
-    <div class="flex items-start justify-between">
-      <h2 class="text-heading-sm text-neutral-dark-30">{title}</h2>
-      <p class="text-label-xs whitespace-nowrap group-last:hidden">{date}</p>
-    </div>
-    <div class="pt-4">
-      <slot />
+      <div class="pl-4 pt-4">
+        <slot />
+      </div>
+      <div class="flex flex-row flex-wrap gap-2 pt-10">
+        {
+          images.map(image => (
+            <div class={getWidthClass(image.width)}>
+              <Image
+                src={image.src}
+                alt={title}
+                width={1160}
+                height={330}
+                class="rounded-xs h-full w-full object-cover md:rounded-s"
+                loading="lazy"
+              />
+            </div>
+          ))
+        }
+      </div>
     </div>
   </div>
 </div>
