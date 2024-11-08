@@ -1,86 +1,108 @@
 ---
 import TimelineItem, { type TimelineItemType } from "./timeline-item.astro";
-import devCImage from "@/assets/about/devc-1.png";
-import geeksBlablaPodcastBirthImage from "@/assets/about/geeksblabla-podcast-birth.png";
-import geeksblablaCommunityImage from "@/assets/about/geeksblabla-community.png";
-import blablaConfImage from "@/assets/about/blabla-conf.png";
-import episode100Image from "@/assets/about/episode-100.png";
-import geeksblablaNGOImage from "@/assets/about/geeksblabla-ngo.png";
-import whatsnextImage from "@/assets/about/whats-next.png";
+import devCImage from "@/assets/about/geeksblabla-devc.png";
+import devcHeroImage from "@/assets/about/devc-hero.png";
+import devcPodcastImage1 from "@/assets/about/2-devc-podcast-1.png";
+import devcPodcastImage2 from "@/assets/about/2-devc-podcast-2.png";
+import devcPodcastImage3 from "@/assets/about/2-devc-podcast-3.png";
+import communityImage1 from "@/assets/about/3-community-1.png";
+import communityImage2 from "@/assets/about/3-community-2.png";
+import communityImage3 from "@/assets/about/3-community-3.png";
+import communityImage4 from "@/assets/about/3-community-4.png";
+import communityImage5 from "@/assets/about/3-community-5.png";
+import firstBlablaConfImage from "@/assets/about/4-first-blablaconf.png";
+import episode100Image from "@/assets/about/5-episode-100.png";
+import geeksblablaNGOImage from "@/assets/about/6-ngo.png";
+import whatsnextImage from "@/assets/about/7-next.png";
 import { Icon } from "astro-icon/components";
 
-const timelineItems: Array<TimelineItemType & { description: string }> = [
+const STORY_TIMELINE: Array<TimelineItemType & { description: string }> = [
   {
     title: "DevC Casa is born",
     date: "Jan 2017",
     description:
       "The Facebook Developer Circles program is a community-driven initiative designed to foster collaboration and knowledge-sharing among developers worldwide. <br /> <br /> Developer Circles Casablanca was one of the few communities launched with the aim to provide a platform for Moroccan developers to connect locally, learn new skills, collaborate on projects, and advance their careers through workshops, meetups, and online forums. DevC Casa had great success and was one the largest and most active groups globally. A success that led to the creation of 2 other DevCs in Rabat and Marrakech.",
-    image: devCImage,
+    images: [
+      { src: devCImage, width: "1/3" },
+      { src: devcHeroImage, width: "2/3" },
+    ],
   },
   {
     title: "Geeksblabla, as a DevC Casa podcast",
     date: "May 2018",
     description:
       "Within DevC Casablanca, we ignite a passion for learning, foster vibrant knowledge exchange, and strengthen our community bonds. Our transformative journey took an exciting turn with the launch of GeeksBlabla, a groundbreaking podcast. <br/><br/> It was more than just a virtual gathering—it became a symbol for deep, meaningful conversations within the IT field during the sacred nights of Ramadan. Little did we anticipate the incredible journey that would unfold from this humble beginning.",
-    image: geeksBlablaPodcastBirthImage,
+    images: [
+      { src: devcPodcastImage1, width: "full" },
+      { src: devcPodcastImage2, width: "1/2" },
+      { src: devcPodcastImage3, width: "1/2" },
+    ],
   },
   {
     title: "Geeksblabla, the community",
     date: "July 2019",
     description:
       "It's incredible to think that what began as a four-episode podcast during the Ramadan nights of 2018 has blossomed into a vast library of hundreds of videos on YouTube and Facebook, covering all facets of IT in Moroccan Darija. <br/><br/> As interest from our community grew, so did the frequency of our gatherings, from monthly to bi-weekly, and finally weekly. The evolution of Geeksblabla into its own thriving community outside of DevC Casablanca was a testament to its impact and the passion of our audience.",
-    image: geeksblablaCommunityImage,
+    images: [
+      { src: communityImage1, width: "1/2" },
+      { src: communityImage2, width: "1/2" },
+      { src: communityImage3, width: "full" },
+      { src: communityImage4, width: "1/2" },
+      { src: communityImage5, width: "1/2" },
+    ],
   },
   {
     title: "Blabla Conf",
     date: "Oct 2020",
     description:
       "In 2020, as the world faced closures and Morocco was no exception, our community adapted swiftly. With in-person gatherings halted, virtual meetups were the lifeline.<br/><br/> Geeksblabla, already virtual from its inception, continued to host its weekly rendez-vous, providing a constant source of connection during challenging times. Sensing the need for a boost in morale, we launched BlaBlaConf - a bold new initiative aimed at serving an even larger audience. Over five days of intense learning, knowledge sharing and fun, BlaBlaConf emerged as a source of inspiration and solidarity within our community.",
-    image: blablaConfImage,
+    images: [{ src: firstBlablaConfImage, width: "full" }],
   },
   {
     title: "Episode 100",
     date: "Dec 2021",
     description:
       "After more than 3 years of consistent work on the podcast, we have reached the milestone of hosting 100 episodes. <br/><br/> This achievement proves that the concept is strong and has had a significant impact on the Moroccan community with more than 100 episodes of highly valuable content and over 200 guests across the past 100 episodes.",
-    image: episode100Image,
+    images: [{ src: episode100Image, width: "full" }],
   },
   {
     title: "GeeksBlabla as NGO officially!",
     date: "Jan 2024",
     description:
       "As we have grown in the past few years and maintained multiple initiatives, as well as expanded our core team, creating an official NGO for the community was a must to help us make a better impact and establish a strong foundation for upcoming initiatives.",
-    image: geeksblablaNGOImage,
+    images: [{ src: geeksblablaNGOImage, width: "full" }],
   },
   {
     title: "What's next?",
     date: "...",
     description:
       "Building on our rich history of growth and community impact, the future of Geeksblabla shines brightly with promise.<br/><br/> Geeksblabla has evolved beyond being just a podcast; it has grown into a vibrant community, encompassing multiple initiatives and projects. As we look ahead, our commitment to serving the Moroccan community remains strong. We will continue to innovate and expand our initiatives, staying true to our core values of learning, collaboration, and inclusivity. Through Geeksblabla and upcoming projects, we aim to foster even deeper connections, empower aspiring tech enthusiasts, and provide platforms for meaningful exchanges.<br/><br/> Together, we will move forward, creating environments where knowledge flourishes and aspirations soar.",
-    image: whatsnextImage,
+    images: [{ src: whatsnextImage, width: "full" }],
   },
 ];
 ---
 
-<section id="history" class="bg-neutral-light-20">
+<section id="our-story" class="bg-neutral-light-20">
   <div class="container mx-auto !px-0">
-    <div class="flex flex-col items-center md:flex-row md:justify-between">
+    <div
+      class="flex flex-col items-center py-20 md:flex-row md:justify-between"
+    >
       <h2
         class="mb-4 text-center text-heading-lg font-bold text-neutral-dark-10 sm:text-left"
       >
-        About Us
+        How it all started?
       </h2>
       <a
         href="#team"
         class="flex items-center gap-2 text-label-sm font-bold text-neutral-dark-10 hover:text-neutral-dark-20"
       >
         Go to Team members
-        <Icon name="arrow-down" class="h-5 w-5" />
+        <Icon name="arrow-down-right" class="h-5 w-5" />
       </a>
     </div>
 
     {
-      timelineItems.map(item => (
+      STORY_TIMELINE.map(item => (
         <TimelineItem {...item}>
           <p class="text-paragraph-xs text-neutral-dark-20">
             <Fragment set:html={item.description} />
