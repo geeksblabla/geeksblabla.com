@@ -61,8 +61,7 @@
         "x_handle": "@soufyanAI",
         "profile_image": "/about/images/team/soufyan.jpg",
         "status": "past"
-    }
-    ,
+    },
     {
         "id": 7,
         "name": "Chaimaa BRITEL",
@@ -118,5 +117,19 @@
         "x_handle": "@ezzarghili",
         "profile_image": "/about/images/team/default.jpg",
         "status": "past"
+    },
+    {
+        "id": 15,
+        "name": "Afaf Ridaoui",
+        "x_handle": "@__iamaf",
+        "profile_image": "/about/images/team/Afaf.jpg",
+        "status": "active"
+    },
+    {
+        "id": 16,
+        "name": "Hamza Makraz",
+        "x_handle": "@hamza_makraz",
+        "profile_image": "/about/images/team/hamza.jpg",
+        "status": "active"
     }
 ]
