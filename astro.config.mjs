@@ -13,6 +13,7 @@ import pagefind from "astro-pagefind";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  output: "hybrid",
   build: {
     format: "file",
   },
@@ -50,5 +51,6 @@ export default defineConfig({
   scopedStyleStrategy: "where",
   experimental: {
     contentLayer: true,
+    serverIslands: true,
   },
 });
