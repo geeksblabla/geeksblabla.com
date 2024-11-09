@@ -49,13 +49,13 @@ export default defineConfig({
     },
   },
 
+  scopedStyleStrategy: "where",
   vite: {
-    optimizeDeps: {
-      exclude: ["@resvg/resvg-js"],
+    ssr: {
+      // TODO: should be fixed in the future
+      external: ["path", "fs", "stream", "util"],
     },
   },
-
-  scopedStyleStrategy: "where",
 
   experimental: {
     contentLayer: true,

@@ -1,6 +1,6 @@
 import satori from "satori";
 import { SITE } from "@/config";
-import { Resvg } from "@resvg/resvg-js";
+// import { Resvg } from "@resvg/resvg-js";
 
 import { type CollectionEntry } from "astro:content";
 import loadGoogleFonts, { type FontOptions } from "./load-fonts";
@@ -107,15 +107,15 @@ export const articleOgImage = async (article: CollectionEntry<"blog">) => {
   );
 };
 
-function svgBufferToPngBuffer(svg: string) {
-  const resvg = new Resvg(svg);
-  const pngData = resvg.render();
-  return pngData.asPng();
-}
+// function svgBufferToPngBuffer(svg: string) {
+//   const resvg = new Resvg(svg);
+//   const pngData = resvg.render();
+//   return pngData.asPng();
+// }
 
 export async function generateOgImageForArticle(
   article: CollectionEntry<"blog">
 ) {
   const svg = await articleOgImage(article);
-  return svgBufferToPngBuffer(svg);
+  return svg; //svgBufferToPngBuffer(svg);
 }
