@@ -1,4 +1,5 @@
 ---
+export const prerender = false;
 import Header from "@/components/header.astro";
 import Layout from "@/components/layout.astro";
 import PlanningList from "@/components/planning/planning-list.astro";
@@ -6,20 +7,5 @@ import PlanningList from "@/components/planning/planning-list.astro";
 
 <Layout>
   <Header />
-  <PlanningList server:defer>
-    <div
-      slot="fallback"
-      class="flex h-[80vh] flex-col items-center justify-center space-y-6"
-    >
-      {/* Animated loading spinner */}
-      <div class="relative h-16 w-16">
-        <div class="absolute inset-0 rounded-full border-4 border-gray-200">
-        </div>
-        <div
-          class="border-primary-600 absolute inset-0 animate-spin rounded-full border-4 border-t-transparent"
-        >
-        </div>
-      </div>
-    </div>
-  </PlanningList>
+  <PlanningList />
 </Layout>
