@@ -15,7 +15,7 @@ import cloudflare from "@astrojs/cloudflare";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  output: "hybrid",
+  output: "static",
 
   build: {
     format: "file",
@@ -55,11 +55,6 @@ export default defineConfig({
       // TODO: should be fixed in the future
       external: ["path", "fs", "stream", "util"],
     },
-  },
-
-  experimental: {
-    contentLayer: true,
-    serverIslands: true,
   },
 
   adapter: cloudflare(),
