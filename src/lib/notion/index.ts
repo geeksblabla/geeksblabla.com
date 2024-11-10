@@ -8,7 +8,7 @@ import type {
   NotionEpisodeProperty,
 } from "./types";
 
-const databaseId = import.meta.env.GEEKSBLALA_NOTION_DATABASE_ID;
+const databaseId = import.meta.env.GEEKSBLABLA_NOTION_DATABASE_ID;
 const apiKey = import.meta.env.NOTION_API_KEY;
 
 let notionClient: Client;
