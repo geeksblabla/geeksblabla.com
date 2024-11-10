@@ -5,7 +5,9 @@ import type {
   NotionEpisodeCategory,
   NotionEpisodeStatus,
   NotionEpisodeProperties,
-  NotionEpisodeProperty,
+  NotionProperty,
+  NotionPage,
+  NotionPeopleProperties,
 } from "./types";
 
 const databaseId = import.meta.env.GEEKSBLABLA_NOTION_DATABASE_ID;
@@ -56,8 +58,44 @@ export async function getGeekBlablaEpisodesPlannings(): Promise<NotionNormalized
   return normalizeNotionResponse(episodes);
 }
 
+export const getEpisodeDetails = async (id: string) => {
+  const episode = (await getNotionClient().pages.retrieve({
+    page_id: id,
+  })) as NotionPage;
+
+  const normalizedEpisode = normalizeEpisodeProperties(episode.properties);
+  const guests = await getPeopleDetails(normalizedEpisode.guests);
+  const hosts = await getPeopleDetails(normalizedEpisode.hosts);
+  console.log(JSON.stringify({ normalizedEpisode, guests, hosts }, null, 2));
+  return {
+    ...normalizedEpisode,
+    guests,
+    hosts,
+  };
+};
+
+export const getPeopleDetails = async (ids: string[]) => {
+  const users = (await Promise.all(
+    ids.map(id => getNotionClient().pages.retrieve({ page_id: id }))
+  )) as NotionPage[];
+  console.log(JSON.stringify(users, null, 2));
+  return users.map(user => normalizePeopleProperties(user.properties));
+};
+
+function normalizePeopleProperties(properties: {
+  [key: string]: NotionProperty;
+}): NotionPeopleProperties {
+  return {
+    title:
+      properties.Name?.type === "title"
+        ? (properties.Name.title[0]?.plain_text ?? "")
+        : "",
+    url: properties.link?.type === "url" ? (properties.link.url ?? "") : "",
+  };
+}
+
 export function normalizeEpisodeProperties(properties: {
-  [key: string]: NotionEpisodeProperty;
+  [key: string]: NotionProperty;
 }): NotionEpisodeProperties {
   return {
     title:
@@ -72,7 +110,7 @@ export function normalizeEpisodeProperties(properties: {
 
     guests:
       properties.Guests?.type === "relation"
-        ? [] // Since guests are coming as empty relations in the sample
+        ? properties.Guests.relation.map(relation => relation.id)
         : [],
 
     description:
@@ -80,7 +118,7 @@ export function normalizeEpisodeProperties(properties: {
         ? (properties["Description "].rich_text[0]?.plain_text ?? "")
         : "",
 
-    youtubeUrl:
+    youtube:
       properties["Youtube URL"]?.type === "url"
         ? (properties["Youtube URL"].url ?? "")
         : "",
@@ -94,7 +132,7 @@ export function normalizeEpisodeProperties(properties: {
 
     hosts:
       properties.Hosts?.type === "relation"
-        ? [] // Since hosts are coming as empty relations in the sample
+        ? properties.Hosts.relation.map(relation => relation.id)
         : [],
 
     assignedTo:

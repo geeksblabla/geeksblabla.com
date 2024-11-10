@@ -19,28 +19,30 @@ interface NotionParent {
   database_id: string;
 }
 
-interface NotionProperty {
+interface NNotionProperty {
   id: string;
   type: string;
 }
 
-interface NotionUrlProperty extends NotionProperty {
+interface NotionUrlProperty extends NNotionProperty {
   type: "url";
   url: string | null;
 }
 
-interface NotionRelationProperty extends NotionProperty {
+interface NotionRelationProperty extends NNotionProperty {
   type: "relation";
-  relation: unknown[];
+  relation: {
+    id: string;
+  }[];
   has_more: boolean;
 }
 
-interface NotionCreatedByProperty extends NotionProperty {
+interface NotionCreatedByProperty extends NNotionProperty {
   type: "created_by";
   created_by: NotionUser;
 }
 
-interface NotionRollupProperty extends NotionProperty {
+interface NotionRollupProperty extends NNotionProperty {
   type: "rollup";
   rollup: {
     type: "array";
@@ -49,7 +51,7 @@ interface NotionRollupProperty extends NotionProperty {
   };
 }
 
-interface NotionMultiSelectProperty extends NotionProperty {
+interface NotionMultiSelectProperty extends NNotionProperty {
   type: "multi_select";
   multi_select: Array<{
     id: string;
@@ -58,7 +60,7 @@ interface NotionMultiSelectProperty extends NotionProperty {
   }>;
 }
 
-interface NotionSelectProperty extends NotionProperty {
+interface NotionSelectProperty extends NNotionProperty {
   type: "select";
   select: {
     id: string;
@@ -67,7 +69,7 @@ interface NotionSelectProperty extends NotionProperty {
   } | null;
 }
 
-interface NotionFormulaProperty extends NotionProperty {
+interface NotionFormulaProperty extends NNotionProperty {
   type: "formula";
   formula: {
     type: "string";
@@ -75,12 +77,12 @@ interface NotionFormulaProperty extends NotionProperty {
   };
 }
 
-interface NotionPeopleProperty extends NotionProperty {
+interface NotionPeopleProperty extends NNotionProperty {
   type: "people";
   people: NotionUser[];
 }
 
-interface NotionDateProperty extends NotionProperty {
+interface NotionDateProperty extends NNotionProperty {
   type: "date";
   date: {
     start: string;
@@ -89,7 +91,7 @@ interface NotionDateProperty extends NotionProperty {
   };
 }
 
-interface NotionRichTextProperty extends NotionProperty {
+interface NotionRichTextProperty extends NNotionProperty {
   type: "rich_text";
   rich_text: Array<{
     type: "text";
@@ -110,7 +112,7 @@ interface NotionRichTextProperty extends NotionProperty {
   }>;
 }
 
-interface NotionTitleProperty extends NotionProperty {
+interface NotionTitleProperty extends NNotionProperty {
   type: "title";
   title: Array<{
     type: "text";
@@ -131,7 +133,7 @@ interface NotionTitleProperty extends NotionProperty {
   }>;
 }
 
-export type NotionEpisodeProperty =
+export type NotionProperty =
   | NotionUrlProperty
   | NotionRelationProperty
   | NotionCreatedByProperty
@@ -144,7 +146,7 @@ export type NotionEpisodeProperty =
   | NotionRichTextProperty
   | NotionTitleProperty;
 
-interface NotionPage {
+export interface NotionPage {
   object: "page";
   id: string;
   created_time: string;
@@ -157,7 +159,7 @@ interface NotionPage {
   archived: boolean;
   in_trash: boolean;
   properties: {
-    [key: string]: NotionEpisodeProperty;
+    [key: string]: NotionProperty;
   };
   url: string;
   public_url: string;
@@ -186,11 +188,16 @@ export type NotionEpisodeProperties = {
   date: string;
   guests: string[];
   description: string;
-  youtubeUrl: string;
+  youtube: string;
   category: NotionEpisodeCategory;
   hosts: string[];
   assignedTo: string;
   status: NotionEpisodeStatus;
+};
+
+export type NotionPeopleProperties = {
+  title: string;
+  url: string;
 };
 
 export type NotionNormalizedResponse = NotionEpisodeProperties[];
