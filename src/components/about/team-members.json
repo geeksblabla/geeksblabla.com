@@ -131,5 +131,19 @@
         "x_handle": "@hamza_makraz",
         "profile_image": "/about/images/team/hamza.jpg",
         "status": "active"
+    },
+    {
+        "id": 17,
+        "name": "Mohamed Daoudi",
+        "x_handle": "@MIduoad",
+        "profile_image": "/about/images/team/daoudi.jpg",
+        "status": "active"
+    },
+    {
+        "id": 18,
+        "name": "Mourad Mtouaa",
+        "x_handle": "@mouradxmt",
+        "profile_image": "/about/images/team/mourad.jpg",
+        "status": "active"
     }
 ]
