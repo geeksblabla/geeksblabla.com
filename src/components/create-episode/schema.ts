@@ -23,7 +23,7 @@ const noteSchema = z.object({
     message:
       "Invalid timestamp format. Must be in HH:MM:SS format (e.g. 12:34:56)",
   }),
-  content: z.string(),
+  content: z.string().min(8, { message: "Note too short" }),
 });
 
 const episodeSchemaBase = z.object({
@@ -43,4 +43,5 @@ export const episodeSchemaForm = episodeSchemaBase.extend({
   hosts: z.array(linkSchema),
   description: z.string(),
   notes: z.array(noteSchema),
+  tags: z.array(z.string()),
 });

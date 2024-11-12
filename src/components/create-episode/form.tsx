@@ -4,11 +4,19 @@ import { actions } from "astro:actions";
 import { type z } from "zod";
 import { episodeSchemaForm } from "./schema";
 import BasicInfos from "./basic-infos";
-import Links from "./links";
+import { Links } from "./links";
 import Notes from "./notes";
 import { useState } from "react";
+import { Guests } from "./guests";
+import { Hosts } from "./hosts";
+import { GenerateEpisodeButton } from "./generate-episode-button";
 
 type FormValues = z.infer<typeof episodeSchemaForm>;
+
+const getYoutubeId = (url: string) => {
+  const urlParams = new URLSearchParams(new URL(url).search);
+  return urlParams.get("v");
+};
 
 const DEFAULT_VALUES = {
   links: [{ title: "", url: "" }],
@@ -16,6 +24,11 @@ const DEFAULT_VALUES = {
   hosts: [{ title: "", url: "" }],
   notes: [
     { timestamp: "00:00:00", content: "Introduction and welcoming guests" },
+    { timestamp: "00:05:00", content: "" },
+    { timestamp: "00:10:00", content: "" },
+    { timestamp: "00:25:00", content: "" },
+    { timestamp: "00:45:00", content: "" },
+    { timestamp: "00:55:00", content: "" },
   ],
   tags: [],
   published: true,
@@ -73,32 +86,35 @@ function NotionUrlSearch({
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mx-auto max-w-2xl space-y-4">
-      <div>
-        <label
-          htmlFor="notionUrl"
-          className="block text-sm font-medium text-gray-700"
-        >
-          Notion URL
-        </label>
-        <input
-          type="text"
-          id="notionUrl"
-          name="notionUrl"
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
-          placeholder="Paste your Notion URL here"
-          required
-        />
+    <div className="flex min-h-screen flex-col items-center justify-center">
+      <div className="mb-12">
+        <p className="text-center text-gray-600">
+          Enter a Notion URL to fetch episode details
+        </p>
       </div>
-      {error && <p className="text-sm text-red-500">{error}</p>}
-      <button
-        type="submit"
-        disabled={isLoading}
-        className="w-full rounded-md bg-green-500 px-4 py-2 text-white disabled:bg-green-300"
-      >
-        {isLoading ? "Loading..." : "Fetch Episode Details"}
-      </button>
-    </form>
+      <form onSubmit={handleSubmit} className="w-full max-w-xl">
+        <div className="flex gap-2">
+          <input
+            type="text"
+            id="notionUrl"
+            name="notionUrl"
+            className="flex-1 border border-gray-300 px-4 py-3 shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-200"
+            placeholder="Paste your Notion URL Episode page here"
+            required
+          />
+          <button
+            type="submit"
+            disabled={isLoading}
+            className="bg-green-500 px-6 py-3 text-white transition-colors hover:bg-green-600 disabled:bg-green-300"
+          >
+            {isLoading ? "Loading..." : "Search"}
+          </button>
+        </div>
+        {error && (
+          <p className="mt-3 text-center text-sm text-red-500">{error}</p>
+        )}
+      </form>
+    </div>
   );
 }
 
@@ -114,9 +130,14 @@ function NewEpisodeForm({
     control,
     formState: { errors },
     getValues,
+    watch,
+    trigger,
+    setError,
+    clearErrors,
   } = useForm<FormValues>({
     resolver: zodResolver(episodeSchemaForm),
     defaultValues,
+    mode: "onChange",
   });
 
   const onSubmit = (data: FormValues) => {
@@ -124,22 +145,57 @@ function NewEpisodeForm({
   };
 
   return (
-    <form
-      onSubmit={handleSubmit(onSubmit)}
-      className="mx-auto max-w-2xl space-y-8"
-    >
-      <BasicInfos errors={errors} register={register} getValues={getValues} />
+    <div className="grid grid-cols-2 gap-16">
+      <div className="space-y-2">
+        <Notes
+          control={control}
+          register={register}
+          errors={errors}
+          setError={setError}
+          watch={watch}
+          clearErrors={clearErrors}
+        />
 
-      <Links control={control} register={register} />
-
-      <Notes control={control} register={register} />
-
-      <button
-        type="submit"
-        className="w-full rounded-md bg-green-500 px-4 py-2 text-white"
-      >
-        Create Episode
-      </button>
-    </form>
+        <Links
+          control={control}
+          register={register}
+          watch={watch}
+          errors={errors}
+          trigger={trigger}
+        />
+        <GenerateEpisodeButton handleSubmit={handleSubmit} />
+        <button onClick={handleSubmit(onSubmit)}>Submit</button>
+      </div>
+      <div className="space-y-2">
+        <div className="aspect-h-9 aspect-w-16 w-full">
+          {defaultValues.youtube && (
+            <iframe
+              src={`https://www.youtube.com/embed/${getYoutubeId(
+                defaultValues.youtube
+              )}`}
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          )}
+        </div>
+        <BasicInfos errors={errors} register={register} getValues={getValues} />
+        <Guests
+          control={control}
+          register={register}
+          watch={watch}
+          errors={errors}
+          trigger={trigger}
+        />
+        <Hosts
+          control={control}
+          register={register}
+          watch={watch}
+          errors={errors}
+          trigger={trigger}
+        />
+      </div>
+    </div>
   );
 }
