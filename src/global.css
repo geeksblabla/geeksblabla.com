@@ -29,7 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  @apply mx-auto w-full max-w-screen-xl px-3 md:px-0;
+  @apply mx-auto w-full 
+    max-w-[90rem]             /* 1440px max-width */
+    sm:max-w-[640px]          
+    md:max-w-[768px]          
+    lg:max-w-[896px]          /* ~1024px - 128px margins */
+    xl:max-w-[1024px]         /* ~1280px - 256px margins */
+    2xl:max-w-[1200px];       /* ~1440px - 240px margins */
 }
 
 
