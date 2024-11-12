@@ -10,12 +10,17 @@ import { SITE } from "./src/config";
 import mdx from "@astrojs/mdx";
 import pagefind from "astro-pagefind";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  output: "static",
+
   build: {
     format: "file",
   },
+
   integrations: [
     tailwind({
       applyBaseStyles: false,
@@ -26,6 +31,7 @@ export default defineConfig({
     mdx(),
     pagefind(),
   ],
+
   markdown: {
     remarkPlugins: [
       remarkToc,
@@ -42,13 +48,14 @@ export default defineConfig({
       wrap: true,
     },
   },
+
+  scopedStyleStrategy: "where",
   vite: {
-    optimizeDeps: {
-      exclude: ["@resvg/resvg-js"],
+    ssr: {
+      // TODO: should be fixed in the future
+      external: ["path", "fs", "stream", "util"],
     },
   },
-  scopedStyleStrategy: "where",
-  experimental: {
-    contentLayer: true,
-  },
+
+  adapter: cloudflare(),
 });

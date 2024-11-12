@@ -40,13 +40,19 @@ const mission = [
 ];
 ---
 
-<section class="bg-[#F2F4F7] py-16 font-light">
+<section
+  id="mission"
+  class="group bg-[#F2F4F7] py-16 font-light"
+  data-visible-in-the-view="false"
+>
   <div class="container mx-auto px-4">
-    <h2 class="mb-8 text-center text-4xl font-bold md:text-left">
+    <h2
+      class="mb-8 text-center text-4xl font-bold group-data-[visible-in-the-view=true]:motion-preset-slide-down group-data-[visible-in-the-view=true]:motion-delay-200 md:text-left"
+    >
       Our mission
     </h2>
     <p
-      class="mb-12 max-w-[800px] text-center text-paragraph-lg font-thin text-neutral-dark-50 md:text-left"
+      class="group-data-[visible-in-the-view=true]:motion-delay-400 mb-12 max-w-[800px] text-center text-paragraph-lg font-thin text-neutral-dark-50 group-data-[visible-in-the-view=true]:motion-preset-slide-down md:text-left"
     >
       Is to Empower Moroccan 🇲🇦 IT enthusiasts and beyond to thrive through
       continuous learning, exchange, collaboration, and innovation.
@@ -55,7 +61,7 @@ const mission = [
     <div class="mb-12 grid grid-cols-1 gap-8 sm:grid-cols-3">
       {
         mission.map(item => (
-          <div>
+          <div class="group-data-[visible-in-the-view=true]:motion-delay-600 group-data-[visible-in-the-view=true]:motion-preset-slide-down">
             <h4 class="mb-4 text-center text-label-lg font-semibold md:text-left">
               {item.title}
             </h4>
@@ -67,11 +73,15 @@ const mission = [
       }
     </div>
 
-    <h2 class="my-8 text-center text-4xl font-bold md:text-left">Our values</h2>
+    <h2
+      class="group-data-[visible-in-the-view=true]:motion-delay-800 my-8 text-center text-4xl font-bold group-data-[visible-in-the-view=true]:motion-preset-slide-down md:text-left"
+    >
+      Our values
+    </h2>
     <div class="grid grid-cols-2 gap-8 md:grid-cols-3">
       {
         values.map(value => (
-          <div class="flex flex-col items-center">
+          <div class="flex flex-col items-center group-data-[visible-in-the-view=true]:motion-preset-slide-down group-data-[visible-in-the-view=true]:motion-delay-1000">
             <div class="mb-4 h-24">
               <Image src={value.icon} class="h-full w-24" alt={value.name} />
             </div>

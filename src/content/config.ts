@@ -1,7 +1,7 @@
 import { file, glob } from "astro/loaders";
 import { defineCollection } from "astro:content";
 import { cldAssetsLoader } from "astro-cloudinary/loaders";
-import { blogSchema, episodeSchema, teamSchema } from "./shema";
+import { blogSchema, episodeSchema, teamSchema } from "./schema";
 /**
  * Podcast collection
  * Read episodes markdown files from episodes folder in the root of the project

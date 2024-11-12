@@ -1,4 +1,4 @@
-import type { ArticleFrontmatter } from "@/content/shema";
+import type { ArticleFrontmatter } from "@/content/schema";
 // import { transformDateToLocaleString } from "@/lib/utils";
 
 export interface Props {
