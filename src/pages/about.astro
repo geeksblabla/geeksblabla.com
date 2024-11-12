@@ -1,11 +1,12 @@
 ---
+import { SITE } from "@/config";
 import Layout from "@/components/layout.astro";
 import Header from "@/components/header.astro";
 import Team from "@/components/about/team.astro";
 import OurStory from "@/components/about/our-story.astro";
 ---
 
-<Layout title="About">
+<Layout title={`About | ${SITE.title}`}>
   <section class="relative overflow-hidden bg-neutral-light-20">
     <Header />
   </section>
