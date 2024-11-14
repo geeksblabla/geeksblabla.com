@@ -5,12 +5,14 @@ import {
   type UseFormClearErrors,
   type UseFormRegister,
   type UseFormSetError,
+  type UseFormSetValue,
   type UseFormWatch,
 } from "react-hook-form";
 import { type z } from "zod";
 import { episodeSchemaForm } from "./schema";
 import { AddIcon, RemoveIcon } from "./icons";
 import React from "react";
+import TimestampInput from "./timestamp-input";
 
 type FormValues = z.infer<typeof episodeSchemaForm>;
 
@@ -41,6 +43,8 @@ export default function Notes({
   setError,
   clearErrors,
   watch,
+  setValue,
+  totalDuration,
 }: {
   control: Control<FormValues>;
   register: UseFormRegister<FormValues>;
@@ -48,6 +52,8 @@ export default function Notes({
   setError: UseFormSetError<FormValues>;
   watch: UseFormWatch<FormValues>;
   clearErrors: UseFormClearErrors<FormValues>;
+  setValue: UseFormSetValue<FormValues>;
+  totalDuration: string;
 }) {
   const {
     fields: noteFields,
@@ -62,10 +68,24 @@ export default function Notes({
 
   const triggerOrderValidation = () => {
     if (!notes?.length) return;
+    const totalDurationInSeconds = timestampToSeconds(totalDuration);
 
     const timestamps = notes.map(note => note.timestamp);
     const secondsArray = timestamps.map(timestampToSeconds);
 
+    // Check for timestamps exceeding total duration
+    const exceedingIndex = secondsArray.findIndex(
+      seconds => seconds > totalDurationInSeconds
+    );
+    if (exceedingIndex !== -1) {
+      setError(`notes`, {
+        type: "manual",
+        message: `Timestamp ${timestamps[exceedingIndex]} exceeds total duration of the video ${totalDuration}`,
+      });
+      return;
+    }
+
+    // Check timestamp order
     let isSorted = true;
     let firstUnsortedIndex = -1;
 
@@ -97,14 +117,13 @@ export default function Notes({
         {noteFields.map((field, index) => (
           <div key={field.id}>
             <div className="group relative flex items-start gap-4">
-              <input
-                {...register(`notes.${index}.timestamp`, {
-                  onChange: () => triggerOrderValidation(),
-                })}
-                placeholder="00:00:00"
-                pattern="^(?:[0-9]{2}:){2}[0-9]{2}$"
-                className="w-[100px] rounded-md border-0 bg-gray-200 px-2 py-0.5 text-sm focus:border-blue-500 focus:ring-blue-500"
-                title="Please use format: HH:MM:SS"
+              <TimestampInput
+                onChange={value => {
+                  setValue(`notes.${index}.timestamp`, value);
+                  triggerOrderValidation();
+                }}
+                defaultValue={field.timestamp}
+                id={`notes.${index}.timestamp`}
               />
 
               <div className="flex-1">

@@ -3,6 +3,8 @@ import type { episodeSchemaForm } from "./schema";
 
 type FormValues = z.infer<typeof episodeSchemaForm>;
 
+const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
+
 export function generateEpisodeMarkdown(episode: FormValues): string {
   const formatDate = (date: Date) => date.toISOString().split("T")[0];
 
@@ -17,7 +19,7 @@ published: ${episode.published}
 featured: ${episode.featured}
 ---
 
-${episode.description}
+${capitalize(episode.description)}
 
 ## Guests
 
@@ -25,7 +27,7 @@ ${episode.guests.map(guest => `- [${guest.title}](${guest.url})`).join("\n")}
 
 ## Notes
 
-${episode.notes.map(note => `${note.timestamp} - ${note.content}`).join("\n\n")}
+${episode.notes.map(note => `${note.timestamp} - ${capitalize(note.content)}`).join("\n\n")}
 
 ## Links
 
@@ -33,7 +35,7 @@ ${episode.links.map(link => `- [${link.title}](${link.url})`).join("\n")}
 
 ## Prepared and Presented by
 
-${episode.hosts.map(host => `- [${host.title}](${host.url})`).join("\n")}
+${episode.hosts.map(host => `- [${capitalize(host.title)}](${host.url})`).join("\n")}
 `;
 
   return frontmatter;

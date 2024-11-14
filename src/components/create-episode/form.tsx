@@ -134,15 +134,12 @@ function NewEpisodeForm({
     trigger,
     setError,
     clearErrors,
+    setValue,
   } = useForm<FormValues>({
     resolver: zodResolver(episodeSchemaForm),
     defaultValues,
     mode: "onChange",
   });
-
-  const onSubmit = (data: FormValues) => {
-    console.log(data);
-  };
 
   return (
     <div className="grid grid-cols-2 gap-16">
@@ -154,6 +151,8 @@ function NewEpisodeForm({
           setError={setError}
           watch={watch}
           clearErrors={clearErrors}
+          setValue={setValue}
+          totalDuration={getValues("duration")}
         />
 
         <Links
@@ -164,10 +163,9 @@ function NewEpisodeForm({
           trigger={trigger}
         />
         <GenerateEpisodeButton handleSubmit={handleSubmit} />
-        <button onClick={handleSubmit(onSubmit)}>Submit</button>
       </div>
       <div className="space-y-2">
-        <div className="aspect-h-9 aspect-w-16 w-full">
+        <div className="aspect-video w-full">
           {defaultValues.youtube && (
             <iframe
               src={`https://www.youtube.com/embed/${getYoutubeId(
@@ -176,6 +174,7 @@ function NewEpisodeForm({
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
+              className="aspect-video w-full"
               allowFullScreen
             ></iframe>
           )}
