@@ -33,29 +33,33 @@ const isCurrentEpisode = Astro.url.pathname.includes(episode.data.slug);
     >
       <AudioWave />
     </div>
-    <div class="relative flex items-center space-x-4 p-3 md:p-4">
-      <div class="rounded-md border-2 border-black bg-white p-1">
+    <div
+      class="relative flex items-center space-x-4 p-3 group-data-[playing=true]:space-x-0 group-data-[playing=true]:px-0 md:p-4"
+    >
+      <div
+        class="rounded-md border-2 border-black bg-white p-1 group-data-[playing=true]:hidden"
+      >
         <Icon
           name="play"
           data-icon="play"
           class="h-3 w-3 text-black group-data-[playing=true]:hidden md:h-4 md:w-4"
         />
-        <Icon
+        <!-- <Icon
           name="pause"
           data-icon="pause"
           class="h-3 w-3 text-black group-data-[playing=false]:hidden md:h-4 md:w-4"
-        />
+        /> -->
       </div>
-      <div class="flex-1 overflow-hidden">
+      <div class="group-data-[playing=true] flex-1 overflow-hidden">
         <div class="overflow-hidden whitespace-nowrap">
           <p
-            class="group-hover:pr-full inline-block text-base font-bold group-hover:animate-marquee group-data-[playing=false]:text-gray-900 group-data-[playing=true]:text-white md:text-lg"
+            class="inline-block font-sans text-base font-bold group-hover:animate-marquee group-data-[playing=true]:animate-marquee group-data-[playing=true]:text-3xl group-data-[playing=false]:text-gray-900 group-data-[playing=true]:text-white md:text-lg"
           >
             {episode.data.title}
           </p>
         </div>
         <div
-          class="flex flex-row justify-between text-xs group-data-[playing=false]:text-gray-500 group-data-[playing=true]:text-white md:text-sm"
+          class="flex flex-row justify-between text-xs group-data-[playing=true]:hidden group-data-[playing=false]:text-gray-500 group-data-[playing=true]:text-white md:text-sm"
         >
           <p class="text-sm">{episode.data.dateString}</p>
           <p class="text-sm">{episode.data.duration}</p>
