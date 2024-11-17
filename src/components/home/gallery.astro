@@ -2,6 +2,13 @@
 import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
 const gallery = await getCollection("gallery");
+
+const getOptimizedImage = (url: string) => {
+  return url.replace(
+    "upload",
+    "upload/f_auto,q_auto,b_auto,c_fill_pad,g_auto,h_800,ar_16:9"
+  );
+};
 ---
 
 <section class="bg-[#F2F4F7] py-16">
@@ -44,15 +51,18 @@ const gallery = await getCollection("gallery");
         class="swiper-container"
       >
         {
-          gallery.map(image => (
-            <swiper-slide>
-              <img
-                src={image.data.url}
-                alt="Community Gallery"
-                loading="lazy"
-              />
-            </swiper-slide>
-          ))
+          [...gallery]
+            .sort(() => Math.random() - 0.5)
+            .map(image => (
+              <swiper-slide>
+                <img
+                  src={getOptimizedImage(image.data.url)}
+                  alt="Community Gallery"
+                  loading="lazy"
+                  class="aspect-[16/9] h-full w-full object-cover"
+                />
+              </swiper-slide>
+            ))
         }
       </swiper-container>
       <div
@@ -106,9 +116,6 @@ const gallery = await getCollection("gallery");
   }
 
   swiper-container::part(button-next) {
-    display: none;
-  }
-  swiper-container::part(pagination) {
     display: none;
   }
 </style>

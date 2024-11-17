@@ -29,7 +29,7 @@ const gallery = !import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME
     })
   : defineCollection({
       loader: cldAssetsLoader({
-        limit: 10,
+        limit: 30,
         folder: "community-gallery",
       }),
     });
