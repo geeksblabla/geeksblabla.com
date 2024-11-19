@@ -9,14 +9,13 @@ import { SITE } from "./src/config";
 
 import mdx from "@astrojs/mdx";
 import pagefind from "astro-pagefind";
-
-import cloudflare from "@astrojs/cloudflare";
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
   output: "static",
-
+  adapter: netlify(),
   build: {
     format: "file",
   },
@@ -43,19 +42,10 @@ export default defineConfig({
       ],
     ],
     shikiConfig: {
-      // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },
       wrap: true,
     },
   },
 
   scopedStyleStrategy: "where",
-  vite: {
-    ssr: {
-      // TODO: should be fixed in the future
-      external: ["path", "fs", "stream", "util"],
-    },
-  },
-
-  adapter: cloudflare(),
 });

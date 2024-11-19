@@ -30,3 +30,5 @@ pnpm-debug.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+.netlify/
+.wrangler/
