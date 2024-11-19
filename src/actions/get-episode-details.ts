@@ -21,7 +21,6 @@ export const getEpisodeDetails = defineAction({
       const youtubeDetails = await getYoutubeVideoDetails(
         episodeDetails.youtube
       );
-      console.log(youtubeDetails);
       return {
         ...episodeDetails,
         ...youtubeDetails,

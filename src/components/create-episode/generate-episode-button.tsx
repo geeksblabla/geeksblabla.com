@@ -1,6 +1,6 @@
 import { type z } from "zod";
 import type { UseFormHandleSubmit } from "react-hook-form";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 import { episodeSchemaForm } from "./schema";
 import { generateEpisodeMarkdown } from "./generate-episode-markdown";
@@ -15,6 +15,26 @@ export const GenerateEpisodeButton = ({
   const [markdown, setMarkdown] = useState<string>("");
   const dialogRef = useRef<HTMLDialogElement>(null);
 
+  useEffect(() => {
+    const dialog = dialogRef.current;
+
+    const handleShowModal = () => {
+      document.body.style.overflow = "hidden";
+    };
+
+    const handleCloseModal = () => {
+      document.body.style.overflow = "unset";
+    };
+
+    dialog?.addEventListener("close", handleCloseModal);
+    dialog?.addEventListener("showModal", handleShowModal);
+
+    return () => {
+      dialog?.removeEventListener("close", handleCloseModal);
+      dialog?.removeEventListener("showModal", handleShowModal);
+    };
+  }, []);
+
   const onSubmit = (data: FormValues) => {
     const generatedMarkdown = generateEpisodeMarkdown(data);
     setMarkdown(generatedMarkdown);
@@ -25,15 +45,31 @@ export const GenerateEpisodeButton = ({
     <>
       <button
         type="submit"
-        className="w-full rounded-md bg-gray-500 px-4 py-2 text-white"
+        className="flex w-full items-center justify-center gap-2 rounded-md border border-gray-500 bg-white px-4 py-2 text-gray-700 hover:bg-gray-50"
         onClick={handleSubmit(onSubmit)}
       >
-        Generate Episode
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="12" y1="18" x2="12" y2="12"></line>
+          <line x1="9" y1="15" x2="15" y2="15"></line>
+        </svg>
+        Generate Episode File
       </button>
 
       <dialog
         ref={dialogRef}
-        className="fixed left-1/2 top-1/2 w-full max-w-5xl -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-6 shadow-xl backdrop:bg-gray-500/50"
+        className="fixed left-1/2 top-1/2 m-0 w-full max-w-5xl -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white p-6 shadow-xl backdrop:bg-gray-500/50"
       >
         <div className="relative flex flex-col gap-4">
           <div className="absolute right-0 top-0 flex gap-2">

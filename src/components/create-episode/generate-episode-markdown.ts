@@ -8,7 +8,7 @@ const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
 export function generateEpisodeMarkdown(episode: FormValues): string {
   const formatDate = (date: Date) => date.toISOString().split("T")[0];
 
-  const frontmatter = `---
+  const episodeContent = `---
 date: ${formatDate(episode.date)}
 duration: "${episode.duration}"
 title: "${episode.title}"
@@ -38,5 +38,5 @@ ${episode.links.map(link => `- [${link.title}](${link.url})`).join("\n")}
 ${episode.hosts.map(host => `- [${capitalize(host.title)}](${host.url})`).join("\n")}
 `;
 
-  return frontmatter;
+  return episodeContent;
 }

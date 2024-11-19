@@ -11,15 +11,10 @@ import {
 import { type z } from "zod";
 import { episodeSchemaForm } from "./schema";
 import { AddIcon, RemoveIcon } from "./icons";
-import React from "react";
 import TimestampInput from "./timestamp-input";
+import { timestampToSeconds } from "@/lib/youtube";
 
 type FormValues = z.infer<typeof episodeSchemaForm>;
-
-const timestampToSeconds = (timestamp: string) => {
-  const [hours, minutes, seconds] = timestamp.split(":").map(Number);
-  return hours * 3600 + minutes * 60 + seconds;
-};
 
 const getNextTimestamp = (notes: { timestamp: string; content: string }[]) => {
   const lastNote = notes[notes.length - 1];
@@ -71,11 +66,13 @@ export default function Notes({
     const totalDurationInSeconds = timestampToSeconds(totalDuration);
 
     const timestamps = notes.map(note => note.timestamp);
-    const secondsArray = timestamps.map(timestampToSeconds);
+    const secondsArray = timestamps
+      .map(timestampToSeconds)
+      .filter(seconds => seconds !== null);
 
     // Check for timestamps exceeding total duration
     const exceedingIndex = secondsArray.findIndex(
-      seconds => seconds > totalDurationInSeconds
+      seconds => seconds && seconds > (totalDurationInSeconds ?? 0)
     );
     if (exceedingIndex !== -1) {
       setError(`notes`, {

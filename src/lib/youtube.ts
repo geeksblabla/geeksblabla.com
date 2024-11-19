@@ -38,5 +38,23 @@ export const getYoutubeVideoDetails = async (url: string) => {
     }
   } catch (error) {
     console.error("Error fetching YouTube video details:", error);
+    return null;
   }
+};
+
+export const timestampToSeconds = (timestamp: string) => {
+  if (!timestamp || !/^\d{1,2}:\d{2}:\d{2}$/.test(timestamp)) {
+    return null;
+  }
+  const [hours, minutes, seconds] = timestamp.split(":").map(Number);
+  if (
+    minutes >= 60 ||
+    seconds >= 60 ||
+    isNaN(hours) ||
+    isNaN(minutes) ||
+    isNaN(seconds)
+  ) {
+    return null;
+  }
+  return hours * 3600 + minutes * 60 + seconds;
 };

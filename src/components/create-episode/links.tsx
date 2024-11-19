@@ -34,6 +34,7 @@ export const Links = ({
   const pasteLinksRef = useRef<HTMLTextAreaElement>(null);
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
   const [deletingIndex, setDeletingIndex] = useState<number | null>(null);
+  const [isLoadingLinks, setIsLoadingLinks] = useState(false);
 
   const {
     fields: linkFields,
@@ -68,6 +69,8 @@ export const Links = ({
   const handlePasteLinks = async () => {
     const urls = pasteLinksRef.current?.value.split(",").filter(Boolean);
     if (!urls) return;
+
+    setIsLoadingLinks(true);
     try {
       const { data, error } = await actions.getPageTitles({
         urls,
@@ -88,6 +91,8 @@ export const Links = ({
     } catch {
       console.error("Failed to fetch title for:", urls);
       appendLink(urls.map(link => ({ title: link, url: link })));
+    } finally {
+      setIsLoadingLinks(false);
     }
   };
 
@@ -140,10 +145,11 @@ export const Links = ({
                   placeholder="Paste the comma-separated links here..."
                 />
                 <button
-                  className="mt-2 w-full rounded-md bg-gray-200 px-4 py-2 text-gray-700 hover:bg-gray-300"
+                  className="mt-2 w-full rounded-md bg-gray-200 px-4 py-2 text-gray-700 hover:bg-gray-300 disabled:cursor-not-allowed disabled:opacity-50"
                   onClick={handlePasteLinks}
+                  disabled={isLoadingLinks}
                 >
-                  Load Links
+                  {isLoadingLinks ? "Loading..." : "Load Links"}
                 </button>
               </div>
             </div>
