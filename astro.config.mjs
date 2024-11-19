@@ -14,8 +14,9 @@ import netlify from "@astrojs/netlify";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  output: "static",
+  output: "hybrid",
   adapter: netlify(),
+  experimental: { contentLayer: true, serverIslands: true },
   build: {
     format: "file",
   },
