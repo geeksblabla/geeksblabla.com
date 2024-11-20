@@ -51,8 +51,8 @@ In this monthly AMA episode, we discuss our guests' latest stories and learning 
 - [212/acc](https://www.212acc.com/)
 - [Cursor - The AI Code Editor](https://www.cursor.com/)
 - [bolt.new](https://bolt.new/)
-- [Not found](https://gamma.app/)
-- [ - YouTube](https://www.youtube.com/watch?v=EKvvptbTx6k)
+- [Gamme slides](https://gamma.app/)
+- [YouTube Geeksblabla Episode](https://www.youtube.com/watch?v=EKvvptbTx6k)
 
 ## Prepared and Presented by
 
