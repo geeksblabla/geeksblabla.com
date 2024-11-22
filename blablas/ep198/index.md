@@ -23,7 +23,7 @@ featured: false
 
 00:00:00 - Intro and welcoming guests
 
-00:02:26 - How would you define "AI for Good," and why is it important today? an you share your journey or experience with AI and social good projects? 
+00:02:26 - How would you define "AI for Good" and why is it important today? Can you share your journey or experience with AI and social good projects? 
 
 00:15:02 - What are some notable examples of AI addressing global challenges, such as healthcare, climate change, or education, and have you worked on any projects where AI made a tangible positive impact?
 
