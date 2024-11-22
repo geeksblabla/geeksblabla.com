@@ -145,5 +145,12 @@
         "x_handle": "@mouradxmt",
         "profile_image": "/about/images/team/mourad.jpg",
         "status": "active"
+    },
+    {
+        "id": 19,
+        "name": "You",
+        "x_handle": "@YourHandleHere",
+        "profile_image": "/about/images/team/wewantu.jpg",
+        "status": "active"
     }
 ]
