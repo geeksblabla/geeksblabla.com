@@ -9,9 +9,7 @@ published: true
 featured: false
 ---
 
-
-هاد حلقة فيها نقاش مهم لي كنساوه وسط ترندز والهايب ديال التكنولوجيا الجديدة🤔.
-ولينا كنشوفو بزاف ديال بروجيات AI وفينما ضرتي اتلقى Company X Adopted AI. ولكن واش خاصنا نديرو داكا غي حيت هادا العصر ديالو أو لا خاص نفكرو أنه تكنولوجيا جات باش تحل مشاكل كينا فالواقع وتسهل حياتنا أو ترفع من جودتها ومنديروهاش غي باش منبانوش "قدام"🙄.
+This episode discusses how we forget what's important amid tech hype. We see AI everywhere now, but should we adopt it just because it's trendy, or should we use it only when it actually solves real problems and improves our lives?
 
 ## Guests
 
@@ -39,7 +37,7 @@ featured: false
 
 02:25:00 - Giveaway
 
-02:32:14 - Wrap up & Bye bye
+02:32:07 - Wrap up & Bye bye
 
 ## Links
 
