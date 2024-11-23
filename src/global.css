@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   @apply mx-auto w-full 
-    px-4 sm:px-0      /* Base padding for smaller screens */
+    px-4 lg:px-0      /* Base padding for smaller screens */
     max-w-[90rem]             /* 1440px max-width */
     sm:max-w-[640px]          
     md:max-w-[768px]          
