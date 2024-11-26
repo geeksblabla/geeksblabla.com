@@ -2,6 +2,7 @@
 import { getGeekBlablaEpisodesPlannings } from "@/lib/notion";
 import EpisodeCard from "./episode-card.astro";
 import SuggestionModal from "./suggestion-modal.astro";
+import NewEpisodeModal from "./new-episode-modal.astro";
 
 const episodes = await getGeekBlablaEpisodesPlannings();
 
@@ -16,9 +17,30 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
 <div class="h-screen p-4">
   <div class="mx-auto h-full max-w-7xl pt-12">
     <div class="mb-12">
-      <h1 class="py-2 text-title font-bold text-gray-800">
-        Our Episodes Planning
-      </h1>
+      <div class="flex items-center justify-between">
+        <h1 class="py-2 text-title font-bold text-gray-800">
+          Our Episodes Planning
+        </h1>
+        <button
+          id="new-episode-button"
+          class="flex items-center gap-2 rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 4v16m8-8H4"></path>
+          </svg>
+          Suggest New Episode
+        </button>
+      </div>
       <div class="mb-2 max-w-prose text-paragraph-lg font-normal text-gray-600">
         Here is the complete list of scheduled episodes and those in the
         backlog. Please help us by suggesting new episodes, recommending guests,
@@ -27,7 +49,7 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
     </div>
     <div class="grid h-[calc(100vh-360px)] grid-cols-1 gap-8 lg:grid-cols-3">
       <div
-        class="relative flex h-[calc(100vh-460px)] flex-col overflow-hidden rounded-xl bg-white shadow-sm"
+        class="relative flex h-[calc(100vh-460px)] flex-col rounded-xl bg-white shadow-sm"
       >
         <div class="mb-4 flex items-center justify-between p-4">
           <h2 class="text-xl font-semibold text-gray-600">
@@ -60,8 +82,10 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
             {nextUp.length}
           </span>
         </div>
-        <div class="flex flex-col gap-4 p-4">
-          {nextUp.map(episode => <EpisodeCard episode={episode} />)}
+        <div class="flex-1 overflow-y-auto p-4">
+          <div class="flex flex-col gap-4">
+            {nextUp.map(episode => <EpisodeCard episode={episode} />)}
+          </div>
         </div>
       </div>
 
@@ -85,8 +109,9 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
     </div>
   </div>
 
-  <!-- Single instance of the modal -->
+  <!-- Modals -->
   <SuggestionModal />
+  <NewEpisodeModal />
 </div>
 
 <script>
@@ -116,5 +141,16 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
         }
       }
     });
+  });
+
+  // Add new episode button handler
+  const newEpisodeButton = document.getElementById("new-episode-button");
+  newEpisodeButton?.addEventListener("click", () => {
+    const modal = document.getElementById(
+      "new-episode-modal"
+    ) as HTMLDialogElement;
+    if (modal) {
+      modal.showModal();
+    }
   });
 </script>

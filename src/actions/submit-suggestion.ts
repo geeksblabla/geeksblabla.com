@@ -3,7 +3,7 @@ import { z } from "astro:schema";
 import { addSuggestionToNotion } from "@/lib/notion";
 
 export const submitSuggestion = defineAction({
-  accept: "json",
+  accept: "form",
   input: z.object({
     episodeId: z.string(),
     name: z.string().min(2),

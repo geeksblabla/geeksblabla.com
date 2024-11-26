@@ -199,3 +199,18 @@ export async function addSuggestionToNotion({
     throw error;
   }
 }
+
+export async function addNewEpisodeToNotion({
+  title,
+  description,
+  submittedBy,
+}: {
+  title: string;
+  description: string;
+  submittedBy: string;
+}) {
+  console.log(title, description, submittedBy);
+  // Implement the Notion API call to create a new episode page
+  // This will depend on your Notion database structure
+  // Return the result or throw an error if something goes wrong
+}
