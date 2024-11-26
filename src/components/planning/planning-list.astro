@@ -1,6 +1,8 @@
 ---
 import { getGeekBlablaEpisodesPlannings } from "@/lib/notion";
 import EpisodeCard from "./episode-card.astro";
+import SuggestionModal from "./suggestion-modal.astro";
+
 const episodes = await getGeekBlablaEpisodesPlannings();
 
 // Group episodes by status
@@ -11,18 +13,22 @@ const nextUp = episodes.filter(ep => ep.status.toLowerCase() === "next up");
 const backlog = episodes.filter(ep => ep.status === "backlog");
 ---
 
-<div class="min-h-screen bg-gray-50 p-4">
-  <div class="mx-auto max-w-7xl">
-    <h1 class="text-center text-4xl font-bold text-gray-800">
-      GeekBlabla Episodes Planning
-    </h1>
-    <div class="mb-8 mt-2 text-center text-lg font-normal text-gray-600">
-      Track and manage upcoming episodes
+<div class="h-screen p-4">
+  <div class="mx-auto h-full max-w-7xl pt-12">
+    <div class="mb-12">
+      <h1 class="py-2 text-title font-bold text-gray-800">
+        Our Episodes Planning
+      </h1>
+      <div class="mb-2 max-w-prose text-paragraph-lg font-normal text-gray-600">
+        Here is the complete list of scheduled episodes and those in the
+        backlog. Please help us by suggesting new episodes, recommending guests,
+        and providing questions for those episodes.
+      </div>
     </div>
-
-    <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-      <!-- Backlog Column -->
-      <div class="flex flex-col rounded-xl bg-white shadow-sm">
+    <div class="grid h-[calc(100vh-360px)] grid-cols-1 gap-8 lg:grid-cols-3">
+      <div
+        class="relative flex h-[calc(100vh-460px)] flex-col overflow-hidden rounded-xl bg-white shadow-sm"
+      >
         <div class="mb-4 flex items-center justify-between p-4">
           <h2 class="text-xl font-semibold text-gray-600">
             <span class="mr-2">📝</span>Backlog
@@ -33,13 +39,17 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
             {backlog.length}
           </span>
         </div>
-        <div class="flex flex-col gap-4 overflow-y-auto p-4">
-          {backlog.map(episode => <EpisodeCard episode={episode} />)}
+        <div class="flex-1 overflow-y-auto p-4">
+          <div class="flex flex-col gap-4">
+            {backlog.map(episode => <EpisodeCard episode={episode} />)}
+          </div>
         </div>
       </div>
 
       <!-- Next Up Column -->
-      <div class="flex flex-col rounded-xl bg-white shadow-sm">
+      <div
+        class="flex h-[calc(100vh-460px)] flex-col rounded-xl bg-white shadow-sm"
+      >
         <div class="mb-4 flex items-center justify-between p-4">
           <h2 class="text-xl font-semibold text-gray-600">
             <span class="mr-2">🎯</span>Next Up
@@ -55,7 +65,9 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
         </div>
       </div>
 
-      <div class="flex flex-col rounded-xl bg-white shadow-sm">
+      <div
+        class="flex h-[calc(100vh-460px)] flex-col rounded-xl bg-white shadow-sm"
+      >
         <div class="mb-4 flex items-center justify-between p-4">
           <h2 class="text-xl font-semibold text-gray-600">
             <span class="mr-2">📅</span>Scheduled
@@ -72,4 +84,37 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
       </div>
     </div>
   </div>
+
+  <!-- Single instance of the modal -->
+  <SuggestionModal />
 </div>
+
+<script>
+  const suggestionButtons = document.querySelectorAll(
+    "[data-suggestion-trigger]"
+  );
+  suggestionButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const episodeId = button.getAttribute("data-episode-id");
+      const episodeTitle = button.getAttribute("data-episode-title");
+
+      const modal = document.getElementById(
+        "suggestion-modal"
+      ) as HTMLDialogElement;
+      if (modal) {
+        // Update the form's hidden inputs
+        const episodeIdInput = modal.querySelector(
+          'input[name="episodeId"]'
+        ) as HTMLInputElement;
+        const episodeTitleEl = modal.querySelector(
+          "[data-episode-title]"
+        ) as HTMLElement;
+        if (episodeIdInput && episodeTitleEl) {
+          episodeIdInput.value = episodeId || "";
+          episodeTitleEl.textContent = episodeTitle || "";
+          modal.showModal();
+        }
+      }
+    });
+  });
+</script>

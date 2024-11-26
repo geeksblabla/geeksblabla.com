@@ -63,7 +63,7 @@ export const getEpisodeDetails = async (id: string) => {
     page_id: id,
   })) as NotionPage;
 
-  const normalizedEpisode = normalizeEpisodeProperties(episode.properties);
+  const normalizedEpisode = normalizeEpisodeProperties(episode.properties, id);
   const guests = await getPeopleDetails(normalizedEpisode.guests);
   const hosts = await getPeopleDetails(normalizedEpisode.hosts);
   console.log(JSON.stringify({ normalizedEpisode, guests, hosts }, null, 2));
@@ -94,10 +94,14 @@ function normalizePeopleProperties(properties: {
   };
 }
 
-export function normalizeEpisodeProperties(properties: {
-  [key: string]: NotionProperty;
-}): NotionEpisodeProperties {
+export function normalizeEpisodeProperties(
+  properties: {
+    [key: string]: NotionProperty;
+  },
+  id: string
+): NotionEpisodeProperties {
   return {
+    episodeId: id,
     title:
       properties.title?.type === "title"
         ? (properties.title.title[0]?.plain_text ?? "")
@@ -153,6 +157,45 @@ export function normalizeNotionResponse(
 ): NotionNormalizedResponse {
   return response.results.map(page => {
     const properties = page.properties;
-    return normalizeEpisodeProperties(properties);
+    console.log(page.id);
+    return normalizeEpisodeProperties(properties, page.id);
   });
+}
+
+export async function addSuggestionToNotion({
+  episodeId,
+  name,
+  content,
+}: {
+  episodeId: string;
+  name: string;
+  content: string;
+}) {
+  const notion = getNotionClient();
+
+  const suggestion = {
+    name,
+    content,
+    timestamp: new Date().toISOString(),
+  };
+
+  try {
+    await notion.pages.update({
+      page_id: episodeId,
+      properties: {
+        suggestions: {
+          rich_text: [
+            {
+              text: {
+                content: JSON.stringify(suggestion),
+              },
+            },
+          ],
+        },
+      },
+    });
+  } catch (error) {
+    console.error("Error adding suggestion to Notion:", error);
+    throw error;
+  }
 }

@@ -1,0 +1,124 @@
+---
+// No props needed anymore since we'll update content via JS
+---
+
+<dialog id="suggestion-modal" class="rounded-lg p-6 backdrop:bg-gray-950/50">
+  <div class="w-[480px] max-w-full">
+    <div class="mb-4 flex items-center justify-between">
+      <h3 class="text-xl font-semibold text-gray-900">Add Your Suggestion</h3>
+      <button
+        class="text-gray-500 hover:text-gray-700"
+        onclick="this.closest('dialog').close()"
+      >
+        <svg
+          class="h-6 w-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <p class="mb-4 text-sm text-gray-600">
+      For episode: <span data-episode-title></span>
+    </p>
+
+    <form id="suggestion-form" class="space-y-4">
+      <input type="hidden" name="episodeId" value="" />
+
+      <div>
+        <label class="mb-1 block text-sm font-medium text-gray-700">
+          Your Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          required
+          class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
+        />
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium text-gray-700">
+          Your Suggestion
+        </label>
+        <textarea
+          name="content"
+          required
+          rows="3"
+          placeholder="Share your suggestion (guest recommendation, question, or any other feedback)"
+          class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
+        ></textarea>
+      </div>
+
+      <div class="flex justify-end gap-3">
+        <button
+          type="button"
+          onclick="this.closest('dialog').close()"
+          class="rounded-md bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-200"
+        >
+          Cancel
+        </button>
+        <button
+          type="submit"
+          class="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</dialog>
+
+<script>
+  import { server } from "@/actions";
+
+  const form = document.getElementById("suggestion-form");
+
+  const submit = async (e: SubmitEvent) => {
+    const submitButton = form?.querySelector(
+      'button[type="submit"]'
+    ) as HTMLButtonElement;
+    const originalButtonText = submitButton.textContent;
+    try {
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
+
+      const formData = new FormData(e.target as HTMLFormElement);
+      const formDataObject = {
+        episodeId: formData.get("episodeId") as string,
+        name: formData.get("name") as string,
+        content: formData.get("content") as string,
+      };
+      console.log(formDataObject);
+      const { data, error } = await server.submitSuggestion(formDataObject);
+
+      if (data?.success) {
+        alert(data.message);
+        (e.target as HTMLFormElement).reset();
+        (e.target as HTMLFormElement).closest("dialog")?.close();
+      }
+
+      if (error) {
+        alert(error.message);
+      }
+    } catch (error) {
+      console.error(error);
+      alert("Failed to submit suggestion. Please try again.");
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = originalButtonText;
+    }
+  };
+
+  form?.addEventListener("submit", event => {
+    event.preventDefault();
+    submit(event);
+  });
+</script>
