@@ -1,5 +1,5 @@
 ---
-// No props needed anymore since we'll update content via JS
+
 ---
 
 <dialog id="suggestion-modal" class="rounded-lg p-6 backdrop:bg-gray-950/50">
@@ -25,36 +25,68 @@
       </button>
     </div>
 
-    <p class="mb-4 text-sm text-gray-600">
-      For episode: <span data-episode-title></span>
-    </p>
+    <div id="success-message" class="hidden space-y-4 py-10">
+      <div class="text-center">
+        <svg
+          class="mx-auto h-12 w-12 text-green-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M5 13l4 4L19 7"></path>
+        </svg>
+        <h3 class="mt-2 text-xl font-semibold text-gray-900">Thank You!</h3>
+        <p class="mt-2 text-gray-600">
+          Your suggestion has been submitted successfully. We appreciate your
+          contribution!
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <button
+          type="button"
+          onclick="this.closest('dialog').close()"
+          class="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          Close
+        </button>
+      </div>
+    </div>
 
     <form id="suggestion-form" class="space-y-4">
       <input type="hidden" name="episodeId" value="" />
 
       <div>
         <label class="mb-1 block text-sm font-medium text-gray-700">
-          Your Name
-        </label>
-        <input
-          type="text"
-          name="name"
-          required
-          class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
-        />
-      </div>
-
-      <div>
-        <label class="mb-1 block text-sm font-medium text-gray-700">
-          Your Suggestion
+          Your Suggestions
         </label>
         <textarea
           name="content"
           required
-          rows="3"
-          placeholder="Share your suggestion (guest recommendation, question, or any other feedback)"
+          rows="8"
+          placeholder="Share your ideas! You can suggest:
+- Questions you'd like us to ask
+- Potential guests to invite (name and linkedin profile)
+- Relevant links and resources
+- Any other details that would make this episode great"
           class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
         ></textarea>
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium text-gray-700">
+          Your Name/ LinkedIn Profile (Optional)
+        </label>
+        <input
+          type="text"
+          name="submittedBy"
+          required
+          placeholder="e.g., John Doe (https://www.linkedin.com/in/johndoe/)"
+          class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
+        />
       </div>
 
       <div class="flex justify-end gap-3">
@@ -80,8 +112,9 @@
   import { actions } from "astro:actions";
 
   const form = document.getElementById("suggestion-form");
+  const successMessage = document.getElementById("success-message");
 
-  const submit = async (e: SubmitEvent) => {
+  const submit = async () => {
     const submitButton = form?.querySelector(
       'button[type="submit"]'
     ) as HTMLButtonElement;
@@ -91,14 +124,11 @@
       submitButton.textContent = "Submitting...";
 
       const formData = new FormData(form as HTMLFormElement);
-      console.log(formData);
-
       const { data, error } = await actions.submitSuggestion(formData);
 
       if (data?.success) {
-        alert(data.message);
-        (e.target as HTMLFormElement).reset();
-        (e.target as HTMLFormElement).closest("dialog")?.close();
+        form?.classList.add("hidden");
+        successMessage?.classList.remove("hidden");
       }
 
       if (error) {
@@ -115,6 +145,13 @@
 
   form?.addEventListener("submit", event => {
     event.preventDefault();
-    submit(event);
+    submit();
+  });
+
+  const modal = document.getElementById("suggestion-modal");
+  modal?.addEventListener("close", () => {
+    form?.classList.remove("hidden");
+    successMessage?.classList.add("hidden");
+    (form as HTMLFormElement).reset();
   });
 </script>

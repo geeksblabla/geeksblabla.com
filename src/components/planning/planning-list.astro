@@ -121,7 +121,6 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
   suggestionButtons.forEach(button => {
     button.addEventListener("click", () => {
       const episodeId = button.getAttribute("data-episode-id");
-      const episodeTitle = button.getAttribute("data-episode-title");
 
       const modal = document.getElementById(
         "suggestion-modal"
@@ -131,12 +130,8 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
         const episodeIdInput = modal.querySelector(
           'input[name="episodeId"]'
         ) as HTMLInputElement;
-        const episodeTitleEl = modal.querySelector(
-          "[data-episode-title]"
-        ) as HTMLElement;
-        if (episodeIdInput && episodeTitleEl) {
+        if (episodeIdInput) {
           episodeIdInput.value = episodeId || "";
-          episodeTitleEl.textContent = episodeTitle || "";
           modal.showModal();
         }
       }

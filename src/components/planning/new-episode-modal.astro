@@ -25,6 +25,37 @@
       </button>
     </div>
 
+    <div id="new-episode-success-message" class="hidden space-y-4 py-10">
+      <div class="text-center">
+        <svg
+          class="mx-auto h-12 w-12 text-green-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M5 13l4 4L19 7"></path>
+        </svg>
+        <h3 class="mt-2 text-xl font-semibold text-gray-900">Thank You!</h3>
+        <p class="mt-2 text-gray-600">
+          Your episode suggestion has been submitted successfully. We appreciate
+          your contribution!
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <button
+          type="button"
+          onclick="this.closest('dialog').close()"
+          class="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
     <form id="new-episode-form" class="space-y-4">
       <div>
         <label class="mb-1 block text-sm font-medium text-gray-700">
@@ -41,25 +72,30 @@
 
       <div>
         <label class="mb-1 block text-sm font-medium text-gray-700">
-          Episode Description
+          Episode Suggestion
         </label>
         <textarea
           name="description"
           required
-          rows="4"
-          placeholder="Describe what this episode should cover..."
+          rows="8"
+          placeholder="Share your episode idea! You can suggest:
+- Topics you'd like us to cover
+- Potential guests to invite (name and linkedin profile)
+- Relevant links and resources
+- Any other details that would make this episode great"
           class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
         ></textarea>
       </div>
 
       <div>
         <label class="mb-1 block text-sm font-medium text-gray-700">
-          Your Name
+          Your Name/ LinkedIn Profile (Optional)
         </label>
         <input
           type="text"
           name="submittedBy"
           required
+          placeholder="e.g., John Doe (https://www.linkedin.com/in/johndoe/)"
           class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
         />
       </div>
@@ -87,8 +123,9 @@
   import { actions } from "astro:actions";
 
   const form = document.getElementById("new-episode-form");
+  const successMessage = document.getElementById("new-episode-success-message");
 
-  const submit = async (e: SubmitEvent) => {
+  const submit = async () => {
     const submitButton = form?.querySelector(
       'button[type="submit"]'
     ) as HTMLButtonElement;
@@ -99,12 +136,11 @@
       submitButton.textContent = "Submitting...";
 
       const formData = new FormData(form as HTMLFormElement);
-
       const { data, error } = await actions.submitNewEpisode(formData);
 
       if (data?.success) {
-        (e.target as HTMLFormElement).reset();
-        (e.target as HTMLFormElement).closest("dialog")?.close();
+        form?.classList.add("hidden");
+        successMessage?.classList.remove("hidden");
       }
 
       if (error) {
@@ -118,10 +154,16 @@
       submitButton.textContent = originalButtonText;
     }
   };
-  console.log(form);
+
+  const modal = document.getElementById("new-episode-modal");
+  modal?.addEventListener("close", () => {
+    form?.classList.remove("hidden");
+    successMessage?.classList.add("hidden");
+    (form as HTMLFormElement).reset();
+  });
 
   form?.addEventListener("submit", event => {
     event.preventDefault();
-    submit(event);
+    submit();
   });
 </script>

@@ -1,19 +1,19 @@
 import { defineAction, ActionError } from "astro:actions";
 import { z } from "astro:schema";
-import { addSuggestionToNotion } from "@/lib/notion";
+import { addSuggestionToNotionEpisode } from "@/lib/notion";
 
 export const submitSuggestion = defineAction({
   accept: "form",
   input: z.object({
     episodeId: z.string(),
-    name: z.string().min(2),
+    submittedBy: z.string().min(2),
     content: z.string().min(3),
   }),
-  handler: async ({ episodeId, name, content }) => {
+  handler: async ({ episodeId, submittedBy, content }) => {
     try {
-      await addSuggestionToNotion({
+      await addSuggestionToNotionEpisode({
         episodeId,
-        name,
+        submittedBy,
         content,
       });
 

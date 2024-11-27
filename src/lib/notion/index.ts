@@ -162,24 +162,44 @@ export function normalizeNotionResponse(
   });
 }
 
-export async function addSuggestionToNotion({
+/**
+ *
+ * Episode suggestions
+ *
+ */
+
+const formatSubmission = (name: string, content: string) => {
+  const timestamp = new Date().toLocaleDateString("en-GB");
+  return `${content.trimEnd()} \n > By: ${name}  At: ${timestamp}`;
+};
+
+export async function addSuggestionToNotionEpisode({
   episodeId,
-  name,
+  submittedBy,
   content,
 }: {
   episodeId: string;
-  name: string;
+  submittedBy: string;
   content: string;
 }) {
   const notion = getNotionClient();
 
-  const suggestion = {
-    name,
-    content,
-    timestamp: new Date().toISOString(),
-  };
-
   try {
+    // First, fetch the current page to get existing suggestions
+    const page = (await notion.pages.retrieve({
+      page_id: episodeId,
+    })) as NotionPage;
+
+    const existingSuggestions =
+      page.properties.suggestions?.type === "rich_text"
+        ? page.properties.suggestions.rich_text[0]?.plain_text || ""
+        : "";
+
+    const newSuggestion = formatSubmission(submittedBy, content);
+    const combinedSuggestions = existingSuggestions
+      ? `${existingSuggestions}\n\n\n${newSuggestion}`
+      : newSuggestion;
+
     await notion.pages.update({
       page_id: episodeId,
       properties: {
@@ -187,7 +207,7 @@ export async function addSuggestionToNotion({
           rich_text: [
             {
               text: {
-                content: JSON.stringify(suggestion),
+                content: combinedSuggestions,
               },
             },
           ],
@@ -209,8 +229,46 @@ export async function addNewEpisodeToNotion({
   description: string;
   submittedBy: string;
 }) {
-  console.log(title, description, submittedBy);
-  // Implement the Notion API call to create a new episode page
-  // This will depend on your Notion database structure
-  // Return the result or throw an error if something goes wrong
+  const notion = getNotionClient();
+
+  const suggestion = formatSubmission(submittedBy, description);
+
+  try {
+    const response = await notion.pages.create({
+      parent: {
+        type: "database_id",
+        database_id: databaseId,
+      },
+      properties: {
+        title: {
+          title: [
+            {
+              text: {
+                content: title,
+              },
+            },
+          ],
+        },
+        suggestions: {
+          rich_text: [
+            {
+              text: {
+                content: suggestion,
+              },
+            },
+          ],
+        },
+        Status: {
+          select: {
+            name: "Need Triage",
+          },
+        },
+      },
+    });
+
+    return response;
+  } catch (error) {
+    console.error("Error creating new episode in Notion:", error);
+    throw error;
+  }
 }
