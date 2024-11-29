@@ -15,6 +15,7 @@ interface Props {
 }
 
 const { episode } = Astro.props as Props;
+console.log(episode);
 ---
 
 <div
@@ -72,10 +73,13 @@ const { episode } = Astro.props as Props;
     </div>
   </div>
 
-  <div class="grid grid-cols-2 gap-0 divide-x-2 overflow-hidden border-t">
+  <div class="border-t">
     <button
-      class="inline-flex items-center justify-center gap-1 rounded-bl-md bg-gray-50 px-3 py-1.5 text-sm text-gray-700 transition-colors hover:bg-gray-100"
-      aria-label="Suggest guests for this episode"
+      data-suggestion-trigger
+      data-episode-id={episode.episodeId}
+      data-episode-title={episode.title}
+      class="flex w-full items-center justify-center gap-2 bg-gray-50 px-3 py-2 text-sm text-gray-700 transition-colors hover:bg-gray-100"
+      aria-label="Add suggestion for this episode"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -88,31 +92,9 @@ const { episode } = Astro.props as Props;
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
-          d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"
-        ></path>
+          d="M12 4v16m8-8H4"></path>
       </svg>
-      <span>Suggest Guests</span>
-    </button>
-
-    <button
-      class="inline-flex items-center justify-center gap-1 rounded-br-md bg-gray-50 px-3 py-1.5 text-sm text-gray-700 transition-colors hover:bg-gray-100"
-      aria-label="Add questions for this episode"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-4 w-4"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
-        ></path>
-      </svg>
-      <span>Add Questions</span>
+      <span>Add Suggestion</span>
     </button>
   </div>
 </div>

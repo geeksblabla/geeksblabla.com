@@ -184,6 +184,7 @@ export type NotionEpisodeStatus =
 export type NotionEpisodeCategory = "dev" | "ai" | "ama" | "career" | "mss";
 
 export type NotionEpisodeProperties = {
+  episodeId: string;
   title: string;
   date: string;
   guests: string[];
