@@ -1,0 +1,39 @@
+---
+import NewEpisodeModal from "./new-episode-modal.astro";
+---
+
+<div class="mb-12">
+  <div
+    class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center"
+  >
+    <h1 class="text-title font-bold tracking-tight text-gray-900">
+      Our Episodes Planning
+    </h1>
+    <button
+      id="new-episode-button"
+      class="flex items-center gap-2 rounded-md bg-gray-600 px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:mt-0"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 4v16m8-8H4"></path>
+      </svg>
+      Suggest New Episode
+    </button>
+  </div>
+  <div class="mt-4 max-w-prose text-paragraph-lg text-gray-600">
+    Here is the complete list of scheduled episodes and those in the backlog.
+    Please help us by suggesting new episodes, recommending guests, and
+    providing questions for those episodes.
+  </div>
+</div>
+
+<NewEpisodeModal />

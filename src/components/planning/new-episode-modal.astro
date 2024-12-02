@@ -3,7 +3,7 @@
 ---
 
 <dialog id="new-episode-modal" class="rounded-lg p-6 backdrop:bg-gray-950/50">
-  <div class="w-[480px] max-w-full">
+  <div class="w-[560px] max-w-full">
     <div class="mb-4 flex items-center justify-between">
       <h3 class="text-xl font-semibold text-gray-900">Suggest New Episode</h3>
       <button
@@ -74,15 +74,17 @@
         <label class="mb-1 block text-sm font-medium text-gray-700">
           Episode Suggestion
         </label>
+        <p class="my-2 rounded-lg bg-gray-100 p-3 text-sm text-gray-500">
+          Share your episode idea! You can suggest:
+          <br />• Topics you'd like us to cover
+          <br />• Potential guests to invite (name and linkedin profile)
+          <br />• Relevant links and resources
+          <br />• Any other details that would make this episode great
+        </p>
         <textarea
           name="description"
           required
           rows="8"
-          placeholder="Share your episode idea! You can suggest:
-- Topics you'd like us to cover
-- Potential guests to invite (name and linkedin profile)
-- Relevant links and resources
-- Any other details that would make this episode great"
           class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
         ></textarea>
       </div>
@@ -118,6 +120,19 @@
     </form>
   </div>
 </dialog>
+
+<script>
+  // Add new episode button handler
+  const newEpisodeButton = document.getElementById("new-episode-button");
+  newEpisodeButton?.addEventListener("click", () => {
+    const modal = document.getElementById(
+      "new-episode-modal"
+    ) as HTMLDialogElement;
+    if (modal) {
+      modal.showModal();
+    }
+  });
+</script>
 
 <script>
   import { actions } from "astro:actions";
