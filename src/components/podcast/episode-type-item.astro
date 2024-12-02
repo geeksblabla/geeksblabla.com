@@ -1,13 +1,13 @@
 ---
 import type { ImageMetadata } from "astro";
-import { Image } from "astro:assets";
 import { ButtonLink } from "../button";
 import { Icon } from "astro-icon/components";
-
+import RiveAnimation from "./rive-animation.astro";
 export interface EpisodeType {
   title: string;
   description: string;
-  image: ImageMetadata;
+  image?: ImageMetadata;
+  riveAnimation: string;
   badge?: string;
 
   link: {
@@ -18,35 +18,23 @@ export interface EpisodeType {
 
 export interface Props {
   episode: EpisodeType;
-  fullWidth?: boolean;
 }
 
-const { episode, fullWidth } = Astro.props as Props;
+const { episode } = Astro.props as Props;
 ---
 
 <div
-  class:list={[
-    "overflow-hidden rounded-lg border border-[#C3CAD4] bg-white",
-    { "col-span-1 md:col-span-2": fullWidth },
-  ]}
+  class:list={["overflow-hidden rounded-lg border border-[#C3CAD4] bg-white"]}
 >
   <div class="bg-[#FAFBFD] px-4 py-1 text-[20px] text-[#7CB4FE]">{">_"}</div>
-  <div
-    class:list={[
-      "flex",
-      { "flex-col md:flex-row-reverse": fullWidth, "flex-col": !fullWidth },
-      "h-full items-start p-6",
-    ]}
-  >
-    <Image
-      src={episode.image}
-      alt={episode.title}
-      class:list={[
-        "max-h-[350px] object-contain",
-        { "m-6": !fullWidth, "ml-6": fullWidth },
-      ]}
+  <div class:list={["flex", "flex-col", "h-full items-start p-6"]}>
+    <RiveAnimation
+      animation={episode.riveAnimation}
+      id={episode.riveAnimation}
+      className="max-h-[300px] w-full"
     />
-    <div class:list={["h-full flex-1", { "pr-0 md:pr-6": fullWidth }]}>
+
+    <div class:list={["h-full flex-1 flex-col"]}>
       <div class="mb-2 flex items-start">
         <h3 class="text-heading-lg">{episode.title}</h3>
       </div>

@@ -47,6 +47,8 @@ export default defineConfig({
       wrap: true,
     },
   },
-
+  vite: {
+    assetsInclude: ["**/*.riv"],
+  },
   scopedStyleStrategy: "where",
 });

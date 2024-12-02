@@ -1,0 +1,25 @@
+---
+export interface Props {
+  animation: string;
+  className?: string;
+  id?: string;
+  width?: number;
+  height?: number;
+}
+
+const {
+  animation,
+  className,
+  id,
+  width = 200,
+  height = 200,
+} = Astro.props as Props;
+---
+
+<canvas
+  id={id}
+  data-animation={animation}
+  class={className}
+  data-id={id}
+  width={width}
+  height={height}></canvas>

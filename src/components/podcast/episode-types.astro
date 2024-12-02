@@ -13,35 +13,48 @@ const episodes: EpisodeType[] = [
     description:
       "An open, deep dive discussion around anything and everything related to programming & software engineering. Tech and everything in between.",
     image: devEpisodesImage,
-    link: { text: "Watch the latest dev episode", url: "#" },
+    riveAnimation: "dev_episodes",
+    link: { text: "Watch Dev Episodes", url: "#" },
   },
   {
     title: "MSS episodes",
     description:
       "In Moroccan Success Story episodes, we invite a Moroccan icon in the IT and related fields, to share their experiences, lessons learned and knowledge with the Moroccan community.",
     image: mssEpisodesImage,
-    link: { text: "Watch the latest MSS episode", url: "#" },
+    riveAnimation: "ai_episodes",
+    link: { text: "Watch MSS Episodes", url: "#" },
   },
   {
     title: "Career episodes",
     description:
       "Explore career paths, job opportunities, and professional growth in the tech industry with our career-focused episodes.",
     image: careerEpisodesImage,
-    link: { text: "Watch the latest career episode", url: "#" },
+    riveAnimation: "career_episodes",
+    link: { text: "Watch Career Episodes", url: "#" },
+  },
+  {
+    title: "AI episodes",
+    description:
+      "Explore the latest advancements in AI and machine learning with our AI-focused episodes.",
+    image: careerEpisodesImage,
+    riveAnimation: "ai_episodes",
+    link: { text: "Watch AI Episodes", url: "#" },
   },
   {
     title: "AMA & tech news",
     description:
       "Stay up-to-date with the latest tech news and get your questions answered in our Ask Me Anything sessions.",
     image: techNewsImage,
-    link: { text: "Watch the latest news episode", url: "#" },
+    riveAnimation: "ama_tech_news",
+    link: { text: "Watch AMA  Episodes", url: "#" },
   },
   {
     title: "Book & article reviews",
     description:
       "Dive into insightful reviews of programming books and articles, exploring key concepts and practical applications in software development.",
     image: bookReviewsImage,
-    link: { text: "Watch the latest review episode", url: "#" },
+    riveAnimation: "books_reviews",
+    link: { text: "Watch Books Episodes", url: "#" },
   },
 ];
 ---
@@ -50,11 +63,25 @@ const episodes: EpisodeType[] = [
   <div class="container mx-auto px-4">
     <h2 class="mb-8 text-heading-sm font-bold">Episodes On the Menu</h2>
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-      {
-        episodes.map((episode, index) => (
-          <EpisodeTypeItem fullWidth={index === 2} episode={episode} />
-        ))
-      }
+      {episodes.map(episode => <EpisodeTypeItem episode={episode} />)}
     </div>
   </div>
 </section>
+
+<script>
+  const riveAnimations = document.querySelectorAll(
+    "[data-animation]"
+  ) as NodeListOf<HTMLCanvasElement>;
+  riveAnimations.forEach(animation => {
+    //@ts-expect-error Rive is not defined in the global scope
+    const r = new rive.Rive({
+      src: `/animations/${animation.dataset.animation}.riv`,
+      canvas: animation,
+      autoplay: true,
+      animations: "idle",
+      onLoad: () => {
+        r.resizeDrawingSurfaceToCanvas();
+      },
+    });
+  });
+</script>
