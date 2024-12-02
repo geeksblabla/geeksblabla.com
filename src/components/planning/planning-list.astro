@@ -13,13 +13,13 @@ const nextUp = episodes.filter(ep => ep.status.toLowerCase() === "next up");
 const backlog = episodes.filter(ep => ep.status === "backlog");
 ---
 
-<div class="min-h-screen p-1 md:p-6">
-  <div class="mx-auto pt-4 md:pt-12">
+<div class="min-h-screen">
+  <div class="mx-auto pt-4">
     <div
       class="grid grid-cols-1 gap-0 md:gap-8 lg:h-[calc(100vh-360px)] lg:grid-cols-3 [&>*:nth-child(1)]:order-3 lg:[&>*:nth-child(1)]:order-1 [&>*:nth-child(2)]:order-2 lg:[&>*:nth-child(2)]:order-2 [&>*:nth-child(3)]:order-1 lg:[&>*:nth-child(3)]:order-3 lg:[&>*]:col-span-1"
     >
       <div
-        class="relative flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-360px)]"
+        class="relative flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-160px)]"
       >
         <div class="mb-4 flex items-center justify-between p-4">
           <h2 class="text-xl font-semibold text-gray-600">
@@ -40,7 +40,7 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
 
       <!-- Next Up Column -->
       <div
-        class="flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-360px)]"
+        class="flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-160px)]"
       >
         <div class="mb-4 flex items-center justify-between p-4">
           <h2 class="text-xl font-semibold text-gray-600">
@@ -60,7 +60,7 @@ const backlog = episodes.filter(ep => ep.status === "backlog");
       </div>
 
       <div
-        class="flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-360px)]"
+        class="flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-160px)]"
       >
         <div class="mb-4 flex items-center justify-between p-4">
           <h2 class="text-xl font-semibold text-gray-600">
