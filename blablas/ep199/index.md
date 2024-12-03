@@ -42,7 +42,7 @@ In this Episode , we’re going over the news that was impactful during the prev
 ## Links
 
 - [ALTs Morocco · Events Calendar](https://lu.ma/alts.morocco)
-- [MiCA Regulation 2024: MiCA License &amp; Requirements](https://gofaizen-sherle.com/crypto-assets-mica-regulation)
+- [MiCA Regulation 2024](https://gofaizen-sherle.com/crypto-assets-mica-regulation)
 - [Central Bank Digital Currency](https://www.imf.org/en/Topics/fintech/central-bank-digital-currency/virtual-handbook)
 - [Blockchain and CtyptoCurrency](https://www.youtube.com/watch?v=OTEpZ1bfdzY&ab_channel=GeeksBlaBla)
 - [Morocco Developer Survey 2024 | State of Dev Morocco](https://stateofdev.ma/)
