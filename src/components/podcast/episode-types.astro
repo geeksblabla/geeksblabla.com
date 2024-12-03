@@ -21,7 +21,7 @@ const episodes: EpisodeType[] = [
     description:
       "In Moroccan Success Story episodes, we invite a Moroccan icon in the IT and related fields, to share their experiences, lessons learned and knowledge with the Moroccan community.",
     image: mssEpisodesImage,
-    riveAnimation: "ai_episodes",
+    riveAnimation: "mss-episodes",
     link: { text: "Watch MSS Episodes", url: "#" },
   },
   {
@@ -69,21 +69,24 @@ const episodes: EpisodeType[] = [
 </section>
 
 <script>
-  const riveAnimations = document.querySelectorAll(
+  const riveAnimationsCanvas = document.querySelectorAll(
     "[data-animation]"
   ) as NodeListOf<HTMLCanvasElement>;
-  riveAnimations.forEach(animation => {
+  riveAnimationsCanvas.forEach(animationCanvas => {
     //@ts-expect-error Rive is not defined in the global scope
     const r = new rive.Rive({
-      src: `/animations/${animation.dataset.animation}.riv`,
-      canvas: animation,
+      src: `/animations/${animationCanvas.dataset.animation}.riv`,
+      canvas: animationCanvas,
       autoplay: true,
       animation: "idle",
+
       onLoad: () => {
         r.resizeDrawingSurfaceToCanvas();
-        const animationName =
-          r.contents.artboards?.[0].animations?.[1] ?? "Timeline 1";
-        r.play(animationName);
+        animationCanvas.addEventListener("mouseenter", () => {
+          const animationName =
+            r.contents.artboards?.[0].animations?.[1] ?? "Timeline 1";
+          r.play(animationName);
+        });
       },
     });
   });
