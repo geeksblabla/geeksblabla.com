@@ -14,7 +14,6 @@ Astro Project Structure
   - src/
     - components/
     - content/
-    - layouts/
     - pages/
     - lib/
   - public/

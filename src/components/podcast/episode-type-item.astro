@@ -2,7 +2,7 @@
 import type { ImageMetadata } from "astro";
 import { ButtonLink } from "../button";
 import { Icon } from "astro-icon/components";
-import RiveAnimation from "./rive-animation.astro";
+import RiveAnimation from "@/components/rive-animation.astro";
 export interface EpisodeType {
   title: string;
   description: string;
@@ -31,6 +31,8 @@ const { episode } = Astro.props as Props;
     <RiveAnimation
       animation={episode.riveAnimation}
       id={episode.riveAnimation}
+      width={200}
+      height={200}
       className="max-h-[300px] w-full"
     />
 

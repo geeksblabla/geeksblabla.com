@@ -78,9 +78,13 @@ const episodes: EpisodeType[] = [
       src: `/animations/${animation.dataset.animation}.riv`,
       canvas: animation,
       autoplay: true,
-      animations: "idle",
+      animation: "idle",
       onLoad: () => {
         r.resizeDrawingSurfaceToCanvas();
+        console.log(r.contents);
+        const animationName =
+          r.contents.artboards?.[0].animations?.[1] ?? "Timeline 1";
+        r.play(animationName);
       },
     });
   });

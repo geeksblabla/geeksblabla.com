@@ -1,12 +1,13 @@
 ---
 import type { ImageMetadata } from "astro";
 import { Icon } from "astro-icon/components";
-import { Image } from "astro:assets";
+import RiveAnimation from "@/components/rive-animation.astro";
 
 export interface ProjectType {
   title: string;
   description: string;
   image: ImageMetadata;
+  riveAnimation: string;
   badge?: string;
   links: {
     text: string;
@@ -24,10 +25,17 @@ const { project } = Astro.props as Props;
 <div class="overflow-hidden rounded-lg border border-[#C3CAD4] bg-white">
   <div class="bg-[#FAFBFD] px-4 py-1 text-[20px] text-[#7CB4FE]">{">_"}</div>
   <div class="flex flex-col items-start p-6">
-    <Image
+    <!-- <Image
       src={project.image}
       alt={project.title}
       class="m-6 max-h-[350px] object-contain"
+    /> -->
+    <RiveAnimation
+      animation={project.riveAnimation}
+      id={project.riveAnimation}
+      className="max-h-[350px] w-full"
+      width={350}
+      height={350}
     />
 
     <div class="flex-1 pt-3">
