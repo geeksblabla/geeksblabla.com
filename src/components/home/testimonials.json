@@ -1,25 +1,25 @@
 {
   "testimonials": [
     {
-      "name": "@ElazizlYoussouf",
-      "role": "Mobile tribe lead",
-      "company": "@bytesio",
-      "profile_image": "/testimonials/elazizlyoussouf.jpg",
-      "video": "/videos/review-demo.mp4"
+      "name": "Kaoutar Choubari",
+      "role": "Software Engineer",
+      "company": "@kaoutar",
+      "profile_image": "/testimonials/kaoutar.jpg",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/ccb5xwotabggjoprf89q"
     },
     {
-      "name": "@_iMeriem",
+      "name": "Kaito",
       "role": "Software engineer",
       "company": "@Ultraken",
-      "profile_image": "/testimonials/imeriem.jpg",
-      "video": "/videos/review-demo.mp4"
+      "profile_image": "/testimonials/kaito.jpg",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/yur9suqaosodeb3bncnm"
     },
     {
-      "name": "@adnanmarokchi",
+      "name": "Omayma Essarhi",
       "role": "Full stack java developer",
       "company": "@ti4it.com",
-      "profile_image": "/testimonials/adnanmarokchi.jpg",
-      "video": "/videos/review-demo.mp4"
+      "profile_image": "/testimonials/omayma.jpg",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/zg9mbwidvsdsk1uobmz7"
     },
     {
       "name": "@SarahDev",
