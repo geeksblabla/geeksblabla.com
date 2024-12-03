@@ -16,6 +16,9 @@ export default defineConfig({
   site: SITE.website,
   output: "hybrid",
   adapter: netlify(),
+  prefetch: {
+    prefetchAll: true,
+  },
   experimental: { contentLayer: true, serverIslands: true },
   build: {
     format: "file",
