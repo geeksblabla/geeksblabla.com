@@ -1,69 +1,81 @@
 ---
-import { Image } from "astro:assets";
 import testimonialsData from "./testimonials.json";
-import avatarSrc from "@/assets/testimonials/avatar.png";
 
 interface Testimonial {
   name: string;
   role: string;
-  company: string;
-  profile_image: string;
+  avatar?: string;
   video?: string;
   quote?: string;
 }
 
 const testimonials: Testimonial[] = testimonialsData.testimonials;
+
+const testimonialsVideos = testimonials.filter(
+  testimonial => testimonial.video
+);
+const testimonialsQuotes = testimonials.filter(
+  testimonial => !testimonial.video
+);
 ---
 
 <section class="py-16">
   <div class="container mx-auto px-4">
     <h2 class="mb-12 text-3xl font-bold">Testimonials</h2>
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+    <div
+      class="flex gap-8 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] md:grid md:grid-cols-3 [&::-webkit-scrollbar]:hidden"
+    >
       {
-        testimonials.map(testimonial => (
-          <div class="overflow-hidden rounded-lg bg-white shadow-md">
+        testimonialsVideos.map((testimonial, index) => (
+          <div class="min-w-[300px] overflow-hidden rounded-lg bg-white shadow-md md:min-w-0">
             {testimonial.video && (
-              <div class="relative" data-video={testimonial.name}>
+              <div class="relative" data-video={`${index}`}>
                 <video
                   src={testimonial.video}
                   class="aspect-[9/16] w-full object-cover"
-                  id={`video-${testimonial.name}`}
+                  id={`video-${index}`}
+                  playsinline
                 />
                 <div
                   class="overlay absolute inset-0 flex cursor-pointer items-center justify-center bg-black bg-opacity-40 transition-opacity duration-300"
-                  id={`overlay-${testimonial.name}`}
+                  id={`overlay-${index}`}
                 >
                   <button class="text-4xl text-white" aria-label="Play video">
                     ▶
                   </button>
-
-                  <div class="absolute bottom-4 left-0 min-w-[200px] rounded-r-lg bg-white/80 p-2">
-                    <p class="font-bold">{testimonial.name}</p>
-                    <p class="text-sm text-gray-600">{testimonial.role}</p>
-                  </div>
+                </div>
+                <div class="absolute bottom-4 left-0 min-w-[200px] rounded-r-lg bg-white/90 p-2">
+                  <p class="font-bold">{testimonial.name}</p>
+                  <p class="text-sm text-gray-600">{testimonial.role}</p>
                 </div>
               </div>
             )}
-            {!testimonial.video && (
-              <div class="p-6">
-                {testimonial.quote && (
-                  <p class="mb-4 text-sm">{testimonial.quote}</p>
-                )}
-                <div class="flex items-center">
-                  <Image
-                    src={avatarSrc}
-                    alt={testimonial.name}
-                    width={40}
-                    height={40}
-                    class="mr-3 h-10 w-10 rounded-full"
-                  />
-                  <div>
-                    <p class="font-bold">{testimonial.name}</p>
-                    <p class="text-sm text-gray-600">{testimonial.role}</p>
-                  </div>
+          </div>
+        ))
+      }
+    </div>
+    <div class="grid grid-cols-1 gap-8 pt-8 md:grid-cols-3">
+      {
+        testimonialsQuotes.map(testimonial => (
+          <div class="flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
+            <div class="flex h-full flex-col justify-between p-6">
+              {testimonial.quote && (
+                <p class="mb-4 text-sm">{testimonial.quote}</p>
+              )}
+              <div class="flex items-center">
+                <img
+                  src={testimonial.avatar}
+                  alt={testimonial.name}
+                  width={40}
+                  height={40}
+                  class="mr-3 h-10 w-10 rounded-full"
+                />
+                <div>
+                  <p class="font-bold">{testimonial.name}</p>
+                  <p class="text-sm text-gray-600">{testimonial.role}</p>
                 </div>
               </div>
-            )}
+            </div>
           </div>
         ))
       }

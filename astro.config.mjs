@@ -49,6 +49,9 @@ export default defineConfig({
   },
   vite: {
     assetsInclude: ["**/*.riv"],
+    optimizeDeps: {
+      exclude: ["@resvg/resvg-js"],
+    },
   },
   scopedStyleStrategy: "where",
 });
