@@ -8,7 +8,12 @@ export interface Props {
   isActive?: boolean;
 }
 
-const { label, href, external = false, isActive = false } = Astro.props;
+const isActive =
+  Astro.props.href === "/"
+    ? Astro.url.pathname === Astro.props.href
+    : Astro.url.pathname.includes(Astro.props.href);
+
+const { label, href, external = false } = Astro.props;
 ---
 
 <a

@@ -24,8 +24,6 @@ const socialIcons = [
   { icon: "spotify", href: SOCIALS.spotify.href, ariaLabel: "Spotify" },
   { icon: "linkedin", href: SOCIALS.linkedin.href, ariaLabel: "LinkedIn" },
 ];
-
-const currentPath = Astro.url.pathname;
 ---
 
 <header class="relative z-[99] w-full bg-transparent py-8">
@@ -73,13 +71,7 @@ const currentPath = Astro.url.pathname;
           {
             navItems.map(item => (
               <li>
-                <HeaderLink
-                  label={item.label}
-                  href={item.href}
-                  isActive={
-                    currentPath === item.href || currentPath === `${item.href}/`
-                  }
-                />
+                <HeaderLink label={item.label} href={item.href} />
               </li>
             ))
           }
@@ -95,11 +87,7 @@ const currentPath = Astro.url.pathname;
         {
           navItems.map(item => (
             <li>
-              <HeaderLink
-                label={item.label}
-                href={item.href}
-                isActive={currentPath === item.href}
-              />
+              <HeaderLink label={item.label} href={item.href} />
             </li>
           ))
         }
