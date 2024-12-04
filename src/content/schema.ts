@@ -14,6 +14,8 @@ export const podcastCategorySchema = z.enum([
   "ai",
 ]);
 
+export type PodcastCategory = z.infer<typeof podcastCategorySchema>;
+
 export const episodeSchema = z
   .object({
     title: z.string(),
