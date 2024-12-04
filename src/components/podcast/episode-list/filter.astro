@@ -32,37 +32,28 @@ const { allCategories } = Astro.props as Props;
 <script>
   import { startViewTransition } from "@/lib/utils";
 
-  const categoryButtons = document.querySelectorAll(".category-filter");
-  const categoryFilterContainer = document.getElementById(
-    "category-filter-buttons"
-  );
-  const episodes = document.querySelectorAll("#episodes-list > li");
-  let episodeIndex = 0;
-
-  episodes.forEach(episode => {
-    // @ts-expect-error not sure what going with style property here
-    episode.style.viewTransitionName = `episode-${++episodeIndex}`;
-  });
-
-  categoryButtons.forEach(button => {
-    button.addEventListener("click", e => {
-      const episodeCategory = button.getAttribute("data-filter");
-
-      startViewTransition(() => {
-        updateActiveButton(e.target as HTMLElement);
-        filterEpisodes(episodeCategory || "all");
-      });
-    });
-  });
-
   function updateActiveButton(newButton: HTMLElement) {
+    const categoryFilterContainer = document.getElementById(
+      "category-filter-buttons"
+    );
     categoryFilterContainer
       ?.querySelector(".active")
       ?.classList.remove("active");
     newButton.classList.add("active");
   }
 
+  function setFilterFromUrl() {
+    const defaultFilter = new URL(window.location.href).searchParams.get(
+      "category"
+    );
+    filterEpisodes(defaultFilter || "all");
+    updateActiveButton(
+      document.querySelector(`[data-filter="${defaultFilter}"]`) as HTMLElement
+    );
+  }
+
   function filterEpisodes(filter: string) {
+    const episodes = document.querySelectorAll("#episodes-list > li");
     episodes.forEach(episode => {
       // get each conferences category
       const episodeCategory = episode.getAttribute("data-category");
@@ -74,5 +65,41 @@ const { allCategories } = Astro.props as Props;
         episode.setAttribute("hidden", "");
       }
     });
+
+    // Update URL with category filter
+    const url = new URL(window.location.href);
+    if (filter === "all") {
+      url.searchParams.delete("category");
+    } else {
+      url.searchParams.set("category", filter);
+    }
+    window.history.pushState({}, "", url);
   }
+
+  function runFilter(defaultFilter: string = "all") {
+    const categoryButtons = document.querySelectorAll(".category-filter");
+
+    const episodes = document.querySelectorAll("#episodes-list > li");
+    let episodeIndex = 0;
+
+    episodes.forEach(episode => {
+      // @ts-expect-error not sure what going with style property here
+      episode.style.viewTransitionName = `episode-${++episodeIndex}`;
+    });
+
+    categoryButtons.forEach(button => {
+      button.addEventListener("click", e => {
+        const episodeCategory = button.getAttribute("data-filter");
+
+        startViewTransition(() => {
+          updateActiveButton(e.target as HTMLElement);
+          filterEpisodes(episodeCategory || defaultFilter);
+        });
+      });
+    });
+  }
+
+  setFilterFromUrl();
+  runFilter();
+  document.addEventListener("astro:page-load", () => runFilter("all"));
 </script>

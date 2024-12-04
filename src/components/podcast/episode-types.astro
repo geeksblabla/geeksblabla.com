@@ -15,7 +15,9 @@ function getLatestEpisodeLink(category: PodcastCategory): string {
     (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
   );
 
-  return categoryEpisodes.length > 0 ? categoryEpisodes[0].data.slug : "#";
+  return categoryEpisodes.length > 0
+    ? `podcast/${categoryEpisodes[0].data.slug}/?category=${category}`
+    : "#";
 }
 
 const episodes: EpisodeType[] = [
