@@ -1,12 +1,10 @@
 ---
-import type { ImageMetadata } from "astro";
 import { ButtonLink } from "../button";
 import { Icon } from "astro-icon/components";
 import RiveAnimation from "@/components/rive-animation.astro";
 export interface EpisodeType {
   title: string;
   description: string;
-  image?: ImageMetadata;
   riveAnimation: string;
   badge?: string;
 
@@ -36,7 +34,7 @@ const { episode } = Astro.props as Props;
       className="max-h-[300px] w-full"
     />
 
-    <div class:list={["h-full flex-1 flex-col"]}>
+    <div class="h-full flex-1 flex-col items-end pt-4">
       <div class="mb-2 flex items-start">
         <h3 class="text-heading-lg">{episode.title}</h3>
       </div>

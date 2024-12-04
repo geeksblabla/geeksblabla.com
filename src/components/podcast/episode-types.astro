@@ -1,9 +1,4 @@
 ---
-import devEpisodesImage from "@/assets/podcast/dev-episode.svg";
-import mssEpisodesImage from "@/assets/podcast/mss-episode.svg";
-import careerEpisodesImage from "@/assets/podcast/career-episode.svg";
-import techNewsImage from "@/assets/podcast/ama-episode.svg";
-import bookReviewsImage from "@/assets/podcast/books-episode.svg";
 import EpisodeTypeItem from "./episode-type-item.astro";
 import type { EpisodeType } from "./episode-type-item.astro";
 
@@ -11,16 +6,14 @@ const episodes: EpisodeType[] = [
   {
     title: "Dev episodes",
     description:
-      "An open, deep dive discussion around anything and everything related to programming & software engineering. Tech and everything in between.",
-    image: devEpisodesImage,
+      "An open, deep dive discussion around anything and everything related to programming & software engineering. We explore technical concepts, share real-world experiences, and discuss the latest trends in tech.",
     riveAnimation: "dev_episodes",
     link: { text: "Watch Dev Episodes", url: "#" },
   },
   {
     title: "MSS episodes",
     description:
-      "In Moroccan Success Story episodes, we invite a Moroccan icon in the IT and related fields, to share their experiences, lessons learned and knowledge with the Moroccan community.",
-    image: mssEpisodesImage,
+      "In Moroccan Success Story episodes, we invite Moroccan icons in the IT and related fields to share their inspiring journeys and invaluable knowledge to empower and inspire the Moroccan tech community.",
     riveAnimation: "mss-episodes",
     link: { text: "Watch MSS Episodes", url: "#" },
   },
@@ -28,15 +21,13 @@ const episodes: EpisodeType[] = [
     title: "Career episodes",
     description:
       "Explore career paths, job opportunities, and professional growth in the tech industry with our career-focused episodes.",
-    image: careerEpisodesImage,
     riveAnimation: "career_episodes",
     link: { text: "Watch Career Episodes", url: "#" },
   },
   {
     title: "AI episodes",
     description:
-      "Explore the latest advancements in AI and machine learning with our AI-focused episodes.",
-    image: careerEpisodesImage,
+      "Explore the latest advancements in artificial intelligence, machine learning, and deep learning with our AI-focused episodes.",
     riveAnimation: "ai_episodes",
     link: { text: "Watch AI Episodes", url: "#" },
   },
@@ -44,7 +35,6 @@ const episodes: EpisodeType[] = [
     title: "AMA & tech news",
     description:
       "Stay up-to-date with the latest tech news and get your questions answered in our Ask Me Anything sessions.",
-    image: techNewsImage,
     riveAnimation: "ama_tech_news",
     link: { text: "Watch AMA  Episodes", url: "#" },
   },
@@ -52,7 +42,6 @@ const episodes: EpisodeType[] = [
     title: "Book & article reviews",
     description:
       "Dive into insightful reviews of programming books and articles, exploring key concepts and practical applications in software development.",
-    image: bookReviewsImage,
     riveAnimation: "books_reviews",
     link: { text: "Watch Books Episodes", url: "#" },
   },
