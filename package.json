@@ -1,7 +1,8 @@
 {
-  "name": "geeks",
+  "name": "geeksblabla-community",
   "type": "module",
-  "version": "0.0.1",
+  "version": "2.0.0",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -13,11 +14,11 @@
     "check": "astro check",
     "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
     "lint:ci": "eslint \"src/**/*.{js,ts,jsx,tsx,astro}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "check-all": "pnpm run lint && pnpm run check && pnpm run build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/cloudflare": "12.0.0-beta.1",
     "@astrojs/mdx": "^3.1.9",
     "@astrojs/netlify": "^5.5.4",
     "@astrojs/rss": "^4.0.9",
