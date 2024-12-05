@@ -1,0 +1,27 @@
+---
+
+---
+
+<script>
+  const riveAnimationsCanvas = document.querySelectorAll(
+    "[data-animation]"
+  ) as NodeListOf<HTMLCanvasElement>;
+  riveAnimationsCanvas.forEach(animationCanvas => {
+    //@ts-expect-error Rive is not defined in the global scope
+    const r = new rive.Rive({
+      src: `/animations/${animationCanvas.dataset.animation}.riv`,
+      canvas: animationCanvas,
+      autoplay: true,
+      animation: "idle",
+
+      onLoad: () => {
+        r.resizeDrawingSurfaceToCanvas();
+        animationCanvas.addEventListener("mouseenter", () => {
+          const animationName =
+            r.contents.artboards?.[0].animations?.[1] ?? "Timeline 1";
+          r.play(animationName);
+        });
+      },
+    });
+  });
+</script>

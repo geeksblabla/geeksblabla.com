@@ -8,7 +8,7 @@ export async function getStaticPaths() {
   );
   return articles.map(article => ({
     params: { slug: article.data.slug },
-    props: { article },
+    props: article,
   }));
 }
 

@@ -1,57 +1,50 @@
 ---
 import type { ProjectType } from "./project-item.astro";
 import ProjectItem from "./project-item.astro";
-import awesomeMoroccoImage from "@/assets/projects/awesome-morocco.svg";
-import blablaconfImage from "@/assets/projects/blablaconf.svg";
-import geeksblablaImage from "@/assets/projects/geeksblabla-podcast.svg";
-import stateOfDevImage from "@/assets/projects/state-of-dev.svg";
-
+import RiveAnimationScript from "@/components/rive-animation-script.astro";
 const projects: ProjectType[] = [
   {
     title: "Geeksblabla podcast",
     description:
       "The community podcast is where interesting and funny conversations around a wide range of awesome tech topics with our amazing community members. Join us every Sunday at 8 PM and prepare yourself to be inspired and educated as we discuss the hottest tech topics in Moroccan Darija.",
-    image: geeksblablaImage,
     riveAnimation: "podcast",
     links: [
-      { text: "Watch the latest episode", url: "#" },
-      { text: "Be a guest", url: "#" },
-      { text: "Read more", url: "#" },
+      { text: "Watch the latest episode", url: "/podcast" },
+      { text: "Suggest a topic", url: "/podcast/planning" },
     ],
   },
   {
     title: "BlablaConf",
     description:
-      "Our community's annual conference is designed for developers, by developers. With our speakers from various backgrounds and completely in Moroccan Darija, everyone has the opportunity to speak and share knowledge.",
-    image: blablaconfImage,
+      "Our community's annual conference is designed for developers, by developers. Enjoy 5 +1  days with our speakers from various backgrounds and completely in Moroccan Darija, everyone has the opportunity to speak and share knowledge.",
     riveAnimation: "conf",
     badge: "2024",
     links: [
-      { text: "Watch the latest edition", url: "#" },
-      { text: "Blablaconf.ma", url: "#" },
-      { text: "Read more", url: "#" },
+      {
+        text: "Watch the Latest Edition",
+        url: "https://www.youtube.com/watch?v=a2o74IO59gE&list=PLUa7iphNQNrzhWEJlEooj79kPkm3LUUYy",
+      },
+      { text: "BlablaConf.com", url: "https://blablaconf.com" },
     ],
   },
   {
     title: "Awesome Morocco",
     description:
       "One place to collect and highlight the outstanding work of Moroccan developers. Discover open-source projects, blog posts, podcasts, communities, books, and YouTube channels created by talented Moroccan developers. Explore their contributions and share your work with us.",
-    image: awesomeMoroccoImage,
     riveAnimation: "awesome-morocco",
     links: [
-      { text: "Discover the list", url: "#" },
-      { text: "Read more", url: "#" },
+      { text: "Discover the list", url: "https://awesome-morocco.dev" },
+      { text: "Submit your project", url: "https://awesome-morocco.dev" },
     ],
   },
   {
-    title: "State of dev",
+    title: "State Of Dev",
     description:
-      "A survey launched 3 years ago where developers from Morocco 🇲🇦 tell us about their job satisfaction, salaries, community contribution, how they learn and level up, which tools they're using, and what they want to learn next.",
-    image: stateOfDevImage,
+      "A survey launched 4 years ago where developers from Morocco 🇲🇦 tell us about their job satisfaction, salaries, community contribution, how they learn and level up, which tools they're using, how they feel about the Moroccan tech community and what they want to learn next. Check out the the report and learn more.",
     riveAnimation: "state-of-dev",
     links: [
-      { text: "Stateofdev.ma", url: "#" },
-      { text: "Read more", url: "#" },
+      { text: "Last Year Report", url: "https://stateofdev.ma/2023" },
+      { text: "StateOfDev.ma", url: "https://stateofdev.ma" },
     ],
   },
 ];
@@ -65,25 +58,4 @@ const projects: ProjectType[] = [
     </div>
   </div>
 </section>
-
-<script>
-  const riveAnimations = document.querySelectorAll(
-    "[data-animation]"
-  ) as NodeListOf<HTMLCanvasElement>;
-  riveAnimations.forEach(animation => {
-    //@ts-expect-error Rive is not defined in the global scope
-    const r = new rive.Rive({
-      src: `/animations/${animation.dataset.animation}.riv`,
-      canvas: animation,
-      autoplay: true,
-      animation: "idle",
-      onLoad: () => {
-        r.resizeDrawingSurfaceToCanvas();
-        console.log(r.contents);
-        const animationName =
-          r.contents.artboards?.[0].animations?.[1] ?? "Timeline 1";
-        r.play(animationName);
-      },
-    });
-  });
-</script>
+<RiveAnimationScript />

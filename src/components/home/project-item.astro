@@ -1,12 +1,10 @@
 ---
-import type { ImageMetadata } from "astro";
 import { Icon } from "astro-icon/components";
 import RiveAnimation from "@/components/rive-animation.astro";
 
 export interface ProjectType {
   title: string;
   description: string;
-  image: ImageMetadata;
   riveAnimation: string;
   badge?: string;
   links: {
@@ -25,11 +23,6 @@ const { project } = Astro.props as Props;
 <div class="overflow-hidden rounded-lg border border-[#C3CAD4] bg-white">
   <div class="bg-[#FAFBFD] px-4 py-1 text-[20px] text-[#7CB4FE]">{">_"}</div>
   <div class="flex flex-col items-start p-6">
-    <!-- <Image
-      src={project.image}
-      alt={project.title}
-      class="m-6 max-h-[350px] object-contain"
-    /> -->
     <RiveAnimation
       animation={project.riveAnimation}
       id={project.riveAnimation}
@@ -38,9 +31,9 @@ const { project } = Astro.props as Props;
       height={350}
     />
 
-    <div class="flex-1 pt-3">
-      <div class="mb-2 flex items-start">
-        <h3 class="= text-heading-lg">{project.title}</h3>
+    <div class="flex-1 pt-4">
+      <div class="mb-2 flex items-start text-[#1A1C1E]">
+        <h3 class="text-heading-lg">{project.title}</h3>
         {
           project.badge && (
             <span class="bg-primary-light text-primary ml-3 rounded-full bg-slate-300/50 px-2 py-1 text-xs font-semibold">
@@ -51,8 +44,7 @@ const { project } = Astro.props as Props;
       </div>
       <div class="flex items-start">
         <svg
-          width="20"
-          height="18"
+          class="mt-1 h-3"
           viewBox="0 0 20 18"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +53,7 @@ const { project } = Astro.props as Props;
             d="M0.4 -9.53674e-07H1.6V16.4H7.2V17.6H0.4V-9.53674e-07ZM6.79219 17.6V16.4H19.1922V17.6H6.79219Z"
             fill="#292D33"></path>
         </svg>
-        <div class="flex-1 pl-2">
+        <div class="flex-1 pl-0.5 md:pl-1">
           <p class="mb-4 text-paragraph-lg text-neutral-dark-20">
             {project.description}
           </p>
@@ -74,7 +66,7 @@ const { project } = Astro.props as Props;
                     class="flex items-center gap-2 py-2 text-label-sm font-bold text-gray-800 underline underline-offset-4"
                   >
                     {link.text}
-                    <Icon name="external-link-styled" class="h-5 w-5" />
+                    <Icon name="external-link-styled" class="h-4 w-4" />
                   </a>
                 </li>
               ))
