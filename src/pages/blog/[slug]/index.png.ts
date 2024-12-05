@@ -6,10 +6,9 @@ export async function getStaticPaths() {
   const articles = await getCollection("blog").then(p =>
     p.filter(({ data }) => !data.draft && !data.ogImage)
   );
-
   return articles.map(article => ({
     params: { slug: article.data.slug },
-    props: article,
+    props: { article },
   }));
 }
 

@@ -3,7 +3,7 @@ import Datetime from "./datetime.tsx";
 import type { CollectionEntry } from "astro:content";
 import getReadingTime from "reading-time";
 import Layout from "@/components/layout.astro";
-import { render } from "astro:content";
+import { getEntries, render } from "astro:content";
 import Header from "@/components/header.astro";
 
 export interface Props {
@@ -12,15 +12,18 @@ export interface Props {
 
 const { article } = Astro.props;
 
-const { title, author, description, ogImage, pubDatetime } = article.data;
+const { title, description, ogImage, pubDatetime } = article.data;
 
 const minutesRead = getReadingTime(article.body ?? "").text;
 const { Content } = await render(article);
+const authors = article.data.authors
+  ? await getEntries(article.data.authors)
+  : undefined;
 ---
 
 <Layout
   title={title}
-  author={author}
+  author={authors?.map(author => author.data.name).join(", ")}
   description={description}
   ogImage={ogImage}
 >
@@ -32,7 +35,9 @@ const { Content } = await render(article);
       <div class="my-3 flex flex-row flex-wrap items-end">
         <Datetime datetime={pubDatetime} size="lg" className="mr-2" />
       </div>
-      <p class="text-sm text-gray-500">by: {author}</p>
+      <p class="text-sm text-gray-500">
+        by: {authors?.map(author => author.data.name).join(", ")}
+      </p>
     </div>
 
     <article

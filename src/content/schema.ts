@@ -3,7 +3,7 @@ import {
   slugify,
   transformDateToLocaleString,
 } from "@/lib/utils";
-import { z } from "astro:content";
+import { reference, z } from "astro:content";
 
 export const podcastCategorySchema = z.enum([
   "dev",
@@ -46,7 +46,7 @@ export const episodeSchema = z
 
 export const blogSchema = z
   .object({
-    author: z.string().optional().default("Geeksblabla Team"),
+    authors: z.array(reference("authors")).optional(),
     pubDatetime: z.date(),
     title: z.string(),
     slug: z.string().optional(),
@@ -65,6 +65,14 @@ export const blogSchema = z
       slug,
     };
   });
+
+export const authorSchema = z.object({
+  name: z.string(),
+  url: z.string().url(),
+  bio: z.string(),
+  avatar: z.string(),
+  is_core_team: z.boolean().optional().default(false),
+});
 
 export type ArticleFrontmatter = z.infer<typeof blogSchema>;
 

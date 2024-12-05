@@ -1,0 +1,56 @@
+---
+import type { ArticleFrontmatter } from "@/content/schema";
+import { getEntries } from "astro:content";
+
+export interface Props {
+  href?: string;
+  frontmatter: ArticleFrontmatter;
+}
+
+const { href, frontmatter } = Astro.props;
+
+const authors = frontmatter.authors
+  ? await getEntries(frontmatter.authors)
+  : undefined;
+
+const { title, description, ogImage, slug } = frontmatter;
+const imageUrl = ogImage ? ogImage : `/blog/${slug}.png`;
+---
+
+<div class="group flex flex-col px-4">
+  <div class="w-full">
+    <img src={imageUrl} alt={title} />
+  </div>
+  <div class="flex h-full flex-col border-neutral-300 pl-3">
+    <div class="flex flex-1 flex-row justify-between">
+      <a href={href} class="block text-label-lg">
+        <h2 class="text-label-lg">{title}</h2>
+      </a>
+    </div>
+    <p class="mb-4 line-clamp-2 text-paragraph-sm text-neutral-dark-20">
+      {description}
+      {description}
+    </p>
+
+    <div class="flex items-start">
+      <svg
+        width="10"
+        height="9"
+        viewBox="0 0 20 18"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="mt-1"
+      >
+        <path
+          d="M0.4 -9.53674e-07H1.6V16.4H7.2V17.6H0.4V-9.53674e-07ZM6.79219 17.6V16.4H19.1922V17.6H6.79219Z"
+          fill="#292D33"></path>
+      </svg>
+      <div class="flex-1 pl-1">
+        <p class="mb-4 text-paragraph-sm text-neutral-dark-50">
+          {authors?.map(author => author.data.name).join(", ")}
+        </p>
+      </div>
+    </div>
+    <a href={href} class="text-label-md font-bold underline"> Read more </a>
+  </div>
+</div>

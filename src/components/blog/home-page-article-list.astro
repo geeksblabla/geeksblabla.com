@@ -1,8 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { getSortedArticles } from "@/lib/utils";
-import { CardHomePage } from "./card";
-
+import CardHomePage from "./blog-card-home-page.astro";
 const articles = await getCollection("blog");
 
 const latestArticles = getSortedArticles(articles).slice(0, 3);

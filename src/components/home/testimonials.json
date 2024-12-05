@@ -19,6 +19,24 @@
       "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/zg9mbwidvsdsk1uobmz7.webp"
     },
     {
+      "name": "Kaoutar Choubari",
+      "role": "Software Engineer",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/ccb5xwotabggjoprf89q",
+      "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/ccb5xwotabggjoprf89q.webp"
+    },
+    {
+      "name": "Kaito",
+      "role": "Software engineer",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/yur9suqaosodeb3bncnm",
+      "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/yur9suqaosodeb3bncnm.webp"
+    },
+    {
+      "name": "Omayma Essarhi",
+      "role": "Software Engineer",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/zg9mbwidvsdsk1uobmz7",
+      "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/zg9mbwidvsdsk1uobmz7.webp"
+    },
+    {
       "name": "Oumaima Makhlouk",
       "avatar": "/reviews/images/oumaima.png",
       "quote": "Unique, Rich & high quality content!! I have learned a lot of things, thank you for your efforts!",

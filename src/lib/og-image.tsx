@@ -75,7 +75,7 @@ export const articleOgImage = async (article: CollectionEntry<"blog">) => {
               fontSize: 28,
             }}
           >
-            <span>
+            {/* <span>
               by{" "}
               <span
                 style={{
@@ -87,7 +87,7 @@ export const articleOgImage = async (article: CollectionEntry<"blog">) => {
               <span style={{ overflow: "hidden", fontWeight: "bold" }}>
                 {article.data.author}
               </span>
-            </span>
+            </span> */}
 
             <span style={{ overflow: "hidden", fontWeight: "bold" }}>
               {SITE.title}
@@ -101,7 +101,7 @@ export const articleOgImage = async (article: CollectionEntry<"blog">) => {
       height: 630,
       embedFont: true,
       fonts: (await loadGoogleFonts(
-        article.data.title + article.data.author + SITE.title + "by"
+        article.data.title + SITE.title + "by"
       )) as FontOptions[],
     }
   );
