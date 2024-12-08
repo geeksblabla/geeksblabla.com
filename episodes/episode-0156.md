@@ -15,7 +15,7 @@ In this episode, we discuss a famous article titled "How to Be a 10x Developer" 
 
 - [Mahmoud Fettal](https://twitter.com/mahmoudfettal)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Badr Bellaj](https://www.linkedin.com/in/bellajbadr/)
 

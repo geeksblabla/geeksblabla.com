@@ -12,13 +12,9 @@ Tech News & AMA #12 with our community members Otmane, Ismail, Abdelghani, Abder
 
 ## Guests
 
-- [Otmane Fettal](https://twitter.com/OFettal)
-
-- [Ismail Tlemcani](https://twitter.com/Ismailtlem)
-
 - [Abdelghani ACHIBANE](https://www.linkedin.com/in/abdelghani-achibane-53a915b7/)
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 ## Notes
 
@@ -64,6 +60,6 @@ Tech News & AMA #12 with our community members Otmane, Ismail, Abdelghani, Abder
 
 ## Prepared and Presented by
 
-- [Otmane Fettal](https://twitter.com/OFettal)
+- [Otmane Fettal](https://twitter.com/ofettal)
 
-- [Ismail Tlemcani](https://twitter.com/Ismailtlem)
+- [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani)

@@ -13,15 +13,15 @@ This episode is an AMA (Ask Me Anything ) with GeeksBlabla Team ,During this epi
 
 ## Guests
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-[Youssouf El Azizi](https://elazizi.com/)
+[Youssouf El Azizi](https://elazizi.com)
 
 [Amine Hakkou](https://www.hakkou.me/)
 
-[Meriem Zaid](https://www.facebook.com/MeriemZaid)
+[Meriem Zaid](https://twitter.com/_iMeriem)
 
-[Mohammed Aboullaite](https://aboullaite.me/)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
 [Oussama Hyad](https://www.facebook.com/heoussama.oussama)
 

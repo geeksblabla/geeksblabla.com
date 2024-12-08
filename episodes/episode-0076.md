@@ -14,7 +14,7 @@ Tech News & AMA #9 with our community members Ahmed, Mohamed and Othman. During 
 
 - [Ahmed El Azzabi](https://mylink.fyi/elazzabi)
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
 - [Otmane Fettal](https://twitter.com/ofettal)
 
@@ -52,4 +52,4 @@ Tech News & AMA #9 with our community members Ahmed, Mohamed and Othman. During 
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

@@ -17,7 +17,7 @@ In this episode of GeeksBlaBla, We discuss the state of Linux, why Linux is impo
 
 - [Abderrahim Soubai Idrissi](https://twitter.com/soub4i)
 
-- [Otmane Fettal](https://twitter.com/OFettal)
+- [Otmane Fettal](https://twitter.com/ofettal)
 
 ## Notes
 
@@ -57,5 +57,5 @@ In this episode of GeeksBlaBla, We discuss the state of Linux, why Linux is impo
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://twitter.com/_imeriem)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 - [Mohammed Daoudi](https://www.linkedin.com/in/iduoad/)

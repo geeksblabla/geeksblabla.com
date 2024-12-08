@@ -83,6 +83,6 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 ## Prepared and Presented by :
 
-[Meriem Zaid](https://www.facebook.com/MeriemZaid/)
+[Meriem Zaid](https://twitter.com/_iMeriem)
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+[Mohammed Aboullaite](https://twitter.com/laytoun)

@@ -57,4 +57,4 @@ During this episode we will go over common security breaches where the weakest s
 
 ## Prepared and Presented by
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)

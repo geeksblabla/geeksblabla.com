@@ -74,4 +74,4 @@ In this episode of GeeksBlabla, we discuss with our guests the overall basic and
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

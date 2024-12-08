@@ -13,7 +13,7 @@ In this episode, we review one of the most famous books in IT; we discuss the "C
 
 ## Guests
 
-- [Abderrahim Soubai Idrissi](https://www.soubai.me/)
+- [Abderrahim Soubai Idrissi](https://twitter.com/soub4i)
 
 - [Slimane Akalie](https://www.linkedin.com/in/slimaneakalie/)
 
@@ -63,4 +63,4 @@ In this episode, we review one of the most famous books in IT; we discuss the "C
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

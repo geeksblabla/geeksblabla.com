@@ -12,7 +12,7 @@ Ask Me Anything episode #5 with our community members and guests Youssouf, Abder
 
 ## Guests
 
-- [Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
+- [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
 - [Ouissal Moumou](https://www.linkedin.com/in/ouissal-moumou-61a009187/)
 
@@ -136,6 +136,6 @@ Ask Me Anything episode #5 with our community members and guests Youssouf, Abder
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

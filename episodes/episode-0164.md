@@ -17,7 +17,7 @@ In this episode, we explore the newest Rust features in 2023, practical use case
 
 - [Ismail Ait Bella](https://twitter.com/ABELLAISMAIL4)
 
-- [Abderrahim Soubai Idrissi](https://www.soubai.me/)
+- [Abderrahim Soubai Idrissi](https://twitter.com/soub4i)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 

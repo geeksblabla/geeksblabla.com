@@ -13,7 +13,7 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 ## Guests
 
-[Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
+[Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
 [Youness Hakky](https://www.facebook.com/younes.hakky)
 
@@ -63,6 +63,6 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 ## Prepared and Presented by :
 
-- [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

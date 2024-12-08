@@ -13,9 +13,9 @@ In this special episode, We discuss with our community members what service mesh
 
 ## Guests
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Djalal](https://twitter.com/enlamp)
 
@@ -47,4 +47,4 @@ In this special episode, We discuss with our community members what service mesh
 
 ## Prepared and Presented by
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)

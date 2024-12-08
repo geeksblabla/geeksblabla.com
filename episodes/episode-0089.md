@@ -16,7 +16,7 @@ In this episode of GeeksBlaBla with our community members Wassim, Ismail, Abdera
 
 - [Chihab Otmani](https://chihab.dev)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Abdullah Iraamane](https://www.linkedin.com/in/aairaamane/)
 
@@ -63,4 +63,4 @@ In this episode of GeeksBlaBla with our community members Wassim, Ismail, Abdera
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

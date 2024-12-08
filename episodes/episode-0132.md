@@ -44,4 +44,4 @@ In this episode of GeeksBlabla, we discuss the importance for coding for kids, h
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

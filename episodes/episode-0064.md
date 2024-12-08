@@ -18,7 +18,7 @@ In this episode of GeeksBlabla, we invited Aboulfeth, a tech serial entrepreneur
 
 - [Hamza Makraz](https://web.facebook.com/MakrazHamza)
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 ## Notes
 

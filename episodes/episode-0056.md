@@ -66,8 +66,8 @@ In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently S
 
 ## Prepared and Presented by
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Hamza Makraz](https://web.facebook.com/MakrazHamza)

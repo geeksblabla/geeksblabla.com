@@ -41,14 +41,14 @@ In this episode of GeeksBlabla, we discuss the success story for two young women
 
 1:12:00 - Are there any particular Moroccan women in tech who have inspired you?
 
-## Prepared and Presented by :
-
-- [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
-
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
-
 ## Links
 
 - [EU Blue Card](https://www.make-it-in-germany.com/en/visa/kinds-of-visa/eu-blue-card/)
 
 - [Meriam blog](https://medium.com/@MeriamKharbat)
+
+## Prepared and Presented by :
+
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
+
+- [Meriem Zaid](https://twitter.com/_iMeriem)

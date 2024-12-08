@@ -13,9 +13,9 @@ In this episode, we discuss the state of dev in Morocco results. We talked about
 
 ## Guests
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Otmane Fettal](https://twitter.com/ofettal)
 
@@ -45,4 +45,4 @@ In this episode, we discuss the state of dev in Morocco results. We talked about
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

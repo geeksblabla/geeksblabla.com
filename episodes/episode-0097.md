@@ -19,7 +19,7 @@ We talk about the end of study internship(PFE) in this episode. How to find a go
 
 - [Diaa Alhak El Fallous](https://www.linkedin.com/in/elfallous/)
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
 - [Driss ALLAKI ](https://www.linkedin.com/in/driss-allaki-90801592/)
 
@@ -53,4 +53,4 @@ We talk about the end of study internship(PFE) in this episode. How to find a go
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

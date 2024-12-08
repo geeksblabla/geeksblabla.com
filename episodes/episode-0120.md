@@ -62,4 +62,4 @@ In this Episode , we will discover what quantum computers are and how they work.
 
 ## Prepared and Presented by
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad/)
+- [Mohammed Daoudi](https://twitter.com/MIduoad)

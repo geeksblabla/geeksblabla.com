@@ -12,11 +12,11 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding a
 
 ## Guests
 
-[Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
+[Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
-[Meriem Zaid](https://www.facebook.com/MeriemZaid)
+[Meriem Zaid](https://twitter.com/_iMeriem)
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
 [Zakaria Braksa](https://www.facebook.com/profile.php?id=100004033238021)
 

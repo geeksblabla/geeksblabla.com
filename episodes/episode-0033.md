@@ -49,6 +49,6 @@ In this episode, we discuss Agile Project Management, How to get started, agile 
 
 ## Prepared and Presented by :
 
-[Mohammed Aboullaite](https://aboullaite.me/)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[Youssouf El Azizi](https://elazizi.com/)
+[Youssouf El Azizi](https://elazizi.com)

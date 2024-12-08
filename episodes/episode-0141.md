@@ -13,9 +13,9 @@ In this Episode we discuss what is code review, why it is important, how to do i
 
 ## Guests
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
@@ -43,4 +43,4 @@ In this Episode we discuss what is code review, why it is important, how to do i
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

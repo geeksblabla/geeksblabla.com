@@ -19,7 +19,7 @@ In This episode, we discuss the Moroccan IT student's life, How to make the most
 
 - [Pr. Driss ALLAKI](https://www.linkedin.com/in/driss-allaki-90801592/)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 ## Notes
 

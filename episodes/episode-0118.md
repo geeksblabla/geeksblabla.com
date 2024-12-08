@@ -62,4 +62,4 @@ In this Episode , we will discuss what do we need to know to build great tech pr
 
 ## Prepared and Presented by
 
-- [Otmane FETTAL](https://twitter.com/ofettal/)
+- [Otmane FETTAL](https://twitter.com/ofettal)

@@ -13,7 +13,7 @@ In this episode we discuss the end of DevC program initiated by Meta, the impact
 
 ## Guests
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 - [Hamza Makraz](https://web.facebook.com/MakrazHamza)
 
 ## Notes
@@ -38,4 +38,4 @@ In this episode we discuss the end of DevC program initiated by Meta, the impact
 
 ## Prepared and Presented by
 
-- [Meriem zaid](https://twitter.com/iMeriem_)
+- [Meriem zaid](https://twitter.com/_iMeriem)

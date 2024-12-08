@@ -17,7 +17,7 @@ Tech News & AMA #25 with our community members Mehdi, Zak and Abderrahim. During
 
 - [Zak Elfassi](https://twitter.com/zakelfassi)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 ## Notes
 

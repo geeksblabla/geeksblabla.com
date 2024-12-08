@@ -12,11 +12,9 @@ Tech News & AMA #11 with our community members Mohamed, Abderahim and Youssouf .
 
 ## Guests
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)
-
-- [Youssouf El Azizi](https://elazizi.com/)
 
 ## Notes
 
@@ -58,4 +56,4 @@ Tech News & AMA #11 with our community members Mohamed, Abderahim and Youssouf .
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

@@ -14,7 +14,7 @@ In this episode, we talk about Open Source and the annual event Hacktoberfest. W
 
 - [Yasser Tahiri](https://www.yezz.me/)
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 ## Notes
 
@@ -54,4 +54,4 @@ In this episode, we talk about Open Source and the annual event Hacktoberfest. W
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

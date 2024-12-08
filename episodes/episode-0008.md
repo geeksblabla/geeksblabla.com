@@ -14,7 +14,7 @@ On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite
 
 [Amine Hakkou](https://www.facebook.com/hakkou.me)
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
 [Ahmed Kachkach](https://www.facebook.com/kachkach.ahmed)
 

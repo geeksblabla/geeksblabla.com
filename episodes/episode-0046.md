@@ -17,8 +17,6 @@ In this episode of GeeksBlabla, we discuss Mobile development with some Amazing 
 
 [Raouf Rachiche](https://twitter.com/raoufrahiche)
 
-[Youssouf EL Azizi](https://elazizi.com/)
-
 ## Notes
 
 0:00:00 - Introduction and welcoming.
@@ -67,4 +65,4 @@ In this episode of GeeksBlabla, we discuss Mobile development with some Amazing 
 
 ## Prepared and Presented by :
 
-[Youssouf EL Azizi](https://elazizi.com/)
+[Youssouf EL Azizi](https://elazizi.com)

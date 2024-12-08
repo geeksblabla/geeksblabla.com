@@ -79,4 +79,4 @@ In this episode, we discuss Large Language Models (LLMs): how everything started
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

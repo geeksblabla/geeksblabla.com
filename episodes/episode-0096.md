@@ -14,11 +14,11 @@ Tech News & AMA #14 with our community members Abderrahim, Youssouf, Mohamed, mo
 
 - [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
-- [Mohammed Aboullaite](https://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 - [Yasser Tahiri](https://www.yezz.me/)
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 ## Notes
 
@@ -60,4 +60,4 @@ Tech News & AMA #14 with our community members Abderrahim, Youssouf, Mohamed, mo
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

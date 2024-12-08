@@ -13,9 +13,7 @@ Ask Me Anything episode #3 with our community members Mohammed, Ismail and Youss
 
 ## Guests
 
-[Mohammed Aboullaite](https://aboullaite.me/)
-
-[Youssouf EL Azizi](https://elazizi.com/)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
 [Ismail EL Azizi](https://ismailelazizi.com/)
 
@@ -85,4 +83,4 @@ Ask Me Anything episode #3 with our community members Mohammed, Ismail and Youss
 
 ## Prepared and Presented by :
 
-[Youssouf EL Azizi](https://elazizi.com/)
+[Youssouf EL Azizi](https://elazizi.com)

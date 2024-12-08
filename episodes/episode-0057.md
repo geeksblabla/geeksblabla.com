@@ -12,7 +12,7 @@ In this episode of GeeksBlabla, we discuss with our guests the different career 
 
 ## Guests
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
@@ -82,6 +82,6 @@ In this episode of GeeksBlabla, we discuss with our guests the different career 
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani)

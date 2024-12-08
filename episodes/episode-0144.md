@@ -14,9 +14,8 @@ In this episode we discuss the fundamental concepts of computer networking and h
 ## Guests
 
 - [Yassine Moumen](https://www.linkedin.com/in/yassine-moumen)
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
 
 ## Notes
 

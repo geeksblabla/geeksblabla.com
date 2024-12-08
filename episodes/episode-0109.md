@@ -55,7 +55,7 @@ In this special episode, We invite our UX/UI designer community friends to Talk 
 
 2:24:40 - Wrap up & Goodbye
 
-## Picks
+## Links
 
 - [UX/UI Toolkit by Khaoula ](https://khettaleb.notion.site/UX-UI-Toolkit-by-Khaoula-Geeksblabla-8407f594d31844088e890caa58a5a7a8)
 
@@ -81,12 +81,10 @@ In this special episode, We invite our UX/UI designer community friends to Talk 
 
 - [Design for Developers](https://frontendmasters.com/courses/design-for-developers/)
 
-## Links
-
 - [Interaction Design](https://www.interaction-design.org/)
 
 - [Google UX Design Professional Certificate](https://www.coursera.org/professional-certificates/google-ux-design)
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

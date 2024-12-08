@@ -13,9 +13,9 @@ In this episode, we discuss the events of 2023, tech news, and the future of the
 
 ## Guests
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)
 
@@ -55,4 +55,4 @@ In this episode, we discuss the events of 2023, tech news, and the future of the
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elaazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

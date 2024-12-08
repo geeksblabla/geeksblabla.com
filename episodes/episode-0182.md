@@ -13,13 +13,13 @@ In this Episode , we celebrate 10 years of Kubernetes, its beginning and the tra
 
 ## Guests
 
-- [Mohammed Aboullaite](http://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
 - [Amine Rachyd](https://x.com/RachydAmine)
 
-- [Abderrahim Soubai Idrissi](https://www.soubai.me/)
+- [Abderrahim Soubai Idrissi](https://twitter.com/soub4i)
 
 ## Notes
 

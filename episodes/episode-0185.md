@@ -13,7 +13,7 @@ In this episode, we discuss What's new in the AI , Windows and Nvidia
 
 ## Guests
 
-- [Abderrahim Soubai Idriss](https://x.com/soub4i)
+- [Abderrahim Soubai Idriss](https://twitter.com/soub4i)
 - [Merouane Zouaid](https://x.com/merouanezouaid)
 - [Marwane Chaoui](https://x.com/moghwan)
 

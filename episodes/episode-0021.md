@@ -12,11 +12,11 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding i
 
 ## Guests
 
-- [Mohammed Aboullaite](http://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Oumaima Makhlouk](https://www.facebook.com/oumi.makhlouk)
 
@@ -64,4 +64,4 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding i
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Soufian El Foukahi](https://twitter.com/soufyanAI)

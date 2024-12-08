@@ -17,7 +17,7 @@ Tech News & AMA #26 with our community members Mehdi, Abdul, Abderahim, and Yous
 
 - [Abdul Benbrahim](https://www.linkedin.com/in/abdulbenbrahim/)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 ## Notes
 
@@ -49,4 +49,4 @@ Tech News & AMA #26 with our community members Mehdi, Abdul, Abderahim, and Yous
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elaazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

@@ -13,17 +13,13 @@ In this episode of GeeksBlabla, we discuss with our community members about lear
 
 ## Guests
 
-- [Abderrahim Soubai](https://www.facebook.com/zizwar0nline)
-
-- [Afaf Ridaoui](https://twitter.com/_iamaf)
+- [Abderrahim Soubai](https://twitter.com/soub4i)
 
 - [Djalal](https://twitter.com/enlamp)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
-
-- [Youssouf EL Azizi](https://elazizi.com/)
 
 ## Notes
 
@@ -65,6 +61,6 @@ In this episode of GeeksBlabla, we discuss with our community members about lear
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)
 
 - [Afaf Ridaoui](https://twitter.com/_iamaf)

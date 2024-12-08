@@ -63,6 +63,6 @@ In this episode of GeeksBlabla, we discuss with our community members about soft
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Ismail Tlemcani](https://twitter.com/ismailtlem)
+- [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani)

@@ -58,8 +58,8 @@ Books:
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Mohammed Aboullaite](https://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 - [Hamza Makraz](https://web.facebook.com/MakrazHamza)

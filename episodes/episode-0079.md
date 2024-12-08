@@ -47,4 +47,4 @@ In this episode of GeeksBlabla, Meriem and Ismail invited Abdelghani Achibane wh
 ## Prepared and Presented by
 
 - [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani/)
-- [Meriem Zaid](https://www.linkedin.com/in/meriem-zaid-652852187/)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

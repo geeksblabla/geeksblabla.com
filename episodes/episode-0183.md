@@ -57,4 +57,4 @@ Special episode about AI and the latests announcements made by Apple, Microsoft 
 
 ## Prepared and Presented by
 
-- [Meriem zaid](https://twitter.com/iMeriem_)
+- [Meriem zaid](https://twitter.com/_iMeriem)

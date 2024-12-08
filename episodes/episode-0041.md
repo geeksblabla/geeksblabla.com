@@ -63,4 +63,4 @@ In this episode of GeeksBlabla, we discuss with amazing folks How to get started
 
 ## Prepared and Presented by :
 
-[Youssouf EL Azizi](https://elazizi.com/)
+[Youssouf EL Azizi](https://elazizi.com)

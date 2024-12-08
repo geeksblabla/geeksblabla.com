@@ -57,4 +57,4 @@ Our community members Siham, Chihab, Otmane, and Youssouf joined us for Tech New
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

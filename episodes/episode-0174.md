@@ -13,11 +13,11 @@ In this episode, we discuss the state of development in Morocco. We talk about t
 
 ## Guests
 
-- [Meriem zaid](https://twitter.com/iMeriem_)
+- [Meriem zaid](https://twitter.com/_iMeriem)
 
 - [Omaima Khalil](https://twitter.com/BadQuinn3)
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 - [Nouamane Tazi](https://www.linkedin.com/in/nouamanetazi/)
 
@@ -51,4 +51,4 @@ In this episode, we discuss the state of development in Morocco. We talk about t
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

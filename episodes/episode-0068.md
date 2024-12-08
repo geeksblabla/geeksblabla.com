@@ -44,8 +44,8 @@ In this episode of GeeksBlabla, we invited Diaa Alhak El Fallous and Othmane Kin
 
 ## Prepared and Presented by
 
-- [Meriem_Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem_Zaid](https://twitter.com/_iMeriem)
 
-- [Mohammed Aboullaite](http://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Otmane Fettal](https://www.facebook.com/otmane.fettal)
+- [Otmane Fettal](https://twitter.com/ofettal)

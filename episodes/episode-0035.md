@@ -67,10 +67,10 @@ In this special episode of GeeksBlabla, some of its core team members discussed 
 
 ## Prepared and Presented by :
 
-- [Soufian El Foukahi](https://twitter.com/soufianelf/)
+- [Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid/)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)

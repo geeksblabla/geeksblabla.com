@@ -12,15 +12,11 @@ Tech News & AMA #10 with our community members Mohamed,Meriem , soufiane, Abdera
 
 ## Guests
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
-- [Soufian El Foukahi](https://twitter.com/soufianelf/)
+- [Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
-
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
-
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 ## Notes
 
@@ -68,6 +64,6 @@ Tech News & AMA #10 with our community members Mohamed,Meriem , soufiane, Abdera
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)

@@ -81,8 +81,8 @@ In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of U
 
 ## Prepared and Presented by :
 
-[Meriem Zaid](https://www.facebook.com/MeriemZaid/)
+[Meriem Zaid](https://twitter.com/_iMeriem)
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Soufian El Foukahi](https://twitter.com/soufyanAI)

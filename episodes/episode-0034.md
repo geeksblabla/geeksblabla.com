@@ -23,4 +23,4 @@ In this episode, Abderrahim share with us some important practices and tips abou
 
 ## Prepared and Presented by :
 
-[Mohammed Aboullaite](https://aboullaite.me/)
+[Mohammed Aboullaite](https://twitter.com/laytoun)

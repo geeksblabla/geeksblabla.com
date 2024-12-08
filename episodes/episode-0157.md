@@ -59,4 +59,4 @@ Tech News & AMA #26 with our community members Ilias, Nouamane, Faisal, and Yous
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elaazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

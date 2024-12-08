@@ -47,4 +47,4 @@ In this Episode we discuss the current state of tech education in Morocco, Optio
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

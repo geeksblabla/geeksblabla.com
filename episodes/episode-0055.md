@@ -12,9 +12,9 @@ In this episode of GeeksBlabla, we discuss with our guests, Open Source and the 
 
 ## Guests
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
-- [Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
+- [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
 - [Ismail Ghallou](https://twitter.com/smakosh)
 
@@ -92,6 +92,6 @@ In this episode of GeeksBlabla, we discuss with our guests, Open Source and the 
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

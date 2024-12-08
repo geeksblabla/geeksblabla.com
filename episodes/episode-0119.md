@@ -53,4 +53,4 @@ Tech News & AMA #17 with our community members Mohamed, and Abdullah. During thi
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

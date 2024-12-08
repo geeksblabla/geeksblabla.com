@@ -14,7 +14,7 @@ In this episode of GeeksBlabla, we discuss with our guests Karim Mouhssine and M
 
 - [Karim Benzidane](https://www.linkedin.com/in/benzidanekarim)
 - [Mouhssine Lakhdissi](https://www.linkedin.com/in/mlakhdissi/)
-- [Mohammed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohammed Ez-zarghili](https://twitter.com/ezzarghili)
 
 ## Notes
 
@@ -72,6 +72,6 @@ In this episode of GeeksBlabla, we discuss with our guests Karim Mouhssine and M
 
 - [Ismail Tlemçani](https://www.linkedin.com/in/ismailtlemcani)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Hamza Makraz](https://web.facebook.com/MakrazHamza)

@@ -15,7 +15,7 @@ We also talk about how adapting to those new tools can help us write better code
 
 ## Guests
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 - [Ismail EL Azizi](https://ismailelazizi.com/)
 
@@ -61,4 +61,4 @@ We also talk about how adapting to those new tools can help us write better code
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

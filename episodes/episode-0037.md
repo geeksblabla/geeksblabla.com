@@ -55,6 +55,6 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 ## Prepared and Presented by :
 
-- [Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

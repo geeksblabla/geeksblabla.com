@@ -49,4 +49,4 @@ On the 106th Episode of Geeksblabla we're having a discussion around Amazon Web 
 
 ## Prepared and Presented by
 
-- [Otmane FETTAL](https://twitter.com/OFettal)
+- [Otmane FETTAL](https://twitter.com/ofettal)

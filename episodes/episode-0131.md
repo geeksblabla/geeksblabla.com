@@ -41,4 +41,4 @@ In this Episode of Geeksblabla , We're joined by the amazing Adil Touati who sha
 
 ## Prepared and Presented by
 
-- [Otmane FETTAL](https://twitter.com/OFettal)
+- [Otmane FETTAL](https://twitter.com/ofettal)

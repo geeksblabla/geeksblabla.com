@@ -13,7 +13,7 @@ Tech News & AMA #19 with our community members Mehdi,Meriem, Youssouf, Yasser an
 
 ## Guests
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
@@ -57,4 +57,4 @@ Tech News & AMA #19 with our community members Mehdi,Meriem, Youssouf, Yasser an
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

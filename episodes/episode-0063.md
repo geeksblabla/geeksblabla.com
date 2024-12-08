@@ -12,13 +12,13 @@ Tech News & AMA #6 with our community members Meriem, Youssouf, Abderrahim, Abde
 
 ## Guests
 
-- [Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
+- [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 ## Notes
 
@@ -72,4 +72,4 @@ Tech News & AMA #6 with our community members Meriem, Youssouf, Abderrahim, Abde
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

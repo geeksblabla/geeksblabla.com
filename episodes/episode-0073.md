@@ -66,6 +66,6 @@ In this special episode, we highlight the hidden category in Tech in general, Wo
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Afaf Ridaoui](https://twitter.com/_iamaf)

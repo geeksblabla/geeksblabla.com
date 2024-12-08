@@ -15,7 +15,7 @@ In this episode of GeeksBlabla, we talk about tech talks; why you should care? H
 
 - [Djalal](https://twitter.com/enlamp)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Mohammed Daoudi](https://twitter.com/MIduoad)
 
@@ -40,11 +40,11 @@ In this episode of GeeksBlabla, we talk about tech talks; why you should care? H
 ## Links
 
 - [Antoine de Saint-Exupéry](https://www.goodreads.com/quotes/19905-perfection-is-achieved-not-when-there-is-nothing-more-to)
-- [Djalal Talk Preparation](https://twitter.com/enlamp/status/1439321602173378565?s=20&t=FZFxClHednRbp_-3efvE7g)
+- [Djalal Talk Preparation](https://twitter.com/enlampstatus/1439321602173378565?s=20&t=FZFxClHednRbp_-3efvE7g)
 - [Preparing for a Teck talk](https://overreacted.io/preparing-for-tech-talk-part-1-motivation/)
 - [Julia Evans](https://jvns.ca/talks/)
 - [Developers Conferences Agenda/List](https://github.com/scraly/developers-conferences-agenda)
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

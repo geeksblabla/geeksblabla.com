@@ -17,7 +17,7 @@ Tech News & AMA #22 with our community members Yousssouf, Kawtar, Abderahim, Otm
 
 - [Mohammed Daoudi](https://twitter.com/MIduoad)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Otmane Fettal](https://twitter.com/ofettal)
 
@@ -69,4 +69,4 @@ Tech News & AMA #22 with our community members Yousssouf, Kawtar, Abderahim, Otm
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

@@ -73,6 +73,6 @@ In this episode of GeeksBlabla, we discuss remote working for developers, How to
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-[Youssouf El Azizi](https://elazizi.com/)
+[Youssouf El Azizi](https://elazizi.com)

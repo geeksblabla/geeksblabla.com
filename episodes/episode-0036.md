@@ -15,7 +15,7 @@ In this episode of GeeksBlabla we discuss, React, How to get started ,Core conce
 
 [Yassine ElOuafi](https://twitter.com/YassineElouafi2)
 
-[Youssouf EL Azizi](https://elazizi.com/)
+[Youssouf EL Azizi](https://elazizi.com)
 
 [Amine Hakkou](https://www.hakkou.me/)
 
@@ -77,6 +77,6 @@ In this episode of GeeksBlabla we discuss, React, How to get started ,Core conce
 
 ## Prepared and Presented by :
 
-- [Soufian El Foukahi](https://twitter.com/soufianelf/)
+- [Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

@@ -14,8 +14,8 @@ In this episode of GeeksBlabla, we discussed some ways to present your best self
 
 - [Hanae El Bouyousfi](https://www.facebook.com/hanae.elbouyousfiepelhouari)
 - [Diaa Alhak El Fallous](https://www.facebook.com/diaa.alhak)
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
-- [Mohammed Aboullaite](https://aboullaite.me/)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 ## Notes
 
@@ -61,5 +61,5 @@ In this episode of GeeksBlabla, we discussed some ways to present your best self
 
 ## Prepared and Presented by
 
-- [Mohammed Aboullaite](https://aboullaite.me/)
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
+- [Youssouf El Azizi](https://elazizi.com)

@@ -25,6 +25,6 @@ In this episode We're welcoming 2 great heroes, Mohamed and Hamid are doing amaz
 
 ## Prepared and Presented by :
 
-[Mohammed Aboullaite](https://aboullaite.me/)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[Meriem Zaid](https://www.facebook.com/MeriemZaid)
+[Meriem Zaid](https://twitter.com/_iMeriem)

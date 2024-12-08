@@ -19,7 +19,7 @@ In this episode, we’re going to break down an easy-to-understand explanation o
 
 - [Ismail Ghalou](https://twitter.com/smakosh)
 
-- [Abderrahim Soubai Idrissi](https://www.soubai.me/)
+- [Abderrahim Soubai Idrissi](https://twitter.com/soub4i)
 
 ## Notes
 
@@ -85,4 +85,4 @@ In this episode, we’re going to break down an easy-to-understand explanation o
 
 ## Prepared and Presented by
 
-- [Meriem zaid](https://twitter.com/iMeriem_)
+- [Meriem zaid](https://twitter.com/_iMeriem)

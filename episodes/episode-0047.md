@@ -59,6 +59,6 @@ In this episode of GeeksBlabla, our guest Adnane Belmadiaf a frontend developer 
 
 ## Prepared and Presented by :
 
-[Meriem Zaid](https://www.facebook.com/MeriemZaid)
+[Meriem Zaid](https://twitter.com/_iMeriem)
 
-[Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+[Mohamed Ez-zarghili](https://twitter.com/ezzarghili)

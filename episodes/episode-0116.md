@@ -52,4 +52,4 @@ In this episode, we continue our review of the most famous books in IT; we discu
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

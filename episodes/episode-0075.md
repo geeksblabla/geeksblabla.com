@@ -52,6 +52,6 @@ In this episode, we talk about Certificates in the IT field; why should you care
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)
 
 - [Mohammed Daoudi](https://twitter.com/MIduoad)

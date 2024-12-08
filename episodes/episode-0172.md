@@ -53,4 +53,4 @@ In this episode, we discuss how to prepare for talks, taking 3 months long vacat
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elaazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

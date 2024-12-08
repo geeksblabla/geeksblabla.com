@@ -63,6 +63,6 @@ In this episode of GeeksBlabla, Geeksblabla team with the amazing Ahmed and Mouk
 
 ## Prepared and Presented by:
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Soufian El Foukahi](https://twitter.com/soufyanAI)
 
 [Mohammed Abboulait](https://twitter.com/laytoun)

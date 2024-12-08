@@ -14,7 +14,7 @@ Ask Me Anything episode #4 with our community members Youssouf, Meriem, Abdelfet
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
 ## Notes
 
@@ -80,5 +80,5 @@ Ask Me Anything episode #4 with our community members Youssouf, Meriem, Abdelfet
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
+- [Youssouf El Azizi](https://elazizi.com)

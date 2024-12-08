@@ -15,7 +15,7 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 - [Manal Benchrif](https://www.linkedin.com/in/manalbenchrif/)
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
@@ -60,4 +60,4 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

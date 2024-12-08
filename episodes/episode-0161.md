@@ -13,7 +13,7 @@ In this episode, we discuss the JavaScript updates and features in 2023, with Ab
 
 ## Guests
 
-- [Abderrahim Soubai Idrissi](https://www.soubai.me/)
+- [Abderrahim Soubai Idrissi](https://twitter.com/soub4i)
 
 - [Ayoub Alouane](https://twitter.com/alouane_med)
 
@@ -79,4 +79,4 @@ In this episode, we discuss the JavaScript updates and features in 2023, with Ab
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

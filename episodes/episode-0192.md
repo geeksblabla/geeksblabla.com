@@ -51,4 +51,4 @@ In this episode, we will explore Vector databases, a cutting-edge technology rev
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.linkedin.com/in/meriem-zaid-652852187/)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

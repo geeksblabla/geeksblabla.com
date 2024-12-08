@@ -16,7 +16,7 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf and Meriem. 
 
 - [Meryem Aboulfoujja](https://www.facebook.com/maar.yeem.946)
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 ## Notes
 
@@ -58,6 +58,6 @@ Tech News & AMA #13 with our community members Abderrahim, Youssouf and Meriem. 
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)

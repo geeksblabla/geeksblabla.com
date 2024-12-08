@@ -55,6 +55,6 @@ In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gamepla
 
 ## Prepared and Presented by :
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

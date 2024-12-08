@@ -18,7 +18,7 @@ Tech News & AMA #8 with our community members Ilyas, Othmane, Mehdi, Otmane, and
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
-- [Aboullait mohamed](http://aboullaite.me/)
+- [Aboullait mohamed](https://twitter.com/laytoun)
 
 ## Notes
 
@@ -66,4 +66,4 @@ Tech News & AMA #8 with our community members Ilyas, Othmane, Mehdi, Otmane, and
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

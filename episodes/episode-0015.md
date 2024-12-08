@@ -12,11 +12,11 @@ In this episode of GeeksBlabla, team talks about the Software security, definiti
 
 ## Guests
 
-[Soubai Abderahim](https://soubai.me)
+[Soubai Abderahim](https://twitter.com/soub4i)
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+[Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
 ## Notes
 
@@ -54,6 +54,6 @@ In this episode of GeeksBlabla, team talks about the Software security, definiti
 
 ## Prepared and Presented by :
 
-[Mohammed Aboullaite](https://www.facebook.com/aboullaite)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+[Mohamed Ez-zarghili](https://twitter.com/ezzarghili)

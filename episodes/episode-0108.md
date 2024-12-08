@@ -15,7 +15,7 @@ Tech News & AMA #16 with our community members Abderahim, Hamza, and Khalil. Dur
 
 - [Khalil Zahani](https://twitter.com/Khalil_Zhani)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Hamza Makraz](https://web.facebook.com/MakrazHamza)
 
@@ -45,7 +45,7 @@ Tech News & AMA #16 with our community members Abderahim, Hamza, and Khalil. Dur
 
 1:18:50 - Wrap up & Goodbye
 
-## Picks
+## Links
 
 - [Geek Flare](​https://geekflare.com/)
 
@@ -57,8 +57,6 @@ Tech News & AMA #16 with our community members Abderahim, Hamza, and Khalil. Dur
 
 - [Ray Cast](https://www.raycast.com/)
 
-## Links
-
 - [Menara GeeksBlaBla episode](https://www.youtube.com/watch?v=lrUgCaZyUBc)
 
 - [Menara](https://manara.tech/our-program)
@@ -69,4 +67,4 @@ Tech News & AMA #16 with our community members Abderahim, Hamza, and Khalil. Dur
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

@@ -14,8 +14,6 @@ In this episode of GeeksBlabla, we discuss JavaScript, History, Fundamental conc
 
 [Chihab Otmani](https://chihab.dev/)
 
-[Youssouf El Azizi](https://elazizi.com/)
-
 [Amine Hakkou](https://www.hakkou.me/)
 
 ## Notes
@@ -57,6 +55,6 @@ In this episode of GeeksBlabla, we discuss JavaScript, History, Fundamental conc
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-[Youssouf El Azizi](https://elazizi.com/)
+[Youssouf El Azizi](https://elazizi.com)

@@ -13,11 +13,11 @@ In this episode of GeeksBlabla, we celebrate the 100th episode, we discussed how
 
 ## Guests
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Otmane Fettal](https://twitter.com/ofettal)
 
@@ -41,4 +41,4 @@ In this episode of GeeksBlabla, we celebrate the 100th episode, we discussed how
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

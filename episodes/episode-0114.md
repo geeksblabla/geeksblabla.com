@@ -51,4 +51,4 @@ In this episode of GeeksBlabla, our community friends, Zakaria and Hamza, share 
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

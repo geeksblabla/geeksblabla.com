@@ -16,7 +16,7 @@ In this episode of GeeksBlaBla with our community members Ahmed, Ismail, Smakosh
 
 - [Ismail EL Azizi](https://ismailelazizi.com/)
 
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 
 - [Ahmed El Azzabi](https://mylink.fyi/elazzabi)
 
@@ -50,4 +50,4 @@ In this episode of GeeksBlaBla with our community members Ahmed, Ismail, Smakosh
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

@@ -13,7 +13,7 @@ In this Episode we discuss chelleges we face as IT workers in terms of Mental he
 
 ## Guests
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)
 
 - [Anas Ait Baha](http://linkedin.com/in/aitbahaa/)
 
@@ -65,4 +65,4 @@ In this Episode we discuss chelleges we face as IT workers in terms of Mental he
 
 ## Prepared and Presented by
 
-- [Meriem zaid](https://twitter.com/iMeriem_)
+- [Meriem zaid](https://twitter.com/_iMeriem)

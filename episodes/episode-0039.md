@@ -15,9 +15,7 @@ In this episode of GeeksBlabla, we discuss blogging for developer, How to get st
 
 [Meriam Kharbat](https://medium.com/@MeriamKharbat)
 
-[Mohammed Aboullaite](http://aboullaite.me/)
-
-[Youssouf EL Azizi](https://elazizi.com/)
+[Mohammed Aboullaite](https://twitter.com/laytoun)
 
 [Ismail EL Azizi](https://ismailelazizi.com/)
 
@@ -61,4 +59,4 @@ In this episode of GeeksBlabla, we discuss blogging for developer, How to get st
 
 ## Prepared and Presented by :
 
-[Youssouf EL Azizi](https://elazizi.com/)
+[Youssouf EL Azizi](https://elazizi.com)

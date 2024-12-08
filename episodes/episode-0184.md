@@ -17,7 +17,7 @@ In this episode we adress the concern of information economy or "why people don'
 
 - [Zak Elfassi](https://twitter.com/zakelfassi)
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 - [Ayoub Alouane](https://twitter.com/alouane_med)
 
@@ -45,4 +45,4 @@ In this episode we adress the concern of information economy or "why people don'
 
 ## Prepared and Presented by
 
-- [Meriem zaid](https://twitter.com/iMeriem_)
+- [Meriem zaid](https://twitter.com/_iMeriem)

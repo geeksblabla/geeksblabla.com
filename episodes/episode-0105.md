@@ -55,7 +55,7 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 
 1:59:00 - Wrap up & Goodbye
 
-## Picks
+## Links
 
 - [Atomic Habit](https://jamesclear.com/atomic-habits)
 
@@ -66,8 +66,6 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 - [The Ministry for the Future](https://www.amazon.com/Ministry-Future-Kim-Stanley-Robinson/dp/0316300136)
 
 - [Save to Notion](https://twitter.com/savetonotion)
-
-## Links
 
 - [The Dark side of open source, What really happened to faker.js](https://www.youtube.com/watch?v=R6S-b_k-ZKY)
 
@@ -81,4 +79,4 @@ Tech News & AMA #15 with our community members Abdelfettah, Kawtar and Youssef. 
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

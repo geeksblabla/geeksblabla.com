@@ -13,7 +13,7 @@ In this Episode , a roundtable discussion around Davis Epstein's book, Range: Wh
 
 ## Guests
 
-- [Mohammed Aboullaite](http://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
@@ -50,4 +50,4 @@ In this Episode , a roundtable discussion around Davis Epstein's book, Range: Wh
 
 ## Prepared and Presented by
 
-- [Meriem zaid](https://twitter.com/iMeriem_)
+- [Meriem zaid](https://twitter.com/_iMeriem)

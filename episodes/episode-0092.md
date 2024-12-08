@@ -50,4 +50,4 @@ In this episode of GeeksBlaBla, we discuss coding Bootcamps in morocco; what you
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)

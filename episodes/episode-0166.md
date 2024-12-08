@@ -57,4 +57,4 @@ In this episode, we discuss the state of .net Ecosystem in 2023 and highlight ke
 
 ## Prepared and Presented by
 
-- [Otmane FETTAL](https://twitter.com/OFettal)
+- [Otmane FETTAL](https://twitter.com/ofettal)

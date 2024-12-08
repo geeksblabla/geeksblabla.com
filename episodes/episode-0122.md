@@ -13,7 +13,7 @@ Tech News & AMA #18 with our community members Ilyas, and Abderrahim. During thi
 
 ## Guests
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
 - [Ilyas Bakouch](https://www.linkedin.com/in/ilyasbakouch/)
 

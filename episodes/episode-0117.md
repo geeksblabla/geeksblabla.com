@@ -56,4 +56,4 @@ In this Episode , we will walkthrough the path of managing a software project fr
 
 ## Prepared and Presented by
 
-- [Otmane FETTAL](https://twitter.com/ofettal/)
+- [Otmane FETTAL](https://twitter.com/ofettal)

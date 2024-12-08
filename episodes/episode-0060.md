@@ -48,6 +48,6 @@ In this episode of GeeksBlabla, we invited Mohamed Youssfi, one of the most famo
 
 ## Prepared and Presented by
 
-- [Youssouf EL Azizi](https://elazizi.com/)
+- [Youssouf EL Azizi](https://elazizi.com)
 
-- [Soufian El Foukahi](https://twitter.com/soufianelf/)
+- [Soufian El Foukahi](https://twitter.com/soufyanAI)

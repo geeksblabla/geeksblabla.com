@@ -16,7 +16,7 @@ In this episode, we talk about Monitoring, what is it about, what to consider in
 
 - [Abderrahim Ouakki](https://twitter.com/OkAbdo)
 
-- [Aboullaite Mohammed](http://aboullaite.me)
+- [Aboullaite Mohammed](https://twitter.com/laytoun)
 
 ## Notes
 
@@ -58,6 +58,6 @@ In this episode, we talk about Monitoring, what is it about, what to consider in
 
 ## Prepared and Presented by
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
 - [Otmane Fettal](https://twitter.com/ofettal)

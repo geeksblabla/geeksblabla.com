@@ -13,7 +13,7 @@ In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev
 ## Guests
 
 - [Haytam Zanid](https://www.facebook.com/hayapoz)
-- [Abderrahim Soubai](https://www.facebook.com/zizwar0nline)
+- [Abderrahim Soubai](https://twitter.com/soub4i)
 - [Djalal](https://twitter.com/enlamp)
 
 ## Notes
@@ -48,10 +48,10 @@ In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Mohamed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)

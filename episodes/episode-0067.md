@@ -12,11 +12,11 @@ Tech News & AMA #6 with our community members Abderrahim, Youssouf, Abderrahim, 
 
 ## Guests
 
-- [Abderrahim Soubai Elidrissi](https://www.facebook.com/zizwar0nline)
+- [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
-- [Mohammed Aboullaite](http://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Otmane Fettal](https://www.facebook.com/otmane.fettal)
+- [Otmane Fettal](https://twitter.com/ofettal)
 
 ## Notes
 
@@ -58,4 +58,4 @@ Tech News & AMA #6 with our community members Abderrahim, Youssouf, Abderrahim, 
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

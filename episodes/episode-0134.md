@@ -13,9 +13,9 @@ Tech News & AMA #20 with our community members Yousssouf, Badr, Mohammed, Mehdi 
 
 ## Guests
 
-- [Abderrahim soubai](https://www.soubai.me/)
+- [Abderrahim soubai](https://twitter.com/soub4i)
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad/)
+- [Mohammed Daoudi](https://twitter.com/MIduoad)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 
@@ -52,4 +52,4 @@ Tech News & AMA #20 with our community members Yousssouf, Badr, Mohammed, Mehdi 
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

@@ -54,4 +54,4 @@ Tech News & AMA #22 with our community members Yousssouf, Safione, Abdellah and 
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

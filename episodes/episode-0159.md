@@ -13,9 +13,9 @@ In this episode of GeeksBlabla, we discuss with our guests the art of decision-m
 
 ## Guests
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
-- [Soubai Abderahim](https://soubai.me)
+- [Soubai Abderahim](https://twitter.com/soub4i)
 - [Otmane Fettal](https://twitter.com/ofettal)
 - [Djalal](https://twitter.com/enlamp)
 

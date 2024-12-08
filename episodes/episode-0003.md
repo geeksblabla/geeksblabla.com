@@ -56,6 +56,6 @@ In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .
 
 ## Prepared and Presented by :
 
-[Soufian El Foukahi](https://twitter.com/soufianelf/)
+[Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-[Mohammed Aboullaite](http://aboullaite.me/)
+[Mohammed Aboullaite](https://twitter.com/laytoun)

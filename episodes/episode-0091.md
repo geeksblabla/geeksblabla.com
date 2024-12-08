@@ -54,6 +54,6 @@ In this episode of GeeksBlaBla we answer many questions around AI & ML, their fi
 
 ## Prepared and Presented by
 
-- [Ismail Tlemcani](https://twitter.com/Ismailtlem)
+- [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani)
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)

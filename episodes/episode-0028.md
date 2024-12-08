@@ -61,6 +61,6 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 
 ## Prepared and Presented by :
 
-- [Soufian El Foukahi](https://twitter.com/soufianelf/)
+- [Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

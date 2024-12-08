@@ -46,8 +46,8 @@ In this episode of GeeksBlabla, we discuss the new app Wiqaytna, released in Jun
 
 ## Prepared and Presented by :
 
-- [Meriem Zaid](https://www.facebook.com/MeriemZaid)
+- [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Mohammed Aboullaite](https://aboullaite.me/)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-- [Mohammed Ez-zarghili](https://www.facebook.com/mohamed.ezzarghili)
+- [Mohammed Ez-zarghili](https://twitter.com/ezzarghili)

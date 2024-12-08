@@ -46,4 +46,4 @@ In this episode, we look at the challenges of dealing with legacy code and techn
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)

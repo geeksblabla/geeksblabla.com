@@ -13,7 +13,7 @@ In this episode, we discuss what Prompt Engineering is and how it influences the
 
 ## Guests
 
-- [Sara El-Ateif](https://x.com/el_ateifSara)
+- [Sara El-Ateif](https://www.linkedin.com/in/sara-el-ateif)
 
 - [Houda Mouttalib](https://www.linkedin.com/in/houdam/)
 
@@ -59,4 +59,4 @@ In this episode, we discuss what Prompt Engineering is and how it influences the
 
 - [Chaimaa BRITEL](https://www.linkedin.com/in/chaimaa-britel-a509b116b/)
 
-- [Meriem Zaid](https://www.linkedin.com/in/meriem-zaid-652852187/)
+- [Meriem Zaid](https://twitter.com/_iMeriem)

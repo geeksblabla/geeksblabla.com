@@ -17,7 +17,7 @@ In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev
 
 - [Djalal](https://twitter.com/enlamp)
 
-- [Mohammed Aboullaite](https://aboullaite.me)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
 
 ## Notes
 
@@ -47,4 +47,4 @@ In this episode of GeeksBlabla, we discuss and analyse the results of stateofdev
 
 ## Prepared and Presented by
 
-- [Youssouf El Azizi](https://elazizi.com/)
+- [Youssouf El Azizi](https://elazizi.com)
