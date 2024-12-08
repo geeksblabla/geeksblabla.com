@@ -18,3 +18,8 @@ export type SocialObjects = {
     active: boolean;
   };
 };
+
+export type FormsSubmissions = {
+  name: string;
+  url: string;
+};

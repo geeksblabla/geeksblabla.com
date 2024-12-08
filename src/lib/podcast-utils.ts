@@ -103,3 +103,46 @@ export function getLastEpisode(podcast: CollectionEntry<"podcast">[]) {
     (a, b) => b.data.date.getTime() - a.data.date.getTime()
   )[0];
 }
+type Contributor = {
+  name: string;
+  url: string;
+  count: number;
+};
+
+export function extractAllGuestsAndHosts(
+  podcast: CollectionEntry<"podcast">[]
+): Contributor[] {
+  // Extract unique contributors (hosts and guests) from all episodes
+  const contributors = podcast.reduce((acc, episode) => {
+    const content = extractEpisodeContent(episode.body ?? "");
+
+    // Add hosts and guests
+    [...content.hosts, ...content.guests].forEach(contributor => {
+      const urlWithoutTrailingSlash = contributor.url.endsWith("/")
+        ? contributor.url.slice(0, -1)
+        : contributor.url;
+      const url = urlWithoutTrailingSlash.toLowerCase();
+      if (!acc.has(url)) {
+        acc.set(url, {
+          name: contributor.title,
+          url,
+          count: 1,
+        });
+      } else {
+        const existing = acc.get(url)!;
+        acc.set(url, {
+          ...existing,
+          count: existing.count + 1,
+        });
+      }
+    });
+
+    return acc;
+  }, new Map<string, Contributor>());
+
+  const sortedContributors = Array.from(contributors.values()).sort(
+    (a, b) => b.count - a.count
+  );
+
+  return sortedContributors;
+}

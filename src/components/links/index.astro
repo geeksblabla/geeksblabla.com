@@ -1,0 +1,98 @@
+---
+import { SOCIALS, FORMS_SUBMISSIONS } from "@/config";
+import Contributors from "@/components/links/contributors.astro";
+
+const socialLinks = Object.entries(SOCIALS)
+  .filter(([, social]) => social.active)
+  .map(([platform, social]) => ({
+    platform,
+    ...social,
+  }));
+
+const projects = [
+  {
+    title: "BlaBlaConf",
+    description:
+      "The biggest tech conference in Morocco, organized by the community for the community",
+    href: "https://www.blablaconf.com/",
+  },
+  {
+    title: "State of Dev",
+    description: "Annual survey about Moroccan developers and tech ecosystem",
+    href: "https://stateofdev.ma/",
+  },
+  {
+    title: "Awesome Morocco",
+    description: "Curated list of Moroccan things for developers",
+    href: "https://github.com/DevC-Casa/awesome-morocco",
+  },
+];
+---
+
+<div class="mx-auto max-w-3xl px-4 py-12">
+  <div class="space-y-8">
+    <!-- Social Media Links -->
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">Social Media</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {
+          socialLinks.map(({ platform, href, linkTitle }) => (
+            <a
+              href={href}
+              class="flex items-center justify-between rounded-lg border border-gray-200 p-4 transition-colors hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800"
+              title={linkTitle}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="capitalize">{platform}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">Projects</h2>
+      <div class="grid gap-4">
+        {
+          projects.map(({ title, description, href }) => (
+            <a
+              href={href}
+              class="flex flex-col gap-2 rounded-lg border border-gray-200 p-4 transition-colors hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="flex items-center justify-between">
+                <h3 class="font-semibold">{title}</h3>
+              </div>
+              <p class="text-sm text-gray-600 dark:text-gray-400">
+                {description}
+              </p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Form Submissions -->
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">Suggestions & Feedback</h2>
+      <div class="grid gap-4">
+        {
+          FORMS_SUBMISSIONS.map(({ name, url }) => (
+            <a
+              href={url}
+              class="flex items-center justify-between rounded-lg border border-gray-200 p-4 transition-colors hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>{name}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+  <Contributors />
+</div>

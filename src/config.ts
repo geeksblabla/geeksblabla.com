@@ -1,4 +1,4 @@
-import type { Site, SocialObjects } from "./types";
+import type { FormsSubmissions, Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://geeksblabla.io/", // replace this with your deployed domain
@@ -62,3 +62,22 @@ export const SOCIALS: SocialObjects = {
     active: true,
   },
 };
+
+export const FORMS_SUBMISSIONS: FormsSubmissions[] = [
+  {
+    name: "Join the core team",
+    url: "https://tally.so/r/meqj6E",
+  },
+  {
+    name: "Contribute to the community",
+    url: "/blog/contribute-to-geeksblabla",
+  },
+  {
+    name: "Suggest an episode or guests",
+    url: "/podcast/planning",
+  },
+  {
+    name: "Feedback & suggestions",
+    url: "/feedback",
+  },
+];
