@@ -10,6 +10,8 @@ published: true
 
 In this episode, Geeksblabla team talks about the Open source licenses & standards, starting from the definition of software licensing to the commonly known Open source software licenses such as MIT, GPL ..etc.
 
+## Guests
+
 ## Notes
 
 00:00:00 - Introduction : Welcoming to the new season

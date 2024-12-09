@@ -10,6 +10,8 @@ published: true
 
 On this episode of Geeksblabla, Soufian El Foukahi, Mohammed Aboullaite and Amine Hakkoue explore the 12 factor app methodology which is is a set of best practices that enable applications to be resilient, scalable and portable.
 
+## Guests
+
 ## Notes
 
 00:00:00 - Introduction

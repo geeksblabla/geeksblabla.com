@@ -61,6 +61,8 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 1:44:00 - Wrap up and Goodbye.
 
+## Links
+
 ## Prepared and Presented by :
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)

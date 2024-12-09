@@ -44,6 +44,8 @@ In this episode of GeeksBlabla, we invited Abdelahad SATOUR, a developer, tech s
 
 1:50:00 - Wrap up and goodbye
 
+## Links
+
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com)

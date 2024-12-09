@@ -56,6 +56,8 @@ Tech News & AMA #6 with our community members Abderrahim, Youssouf, Abderrahim, 
 
 2:18:00 - Wrap up and goodbye.
 
+## Links
+
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com)

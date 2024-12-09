@@ -11,6 +11,8 @@ featured: false
 
 In this special episode of GeeksBlabla, some of its core team members discussed what is DevC community, how it started and how Facebook supports DevC. At the end, the members revealed some of the secrets and memories they had in the community.
 
+## Guests
+
 ## Notes
 
 0:00:00 - Introduction and welcoming

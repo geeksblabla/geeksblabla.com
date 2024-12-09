@@ -10,6 +10,8 @@ published: true
 
 On this episode of Geeksblabla : Soufian , Mohammed Aboullaite , Mohammed Ezzarghili , Youssouf and Amine talks about DevOps : Definitions , brief history , Work flow , Tools and best practices ..etc.
 
+## Guests
+
 ## Notes
 
 00:00:00 - Introduction : Mohammed / Soufian announcing upcoming community events

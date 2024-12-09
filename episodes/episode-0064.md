@@ -14,12 +14,6 @@ In this episode of GeeksBlabla, we invited Aboulfeth, a tech serial entrepreneur
 
 - [Aboulfeth Hamza](https://www.aboulfeth.com/)
 
-## Prepared and Presented by
-
-- [Hamza Makraz](https://web.facebook.com/MakrazHamza)
-
-- [Mohammed Aboullaite](https://twitter.com/laytoun)
-
 ## Notes
 
 0:00:00 - Introduction and welcoming
@@ -55,3 +49,11 @@ In this episode of GeeksBlabla, we invited Aboulfeth, a tech serial entrepreneur
 1:22:00 - how was your experience on the program “Chkoun ghayastatmar f machrou3i” and what is your feedback about it?
 
 1:30:00 - Conclusion
+
+## Links
+
+## Prepared and Presented by
+
+- [Hamza Makraz](https://web.facebook.com/MakrazHamza)
+
+- [Mohammed Aboullaite](https://twitter.com/laytoun)

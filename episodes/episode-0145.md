@@ -36,6 +36,8 @@ In this episode we discuss the end of DevC program initiated by Meta, the impact
 
 0:58:46 - Wrap up & Good bye
 
+## Links
+
 ## Prepared and Presented by
 
 - [Meriem zaid](https://twitter.com/_iMeriem)

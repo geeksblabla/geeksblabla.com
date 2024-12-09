@@ -29,6 +29,8 @@ In this Episode of GeeksBlabla , we discussed The Microsoft Azure Ecosystem , fi
 
 1:18:00 - Advanced Microsoft Azure services and capabilities
 
+## Links
+
 ## Prepared and Presented by
 
 - [Otmane Fettal](https://twitter.com/ofettal)

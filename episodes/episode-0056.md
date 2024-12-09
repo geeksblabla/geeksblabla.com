@@ -64,6 +64,8 @@ In this episode of GeeksBlabla, we invited Mehdi Belmekki who is the currently S
 
 1:38:00 - Wrap up and goodbye.
 
+## Links
+
 ## Prepared and Presented by
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)

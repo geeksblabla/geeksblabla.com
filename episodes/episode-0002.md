@@ -10,6 +10,8 @@ published: true
 
 In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Boudih talk about the Web fundamental, new js Frameworks and some best practices you need to follow as a web developer.
 
+## Guests
+
 ## Notes
 
 0:00:00 - Intro && new DevC events
@@ -36,20 +38,7 @@ In this episode of GeeksBlabla, Geeksblablas team with the amzing Abdelkader Bou
 
 1:11:00 - Javascript Ecosystem
 
-    - Why javascript is so famous
-    - Js framework
-    - Reactjs
-    - Angular
-    - Vuejs
-
 2:16:00 - Exiting web dev stuff in 2018 you need to know
-
-    - GraphQl
-    - PWA
-    - WebAssemply
-    - Service Worker
-
-<br/>
 
 ## Links
 

@@ -10,6 +10,8 @@ published: true
 
 On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Hussein , Youssouf talks about Open source : Definitions , brief history , Licence types and how can we start contribute on open source projects ..etc.
 
+## Guests
+
 ## Notes
 
 00:00:00 - Introduction and welcoming guests

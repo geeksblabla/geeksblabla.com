@@ -44,6 +44,8 @@ Celebrating 26 years of Java with our community members Badr, Marouane, and Moha
 
 01:16:00 - Wrap up and goodbye.
 
+## Links
+
 ## Prepared and Presented by
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)

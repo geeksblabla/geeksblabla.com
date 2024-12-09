@@ -39,6 +39,8 @@ In this episode of GeeksBlabla, we celebrate the 100th episode, we discussed how
 
 1:38:00 - Wrap up & Goodbye
 
+## Links
+
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com)

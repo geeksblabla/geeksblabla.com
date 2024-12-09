@@ -48,13 +48,11 @@ In this episode of GeeksBlabla, we invited Taoufik Khamouli, Anouar Boukhatem an
 
 2:19:00 - Wrap up and goodbye.
 
-# Links
+## Links
 
-Books:
+- [Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems](#)
 
-- Building Secure and Reliable Systems: Best Practices for Designing, Implementing, and Maintaining Systems
-
-- Designing Data-Intensive Applications
+- [Designing Data-Intensive Applications](#)
 
 ## Prepared and Presented by
 

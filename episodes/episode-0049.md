@@ -41,6 +41,8 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 2:25:00 - Wrap up and Goodbye.
 
+## Links
+
 ## Prepared and Presented by :
 
 [Youssouf EL Azizi](https://elazizi.com)
