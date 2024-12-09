@@ -43,10 +43,9 @@ const { allCategories } = Astro.props as Props;
   }
 
   function setFilterFromUrl() {
-    const defaultFilter = new URL(window.location.href).searchParams.get(
-      "category"
-    );
-    filterEpisodes(defaultFilter || "all");
+    const defaultFilter =
+      new URL(window.location.href).searchParams.get("category") || "all";
+    filterEpisodes(defaultFilter);
     updateActiveButton(
       document.querySelector(`[data-filter="${defaultFilter}"]`) as HTMLElement
     );
