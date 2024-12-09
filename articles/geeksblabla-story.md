@@ -13,6 +13,8 @@ But that hasn't always been the case, and probably wasn't in our bingo card for 
 
 ## The Very Beginning
 
+![Geeksblabla beginning](./images/image2.jpg)
+
 You may have heard about it before, or maybe not. But Geeksblabla today owes some of its success to its ancestor community Developer Circles Casablanca. A hybrid community that was built on a Facebook group with support from Facebook (now Meta) back in 2016\.
 
 At some point, DevC Casa was the most active DevC community online in terms of engagement, and that diverged our effort to more online content creation given that it was easier to host (if the internet allows it for sure) and more scalable.
@@ -23,6 +25,8 @@ At its core, DevC Casa is what helped us meet and build a code team that then we
 I owe a lot to Meryem Zaid, one of the earliest members who has been with me for most of the journey\!
 
 **GeeksBlaBla is Born.**
+
+![Geeksblabla is born](./images/image1.jpg)
 
 Geeksblabla came out from a very unexpected, very simple idea, in a relatively weird timing\! We wanted to build upon the online success that we had in the online group and host a small, Ramadan-exclusive series of very informal tech discussions during Ramadan nights. In total, we were planning 4 episodes, 1 hour-ish each and moving on. That's really it\! No big plans, no defined structure … just having fun.
 
