@@ -16,6 +16,14 @@
 
       onLoad: () => {
         r.resizeDrawingSurfaceToCanvas();
+        // Check if screen width is mobile sized
+        const isMobile = window.innerWidth < 768;
+
+        if (isMobile) {
+          const animationName =
+            r.contents.artboards?.[0].animations?.[1] ?? "Timeline 1";
+          r.play(animationName);
+        }
         animationCanvas.addEventListener("mouseenter", () => {
           const animationName =
             r.contents.artboards?.[0].animations?.[1] ?? "Timeline 1";
