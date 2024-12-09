@@ -72,7 +72,18 @@ import HeroAnimation from "./hero-animation.astro";
     background-image: linear-gradient(to right, #000 1px, transparent 1px),
       linear-gradient(to bottom, #000 1px, transparent 1px);
     background-size: 200px 200px;
+    animation: move-grid 8s linear infinite 2s;
   }
+
+  @keyframes move-grid {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -200px 0px;
+    }
+  }
+
   /* custom typewriter animation based on tailwind motion but with some tweaks to make it work for our use case */
   .m-preset-typewriter-\[22\] {
     --motion-duration: 1500ms;
@@ -83,20 +94,19 @@ import HeroAnimation from "./hero-animation.astro";
     white-space: nowrap;
     border-right: 2px solid;
     border-color: transparent;
-    font-family: monospace;
+    /* font-family: monospace; */
     overflow: hidden;
     width: 0;
   }
   .m-preset-typewriter-\[18\] {
     --motion-duration: 1500ms;
-    --motion-typewriter-value: 18ch;
+    --motion-typewriter-value: 13.5ch;
     animation:
       typing var(--motion-duration) steps(18) var(--motion-delay, 0ms) forwards,
       blink-last-line 0.4s step-end var(--motion-delay, 0ms) infinite;
     white-space: nowrap;
     border-right: 2px solid;
     border-color: transparent;
-    font-family: monospace;
     overflow: hidden;
     width: 0;
   }
