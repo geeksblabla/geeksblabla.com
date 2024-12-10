@@ -1,6 +1,7 @@
 ---
 import { SOCIALS, FORMS_SUBMISSIONS } from "@/config";
 import Contributors from "@/components/links/contributors.astro";
+import AllLinks from "./all-links.astro";
 
 const socialLinks = Object.entries(SOCIALS)
   .filter(([, social]) => social.active)
@@ -95,4 +96,5 @@ const projects = [
     </div>
   </div>
   <Contributors />
+  <AllLinks />
 </div>

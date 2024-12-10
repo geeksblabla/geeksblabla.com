@@ -152,3 +152,9 @@ export function extractAllGuestsAndHosts(
 
   return sortedContributors;
 }
+
+export function getAllLinks(podcast: CollectionEntry<"podcast">[]) {
+  return podcast
+    .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+    .flatMap(episode => extractEpisodeContent(episode.body ?? "").links);
+}
