@@ -65,4 +65,4 @@ In this Episode , we’re going over the news that was impactful during the prev
 
 ## Prepared and Presented by
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)

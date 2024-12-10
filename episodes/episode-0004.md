@@ -16,9 +16,9 @@ In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZO
 
 [Youssouf EL Azizi](https://elazizi.com)
 
-[Ismail EL Azizi](https://ismailelazizi.com/)
+[Ismail EL Azizi](https://www.linkedin.com/in/ismail-el-azizi/)
 
-[Maroua EZOUHRI](https://www.facebook.com/maroua.ezouhri.1)
+[Maroua EZOUHRI](https://www.linkedin.com/in/maroua-ezouhri-381174a7)
 
 ## Notes
 

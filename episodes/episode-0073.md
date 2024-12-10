@@ -14,7 +14,7 @@ In this special episode, we highlight the hidden category in Tech in general, Wo
 
 - [Maroua Ezouhri](https://www.linkedin.com/in/maroua-ezouhri-381174a7/)
 
-- [Siham Ben Daia](https://twitter.com/BendaiaS)
+- [Siham Ben Daia](https://www.mindhunter.dev/)
 
 - [Aicha Laafia](https://twitter.com/AichaLaafia)
 

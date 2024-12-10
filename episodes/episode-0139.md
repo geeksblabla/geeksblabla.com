@@ -17,7 +17,7 @@ In this Episode , a roundtable discussion around Davis Epstein's book, Range: Wh
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
-- [Oussama Zaki](https://twitter.com/OussaZaki)
+- [Oussama Zaki](https://www.linkedin.com/in/zakioussama)
 
 ## Notes
 

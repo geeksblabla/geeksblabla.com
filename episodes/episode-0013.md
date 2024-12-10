@@ -82,4 +82,4 @@ In this episode of GeeksBlabla, We discuss with Yassin El ouafi, creator of redu
 
 [Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-[Amine Hakkou](https://twitter.com/amine_hakkou/)
+[Amine Hakkou](https://www.hakkou.me//)

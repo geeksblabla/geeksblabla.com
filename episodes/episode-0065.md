@@ -13,7 +13,7 @@ In this episode of GeeksBlabla, we discussed some ways to present your best self
 ## Guests
 
 - [Hanae El Bouyousfi](https://www.facebook.com/hanae.elbouyousfiepelhouari)
-- [Diaa Alhak El Fallous](https://www.facebook.com/diaa.alhak)
+- [Diaa Alhak El Fallous](https://www.linkedin.com/in/elfallous)
 - [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
 - [Mohammed Aboullaite](https://twitter.com/laytoun)
 

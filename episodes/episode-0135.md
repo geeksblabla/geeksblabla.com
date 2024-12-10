@@ -17,7 +17,7 @@ We also talk about how adapting to those new tools can help us write better code
 
 - [Abderrahim soubai](https://twitter.com/soub4i)
 
-- [Ismail EL Azizi](https://ismailelazizi.com/)
+- [Ismail EL Azizi](https://www.linkedin.com/in/ismail-el-azizi/)
 
 - [Ilyas Bakouch](https://www.linkedin.com/in/ilyasbakouch/)
 

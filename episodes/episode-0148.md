@@ -15,7 +15,7 @@ Our community members Siham, Chihab, Otmane, and Youssouf joined us for Tech New
 
 [Chihab Otmani](https://chihab.dev)
 
-[Siham Ben Diaa](https://www.mindhunter.dev/)
+[Siham Ben Daia](https://www.mindhunter.dev/)
 
 - [Otmane Fettal](https://twitter.com/ofettal)
 

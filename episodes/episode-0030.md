@@ -15,7 +15,7 @@ In this episode of GeeksBlabla, we discuss remote working for developers, How to
 
 [Ahmed El Azzabi](https://mylink.fyi/elazzabi)
 
-[Meriam Kharbat](https://medium.com/@MeriamKharbat)
+[Meriam Kharbat](https://twitter.com/meriamkharbat)
 
 [Abdelfatah Sghiouar](https://twitter.com/boredabdel)
 

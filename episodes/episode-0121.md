@@ -17,7 +17,7 @@ In this episode, we review a series of Cal Newport's books and discuss each of t
 
 - [Diaa Alhak El Fallous](https://www.linkedin.com/in/elfallous/)
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 ## Notes
 

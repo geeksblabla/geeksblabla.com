@@ -19,7 +19,7 @@ In this Episode we discuss chelleges we face as IT workers in terms of Mental he
 
 - [Achraf Aamri](http://linkedin.com/in/achrafaamri/)
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 ## Notes
 

@@ -12,9 +12,9 @@ In this episode of GeeksBlabla, we invited Diaa Alhak El Fallous and Othmane Kin
 
 ## Guests
 
-- [Diaa Alhak El Fallous](https://www.facebook.com/diaa.alhak)
+- [Diaa Alhak El Fallous](https://www.linkedin.com/in/elfallous)
 
-- [Othmane kinane](https://twitter.com/OKinane)
+- [Othmane kinane](https://www.linkedin.com/in/othmanekinane)
 
 ## Notes
 

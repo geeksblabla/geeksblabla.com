@@ -13,7 +13,7 @@ In this episode, we discuss Large Language Models (LLMs): how everything started
 
 ## Guests
 
-[Taha Bouhsine](https://twitter.com/Tahabsn)
+[Taha Bouhsine](https://www.linkedin.com/in/tahabsn)
 
 [Sifeddine Nahhas](https://www.linkedin.com/in/sifeddine-nahhas/)
 

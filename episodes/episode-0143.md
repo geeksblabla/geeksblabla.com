@@ -15,7 +15,7 @@ Tech News & AMA #22 with our community members Yousssouf, Kawtar, Abderahim, Otm
 
 - [Kawtar Choubari](https://www.linkedin.com/in/choubari/)
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 - [Soubai Abderahim](https://twitter.com/soub4i)
 

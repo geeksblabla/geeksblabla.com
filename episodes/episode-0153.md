@@ -53,4 +53,4 @@ In this episode, we will discuss the Google Cloud Platform, its various services
 
 ## Prepared and Presented by
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)

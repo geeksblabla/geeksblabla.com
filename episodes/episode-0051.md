@@ -69,4 +69,4 @@ In this episode of GeeksBlabla, we discuss with our guests what is it like to wo
 ## Prepared and Presented by
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)
-- [Ismail Tlemcani](https://www.facebook.com/profile.php?id=100010413469638)
+- [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani)

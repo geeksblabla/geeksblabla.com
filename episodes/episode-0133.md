@@ -57,4 +57,4 @@ In this episode of GeeksBlaBla, we discuss the Software As A Service business mo
 
 ## Prepared and Presented by
 
-[Mohammed Daoudi](https://www.iduoad.com)
+[Mohammed Daoudi](https://www.linkedin.com/in/iduoad)

@@ -14,7 +14,7 @@ In this episode of GeeksBlaBla with our community members Ahmed, Ismail, Smakosh
 
 - [Ilias Haddad](https://iliashaddad.com/)
 
-- [Ismail EL Azizi](https://ismailelazizi.com/)
+- [Ismail EL Azizi](https://www.linkedin.com/in/ismail-el-azizi/)
 
 - [Soubai Abderahim](https://twitter.com/soub4i)
 

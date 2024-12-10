@@ -13,7 +13,7 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 ## Guests
 
-[Mouhssine Lakhdissi](https://www.facebook.com/mouhsine.lakhdissi)
+[Mouhssine Lakhdissi](https://www.linkedin.com/in/mlakhdissi)
 
 ## Notes
 

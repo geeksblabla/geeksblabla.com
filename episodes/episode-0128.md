@@ -21,7 +21,7 @@ In this episode we discuss the fundemental concepts of Operating Systems
 
 ## Guests
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 ## Notes
 

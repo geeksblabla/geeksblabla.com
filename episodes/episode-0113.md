@@ -17,7 +17,7 @@ In this episode of GeeksBlabla, we talk about tech talks; why you should care? H
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 ## Notes
 

@@ -15,7 +15,7 @@ Ask Me Anything episode #3 with our community members Mohammed, Ismail and Youss
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[Ismail EL Azizi](https://ismailelazizi.com/)
+[Ismail EL Azizi](https://www.linkedin.com/in/ismail-el-azizi/)
 
 ## Notes
 

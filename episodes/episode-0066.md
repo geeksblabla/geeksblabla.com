@@ -48,4 +48,4 @@ In this episode of GeeksBlabla, we discussed with our guests Ali Lakrakbi and Sa
 ## Prepared and Presented by
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)
-- [Ismail Tlemcani](https://www.facebook.com/profile.php?id=100010413469638)
+- [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani)

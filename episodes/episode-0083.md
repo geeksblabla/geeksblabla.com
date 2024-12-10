@@ -17,7 +17,7 @@ In this episode of GeeksBlabla, we're Revisiting the fundamentals of the DevOps 
 
 - [Otmane FETTAL](https://twitter.com/ofettal)
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 - [Djalal](https://twitter.com/enlamp)
 

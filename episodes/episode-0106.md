@@ -13,7 +13,7 @@ On the 106th Episode of Geeksblabla we're having a discussion around Amazon Web 
 
 ## Guests
 
-- [Ilyas Bakouch](https://twitter.com/isbkch)
+- [Ilyas Bakouch](https://www.linkedin.com/in/ilyasbakouch)
 
 - [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 

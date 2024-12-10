@@ -19,7 +19,7 @@ In this special episode, We invite our UX/UI designer community friends to Talk 
 
 - [Oussama Zaki](https://www.linkedin.com/in/zakioussama/)
 
-- [EL Azizi Ismail ](https://www.linkedin.com/in/ismail-el-azizi)
+- [Ismail EL Azizi ](https://www.linkedin.com/in/ismail-el-azizi)
 
 - [Abdul Benbrahim](https://www.linkedin.com/in/abdulbenbrahim/)
 
@@ -69,7 +69,7 @@ In this special episode, We invite our UX/UI designer community friends to Talk 
 
 - [The Design of Everyday Things](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 
-- [UX/UI design: How to get started](https://ismailelazizi.com/blog/ux-ui-design-how-to-get-started)
+- [UX/UI design: How to get started](https://www.linkedin.com/in/ismail-el-azizi/blog/ux-ui-design-how-to-get-started)
 
 - [Ismail Instagram ](https://www.instagram.com/ismail_elazizi/)
 

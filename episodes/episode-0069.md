@@ -14,7 +14,7 @@ In this episode of GeeksBlabla, we invited Taoufik Abbassid along with Mohamed D
 
 - [Taoufik Abbassid](https://twitter.com/taoufikabbassid)
 
-- [Mohammed Daoudi](https://www.facebook.com/mohammed.daoudi.96155)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 ## Notes
 

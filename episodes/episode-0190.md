@@ -17,7 +17,7 @@ In this episode, we discuss what Prompt Engineering is and how it influences the
 
 - [Houda Mouttalib](https://www.linkedin.com/in/houdam/)
 
-- [Oumayma Essarhi](https://twitter.com/oumayma_es_)
+- [Oumayma Essarhi](https://www.linkedin.com/in/oumayma-essarhi)
 
 - [Soufiane Lamchoudi](https://www.linkedin.com/in/soufiane-lamchoudi/)
 

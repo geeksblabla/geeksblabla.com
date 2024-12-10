@@ -13,7 +13,7 @@ In this episode, we discuss how to turn code passion into profit. We'll cover co
 
 ## Guests
 
-- [Moustaid Ayoub](https://x.com/mstdayoub)
+- [Moustaid Ayoub](https://twitter.com/mstdayoub)
 
 - [Hamza Moustaid](https://x.com/hamzaamoustaid)
 

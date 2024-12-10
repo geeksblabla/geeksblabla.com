@@ -13,8 +13,8 @@ In this episode, we will explore Vector databases, a cutting-edge technology rev
 
 ## Guests
 
-- [Oumayma Essarhi](https://twitter.com/oumayma_es_)
-- [Taha Bouhsine](https://twitter.com/Tahabsn)
+- [Oumayma Essarhi](https://www.linkedin.com/in/oumayma-essarhi)
+- [Taha Bouhsine](https://www.linkedin.com/in/tahabsn)
 - [Merouane Zouaid](https://x.com/merouanezouaid)
 
 ## Notes

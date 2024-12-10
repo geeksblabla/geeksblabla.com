@@ -13,7 +13,7 @@ In this episode of GeeksBlabla, we discuss the success story for two young women
 
 ## Guests
 
-[Meriam Kharbat](https://www.facebook.com/meriam.kasahara)
+[Meriam Kharbat](https://twitter.com/meriamkharbat)
 
 [Ouafae Aamer](https://www.facebook.com/ouafae.aamer)
 
@@ -45,7 +45,7 @@ In this episode of GeeksBlabla, we discuss the success story for two young women
 
 - [EU Blue Card](https://www.make-it-in-germany.com/en/visa/kinds-of-visa/eu-blue-card/)
 
-- [Meriam blog](https://medium.com/@MeriamKharbat)
+- [Meriam blog](https://twitter.com/meriamkharbat)
 
 ## Prepared and Presented by :
 

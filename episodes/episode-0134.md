@@ -15,7 +15,7 @@ Tech News & AMA #20 with our community members Yousssouf, Badr, Mohammed, Mehdi 
 
 - [Abderrahim soubai](https://twitter.com/soub4i)
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 

@@ -19,7 +19,7 @@ In this Episode , a roundtable discussion around the topic of Seniority in IT wa
 
 - [Mohamed Ahdidou](https://www.linkedin.com/in/mohamedahdidou/)
 
-- [Oussama Zaki](https://twitter.com/OussaZaki)
+- [Oussama Zaki](https://www.linkedin.com/in/zakioussama)
 
 ## Notes
 

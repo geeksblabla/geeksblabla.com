@@ -13,7 +13,7 @@ In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gamepla
 
 ## Guests
 
-[Omar Guendeli](https://guendeliomar.com)
+[Omar Guendeli](https://www.linkedin.com/in/omar-guendeli-70a57862)
 
 ## Notes
 

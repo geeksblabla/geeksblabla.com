@@ -17,7 +17,7 @@ In this episode, we discussed the technology of Large Language Models (LLMs) and
 
 - [Oumayma Essarhi](https://www.linkedin.com/in/oumayma-essarhi/)
 
-- [Taha Bouhsine](https://twitter.com/Tahabsn)
+- [Taha Bouhsine](https://www.linkedin.com/in/tahabsn)
 
 ## Notes
 

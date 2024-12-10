@@ -16,7 +16,7 @@ In this episode of GeeksBlabla, we discuss with our guests the different career 
 
 - [Abdelfettah Sghiouar](https://twitter.com/boredabdel)
 
-- [Othmane Kinane](https://www.facebook.com/o.kinane/)
+- [Othmane Kinane](https://www.linkedin.com/in/othmanekinane/)
 
 - [Mehdi Cheracher](https://twitter.com/Mehdi_Cheracher)
 

@@ -43,4 +43,4 @@ In this episode we discuss the fundamental concepts of computer networking and h
 
 ## Prepared and Presented by
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)

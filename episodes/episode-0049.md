@@ -13,7 +13,7 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 ## Guests
 
-[Othmane Kinane](https://www.facebook.com/o.kinane/)
+[Othmane Kinane](https://www.linkedin.com/in/othmanekinane/)
 
 [Meriem Zaid](https://twitter.com/_iMeriem)
 

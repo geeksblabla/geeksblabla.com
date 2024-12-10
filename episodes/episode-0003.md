@@ -12,7 +12,7 @@ In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .
 
 ## Guests
 
-[Omar Guendeli](https://guendeliomar.com)
+[Omar Guendeli](https://www.linkedin.com/in/omar-guendeli-70a57862)
 
 [Amine Hakkou](https://www.hakkou.me/)
 

@@ -16,7 +16,7 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 
 [Amine Bekkaoui](https://www.linkedin.com/in/amine-bekkaoui-3a622b46)
 
-[Amine Hakkou](https://twitter.com/amine_hakkou)
+[Amine Hakkou](https://www.hakkou.me/)
 
 ## Notes
 

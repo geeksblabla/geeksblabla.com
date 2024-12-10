@@ -73,6 +73,6 @@ In this episode, we discuss the state of DevOps in 2023 and highlight key change
 
 ## Prepared and Presented by
 
-- [Chaimaa BRITEL](https://twitter.com/ChaimaaBritel)
+- [Chaimaa BRITEL](https://www.linkedin.com/in/chaimaa-britel-a509b116b)
 
 - [Abdelati EL ASRI](https://twitter.com/kaizendae)

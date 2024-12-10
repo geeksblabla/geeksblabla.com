@@ -13,11 +13,11 @@ In this episode of GeeksBlabla, we discuss blogging for developer, How to get st
 
 ## Guests
 
-[Meriam Kharbat](https://medium.com/@MeriamKharbat)
+[Meriam Kharbat](https://twitter.com/meriamkharbat)
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 
-[Ismail EL Azizi](https://ismailelazizi.com/)
+[Ismail EL Azizi](https://www.linkedin.com/in/ismail-el-azizi/)
 
 ## Notes
 

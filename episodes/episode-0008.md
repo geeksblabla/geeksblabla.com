@@ -12,7 +12,7 @@ On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite
 
 ## Guests
 
-[Amine Hakkou](https://www.facebook.com/hakkou.me)
+[Amine Hakkou](https://www.hakkou.me/)
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 

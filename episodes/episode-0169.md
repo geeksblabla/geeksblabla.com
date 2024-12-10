@@ -17,7 +17,7 @@ In this episode, We discuss The state of webassembly in 2024
 
 - [Abdellfetah](https://twitter.com/boredabdel)
 
-- [Wassim](https://www.linkedin.com/in/manekinekko)
+- [Wassim](https://twitter.com/manekinekko)
 
 ## Notes
 

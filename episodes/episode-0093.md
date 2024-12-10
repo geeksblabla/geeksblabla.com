@@ -62,6 +62,6 @@ In this episode of GeeksBlaBla, we discuss with our guests about Reactive progra
 
 ## Prepared and Presented by
 
-- [Mohammed Daoudi](https://twitter.com/MIduoad)
+- [Mohammed Daoudi](https://www.linkedin.com/in/iduoad)
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)

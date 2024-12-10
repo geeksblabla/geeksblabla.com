@@ -16,7 +16,7 @@ In this episode of GeeksBlabla, we will discover with our guests how the Interne
 
 - [Abderrahim Soubai Elidrissi](https://twitter.com/soub4i)
 
-- [Yassine Moumen](https://www.linkedin.com/in/yassine-moumen-3a0ab895/)
+- [Yassine Moumen](https://www.linkedin.com/in/yassine-moumen/)
 
 ## Notes
 
