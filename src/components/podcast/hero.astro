@@ -1,13 +1,18 @@
 ---
-import { Button, ButtonLink } from "../button";
+import { ButtonLink } from "../button";
 import Header from "../header.astro";
 import { Icon } from "astro-icon/components";
 import HeroAnimation from "./hero-animation.astro";
 import { getCollection } from "astro:content";
-import { getLastEpisode } from "@/lib/podcast-utils";
+import {
+  getLastEpisode,
+  getLastFeaturedEpisode as getRandomEpisode,
+} from "@/lib/podcast-utils";
 
 const podcast = await getCollection("podcast");
 const lastEpisode = getLastEpisode(podcast);
+
+const lastFeaturedEpisode = getRandomEpisode(podcast);
 ---
 
 <section class="relative overflow-hidden bg-[#D4E3DE]">
@@ -51,12 +56,13 @@ const lastEpisode = getLastEpisode(podcast);
           >
             Watch Podcast <Icon name="arrow-right" class="ml-2 rotate-45" />
           </ButtonLink>
-          <Button
+          <ButtonLink
             variant="outline"
+            href={`/podcast/${lastFeaturedEpisode.data.slug}`}
             className="motion-preset-slide-down hidden self-center motion-delay-[1000ms] md:flex"
           >
             Surprise me <Icon name="arrow-right" class="ml-2" />
-          </Button>
+          </ButtonLink>
         </div>
       </div>
     </div>

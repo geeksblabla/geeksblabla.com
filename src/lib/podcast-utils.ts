@@ -109,6 +109,12 @@ type Contributor = {
   count: number;
 };
 
+export function getLastFeaturedEpisode(podcast: CollectionEntry<"podcast">[]) {
+  return podcast
+    .filter(episode => episode.data.featured)
+    .sort(() => Math.random() - 0.5)[0];
+}
+
 export function extractAllGuestsAndHosts(
   podcast: CollectionEntry<"podcast">[]
 ): Contributor[] {
@@ -122,7 +128,7 @@ export function extractAllGuestsAndHosts(
         ? contributor.url.slice(0, -1)
         : contributor.url;
       const url = urlWithoutTrailingSlash.toLowerCase();
-      if (!acc.has(url)) {
+      if (!acc.has(url) || url === "#") {
         acc.set(url, {
           name: contributor.title,
           url,

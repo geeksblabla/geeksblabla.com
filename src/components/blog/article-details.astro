@@ -5,6 +5,7 @@ import getReadingTime from "reading-time";
 import Layout from "@/components/layout.astro";
 import { getEntries, render } from "astro:content";
 import Header from "@/components/header.astro";
+import ArticleComments from "./article-comments.astro";
 
 export interface Props {
   article: CollectionEntry<"blog">;
@@ -47,6 +48,9 @@ const authors = article.data.authors
     >
       <Content />
     </article>
+    <div class="mx-auto mt-10 w-full max-w-3xl">
+      <ArticleComments />
+    </div>
   </main>
 </Layout>
 
