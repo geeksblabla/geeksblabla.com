@@ -3,7 +3,7 @@ title: "10 Ways to Contribute to GeeksBlabla and Make a Lasting Impact"
 tags: ["community", "GeeksBlabla", "contributions", "tech"]
 keywords: ["GeeksBlabla", "contribute", "Moroccan tech community"]
 pubDatetime: 2024-12-01
-authors: ["abdelati"] # the name of the author file
+authors: ["abdelati"]
 slug: contribute-to-geeksblabla
 description: "Explore how you can contribute to GeeksBlabla, from sharing feedback to joining the core team, and make a meaningful impact in the Moroccan tech community."
 ---
