@@ -9,9 +9,13 @@
 <script>
   //@ts-expect-error Rive is not defined in the global scope
   const r = new rive.Rive({
-    src: "/animations/comm_hero_graphics.riv",
+    src: "/animations/community_hero.riv",
     canvas: document.getElementById("canvas"),
+
     autoplay: true,
+    artboard: "hero 2",
+    stateMachines: "State Machine 1",
+    // autoplay: true,
     onLoad: () => {
       // Ensure the drawing surface matches the canvas size and device pixel ratio
       r.resizeDrawingSurfaceToCanvas();

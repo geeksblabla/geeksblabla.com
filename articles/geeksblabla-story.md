@@ -13,7 +13,8 @@ But that hasn't always been the case, and probably wasn't in our bingo card for 
 
 ## The Very Beginning
 
-You may have heard about it before, or maybe not. But Geeksblabla today owes some of its success to its ancestor community: **Developer Circles Casablanca**. A hybrid community that was built on a Facebook group with support from Facebook (now Meta) back in 2016\.
+You may have heard about it before, or maybe not. But Geeksblabla today owes some of its success to its ancestor community Developer Circles Casablanca. A hybrid community that was built on a Facebook group with support from Facebook (now Meta) back in 2016\.
+![Geeksblabla beginning](./images/image2.jpg)
 
 At some point, DevC Casa was the most active DevC community online in terms of engagement, which lead our efforts towards more online content creation given that it was easier to host and scale (if the internet allows it for sure).
 
@@ -24,7 +25,9 @@ I owe a lot to Meryem Zaid, one of the earliest members who has been with me for
 
 **GeeksBlaBla is Born.**
 
-Geeksblabla came out from a very unexpected, very simple idea, in a relatively weird timing\! **Ramadan was on** and We wanted to build upon the online success that we had in the online group, and host a small series of very informal tech discussions exclusively during this month. In total, we were planned 4 episodes, 1 hour-ish each and moving on. That's really it\! No big plans, no defined structure … just having fun.
+
+Geeksblabla came out from a very unexpected, very simple idea, in a relatively weird timing\! We wanted to build upon the online success that we had in the online group and host a small, Ramadan-exclusive series of very informal tech discussions during Ramadan nights. In total, we were planning 4 episodes, 1 hour-ish each and moving on. That's really it\! No big plans, no defined structure … just having fun.
+![Geeksblabla is born](./images/image1.jpg)
 
 On our 1st night, what was intended to be an hour-long discussion, ended up being 3-hour-long fun and informal discussions on the DevC Facebook group. We certainly liked the vibes and the fruits of that session, and everyone was certain that we needed to keep this lively session alive.
 
