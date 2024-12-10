@@ -1,0 +1,35 @@
+---
+import { Icon } from "astro-icon/components";
+
+const articleUrl = encodeURIComponent(Astro.url.href);
+
+const socialMediaIcons = [
+  { name: "x", url: `https://twitter.com/share?url=${articleUrl}` },
+  {
+    name: "facebook",
+    url: `https://www.facebook.com/sharer/sharer.php?u=${articleUrl}`,
+  },
+  { name: "instagram", url: `https://www.instagram.com/?url=${articleUrl}` },
+  {
+    name: "linkedin",
+    url: `https://www.linkedin.com/shareArticle?mini=true&url=${articleUrl}`,
+  },
+];
+---
+
+<div
+  class="mx-auto flex max-w-3xl items-center justify-end gap-4 border-b border-b-slate-300 pb-2 pt-8"
+>
+  <span>Share article:</span>
+  {
+    socialMediaIcons.map(({ name, url }) => (
+      <a href={url} target="_blank" rel="noopener noreferrer" class="group">
+        <Icon
+          name={name}
+          title={`Share on ${name}`}
+          class="h-5 w-5 cursor-pointer text-gray-700 hover:text-black"
+        />
+      </a>
+    ))
+  }
+</div>
