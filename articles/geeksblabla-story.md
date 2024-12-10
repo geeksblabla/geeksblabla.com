@@ -13,28 +13,28 @@ But that hasn't always been the case, and probably wasn't in our bingo card for 
 
 ## The Very Beginning
 
-You may have heard about it before, or maybe not. But Geeksblabla today owes some of its success to its ancestor community Developer Circles Casablanca. A hybrid community that was built on a Facebook group with support from Facebook (now Meta) back in 2016\.
+You may have heard about it before, or maybe not. But Geeksblabla today owes some of its success to its ancestor community: **Developer Circles Casablanca**. A hybrid community that was built on a Facebook group with support from Facebook (now Meta) back in 2016\.
 
-At some point, DevC Casa was the most active DevC community online in terms of engagement, and that diverged our effort to more online content creation given that it was easier to host (if the internet allows it for sure) and more scalable.
+At some point, DevC Casa was the most active DevC community online in terms of engagement, which lead our efforts towards more online content creation given that it was easier to host and scale (if the internet allows it for sure).
 
 However, I was, and still am, a strong believer in offline meetups and face-to-face gatherings. DevC hosted at least monthly events where many known faces in the community gave their first sessions, including myself. It was tough, exhausting for most of us, but enjoyable nevertheless and that is what kept us going.
 
-At its core, DevC Casa is what helped us meet and build a code team that then went into a journey to build Geeksblabla.
+At its core, DevC Casa is what helped us meet and build a core team. This team later on embarked on a journey to build Geeksblabla as it is today.
 I owe a lot to Meryem Zaid, one of the earliest members who has been with me for most of the journey\!
 
 **GeeksBlaBla is Born.**
 
-Geeksblabla came out from a very unexpected, very simple idea, in a relatively weird timing\! We wanted to build upon the online success that we had in the online group and host a small, Ramadan-exclusive series of very informal tech discussions during Ramadan nights. In total, we were planning 4 episodes, 1 hour-ish each and moving on. That's really it\! No big plans, no defined structure … just having fun.
+Geeksblabla came out from a very unexpected, very simple idea, in a relatively weird timing\! **Ramadan was on** and We wanted to build upon the online success that we had in the online group, and host a small series of very informal tech discussions exclusively during this month. In total, we were planned 4 episodes, 1 hour-ish each and moving on. That's really it\! No big plans, no defined structure … just having fun.
 
-During Ramadan nights, what was intended to be an hour-long discussion, ended up being 3-hour-long funny and informal discussions on the DevC Facebook group. We liked it, many of the group members did and were almost certain that we needed a way to keep it going.
+On our 1st night, what was intended to be an hour-long discussion, ended up being 3-hour-long fun and informal discussions on the DevC Facebook group. We certainly liked the vibes and the fruits of that session, and everyone was certain that we needed to keep this lively session alive.
 
 As everything in Geeksblabla, and what defined our first strategy and guiding principle is "**experiment, reiterate, grow**"\! It is one thing to host a one-off successful initiative, and another thing to build on that success and be consistent with it.
 
-We try as much as possible to not kill initiatives and plan thoroughly for them. It doesn't need to be perfect, it doesn't need to be unique, it just needs to be consistent. What we figured out soon after, and what turned out to be, kind of our second principle "**KISS**": Keep it simple, stupid. And the reason is pretty obvious. Geeksblabla is community-based, run by volunteers who have their lives and their careers. Plans might change, and someone else needs to quickly jump in and host an episode or run an initiative by keeping the onboarding cost very low.
+We try as much as possible to not kill initiatives and plan thoroughly for them. It doesn't need to be perfect, it doesn't need to be unique, it just needs to be consistent. What we figured out soon after, and become our second principle "**KISS**": Keep it simple, stupid. And the reason is pretty obvious. Geeksblabla is community-based, run by volunteers who have their own lives and careers. Plans might change, and someone else needs to quickly jump in and host an episode or run an initiative by keeping the onboarding cost very low.
 
 Combining these two principles, we started with a 1-month cadence afterwards, then bi-weekly and settled on a weekly cadence. Both Soufiane El Foukahi and Youssouf El Azizi played a fundamental role in pushing the limit and turning Geeksblabla into what it has become now.
 
-## So What ?!
+## So What ?
 
 If you've made it this far, first, thank you for bearing with my writing. You might be more curious about Geeksblabla now, eager to understand what makes us tick, rather than just dwelling on our past. Let me show you what we're all about.
 
@@ -69,7 +69,7 @@ Every community needs a structure, a rhythm, and a base that shows what its acti
 
 I hope this article helps you understand what Geeksblabla is all about. We're more than just a tech community \- we're a family of learners, dreamers, and innovators.
 
-A heartfelt thank you to everyone who has been part of our journey. To our past core team members who laid the foundation of Geeksblabla, your vision and dedication have been the cornerstone of our growth. Our incredible podcast guests who generously shared their knowledge and inspiring stories \- you've been the voice that has educated and motivated our community. To all BlaBlaConf speakers, thank you for bringing your expertise and insight to our special event and connecting our community across digital spaces.
+A heartfelt thank you to everyone who has been part of our journey. To our past core team members who laid the foundation of Geeksblabla, your vision and dedication have been the cornerstone of our growth. Our incredible podcast guests who continue to generously share their knowledge and inspiring stories \- you've been the voice that has educated and motivated our community. To all BlaBlaConf speakers, thank you for bringing your expertise and insight to our special event and connecting our community across digital spaces.
 
 We extend our gratitude to every community member, from the long-time contributors to the newest participants. Each of you has played a crucial role in creating this vibrant, supportive ecosystem of tech enthusiasts and lifelong learners.
 
