@@ -24,7 +24,7 @@ Constructive feedback helps us improve. Whether it’s about the shared content,
 
 <!-- #TODO add correct url here -->
 
-📝 **Action Item:** [Share your feedback and suggest new concepts](/)
+📝 **Action Item:** [Share your feedback and suggest new concepts](/feedback)
 
 ## 2. Spread the Word
 
@@ -34,9 +34,7 @@ Help us grow the community by sharing GeeksBlabla content and initiatives with y
 - **Difficulty:** ⭐
 - **Time Investment:** ⭐
 
-<!-- #TODO add correct url here -->
-
-📝 **Action Item:** [Share a recent episode on social media](/)
+📝 **Action Item:** Repost geeksblabla on social media and share information about the community with your friends.
 
 ## 3. Participate in Online Discussions
 
@@ -56,9 +54,7 @@ One of the best ways to contribute to the GeeksBlabla podcast is by suggesting t
 - **Difficulty:** ⭐
 - **Time Investment:** ⭐
 
-<!-- #TODO add correct url here -->
-
-📝 **Action Item:** [Suggest a topic or guest for an episode](/)
+📝 **Action Item:** [Suggest a topic or guest for an episode](/podcast/planning)
 
 ## 5. Be a Guest on an Episode
 
@@ -68,10 +64,8 @@ Furthermore that #4, if you have expertise in your field, consider being a guest
 - **Difficulty:** ⭐⭐⭐
 - **Time Investment:** ⭐⭐
 
-<!-- #TODO add correct url here -->
-
 📝 **Action Item:**
-Suggest a topic you’re passionate about or credible on—it’s an opportunity to showcase your expertise, mentor newcomers, and connect with an engaged audience. Check our [planning here](/) to suggest an episode or a guest for an episode.
+Suggest a topic you’re passionate about or credible on—it’s an opportunity to showcase your expertise, mentor newcomers, and connect with an engaged audience. Check our [planning here](/podcast/planning) to suggest an episode or a guest for an episode.
 
 ## 6. Create Valuable Content
 
@@ -96,7 +90,7 @@ If you're a student or part of a university/school, it's the perfect time to org
 
 <!-- #TODO add correct url here -->
 
-📝 **Action Item:** [Organize a meetup in your area](/)
+📝 **Action Item:** [Organize a meetup in your University or Area](/)
 
 ## 8. Contribute to Open Source
 
@@ -129,6 +123,6 @@ The ultimate form of contribution is joining the core team. Core team members ar
 
 <!-- #TODO add correct url here -->
 
-📝 **Action Item:** [Apply to join the core team](/)
+📝 **Action Item:** [Apply to join the core team](https://tally.so/r/meqj6E)
 
 > As Plato wisely noted, "The whole is greater than the sum of its parts." This ancient wisdom perfectly captures how individual contributions create ripple effects throughout our tech community. When members share knowledge, organize events, or participate in discussions, they're not just helping GeeksBlabla - they're strengthening the entire Moroccan tech ecosystem. Each action, no matter how small, creates waves of positive change that benefit everyone. Whether it's a student finding inspiration in a podcast episode, a professional expanding their network at BlablaConf, or a developer growing through open-source contributions, these individual efforts combine to foster an environment of collective growth, learning, and innovation.
