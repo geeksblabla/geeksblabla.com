@@ -62,3 +62,5 @@ On this episode of Geeksblabla, The geeksblabla team members Mohammed aboullaite
 - [Deep learning course](https://www.coursera.org/specializations/deep-learning)
 - [Colab](https://colab.research.google.com/)
 - [تويشيات في تطبيق الرياضيات](https://www.facebook.com/AppliedMathsInDarija/)
+
+## Prepared and Presented by

@@ -67,7 +67,9 @@ In this episode of GeeksBlabla, our guests discuss how we can empower women in m
 
 01:57:00 - Conclusion
 
-## Prepared and Presented by :
+## Links
+
+## Prepared and Presented by
 
 [Meriem Zaid](https://twitter.com/_iMeriem)
 

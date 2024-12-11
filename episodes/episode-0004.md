@@ -24,7 +24,7 @@ In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZO
 
 00:00:00 - Intro.
 
-00:2:00 - Flash news: Microsoft acquisition of github.
+00:02:00 - Flash news: Microsoft acquisition of github.
 
 00:15:00 - Who's Smail El Azizi?
 
@@ -68,3 +68,5 @@ In this episode of GeeksBlabla, Geeksblabla team, with Amine MAAROUF, Maroua EZO
 - [Flat colors collections for inspiration](https://flatuicolors.com/)
 - [Another reference to choose colors](http://colorsupplyyy.com/app/)
 - [To learn UI: Steve Schoger](https://www.youtube.com/channel/UCxqiDtkXtOCNJdckODHk9YA)
+
+## Prepared and Presented by

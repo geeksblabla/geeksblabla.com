@@ -10,6 +10,8 @@ published: true
 
 In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan talk about what is Competitive Programing, How to become good at and why you need to be a part of the next competition.
 
+## Guests
+
 ## Notes
 
 00:00:00 - Introduction: Welcoming and presenting guests.
@@ -28,7 +30,7 @@ In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan
 
 01:10:00 - Q/A
 
-## Link
+## Links
 
 [MCPC chair](https://www.youtube.com/watch?v=aPOJ0w9Cc0w)
 
@@ -41,3 +43,5 @@ In this episode of GeeksBlabla, Geeksblabla team with the amazing Diaa and Adnan
 [SolverToBe](https://www.youtube.com/channel/UC2xOPGjIhLKsgUZEiunlzWQ)
 
 [Arabic Competitive Programming](https://www.youtube.com/user/nobody123497)
+
+## Prepared and Presented by

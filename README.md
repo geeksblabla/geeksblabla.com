@@ -114,7 +114,7 @@ Episode description
 
 [Link 2](https://www.example.com)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Host 1](https://example.com)
 ```

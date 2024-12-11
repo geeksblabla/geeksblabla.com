@@ -10,6 +10,8 @@ published: true
 
 On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk about Serverless && Faas, A complete introduction, Pros and Cons And why you should start working with Faas.
 
+## Guests
+
 ## Notes
 
 0:00:00 - Introduction
@@ -30,8 +32,10 @@ On this episode of Geeksblabla, Abderahim ,Mohammed , Amine and Youssouf Talk ab
 
 1:04:00 - Should I use serverless in my next Project ?
 
-## Link
+## Links
 
 - [Serverless Tools](https://serverless.css-tricks.com)
 - [Netlify](https://www.netlify.com/)
 - [AWS lambda](https://aws.amazon.com/lambda/)
+
+## Prepared and Presented by

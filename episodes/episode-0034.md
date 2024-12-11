@@ -21,6 +21,6 @@ In this episode, Abderrahim share with us some important practices and tips abou
 
 [Presentation slides](https://docs.google.com/presentation/d/1whJIMjPeOGyfjOuAGwmyPTr-pR5DkkA9McsIzgg0xgo/edit?fbclid=IwAR2kXpLL17bkv83Ehp9Ve-uXUscu7eaPc6OnoLeuDDGy-D2Vn8fDSqIb0Rg)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)

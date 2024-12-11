@@ -62,6 +62,6 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding i
 
 [DevC Marrakech group](https://www.facebook.com/groups/DevC.Marrakech/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Soufian El Foukahi](https://twitter.com/soufyanAI)

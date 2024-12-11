@@ -54,7 +54,7 @@ In this episode of GeeksBlabla, we discuss AR , VR & Game Dev .
 - [GAME DEV](https://gamedev.net/)
 - [GD CONF](https://gdconf.com/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Soufian El Foukahi](https://twitter.com/soufyanAI)
 

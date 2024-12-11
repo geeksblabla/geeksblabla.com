@@ -58,3 +58,5 @@ In this episode, Geeksblabla team talks about the Open source licenses & standar
 - [Choose a license #1](https://ufal.github.io/public-license-selector/)
 - [Choose a license #2](https://choosealicense.com/)
 - [Adding a license on github](https://help.github.com/en/articles/adding-a-license-to-a-repository)
+
+## Prepared and Presented by

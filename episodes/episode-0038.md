@@ -47,7 +47,7 @@ In this episode of GeeksBlabla, we discuss the success story for two young women
 
 - [Meriam blog](https://twitter.com/meriamkharbat)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)
 

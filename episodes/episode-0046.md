@@ -63,6 +63,6 @@ In this episode of GeeksBlabla, we discuss Mobile development with some Amazing 
 
 [AppCenter](http://appcenter.ms/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf EL Azizi](https://elazizi.com)

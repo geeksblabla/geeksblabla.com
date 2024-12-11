@@ -55,7 +55,7 @@ In this episode of GeeksBlabla, we discuss entrepreneurship and innovation with 
 
 ## Links
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)
 

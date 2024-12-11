@@ -46,7 +46,9 @@ In this episode of GeeksBlabla, we discuss with Mohamed Zakariae El Khdime about
 
 01:24:00 - Goodbye!
 
-## Prepared and Presented by :
+## Links
+
+## Prepared and Presented by
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 

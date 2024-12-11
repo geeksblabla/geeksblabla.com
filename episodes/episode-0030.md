@@ -71,7 +71,7 @@ In this episode of GeeksBlabla, we discuss remote working for developers, How to
 
 [Doist](https://doist.com/blog/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Soufian El Foukahi](https://twitter.com/soufyanAI)
 

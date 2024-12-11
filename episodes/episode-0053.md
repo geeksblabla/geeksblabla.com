@@ -76,8 +76,6 @@ Ask Me Anything episode #4 with our community members Youssouf, Meriem, Abdelfet
 
 ## Links
 
-- ...
-
 ## Prepared and Presented by
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)

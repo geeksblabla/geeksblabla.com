@@ -52,7 +52,9 @@ In this episode of GeeksBlabla, team talks about the Software security, definiti
 
 01:27:00 - Goodbye!
 
-## Prepared and Presented by :
+## Links
+
+## Prepared and Presented by
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 

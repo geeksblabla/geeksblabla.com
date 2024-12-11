@@ -63,7 +63,7 @@ In this episode of GeeksBlabla, we discuss with self-taught developers about the
 
 ## Links
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 - [Mohammed Aboullaite](https://twitter.com/laytoun)
 

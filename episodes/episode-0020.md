@@ -66,7 +66,7 @@ In this episode of GeeksBlabla, Geeksblabla team with the amazing Ahmed and Mouk
 
 [Upwork](https://www.upwork.com/)
 
-## Prepared and Presented by:
+## Prepared and Presented by
 
 [Soufian El Foukahi](https://twitter.com/soufyanAI)
 

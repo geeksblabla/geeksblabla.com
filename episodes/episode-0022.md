@@ -94,6 +94,8 @@ In this episode of GeeksBlabla, Geeksblabla team give some tips for succeeding a
 
 02:06:00 - Wrap up and good bye !
 
-## Link
+## Links
 
 [Rekrute Salary Simulator](https://www.rekrute.com/salaire-simulateur-maroc.html)
+
+## Prepared and Presented by

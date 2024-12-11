@@ -32,13 +32,7 @@ In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To 
 
 00:39:00 - What skills do you need to launch a successful side project ?
 
-00:45:00 - Side Project Step by Step:
-
-        * Validate Your idea
-        * MVP
-        * Find first costumers
-        * B2B vs B2C
-        * Go Public & Share your product
+00:45:00 - Side Project Step by Step: Validate Your idea, MVP, Find first costumers, B2B vs B2C, Go Public & Share your product
 
 01:18:00 - QA
 
@@ -59,7 +53,7 @@ In this episode of GeeksBlabla, we discuss Side Project & indie Hacking, How To 
 
 [Getting real](https://basecamp.com/books/Getting%20Real.pdf?fbclid=IwAR1XBkJQ_ddPMPOVLiLXald8HgmdIxQHC7f_Go5Jo8UaGI-14iVi4sm-mQs/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf El Azizi](https://elazizi.com)
 

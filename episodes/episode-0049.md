@@ -43,6 +43,6 @@ In this episode of GeeksBlabla, we discuss best practices to build a resume, how
 
 ## Links
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf EL Azizi](https://elazizi.com)

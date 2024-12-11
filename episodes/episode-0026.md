@@ -70,7 +70,7 @@ In this episode of GeeksBlabla, we discuss Java, community and leadership with B
 
 [Reach out xHub](https://x-hub.io/contact/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Meriem Zaid](https://twitter.com/_iMeriem)
 

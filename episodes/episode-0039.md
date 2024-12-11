@@ -57,6 +57,6 @@ In this episode of GeeksBlabla, we discuss blogging for developer, How to get st
 
 [Grammarly](https://grammarly.com/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf EL Azizi](https://elazizi.com)

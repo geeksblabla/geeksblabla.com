@@ -57,7 +57,7 @@ In this episode of GeeksBlabla, our guest Adnane Belmadiaf a frontend developer 
 
 [DRM issues](https://www.defectivebydesign.org/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Meriem Zaid](https://twitter.com/_iMeriem)
 

@@ -75,7 +75,7 @@ In this episode of GeeksBlabla we discuss, React, How to get started ,Core conce
 
 - [The Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 - [Soufian El Foukahi](https://twitter.com/soufyanAI)
 

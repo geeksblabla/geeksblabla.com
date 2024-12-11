@@ -61,8 +61,8 @@ In this episode of GeeksBlabla, we discuss Cybersecurity, Malware analysis and F
 - [Podcast URL](https://www.facebook.com/sfoukahi/videos/2003419829718683/)
 - [Mastering Mobile Forensics](https://www.amazon.com/Mastering-Mobile-Forensics-Soufiane-Tahiri-ebook/dp/B01DT4D5OG)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Soufian El Foukahi](https://twitter.com/soufyanAI)
 
-[Aicha]
+[Aicha](#)

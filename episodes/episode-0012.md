@@ -44,3 +44,5 @@ On this episode of Geeksblabla : The team Soufian (Host) , Abdelkader , El Husse
 - [Choose a license #2](https://choosealicense.com/)
 - [Code Triage](https://www.codetriage.com/)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
+
+## Prepared and Presented by

@@ -69,8 +69,6 @@ Ask Me Anything episode #2 with our community members Mohammed and Abdelkader, D
 
 ## Links
 
-...
-
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf EL Azizi](https://elazizi.com)

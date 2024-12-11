@@ -67,7 +67,7 @@ In this special episode of GeeksBlabla, some of its core team members discussed 
 
 - [GeeksBlabla website](https://geeksblabla.io/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 - [Soufian El Foukahi](https://twitter.com/soufyanAI)
 

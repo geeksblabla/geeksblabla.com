@@ -68,7 +68,7 @@ In this episode of GeeksBlabla, our guest Amine Raghib - a writer and founder of
 
 [Almohtarif Channel](https://www.youtube.com/channel/UCO58fldVogtwlz7c2PTeWrg)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 

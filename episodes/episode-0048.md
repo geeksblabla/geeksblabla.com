@@ -81,6 +81,6 @@ Ask Me Anything episode #3 with our community members Mohammed, Ismail and Youss
 
 [Daily UI Design](https://www.dailyui.co/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf EL Azizi](https://elazizi.com)

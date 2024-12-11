@@ -27,12 +27,6 @@ This episode is an AMA (Ask Me Anything ) with GeeksBlabla Team ,During this epi
 
 ## Notes
 
-...
-
 ## Links
 
-...
-
-## Prepared and Presented by :
-
-No One 😄
+## Prepared and Presented by

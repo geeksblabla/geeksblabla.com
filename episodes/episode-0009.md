@@ -62,7 +62,7 @@ In this episode of GeeksBlabla MSS, we welcome Taher Alami , He has been involve
 
 [abweb](https://www.abweb.biz/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 

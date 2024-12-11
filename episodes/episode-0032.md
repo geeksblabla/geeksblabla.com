@@ -13,17 +13,11 @@ In this episode We're welcoming 2 great heroes, Mohamed and Hamid are doing amaz
 
 ## Guests
 
-...
-
 ## Notes
-
-...
 
 ## Links
 
-...
-
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 

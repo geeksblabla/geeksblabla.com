@@ -35,7 +35,7 @@ In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gamepla
 
 0:24:00 - Have you been impressed or surprised by any recently?
 
-0:26:00 -Is there a favorite project or game title you’ve worked on recently and what made it fun for you personally?
+0:26:00 - Is there a favorite project or game title you’ve worked on recently and what made it fun for you personally?
 
 1:04:00 - Is working with an international team a game changer in your career and your learning path?
 
@@ -55,7 +55,7 @@ In this episode of GeeksBlabla, we discuss a success story of a Moroccan Gamepla
 
 ## Links
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 - [Meriem Zaid](https://twitter.com/_iMeriem)
 

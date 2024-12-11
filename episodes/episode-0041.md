@@ -61,6 +61,6 @@ In this episode of GeeksBlabla, we discuss with amazing folks How to get started
 
 [PHP The Right Way](https://phptherightway.com/)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf EL Azizi](https://elazizi.com)

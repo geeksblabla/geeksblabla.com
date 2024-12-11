@@ -50,4 +50,4 @@ On this episode of Geeksblabla : Soufian , Mohammed Aboullaite , Mohammed Ezzarg
 
 - [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do)
 
-...
+## Prepared and Presented by

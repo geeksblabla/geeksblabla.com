@@ -79,7 +79,7 @@ In this episode of GeeksBlabla, we discuss startuping with Yassine, the CEO of U
 - [Mixpanel's blog on analytics](https://mixpanel.com/blog/)
 - [Bizness B Nab](https://www.youtube.com/channel/UC_bxddqRoU6xWe1H5i4qfOg)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Meriem Zaid](https://twitter.com/_iMeriem)
 

@@ -26,12 +26,7 @@ In this episode of GeeksBlabla, we discuss JavaScript, History, Fundamental conc
 
 0:41:00 - Is Javascript a language for beginners?
 
-0:44:00 - Javascript Hard Part :
-
-- Scope
-- Hoisting
-- Event loop
-- Js engine
+0:44:00 - Javascript Hard Part : Scope, Hoisting, Event loop, Js engine
 
 1:00:00 - Javascript Ecosystem: Polyfills, bundlers, babel, Eslint.
 
@@ -53,7 +48,7 @@ In this episode of GeeksBlabla, we discuss JavaScript, History, Fundamental conc
 
 [JavaScript Visualized: Event Loop, Hoisting, Scope](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Soufian El Foukahi](https://twitter.com/soufyanAI)
 

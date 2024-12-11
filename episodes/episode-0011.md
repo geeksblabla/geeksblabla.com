@@ -60,7 +60,7 @@ In this episode of GeeksBlabla, The team and Badr Talk about Blockchain & Crypto
 
 [Blockchain by example](https://www.packtpub.com/big-data-and-business-intelligence/blockchain-example)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Mohammed Aboullaite](https://twitter.com/laytoun)
 

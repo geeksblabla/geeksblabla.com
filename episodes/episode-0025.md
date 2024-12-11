@@ -81,7 +81,7 @@ In this episode of GeeksBlabla, Mohammed, Amine, and Amine talk about Java langu
 - [Gang of Four Design Patterns Book](https://springframework.guru/gang-of-four-design-patterns/)
 - [Spring Framework Website](https://spring.io/projects/spring-framework)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Meriem Zaid](https://twitter.com/_iMeriem)
 

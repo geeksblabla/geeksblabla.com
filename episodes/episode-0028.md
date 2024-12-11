@@ -15,7 +15,7 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 
 - [Achraf Mansari](https://www.facebook.com/itsachrafmansari/)
 
-- [Ayman Riad Solh]()
+- [Ayman Riad Solh](#)
 
 ## Notes
 
@@ -59,7 +59,7 @@ A Special episode to encourage youth minds in the coding industry,In this episod
 
 - [Facebook DevC](https://www.facebook.com/groups/DevC.Casablanca/?hc_ref=ARQQY8zH-NAV8646DsgW8RNoO1DNoBuf-43ao4kIFvZZMJCV4jpw7-hSQ2C0DmFkkdI&ref=nf_target)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 - [Soufian El Foukahi](https://twitter.com/soufyanAI)
 

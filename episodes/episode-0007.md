@@ -16,7 +16,7 @@ On this episode of Geeksblabla hosted by (Mohammed Aboullaite) : The guests Souf
 
 00:00:00 - Introduction : Welcoming and presenting guests
 
-00:03:00: - What is the definition(s) of developer job ?
+00:03:00 - What is the definition(s) of developer job ?
 
 00:07:00 - How a new developers can choose the best profile for there skills ?
 
@@ -35,3 +35,5 @@ On this episode of Geeksblabla hosted by (Mohammed Aboullaite) : The guests Souf
 - [Medium](https://medium.com/)
 - [Dev.to](https://dev.to/)
 - [Technical Podcasts](https://www.freecodecamp.org/news/here-are-the-most-interesting-developer-podcasts-2019-edition-4e43063bf8a4/)
+
+## Prepared and Presented by

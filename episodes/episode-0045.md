@@ -73,7 +73,7 @@ In this episode of GeeksBlabla we discuss Angular with some Amazing Community fo
 
 [Angular in Depth](https://indepth.dev)
 
-## Prepared and Presented by :
+## Prepared and Presented by
 
 [Youssouf EL Azizi](https://elazizi.com)
 
