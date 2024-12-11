@@ -94,21 +94,21 @@
         "id": 16,
         "name": "Amine Maarouf",
         "link": "https://x.com/a_maaarouf",
-        "profile_image": "/about/images/team/default.jpg",
+        "profile_image": "/about/images/team/maarouf.jpg",
         "status": "past"
     },
     {
         "id": 17,
         "name": "Oussama Hyad",
         "link": "https://x.com/kaizendae",
-        "profile_image": "/about/images/team/default.jpg",
+        "profile_image": "/about/images/team/oussama.jpg",
         "status": "past"
     },
     {
         "id": 18,
         "name": "Mohammed Ez-zarghili",
         "link": "https://x.com/ezzarghili",
-        "profile_image": "/about/images/team/default.jpg",
+        "profile_image": "/about/images/team/ez-zarghili.jpg",
         "status": "past"
     },
     {
@@ -140,37 +140,44 @@
         "status": "active"
     },
     {
-        "id": 23,
-        "name": "Oumaima Khalil",
-        "link": "https://x.com/mouradxmt",
-        "profile_image": "/about/images/team/default.jpg",
-        "status": "active"
-    },
-    {
         "id": 24,
         "name": "Ismail El Azizi",
-        "link": "https://x.com/MIduoad",
+        "link": "https://www.linkedin.com/in/ismail-el-azizi",
         "profile_image": "/about/images/team/ismail.jpg",
-        "status": "active"
+        "status": "past"
     },
     {
         "id": 25,
         "name": "Nouamane Tazi",
-        "link": "https://x.com/mouradxmt",
-        "profile_image": "/about/images/team/default.jpg",
+        "link": "https://www.linkedin.com/in/nouamanetazi",
+        "profile_image": "/about/images/team/nouamane.jpg",
         "status": "active"
     },
     {
         "id": 26,
         "name": "Oumaima Khalil",
-        "link": "https://x.com/mouradxmt",
+        "link": "https://geeksblabla.io",
         "profile_image": "/about/images/team/default.jpg",
         "status": "active"
     },
     {
-        "id": 28,
+        "id": 29,
+        "name": "Ismail Tlemcani",
+        "link": "https://www.linkedin.com/in/ismailtlemcani/",
+        "profile_image": "/about/images/team/telmcani.jpg",
+        "status": "past"
+    },
+    {
+        "id": 30,
+        "name": "Hanane Ait Dabel",
+        "link": "https://www.linkedin.com/in/hanane-ait-dabel-3b679b162/",
+        "profile_image": "/about/images/team/hanane.jpg",
+        "status": "active"
+    },
+    {
+        "id": 31,
         "name": "You",
-        "link": "https://x.com/YourHandleHere",
+        "link": "https://tally.so/r/meqj6E",
         "profile_image": "/about/images/team/wewantu.jpg",
         "status": "active"
     }
