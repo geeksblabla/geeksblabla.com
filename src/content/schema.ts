@@ -77,9 +77,8 @@ export const authorSchema = z.object({
 export type ArticleFrontmatter = z.infer<typeof blogSchema>;
 
 export const teamSchema = z.object({
-  id: z.number(),
   name: z.string().min(1, "Name cannot be empty"),
-  x_handle: z.string().regex(/^@\w+$/, "Invalid Twitter handle format"),
+  link: z.string().url("Invalid URL format"),
   profile_image: z
     .string()
     .regex(/\.(jpg|jpeg|png|gif)$/, "Invalid image file format"),

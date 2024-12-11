@@ -2,154 +2,175 @@
     {
         "id": 1,
         "name": "Youssef El Azizi",
-        "x_handle": "@ElaziziYoussouf",
+        "link": "https://x.com/ElaziziYoussouf",
         "profile_image": "/about/images/team/yosef.jpg",
         "status": "active"
     },
     {
         "id": 2,
         "name": "Mohammed Aboullaite",
-        "x_handle": "@laytoun",
+        "link": "https://x.com/laytoun",
         "profile_image": "/about/images/team/laytoun.jpg",
         "status": "active"
     },
     {
         "id": 3,
         "name": "Mriem Zaid",
-        "x_handle": "@_iMeriem",
+        "link": "https://x.com/_iMeriem",
         "profile_image": "/about/images/team/imeriem.jpg",
         "status": "active"
     },
     {
         "id": 4,
         "name": "Abderrahim SOUBAI-ELIDRISI",
-        "x_handle": "@soub4i",
+        "link": "https://x.com/soub4i",
         "profile_image": "/about/images/team/isoubei.jpg",
         "status": "active"
     },
     {
         "id": 5,
         "name": "Otmane Fettal",
-        "x_handle": "@OFettal",
+        "link": "https://x.com/OFettal",
         "profile_image": "/about/images/team/ofettal.jpg",
         "status": "active"
     },
     {
         "id": 6,
         "name": "Adnan M'RAKCHI",
-        "x_handle": "@_admerra",
+        "link": "https://x.com/_admerra",
         "profile_image": "/about/images/team/adnan.jpg",
         "status": "active"
     },
     {
         "id": 7,
-        "name": "Chaimaa BRITEL",
-        "x_handle": "@ChaimaaBritel",
-        "profile_image": "/about/images/team/britel.jpg",
+        "name": "Redouane Soukaoui",
+        "link": "https://x.com/mouradxmt",
+        "profile_image": "/about/images/team/redouane.jpg",
         "status": "active"
     },
     {
         "id": 8,
-        "name": "Abdelati EL ASRI",
-        "x_handle": "@kaizendae",
-        "profile_image": "/about/images/team/kaizendae.jpg",
+        "name": "Oumaima Makhlouk",
+        "link": "https://x.com/mouradxmt",
+        "profile_image": "/about/images/team/oumaima.jpg",
         "status": "active"
     },
     {
         "id": 9,
-        "name": "Soufyan El Foukahi",
-        "x_handle": "@soufyanAI",
-        "profile_image": "/about/images/team/soufyan.jpg",
-        "status": "past"
-    },
-    {
-        "id": 7,
         "name": "Chaimaa BRITEL",
-        "x_handle": "@ChaimaaBritel",
+        "link": "https://x.com/ChaimaaBritel",
         "profile_image": "/about/images/team/britel.jpg",
         "status": "active"
-    },
-    {
-        "id": 8,
-        "name": "Abdelati EL ASRI",
-        "x_handle": "@kaizendae",
-        "profile_image": "/about/images/team/kaizendae.jpg",
-        "status": "active"
-    },
-    {
-        "id": 9,
-        "name": "Soufyan El Foukahi",
-        "x_handle": "@soufyanAI",
-        "profile_image": "/about/images/team/soufyan.jpg",
-        "status": "past"
     },
     {
         "id": 10,
-        "name": "Amine Hakkou",
-        "x_handle": "@amine_hakkou",
-        "profile_image": "/about/images/team/default.jpg",
-        "status": "past"
-    },
-    {
-        "id": 11,
-        "name": "Aicha Aferiat",
-        "x_handle": "@kaizendae",
-        "profile_image": "/about/images/team/default.jpg",
-        "status": "past"
-    },
-    {
-        "id": 12,
-        "name": "Amine Maarouf",
-        "x_handle": "@a_maaarouf",
-        "profile_image": "/about/images/team/default.jpg",
-        "status": "past"
+        "name": "Abdelati EL ASRI",
+        "link": "https://x.com/kaizendae",
+        "profile_image": "/about/images/team/kaizendae.jpg",
+        "status": "active"
     },
     {
         "id": 13,
-        "name": "Oussama Hyad",
-        "x_handle": "@kaizendae",
-        "profile_image": "/about/images/team/default.jpg",
+        "name": "Soufyan El Foukahi",
+        "link": "https://x.com/soufyanAI",
+        "profile_image": "/about/images/team/soufyan.jpg",
         "status": "past"
     },
     {
         "id": 14,
-        "name": "Mohammed Ez-zarghili",
-        "x_handle": "@ezzarghili",
-        "profile_image": "/about/images/team/default.jpg",
+        "name": "Amine Hakkou",
+        "link": "https://x.com/amine_hakkou",
+        "profile_image": "/about/images/team/amine.jpg",
         "status": "past"
     },
     {
         "id": 15,
+        "name": "Aicha Aferiat",
+        "link": "https://x.com/kaizendae",
+        "profile_image": "/about/images/team/default.jpg",
+        "status": "past"
+    },
+    {
+        "id": 16,
+        "name": "Amine Maarouf",
+        "link": "https://x.com/a_maaarouf",
+        "profile_image": "/about/images/team/default.jpg",
+        "status": "past"
+    },
+    {
+        "id": 17,
+        "name": "Oussama Hyad",
+        "link": "https://x.com/kaizendae",
+        "profile_image": "/about/images/team/default.jpg",
+        "status": "past"
+    },
+    {
+        "id": 18,
+        "name": "Mohammed Ez-zarghili",
+        "link": "https://x.com/ezzarghili",
+        "profile_image": "/about/images/team/default.jpg",
+        "status": "past"
+    },
+    {
+        "id": 19,
         "name": "Afaf Ridaoui",
-        "x_handle": "@__iamaf",
+        "link": "https://x.com/__iamaf",
         "profile_image": "/about/images/team/Afaf.jpg",
         "status": "active"
     },
     {
-        "id": 16,
+        "id": 20,
         "name": "Hamza Makraz",
-        "x_handle": "@hamza_makraz",
+        "link": "https://x.com/hamza_makraz",
         "profile_image": "/about/images/team/hamza.jpg",
         "status": "active"
     },
     {
-        "id": 17,
+        "id": 21,
         "name": "Mohamed Daoudi",
-        "x_handle": "@MIduoad",
+        "link": "https://x.com/MIduoad",
         "profile_image": "/about/images/team/daoudi.jpg",
         "status": "active"
     },
     {
-        "id": 18,
+        "id": 22,
         "name": "Mourad Mtouaa",
-        "x_handle": "@mouradxmt",
+        "link": "https://x.com/mouradxmt",
         "profile_image": "/about/images/team/mourad.jpg",
         "status": "active"
     },
     {
-        "id": 19,
+        "id": 23,
+        "name": "Oumaima Khalil",
+        "link": "https://x.com/mouradxmt",
+        "profile_image": "/about/images/team/default.jpg",
+        "status": "active"
+    },
+    {
+        "id": 24,
+        "name": "Ismail El Azizi",
+        "link": "https://x.com/MIduoad",
+        "profile_image": "/about/images/team/ismail.jpg",
+        "status": "active"
+    },
+    {
+        "id": 25,
+        "name": "Nouamane Tazi",
+        "link": "https://x.com/mouradxmt",
+        "profile_image": "/about/images/team/default.jpg",
+        "status": "active"
+    },
+    {
+        "id": 26,
+        "name": "Oumaima Khalil",
+        "link": "https://x.com/mouradxmt",
+        "profile_image": "/about/images/team/default.jpg",
+        "status": "active"
+    },
+    {
+        "id": 28,
         "name": "You",
-        "x_handle": "@YourHandleHere",
+        "link": "https://x.com/YourHandleHere",
         "profile_image": "/about/images/team/wewantu.jpg",
         "status": "active"
     }
