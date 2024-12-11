@@ -5,7 +5,7 @@ import { getCollection } from "astro:content";
 const teamCollection = await getCollection("team");
 const teamMembers = teamCollection.map(member => ({
   name: member.data.name,
-  x_handle: member.data.x_handle,
+  link: member.data.link,
   profile_image: member.data.profile_image,
   status: member.data.status,
 }));
@@ -30,7 +30,7 @@ const pastMembers = teamMembers.filter(member => member.status === "past");
           <Member
             key={member.name}
             name={member.name}
-            x_handle={member.x_handle}
+            link={member.link}
             profile_image={member.profile_image}
           />
         ))
@@ -57,7 +57,7 @@ const pastMembers = teamMembers.filter(member => member.status === "past");
           <Member
             key={member.name}
             name={member.name}
-            x_handle={member.x_handle}
+            link={member.link}
             profile_image={member.profile_image}
           />
         ))
