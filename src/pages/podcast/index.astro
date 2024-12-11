@@ -5,6 +5,7 @@ import Stats from "@/components/podcast/stats.astro";
 import EpisodeTypes from "@/components/podcast/episode-types.astro";
 import FeaturedEpisodes from "@/components/podcast/featured-episodes.astro";
 import Planning from "@/components/podcast/planning.astro";
+import { SITE } from "@/config";
 
 // import { getCollection } from "astro:content";
 
@@ -14,7 +15,7 @@ import Planning from "@/components/podcast/planning.astro";
 // );
 ---
 
-<Layout>
+<Layout title={`Podcast | ${SITE.title}`}>
   <Hero />
   <Stats />
   <EpisodeTypes />

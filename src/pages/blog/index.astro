@@ -17,7 +17,7 @@ const totalPages = getPageNumbers(sortedArticles.length);
 const paginatedArticles = sortedArticles.slice(0, SITE.postPerPage);
 ---
 
-<Layout title={`Articles | ${SITE.title}`}>
+<Layout title={`Blog | ${SITE.title}`}>
   <Header />
   <BlogHero
     latestArticle={sortedArticles[0]}
