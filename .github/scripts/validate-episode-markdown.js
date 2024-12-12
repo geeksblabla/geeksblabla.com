@@ -1,16 +1,30 @@
 // @ts-check
-import { readFileSync } from "fs";
+import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 
 const markdownLinkRegex = /^(?:[-*]\s*)?\[.+\]\(.+\)$/;
 
 /**
+ * @typedef {Object} ValidationError
+ * @property {number} line - The line number where the error occurred
+ * @property {string} message - The error message
+ */
+
+/**
+ * @typedef {Object} ValidationResult
+ * @property {string} episodePath - The episode file path
+ * @property {boolean} isValid - Whether the episode is valid
+ * @property {ValidationError[]} errors - The array of errors
+ */
+
+/**
  * Validate the frontmatter of an episode
  * @param {Object} frontMatter - The frontmatter object
- * @param {Array<{line: number, message: string}>} errors - The array of errors
+ * @returns {ValidationError[]} errors - The array of errors
  */
-const validateFrontMatter = (frontMatter, errors) => {
+const validateFrontMatter = frontMatter => {
+  const errors = [];
   // Enhanced frontmatter validation based on schema.ts
   const requiredFrontMatter = [
     "date",
@@ -93,34 +107,36 @@ const validateFrontMatter = (frontMatter, errors) => {
       message: "Featured must be a boolean value",
     });
   }
+
+  return errors;
 };
 
 /**
  * Validate the markdown file for an episode
- * @param {string} episodeNumber - The episode number to validate
- * @returns {Object} - An object containing the validation results
+ * @param {string} input - Either episode number or full file path
+ * @returns {ValidationResult} - An object containing the validation results
  */
-
-function validateEpisodeMarkdown(episodeNumber) {
-  /**
-   * @type {Array<{line: number, message: string}>}
-   */
+function validateEpisodeMarkdown(input) {
   const errors = [];
+  // Determine if input is episode number or path
+  const filePath = input.includes(".md")
+    ? input
+    : join(
+        process.cwd(),
+        "episodes",
+        `episode-${String(input).padStart(4, "0")}.md`
+      );
   try {
-    // Read the episode file
-    const paddedNumber = String(episodeNumber).padStart(4, "0");
-    const filePath = join(
-      process.cwd(),
-      "episodes",
-      `episode-${paddedNumber}.md`
-    );
     const fileContent = readFileSync(filePath, "utf-8");
     const lines = fileContent.split("\n");
 
     // Parse frontmatter and content
     const { data: frontMatter } = matter(fileContent);
 
-    validateFrontMatter(frontMatter, errors);
+    const frontMatterErrors = validateFrontMatter(frontMatter);
+    if (frontMatterErrors.length > 0) {
+      errors.push(...frontMatterErrors);
+    }
 
     // Find line numbers for each section
     const sectionLines = {
@@ -223,6 +239,7 @@ function validateEpisodeMarkdown(episodeNumber) {
     }
 
     return {
+      episodePath: filePath,
       isValid: errors.length === 0,
       errors,
     };
@@ -232,39 +249,89 @@ function validateEpisodeMarkdown(episodeNumber) {
       message: `Failed to read or parse episode file: ${error.message}`,
     });
     return {
+      episodePath: filePath,
       isValid: false,
       errors,
     };
   }
 }
 
-// Get episode number from command line argument
-const episodeNumber = process.argv[2];
-if (!episodeNumber) {
-  console.error("Please provide an episode number");
-  process.exit(1);
+/**
+ * Validate all episodes
+ * @returns {ValidationResult[]} errors - The array of errors
+ */
+function validateAllEpisodes() {
+  const results = [];
+  const episodesDir = join(process.cwd(), "episodes");
+  let episodeCount = 0;
+  try {
+    const files = readdirSync(episodesDir);
+    episodeCount = files.filter(
+      file => file.startsWith("episode-") && file.endsWith(".md")
+    ).length;
+  } catch (error) {
+    console.error("Failed to read episodes directory:", error.message);
+    process.exit(1);
+  }
+
+  if (episodeCount === 0) {
+    console.error("No episodes found in episodes directory");
+    process.exit(1);
+  }
+
+  for (let i = 1; i <= episodeCount; i++) {
+    const paddedNumber = String(i).padStart(4, "0");
+    const result = validateEpisodeMarkdown(paddedNumber);
+    results.push(result);
+  }
+
+  return results;
 }
 
 const main = async () => {
   let hasErrors = false;
   let totalErrors = 0;
+  const input = process.argv[2];
 
-  for (let i = 1; i <= 192; i++) {
-    const paddedNumber = String(i).padStart(4, "0");
-    const { isValid, errors } = validateEpisodeMarkdown(paddedNumber);
+  if (!input) {
+    console.info("No input provided, validating all episodes");
+    const results = validateAllEpisodes();
+    if (results.length > 0) {
+      hasErrors = true;
+      console.error("🚨 Validation failed for some episodes. Errors:");
+      results.forEach(result => {
+        if (!result.isValid) {
+          totalErrors++;
+          console.error(`\n❌ ${result.episodePath.split("/").pop()}:`);
+          result.errors.forEach(error => {
+            console.error(`Line ${error.line}: ${error.message}`);
+          });
+          console.error("");
+        } else {
+          // console.log(`✅ Good Job! ${result.episodePath} is valid`);
+        }
+      });
+    }
+  }
 
+  // If it's a path, validate single file
+  if (input) {
+    const { isValid, errors } = validateEpisodeMarkdown(input);
     if (!isValid) {
       hasErrors = true;
-      console.error(`\nValidation failed for episode ${paddedNumber}. Errors:`);
+      console.error(`\nValidation failed for ${input}. Errors:`);
       errors.forEach(error => {
         totalErrors++;
         console.error(`Line ${error.line}: ${error.message}`);
       });
-      console.error("\n");
+    } else {
+      console.log(`✅ Good Job! ${input} is valid`);
     }
   }
 
-  console.log(`Total errors: ${totalErrors}`);
+  if (totalErrors > 0) {
+    console.log(`Total errors: ${totalErrors}`);
+  }
 
   if (hasErrors) {
     process.exit(1);
