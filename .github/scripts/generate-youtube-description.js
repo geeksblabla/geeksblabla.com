@@ -14,22 +14,23 @@ const renderTitle = title => {
 
 /**
  * Generates a YouTube description from an episode markdown file
- * @param {string} episodeNumber - The episode number to generate description for
- * @returns {string} The formatted YouTube description
+ * @param {string} input - Either episode number or full file path
+ * @returns {{youtube: string, description: string}} The formatted YouTube description
  */
-function generateYoutubeDescription(episodeNumber) {
+export function generateYoutubeDescription(input) {
   try {
-    // Pad episode number with zeros
-    const paddedNumber = episodeNumber.padStart(4, "0");
-    const filePath = join(
-      process.cwd(),
-      "episodes",
-      `episode-${paddedNumber}.md`
-    );
+    // Determine if input is episode number or path
+    const filePath = input.includes(".md")
+      ? input
+      : join(
+          process.cwd(),
+          "episodes",
+          `episode-${String(input).padStart(4, "0")}.md`
+        );
 
     // Read and parse the markdown file
     const fileContent = readFileSync(filePath, "utf8");
-    const { content } = matter(fileContent);
+    const { data: frontmatter, content } = matter(fileContent);
 
     // Build description
     let description = ``;
@@ -40,7 +41,6 @@ function generateYoutubeDescription(episodeNumber) {
       .replace(/## Links/g, renderTitle("🔗 Links"))
       .replace(/## Guests/g, renderTitle("👥 Guests"))
       .replace(/## Prepared and Presented by/g, renderTitle("🎤 Hosts"))
-      // Convert markdown links to "title: link" format
       .replace(/\[(.*?)\]\((.*?)\)/g, "$1: $2");
 
     description += formattedContent;
@@ -55,23 +55,33 @@ function generateYoutubeDescription(episodeNumber) {
     description += `GitHub: https://github.com/geeksblabla\n\n`;
     description += `Visit our website: https://geeksblabla.io\n`;
 
-    // Add a detailed description of the podcast in Moroccan Darija with Arabic letters
+    // Add a detailed description of the podcast in Moroccan Darija
     description += `\n\n🎙️ جيكس بلابلا هو بودكاست ديال الكوميونيتي فين كنديرو نقاشات شيقة و ممتعة على مواضيع مختلفة في عالم التكنولوجيا مع ناس مميزين من الكوميونيتي ديالنا.\n`;
     description += `كنلتقاو كل نهار الأحد على 8 ديال الليل، وجهد راسك باش تتعلم و تستافد معانا فهاد النقاشات حول أحدث المواضيع التقنية بالدارجة المغربية. 🚀\n\n`;
     description += `#GeeksBlabla #darija  #تكنولوجيا #المغرب #برمجة #مبرمجين_مغاربة #تقنية #بودكاست_مغربي #تعلم_البرمجة #مطورين #تكنولوجيا_المعلومات #مجتمع_البرمجة #تطوير_الويب #دروس_برمجة #تقنية_المعلومات`;
-    return description;
+
+    // Return object with frontmatter and description
+    return {
+      youtube: frontmatter.youtube,
+      description,
+    };
   } catch (error) {
     console.error("Error generating description:", error);
     process.exit(1);
   }
 }
 
-// Get episode number from command line argument
-const episodeNumber = process.argv[2];
-if (!episodeNumber) {
-  console.error("Please provide an episode number");
-  process.exit(1);
-}
+// Main execution
+const main = () => {
+  const input = process.argv[2];
 
-const description = generateYoutubeDescription(episodeNumber);
-console.log(description);
+  if (!input) {
+    console.error("Please provide an episode number or file path");
+    process.exit(1);
+  }
+
+  const result = generateYoutubeDescription(input);
+  console.log(JSON.stringify(result, null, 2));
+};
+
+main();
