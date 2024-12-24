@@ -47,11 +47,13 @@ I’m not saying you have to say yes to everything (it maybe be not the healthie
 Opportunities follow the laws of physics: either you move toward them, or they move toward you. The bigger the opportunity, the harder it is for it to come to you 😉.
 
 #### Useful resources
-🔗 [Geeksblabla]((https://x.com/geeksblabla): Follow us on social media. We often share Moroccan tech events.
+🔗 [Geeksblabla](https://www.linkedin.com/company/geeksblabla-community/): Follow us on social media. We often share Moroccan tech events.
 🔗 [Morocco Valley](https://moroccovalley.ai/): Morocco Valley are doing a great job curating Moroccan tech and AI events.
 🔗 [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda): CFP agenda for tech events all over the world.
 🔗 [Devpost](https://devpost.com/): A listing and a community around hackathon world-wide.
 🔗 [Hackathon.com](https://www.hackathon.com/): Same as Devpost but is more general.
+
+> 💡 Tip: If you can't find the community or event that matches your interests, take the initiative and create it 😉.
 
 ## 3. Don’t fear unfinished projects
 
