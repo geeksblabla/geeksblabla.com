@@ -29,10 +29,11 @@ All in all, keep your brain active and working. The best way to do that? Learn.
 > 💡 Tip: Mix slow learning experiences, like reading books or taking courses, with faster ones, like watching YouTube tutorials or reading blog posts. This will train your brain to adapt to different modes of learning and help you create your own style.
 
 #### Useful resources
-🔗 [Awesome Moroccan podcasts](https://awesome-morocco.dev/podcasts): List of Moroccan tech podcasts.
-🔗 [The Missing Semester](https://www.missingsemester.io/): Courses about useful topics often not thaught in school.
-🔗 [MIT Courseware](https://ocw.mit.edu/): MIT course about various tech fields.
-🔗 [Roadmap.sh](https://roadmap.sh/): Roadmap for Software Engineers with resources and projects.
+
+- 🔗 [Awesome Moroccan podcasts](https://awesome-morocco.dev/podcasts): List of Moroccan tech podcasts.
+- 🔗 [The Missing Semester](https://www.missingsemester.io/): Courses about useful topics often not thaught in school.
+- 🔗 [MIT Courseware](https://ocw.mit.edu/): MIT course about various tech fields.
+- 🔗 [Roadmap.sh](https://roadmap.sh/): Roadmap for Software Engineers with resources and projects.
 
 ## 2. Keep Moving
 
@@ -40,18 +41,19 @@ If there’s one thing I want you to take away from this post, it’s this: Move
 
 Do whatever you want, as long as you move. When you move, you meet new people, expose yourself to new ideas, gain experiences, and unlock opportunities.
 
-In my fourth year of school, I started saying “yes” to everything. That year was packed with events and connections, many of which helped me find internships and my first job. 
+In my fourth year of school, I started saying “yes” to everything. That year was packed with events and connections, many of which helped me find internships and my first job.
 
 I’m not saying you have to say yes to everything (it maybe be not the healthiest approach) but as long as you’re putting yourself out there, you’re increasing your chances of landing opportunities.
 
 Opportunities follow the laws of physics: either you move toward them, or they move toward you. The bigger the opportunity, the harder it is for it to come to you 😉.
 
 #### Useful resources
-🔗 [Geeksblabla](https://www.linkedin.com/company/geeksblabla-community/): Follow us on social media. We often share Moroccan tech events.
-🔗 [Morocco Valley](https://moroccovalley.ai/): Morocco Valley are doing a great job curating Moroccan tech and AI events.
-🔗 [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda): CFP agenda for tech events all over the world.
-🔗 [Devpost](https://devpost.com/): A listing and a community around hackathon world-wide.
-🔗 [Hackathon.com](https://www.hackathon.com/): Same as Devpost but is more general.
+
+- 🔗 [Geeksblabla](https://www.linkedin.com/company/geeksblabla-community/): Follow us on social media. We often share Moroccan tech events.
+- 🔗 [Morocco Valley](https://moroccovalley.ai/): Morocco Valley are doing a great job curating Moroccan tech and AI events.
+- 🔗 [Developers Conferences Agenda](https://github.com/scraly/developers-conferences-agenda): CFP agenda for tech events all over the world.
+- 🔗 [Devpost](https://devpost.com/): A listing and a community around hackathon world-wide.
+- 🔗 [Hackathon.com](https://www.hackathon.com/): Same as Devpost but is more general.
 
 > 💡 Tip: If you can't find the community or event that matches your interests, take the initiative and create it 😉.
 
@@ -66,8 +68,9 @@ It took me a lot of time and frustration to accept the fact that it’s okay to 
 > 💡 Tip: Before starting a project, define its Definition of Done (DoD) and involve others (contributors, peers, clients, etc.) in the process. This helps with continuity and keeps you motivated to finish or at least make progress on the project.
 
 #### Useful resources
-🔗 [ALTs Morocco](https://x.com/altsmorocco): A community of young Moroccan builders.
-🔗 [Product Hunt](https://www.producthunt.com/): Get inspired and Build your project in Public.
+
+- 🔗 [ALTs Morocco](https://x.com/altsmorocco): A community of young Moroccan builders.
+- 🔗 [Product Hunt](https://www.producthunt.com/): Get inspired and Build your project in Public.
 
 ## 4. Take a step back, be different
 
@@ -82,17 +85,18 @@ Now that I’m saying it, it seems obvious. But as a student, it’s not. It’s
 Take a step back and always look for ways to differentiate yourself from your peers. This is where moving and working on unfinished projects come in handy. 😄
 
 #### Useful resources
-🔗 [Making out the most out of your PFE internship](https://www.youtube.com/watch?v=uhLeoSeZxz8): Geeksblala's podcast episode about PFE interships.
-🔗 [Computer Science Morocco Community](https://www.youtube.com/@cs-morocco): Moroccan community for people interested in competetive programming and software engineering in general.
-🔗 [Build your own X](https://github.com/codecrafters-io/build-your-own-x): Collection of resources on how to build common software from scratch.
+
+- 🔗 [Making out the most out of your PFE internship](https://www.youtube.com/watch?v=uhLeoSeZxz8): Geeksblala's podcast episode about PFE interships.
+- 🔗 [Computer Science Morocco Community](https://www.youtube.com/@cs-morocco): Moroccan community for people interested in competetive programming and software engineering in general.
+- 🔗 [Build your own X](https://github.com/codecrafters-io/build-your-own-x): Collection of resources on how to build common software from scratch.
 
 ## 5. Use school projects to your advantage
 
 School projects are a fantastic opportunity to learn. Even better if they’re fun and interesting.
 
-My advice is always to try to make your school projects work for you. 
+My advice is always to try to make your school projects work for you.
 
-First, if possible, negotiate the topic to align with your interests. 
+First, if possible, negotiate the topic to align with your interests.
 
 Then focus on what is offers you the most value and delegate the less interesting parts to your teammates, open-source code, or even no-code tools.
 
@@ -101,11 +105,13 @@ Finally, publish the project and make it available for everyone to check. This w
 All of this not only helps you stay engaged but also differentiates your work, even if it’s technically the same project as everyone else’s.
 
 #### Useful resources
-🔗 [SaaS Lifecycle in Morocco](https://www.youtube.com/watch?v=0R7eUTy51UQ): Geeksblabla's episode about SaaS.
-🔗 [No Code tools directory](https://www.nocode.tech/tools): List of no-code tools
-🔗 [10 Tips To Host Your Web Apps For Free](https://blog.patricktriest.com/host-webapps-free/): Good article about hosting web apps for free.
+
+- 🔗 [SaaS Lifecycle in Morocco](https://www.youtube.com/watch?v=0R7eUTy51UQ): Geeksblabla's episode about SaaS.
+- 🔗 [No Code tools directory](https://www.nocode.tech/tools): List of no-code tools
+- 🔗 [10 Tips To Host Your Web Apps For Free](https://blog.patricktriest.com/host-webapps-free/): Good article about hosting web apps for free.
 
 ## 6. Contribute to open source
+
 This is one of the most overrated yet invaluable pieces of advice I got as a student.
 
 Back then, I thought: How can someone who doesn’t even know if HTML is a programming language contribute to open source?
@@ -119,11 +125,12 @@ Even without contributing a single line of code, this process will teach you how
 > 💡 Tip: Building your own open-source project also counts as OSS contribution. 😉
 
 #### Useful resources
-🔗 [Open Source & Hacktoberfest 21](https://www.youtube.com/watch?v=T0ebJvUiDG4): A Geeksblabla episode about Open Source.
-🔗 [Moroccan Open Source projects](https://awesome-morocco.dev/open-source): List of Moroccan Open Source projects.
-🔗 [Open Source Guide](https://opensource.guide/): Various guides on how to contribute to open source.
-🔗 [Up for grabs](https://up-for-grabs.net/#/): A curation of new contributor friendly issues on various OSS projects.
-🔗 [JAM stack](https://jamstack.org/): Everything you need to start a Blog.
+
+- 🔗 [Open Source & Hacktoberfest 21](https://www.youtube.com/watch?v=T0ebJvUiDG4): A Geeksblabla episode about Open Source.
+- 🔗 [Moroccan Open Source projects](https://awesome-morocco.dev/open-source): List of Moroccan Open Source projects.
+- 🔗 [Open Source Guide](https://opensource.guide/): Various guides on how to contribute to open source.
+- 🔗 [Up for grabs](https://up-for-grabs.net/#/): A curation of new contributor friendly issues on various OSS projects.
+- 🔗 [JAM stack](https://jamstack.org/): Everything you need to start a Blog.
 
 ## 7. Customize your work environment
 
@@ -136,9 +143,10 @@ Setting up a good environment takes time, so start experimenting while you’re 
 The earlier you start, the better. And the process of building your setup will teach you skills that’ll make you a better software engineer.
 
 #### Useful resources
-🔗 [Unix Customization community](https://www.reddit.com/r/unixporn/)
-🔗 [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles)
-🔗 [Terminals are sexy](https://github.com/k4m4/terminals-are-sexy)
+
+- 🔗 [Unix Customization community](https://www.reddit.com/r/unixporn/)
+- 🔗 [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles)
+- 🔗 [Terminals are sexy](https://github.com/k4m4/terminals-are-sexy)
 
 ## 8. Use your student privileges
 
@@ -146,18 +154,19 @@ One of the trickiest parts of being a student is having limited financial resour
 
 When I was a student, I’d often bargain using the classic “Hna ghir talaba” line. Surprisingly, many students underutilize their status when it comes to accessing resources.
 
-Beyond free resources like free-for-dev, students can access programs like the GitHub Student Pack, which includes free or discounted plans for cloud providers, industry-grade IDEs, and learning platforms. 
+Beyond free resources like free-for-dev, students can access programs like the GitHub Student Pack, which includes free or discounted plans for cloud providers, industry-grade IDEs, and learning platforms.
 
 All you need is a university email or a student certificate.
 
 > 💡 Tip: If a product you like isn’t on these lists, email the founders or support team for a student discount. It sometimes works.
 
 #### Useful resources
-🔗 [GitHub Student Developer Pack](https://education.github.com/pack): Best pack for tech students. It contains many goodies.
-🔗 [Azure for Students](https://azure.microsoft.com/en-us/free/students/): Free Azure cloud credits.
-🔗 [Awesome Students](https://github.com/atilatech/awesome-students): A List of resources free for students.
-🔗 [Free For Dev](https://free-for.dev/#/): List of free resources for developers and builders.
-🔗 [Free Stuff](https://freestuff.dev/): Similar to free for dev.
+
+- 🔗 [GitHub Student Developer Pack](https://education.github.com/pack): Best pack for tech students. It contains many goodies.
+- 🔗 [Azure for Students](https://azure.microsoft.com/en-us/free/students/): Free Azure cloud credits.
+- 🔗 [Awesome Students](https://github.com/atilatech/awesome-students): A List of resources free for students.
+- 🔗 [Free For Dev](https://free-for.dev/#/): List of free resources for developers and builders.
+- 🔗 [Free Stuff](https://freestuff.dev/): Similar to free for dev.
 
 ## 9. Have fun
 
@@ -166,8 +175,8 @@ Travel whenever you can, read books, join local communities, learn an instrument
 School is great and all, but on its own, it’s often not enough to make you a well-rounded software engineer and a good human being.
 
 #### Useful resources
-🔗 [Instructables](https://www.instructables.com/): A huge DIY community.
-🔗 [Meetup](https://www.meetup.com): Explore meetups an events near you.
-🔗 [Mrrakc Maps](https://maps.mrrakc.com/): A curation of maps for various regions of Morocco.
-🔗 [Project Gutenberg](https://www.gutenberg.org/): A huge collection of free books.
 
+- 🔗 [Instructables](https://www.instructables.com/): A huge DIY community.
+- 🔗 [Meetup](https://www.meetup.com): Explore meetups an events near you.
+- 🔗 [Mrrakc Maps](https://maps.mrrakc.com/): A curation of maps for various regions of Morocco.
+- 🔗 [Project Gutenberg](https://www.gutenberg.org/): A huge collection of free books.
