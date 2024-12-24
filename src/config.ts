@@ -67,10 +67,12 @@ export const FORMS_SUBMISSIONS: FormsSubmissions[] = [
   {
     name: "Join the core team",
     url: "https://tally.so/r/meqj6E",
+    redirect: "join",
   },
   {
     name: "Contribute to the community",
     url: "/blog/contribute-to-geeksblabla",
+    redirect: "contribute",
   },
   {
     name: "Suggest an episode or guests",
@@ -79,5 +81,6 @@ export const FORMS_SUBMISSIONS: FormsSubmissions[] = [
   {
     name: "Feedback & suggestions",
     url: "/feedback",
+    redirect: "feedback",
   },
 ];

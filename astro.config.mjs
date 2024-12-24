@@ -10,7 +10,9 @@ import { SITE } from "./src/config";
 import mdx from "@astrojs/mdx";
 import pagefind from "astro-pagefind";
 import netlify from "@astrojs/netlify";
+import { getAstroRedirects } from "./src/redirects";
 
+const redirects = getAstroRedirects();
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -23,6 +25,7 @@ export default defineConfig({
   build: {
     format: "file",
   },
+  redirects,
 
   integrations: [
     tailwind({

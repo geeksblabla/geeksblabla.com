@@ -22,4 +22,5 @@ export type SocialObjects = {
 export type FormsSubmissions = {
   name: string;
   url: string;
+  redirect?: string;
 };
