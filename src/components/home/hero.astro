@@ -6,7 +6,7 @@ import HeroAnimation from "./hero-animation.astro";
 ---
 
 <section class="relative overflow-hidden bg-[#DCE9FA]">
-  <div class="absolute inset-0 z-0 hidden lg:block">
+  <div class="absolute inset-0 z-0 lg:block">
     <div class="bg-grid-pattern absolute inset-0 opacity-10"></div>
   </div>
   <Header />
@@ -14,9 +14,9 @@ import HeroAnimation from "./hero-animation.astro";
     <div class="flex flex-col items-center lg:flex-row">
       <div class="z-10">
         <h1
-          class="motion-preset-slide-down block w-full max-w-screen-lg text-center font-sans text-heading-lg font-bold md:hidden md:text-left md:text-title"
+          class="motion-preset-slide-down mt-8 block w-full max-w-screen-lg text-center font-sans text-3xl font-extrabold md:hidden md:text-left md:text-title"
         >
-          Shaping the future of Moroccan IT community, one step at a time
+          Shaping the future of Moroccan Tech community, one step at a time
         </h1>
 
         <div
@@ -28,7 +28,7 @@ import HeroAnimation from "./hero-animation.astro";
           <p
             class="m-preset-typewriter-[22] motion-delay-[500ms] motion-loop-once"
           >
-            Moroccan IT community,
+            Moroccan Tech community,
           </p>
           <p
             class="m-preset-typewriter-[18] motion-delay-[1000ms] motion-loop-once"
@@ -37,7 +37,7 @@ import HeroAnimation from "./hero-animation.astro";
           </p>
         </div>
         <p
-          class="motion-preset-slide-down my-8 max-w-[600px] text-center font-sans text-label-sm font-thin motion-delay-[1200ms] motion-ease-spring-smooth md:text-left"
+          class="text-md motion-preset-slide-down my-4 max-w-[600px] text-center font-sans font-thin motion-delay-[1200ms] motion-ease-spring-smooth md:my-8 md:text-left md:text-label-sm"
         >
           Your journey from learning to leading unfolds: insightful Podcast,
           aspiring videos, cutting edge OSS projects, in depth conferences and
@@ -70,10 +70,16 @@ import HeroAnimation from "./hero-animation.astro";
 
 <style>
   .bg-grid-pattern {
-    background-image: linear-gradient(to right, #000 1px, transparent 1px),
-      linear-gradient(to bottom, #000 1px, transparent 1px);
-    background-size: 200px 200px;
+    background-image: linear-gradient(to right, #636161 1px, transparent 1px),
+      linear-gradient(to bottom, #636161 1px, transparent 1px);
+    background-size: 100px 100px; /* Smaller squares for mobile screens */
     animation: move-grid 8s linear infinite 2s;
+  }
+
+  @media (min-width: 768px) {
+    .bg-grid-pattern {
+      background-size: 200px 200px; /* Larger squares for larger screens */
+    }
   }
 
   @keyframes move-grid {

@@ -16,7 +16,7 @@ const lastFeaturedEpisode = getRandomEpisode(podcast);
 ---
 
 <section class="relative overflow-hidden bg-[#D4E3DE]">
-  <div class="absolute inset-0 z-0 hidden lg:block">
+  <div class="absolute inset-0 z-0 lg:block">
     <div class="bg-grid-pattern absolute inset-0 opacity-10"></div>
   </div>
   <Header />
@@ -24,7 +24,7 @@ const lastFeaturedEpisode = getRandomEpisode(podcast);
     <div class="flex flex-col items-center lg:flex-row">
       <div class="z-10">
         <h1
-          class="motion-preset-slide-down w-full max-w-screen-lg text-center font-sans text-heading-lg font-bold md:hidden md:text-left md:text-title"
+          class="motion-preset-slide-down mt-10 w-full max-w-screen-lg text-center font-sans text-heading-lg font-bold md:hidden md:text-left md:text-title"
         >
           A podcast with awesome <br class="hidden md:block" /> IT geeks, In Darija!
         </h1>
@@ -41,7 +41,7 @@ const lastFeaturedEpisode = getRandomEpisode(podcast);
           </h1>
         </div>
         <p
-          class="motion-preset-slide-down my-8 max-w-[600px] text-center font-sans text-label-sm font-thin motion-delay-[700ms] md:text-left"
+          class="motion-preset-slide-down my-4 max-w-[600px] text-center font-sans text-label-sm font-thin motion-delay-[700ms] md:my-8 md:text-left"
         >
           At GeeksBlaBla podcast, is where we host brilliant IT people to
           discuss, highlight and share the latest technology topics.
@@ -76,9 +76,25 @@ const lastFeaturedEpisode = getRandomEpisode(podcast);
 
 <style>
   .bg-grid-pattern {
-    background-image: linear-gradient(to right, #000 1px, transparent 1px),
-      linear-gradient(to bottom, #000 1px, transparent 1px);
-    background-size: 200px 200px;
+    background-image: linear-gradient(to right, #636161 1px, transparent 1px),
+      linear-gradient(to bottom, #636161 1px, transparent 1px);
+    background-size: 100px 100px; /* Smaller squares for mobile screens */
+    animation: move-grid 8s linear infinite 2s;
+  }
+
+  @media (min-width: 768px) {
+    .bg-grid-pattern {
+      background-size: 200px 200px; /* Larger squares for larger screens */
+    }
+  }
+
+  @keyframes move-grid {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -200px 0px;
+    }
   }
 
   .m-preset-typewriter-\[22\] {
