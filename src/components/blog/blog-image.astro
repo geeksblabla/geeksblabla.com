@@ -1,0 +1,27 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+interface Props {
+  slug: string;
+  title: string;
+  ogImage?: ImageMetadata;
+}
+
+const { slug, title, ogImage } = Astro.props;
+---
+
+{
+  ogImage && (
+    <Image src={ogImage} alt={title} class="h-full w-full object-cover" />
+  )
+}
+{
+  !ogImage && (
+    <img
+      class="h-full w-full bg-neutral-300"
+      src={`/blog/${slug}.png`}
+      alt={title}
+    />
+  )
+}

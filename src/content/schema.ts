@@ -3,7 +3,7 @@ import {
   slugify,
   transformDateToLocaleString,
 } from "@/lib/utils";
-import { reference, z } from "astro:content";
+import { reference, z, type SchemaContext } from "astro:content";
 
 export const podcastCategorySchema = z.enum([
   "dev",
@@ -44,27 +44,28 @@ export const episodeSchema = z
     };
   });
 
-export const blogSchema = z
-  .object({
-    authors: z.array(reference("authors")).optional(),
-    pubDatetime: z.date(),
-    title: z.string(),
-    slug: z.string().optional(),
-    featured: z.boolean().optional(),
-    draft: z.boolean().optional(),
-    tags: z.array(z.string()).default(["others"]),
-    keywords: z.array(z.string()).default([""]),
-    ogImage: z.string().optional(),
-    description: z.string().optional().default(""),
-    published: z.boolean().optional().default(true),
-  })
-  .transform(arg => {
-    const slug = arg.slug ? arg.slug : slugify(arg.title);
-    return {
-      ...arg,
-      slug,
-    };
-  });
+export const blogSchema = (ctx: SchemaContext) =>
+  z
+    .object({
+      authors: z.array(reference("authors")).optional(),
+      pubDatetime: z.date(),
+      title: z.string(),
+      slug: z.string().optional(),
+      featured: z.boolean().optional(),
+      draft: z.boolean().optional(),
+      tags: z.array(z.string()).default(["others"]),
+      keywords: z.array(z.string()).default([""]),
+      ogImage: ctx.image().optional(), //z.string().optional(),
+      description: z.string().optional().default(""),
+      published: z.boolean().optional().default(true),
+    })
+    .transform(arg => {
+      const slug = arg.slug ? arg.slug : slugify(arg.title);
+      return {
+        ...arg,
+        slug,
+      };
+    });
 
 export const authorSchema = z.object({
   name: z.string(),
@@ -74,7 +75,7 @@ export const authorSchema = z.object({
   is_core_team: z.boolean().optional().default(false),
 });
 
-export type ArticleFrontmatter = z.infer<typeof blogSchema>;
+export type ArticleFrontmatter = z.infer<ReturnType<typeof blogSchema>>;
 
 export const teamSchema = z.object({
   name: z.string().min(1, "Name cannot be empty"),

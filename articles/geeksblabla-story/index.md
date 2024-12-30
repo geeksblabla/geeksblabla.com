@@ -5,6 +5,7 @@ keywords: ["GeeksBlabla", "Moroccan tech community"]
 pubDatetime: 2024-12-01
 authors: ["aboullaite"] # the name of the author file
 description: "Discover the inspiring journey of GeeksBlaBla, from its humble beginnings as a Ramadan discussion series to becoming a thriving Moroccan tech community built on knowledge sharing, diversity, and social impact."
+ogImage: "./images/geeksblabla-timeline.png"
 ---
 
 It is still surreal to me how Geeksblabla grew from this small community of enthusiasts, just talking about anything and everything, to a community as big as it is today, with everything that comes with it (Drama included\!).
@@ -14,7 +15,7 @@ But that hasn't always been the case, and probably wasn't in our bingo card for 
 ## The Very Beginning
 
 You may have heard about it before, or maybe not. But Geeksblabla today owes some of its success to its ancestor community Developer Circles Casablanca. A hybrid community that was built on a Facebook group with support from Facebook (now Meta) back in 2016\.
-![Geeksblabla beginning](./images/image2.jpg)
+![Geeksblabla beginning](./images/devc-casablanca.jpg)
 
 At some point, DevC Casa was the most active DevC community online in terms of engagement, which lead our efforts towards more online content creation given that it was easier to host and scale (if the internet allows it for sure).
 
@@ -23,11 +24,10 @@ However, I was, and still am, a strong believer in offline meetups and face-to-f
 At its core, DevC Casa is what helped us meet and build a core team. This team later on embarked on a journey to build Geeksblabla as it is today.
 I owe a lot to Meryem Zaid, one of the earliest members who has been with me for most of the journey\!
 
-**GeeksBlaBla is Born.**
-
+## GeeksBlaBla is Born
 
 Geeksblabla came out from a very unexpected, very simple idea, in a relatively weird timing\! We wanted to build upon the online success that we had in the online group and host a small, Ramadan-exclusive series of very informal tech discussions during Ramadan nights. In total, we were planning 4 episodes, 1 hour-ish each and moving on. That's really it\! No big plans, no defined structure … just having fun.
-![Geeksblabla is born](./images/image1.jpg)
+![Geeksblabla is born](./images/geeksblabla-devc-logo.jpg)
 
 On our 1st night, what was intended to be an hour-long discussion, ended up being 3-hour-long fun and informal discussions on the DevC Facebook group. We certainly liked the vibes and the fruits of that session, and everyone was certain that we needed to keep this lively session alive.
 
@@ -37,7 +37,7 @@ We try as much as possible to not kill initiatives and plan thoroughly for them.
 
 Combining these two principles, we started with a 1-month cadence afterwards, then bi-weekly and settled on a weekly cadence. Both Soufiane El Foukahi and Youssouf El Azizi played a fundamental role in pushing the limit and turning Geeksblabla into what it has become now.
 
-## So What ?
+**So What ?**
 
 If you've made it this far, first, thank you for bearing with my writing. You might be more curious about Geeksblabla now, eager to understand what makes us tick, rather than just dwelling on our past. Let me show you what we're all about.
 
@@ -45,7 +45,7 @@ If you've made it this far, first, thank you for bearing with my writing. You mi
 
 In the vast landscape of technology, communities are more than just groups—they're catalysts of change, learning, and collective growth. GeeksBlaBla might not be the largest or most famous community in Morocco, but we have something unique: a genuine passion for bringing people together, breaking down barriers, and helping each tech enthusiast find their path.
 
-### Our Mission
+## Our Mission
 
 > **To Empower Moroccan 🇲🇦 IT enthusiasts and beyond to thrive through continuous learning, exchange, collaboration, and innovation.**
 
@@ -57,7 +57,7 @@ Our journey hasn't just been about growth—it's been a transformation. Since ou
 - **Inclusive Diversity**: We embrace different perspectives and backgrounds, understanding that true innovation comes from varied experiences and inclusive thinking.
 - **Tech for Social Impact:** We believe in harnessing the collective power of our community to drive positive change, using technology as a tool for social good.
 
-### Our Guiding Values
+## Our Guiding Values
 
 Every community needs a structure, a rhythm, and a base that shows what its actions are all about. A set of values acts as a compass, guiding us honestly and giving us something to hold onto when we're not sure what to do. We have found six core values that, even though they don't cover everything, show who we are the most. We want to keep these values and live by them all the time.
 

@@ -1,6 +1,7 @@
 ---
 import type { ArticleFrontmatter } from "@/content/schema";
 import { getEntries } from "astro:content";
+import BlogImage from "./blog-image.astro";
 
 export interface Props {
   href?: string;
@@ -14,17 +15,16 @@ const authors = frontmatter.authors
   : undefined;
 
 const { title, description, ogImage, slug } = frontmatter;
-const imageUrl = ogImage ? ogImage : `/blog/${slug}.png`;
 ---
 
-<div class="group flex flex-col px-4">
+<div class="group flex flex-col px-0 py-4 md:px-4">
   <div class="w-full">
-    <img src={imageUrl} alt={title} />
+    <BlogImage slug={slug} title={title} ogImage={ogImage} />
   </div>
-  <div class="flex h-full flex-col border-neutral-300 pl-3">
+  <div class="flex h-full flex-col border-neutral-200">
     <div class="flex flex-1 flex-row justify-between">
       <a href={href} class="block text-label-lg">
-        <h2 class="text-label-lg">{title}</h2>
+        <h2 class="text-label-lg font-medium">{title}</h2>
       </a>
     </div>
     <p class="mb-4 line-clamp-2 text-paragraph-sm text-neutral-dark-20">

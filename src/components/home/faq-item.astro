@@ -8,12 +8,14 @@ const { open, label }: Props = Astro.props;
 
 <details open={open}>
   <summary
-    class="mt-2 flex cursor-pointer items-center justify-between rounded-lg border border-[#C3CAD4] bg-white px-4 py-2 text-paragraph-sm font-semibold text-gray-700"
+    class="mt-2 flex cursor-pointer flex-row items-center justify-between rounded-lg border border-[#C3CAD4] bg-white px-4 py-2 text-paragraph-sm font-semibold text-gray-700"
   >
-    {label}
+    <div class="flex flex-1 flex-row items-center gap-2 pr-3">
+      <span class="text-paragraph-sm font-semibold text-gray-700">{label}</span>
+    </div>
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="h-6 w-6 transform text-gray-500 transition-transform duration-300"
+      class="block h-6 !w-6 transform text-gray-500 transition-transform duration-300"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"

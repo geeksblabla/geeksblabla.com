@@ -15,7 +15,7 @@ const podcast = defineCollection({
 
 const blog = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: "articles" }),
-  schema: blogSchema,
+  schema: arg => blogSchema(arg),
 });
 
 export const authors = defineCollection({

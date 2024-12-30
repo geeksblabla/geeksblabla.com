@@ -6,6 +6,7 @@ pubDatetime: 2024-12-01
 authors: ["abdelati"]
 slug: contribute-to-geeksblabla
 description: "Explore how you can contribute to GeeksBlabla, from sharing feedback to joining the core team, and make a meaningful impact in the Moroccan tech community."
+ogImage: "./images/10-ways.png"
 ---
 
 **"How can I contribute to the GeeksBlabla community?"** This is one of the most common questions we receive, and this blog post is here to answer it.

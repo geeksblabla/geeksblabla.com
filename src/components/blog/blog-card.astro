@@ -1,6 +1,7 @@
 ---
 import type { ArticleFrontmatter } from "@/content/schema";
 import { getEntries } from "astro:content";
+import BlogImage from "./blog-image.astro";
 
 export interface Props {
   href?: string;
@@ -16,7 +17,6 @@ const authors = frontmatter.authors
   : undefined;
 
 const { title, description, ogImage, slug } = frontmatter;
-const imageUrl = ogImage ? ogImage : `/blog/${slug}.png`;
 ---
 
 <div
@@ -25,7 +25,7 @@ const imageUrl = ogImage ? ogImage : `/blog/${slug}.png`;
   {
     withCover && (
       <div class="w-full md:w-1/2">
-        <img src={imageUrl} alt={title} />
+        <BlogImage slug={slug} title={title} ogImage={ogImage} />
       </div>
     )
   }

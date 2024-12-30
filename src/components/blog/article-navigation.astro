@@ -1,0 +1,62 @@
+---
+import { Icon } from "astro-icon/components";
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import { getSortedArticles } from "@/lib/utils";
+
+export interface Props {
+  article: CollectionEntry<"blog">;
+}
+
+const { article } = Astro.props;
+
+// Get all articles and find current article index
+const articles = await getCollection("blog");
+const sortedArticles = getSortedArticles(articles);
+const currentIndex = sortedArticles.findIndex(a => a.id === article.id);
+
+// Get next and previous articles
+const previousArticle =
+  currentIndex < sortedArticles.length - 1
+    ? sortedArticles[currentIndex + 1]
+    : null;
+const nextArticle = currentIndex > 0 ? sortedArticles[currentIndex - 1] : null;
+---
+
+<nav class="mx-auto mt-2 max-w-3xl" aria-label="Article navigation">
+  <div class="flex justify-between">
+    {
+      previousArticle && (
+        <a
+          href={`/blog/${previousArticle.data.slug}`}
+          class="group flex max-w-[45%] flex-col items-start gap-2 hover:text-neutral-dark-50"
+        >
+          <div class="flex items-center gap-2 text-sm text-neutral-dark-50">
+            <Icon name="arrow-left" class="h-4 w-4" />
+            <span>Previous Article</span>
+          </div>
+          <span class="line-clamp-2 text-base font-medium">
+            {previousArticle.data.title}
+          </span>
+        </a>
+      )
+    }
+
+    {
+      nextArticle && (
+        <a
+          href={`/blog/${nextArticle.data.slug}`}
+          class="group ml-auto flex max-w-[45%] flex-col items-end gap-2 text-right hover:text-neutral-dark-50"
+        >
+          <div class="flex items-center gap-2 text-sm text-neutral-dark-50">
+            <span>Next Article</span>
+            <Icon name="arrow-right" class="h-4 w-4" />
+          </div>
+          <span class="line-clamp-2 text-base font-medium">
+            {nextArticle.data.title}
+          </span>
+        </a>
+      )
+    }
+  </div>
+</nav>
