@@ -9,6 +9,7 @@ import ShareArticle from "./share-article.astro";
 import BlogImage from "./blog-image.astro";
 import ArticleNavigation from "./article-navigation.astro";
 import PageViews from "./page-views.astro";
+import TableOfContents from "./table-of-contents.astro";
 
 export interface Props {
   article: CollectionEntry<"blog">;
@@ -20,7 +21,7 @@ const { title, description, ogImage } = article.data;
 const pageUrl = new URL(Astro.url.pathname, Astro.url.origin).href;
 
 const minutesRead = getReadingTime(article.body ?? "").text;
-const { Content } = await render(article);
+const { Content, headings } = await render(article);
 const authors = article.data.authors
   ? await getEntries(article.data.authors)
   : undefined;
@@ -39,10 +40,6 @@ const authors = article.data.authors
       <div
         class="relative my-3 flex flex-row items-center text-sm italic text-gray-600 md:text-base"
       >
-        <!-- <div class="my-3 flex flex-row flex-wrap items-end">
-          <Datetime datetime={pubDatetime} size="lg" className="mr-2" />
-        </div> -->
-
         <div class="flex items-center text-base">
           {
             authors?.map(author => (
@@ -79,17 +76,20 @@ const authors = article.data.authors
       }
     </div>
 
-    <article
-      id="article"
-      role="article"
-      class="prose mx-auto mt-8 max-w-3xl prose-pre:border-[1px] prose-pre:border-solid prose-pre:border-gray-300"
-    >
-      <Content />
-    </article>
+    <div class="relative mx-auto max-w-3xl">
+      <article
+        id="article"
+        role="article"
+        class="prose mx-auto mt-8 max-w-none prose-pre:border-[1px] prose-pre:border-solid prose-pre:border-gray-300"
+      >
+        <Content />
+      </article>
+      <TableOfContents headings={headings} />
+    </div>
     <ShareArticle />
     <ArticleNavigation article={article} />
 
-    <div class="mx-auto mt-10 w-full max-w-3xl">
+    <div class="mx-auto mt-10 max-w-3xl">
       <ArticleComments />
     </div>
   </main>

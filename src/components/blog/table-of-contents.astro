@@ -1,0 +1,41 @@
+---
+interface Props {
+  headings: {
+    depth: number;
+    slug: string;
+    text: string;
+  }[];
+}
+
+const { headings } = Astro.props;
+const h2Headings = headings.filter(heading => heading.depth === 2);
+---
+
+<aside class="absolute left-full top-0 ml-8 hidden h-full lg:block">
+  <nav class="sticky top-12 w-64" aria-label="Table of contents">
+    <div class="rounded-lg bg-white/50 p-4 shadow-sm">
+      <h2 class="mb-4 text-sm font-semibold text-gray-900">On this page</h2>
+      <ul class="space-y-2 text-sm">
+        {
+          h2Headings.map(heading => (
+            <li class="hover:text-primary font-sans text-sm font-medium">
+              <a
+                href={`#${heading.slug}`}
+                class="hover:text-primary block text-gray-500"
+              >
+                {heading.text}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </nav>
+</aside>
+
+<style>
+  nav {
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+  }
+</style>
