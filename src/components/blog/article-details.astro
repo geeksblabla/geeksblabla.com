@@ -1,5 +1,4 @@
 ---
-import Datetime from "./datetime.tsx";
 import type { CollectionEntry } from "astro:content";
 import getReadingTime from "reading-time";
 import Layout from "@/components/layout.astro";
@@ -9,6 +8,7 @@ import ArticleComments from "./article-comments.astro";
 import ShareArticle from "./share-article.astro";
 import BlogImage from "./blog-image.astro";
 import ArticleNavigation from "./article-navigation.astro";
+import PageViews from "./page-views.astro";
 
 export interface Props {
   article: CollectionEntry<"blog">;
@@ -16,7 +16,8 @@ export interface Props {
 
 const { article } = Astro.props;
 
-const { title, description, ogImage, pubDatetime } = article.data;
+const { title, description, ogImage } = article.data;
+const pageUrl = new URL(Astro.url.pathname, Astro.url.origin).href;
 
 const minutesRead = getReadingTime(article.body ?? "").text;
 const { Content } = await render(article);
@@ -34,46 +35,35 @@ const authors = article.data.authors
   <Header />
   <main id="main-content" class="container mx-auto pb-10">
     <div class="mx-auto max-w-3xl border-b border-gray-300 pb-0 pt-10">
-      <h1 class="text-4xl font-semibold">{title}</h1>
+      <h1 class="text-3xl font-semibold md:text-4xl">{title}</h1>
       <div
-        class="relative flex flex-row items-center text-base italic text-gray-600"
+        class="relative my-3 flex flex-row items-center text-sm italic text-gray-600 md:text-base"
       >
-        <div class="my-3 flex flex-row flex-wrap items-end">
+        <!-- <div class="my-3 flex flex-row flex-wrap items-end">
           <Datetime datetime={pubDatetime} size="lg" className="mr-2" />
-        </div>
-        <div class="mx-3 h-3 w-px bg-gray-500"></div>
+        </div> -->
+
         <div class="flex items-center text-base">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="mr-1 h-5 w-5"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M12 6v6l4 2"></path>
-          </svg>
+          {
+            authors?.map(author => (
+              <a
+                href={author.data.url}
+                target="_blank"
+                class="text-gray-600 underline"
+              >
+                {author.data.name}
+              </a>
+            ))
+          }
+        </div>
+        <div class="mx-2 h-3 w-px bg-gray-500 md:mx-3"></div>
+
+        <div class="flex items-center text-base">
           {minutesRead}
         </div>
-        <div class="mx-3 h-3 w-px bg-gray-500"></div>
-        <div class="flex items-center text-base">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="mr-1 h-5 w-5"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path
-              d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
-            ></path>
-          </svg>
-          {authors?.map(author => author.data.name).join(", ")}
-        </div>
+
+        <div class="mx-2 h-3 w-px bg-gray-500 md:mx-3"></div>
+        <PageViews url={pageUrl} />
       </div>
       {
         ogImage && (

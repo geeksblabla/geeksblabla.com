@@ -6,6 +6,7 @@ pubDatetime: 2024-12-01
 authors: ["iduoad"]
 slug: tips-for-students
 description: "Discover simple and practical advice to help students navigate school life, from learning effectively to standing out, and make the most of your time as a tech student."
+ogImage: "./images/10-ways.png"
 ---
 
 There’s a saying I used to like: "School is like a free trial for work/life." This is somewhat true because school is the phase in life where we can make mistakes and learn the most.
