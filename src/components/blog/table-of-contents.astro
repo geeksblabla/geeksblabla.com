@@ -12,16 +12,20 @@ const h2Headings = headings.filter(heading => heading.depth === 2);
 ---
 
 <aside class="absolute left-full top-0 ml-8 hidden h-full lg:block">
-  <nav class="sticky top-12 w-64" aria-label="Table of contents">
-    <div class="rounded-lg bg-white/50 p-4 shadow-sm">
-      <h2 class="mb-4 text-sm font-semibold text-gray-900">On this page</h2>
-      <ul class="space-y-2 text-sm">
+  <nav class="sticky top-12 w-72" aria-label="Table of contents">
+    <div
+      class="rounded-xl border border-gray-100 bg-white/80 p-5 shadow-sm backdrop-blur-sm"
+    >
+      <h2 class="mb-4 font-sans text-sm font-semibold text-gray-900">
+        On this page
+      </h2>
+      <ul class="space-y-2 text-[13px]">
         {
           h2Headings.map(heading => (
-            <li class="hover:text-primary font-sans text-sm font-medium">
+            <li class="group">
               <a
                 href={`#${heading.slug}`}
-                class="hover:text-primary block text-gray-500"
+                class="hover:text-primary flex items-center font-medium text-gray-500 transition-all"
               >
                 {heading.text}
               </a>
@@ -37,5 +41,18 @@ const h2Headings = headings.filter(heading => heading.depth === 2);
   nav {
     max-height: calc(100vh - 8rem);
     overflow-y: auto;
+  }
+
+  nav::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  nav::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  nav::-webkit-scrollbar-thumb {
+    background-color: #e5e7eb;
+    border-radius: 20px;
   }
 </style>
