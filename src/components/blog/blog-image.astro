@@ -13,13 +13,17 @@ const { slug, title, ogImage } = Astro.props;
 
 {
   ogImage && (
-    <Image src={ogImage} alt={title} class="h-full w-full object-cover" />
+    <Image
+      src={ogImage}
+      alt={title}
+      class="h-full w-full rounded-md object-cover"
+    />
   )
 }
 {
   !ogImage && (
     <img
-      class="h-full w-full bg-neutral-300"
+      class="h-full w-full rounded-md bg-neutral-300"
       src={`/blog/${slug}.png`}
       alt={title}
     />
