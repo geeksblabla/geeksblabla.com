@@ -16,7 +16,7 @@ Hey there\! I’m Hafsa, a homeschooled high schooler from Casablanca, Morocco, 
 
 This article is about how I went from wondering if I could organize a hackathon to making it a reality, and everything I learned along the way.
 
-**Getting the inspiration**:
+## Getting the inspiration:
 
 Let’s start at the very beginning: how I discovered this event and convinced myself to organize it. 
 
@@ -43,7 +43,7 @@ After the call, I felt a mix of excitement and nerves, but Hack Club’s promise
 
 A few days later, I got an email saying I was officially accepted as an organizer. That’s when it hit me: I had just committed to organizing a teenage hackathon in Casablanca, a city where events like these aren’t very common. This thought was equally exciting and terrifying. But I knew that I’d never know what I was capable of unless I gave it a shot. So, I made a promise to myself—I’d take it one step at a time, trust the process, and figure it out as I went. And whenever a problem came up, I’d somehow find a solution.
 
-**Starting out**:
+## Starting out:
 
 The first thing I did was start looking for venues because, after all, we needed a space to host the hackathon. To keep everything organized, I created a Google Sheet where I listed all the potential venues, along with the name of the person in charge and their email address. This allowed me to track my outreach efforts and stay on top of who I had contacted.
 
@@ -79,7 +79,7 @@ Looking back, this whole process taught me a lot. Here are some key lessons I to
 
 So, with the venues finally secured, it was time for the next thing...
 
-**💸 Sponsorships 💸**:
+## 💸 Sponsorships 💸:
 
 Finding sponsorships was one of the hardest parts, if not the hardest, of organizing Counterspell. Just finding the right person to contact was already a struggle, but getting a response was even harder. Most of the companies we reached out to just ghosted us. Some replied with a quick “We’ll get back to you soon,” and then disappeared, while others even responded positively at first but stopped replying when we followed up or gave them more details.
 
@@ -105,7 +105,7 @@ For anyone in a similar position, I’d recommend reaching out to companies that
 
 With a venue secured and the budget finally in place, the next step was finding participants to bring this event to life\!
 
-**Outreach 📢**:
+## Outreach 📢:
 
 The first thing we tried for sign-ups was social media. We knew from the start that social media alone wouldn’t bring in everyone we needed, but having some kind of online presence seemed essential. So, we started filling up our Instagram account with posts introducing Hack Club, then followed that up with the official announcement of Counterspell Casablanca. But since we knew this wouldn’t be enough, we decided to contact organizations that could help spread the word.
 
@@ -127,7 +127,7 @@ Since we learned through the NASA Space Apps Hackathon that participant drop-off
 
 So with the venue, funding, and participants sorted, we turned our attention to planning the event itself.
 
-**Planning 📝**:
+## Planning 📝:
 
 With the hackathon just weeks away, there was still plenty to figure out. One of the first priorities was building a team of volunteers. While we’d already reached out to a few people earlier, this was when we really put our focus on it. We contacted people we thought would be a great fit, explained the hackathon, shared our vision, and outlined what was expected of them. By the end, we had 10 amazing volunteers ready to help\!
 
@@ -147,7 +147,7 @@ Communication with participants was also a priority. We decided to create a What
 
 And so, with all the planning behind us and everything set, the countdown was over—it was the day before the event.
 
-**🗓️ Day Before the Event 🗓️**:
+## 🗓️ Day Before the Event 🗓️:
 
 And so, with all the planning behind us and everything set, the countdown was over—it was the day before the event.
 
@@ -169,7 +169,7 @@ But whenever those feelings got too overwhelming, I reminded myself of something
 
 That really helped calm me down, even if just a little. It reminded me that even if something went wrong, we’d find a way to fix it.
 
-**The big day:**
+## The big day:
 
 And so, it was the morning of Day 1\. I arrived at the school at around 7:30 a.m., feeling a bit anxious while looking forward to the day ahead. It was reassuring to see the entire team already there, on time, and following the run of show. Those handling the opening ceremony got ready, while the volunteers in charge of registration set up their stations. We even brought breakfast for everyone, which gave us a chance to sit together, enjoy some food, and pump each other up before things officially kicked off. We played some music to set the mood and then waited for participants to arrive.
 
@@ -213,7 +213,7 @@ After this, we explained how to submit their projects, and soon they got to work
 
 The voting process followed, and then came the moment everyone was waiting for—announcing the winners and their prizes. We didn’t hand out the prizes on the spot; instead, they would be shipped directly to the winners’ addresses. After that, we gathered everyone for a group photo, shared our farewells, and just like that, Counterspell Casablanca came to an end.
 
-**Final thoughts:**
+## Final thoughts:
 
 I was honestly relieved to see how well the hackathon turned out. All the things I had been worrying about for weeks—the chaos, the worst-case scenarios—never really happened. Watching everyone having fun, collaborating, and working with people they’d just met for the first time made all the stress and late nights feel worth it.
 
@@ -225,7 +225,7 @@ What matters is the connections people make, the learning that happens, and the 
 
 Trust me, the joy of seeing people come together, create something new, and leave feeling inspired? That makes every single challenge along the way absolutely worth it.
 
-**What is next 🤔:**
+## What is next 🤔:
 
 After organizing Counterspell Casablanca, I’ve realized just how much potential so many young people in Morocco have. Seeing teens come together, create amazing projects, and try new things made me think: what if more people had access to opportunities like this? I truly believe that if we reach more youth and give them the tools to learn tech skills, we could help spark something incredible in Morocco’s journey toward digital innovation.
 
