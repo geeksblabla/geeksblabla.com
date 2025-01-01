@@ -1,10 +1,27 @@
 ---
 title: "How I Organized a Tech Hackathon as a 15-Year-Old"
-tags: ["hackathons", "teens in tech", "game development", "morocco tech community", "game jam", "coding events"]
-keywords: ["How to organize a hackathon", "High school hackathon story", "Tech event for teenagers", "Student-led hackathon", "Tech events in Morocco", "Coding for teens"]
+tags:
+  [
+    "hackathons",
+    "teens in tech",
+    "game development",
+    "morocco tech community",
+    "game jam",
+    "coding events",
+  ]
+keywords:
+  [
+    "How to organize a hackathon",
+    "High school hackathon story",
+    "Tech event for teenagers",
+    "Student-led hackathon",
+    "Tech events in Morocco",
+    "Coding for teens",
+  ]
 pubDatetime: 2025-01-02
 authors: ["elidrissi"]
 slug: organizing-tech-hackathon-at-15
+ogImage: ./images/image1.jpg
 description: "Organizing a tech event as a teenager might sound overwhelming, but it’s exactly what I did when I brought Counterspell Casablanca, the city’s first teenage-led game jam, to life. From planning and challenges to the joy of seeing it all come together, this journey is about turning an ambitious idea into reality. Whether you're curious about hackathons, event planning, or just want to see what’s possible with a little determination, I hope this story inspires yours."
 ---
 
@@ -12,13 +29,11 @@ Have you ever tried doing something you’ve never done before and weren’t sur
 
 Hey there\! I’m Hafsa, a homeschooled high schooler from Casablanca, Morocco, and a member of [Hack Club](https://hackclub.com/), the largest global community of technical teenagers. In mid-November 2024, I took on the challenge of organizing [Counterspell Casablanca](https://counterspell.hackclub.com/casablanca)—my city’s first-ever teenage-led game-jam hackathon and part of a global event happening in over 60 cities.
 
-![Group photo at Counterspell Casablanca](./images/image1.jpg)
-
 This article is about how I went from wondering if I could organize a hackathon to making it a reality, and everything I learned along the way.
 
-## Getting the inspiration:
+## 💡 Getting the inspiration
 
-Let’s start at the very beginning: how I discovered this event and convinced myself to organize it. 
+Let’s start at the very beginning: how I discovered this event and convinced myself to organize it.
 
 In the summer of 2024, I joined one of Hack Club’s programs called [Arcade](https://hackclub.com/arcade/). This program encouraged teens to build projects, and based on the time they spent working on them, they earned tickets. These tickets could then be exchanged for prizes like Raspberry Pis, keyboards, MacBooks, GitHub swag, and so much more.
 
@@ -34,7 +49,7 @@ Fast-forward a few days, and the organizer form crossed my mind again, so I deci
 
 ![Deven describing his experience on organizing hackathons](./images/image11.png)
 
-The idea of bringing Hack Club’s magic to my city sounded awesome. I’d seen how they ran these super cool hackathons like [Apocalypse](https://www.youtube.com/watch?v=QvCoISXfcE8&t) and [Wonderland](https://www.youtube.com/watch?v=X1EVT0vUxAg), and I thought, why not do something like that here? It felt like a chance to introduce local teens to Hack Club and give them the chance to be part of something bigger.  
+The idea of bringing Hack Club’s magic to my city sounded awesome. I’d seen how they ran these super cool hackathons like [Apocalypse](https://www.youtube.com/watch?v=QvCoISXfcE8&t) and [Wonderland](https://www.youtube.com/watch?v=X1EVT0vUxAg), and I thought, why not do something like that here? It felt like a chance to introduce local teens to Hack Club and give them the chance to be part of something bigger.
 But then, I started overthinking. I mean, I had never even attended a hackathon before, so how could I possibly organize one? What if no one showed up? What if people just weren’t interested? Those questions made me hesitate, so I decided to wait for the kickoff call for organizers, which was open to everyone, before making my decision.
 
 When the day of the kickoff call came around, I joined, hoping it would help me figure out if this was something I could actually pull off. As I listened, I heard stories from other teens who were just as excited (and just as nervous) about organizing their own events. It was honestly so inspiring. The Hack Club team shared tips and advice, but what stuck with me most was when they said that anyone, no matter their experience, could make it happen with the right mindset and support. That’s when it clicked for me: everyone has to start somewhere, so why not me?
@@ -43,7 +58,7 @@ After the call, I felt a mix of excitement and nerves, but Hack Club’s promise
 
 A few days later, I got an email saying I was officially accepted as an organizer. That’s when it hit me: I had just committed to organizing a teenage hackathon in Casablanca, a city where events like these aren’t very common. This thought was equally exciting and terrifying. But I knew that I’d never know what I was capable of unless I gave it a shot. So, I made a promise to myself—I’d take it one step at a time, trust the process, and figure it out as I went. And whenever a problem came up, I’d somehow find a solution.
 
-## Starting out:
+## 🚀 Starting out
 
 The first thing I did was start looking for venues because, after all, we needed a space to host the hackathon. To keep everything organized, I created a Google Sheet where I listed all the potential venues, along with the name of the person in charge and their email address. This allowed me to track my outreach efforts and stay on top of who I had contacted.
 
@@ -71,15 +86,15 @@ But I really wanted Technopark. So, after a very long debate with my teammates, 
 
 Looking back, this whole process taught me a lot. Here are some key lessons I took away from this stage:
 
-* **Follow up is crucial**: Sometimes, a simple follow-up email can make all the difference. I almost missed out on a great opportunity with ALX Morocco because I didn’t follow up earlier.  
-* **Be flexible**: Plans will change, and that’s okay. Be open to adapting as you go. We had to shift from a one-day to a two-day hackathon, and it ended up being a great decision.  
-* **Ask for help**: When we were struggling with our venue search, reaching out to people we knew for recommendations made a difference.  
-* **Don't settle, but also don't wait too long**: We were aiming for a cool venue like Technopark, but we had to accept what we could get. However, that didn’t stop us from exploring other options and making the best of what we had.  
-* **Clear communication with the team**: It was important to get everyone on the same page when things were shifting, especially when deciding to split the event across two locations.
+- **Follow up is crucial**: Sometimes, a simple follow-up email can make all the difference. I almost missed out on a great opportunity with ALX Morocco because I didn’t follow up earlier.
+- **Be flexible**: Plans will change, and that’s okay. Be open to adapting as you go. We had to shift from a one-day to a two-day hackathon, and it ended up being a great decision.
+- **Ask for help**: When we were struggling with our venue search, reaching out to people we knew for recommendations made a difference.
+- **Don't settle, but also don't wait too long**: We were aiming for a cool venue like Technopark, but we had to accept what we could get. However, that didn’t stop us from exploring other options and making the best of what we had.
+- **Clear communication with the team**: It was important to get everyone on the same page when things were shifting, especially when deciding to split the event across two locations.
 
 So, with the venues finally secured, it was time for the next thing...
 
-## 💸 Sponsorships 💸:
+## 💸 Sponsorships
 
 Finding sponsorships was one of the hardest parts, if not the hardest, of organizing Counterspell. Just finding the right person to contact was already a struggle, but getting a response was even harder. Most of the companies we reached out to just ghosted us. Some replied with a quick “We’ll get back to you soon,” and then disappeared, while others even responded positively at first but stopped replying when we followed up or gave them more details.
 
@@ -105,7 +120,7 @@ For anyone in a similar position, I’d recommend reaching out to companies that
 
 With a venue secured and the budget finally in place, the next step was finding participants to bring this event to life\!
 
-## Outreach 📢:
+## 📢 Outreach
 
 The first thing we tried for sign-ups was social media. We knew from the start that social media alone wouldn’t bring in everyone we needed, but having some kind of online presence seemed essential. So, we started filling up our Instagram account with posts introducing Hack Club, then followed that up with the official announcement of Counterspell Casablanca. But since we knew this wouldn’t be enough, we decided to contact organizations that could help spread the word.
 
@@ -127,7 +142,7 @@ Since we learned through the NASA Space Apps Hackathon that participant drop-off
 
 So with the venue, funding, and participants sorted, we turned our attention to planning the event itself.
 
-## Planning 📝:
+## 📝 Planning
 
 With the hackathon just weeks away, there was still plenty to figure out. One of the first priorities was building a team of volunteers. While we’d already reached out to a few people earlier, this was when we really put our focus on it. We contacted people we thought would be a great fit, explained the hackathon, shared our vision, and outlined what was expected of them. By the end, we had 10 amazing volunteers ready to help\!
 
@@ -147,7 +162,7 @@ Communication with participants was also a priority. We decided to create a What
 
 And so, with all the planning behind us and everything set, the countdown was over—it was the day before the event.
 
-## 🗓️ Day Before the Event 🗓️:
+## 🗓️ Day Before the Event
 
 And so, with all the planning behind us and everything set, the countdown was over—it was the day before the event.
 
@@ -165,11 +180,11 @@ I’ll be honest—this was when the nerves really hit. That day was a mix of ex
 
 But whenever those feelings got too overwhelming, I reminded myself of something a previous hackathon organizer had shared with us:
 
-*"During Assemble, we had a grumpy security guard threaten to call 911 on an attendee for riding on a chair. During Epoch, the venue owner video-called me at 11:30 PM, demanding I shut down our midnight disco on New Year’s Eve. During the Boreal Express, a whole part of western Canada burned down, and we had to turn the train around. When I share these stories with attendees, none of them ever remember the chaos. All they remember is the amazing time they had with other Hack Clubbers, the projects they built, and the memories they made. Organizing hackathons is always a walk on a tightrope, and things will always go wrong. Instead of trying to perfect every logistic, focus on connecting with people, getting to know them, and supporting them throughout the event."*
+_"During Assemble, we had a grumpy security guard threaten to call 911 on an attendee for riding on a chair. During Epoch, the venue owner video-called me at 11:30 PM, demanding I shut down our midnight disco on New Year’s Eve. During the Boreal Express, a whole part of western Canada burned down, and we had to turn the train around. When I share these stories with attendees, none of them ever remember the chaos. All they remember is the amazing time they had with other Hack Clubbers, the projects they built, and the memories they made. Organizing hackathons is always a walk on a tightrope, and things will always go wrong. Instead of trying to perfect every logistic, focus on connecting with people, getting to know them, and supporting them throughout the event."_
 
 That really helped calm me down, even if just a little. It reminded me that even if something went wrong, we’d find a way to fix it.
 
-## The big day:
+## 🔥 The big day
 
 And so, it was the morning of Day 1\. I arrived at the school at around 7:30 a.m., feeling a bit anxious while looking forward to the day ahead. It was reassuring to see the entire team already there, on time, and following the run of show. Those handling the opening ceremony got ready, while the volunteers in charge of registration set up their stations. We even brought breakfast for everyone, which gave us a chance to sit together, enjoy some food, and pump each other up before things officially kicked off. We played some music to set the mood and then waited for participants to arrive.
 
@@ -183,7 +198,7 @@ Next came team formation. We’d planned for this to take about 10 minutes, but 
 
 Of course, it didn’t take long for the first issue to pop up. The classroom had very few wall outlets, and almost everyone needed to charge their laptops. On top of that, the Wi-Fi couldn’t handle 42 devices at once, which caused it to slow down and would’ve been a nightmare for the participants. We decided to split the teams into different classrooms, and after that, everything worked fine.
 
-Then came the first workshop, and, of course, another problem. The TV in the classroom didn’t support HDMI or USB inputs, only DVI, and the person conducting the workshop didn’t have a DVI adapter. Thankfully, one of the co-organizers happened to have the right port, so the issue was resolved quickly. 
+Then came the first workshop, and, of course, another problem. The TV in the classroom didn’t support HDMI or USB inputs, only DVI, and the person conducting the workshop didn’t have a DVI adapter. Thankfully, one of the co-organizers happened to have the right port, so the issue was resolved quickly.
 
 After that, the rest of the day went surprisingly well. The food arrived on time (a rare miracle, honestly), distribution was smooth, and participants seemed happy. Some teams even had a working prototype of their games by the end of the day.
 
@@ -213,7 +228,7 @@ After this, we explained how to submit their projects, and soon they got to work
 
 The voting process followed, and then came the moment everyone was waiting for—announcing the winners and their prizes. We didn’t hand out the prizes on the spot; instead, they would be shipped directly to the winners’ addresses. After that, we gathered everyone for a group photo, shared our farewells, and just like that, Counterspell Casablanca came to an end.
 
-## Final thoughts:
+## 🎯 Final thoughts
 
 I was honestly relieved to see how well the hackathon turned out. All the things I had been worrying about for weeks—the chaos, the worst-case scenarios—never really happened. Watching everyone having fun, collaborating, and working with people they’d just met for the first time made all the stress and late nights feel worth it.
 
@@ -225,7 +240,7 @@ What matters is the connections people make, the learning that happens, and the 
 
 Trust me, the joy of seeing people come together, create something new, and leave feeling inspired? That makes every single challenge along the way absolutely worth it.
 
-## What is next 🤔:
+## 🤔 What is next
 
 After organizing Counterspell Casablanca, I’ve realized just how much potential so many young people in Morocco have. Seeing teens come together, create amazing projects, and try new things made me think: what if more people had access to opportunities like this? I truly believe that if we reach more youth and give them the tools to learn tech skills, we could help spark something incredible in Morocco’s journey toward digital innovation.
 
@@ -235,17 +250,17 @@ Most [Hack Clubs](https://hackclub.com/clubs/) are based in schools (which is wh
 
 If you’re a teen who wants to start a Hack Club in your school, we’d love to hear from you\! By starting one, you’ll join a global community of Hack Clubs and get access to some amazing resources, like:
 
-* Ready-to-go workshops ([jams](https://jams.hackclub.com/)) to help your club get started  
-* Free tools like Figma Pro, GitHub Education, and Zoom Pro  
-* Fun programs like [Arcade](https://hackclub.com/arcade/), [High Seas](https://highseas.hackclub.com/), and [Boba Drops](https://boba.hackclub.com/) to keep things exciting  
-* Support from Hack Club through the [Slack community](https://hackclub.com/slack) every step of the way
+- Ready-to-go workshops ([jams](https://jams.hackclub.com/)) to help your club get started
+- Free tools like Figma Pro, GitHub Education, and Zoom Pro
+- Fun programs like [Arcade](https://hackclub.com/arcade/), [High Seas](https://highseas.hackclub.com/), and [Boba Drops](https://boba.hackclub.com/) to keep things exciting
+- Support from Hack Club through the [Slack community](https://hackclub.com/slack) every step of the way
 
 Want to see what a Hack Club meeting looks like? Check out this video: [youtube.com/watch?v=xXIxwV7bQTw](http://youtube.com/watch?v=xXIxwV7bQTw)
 
 If you’d like to start a Hack Club or support us in any way, feel free to reach out\! You can email us at [hackclubcasablanca@gmail.com](mailto:hackclubcasablanca@gmail.com) or message us on Instagram: [Hack Club Casablanca](https://www.instagram.com/hackclubcasablanca/).
 
-We’re also planning our next teenage hackathon, [Scrapyard Casablanca](https://scrapyard.hackclub.com/), on the weekend of March 15th\! It’s going to be a lot like Counterspell Casablanca, but with a fresh twist—the theme is all about being “scrappy.” 
+We’re also planning our next teenage hackathon, [Scrapyard Casablanca](https://scrapyard.hackclub.com/), on the weekend of March 15th\! It’s going to be a lot like Counterspell Casablanca, but with a fresh twist—the theme is all about being “scrappy.”
 
-The idea is to get creative and build something fun, whether it’s a game, an app, or even a quirky hardware project. This theme is all about experimenting and letting your imagination run wild, without worrying about making it perfect. By the end of the event, the goal is just to have something cool and complete that you’re proud of. If you want to stay updated about Scrapyard or any of our other events, you can follow [Hack Club Casablanca](https://www.instagram.com/hackclubcasablanca/) or connect with me on [LinkedIn](https://ma.linkedin.com/in/hafsa-elidrissi).  
+The idea is to get creative and build something fun, whether it’s a game, an app, or even a quirky hardware project. This theme is all about experimenting and letting your imagination run wild, without worrying about making it perfect. By the end of the event, the goal is just to have something cool and complete that you’re proud of. If you want to stay updated about Scrapyard or any of our other events, you can follow [Hack Club Casablanca](https://www.instagram.com/hackclubcasablanca/) or connect with me on [LinkedIn](https://ma.linkedin.com/in/hafsa-elidrissi).
 
 This is just the beginning. We’re excited about all the possibilities ahead and the chance to keep building a community where young people can learn, create, and support each other. There’s so much more to come, and I hope you’ll be a part of it.
