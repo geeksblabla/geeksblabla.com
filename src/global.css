@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: "CommitMono";
-  src: url("/fonts/CommitMono-400-Regular.otf") format("otf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "CommitMono";
-  src: url("/fonts/CommitMono-700-Regular.otf") format("otf");
-  font-weight: 700;
-  font-style: bold;
-  font-display: swap;
-} */
 
 @layer base {
   body {
@@ -34,8 +19,8 @@
     font-family: "Space Grotesk", sans-serif;
   }
 
-  .container {
-    @apply /* Base padding for smaller screens */ /* 1440px max-width */ /* ~1024px - 128px margins */ /* ~1280px - 256px margins */ mx-auto w-full max-w-[90rem] px-4 sm:max-w-[640px] md:max-w-[768px] lg:max-w-[896px] lg:px-0 xl:max-w-[1200px] 2xl:max-w-[1200px]; /* ~1440px - 240px margins */
+  .main {
+    @apply mx-auto w-full max-w-7xl px-4 xl:px-0 lg:px-4;
   }
 
   /* article styling */

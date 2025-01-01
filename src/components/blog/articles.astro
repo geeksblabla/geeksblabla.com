@@ -17,7 +17,7 @@ const prev = pageNum > 1 ? "" : "disabled";
 const next = pageNum < totalPages ? "" : "disabled";
 ---
 
-<main class="container mx-auto">
+<main class="main mx-auto">
   {pageNum === 1 && <h2 class="py-8 text-heading-sm">All Articles</h2>}
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     {
