@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Space Grotesk", "sans-serif"],
-        mono: ["CommitMono", "monospace"],
+        mono: ["IBM Plex Mono", "monospace"],
       },
 
       typography: {
