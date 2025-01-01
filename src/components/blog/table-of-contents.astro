@@ -11,28 +11,34 @@ const { headings } = Astro.props;
 const h2Headings = headings.filter(heading => heading.depth === 2);
 ---
 
-<aside class="absolute left-full top-0 ml-8 hidden h-full lg:block">
+<aside class="absolute left-full top-0 hidden h-full lg:block">
   <nav class="sticky top-12 w-72" aria-label="Table of contents">
     <div
-      class="rounded-xl border border-gray-100 bg-white/80 p-5 shadow-sm backdrop-blur-sm"
+      class="relative ml-4 rounded-xl border border-gray-100 shadow-sm backdrop-blur-sm"
     >
-      <h2 class="mb-4 font-sans text-sm font-semibold text-gray-900">
-        On this page
-      </h2>
-      <ul class="space-y-2 text-[13px]">
+      <ul
+        id="toc-list"
+        class="z-20 hidden border-l border-solid border-gray-300 px-4 font-sans md:block"
+      >
         {
-          h2Headings.map(heading => (
-            <li class="group">
+          h2Headings.map(item => (
+            <li class={`relative text-sm`}>
               <a
-                href={`#${heading.slug}`}
-                class="hover:text-primary flex items-center font-medium text-gray-500 transition-all"
+                href={`#${item.slug}`}
+                class={`inline-flex items-center py-1 underline-offset-4 transition-colors duration-300 hover:text-emerald-600 hover:underline`}
+                data-toc-item
               >
-                {heading.text}
+                {item.text}
               </a>
             </li>
           ))
         }
       </ul>
+      <div
+        id="active-indicator"
+        class="absolute left-[0px] z-10 hidden w-full border-l-2 border-solid border-blue-50 bg-blue-50/10 transition-all duration-200 ease-in-out md:block"
+      >
+      </div>
     </div>
   </nav>
 </aside>
@@ -56,3 +62,42 @@ const h2Headings = headings.filter(heading => heading.depth === 2);
     border-radius: 20px;
   }
 </style>
+
+<script>
+  function updateActiveItem() {
+    const tocItems = document.querySelectorAll("[data-toc-item]");
+    const headings = Array.from(document.querySelectorAll("h2"));
+    const activeIndicator = document.getElementById("active-indicator");
+
+    let activeItem = null;
+
+    headings.forEach(heading => {
+      const rect = heading.getBoundingClientRect();
+      if (rect.top <= 100) {
+        activeItem = document.querySelector(`[href="#${heading.id}"]`);
+      }
+    });
+
+    tocItems.forEach(item => {
+      item.classList.remove("text-blue-50", "font-bold");
+    });
+
+    if (activeItem && activeIndicator) {
+      (activeItem as HTMLElement).classList.add("text-blue-50", "font-bold");
+      const itemRect = (activeItem as HTMLElement).getBoundingClientRect();
+      const navRect = (activeItem as HTMLElement)
+        ?.closest("nav")
+        ?.getBoundingClientRect();
+      const navElement = (activeItem as HTMLElement)?.closest("nav");
+
+      if (navElement && navRect) {
+        const navScrollTop = navElement.scrollTop;
+        activeIndicator.style.top = `${itemRect.top - navRect.top + navScrollTop}px`;
+        activeIndicator.style.height = `${itemRect.height}px`;
+      }
+    }
+  }
+
+  window.addEventListener("scroll", updateActiveItem);
+  window.addEventListener("load", updateActiveItem);
+</script>
