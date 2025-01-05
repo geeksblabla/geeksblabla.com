@@ -31,12 +31,12 @@ const { project } = Astro.props as Props;
       height={350}
     />
 
-    <div class="flex-1 pt-4">
-      <div class="mb-2 flex items-start text-[#1A1C1E]">
-        <h3 class="text-heading-lg">{project.title}</h3>
+    <div class="flex-1 pt-2 md:pt-8">
+      <div class="mb-2 flex items-start text-[#1A1C1E]/80">
+        <h3 class="font-regular text-3xl md:text-4xl">{project.title}</h3>
         {
           project.badge && (
-            <span class="bg-primary-light text-primary ml-3 rounded-full bg-slate-300/50 px-2 py-1 text-xs font-semibold">
+            <span class="bg-primary-light/50 text-primary ml-3 rounded-full bg-slate-300/50 px-2 py-1 text-xs font-semibold">
               {project.badge}
             </span>
           )
@@ -54,7 +54,7 @@ const { project } = Astro.props as Props;
             fill="#292D33"></path>
         </svg>
         <div class="flex-1 pl-0.5 md:pl-1">
-          <p class="mb-4 text-paragraph-lg text-neutral-dark-20">
+          <p class="mb-4 text-base text-neutral-dark-20/80">
             {project.description}
           </p>
           <ul class="">
@@ -63,7 +63,7 @@ const { project } = Astro.props as Props;
                 <li>
                   <a
                     href={link.url}
-                    class="flex items-center gap-2 py-2 text-label-sm font-bold text-gray-800 underline underline-offset-4"
+                    class="flex items-center gap-1 py-1 text-base font-bold text-gray-800/80 underline underline-offset-4"
                   >
                     {link.text}
                     <Icon name="external-link-styled" class="h-4 w-4" />
