@@ -14,7 +14,7 @@ import HeroAnimation from "./hero-animation.astro";
     <div class="flex flex-col items-center lg:flex-row">
       <div class="z-10">
         <h1
-          class="motion-preset-slide-down mt-8 block w-full max-w-screen-lg text-center font-sans text-3xl font-extrabold md:hidden md:text-left md:text-title"
+          class="motion-preset-slide-down mt-4 block w-full max-w-screen-lg text-center font-sans text-3xl font-extrabold motion-delay-[100ms] md:hidden md:text-left md:text-title"
         >
           Shaping the future of Moroccan Tech community, one step at a time
         </h1>
@@ -37,16 +37,18 @@ import HeroAnimation from "./hero-animation.astro";
           </p>
         </div>
         <p
-          class="text-md motion-preset-slide-down my-4 max-w-[600px] text-center font-sans font-thin motion-delay-[1200ms] motion-ease-spring-smooth md:my-8 md:text-left md:text-label-sm"
+          class="text-md motion-preset-slide-down my-4 max-w-[600px] text-center font-sans font-thin motion-delay-[200ms] motion-ease-spring-smooth md:my-8 md:text-left md:text-label-sm md:motion-delay-[1200ms]"
         >
           Your journey from learning to leading unfolds: insightful Podcast,
           aspiring videos, cutting edge OSS projects, in depth conferences and
           many more.
         </p>
-        <div class="flex justify-center space-x-4 py-4 md:justify-start">
+        <div
+          class="hidden justify-center space-x-4 py-4 md:flex md:flex-row md:justify-start"
+        >
           <ButtonLink
             href="#projects"
-            className="motion-preset-slide-down motion-delay-[1600ms] motion-ease-spring-smooth"
+            className="motion-preset-slide-down hidden motion-delay-[1600ms] motion-ease-spring-smooth md:flex"
           >
             Discover projects <Icon name="arrow-right" class="ml-2 rotate-45" />
           </ButtonLink>
@@ -62,7 +64,7 @@ import HeroAnimation from "./hero-animation.astro";
     </div>
   </div>
   <div
-    class="main motion-preset-slide-up pointer-events-none relative z-20 mx-auto mt-2 px-4 motion-delay-[1600ms] motion-ease-spring-smooth md:-mt-52"
+    class="main motion-preset-slide-up pointer-events-none relative z-20 mx-auto mt-2 px-4 motion-delay-[600ms] motion-ease-spring-smooth md:-mt-52 md:motion-delay-[1600ms]"
   >
     <HeroAnimation />
   </div>
