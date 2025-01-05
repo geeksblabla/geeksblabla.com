@@ -11,6 +11,7 @@ export interface ProjectType {
     text: string;
     url: string;
   }[];
+  color?: string;
 }
 
 export interface Props {
@@ -20,8 +21,17 @@ export interface Props {
 const { project } = Astro.props as Props;
 ---
 
-<div class="overflow-hidden rounded-lg border border-[#C3CAD4] bg-white">
-  <div class="bg-[#FAFBFD] px-4 py-1 text-[20px] text-[#7CB4FE]">{">_"}</div>
+<div
+  class="group overflow-hidden rounded-lg border border-[#C3CAD4] bg-white transition-all duration-300 hover:border-[var(--project-color)] hover:shadow-lg"
+  style={`--project-color: ${project.color || "#7CB4FE"}`}
+>
+  <div class="relative px-4 py-1 text-[20px]">
+    <div
+      class="absolute inset-0 bg-[var(--project-color)] px-4 py-1 text-[20px] opacity-60 transition-colors duration-300 group-hover:text-[var(--project-color)]"
+    >
+    </div>
+    <span class="relative z-10">{">_"}</span>
+  </div>
   <div class="flex flex-col items-start p-6">
     <RiveAnimation
       animation={project.riveAnimation}
