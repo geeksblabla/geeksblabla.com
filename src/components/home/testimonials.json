@@ -1,12 +1,6 @@
 {
   "testimonials": [
     {
-      "name": "Diaa Elhak",
-      "role": "Founder",
-      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/hisarmn11nopdmjfcnt0",
-      "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/hisarmn11nopdmjfcnt0.webp"
-    },
-    {
       "name": "Zak El Fassi",
       "role": "Engineer Ex @Meta, @Google",
       "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/bxq6unobjtsm3lk5zhve",
@@ -17,6 +11,18 @@
       "role": "Software Engineer",
       "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/fiewmhtdeiferk3rlo1d",
       "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/fiewmhtdeiferk3rlo1d.webp"
+    },
+    {
+      "name": "Abdel SGHIOUAR",
+      "role": "Cloud Developer Advocate @Google",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/mapvth2qxm0n9aen3plw",
+      "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/mapvth2qxm0n9aen3plw.webp"
+    },
+    {
+      "name": "Diaa Elhak",
+      "role": "Founder",
+      "video": "https://res.cloudinary.com/da6xak4vb/video/upload/f_auto:video,q_auto/v1/reviews/hisarmn11nopdmjfcnt0",
+      "poster": "https://res.cloudinary.com/da6xak4vb/video/upload/so_auto/c_fill,g_auto,w_350/v1733227630/reviews/hisarmn11nopdmjfcnt0.webp"
     },
     {
       "name": "Kaito",
