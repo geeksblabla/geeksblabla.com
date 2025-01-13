@@ -32,7 +32,7 @@ const testimonialsQuotes = testimonials.filter(
             {testimonial.video && (
               <div class="relative" data-video={`${index}`}>
                 <video
-                  class="aspect-[9/16] w-full bg-black/50 object-cover"
+                  class="aspect-[9/16] w-full object-cover"
                   id={`video-${index}`}
                   playsinline
                   preload="none"
@@ -55,7 +55,29 @@ const testimonialsQuotes = testimonials.filter(
                       class="z-10 text-4xl text-white"
                       aria-label="Play video"
                     >
-                      ▶
+                      <span class="play-icon">▶</span>
+                      <span class="loading-icon hidden">
+                        <svg
+                          class="h-8 w-8 animate-spin"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <circle
+                            class="opacity-25"
+                            cx="12"
+                            cy="12"
+                            r="10"
+                            stroke="currentColor"
+                            stroke-width="4"
+                          />
+                          <path
+                            class="opacity-75"
+                            fill="currentColor"
+                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                          />
+                        </svg>
+                      </span>
                     </button>
                   </div>
                 </div>
@@ -116,6 +138,10 @@ const testimonialsQuotes = testimonials.filter(
     const currentOverlay = document.getElementById(
       `overlay-${name}`
     ) as HTMLElement;
+    const playIcon = currentOverlay.querySelector(".play-icon") as HTMLElement;
+    const loadingIcon = currentOverlay.querySelector(
+      ".loading-icon"
+    ) as HTMLElement;
 
     // Pause all other videos
     videos.forEach(video => {
@@ -125,22 +151,50 @@ const testimonialsQuotes = testimonials.filter(
       const overlayElement = document.getElementById(
         `overlay-${video.dataset.video}`
       ) as HTMLElement;
+      const otherPlayIcon = overlayElement.querySelector(
+        ".play-icon"
+      ) as HTMLElement;
+      const otherLoadingIcon = overlayElement.querySelector(
+        ".loading-icon"
+      ) as HTMLElement;
+
       if (videoElement && videoElement !== currentVideo) {
         videoElement.pause();
         overlayElement.style.opacity = "1";
         overlayElement.style.display = "flex";
+        otherPlayIcon.classList.remove("hidden");
+        otherLoadingIcon.classList.add("hidden");
       }
     });
 
     // Toggle the current video
     if (currentVideo && currentVideo.paused) {
-      currentVideo.play();
-      currentOverlay.style.opacity = "0";
-      setTimeout(() => (currentOverlay.style.display = "none"), 300);
-    } else {
+      // Show loading icon
+      playIcon.classList.add("hidden");
+      loadingIcon.classList.remove("hidden");
+
+      // Start loading the video
+      currentVideo.load();
+
+      // Wait for video to be ready
+      currentVideo.addEventListener("canplay", function onCanPlay() {
+        currentVideo.play();
+        currentOverlay.style.opacity = "0";
+        setTimeout(() => {
+          currentOverlay.style.display = "none";
+          playIcon.classList.remove("hidden");
+          loadingIcon.classList.add("hidden");
+        }, 300);
+
+        // Remove the event listener to avoid multiple calls
+        currentVideo.removeEventListener("canplay", onCanPlay);
+      });
+    } else if (currentVideo) {
       currentVideo.pause();
       currentOverlay.style.opacity = "1";
       currentOverlay.style.display = "flex";
+      playIcon.classList.remove("hidden");
+      loadingIcon.classList.add("hidden");
     }
   }
 </script>

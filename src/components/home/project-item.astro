@@ -22,7 +22,8 @@ const { project } = Astro.props as Props;
 ---
 
 <div
-  class="group overflow-hidden rounded-lg border border-[#C3CAD4] bg-white transition-all duration-300 hover:border-[var(--project-color)] hover:shadow-lg"
+  data-visible-in-the-view="false"
+  class={`group overflow-hidden rounded-lg border border-[#C3CAD4] bg-white transition-all duration-300 hover:border-[var(--project-color)] hover:shadow-lg data-[visible-in-the-view=true]:motion-preset-slide-up data-[visible-in-the-view=true]:motion-delay-[100ms]`}
   style={`--project-color: ${project.color || "#7CB4FE"}`}
 >
   <div class="relative px-4 py-1 text-[20px]">
@@ -32,7 +33,7 @@ const { project } = Astro.props as Props;
     </div>
     <span class="relative z-10">{">_"}</span>
   </div>
-  <div class="flex flex-col items-start p-6">
+  <div class="flex flex-col items-start p-2 md:p-6">
     <RiveAnimation
       animation={project.riveAnimation}
       id={project.riveAnimation}
@@ -41,7 +42,7 @@ const { project } = Astro.props as Props;
       height={350}
     />
 
-    <div class="flex-1 pt-2 md:pt-8">
+    <div class="flex-1 pt-0 md:pt-8">
       <div class="mb-2 flex items-start text-[#1A1C1E]/80">
         <h3 class="font-regular text-3xl md:text-4xl">{project.title}</h3>
         {
