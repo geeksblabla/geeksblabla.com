@@ -1,5 +1,6 @@
 ---
 import testimonialsData from "./testimonials.json";
+import VideoTestimonial from "./video-testimonial.astro";
 
 interface Testimonial {
   name: string;
@@ -24,74 +25,25 @@ const testimonialsQuotes = testimonials.filter(
   <div class="main mx-auto px-4">
     <h2 class="mb-12 text-3xl font-bold">Testimonials</h2>
     <div
-      class="flex flex-row gap-8 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      class="flex flex-row gap-2 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
     >
       {
-        testimonialsVideos.map((testimonial, index) => (
-          <div class="min-w-[300px] overflow-hidden rounded-lg bg-white shadow-md">
-            {testimonial.video && (
-              <div class="relative" data-video={`${index}`}>
-                <video
-                  class="aspect-[9/16] w-full object-cover"
-                  id={`video-${index}`}
-                  playsinline
-                  preload="none"
-                >
-                  <source src={testimonial.video} type="video/mp4" />
-                  <video />
-                </video>
-                <div
-                  class="overlay absolute inset-0 flex cursor-pointer items-center justify-center"
-                  id={`overlay-${index}`}
-                >
-                  <img
-                    src={testimonial.poster}
-                    alt={testimonial.name}
-                    class="absolute inset-0 w-full"
-                    loading="lazy"
-                  />
-                  <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 transition-opacity duration-300">
-                    <button
-                      class="z-10 text-4xl text-white"
-                      aria-label="Play video"
-                    >
-                      <span class="play-icon">▶</span>
-                      <span class="loading-icon hidden">
-                        <svg
-                          class="h-8 w-8 animate-spin"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <circle
-                            class="opacity-25"
-                            cx="12"
-                            cy="12"
-                            r="10"
-                            stroke="currentColor"
-                            stroke-width="4"
-                          />
-                          <path
-                            class="opacity-75"
-                            fill="currentColor"
-                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                          />
-                        </svg>
-                      </span>
-                    </button>
-                  </div>
-                </div>
-                <div class="absolute bottom-4 left-0 min-w-[200px] rounded-r-lg bg-white/90 p-2">
-                  <p class="font-bold">{testimonial.name}</p>
-                  <p class="text-sm text-gray-600">{testimonial.role}</p>
-                </div>
-              </div>
-            )}
-          </div>
-        ))
+        testimonialsVideos.map(
+          (testimonial, index) =>
+            testimonial.video &&
+            testimonial.poster && (
+              <VideoTestimonial
+                name={testimonial.name}
+                role={testimonial.role}
+                video={testimonial.video}
+                poster={testimonial.poster}
+                index={index}
+              />
+            )
+        )
       }
     </div>
-    <div class="grid grid-cols-1 gap-8 pt-8 md:grid-cols-3">
+    <div class="grid grid-cols-1 gap-2 pt-2 md:grid-cols-3">
       {
         testimonialsQuotes.map(testimonial => (
           <div class="flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
@@ -108,8 +60,10 @@ const testimonialsQuotes = testimonials.filter(
                   class="mr-3 h-10 w-10 rounded-full"
                 />
                 <div>
-                  <p class="font-bold">{testimonial.name}</p>
-                  <p class="text-sm text-gray-600">{testimonial.role}</p>
+                  <p class="font-sans font-bold">{testimonial.name}</p>
+                  <p class="font-sans text-sm text-gray-600">
+                    {testimonial.role}
+                  </p>
                 </div>
               </div>
             </div>
@@ -119,82 +73,3 @@ const testimonialsQuotes = testimonials.filter(
     </div>
   </div>
 </section>
-
-<script>
-  const videos = document.querySelectorAll(
-    "[data-video]"
-  ) as NodeListOf<HTMLElement>;
-
-  videos.forEach(video => {
-    video.addEventListener("click", () => {
-      toggleVideo(video.dataset.video ?? "");
-    });
-  });
-
-  function toggleVideo(name: string) {
-    const currentVideo = document.getElementById(
-      `video-${name}`
-    ) as HTMLVideoElement;
-    const currentOverlay = document.getElementById(
-      `overlay-${name}`
-    ) as HTMLElement;
-    const playIcon = currentOverlay.querySelector(".play-icon") as HTMLElement;
-    const loadingIcon = currentOverlay.querySelector(
-      ".loading-icon"
-    ) as HTMLElement;
-
-    // Pause all other videos
-    videos.forEach(video => {
-      const videoElement = document.getElementById(
-        `video-${video.dataset.video}`
-      ) as HTMLVideoElement;
-      const overlayElement = document.getElementById(
-        `overlay-${video.dataset.video}`
-      ) as HTMLElement;
-      const otherPlayIcon = overlayElement.querySelector(
-        ".play-icon"
-      ) as HTMLElement;
-      const otherLoadingIcon = overlayElement.querySelector(
-        ".loading-icon"
-      ) as HTMLElement;
-
-      if (videoElement && videoElement !== currentVideo) {
-        videoElement.pause();
-        overlayElement.style.opacity = "1";
-        overlayElement.style.display = "flex";
-        otherPlayIcon.classList.remove("hidden");
-        otherLoadingIcon.classList.add("hidden");
-      }
-    });
-
-    // Toggle the current video
-    if (currentVideo && currentVideo.paused) {
-      // Show loading icon
-      playIcon.classList.add("hidden");
-      loadingIcon.classList.remove("hidden");
-
-      // Start loading the video
-      currentVideo.load();
-
-      // Wait for video to be ready
-      currentVideo.addEventListener("canplay", function onCanPlay() {
-        currentVideo.play();
-        currentOverlay.style.opacity = "0";
-        setTimeout(() => {
-          currentOverlay.style.display = "none";
-          playIcon.classList.remove("hidden");
-          loadingIcon.classList.add("hidden");
-        }, 300);
-
-        // Remove the event listener to avoid multiple calls
-        currentVideo.removeEventListener("canplay", onCanPlay);
-      });
-    } else if (currentVideo) {
-      currentVideo.pause();
-      currentOverlay.style.opacity = "1";
-      currentOverlay.style.display = "flex";
-      playIcon.classList.remove("hidden");
-      loadingIcon.classList.add("hidden");
-    }
-  }
-</script>

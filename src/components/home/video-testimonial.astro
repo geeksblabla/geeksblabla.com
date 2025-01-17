@@ -1,0 +1,136 @@
+---
+interface Props {
+  name: string;
+  role: string;
+  video: string;
+  poster: string;
+  index: number;
+}
+
+const { name, role, video, poster, index } = Astro.props;
+---
+
+<div class="min-w-[300px] overflow-hidden rounded-lg bg-white shadow-md">
+  <div class="relative cursor-pointer" data-video={`${index}`}>
+    <video
+      class="aspect-[9/16] w-full object-cover"
+      id={`video-${index}`}
+      playsinline
+      preload="none"
+      poster={poster}
+    >
+      <source src={video} type="video/mp4" />
+    </video>
+    <div
+      class="absolute inset-x-0 bottom-0 w-full bg-gradient-to-t from-black/90 via-black/60 to-transparent p-4 pt-12"
+    >
+      <div
+        class="play-button mb-4 opacity-100 transition-opacity duration-300"
+        id={`play-button-${index}`}
+      >
+        <div
+          class="flex h-8 w-12 items-center justify-center rounded-lg bg-black/40"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="play-icon h-6 w-6 text-white"
+          >
+            <path
+              d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"
+            ></path>
+          </svg>
+          <svg
+            class="loading-icon hidden h-6 w-6 animate-spin text-white"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              class="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              stroke-width="3"></circle>
+            <path
+              class="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <p class="font-sans font-bold text-white">{name}</p>
+      <p class="font-sans text-sm text-gray-300">{role}</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  const videos = document.querySelectorAll(
+    "[data-video]"
+  ) as NodeListOf<HTMLElement>;
+
+  videos.forEach(video => {
+    video.addEventListener("click", () => {
+      toggleVideo(video.dataset.video ?? "");
+    });
+  });
+
+  function toggleVideo(name: string) {
+    const currentVideo = document.getElementById(
+      `video-${name}`
+    ) as HTMLVideoElement;
+    const playButton = document.getElementById(
+      `play-button-${name}`
+    ) as HTMLElement;
+    const playIcon = playButton.querySelector(".play-icon") as HTMLElement;
+    const loadingIcon = playButton.querySelector(
+      ".loading-icon"
+    ) as HTMLElement;
+
+    if (currentVideo && currentVideo.paused) {
+      // Pause all other videos and show their play buttons
+      videos.forEach(video => {
+        const videoElement = document.getElementById(
+          `video-${video.dataset.video}`
+        ) as HTMLVideoElement;
+        const otherPlayButton = document.getElementById(
+          `play-button-${video.dataset.video}`
+        ) as HTMLElement;
+        const otherPlayIcon = otherPlayButton.querySelector(
+          ".play-icon"
+        ) as HTMLElement;
+        const otherLoadingIcon = otherPlayButton.querySelector(
+          ".loading-icon"
+        ) as HTMLElement;
+
+        if (videoElement && videoElement !== currentVideo) {
+          videoElement.pause();
+          otherPlayButton.style.opacity = "1";
+          otherPlayIcon.classList.remove("hidden");
+          otherLoadingIcon.classList.add("hidden");
+        }
+      });
+
+      // Show loading state
+      playIcon.classList.add("hidden");
+      loadingIcon.classList.remove("hidden");
+
+      // Play current video and hide play button
+      currentVideo.load();
+      currentVideo.addEventListener("canplay", function onCanPlay() {
+        currentVideo.play();
+        playButton.style.opacity = "0";
+        currentVideo.removeEventListener("canplay", onCanPlay);
+      });
+    } else if (currentVideo) {
+      currentVideo.pause();
+      playButton.style.opacity = "1";
+      playIcon.classList.remove("hidden");
+      loadingIcon.classList.add("hidden");
+    }
+  }
+</script>
