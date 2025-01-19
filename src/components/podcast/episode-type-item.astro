@@ -7,7 +7,7 @@ export interface EpisodeType {
   description: string;
   riveAnimation: string;
   badge?: string;
-
+  color?: string;
   link: {
     text: string;
     url: string;
@@ -22,23 +22,33 @@ const { episode } = Astro.props as Props;
 ---
 
 <div
-  class:list={["overflow-hidden rounded-lg border border-[#C3CAD4] bg-white"]}
+  data-visible-in-the-view="false"
+  class={`group overflow-hidden rounded-lg border border-[#C3CAD4] bg-white transition-all duration-300 hover:border-[var(--episode-color)] hover:shadow-lg data-[visible-in-the-view=true]:motion-preset-slide-up data-[visible-in-the-view=true]:motion-delay-[100ms]`}
+  style={`--episode-color: ${episode.color || "#7CB4FE"}`}
 >
-  <div class="bg-[#FAFBFD] px-4 py-1 text-[20px] text-[#7CB4FE]">{">_"}</div>
-  <div class:list={["flex", "flex-col", "h-full items-start p-6"]}>
+  <div class="relative px-4 py-1 text-[20px]">
+    <div
+      class="absolute inset-0 px-4 py-1 text-[20px] opacity-60 transition-colors duration-300 group-hover:text-[var(--episode-color)]"
+    >
+    </div>
+    <span class="relative z-10 text-neutral-dark-20/50">{">_"}</span>
+  </div>
+  <div class="flex flex-col items-start p-2 md:p-6">
     <RiveAnimation
       animation={episode.riveAnimation}
       id={episode.riveAnimation}
-      width={200}
-      height={200}
-      className="max-h-[300px] w-full"
+      width={350}
+      height={350}
+      className="max-h-[350px] w-full"
     />
 
-    <div class="h-full flex-1 flex-col items-end pt-4">
+    <div class="flex-1 pt-0 md:pt-8">
       <div class="mb-2 flex items-start">
-        <h3 class="text-heading-lg">{episode.title}</h3>
+        <h3 class="font-regular text-3xl text-[#1A1C1E]/80 md:text-4xl">
+          {episode.title}
+        </h3>
       </div>
-      <div class="flex h-full flex-1 items-start">
+      <div class="flex items-start">
         <svg
           class="mt-1 h-3"
           viewBox="0 0 20 18"
@@ -50,7 +60,7 @@ const { episode } = Astro.props as Props;
             fill="#292D33"></path>
         </svg>
         <div class="flex-1 pl-0.5 md:pl-1">
-          <div class="mb-4 text-paragraph-lg text-neutral-dark-20">
+          <div class="mb-4 text-base text-neutral-dark-20/80">
             <p>
               {episode.description}
             </p>

@@ -20,7 +20,7 @@
   }
 
   .main {
-    @apply mx-auto w-full max-w-7xl px-4 xl:px-0 lg:px-4;
+    @apply mx-auto w-full max-w-6xl px-4 xl:px-0 lg:px-4;
   }
 
   /* article styling */

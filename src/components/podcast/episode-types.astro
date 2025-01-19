@@ -31,6 +31,7 @@ const episodes: EpisodeType[] = [
       text: "Watch Dev Episodes",
       url: getLatestEpisodeLink("dev"),
     },
+    color: "#915EDF",
   },
   {
     title: "MSS episodes",
@@ -41,6 +42,7 @@ const episodes: EpisodeType[] = [
       text: "Watch MSS Episodes",
       url: getLatestEpisodeLink("mss"),
     },
+    color: "#2980FA",
   },
   {
     title: "Career episodes",
@@ -51,6 +53,7 @@ const episodes: EpisodeType[] = [
       text: "Watch Career Episodes",
       url: getLatestEpisodeLink("career"),
     },
+    color: "#28AF87",
   },
   {
     title: "AI episodes",
@@ -61,6 +64,7 @@ const episodes: EpisodeType[] = [
       text: "Watch AI Episodes",
       url: getLatestEpisodeLink("ai"),
     },
+    color: "#C4CAD4",
   },
   {
     title: "AMA & tech news",
@@ -71,6 +75,7 @@ const episodes: EpisodeType[] = [
       text: "Watch AMA Episodes",
       url: getLatestEpisodeLink("ama"),
     },
+    color: "#2980FA",
   },
   {
     title: "Book & article reviews",
@@ -81,6 +86,7 @@ const episodes: EpisodeType[] = [
       text: "Watch Books Episodes",
       url: getLatestEpisodeLink("book"),
     },
+    color: "#AE8DF0",
   },
 ];
 ---
@@ -88,7 +94,7 @@ const episodes: EpisodeType[] = [
 <section class="bg-[#F2F4F7] py-16">
   <div class="main mx-auto px-4">
     <h2 class="mb-8 text-heading-sm font-bold">Episodes On the Menu</h2>
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
       {episodes.map(episode => <EpisodeTypeItem episode={episode} />)}
     </div>
   </div>
