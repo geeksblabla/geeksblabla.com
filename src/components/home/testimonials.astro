@@ -1,6 +1,7 @@
 ---
 import testimonialsData from "./testimonials.json";
 import VideoTestimonial from "./video-testimonial.astro";
+import { Icon as AstroIcon } from "astro-icon/components";
 
 interface Testimonial {
   name: string;
@@ -24,24 +25,42 @@ const testimonialsQuotes = testimonials.filter(
 <section class="py-16">
   <div class="main mx-auto px-4">
     <h2 class="mb-12 text-3xl font-bold">Testimonials</h2>
-    <div
-      class="flex flex-row gap-2 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-    >
-      {
-        testimonialsVideos.map(
-          (testimonial, index) =>
-            testimonial.video &&
-            testimonial.poster && (
-              <VideoTestimonial
-                name={testimonial.name}
-                role={testimonial.role}
-                video={testimonial.video}
-                poster={testimonial.poster}
-                index={index}
-              />
-            )
-        )
-      }
+    <div class="relative">
+      <button
+        id="scroll-left"
+        class="absolute left-2 top-1/2 z-10 hidden -translate-y-1/2 flex-row rounded-full border-2 border-neutral-dark-20 bg-white p-2 opacity-60 hover:opacity-100 md:p-3"
+        onclick="document.querySelector('.testimonials-scroll').scrollBy({left: -300, behavior: 'smooth'})"
+        aria-label="Scroll left"
+      >
+        <AstroIcon name="arrow-left" class="h-4 w-4 md:h-5 md:w-5" />
+      </button>
+      <div
+        class="testimonials-scroll flex flex-row gap-2 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      >
+        {
+          testimonialsVideos.map(
+            (testimonial, index) =>
+              testimonial.video &&
+              testimonial.poster && (
+                <VideoTestimonial
+                  name={testimonial.name}
+                  role={testimonial.role}
+                  video={testimonial.video}
+                  poster={testimonial.poster}
+                  index={index}
+                />
+              )
+          )
+        }
+      </div>
+      <button
+        id="scroll-right"
+        class="absolute right-2 top-1/2 z-10 hidden -translate-y-1/2 flex-row rounded-full border-2 border-neutral-dark-20 bg-white p-2 opacity-60 hover:opacity-100 md:p-3"
+        onclick="document.querySelector('.testimonials-scroll').scrollBy({left: 300, behavior: 'smooth'})"
+        aria-label="Scroll right"
+      >
+        <AstroIcon name="arrow-right" class="h-4 w-4 md:h-5 md:w-5" />
+      </button>
     </div>
     <div class="grid grid-cols-1 gap-2 pt-2 md:grid-cols-3">
       {
@@ -73,3 +92,39 @@ const testimonialsQuotes = testimonials.filter(
     </div>
   </div>
 </section>
+
+<script>
+  function updateScrollButtons() {
+    const container = document.querySelector(".testimonials-scroll");
+    const leftButton = document.getElementById("scroll-left");
+    const rightButton = document.getElementById("scroll-right");
+    const isMobile = window.innerWidth < 768; // 768px is standard md breakpoint
+
+    if (container && leftButton && rightButton) {
+      if (isMobile) {
+        leftButton.style.display = "none";
+        rightButton.style.display = "none";
+        return;
+      }
+
+      // Show left button if we're not at the start
+      leftButton.style.display = container.scrollLeft > 0 ? "flex" : "none";
+
+      // Show right button if we're not at the end
+      const isAtEnd =
+        container.scrollLeft + container.clientWidth >= container.scrollWidth;
+      rightButton.style.display = isAtEnd ? "none" : "flex";
+    }
+  }
+
+  // Initial check
+  updateScrollButtons();
+
+  // Update on scroll
+  document
+    .querySelector(".testimonials-scroll")
+    ?.addEventListener("scroll", updateScrollButtons);
+
+  // Update on window resize
+  window.addEventListener("resize", updateScrollButtons);
+</script>

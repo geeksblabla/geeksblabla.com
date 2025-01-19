@@ -1,6 +1,4 @@
 ---
-import { Icon } from "astro-icon/components";
-
 export interface Props {
   label: string;
   href: string;
@@ -18,18 +16,10 @@ const { label, href, external = false } = Astro.props;
 
 <a
   href={href}
-  class={`relative inline-flex items-center px-2  pl-4 text-label-sm font-sans text-black transition-colors duration-200 ${
+  class={`relative inline-flex items-center px-2  pl-4 text-label-sm font-sans text-neutral-dark-20 hover:font-bold transition-colors duration-200 ${
     isActive ? "font-bold" : "font-normal"
   }`}
   target={external ? "_blank" : undefined}
 >
-  {
-    isActive && (
-      <Icon
-        name="arrow-right"
-        class="absolute left-0 top-1/2 h-3.5 w-3.5 -translate-y-1/2 transform"
-      />
-    )
-  }
   {label}
 </a>

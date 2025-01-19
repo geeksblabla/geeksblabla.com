@@ -34,7 +34,7 @@ const stats: Stat[] = [
     <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
       {
         stats.map(stat => (
-          <div class="flex flex-col items-center">
+          <div class="flex flex-col items-center font-sans">
             <Image src={stat.icon} alt={stat.title} class="mb-4 h-36 w-auto" />
             <span class="py-4 text-heading-lg font-bold text-neutral-dark-20">
               {stat.title}

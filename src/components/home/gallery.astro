@@ -20,18 +20,14 @@ const getOptimizedImage = (url: string) => {
           <span class="md:hidden">Swipe left or right to navigate</span>
           <span class="hidden md:inline">You can use arrows to navigate</span>
         </p>
-        <div class="hidden flex-row font-bold md:flex">
-          [<Icon name="arrow-left" class="mt-[5px] h-3 w-3" />]
-        </div>
-        <div class="hidden flex-row font-bold md:flex">
-          [<Icon name="arrow-right" class="mt-[5px] h-3 w-3" />]
-        </div>
+        <div class="hidden flex-row font-bold md:flex">[←]</div>
+        <div class="hidden flex-row font-bold md:flex">[→]</div>
       </div>
     </div>
     <div
       class="relative mt-4 overflow-hidden rounded-lg border border-neutral-dark-20 md:mt-0"
     >
-      <div class="bg-[#FAFBFD] px-3 py-2">
+      <div class="hidden bg-[#FAFBFD] px-3 py-2 md:block">
         <svg
           width="50"
           viewBox="0 0 66 16"
@@ -67,7 +63,7 @@ const getOptimizedImage = (url: string) => {
         }
       </swiper-container>
       <div
-        class="absolute bottom-1 z-10 hidden w-full flex-row items-center justify-center gap-3 md:bottom-2 md:flex md:gap-5"
+        class="absolute bottom-1 z-10 hidden w-full flex-row items-center justify-center gap-3 md:bottom-8 md:flex md:gap-5"
       >
         <button
           id="arrow-left"
@@ -121,7 +117,16 @@ const getOptimizedImage = (url: string) => {
   }
 
   swiper-container::part(pagination) {
-    display: none;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  swiper-container::part(bullet) {
+    background-color: #ffffff;
+  }
+
+  swiper-container::part(bullet-active) {
+    background-color: #ffffff;
   }
 </style>
 

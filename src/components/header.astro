@@ -13,9 +13,9 @@ const { withSocialIcons = true } = Astro.props;
 const navItems = [
   { label: "Home", href: "/" },
   { label: "Podcast", href: "/podcast" },
-  { label: "About us", href: "/about" },
   { label: "Blog", href: "/blog" },
-  { label: "Brand Style", href: "/brand" },
+  { label: "About us", href: "/about" },
+  // { label: "Brand Style", href: "/brand" },
 ];
 
 const socialIcons = [
@@ -159,7 +159,7 @@ const socialIcons = [
                 <a
                   href={item.href}
                   aria-label={item.ariaLabel}
-                  class="flex items-center text-gray-600 hover:text-gray-800"
+                  class="flex items-center text-neutral-dark-20"
                 >
                   <Icon name={item.icon} class="h-5 w-5" />
                 </a>

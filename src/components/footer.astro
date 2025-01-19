@@ -2,67 +2,72 @@
 import LogoLight from "@/assets/logo-light.svg?raw";
 import { SOCIALS } from "@/config";
 import { Icon } from "astro-icon/components";
+
+const links = [
+  {
+    title: "blablaconf.com",
+    href: "https://blablaconf.com",
+  },
+  {
+    title: "stateofdev.ma",
+    href: "https://stateofdev.ma",
+  },
+  {
+    title: "awesome-morocco",
+    href: "https://awesome-morocco.dev",
+  },
+  {
+    title: "Podcast",
+    href: "/podcast",
+  },
+  {
+    title: "About us",
+    href: "/about",
+  },
+  {
+    title: "Contribute",
+    href: "/contribute",
+  },
+];
 ---
 
 <footer class="bg-black py-12 text-white" id="footer">
-  <div class="main">
+  <div class="main text-neutral-light-30">
     <div class="mb-8">
-      <h2 class="mb-2 text-2xl font-bold">You want to contribute?</h2>
-      <a
-        href="https://github.com/your-repo-link"
-        class="text-gray-400 hover:text-white"
-      >
+      <h2 class="mb-2 font-sans text-heading-lg">You want to contribute?</h2>
+      <a href="https://github.com/your-repo-link" class="hover:text-white">
         &gt; Source code is on GitHub ↗
       </a>
     </div>
 
-    <div class="grid gap-8 md:grid-cols-2">
+    <div class="grid gap-8 font-sans md:grid-cols-2">
       <div>
-        <h2 class="mb-4 text-2xl font-bold">Find out more</h2>
-        <ul class="space-y-2">
-          <li>
-            <a
-              href="https://blablaconf.com"
-              class="text-gray-400 hover:text-white">&gt; blablaconf.com ↗</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://stateofdev.ma"
-              class="text-gray-400 hover:text-white">&gt; stateofdev.ma ↗</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://awesome-morocco.dev"
-              class="text-gray-400 hover:text-white">&gt; awesome-morocco ↗</a
-            >
-          </li>
-          <li>
-            <a href="/podcast" class="text-gray-400 hover:text-white"
-              >&gt; podcast</a
-            >
-          </li>
-          <li>
-            <a href="/about" class="text-gray-400 hover:text-white"
-              >&gt; about</a
-            >
-          </li>
-          <li>
-            <a href="/brand-assets" class="text-gray-400 hover:text-white"
-              >&gt; brand assets</a
-            >
-          </li>
+        <h2 class="mb-4 text-heading-sm">Find out more</h2>
+        <ul class="space-y-2 font-bold">
+          {
+            links.map(link => (
+              <li>
+                <a
+                  href={link.href}
+                  class="flex w-fit items-center hover:text-white"
+                  target={link.href.includes("http") ? "_blank" : ""}
+                >
+                  &gt; {link.title}
+                  <Icon name="external-link-styled" class="ml-1 h-4 w-4" />
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
 
-      <div class="flex flex-col items-center md:items-end">
+      <div class="flex flex-col items-center self-end md:items-end">
         <Fragment
           set:html={LogoLight}
           alt="GeeksBlabla Logo"
-          class="mb-4 w-24"
+          class="mb-4 w-20"
         />
-        <div class="mt-3 flex space-x-4">
+        <div class="mt-3 flex space-x-6">
           {
             Object.entries(SOCIALS).map(([key, social]) => (
               <a
@@ -80,11 +85,11 @@ import { Icon } from "astro-icon/components";
       </div>
     </div>
 
-    <div class="mt-12 text-center text-gray-400">
+    <div class="mt-12 border-t border-neutral-light-0/50 pt-8 text-center">
       <p>
         Geeksblabla © 2018-{new Date().getFullYear()} / Made with ❤️ by <a
           href="/about"
-          class="hover:text-white">GeeksBlabla Core team</a
+          class="hover:text-white">GeeksBlabla Community</a
         >
       </p>
     </div>

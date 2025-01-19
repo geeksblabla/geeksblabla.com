@@ -13,12 +13,12 @@ type VV = {
   name: string;
 };
 const values: VV[] = [
-  { icon: ConsistencyIcon, name: "CONSISTENCY" },
-  { icon: simplicityIcon, name: "SIMPLICITY" },
-  { icon: transparencyIcon, name: "TRANSPARENCY" },
-  { icon: inclusivenessIcon, name: "INCLUSIVENESS" },
-  { icon: empathyIcon, name: "EMPATHY" },
-  { icon: accountabilityIcon, name: "ACCOUNTABILITY" },
+  { icon: ConsistencyIcon, name: "Consistency" },
+  { icon: simplicityIcon, name: "Simplicity" },
+  { icon: transparencyIcon, name: "Transparency" },
+  { icon: inclusivenessIcon, name: "Inclusiveness" },
+  { icon: empathyIcon, name: "Empathy" },
+  { icon: accountabilityIcon, name: "Accountability" },
 ];
 
 const mission = [
@@ -92,12 +92,6 @@ const animationDelays = [
             <div
               class={`relative flex flex-col items-center group-data-[visible-in-the-view=true]:motion-preset-slide-right ${animationDelays[index]}`}
             >
-              <div
-                class={`absolute bottom-0 h-[1px] w-full bg-neutral-dark-20/20 group-data-[visible-in-the-view=true]:motion-preset-fade-lg group-data-[visible-in-the-view=true]:motion-delay-[900ms] ${index >= values.length - 2 ? "hidden" : ""} md:block ${index >= values.length - 3 ? "md:hidden" : ""}`}
-              />
-              <div
-                class={`absolute right-0 h-full w-[1px] bg-neutral-dark-20/20 group-data-[visible-in-the-view=true]:motion-preset-fade-lg group-data-[visible-in-the-view=true]:motion-delay-[900ms] ${index % 2 === 1 || index === values.length - 1 ? "hidden" : ""} md:block ${index % 3 === 2 || index === values.length - 1 ? "md:hidden" : ""}`}
-              />
               <div class="flex flex-col items-center py-6">
                 <div class="h-24">
                   <Image
@@ -106,7 +100,7 @@ const animationDelays = [
                     alt={value.name}
                   />
                 </div>
-                <span class="pt-4 text-paragraph-sm font-light text-neutral-dark-20 md:text-heading-sm">
+                <span class="pt-4 text-paragraph-sm font-light text-neutral-dark-20 md:text-2xl">
                   {value.name}
                 </span>
               </div>
