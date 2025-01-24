@@ -1,54 +1,39 @@
 ---
-title: "Geeksblabla Campus: Bridging Communities and Tech Enthusiasts Across Morocco"
+title: "Geeksblabla on Campus: Bridging Communities and Tech Enthusiasts Across Morocco"
 tags: ["community", "GeeksBlabla"]
-keywords:
-  [
-    "GeeksBlabla",
-    "Moroccan tech community",
-    "Morocco",
-    "Universities",
-    "Events",
-  ]
+keywords: ["GeeksBlabla", "Morocco", "Universities", "Events"]
 pubDatetime: 2025-01-21
 authors: ["makraz"] # the name of the author file
 description: "Discover how Geeksblabla Campus is empowering students, fostering collaboration, and growing Morocco's tech ecosystem through university partnerships."
 ogImage: "./images/geeksblabla-campus-logo.png"
 ---
 
-# **Geeksblabla Campus: Bridging Communities and Tech Enthusiasts Across Morocco**
+Before COVID-19, we had a successful initiative called "DevC Tours" where we visited universities across Morocco to host workshops and connect with students. People from the community's earlier days might remember the React Workshops and the Docker Tour we hosted all over Morocco.
 
-The Moroccan tech ecosystem is brimming with potential, and Geeksblabla Campus is the latest initiative aiming to bring this potential to life. Through collaborations with clubs from Moroccan universities, Geeksblabla is organizing in-person events that focus on technology, innovation, and community building.
+As we all know, the pandemic hit, and we had to pivot. But today, we have good news.
 
-## **What is Geeksblabla Campus?**
+## Geeksblabla on Campus?
 
-Geeksblabla Campus is a community-driven initiative designed to empower students in Moroccan universities by connecting them with the broader tech community. The initiative brings together university clubs, local developers, and industry experts to host tech-focused events, workshops, and meetups on campuses across Morocco.
+In the last two years, our team members received numerous invitations from university clubs to speak at their events, and they happily participated whenever possible. Today, we're excited to announce that you can now officially invite GeeksBlaBla to your school through our structured program!
 
-## **Key Objectives**
+Geeksblabla on Campus is our way to bring Geeksblabla to schools again. We will be working with clubs from Moroccan universities to organize events that focus on technology, and community building.
 
-**Knowledge Sharing:** Foster learning by bringing real-world tech topics into academic settings.
+## Key Objectives
 
-**Community Building:** Create bridges between tech clubs, professionals, and students to strengthen the Moroccan tech ecosystem.
+**Knowledge Sharing:** As we typically do through our initiatives, we will share knowledge about technology and how to create things.
 
-**Hands-On Experience:** Organize workshops and hackathons to encourage students to build projects, solve problems, and showcase their creativity.
+**Community Building:** We believe students are the future of our community, and we want to help them build their networks and learn from one another.
 
 **Networking Opportunities:** Provide a platform for students to connect with industry experts and potential mentors.
 
-## **How Does It Work?**
+## How Does It Work?
 
-**Collaboration with University Clubs:** Geeksblabla partners with tech and programming clubs in Moroccan universities to organize events tailored to the needs of students.
+In a simple words, we will collaborate with university clubs to organize technology-focused events. Students will handle the organization, and we will ensure that the right speakers are invited to share their knowledge.
 
-**Event Format:** These events vary from technical workshops and coding bootcamps to panel discussions and Q&A sessions with experienced engineers and entrepreneurs.
+## Get Involved!
 
-**Tech Topics:** Topics covered include software development, open source, cloud computing, artificial intelligence, and more, ensuring that students are exposed to the latest trends and technologies.
+Are you a part of a university club interested in collaborating with Geeksblabla on Campus? Do you want to organize an event in your university? Fill the form below and we will get back to you as soon as possible.
 
-## **Why Geeksblabla Campus Matters**
+👉 [Geeksblabla on Campus Form](https://forms.gle/234567890)
 
-**Empowering Future Leaders:** By equipping students with the tools, knowledge, and networks they need, Geeksblabla Campus helps prepare the next generation of tech leaders.
-
-**Enhancing Collaboration:** This initiative encourages collaboration between Moroccan universities, creating a more unified and innovative tech community.
-
-**Promoting Diversity:** Geeksblabla Campus actively encourages inclusivity, ensuring that everyone, regardless of their background or level, feels welcome to join and participate.
-
-## **Get Involved!**
-
-Are you a part of a university club interested in collaborating with Geeksblabla Campus? Do you want to organize an event in your university? Reach out to the Geeksblabla team and become a part of this exciting journey!
+As always, this is a new initiative and we are open to any suggestions and feedback, make sure to drop a comment below.
