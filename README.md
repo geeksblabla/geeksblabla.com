@@ -46,7 +46,7 @@ Inside of your Astro project, you'll see the following folders and files:
 │   ├── actions/ # astro actions, Api for to connect with notion
 │   ├── assets/ # images, videos, etc.
 │   ├── components/ # reusable components
-│   ├── content/ # content for the blog, articles, authors, episodes
+│   ├── content/ # content for the blog config, articles, authors, episodes
 │   ├── lib/ # utils functions
 │   └── pages/
 ├── astro.config.mjs
@@ -148,7 +148,18 @@ pubDatetime: 2024-12-01
 authors: ["author-name"] # the name of the author file
 slug: article-slug
 description: "Article description"
+ogImage: "/og-image.jpg"
 ---
 
 Article content
 ```
+
+## Licensing
+
+The code in this project is licensed under MIT license.
+
+## Contributors
+
+Big thanks to all the code contributors who made this project possible!
+
+![GeeksBlabla contributors](https://contributors.aika.dev/geeksblabla/geeksblabla.com/contributors.svg?max=44)
