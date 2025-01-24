@@ -5,7 +5,7 @@ title: "Vector Databases"
 tags: ["AI"]
 category: "AI"
 isNext: false
-youtube: hhttps://www.youtube.com/watch?v=7LNKYIIO-0M
+youtube: https://www.youtube.com/watch?v=7LNKYIIO-0M
 published: true
 featured: false
 ---
