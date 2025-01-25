@@ -2,14 +2,14 @@
 date: 2024-11-10
 duration: "2:1:29"
 title: "Tech in Sports"
-tags: ["sport", "tech"]
+tags: []
 category: "dev"
 youtube: https://www.youtube.com/watch?v=jMnYca3MGSM
 published: true
 featured: false
 ---
 
-NA
+In this engaging episode, we dive into the world of sports technology, exploring how innovations go far beyond the familiar VAR system. Sports experts will illuminate how artificial intelligence and cutting-edge technologies are revolutionizing sports analysis, predictions, and the entire sporting experience for teams and spectators alike.
 
 ## Guests
 
@@ -22,14 +22,13 @@ NA
 ## Notes
 
 00:00:00 - Intro and welcoming guests
-
-00:24:17 - N/A
-
-00:48:34 - N/A
-
-01:12:51 - N/A
-
-01:37:08 - N/A
+00:14:00 - Data Science in the world of tech
+00:30:36 - Data Science and Machine learning
+00:35:12 - Is Data accurate?
+00:39:18 - How VAR works really? why it might make mistakes?
+00:49:50 - How prediction model can benefit sport teams
+00:59:55 - Augmented reality in sports, AR in ads as example.
+01:15:45 - How can we imagine the future of AI/AR in sports
 
 ## Links
 
