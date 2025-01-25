@@ -6,6 +6,9 @@ exit_code=$?
 
 # Output file location
 output_file=".astro/episode-validation.md"
+# Create .astro directory if it doesn't exist
+mkdir -p ".astro"
+
 {
   # Add summary based on exit code
   if [ $exit_code -eq 0 ]; then
