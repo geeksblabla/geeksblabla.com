@@ -1,6 +1,6 @@
 ---
 date: 2024-11-10
-duration: "2:1:29"
+duration: "02:01:29"
 title: "Tech in Sports"
 tags: []
 category: "dev"

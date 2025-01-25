@@ -38,7 +38,7 @@ In this episode of GeeksBlaBla, we discuss coding Bootcamps in morocco; what you
 
 1:27:00 - Drawbacks of Bootcamps?
 
-1:37:00- Wrap up and goodbye
+1:37:00 - Wrap up and goodbye
 
 ## Links
 

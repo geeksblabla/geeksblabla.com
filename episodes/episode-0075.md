@@ -50,6 +50,8 @@ In this episode, we talk about Certificates in the IT field; why should you care
 
 - Scrum en Management. (Foundation seulement) - Python, .NET, Java, PHP ou JavaScript. - Comptia A+, LPIC 101, CCNA. - ITIL 4, ISO 27001 - AWS/Microsoft Azure/GoogleCloud Foundation
 
+## Links
+
 ## Prepared and Presented by
 
 - [Youssouf El Azizi](https://elazizi.com)

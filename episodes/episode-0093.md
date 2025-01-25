@@ -46,7 +46,7 @@ In this episode of GeeksBlaBla, we discuss with our guests about Reactive progra
 
 1:56:00 - Is subjects like Observables
 
-2:05:00- Wrap up and goodbye
+2:05:00 - Wrap up and goodbye
 
 ## Links
 

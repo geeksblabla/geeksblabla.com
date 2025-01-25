@@ -21,7 +21,7 @@ In this episode, we discuss the new challenge Blanat, we hosted participants and
 
 - [Youssfi Saad](https://www.linkedin.com/in/yousfisaad/)
 
-- [Mehdi Essalhi]()
+- [Mehdi Essalhi](#)
 
 ## Notes
 

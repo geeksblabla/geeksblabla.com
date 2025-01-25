@@ -36,7 +36,7 @@ Tech News & AMA #6 with our community members Abderrahim, Youssouf, Abderrahim, 
 
 0:46:00 - Parallel Programming
 
-0:54:00- when we should start using ngrx
+0:54:00 - When we should start using ngrx
 
 1:02:00 - Self-driving cars updates
 

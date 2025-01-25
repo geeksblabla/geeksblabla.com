@@ -48,7 +48,7 @@ In this episode of GeeksBlaBla with our community members Wassim, Ismail, Abdera
 
 2:35:00 - The future of javascript.
 
-2:45:00- Wrap up and goodbye
+2:45:00 - Wrap up and goodbye
 
 ## Links
 

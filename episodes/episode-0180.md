@@ -25,7 +25,7 @@ Data engineering is a critical field in data science that involves preparing the
 
 0:02:50 - What is data engineering?
 
-0:08: 43 - What are the key skills required for a data engineer?
+0:08:43 - What are the key skills required for a data engineer?
 
 0:16:40 - How does data engineering differ from data science?
 

@@ -21,7 +21,7 @@ In this episode of GeeksBlabla, we discuss the importance for coding for kids, h
 
 - [Ibrahim Drissi](https://www.linkedin.com/in/ibrahim-drissi-424838244/)
 
-- [Ayman Riad Solh]()
+- [Ayman Riad Solh](#)
 
 ## Notes
 

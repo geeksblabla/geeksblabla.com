@@ -31,7 +31,7 @@ Tech News & AMA #19 with our community members Mehdi,Meriem, Youssouf, Yasser an
 
 0:35:30 - BunJs new javascript runtime.
 
-0:46:00 QA ?
+0:46:00 - Q&A Session
 
 1:23:30 - Python updates.
 

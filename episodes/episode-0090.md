@@ -42,7 +42,7 @@ In this episode of GeeksBlaBla with our community members Ahmed, Ismail, Smakosh
 
 1:24:00 - The secret power of open-source contribution for your self-branding.
 
-1:38:00- Wrap up and goodbye
+1:38:00 - Wrap up and goodbye
 
 ## Links
 

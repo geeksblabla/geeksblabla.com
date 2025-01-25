@@ -47,6 +47,8 @@ In this episode of GeeksBlabla, we discuss with our guests the art of decision-m
 - The Decision Book: Fifty Models for Strategic Thinking
 - Linux System Programming: Talking Directly to the Kernel and C Library
 
+## Links
+
 ## Prepared and Presented by
 
 - [Abdelati El ASRI](https://twitter.com/kaizendae)

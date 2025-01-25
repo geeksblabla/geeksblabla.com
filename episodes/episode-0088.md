@@ -52,7 +52,7 @@ Tech News & AMA #12 with our community members Otmane, Ismail, Abdelghani, Abder
 
 2:05:00 - Will blockchain be used in Morocco ?
 
-2:07:00- Wrap up and goodbye
+2:07:00 - Wrap up and goodbye
 
 ## Links
 

@@ -46,7 +46,7 @@ In this episode of GeeksBlaBla we answer many questions around AI & ML, their fi
 
 1:26:00 - Jobs in AI
 
-1:33:00- Wrap up and goodbye
+1:33:00 - Wrap up and goodbye
 
 ## Links
 
