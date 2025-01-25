@@ -3,7 +3,7 @@ date: 2024-10-13
 time: 20h:00min
 duration: "2:45:14"
 title: "Digital Morocco 2030"
-tags: ["Morocco","Digital"]
+tags: ["Morocco", "Digital"]
 category: "Career"
 isNext: false
 youtube: https://www.youtube.com/watch?v=XhF8cDBdtmM
@@ -19,7 +19,6 @@ In this episode, we discuss the Digital Morocco 2030 strategy, its key component
 - [Mouhssine Lakhdissi](https://www.linkedin.com/in/mlakhdissi/)
 - [Maryem Nairi](https://www.linkedin.com/in/nairi-meryem/)
 - [Ali Khyatti](https://www.linkedin.com/in/khyatti-ali/)
-
 
 ## Notes
 
@@ -52,8 +51,6 @@ In this episode, we discuss the Digital Morocco 2030 strategy, its key component
 - [DataGemma](https://ai.google.dev/gemma/docs/datagemma)
 - [Morocco AI recommendations](https://morocco.ai/wp-content/uploads/2020/03/MoroccoAI-Recommendations-Towards-a-National-AI-Strategy-For-Morocco.pdf)
 - [Tech education in Morocco](https://www.youtube.com/watch?v=3r7lXiS5Mqc&t=0s)
-
-
 
 ## Prepared and Presented by
 

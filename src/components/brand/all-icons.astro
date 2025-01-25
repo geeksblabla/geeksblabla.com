@@ -1,0 +1,41 @@
+---
+export const prerender = true;
+import { Icon } from "astro-icon/components";
+
+import { join } from "path";
+import { readdirSync } from "fs";
+
+const iconsDirectory = join(process.cwd(), "src", "icons");
+
+function getIconNames(dir: string): string[] {
+  const items = readdirSync(dir, { withFileTypes: true });
+  return items.flatMap(item => {
+    const fullPath = join(dir, item.name);
+    if (item.isDirectory()) {
+      return getIconNames(fullPath).map(subItem => `${item.name}/${subItem}`);
+    } else if (item.name.endsWith(".svg")) {
+      return item.name.replace(".svg", "");
+    }
+    return [];
+  });
+}
+
+const iconNames = getIconNames(iconsDirectory);
+---
+
+<section class="main flex flex-wrap items-center gap-4 p-8 py-8 text-3xl">
+  {
+    iconNames.map(name => (
+      <div class="group relative">
+        <Icon
+          name={name}
+          title={name}
+          class="cursor-pointer bg-black text-red-500"
+        />
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 transform whitespace-nowrap rounded bg-gray-800 px-2 py-1 text-xs text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          {name}
+        </span>
+      </div>
+    ))
+  }
+</section>

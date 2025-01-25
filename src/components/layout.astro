@@ -1,0 +1,96 @@
+---
+import { SITE } from "@/config";
+import Footer from "./footer.astro";
+import { AstroSeo } from "@astrolib/seo";
+import "@/global.css";
+
+export interface Props {
+  title?: string;
+  author?: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title = SITE.title,
+  author = SITE.author,
+  description = SITE.desc,
+  ogImage = SITE.ogImage,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const socialImageURL = new URL(
+  ogImage ? ogImage : SITE.ogImage,
+  Astro.url.origin
+).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="author" content={author} />
+    <title>{title}</title>
+
+    <AstroSeo
+      title={title}
+      description={description}
+      canonical={canonicalURL.toString()}
+      openGraph={{
+        url: canonicalURL.toString(),
+        title: title,
+        description: description,
+        images: [
+          {
+            url: socialImageURL,
+          },
+        ],
+        site_name: title,
+      }}
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <slot />
+    <Footer />
+    <script>
+      const observerCallback: IntersectionObserverCallback = entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.setAttribute("data-visible-in-the-view", "true");
+          }
+        });
+      };
+
+      // Create observer with options
+      const observer = new IntersectionObserver(observerCallback, {
+        threshold: 0.1, // Trigger when at least 10% of the element is visible
+      });
+
+      // Observe all elements with the data attribute
+      document
+        .querySelectorAll("[data-visible-in-the-view]")
+        .forEach(element => {
+          observer.observe(element);
+        });
+    </script>
+  </body>
+</html>

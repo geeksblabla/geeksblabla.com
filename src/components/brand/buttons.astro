@@ -1,0 +1,47 @@
+---
+import { Icon } from "astro-icon/components";
+import { Button } from "@/components/button";
+---
+
+<section class="main py-8">
+  <h1 class="mb-8 text-4xl font-bold">Button Variants</h1>
+
+  <div class="space-y-8">
+    {
+      (["primary", "secondary", "outline", "ghost", "icon"] as const).map(
+        variant => (
+          <div>
+            <h2 class="mb-4 text-label-lg capitalize">{variant}</h2>
+            <div class="flex flex-wrap gap-4">
+              {(["lg", "sm"] as const).map(size => (
+                <>
+                  <Button key={`${size}-enabled`} variant={variant} size={size}>
+                    <Icon name="external-link" class="h-4 w-4" />
+                    <span class="px-1.5">Button</span>
+                    <Icon name="external-link" class="h-4 w-4" />
+                  </Button>
+                  <Button
+                    key={`${size}-disabled`}
+                    variant={variant}
+                    size={size}
+                    disabled
+                  >
+                    <Icon name="external-link" class="h-4 w-4" />
+                    <span class="px-1.5">Disabled</span>
+                    <Icon name="external-link" class="h-4 w-4" />
+                  </Button>
+                </>
+              ))}
+              <Button variant={variant} size="icon">
+                <Icon name="menu" class="h-4 w-4" />
+              </Button>
+              <Button variant={variant} size="icon" disabled>
+                <Icon name="menu" class="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        )
+      )
+    }
+  </div>
+</section>

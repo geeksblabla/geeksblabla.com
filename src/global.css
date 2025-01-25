@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    font-family: "IBM Plex Mono", monospace;
+    color: #1a1c1e;
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  .main {
+    @apply mx-auto w-full max-w-6xl px-4 xl:px-0 lg:px-4;
+  }
+
+  /* article styling */
+  .prose {
+    @apply prose-headings:!mb-3 prose-headings:!text-[#1a1c1e] prose-h3:italic prose-p:!text-[#1a1c1e] prose-a:!text-[#1a1c1e] prose-a:!decoration-dashed prose-a:underline-offset-4 hover:prose-a:text-blue-500 prose-blockquote:!border-l-blue-500 prose-blockquote:border-opacity-50 prose-blockquote:opacity-80 prose-figcaption:!text-[#1a1c1e] prose-figcaption:opacity-70 prose-strong:!text-[#1a1c1e] prose-code:rounded prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-[#1a1c1e] prose-code:before:!content-[''] prose-code:after:!content-[''] prose-pre:!text-[#1a1c1e] prose-ol:!text-[#1a1c1e] prose-ul:overflow-x-clip prose-ul:!text-[#1a1c1e] prose-li:marker:!text-blue-500 prose-table:text-[#1a1c1e] prose-th:border prose-th:border-gray-100 prose-td:border prose-td:border-gray-100 prose-img:mx-auto prose-img:!mt-2 prose-img:border-2 prose-img:border-gray-100 prose-hr:!border-gray-100;
+  }
+  .prose a {
+    @apply hover:!text-blue-500;
+  }
+  .prose thead th:first-child,
+  tbody td:first-child,
+  tfoot td:first-child {
+    padding-left: 0.5714286em;
+  }
+  .prose h2#table-of-contents {
+    @apply mb-2;
+  }
+  .prose details {
+    @apply inline-block cursor-pointer select-none text-[#1a1c1e];
+  }
+
+  .prose h2#table-of-contents + p {
+    @apply hidden;
+  }
+}

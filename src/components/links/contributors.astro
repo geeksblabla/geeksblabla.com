@@ -1,0 +1,65 @@
+---
+import { getCollection } from "astro:content";
+import { extractAllGuestsAndHosts } from "@/lib/podcast-utils";
+
+const podcast = await getCollection("podcast");
+const contributors = extractAllGuestsAndHosts(podcast);
+---
+
+<section class="py-16">
+  <div class="main mx-auto px-4">
+    <div class="mb-12">
+      <h3 class="mb-8 text-heading-sm font-bold">
+        Podcast Contributors ({contributors.length})
+      </h3>
+      <p class="text-body-sm">
+        A list of all people appeared at least one time in the geeksblabla
+        podcast.
+      </p>
+      <table class="min-w-full divide-y divide-gray-200">
+        <thead class="bg-gray-50">
+          <tr>
+            <th
+              scope="col"
+              class="px-6 py-2 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+            >
+              #
+            </th>
+            <th
+              scope="col"
+              class="px-6 py-2 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+            >
+              Name
+            </th>
+            <th
+              scope="col"
+              class="px-6 py-2 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
+            >
+              Appearances
+            </th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200 bg-white">
+          {
+            contributors.map((contributor, index) => (
+              <tr>
+                <td class="whitespace-nowrap px-1 py-1">{index + 1}</td>
+                <td class="whitespace-nowrap px-6 py-1">
+                  <a
+                    href={contributor.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-blue-600 hover:underline"
+                  >
+                    {contributor.name}
+                  </a>
+                </td>
+                <td class="whitespace-nowrap px-6 py-1">{contributor.count}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

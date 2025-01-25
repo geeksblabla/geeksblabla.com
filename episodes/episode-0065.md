@@ -1,0 +1,65 @@
+---
+date: 2021-01-10
+duration: "02:51:35"
+title: "Tech Interviews"
+tags: ["tech-interviews", "career"]
+category: "career"
+youtube: https://www.youtube.com/watch?v=AlzjZ5Qxeyg
+published: true
+---
+
+In this episode of GeeksBlabla, we discussed some ways to present your best self in a tech interview, how to answer common questions, types of interviews, best practices and tips for better communication with the recruiter.
+
+## Guests
+
+- [Hanae El Bouyousfi](https://www.facebook.com/hanae.elbouyousfiepelhouari)
+- [Diaa Alhak El Fallous](https://www.linkedin.com/in/elfallous)
+- [Mohamed Ez-zarghili](https://twitter.com/ezzarghili)
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
+
+## Notes
+
+0:00:00 - Introduction and welcoming.
+
+0:08:00 - Types of interviews
+
+0:22:00 - Things to do before and after the interview
+
+0:29:00 - Types of technical interviews
+
+0:52:00 - Tips for better communication with the recruiter
+
+1:00:00 - How to prepare for technical questions
+
+1:19:00 - QA.
+
+1:46:00 - Tell Me About Yourself.
+
+1:52:00 - Why Should We Hire You?
+
+1:54:00 - Why did you leave (or why are you leaving) your job?
+
+1:55:00 - What Are Your Greatest Strengths and Weaknesses?
+
+2:01:00 - What are your goals?
+
+2:04:00 - Can you talk about a technical challenge you faced and how you handled it?
+
+2:06:00 - When was the last time you had a problem with a coworker ? How did you handle it?
+
+2:09:00 - Salary expectation
+
+2:20:00 - QA.
+
+2:43:00 - Conclusion and Goodbye.
+
+## Links
+
+- [Brilliant - Making Decisions](https://brilliant.org/)
+- [Glassdoor Job Search](https://www.glassdoor.com)
+- [StateOfDev.ma](https://stateofdev.ma)
+
+## Prepared and Presented by
+
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
+- [Youssouf El Azizi](https://elazizi.com)

@@ -1,0 +1,67 @@
+---
+import Member from "./member.astro";
+import { getCollection } from "astro:content";
+
+const teamCollection = await getCollection("team");
+const teamMembers = teamCollection.map(member => ({
+  name: member.data.name,
+  link: member.data.link,
+  profile_image: member.data.profile_image,
+  status: member.data.status,
+}));
+
+const activeMembers = teamMembers.filter(member => member.status === "active");
+const pastMembers = teamMembers.filter(member => member.status === "past");
+---
+
+<section id="team" class="bg-neutral-dark-20 py-16">
+  <div class="main mx-auto">
+    <!-- Active Team Members -->
+    <h2
+      class="mb-6 text-center text-heading-sm text-neutral-light-50 md:text-left"
+    >
+      Meet Our Team
+    </h2>
+    <div
+      class="mb-10 grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+    >
+      {
+        activeMembers.map(member => (
+          <Member
+            key={member.name}
+            name={member.name}
+            link={member.link}
+            profile_image={member.profile_image}
+          />
+        ))
+      }
+    </div>
+
+    <!-- Past Members -->
+    <h2
+      class="mb-2 text-center text-heading-sm text-neutral-light-50 md:text-left"
+    >
+      Former Team Members
+    </h2>
+    <p
+      class="mb-6 text-center text-paragraph-sm text-neutral-light-0 md:text-left"
+    >
+      No effort goes unappreciated. On behalf of the community, we thank our
+      ex-team members for their contributions and lasting impact. 🙏
+    </p>
+    <div
+      class="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+    >
+      {
+        pastMembers.map(member => (
+          <Member
+            key={member.name}
+            name={member.name}
+            link={member.link}
+            profile_image={member.profile_image}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>

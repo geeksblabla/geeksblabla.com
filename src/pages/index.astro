@@ -1,0 +1,22 @@
+---
+import Layout from "@/components/layout.astro";
+import Hero from "@/components/home/hero.astro";
+import ValuesAndMission from "@/components/home/values-and-mission.astro";
+import Projects from "@/components/home/projects.astro";
+import FaqList from "@/components/home/faq-list.astro";
+import Gallery from "@/components/home/gallery.astro";
+import Testimonials from "@/components/home/testimonials.astro";
+import HomePageArticleList from "@/components/blog/home-page-article-list.astro";
+---
+
+<Layout>
+  <Hero />
+  <ValuesAndMission />
+  <Projects />
+  <FaqList />
+  <Testimonials />
+  <HomePageArticleList />
+  <Gallery />
+</Layout>
+
+<script is:inline src="https://unpkg.com/@rive-app/canvas@2.23.11"></script>

@@ -1,0 +1,100 @@
+---
+import type { NotionEpisodeProperties } from "@/lib/notion/types";
+
+const formatDate = (dateStr: string) => {
+  if (!dateStr) return "";
+  return new Date(dateStr).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+};
+
+interface Props {
+  episode: NotionEpisodeProperties;
+}
+
+const { episode } = Astro.props as Props;
+console.log(episode);
+---
+
+<div
+  class="group relative flex h-full flex-col rounded-xl border border-gray-200 bg-white"
+>
+  <div class="flex-1 p-4">
+    <h3 class="text-lg font-semibold capitalize leading-tight text-gray-900">
+      {episode.title}
+    </h3>
+
+    <div class="space-y-2">
+      {
+        episode.date && (
+          <div class="flex items-center gap-2 pt-3 text-gray-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            <span class="text-sm">{formatDate(episode.date)}</span>
+          </div>
+        )
+      }
+
+      {
+        episode.assignedTo && (
+          <div class="mt-2 flex items-center gap-2 text-gray-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              />
+            </svg>
+            <span class="text-sm">{episode.assignedTo}</span>
+          </div>
+        )
+      }
+    </div>
+  </div>
+
+  <div class="border-t">
+    <button
+      data-suggestion-trigger
+      data-episode-id={episode.episodeId}
+      data-episode-title={episode.title}
+      class="flex w-full items-center justify-center gap-2 bg-gray-50 px-3 py-2 text-sm text-gray-700 transition-colors hover:bg-gray-100"
+      aria-label="Add suggestion for this episode"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 4v16m8-8H4"></path>
+      </svg>
+      <span>Add Suggestion</span>
+    </button>
+  </div>
+</div>

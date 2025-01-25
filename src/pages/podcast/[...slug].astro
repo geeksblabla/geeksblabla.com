@@ -1,0 +1,43 @@
+---
+import Header from "@/components/header.astro";
+import Layout from "@/components/layout.astro";
+import EpisodeContent from "@/components/podcast/episode-content.astro";
+import EpisodesList from "@/components/podcast/episode-list/index.astro";
+import Planning from "@/components/podcast/planning.astro";
+import { type CollectionEntry, getCollection } from "astro:content";
+import { ViewTransitions } from "astro:transitions";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("podcast");
+  return posts.map(episode => ({
+    params: { slug: episode.data.slug },
+    props: episode,
+  }));
+}
+type Props = CollectionEntry<"podcast">;
+
+const episode = Astro.props;
+---
+
+<ViewTransitions fallback="none" />
+<Layout
+  title={episode.data.title + " | GeeksBlabla Podcast"}
+  ogImage={episode.data.ogImage}
+  description={episode.body?.toString().slice(0, 157) + "..."}
+>
+  <div class="bg-[#F2F4F7]">
+    <Header transition:persist />
+    <div class="main mx-auto py-4 md:py-16">
+      <div class="flex flex-row">
+        <div class="relative">
+          <EpisodesList transition:persist />
+        </div>
+        <div class="flex-1">
+          <EpisodeContent episode={episode} />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <Planning />
+</Layout>

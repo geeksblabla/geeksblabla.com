@@ -1,0 +1,214 @@
+---
+import { getCollection } from "astro:content";
+import EpisodesListItem from "./item.astro";
+import { getPodcastCategories } from "@/lib/podcast-utils";
+import EpisodesListFilter from "./filter.astro";
+import EpisodesListScrollArrow from "./scroll-arrow.astro";
+
+const podcast = await getCollection("podcast");
+const sortedPodcast = podcast.sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+const categories = getPodcastCategories(sortedPodcast).sort(
+  (a, b) => b.count - a.count
+);
+
+const allCategories = [
+  { name: "All", count: sortedPodcast.length },
+  ...categories,
+];
+---
+
+<!-- Add toggle button for mobile -->
+<button
+  id="episodes-drawer-toggle"
+  class="fixed bottom-4 left-4 z-[102] rounded-full bg-black p-3 text-white shadow-lg md:hidden"
+  aria-label="Toggle episodes list"
+>
+  <svg
+    class="list-icon h-6 w-6"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M4 6h16M4 12h16M4 18h16"></path>
+  </svg>
+  <svg
+    class="close-icon hidden h-6 w-6"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M6 18L18 6M6 6l12 12"></path>
+  </svg>
+</button>
+
+<div
+  data-pagefind-ignore
+  class="fixed left-0 top-0 z-[101] h-[calc(100vh)] w-[85%] max-w-[430px] -translate-x-full transform bg-[#E2E7EE] shadow-md transition-transform duration-300 ease-in-out md:sticky md:top-0 md:w-full md:translate-x-0"
+  id="episodes-list-container"
+>
+  <div class="p-4 pb-4">
+    <!-- <EpisodesListSearch allEpisodes={sortedPodcast} /> -->
+
+    <EpisodesListFilter allCategories={allCategories} />
+  </div>
+  <ul
+    class="max-h-[calc(100vh-140px)] space-y-2 overflow-y-auto p-4 pb-12 [&::-webkit-scrollbar-thumb]:bg-gray-500/50 [&::-webkit-scrollbar]:w-[3px]"
+    id="episodes-list"
+  >
+    {
+      sortedPodcast.map((episode, index) => (
+        <EpisodesListItem
+          episode={episode}
+          number={sortedPodcast.length - index}
+        />
+      ))
+    }
+  </ul>
+  <EpisodesListScrollArrow />
+</div>
+
+<!-- Add overlay for mobile -->
+<div
+  id="episodes-drawer-overlay"
+  class="fixed inset-0 z-30 hidden bg-black/50 md:hidden"
+>
+</div>
+
+<!-- Scroll to top when scrolling inside the list to make sure we are giving the user a smooth experience -->
+<script>
+  let isAutoScrolling = false;
+  const scrollToTop = () => {
+    const container = document.getElementById("episodes-list-container");
+    const list = document.getElementById("episodes-list");
+    if (window.innerWidth >= 768) {
+      list?.addEventListener("scroll", () => {
+        if (list.scrollTop > 0 && !isAutoScrolling) {
+          console.log("scrolling to top");
+          container?.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    }
+  };
+
+  const activeItemVisible = () => {
+    const activeEpisodeItem = document.querySelector("li[data-playing=true]");
+    if (activeEpisodeItem) {
+      const list = document.getElementById("episodes-list");
+      if (list) {
+        const itemRect = activeEpisodeItem.getBoundingClientRect();
+        const listRect = list.getBoundingClientRect();
+
+        const isAbove = itemRect.top < listRect.top;
+        const isBelow = itemRect.bottom > listRect.bottom;
+
+        if (isAbove || isBelow) {
+          isAutoScrolling = true;
+          list.scrollTop = itemRect.top - listRect.top;
+          setTimeout(() => {
+            isAutoScrolling = false;
+          }, 3000); // Adjust timeout to match scroll duration
+        }
+      }
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    scrollToTop();
+    activeItemVisible();
+  });
+  document.addEventListener("astro:after-swap", () => {
+    scrollToTop();
+    activeItemVisible();
+  });
+</script>
+
+<!-- Drawer functionality -->
+<script>
+  const drawerToggle = document.getElementById("episodes-drawer-toggle");
+  const drawerContainer = document.getElementById("episodes-list-container");
+  const overlay = document.getElementById("episodes-drawer-overlay");
+  const listIcon = drawerToggle?.querySelector(".list-icon");
+  const closeIcon = drawerToggle?.querySelector(".close-icon");
+
+  function toggleDrawer() {
+    drawerContainer?.classList.toggle("-translate-x-full");
+    overlay?.classList.toggle("hidden");
+    listIcon?.classList.toggle("hidden");
+    closeIcon?.classList.toggle("hidden");
+    document.body.style.overflow =
+      document.body.style.overflow === "hidden" ? "auto" : "hidden";
+  }
+
+  function closeDrawer() {
+    drawerContainer?.classList.remove("translate-x-0");
+    drawerContainer?.classList.add("-translate-x-full");
+    overlay?.classList.add("hidden");
+    listIcon?.classList.remove("hidden");
+    closeIcon?.classList.add("hidden");
+    document.body.style.overflow = "auto";
+  }
+
+  drawerToggle?.addEventListener("click", toggleDrawer);
+  overlay?.addEventListener("click", closeDrawer);
+
+  // Close drawer on wider screens
+  window.addEventListener("resize", () => {
+    if (window.innerWidth >= 768) {
+      closeDrawer();
+    }
+  });
+</script>
+
+<!-- View transitions  with astro, we need to persist the scroll position for body and list-->
+<script>
+  let bodyScrollPosition = 0;
+  let listScrollPosition = 0;
+
+  function setActiveEpisodeItem() {
+    // set old active item to false
+    const playingEpisodeItem = document.querySelector("a[data-playing=true]");
+    if (playingEpisodeItem) {
+      playingEpisodeItem.setAttribute("data-playing", "false");
+    }
+
+    // get the new active episode item by checking the url pathname
+    // searching for the href attribute that match the new pathname
+    // add data-playing attribute with value true to the new active episode item
+    const newPathname = window.location.pathname;
+    // get the new episode item
+    const activeEpisodeItem = document.querySelector(
+      `a[href='${newPathname}']`
+    );
+    if (activeEpisodeItem) {
+      activeEpisodeItem?.setAttribute("data-playing", "true");
+    }
+  }
+
+  document.addEventListener("astro:before-swap", () => {
+    const list = document.getElementById("episodes-list");
+    bodyScrollPosition = window.scrollY;
+    listScrollPosition = list?.scrollTop || 0;
+  });
+
+  document.addEventListener("astro:after-swap", () => {
+    const list = document.getElementById("episodes-list");
+    window.scrollTo(0, bodyScrollPosition);
+    if (list) {
+      list.scrollTop = listScrollPosition;
+    }
+    setActiveEpisodeItem();
+  });
+</script>

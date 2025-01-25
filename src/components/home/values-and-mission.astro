@@ -1,0 +1,113 @@
+---
+import ConsistencyIcon from "@/assets/values/consistency.png";
+import simplicityIcon from "@/assets/values/simplicity.png";
+import transparencyIcon from "@/assets/values/transparency.png";
+import inclusivenessIcon from "@/assets/values/inclusiveness.png";
+import empathyIcon from "@/assets/values/empathy.png";
+import accountabilityIcon from "@/assets/values/accountability.png";
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+type VV = {
+  icon: ImageMetadata;
+  name: string;
+};
+const values: VV[] = [
+  { icon: ConsistencyIcon, name: "Consistency" },
+  { icon: simplicityIcon, name: "Simplicity" },
+  { icon: transparencyIcon, name: "Transparency" },
+  { icon: inclusivenessIcon, name: "Inclusiveness" },
+  { icon: empathyIcon, name: "Empathy" },
+  { icon: accountabilityIcon, name: "Accountability" },
+];
+
+const mission = [
+  {
+    title: "Knowledge Exchange",
+    description:
+      "Between novice learners and seasoned professionals, we create a supportive environment for skill enhancement.",
+  },
+  {
+    title: "Inclusive Diversity",
+    description:
+      "Embracing the different perspectives & backgrounds to enrich our collective knowledge and inspire innovation.",
+  },
+  {
+    title: "Tech for Social Impact",
+    description:
+      "Harness the collective power of the community to drive positive change.",
+  },
+];
+
+const animationDelays = [
+  "group-data-[visible-in-the-view=true]:motion-delay-[100ms]",
+  "group-data-[visible-in-the-view=true]:motion-delay-[200ms]",
+  "group-data-[visible-in-the-view=true]:motion-delay-[300ms]",
+  "group-data-[visible-in-the-view=true]:motion-delay-[400ms]",
+  "group-data-[visible-in-the-view=true]:motion-delay-[500ms]",
+  "group-data-[visible-in-the-view=true]:motion-delay-[600ms]",
+];
+---
+
+<section id="mission" class="group bg-[#F2F4F7] py-16 font-light">
+  <div class="main mx-auto px-4">
+    <div data-visible-in-the-view="false" class="group">
+      <h2
+        class="mb-8 text-center text-4xl font-bold group-data-[visible-in-the-view=true]:motion-preset-slide-down group-data-[visible-in-the-view=true]:motion-delay-200 md:text-left"
+      >
+        Our mission
+      </h2>
+      <p
+        class="mb-12 max-w-[800px] text-center text-paragraph-lg font-thin text-neutral-dark-50 group-data-[visible-in-the-view=true]:motion-preset-slide-down group-data-[visible-in-the-view=true]:motion-delay-300 md:text-left"
+      >
+        Is to Empower Moroccan 🇲🇦 IT enthusiasts and beyond to thrive through
+        continuous learning, exchange, collaboration, and innovation.
+      </p>
+
+      <div class="mb-12 grid grid-cols-1 gap-8 sm:grid-cols-3">
+        {
+          mission.map(item => (
+            <div class="group-data-[visible-in-the-view=true]:motion-delay-400 group-data-[visible-in-the-view=true]:motion-preset-slide-down">
+              <h4 class="mb-4 text-center text-label-lg font-semibold md:text-left">
+                {item.title}
+              </h4>
+              <p class="text-center text-paragraph-sm text-neutral-dark-50 md:text-left">
+                {item.description}
+              </p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <div data-visible-in-the-view="false" class="group">
+      <h2
+        class="my-8 text-center text-4xl font-bold group-data-[visible-in-the-view=true]:motion-preset-slide-down md:text-left"
+      >
+        Our values
+      </h2>
+      <div class="my-4 grid grid-cols-2 gap-0 md:grid-cols-3">
+        {
+          values.map((value, index) => (
+            <div
+              class={`relative flex flex-col items-center group-data-[visible-in-the-view=true]:motion-preset-slide-right ${animationDelays[index]}`}
+            >
+              <div class="flex flex-col items-center py-6">
+                <div class="h-24">
+                  <Image
+                    src={value.icon}
+                    class="h-full w-24"
+                    alt={value.name}
+                  />
+                </div>
+                <span class="pt-4 text-paragraph-sm font-light text-neutral-dark-20 md:text-2xl">
+                  {value.name}
+                </span>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

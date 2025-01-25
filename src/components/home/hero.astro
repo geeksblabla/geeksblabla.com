@@ -1,0 +1,161 @@
+---
+import { ButtonLink } from "../button";
+import Header from "../header.astro";
+import { Icon } from "astro-icon/components";
+import HeroAnimation from "./hero-animation.astro";
+---
+
+<section class="relative overflow-hidden bg-[#DCE9FA]">
+  <div class="absolute inset-0 z-0 lg:block">
+    <div class="bg-grid-pattern absolute inset-0 opacity-10"></div>
+  </div>
+  <Header />
+  <div class="main relative z-10 mx-auto pt-8 md:pt-16">
+    <div class="flex flex-col items-center lg:flex-row">
+      <div class="z-10">
+        <h1
+          class="motion-preset-slide-down mt-4 block w-full max-w-screen-lg text-center font-sans text-3xl font-extrabold motion-delay-[100ms] md:hidden md:text-left md:text-title"
+        >
+          Shaping the future of Moroccan Tech community, one step at a time
+        </h1>
+
+        <div
+          class="hidden w-full max-w-screen-lg text-center font-sans text-heading-lg font-bold md:block md:text-left md:text-title"
+        >
+          <p class="m-preset-typewriter-[22] motion-loop-once">
+            Shaping the future of
+          </p>
+          <p
+            class="m-preset-typewriter-[22] motion-delay-[500ms] motion-loop-once"
+          >
+            Moroccan Tech community,
+          </p>
+          <p
+            class="m-preset-typewriter-[18] motion-delay-[1000ms] motion-loop-once"
+          >
+            one step at a time
+          </p>
+        </div>
+        <p
+          class="text-md motion-preset-slide-down my-4 max-w-[600px] text-center font-sans font-thin motion-delay-[200ms] motion-ease-spring-smooth md:my-8 md:text-left md:text-label-sm md:motion-delay-[1200ms]"
+        >
+          Your journey from learning to leading unfolds: insightful Podcast,
+          aspiring videos, cutting edge OSS projects, in depth conferences and
+          many more.
+        </p>
+        <div
+          class="hidden justify-center space-x-4 py-4 md:flex md:flex-row md:justify-start"
+        >
+          <ButtonLink
+            href="#projects"
+            className="motion-preset-slide-down hidden motion-delay-[1600ms] motion-ease-spring-smooth md:flex"
+          >
+            Discover projects <Icon name="arrow-right" class="ml-2 rotate-45" />
+          </ButtonLink>
+          <ButtonLink
+            variant="outline"
+            href="/podcast"
+            className="motion-preset-slide-down hidden self-center motion-delay-[1800ms] motion-ease-spring-smooth md:flex"
+          >
+            Podcast <Icon name="arrow-right" class="ml-2" />
+          </ButtonLink>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="main motion-preset-slide-up pointer-events-none relative z-20 mx-auto mt-2 px-4 motion-delay-[600ms] motion-ease-spring-smooth md:-mt-52 md:motion-delay-[1600ms]"
+  >
+    <HeroAnimation />
+  </div>
+</section>
+
+<style>
+  .bg-grid-pattern {
+    background-image: linear-gradient(to right, #636161 1px, transparent 1px),
+      linear-gradient(to bottom, #636161 1px, transparent 1px);
+    background-size: 100px 100px; /* Smaller squares for mobile screens */
+    animation: move-grid 8s linear infinite 2s;
+  }
+
+  @media (min-width: 768px) {
+    .bg-grid-pattern {
+      background-size: 200px 200px; /* Larger squares for larger screens */
+    }
+  }
+
+  @keyframes move-grid {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -200px 0px;
+    }
+  }
+
+  /* custom typewriter animation based on tailwind motion but with some tweaks to make it work for our use case */
+  .m-preset-typewriter-\[22\] {
+    --motion-duration: 1500ms;
+    --motion-typewriter-value: 22ch;
+    animation:
+      typing var(--motion-duration) steps(22) var(--motion-delay, 0ms) forwards,
+      blink 0.4s step-end var(--motion-delay, 0ms) none;
+    white-space: nowrap;
+    border-right: 2px solid;
+    border-color: transparent;
+    /* font-family: monospace; */
+    overflow: hidden;
+    width: 0;
+  }
+  .m-preset-typewriter-\[18\] {
+    --motion-duration: 1500ms;
+    --motion-typewriter-value: 13.5ch;
+    animation:
+      typing var(--motion-duration) steps(18) var(--motion-delay, 0ms) forwards,
+      blink-last-line 0.4s step-end var(--motion-delay, 0ms) infinite;
+    white-space: nowrap;
+    border-right: 2px solid;
+    border-color: transparent;
+    overflow: hidden;
+    width: 0;
+  }
+  @media screen and (prefers-reduced-motion: no-preference) {
+    @keyframes typing {
+      10% {
+        width: 0;
+      }
+      40%,
+      60% {
+        width: calc(var(--motion-typewriter-value) + 1px);
+      }
+      100% {
+        width: var(--motion-typewriter-value);
+      }
+    }
+  }
+  @keyframes blink {
+    0% {
+      border-color: black;
+    }
+    50% {
+      border-color: black;
+    }
+    95% {
+      border-color: black;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  @keyframes blink-last-line {
+    50% {
+      border-color: black;
+    }
+    95% {
+      border-color: black;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+</style>

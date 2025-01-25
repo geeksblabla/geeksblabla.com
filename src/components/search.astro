@@ -1,0 +1,179 @@
+---
+import PageFindSearch from "astro-pagefind/components/Search";
+import { Icon } from "astro-icon/components";
+---
+
+<button
+  type="button"
+  id="search-trigger"
+  aria-label="Open search"
+  aria-controls="search-dialog"
+  aria-expanded="false"
+  class="focus:ring-primary-500 inline-flex items-center space-x-2 rounded-md py-2 pl-4 text-sm font-bold text-neutral-dark-20 hover:text-black"
+>
+  <Icon name="search" class="h-5 w-5" />
+  <span class="hidden lg:block"> Search </span>
+</button>
+
+<!-- Search dialog -->
+<dialog
+  id="search-dialog"
+  class="animate-scale-down fixed left-1/2 top-[10vh] !m-0 w-full max-w-2xl -translate-x-1/2 rounded-lg p-0 backdrop:bg-gray-950/50"
+>
+  <div class="relative max-h-[80vh] overflow-y-auto">
+    <!-- Close button -->
+    <div class="sticky right-0 top-0 z-10 bg-white px-6 py-4">
+      <button
+        type="button"
+        id="close-search"
+        aria-label="Close search"
+        class="absolute right-4 top-4 rounded-full p-2 hover:bg-gray-100"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Search component -->
+    <div class="min-h-[400px] p-6">
+      <PageFindSearch
+        id="search"
+        className="pagefind-ui"
+        uiOptions={{ showImages: false }}
+      />
+    </div>
+  </div>
+</dialog>
+
+<style>
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Remove default dialog styles */
+  dialog {
+    border: none;
+    padding: 0;
+  }
+
+  /* Custom scrollbar styles */
+  dialog div {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e0 #edf2f7;
+  }
+
+  dialog div::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  dialog div::-webkit-scrollbar-track {
+    background: #edf2f7;
+  }
+
+  dialog div::-webkit-scrollbar-thumb {
+    background-color: #cbd5e0;
+    border-radius: 4px;
+  }
+
+  @keyframes scale-down {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -30%) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, 0) scale(1);
+    }
+  }
+
+  .animate-scale-down {
+    animation: scale-down 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  /* Optional: Add animation for closing */
+  dialog[closing] {
+    animation: scale-up 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  @keyframes scale-up {
+    from {
+      opacity: 1;
+      transform: translate(-50%, 0) scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: translate(-50%, -30%) scale(0.95);
+    }
+  }
+</style>
+
+<script>
+  function initSearch() {
+    // Get DOM elements with proper typing
+    const searchTrigger = document.getElementById(
+      "search-trigger"
+    ) as HTMLButtonElement | null;
+    const searchDialog = document.getElementById(
+      "search-dialog"
+    ) as HTMLDialogElement | null;
+    const closeButton = document.getElementById(
+      "close-search"
+    ) as HTMLButtonElement | null;
+
+    // Open dialog
+    searchTrigger?.addEventListener("click", () => {
+      searchDialog?.showModal();
+      searchTrigger.setAttribute("aria-expanded", "true");
+      // Focus the search input when dialog opens
+      const searchInput = document.querySelector<HTMLInputElement>(
+        ".pagefind-ui__search-input"
+      );
+      searchInput?.focus();
+    });
+
+    // Close dialog
+    closeButton?.addEventListener("click", () => {
+      searchDialog?.close();
+      searchTrigger?.setAttribute("aria-expanded", "false");
+    });
+
+    // Close dialog when clicking outside
+    searchDialog?.addEventListener("click", (e: MouseEvent) => {
+      if (!searchDialog) return;
+
+      const dialogDimensions = searchDialog.getBoundingClientRect();
+      if (
+        e.clientX < dialogDimensions.left ||
+        e.clientX > dialogDimensions.right ||
+        e.clientY < dialogDimensions.top ||
+        e.clientY > dialogDimensions.bottom
+      ) {
+        searchDialog.close();
+        searchTrigger?.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    // Handle escape key
+    document.addEventListener("keydown", (e: KeyboardEvent) => {
+      if (e.key === "Escape" && searchDialog?.open) {
+        searchDialog.close();
+        searchTrigger?.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
+  initSearch();
+  document.addEventListener("astro:after-swap", initSearch);
+</script>

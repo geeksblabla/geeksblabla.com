@@ -1,0 +1,28 @@
+---
+import Hero from "@/components/podcast/hero.astro";
+import Layout from "@/components/layout.astro";
+import Stats from "@/components/podcast/stats.astro";
+import EpisodeTypes from "@/components/podcast/episode-types.astro";
+import FeaturedEpisodes from "@/components/podcast/featured-episodes.astro";
+import Planning from "@/components/podcast/planning.astro";
+import { SITE } from "@/config";
+
+// import { getCollection } from "astro:content";
+
+// const podcast = await getCollection("podcast");
+// const sortedPodcast = podcast.sort(
+//   (a, b) => a.data.date.getTime() - b.data.date.getTime()
+// );
+---
+
+<Layout title={`Podcast | ${SITE.title}`}>
+  <Hero />
+  <Stats />
+  <EpisodeTypes />
+  <FeaturedEpisodes />
+  <Planning />
+</Layout>
+
+<script is:inline src="https://unpkg.com/@rive-app/canvas@2.23.4"></script>
+
+<!-- <script is:inline src="https://unpkg.com/@rive-app/canvas-lite@2.23.4"></script> -->

@@ -1,0 +1,32 @@
+name: CI Checks
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+  workflow_call:
+
+jobs:
+  build:
+    name: Code standards & build
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: "☁️ Checkout repository"
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup Node + PNPM + install deps
+        uses: ./.github/actions/setup-node-pnpm-install
+
+      - name: "🔎 Lint code"
+        run: pnpm run lint
+
+      - name: "🧪 Run Astro checks"
+        run: pnpm run astro check
+
+      - name: "🚀 Build the project"
+        run: pnpm run build

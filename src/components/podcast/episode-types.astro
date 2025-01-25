@@ -1,0 +1,103 @@
+---
+import type { PodcastCategory } from "@/content/schema";
+import EpisodeTypeItem from "./episode-type-item.astro";
+import type { EpisodeType } from "./episode-type-item.astro";
+
+import { getCollection } from "astro:content";
+import RiveAnimationScript from "@/components/rive-animation-script.astro";
+const podcast = await getCollection("podcast");
+
+function getLatestEpisodeLink(category: PodcastCategory): string {
+  const categoryEpisodes = podcast.filter(
+    episode => episode.data.category === category
+  );
+
+  categoryEpisodes.sort(
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+  );
+
+  return categoryEpisodes.length > 0
+    ? `podcast/${categoryEpisodes[0].data.slug}/?category=${category}`
+    : "#";
+}
+
+const episodes: EpisodeType[] = [
+  {
+    title: "Dev episodes",
+    description:
+      "An open, deep dive discussion around anything and everything related to programming & software engineering. We explore technical concepts, share real-world experiences, and discuss the latest trends in tech.",
+    riveAnimation: "dev_episodes",
+    link: {
+      text: "Watch Dev Episodes",
+      url: getLatestEpisodeLink("dev"),
+    },
+    color: "#915EDF",
+  },
+  {
+    title: "MSS episodes",
+    description:
+      "In Moroccan Success Story episodes, we invite Moroccan icons in the IT and related fields to share their inspiring journeys and invaluable knowledge to empower and inspire the Moroccan tech community.",
+    riveAnimation: "mss-episodes",
+    link: {
+      text: "Watch MSS Episodes",
+      url: getLatestEpisodeLink("mss"),
+    },
+    color: "#2980FA",
+  },
+  {
+    title: "Career episodes",
+    description:
+      "Explore career paths, job opportunities, and professional growth in the tech industry with our career-focused episodes.",
+    riveAnimation: "career_episodes",
+    link: {
+      text: "Watch Career Episodes",
+      url: getLatestEpisodeLink("career"),
+    },
+    color: "#28AF87",
+  },
+  {
+    title: "AI episodes",
+    description:
+      "Explore the latest advancements in artificial intelligence, machine learning, and deep learning with our AI-focused episodes.",
+    riveAnimation: "ai_episodes",
+    link: {
+      text: "Watch AI Episodes",
+      url: getLatestEpisodeLink("ai"),
+    },
+    color: "#C4CAD4",
+  },
+  {
+    title: "AMA & tech news",
+    description:
+      "Stay up-to-date with the latest tech news and get your questions answered in our Ask Me Anything sessions.",
+    riveAnimation: "ama_tech_news",
+    link: {
+      text: "Watch AMA Episodes",
+      url: getLatestEpisodeLink("ama"),
+    },
+    color: "#2980FA",
+  },
+  {
+    title: "Book & article reviews",
+    description:
+      "Dive into insightful reviews of programming books and articles, exploring key concepts and practical applications in software development.",
+    riveAnimation: "books_reviews",
+    link: {
+      text: "Watch Books Episodes",
+      url: getLatestEpisodeLink("book"),
+    },
+    color: "#AE8DF0",
+  },
+];
+---
+
+<section class="bg-[#F2F4F7] py-16">
+  <div class="main mx-auto px-4">
+    <h2 class="mb-8 text-heading-sm font-bold">Episodes On the Menu</h2>
+    <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
+      {episodes.map(episode => <EpisodeTypeItem episode={episode} />)}
+    </div>
+  </div>
+</section>
+
+<RiveAnimationScript />

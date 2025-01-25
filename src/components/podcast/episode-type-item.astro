@@ -1,0 +1,76 @@
+---
+import { ButtonLink } from "../button";
+import { Icon } from "astro-icon/components";
+import RiveAnimation from "@/components/rive-animation.astro";
+export interface EpisodeType {
+  title: string;
+  description: string;
+  riveAnimation: string;
+  badge?: string;
+  color?: string;
+  link: {
+    text: string;
+    url: string;
+  };
+}
+
+export interface Props {
+  episode: EpisodeType;
+}
+
+const { episode } = Astro.props as Props;
+---
+
+<div
+  data-visible-in-the-view="false"
+  class={`group overflow-hidden rounded-lg border border-[#C3CAD4] bg-white transition-all duration-300 hover:border-[var(--episode-color)] hover:shadow-lg data-[visible-in-the-view=true]:motion-preset-slide-up data-[visible-in-the-view=true]:motion-delay-[100ms]`}
+  style={`--episode-color: ${episode.color || "#7CB4FE"}`}
+>
+  <div class="relative px-4 py-1 text-[20px]">
+    <div
+      class="absolute inset-0 px-4 py-1 text-[20px] opacity-60 transition-colors duration-300 group-hover:text-[var(--episode-color)]"
+    >
+    </div>
+    <span class="relative z-10 text-neutral-dark-20/50">{">_"}</span>
+  </div>
+  <div class="flex flex-col items-start p-2 md:p-6">
+    <RiveAnimation
+      animation={episode.riveAnimation}
+      id={episode.riveAnimation}
+      width={350}
+      height={350}
+      className="max-h-[350px] w-full"
+    />
+
+    <div class="flex-1 pt-0 md:pt-8">
+      <div class="mb-2 flex items-start">
+        <h3 class="font-regular text-3xl text-[#1A1C1E]/80 md:text-4xl">
+          {episode.title}
+        </h3>
+      </div>
+      <div class="flex items-start">
+        <svg
+          class="mt-1 h-3"
+          viewBox="0 0 20 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.4 -9.53674e-07H1.6V16.4H7.2V17.6H0.4V-9.53674e-07ZM6.79219 17.6V16.4H19.1922V17.6H6.79219Z"
+            fill="#292D33"></path>
+        </svg>
+        <div class="flex-1 pl-0.5 md:pl-1">
+          <div class="mb-4 text-base text-neutral-dark-20/80">
+            <p>
+              {episode.description}
+            </p>
+          </div>
+          <ButtonLink href={episode.link.url} variant="outline">
+            {episode.link.text}
+            <Icon name="external-link" class="ml-1 h-4 w-4" />
+          </ButtonLink>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+---
+import type { ProjectType } from "./project-item.astro";
+import ProjectItem from "./project-item.astro";
+import RiveAnimationScript from "@/components/rive-animation-script.astro";
+const projects: ProjectType[] = [
+  {
+    title: "Geeksblabla Podcast",
+    description:
+      "The community podcast is where interesting and funny conversations around a wide range of awesome tech topics with our amazing community members. Join us every Sunday at 8 PM and prepare yourself to be inspired and educated as we discuss the hottest tech topics in Moroccan Darija.",
+    riveAnimation: "podcast",
+    links: [
+      { text: "Watch the latest episode", url: "/podcast" },
+      { text: "Suggest a topic", url: "/podcast/planning" },
+    ],
+    color: "#29AD86",
+  },
+  {
+    title: "BlablaConf",
+    description:
+      "Our community's annual conference is designed for developers, by developers. Enjoy 5 +1  days with our speakers from various backgrounds and completely in Moroccan Darija, everyone has the opportunity to speak and share knowledge.",
+    riveAnimation: "conf",
+    badge: "2024",
+    links: [
+      {
+        text: "Watch the Latest Edition",
+        url: "https://www.youtube.com/watch?v=a2o74IO59gE&list=PLUa7iphNQNrzhWEJlEooj79kPkm3LUUYy",
+      },
+      { text: "BlablaConf.com", url: "https://blablaconf.com" },
+    ],
+    color: "#2980FA",
+  },
+  {
+    title: "Awesome Morocco",
+    description:
+      "One place to collect and highlight the outstanding work of Moroccan developers. Discover open-source projects, blog posts, podcasts, communities, books, and YouTube channels created by talented Moroccan developers. Explore their contributions and share your work with us.",
+    riveAnimation: "awesome-morocco",
+    links: [
+      { text: "Discover the list", url: "https://awesome-morocco.dev" },
+      { text: "Submit your project", url: "https://awesome-morocco.dev" },
+    ],
+    color: "#292D33",
+  },
+  {
+    title: "State Of Dev",
+    description:
+      "A survey launched 4 years ago where developers from Morocco 🇲🇦 tell us about their job satisfaction, salaries, community contribution, how they learn and level up, which tools they're using, how they feel about the Moroccan tech community and what they want to learn next. Check out the the report and learn more.",
+    riveAnimation: "state-of-dev",
+    links: [
+      { text: "Last Year Report", url: "https://stateofdev.ma/2023" },
+      { text: "StateOfDev.ma", url: "https://stateofdev.ma" },
+    ],
+    color: "#AE8DF0",
+  },
+];
+---
+
+<section class="py-16" id="projects">
+  <div class="main mx-auto px-4">
+    <h2 class="mb-8 text-heading-sm font-bold">Projects</h2>
+    <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
+      {projects.map(project => <ProjectItem project={project} />)}
+    </div>
+  </div>
+</section>
+<RiveAnimationScript />

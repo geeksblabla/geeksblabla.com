@@ -1,0 +1,23 @@
+---
+import { Image } from "astro:assets";
+
+const { name, link, profile_image } = Astro.props;
+---
+
+<a href={link} class="block" target="_blank">
+  <div class="md:mb mb-2">
+    <Image
+      class="mx-auto w-full overflow-hidden rounded-t-[4px]"
+      src={profile_image}
+      alt={name}
+      width={297}
+      height={330}
+      loading="lazy"
+    />
+    <div class="mx-auto rounded-b-[4px] bg-neutral-dark-0 p-4">
+      <h3 class="mb-2 truncate text-label-sm text-neutral-light-50">
+        {name}
+      </h3>
+    </div>
+  </div>
+</a>

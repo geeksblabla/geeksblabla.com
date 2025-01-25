@@ -1,0 +1,184 @@
+---
+// No props needed
+---
+
+<dialog id="new-episode-modal" class="rounded-lg p-6 backdrop:bg-gray-950/50">
+  <div class="w-[560px] max-w-full">
+    <div class="mb-4 flex items-center justify-between">
+      <h3 class="text-xl font-semibold text-gray-900">Suggest New Episode</h3>
+      <button
+        class="text-gray-500 hover:text-gray-700"
+        onclick="this.closest('dialog').close()"
+      >
+        <svg
+          class="h-6 w-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div id="new-episode-success-message" class="hidden space-y-4 py-10">
+      <div class="text-center">
+        <svg
+          class="mx-auto h-12 w-12 text-green-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M5 13l4 4L19 7"></path>
+        </svg>
+        <h3 class="mt-2 text-xl font-semibold text-gray-900">Thank You!</h3>
+        <p class="mt-2 text-gray-600">
+          Your episode suggestion has been submitted successfully. We appreciate
+          your contribution!
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <button
+          type="button"
+          onclick="this.closest('dialog').close()"
+          class="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <form id="new-episode-form" class="space-y-4">
+      <div>
+        <label class="mb-1 block text-sm font-medium text-gray-700">
+          Episode Title
+        </label>
+        <input
+          type="text"
+          name="title"
+          required
+          class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
+          placeholder="e.g., State Management in React"
+        />
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium text-gray-700">
+          Episode Suggestion
+        </label>
+        <p class="my-2 rounded-lg bg-gray-100 p-3 text-sm text-gray-500">
+          Share your episode idea! You can suggest:
+          <br />• Topics you'd like us to cover
+          <br />• Potential guests to invite (name and linkedin profile)
+          <br />• Relevant links and resources
+          <br />• Any other details that would make this episode great
+        </p>
+        <textarea
+          name="description"
+          required
+          rows="8"
+          class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
+        ></textarea>
+      </div>
+
+      <div>
+        <label class="mb-1 block text-sm font-medium text-gray-700">
+          Your Name/ LinkedIn Profile (Optional)
+        </label>
+        <input
+          type="text"
+          name="submittedBy"
+          required
+          placeholder="e.g., John Doe (https://www.linkedin.com/in/johndoe/)"
+          class="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none"
+        />
+      </div>
+
+      <div class="flex justify-end gap-3">
+        <button
+          type="button"
+          onclick="this.closest('dialog').close()"
+          class="rounded-md bg-gray-100 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-200"
+        >
+          Cancel
+        </button>
+        <button
+          type="submit"
+          class="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</dialog>
+
+<script>
+  // Add new episode button handler
+  const newEpisodeButton = document.getElementById("new-episode-button");
+  newEpisodeButton?.addEventListener("click", () => {
+    const modal = document.getElementById(
+      "new-episode-modal"
+    ) as HTMLDialogElement;
+    if (modal) {
+      modal.showModal();
+    }
+  });
+</script>
+
+<script>
+  import { actions } from "astro:actions";
+
+  const form = document.getElementById("new-episode-form");
+  const successMessage = document.getElementById("new-episode-success-message");
+
+  const submit = async () => {
+    const submitButton = form?.querySelector(
+      'button[type="submit"]'
+    ) as HTMLButtonElement;
+    const originalButtonText = submitButton.textContent;
+    try {
+      if (!form) return;
+      submitButton.disabled = true;
+      submitButton.textContent = "Submitting...";
+
+      const formData = new FormData(form as HTMLFormElement);
+      const { data, error } = await actions.submitNewEpisode(formData);
+
+      if (data?.success) {
+        form?.classList.add("hidden");
+        successMessage?.classList.remove("hidden");
+      }
+
+      if (error) {
+        alert(error.message);
+      }
+    } catch (error) {
+      console.error(error);
+      alert("Failed to submit new episode. Please try again.");
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = originalButtonText;
+    }
+  };
+
+  const modal = document.getElementById("new-episode-modal");
+  modal?.addEventListener("close", () => {
+    form?.classList.remove("hidden");
+    successMessage?.classList.add("hidden");
+    (form as HTMLFormElement).reset();
+  });
+
+  form?.addEventListener("submit", event => {
+    event.preventDefault();
+    submit();
+  });
+</script>

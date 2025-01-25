@@ -1,0 +1,66 @@
+---
+import { Icon } from "astro-icon/components";
+import type { CollectionEntry } from "astro:content";
+import AudioWave from "./audio-wave.astro";
+
+export interface Props {
+  episode: CollectionEntry<"podcast">;
+  number: number;
+}
+
+const { episode, number } = Astro.props as Props;
+const isCurrentEpisode = Astro.url.pathname.includes(episode.data.slug);
+---
+
+<li
+  data-category={episode.data.category.toLowerCase()}
+  data-episode-number={number}
+  data-playing={isCurrentEpisode ? "true" : "false"}
+  class="group"
+>
+  <a
+    href={`/podcast/${episode.data.slug}/`}
+    class="relative block cursor-pointer overflow-hidden rounded-lg transition-colors hover:bg-gray-50 group-data-[playing=false]:bg-white group-data-[playing=true]:bg-[#114997]"
+  >
+    <div
+      class="absolute -right-1 -top-1 text-5xl font-extrabold group-data-[playing=false]:text-gray-500/5 group-data-[playing=true]:text-white/20"
+    >
+      #{number}
+    </div>
+
+    <div
+      class="absolute inset-x-0 -bottom-8 flex items-center justify-evenly opacity-5 group-data-[playing=false]:hidden group-data-[playing=true]:text-white group-data-[playing=true]:opacity-10"
+    >
+      <AudioWave />
+    </div>
+    <div class="relative flex items-center space-x-4 p-3 md:p-4">
+      <div class="rounded-md border-2 border-black bg-white p-1">
+        <Icon
+          name="play"
+          data-icon="play"
+          class="h-3 w-3 text-black group-data-[playing=true]:hidden md:h-4 md:w-4"
+        />
+        <Icon
+          name="pause"
+          data-icon="pause"
+          class="h-3 w-3 text-black group-data-[playing=false]:hidden md:h-4 md:w-4"
+        />
+      </div>
+      <div class="flex-1 overflow-hidden">
+        <div class="overflow-hidden whitespace-nowrap">
+          <p
+            class="group-hover:pr-full inline-block text-base font-bold group-hover:animate-marquee group-data-[playing=false]:text-gray-900 group-data-[playing=true]:text-white md:text-lg"
+          >
+            {episode.data.title}
+          </p>
+        </div>
+        <div
+          class="flex flex-row justify-between text-xs group-data-[playing=false]:text-gray-500 group-data-[playing=true]:text-white md:text-sm"
+        >
+          <p class="text-sm">{episode.data.dateString}</p>
+          <p class="text-sm">{episode.data.duration}</p>
+        </div>
+      </div>
+    </div>
+  </a>
+</li>

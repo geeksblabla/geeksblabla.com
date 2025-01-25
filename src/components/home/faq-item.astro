@@ -1,0 +1,47 @@
+---
+interface Props {
+  open: boolean;
+  label: string;
+}
+const { open, label }: Props = Astro.props;
+---
+
+<details open={open}>
+  <summary
+    class="mt-2 flex cursor-pointer flex-row items-center justify-between rounded-lg border border-[#C3CAD4] bg-white px-4 py-2 text-paragraph-sm font-semibold text-gray-700"
+  >
+    <div class="flex flex-1 flex-row items-center gap-2 pr-3">
+      <span class="text-paragraph-sm font-semibold text-gray-700">{label}</span>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="block h-6 !w-6 transform text-gray-500 transition-transform duration-300"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"></path>
+    </svg>
+  </summary>
+  <div class="mt-1 rounded-lg border border-[#C3CAD4] bg-[#FAFBFD] p-4">
+    <div class="prose max-w-none">
+      <slot />
+    </div>
+  </div>
+</details>
+
+<style>
+  details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  details[open] > summary svg {
+    transform: rotate(180deg);
+  }
+</style>

@@ -1,0 +1,52 @@
+---
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+export interface TimelineItemType {
+  title: string;
+  images: {
+    mobile: ImageMetadata;
+    tablet: ImageMetadata;
+    uhd: ImageMetadata;
+    fhd: ImageMetadata;
+  };
+}
+
+type Props = TimelineItemType;
+const { title, images } = Astro.props as Props;
+---
+
+<div class="group relative flex flex-col pb-20">
+  <div
+    class="flex w-full flex-col justify-center rounded-md bg-neutral-light-50 p-2 xl:flex-row xl:group-even:flex-row-reverse"
+  >
+    <div class="w-full xl:w-2/5">
+      <div>
+        <picture>
+          <source media="(max-width: 640px)" srcset={images.mobile.src} />
+          <source
+            media="(min-width: 641px) and (max-width: 768px)"
+            srcset={images.tablet.src}
+          />
+          <source
+            media="(min-width: 769px) and (max-width: 1024px)"
+            srcset={images.fhd.src}
+          />
+          <source media="(min-width: 1025px)" srcset={images.uhd.src} />
+          <Image
+            src={images.fhd}
+            alt={title}
+            class="rounded-xs h-full w-full object-cover md:rounded-s"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="w-full p-2 xl:w-3/5 xl:p-12">
+      <h2 class="text-heading-lg text-neutral-dark-30">{title}</h2>
+      <div class="pt-4">
+        <slot />
+      </div>
+    </div>
+  </div>
+</div>

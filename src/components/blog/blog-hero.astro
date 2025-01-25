@@ -1,0 +1,32 @@
+---
+import Card from "./blog-card.astro";
+import type { CollectionEntry } from "astro:content";
+import getReadingTime from "reading-time";
+
+export interface Props {
+  latestArticle: CollectionEntry<"blog">;
+  featuredArticles: CollectionEntry<"blog">[];
+}
+
+const { latestArticle, featuredArticles } = Astro.props;
+---
+
+<div class="main mx-auto">
+  <h1 class="py-8 text-5xl font-bold">Blogs</h1>
+  <div class="">
+    <Card
+      href={`/blog/${latestArticle.data.slug}`}
+      withCover
+      frontmatter={latestArticle.data}
+      minutesRead={getReadingTime(latestArticle?.body ?? "").text}
+    />
+  </div>
+  <h2 class="py-8 text-heading-sm">Most Popular</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+    {
+      featuredArticles.map(article => (
+        <Card href={`/blog/${article.data.slug}`} frontmatter={article.data} />
+      ))
+    }
+  </div>
+</div>

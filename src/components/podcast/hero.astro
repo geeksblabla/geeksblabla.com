@@ -1,0 +1,160 @@
+---
+import { ButtonLink } from "../button";
+import Header from "../header.astro";
+import { Icon } from "astro-icon/components";
+import HeroAnimation from "./hero-animation.astro";
+import { getCollection } from "astro:content";
+import {
+  getLastEpisode,
+  getLastFeaturedEpisode as getRandomEpisode,
+} from "@/lib/podcast-utils";
+
+const podcast = await getCollection("podcast");
+const lastEpisode = getLastEpisode(podcast);
+
+const lastFeaturedEpisode = getRandomEpisode(podcast);
+---
+
+<section class="relative overflow-hidden bg-[#D4E3DE]">
+  <div class="absolute inset-0 z-0 lg:block">
+    <div class="bg-grid-pattern absolute inset-0 opacity-10"></div>
+  </div>
+  <Header />
+  <div class="main relative z-10 mx-auto pt-8 md:pt-16">
+    <div class="flex flex-col items-center lg:flex-row">
+      <div class="z-10">
+        <h1
+          class="motion-preset-slide-down mt-10 w-full max-w-screen-lg text-center font-sans text-heading-lg font-bold md:hidden md:text-left md:text-title"
+        >
+          A podcast with awesome <br class="hidden md:block" /> IT geeks, In Darija!
+        </h1>
+        <div
+          class="hidden w-full max-w-screen-lg text-center font-sans text-heading-lg font-bold md:block md:text-left md:text-title"
+        >
+          <h1 class="m-preset-typewriter-[22] motion-loop-once">
+            A podcast with awesome
+          </h1>
+          <h1
+            class="m-preset-typewriter-[16] motion-delay-[500ms] motion-loop-once"
+          >
+            IT geeks, In Darija!
+          </h1>
+        </div>
+        <p
+          class="motion-preset-slide-down my-4 max-w-[600px] text-center font-sans text-label-sm font-thin motion-delay-[700ms] md:my-8 md:text-left"
+        >
+          At GeeksBlaBla podcast, is where we host brilliant IT people to
+          discuss, highlight and share the latest technology topics.
+          <br />
+          Join us every <strong>Sunday! 8:00 PM </strong>
+        </p>
+        <div class="flex justify-center space-x-4 py-4 md:justify-start">
+          <ButtonLink
+            href={`/podcast/${lastEpisode.data.slug}`}
+            variant="secondary"
+            className="motion-preset-slide-down motion-delay-[900ms]"
+          >
+            Watch Podcast <Icon name="arrow-right" class="ml-2 rotate-45" />
+          </ButtonLink>
+          <ButtonLink
+            variant="outline"
+            href={`/podcast/${lastFeaturedEpisode.data.slug}`}
+            className="motion-preset-slide-down hidden self-center motion-delay-[1000ms] md:flex"
+          >
+            Surprise me <Icon name="arrow-right" class="ml-2" />
+          </ButtonLink>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="main motion-preset-slide-up pointer-events-none relative z-20 mx-auto mt-2 px-4 motion-delay-[1200ms] md:-mt-36"
+  >
+    <HeroAnimation />
+  </div>
+</section>
+
+<style>
+  .bg-grid-pattern {
+    background-image: linear-gradient(to right, #636161 1px, transparent 1px),
+      linear-gradient(to bottom, #636161 1px, transparent 1px);
+    background-size: 100px 100px; /* Smaller squares for mobile screens */
+    animation: move-grid 8s linear infinite 2s;
+  }
+
+  @media (min-width: 768px) {
+    .bg-grid-pattern {
+      background-size: 200px 200px; /* Larger squares for larger screens */
+    }
+  }
+
+  @keyframes move-grid {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -200px 0px;
+    }
+  }
+
+  .m-preset-typewriter-\[22\] {
+    --motion-duration: 1500ms;
+    --motion-typewriter-value: 22ch;
+    animation:
+      typing var(--motion-duration) steps(22) var(--motion-delay, 0ms) forwards,
+      blink 0.4s step-end var(--motion-delay, 0ms) none;
+    white-space: nowrap;
+    border-right: 2px solid;
+    border-color: transparent;
+    overflow: hidden;
+    width: 0;
+  }
+  .m-preset-typewriter-\[16\] {
+    --motion-duration: 1500ms;
+    --motion-typewriter-value: 13.5ch;
+    animation:
+      typing var(--motion-duration) steps(16) var(--motion-delay, 0ms) forwards,
+      blink-last-line 0.4s step-end var(--motion-delay, 0ms) infinite;
+    white-space: nowrap;
+    border-right: 2px solid;
+    border-color: transparent;
+    overflow: hidden;
+    width: 0;
+  }
+  @media screen and (prefers-reduced-motion: no-preference) {
+    @keyframes typing {
+      10% {
+        width: 0;
+      }
+      40%,
+      60% {
+        width: calc(var(--motion-typewriter-value) + 1px);
+      }
+      100% {
+        width: var(--motion-typewriter-value);
+      }
+    }
+  }
+  @keyframes blink {
+    0% {
+      border-color: black;
+    }
+    50% {
+      border-color: black;
+    }
+    95% {
+      border-color: black;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  @keyframes blink-last-line {
+    50% {
+      border-color: black;
+    }
+    100% {
+      border-color: black;
+    }
+  }
+</style>

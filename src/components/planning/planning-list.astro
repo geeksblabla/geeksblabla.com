@@ -1,0 +1,112 @@
+---
+import { getGeekBlablaEpisodesPlannings } from "@/lib/notion";
+import EpisodeCard from "./episode-card.astro";
+import SuggestionModal from "./suggestion-modal.astro";
+
+const episodes = await getGeekBlablaEpisodesPlannings();
+
+// Group episodes by status
+const scheduled = episodes
+  .filter(ep => ep.status === "scheduled")
+  .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+const nextUp = episodes.filter(ep => ep.status.toLowerCase() === "next up");
+const backlog = episodes.filter(ep => ep.status === "backlog");
+---
+
+<div class="min-h-screen">
+  <div class="mx-auto pt-4">
+    <div
+      class="grid grid-cols-1 gap-0 md:gap-8 lg:h-[calc(100vh-360px)] lg:grid-cols-3 [&>*:nth-child(1)]:order-3 lg:[&>*:nth-child(1)]:order-1 [&>*:nth-child(2)]:order-2 lg:[&>*:nth-child(2)]:order-2 [&>*:nth-child(3)]:order-1 lg:[&>*:nth-child(3)]:order-3 lg:[&>*]:col-span-1"
+    >
+      <div
+        class="relative flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-160px)]"
+      >
+        <div class="mb-4 flex items-center justify-between p-4">
+          <h2 class="text-xl font-semibold text-gray-600">
+            <span class="mr-2">📝</span>Backlog
+          </h2>
+          <span
+            class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600"
+          >
+            {backlog.length}
+          </span>
+        </div>
+        <div class="p-4 lg:flex-1 lg:overflow-y-auto">
+          <div class="flex flex-col gap-4">
+            {backlog.map(episode => <EpisodeCard episode={episode} />)}
+          </div>
+        </div>
+      </div>
+
+      <!-- Next Up Column -->
+      <div
+        class="flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-160px)]"
+      >
+        <div class="mb-4 flex items-center justify-between p-4">
+          <h2 class="text-xl font-semibold text-gray-600">
+            <span class="mr-2">🎯</span>Next Up
+          </h2>
+          <span
+            class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600"
+          >
+            {nextUp.length}
+          </span>
+        </div>
+        <div class="flex-1 overflow-y-auto p-4">
+          <div class="flex flex-col gap-4">
+            {nextUp.map(episode => <EpisodeCard episode={episode} />)}
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col rounded-xl bg-white shadow-sm lg:h-[calc(100vh-160px)]"
+      >
+        <div class="mb-4 flex items-center justify-between p-4">
+          <h2 class="text-xl font-semibold text-gray-600">
+            <span class="mr-2">📅</span>Scheduled
+          </h2>
+          <span
+            class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600"
+          >
+            {scheduled.length}
+          </span>
+        </div>
+        <div class="p-4 lg:flex-1 lg:overflow-y-auto">
+          <div class="flex flex-col gap-4">
+            {scheduled.map(episode => <EpisodeCard episode={episode} />)}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+  <SuggestionModal />
+</div>
+
+<script>
+  const suggestionButtons = document.querySelectorAll(
+    "[data-suggestion-trigger]"
+  );
+  suggestionButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      const episodeId = button.getAttribute("data-episode-id");
+      console.log(episodeId);
+
+      const modal = document.getElementById(
+        "suggestion-modal"
+      ) as HTMLDialogElement;
+      if (modal) {
+        // Update the form's hidden inputs
+        const episodeIdInput = modal.querySelector(
+          'input[name="episodeId"]'
+        ) as HTMLInputElement;
+        if (episodeIdInput) {
+          episodeIdInput.value = episodeId || "";
+          modal.showModal();
+        }
+      }
+    });
+  });
+</script>

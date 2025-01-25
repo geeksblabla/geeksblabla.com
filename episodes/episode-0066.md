@@ -1,0 +1,51 @@
+---
+date: 2021-01-17
+duration: "01:52:14"
+title: "Internet of Things"
+tags: ["internet-of-Things", "iot"]
+category: "dev"
+youtube: https://www.youtube.com/watch?v=XYdc4poSATs
+published: true
+---
+
+In this episode of GeeksBlabla, we discussed with our guests Ali Lakrakbi and Saad Zabari what's IoT, its impact, Adopting IoT in Morocco, and more things about it.
+
+## Guests
+
+- [Saad Zabari](https://www.facebook.com/zabari.saad)
+- [Ali Lakrakbi](https://www.facebook.com/alilakrakbi)
+
+## Notes
+
+0:00:00 - Introduction and welcoming.
+
+0:07:00 - What's the Internet of Things?
+
+0:11:00 - Why the Internet of Things, and what is its impact on humanity?
+
+0:19:00 - Around 4/5 years ago, IoT was trending, and then it started slowly to disappear. Why is that?
+
+0:26:00 - What are the difficulties in creating a startup in the domain of Iot, and why don't we see many successful startups in that area?
+
+0:39:00 - What is the impact of 5g on IoT?
+
+0:43:00 - Rumors said that the vaccine would have a microchip; technically, is that possible?
+
+0:46:00 - Is there any risk concerning the IoT, specifically because we are related to servers/cloud?
+
+0:52:00 - What are the solutions proposed by manufacturers to ensure security and privacy?
+
+1:15:00 - During quarantine, the community of makers and IoT enthusiasts were here, never than before were in the appointment and came up with many great initiatives. Your opinion about that?
+
+1:23:00 - Adopting IoT in Morocco will help the communities to move forward, and having products made in morocco?
+
+1:30:00 - How can we integrate IoT into the education system?
+
+1:49:00 - Conclusion and Goodbye.
+
+## Links
+
+## Prepared and Presented by
+
+- [Mohammed Aboullaite](https://twitter.com/laytoun)
+- [Ismail Tlemcani](https://www.linkedin.com/in/ismailtlemcani)

@@ -1,0 +1,55 @@
+---
+
+---
+
+<div class="relative origin-bottom scale-[1.4] sm:scale-[1.40]">
+  <canvas id="canvas" class="w-full pt-28 md:-mt-24 md:pt-0"></canvas>
+</div>
+
+<script>
+  // Get the screen width
+  const screenWidth = window.innerWidth;
+
+  const animations = {
+    mobile: {
+      width: 375,
+      src: "/animations/community-hero-mobile.riv",
+      artboard: "357",
+    },
+    tablet: {
+      width: 768,
+      src: "/animations/community-hero-tablet.riv",
+      artboard: "768",
+    },
+    desktop: {
+      width: 1024,
+      src: "/animations/community-hero.riv",
+      artboard: "hero 2",
+    },
+  } as const;
+
+  let animationType: keyof typeof animations = "desktop";
+  if (screenWidth < 768) {
+    animationType = "mobile";
+  } else if (screenWidth < 1024) {
+    animationType = "tablet";
+  }
+
+  const animation = animations[animationType];
+  console.log(animation);
+
+  //@ts-expect-error Rive is not defined in the global scope
+  const r = new rive.Rive({
+    src: animation.src,
+    canvas: document.getElementById("canvas"),
+
+    autoplay: true,
+    artboard: animation.artboard, // autoplay: true,
+    stateMachines: "State Machine 1",
+    onLoad: () => {
+      console.log("loaded", r.contents);
+      // Ensure the drawing surface matches the canvas size and device pixel ratio
+      r.resizeDrawingSurfaceToCanvas();
+    },
+  });
+</script>

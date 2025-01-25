@@ -1,0 +1,104 @@
+---
+interface Props {
+  allCategories: { name: string; count: number }[];
+}
+
+const { allCategories } = Astro.props as Props;
+---
+
+<div id="category-filter-buttons" class="mt-4 flex flex-wrap gap-2">
+  {
+    allCategories.map(category => (
+      <button
+        class="category-filter rounded-lg bg-[#D3DAE5] px-3 py-1 text-sm font-medium text-gray-700 transition-colors hover:bg-[#114997] hover:text-white"
+        data-filter={category.name.toLowerCase()}
+      >
+        {category.name.charAt(0).toUpperCase() +
+          category.name.slice(1).toLowerCase()}
+        ({category.count})
+      </button>
+    ))
+  }
+</div>
+
+<style>
+  .active {
+    background-color: #114997;
+    color: white;
+  }
+</style>
+
+<!-- Category filtering : when clicking on a category, filter the episodes and highlight the active category -->
+<script>
+  import { startViewTransition } from "@/lib/utils";
+
+  function updateActiveButton(newButton: HTMLElement) {
+    const categoryFilterContainer = document.getElementById(
+      "category-filter-buttons"
+    );
+    categoryFilterContainer
+      ?.querySelector(".active")
+      ?.classList.remove("active");
+    newButton.classList.add("active");
+  }
+
+  function setFilterFromUrl() {
+    const defaultFilter =
+      new URL(window.location.href).searchParams.get("category") || "all";
+    filterEpisodes(defaultFilter);
+    updateActiveButton(
+      document.querySelector(`[data-filter="${defaultFilter}"]`) as HTMLElement
+    );
+  }
+
+  function filterEpisodes(filter: string) {
+    const episodes = document.querySelectorAll("#episodes-list > li");
+    episodes.forEach(episode => {
+      // get each conferences category
+      const episodeCategory = episode.getAttribute("data-category");
+
+      // check if that category matches with the filter
+      if (filter === "all" || filter === episodeCategory) {
+        episode.removeAttribute("hidden");
+      } else {
+        episode.setAttribute("hidden", "");
+      }
+    });
+
+    // Update URL with category filter
+    const url = new URL(window.location.href);
+    if (filter === "all") {
+      url.searchParams.delete("category");
+    } else {
+      url.searchParams.set("category", filter);
+    }
+    window.history.pushState({}, "", url);
+  }
+
+  function runFilter(defaultFilter: string = "all") {
+    const categoryButtons = document.querySelectorAll(".category-filter");
+
+    const episodes = document.querySelectorAll("#episodes-list > li");
+    let episodeIndex = 0;
+
+    episodes.forEach(episode => {
+      // @ts-expect-error not sure what going with style property here
+      episode.style.viewTransitionName = `episode-${++episodeIndex}`;
+    });
+
+    categoryButtons.forEach(button => {
+      button.addEventListener("click", e => {
+        const episodeCategory = button.getAttribute("data-filter");
+
+        startViewTransition(() => {
+          updateActiveButton(e.target as HTMLElement);
+          filterEpisodes(episodeCategory || defaultFilter);
+        });
+      });
+    });
+  }
+
+  setFilterFromUrl();
+  runFilter();
+  document.addEventListener("astro:page-load", () => runFilter("all"));
+</script>

@@ -1,0 +1,174 @@
+---
+import { type CollectionEntry } from "astro:content";
+import { extractEpisodeContent } from "@/lib/podcast-utils";
+import { Markdown } from "@astropub/md";
+import { Icon } from "astro-icon/components";
+import VideoPlayer from "../video-player.astro";
+
+type Props = {
+  episode: CollectionEntry<"podcast">;
+};
+
+const { episode } = Astro.props;
+
+const episodeContent = extractEpisodeContent(episode.body ?? "");
+---
+
+<div class="font-mono md:pl-2">
+  <VideoPlayer src={episode.data.youtube} />
+  <div class="p-0 py-8 md:p-4 md:py-12">
+    <article>
+      <div class="pose">
+        <Markdown of={episodeContent.description} />
+      </div>
+      <!-- Hosts -->
+      <div class="mt-3 flex flex-row flex-wrap justify-start space-x-2">
+        <span class="mt-2 py-1 pr-2">Hosted by:</span>
+        {
+          episodeContent.hosts.map(host => (
+            <a
+              class="mt-2 flex w-fit items-center rounded-lg bg-[#D3DAE5] px-2 py-1 no-underline transition-transform hover:scale-105"
+              href={host.url}
+              target="_blank"
+            >
+              {host.title}
+              <Icon name="external-link-styled" class="ml-2 h-4 w-4" />
+            </a>
+          ))
+        }
+      </div>
+      <!-- Guests -->
+      <div class="mt-3 flex flex-row flex-wrap justify-start space-x-2">
+        <span class="mt-2 py-1 pr-2">Guests:</span>
+        {
+          episodeContent.guests.map(guest => (
+            <a
+              class="mt-2 flex w-fit items-center rounded-lg bg-[#D3DAE5] px-2 py-1 no-underline transition-transform hover:scale-105"
+              href={guest.url}
+              target="_blank"
+            >
+              {guest.title}{" "}
+              <Icon name="external-link-styled" class="ml-2 h-4 w-4" />
+            </a>
+          ))
+        }
+      </div>
+      <!-- Share actions -->
+      <div class="mt-8 flex flex-row justify-between gap-2">
+        <div class="flex w-1/2 flex-col items-center rounded-lg bg-white py-3">
+          <h3 class="text-label-sm">Play episode on:</h3>
+          <div class="flex space-x-4 pt-2">
+            <a href="#" class="text-3xl hover:text-gray-600" title="YouTube">
+              <Icon name="youtube" />
+            </a>
+            <a href="#" class="text-3xl hover:text-gray-600" title="Spotify">
+              <Icon name="spotify" />
+            </a>
+            <a
+              href="#"
+              class="text-3xl hover:text-gray-600"
+              title="Apple Podcasts"
+            >
+              <Icon name="apple-podcast" />
+            </a>
+          </div>
+        </div>
+        <div class="flex w-1/2 flex-col items-center rounded-lg bg-white py-3">
+          <h3 class="text-label-sm">Share episode:</h3>
+          <div class="flex space-x-4 pt-2">
+            <a href="#" class="text-3xl hover:text-gray-600" title="Twitter">
+              <Icon name="x" />
+            </a>
+            <a href="#" class="text-3xl hover:text-gray-600" title="LinkedIn">
+              <Icon name="linkedin" />
+            </a>
+            <a href="#" class="text-3xl hover:text-gray-600" title="Instagram">
+              <Icon name="instagram" />
+            </a>
+            <a href="#" class="text-3xl hover:text-gray-600" title="Facebook">
+              <Icon name="facebook" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4 rounded-lg bg-white">
+        <div class="space-y-2 p-4 pt-8" id="markdown-notes">
+          <h3 class="text-label-sm font-medium text-gray-900">Notes:</h3>
+          <div class="prose [&>p]:!my-0 [&_a]:font-bold">
+            <Markdown of={episodeContent.notes} />
+          </div>
+        </div>
+        {
+          episodeContent.links?.length > 0 && (
+            <div class="mt-4 rounded-lg bg-white p-4">
+              <h3 class="text-label-sm font-medium text-gray-900">Links:</h3>
+              <div class="mt-2 space-y-2">
+                {episodeContent.links.map(link => (
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    class="flex w-fit items-center rounded-lg bg-[#E2E7EE]/50 px-4 py-2 text-gray-900 transition-colors hover:bg-[#D3DAE5]/50"
+                  >
+                    <span class="font-medium">{link.title}</span>
+                    <Icon name="external-link-styled" class="ml-2 h-4 w-4" />
+                  </a>
+                ))}
+              </div>
+            </div>
+          )
+        }
+      </div>
+      <div class="mt-4 flex justify-end">
+        <a
+          href={`https://github.com/GeeksBlaBla/geeksblabla.com/edit/main/${episode.filePath}`}
+          class="text-right font-sans text-label-sm font-medium text-gray-900 underline"
+          target="_blank"
+        >
+          Edit on GitHub – PRs welcome
+        </a>
+      </div>
+    </article>
+  </div>
+</div>
+
+<script is:inline>
+  // Get all links inside markdown-notes and add data-astro-reload attribute
+  // mainly because we are using viewtransasition in the page and we want astro to ignore those links
+  // maybe should be done in the build process not when the page is loaded
+  const updateLinks = () => {
+    const markdownNotes = document.getElementById("markdown-notes");
+    if (markdownNotes) {
+      const links = markdownNotes.querySelectorAll("a");
+      links.forEach(link => {
+        link.setAttribute("data-astro-reload", "");
+      });
+    }
+  };
+
+  document.addEventListener("astro:after-swap", updateLinks);
+  document.addEventListener("DOMContentLoaded", updateLinks);
+</script>
+
+<script>
+  const seekToTimestamp = () => {
+    const youtubeVideo = document.querySelector(
+      "youtube-video"
+    ) as HTMLVideoElement;
+    const hash = window.location.hash;
+    if (hash && hash.startsWith("#")) {
+      const seconds = parseInt(hash.slice(1), 10);
+      if (!isNaN(seconds) && youtubeVideo) {
+        youtubeVideo.currentTime = seconds;
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", () => {
+    // Initial check on page load
+    seekToTimestamp();
+    // Listen for hash changes(clicks from notes)
+    window.addEventListener("hashchange", seekToTimestamp);
+  });
+  window.addEventListener("astro:after-swap", () => {
+    window.addEventListener("hashchange", seekToTimestamp);
+  });
+</script>

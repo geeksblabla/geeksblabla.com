@@ -1,0 +1,147 @@
+---
+import { Icon } from "astro-icon/components";
+import { getCollection } from "astro:content";
+const gallery = await getCollection("gallery");
+
+const getOptimizedImage = (url: string) => {
+  return url.replace(
+    "upload",
+    "upload/f_auto,q_auto,b_auto,c_fill_pad,g_auto,h_800,ar_16:9"
+  );
+};
+---
+
+<section class="bg-[#F2F4F7] py-8 md:py-16">
+  <div class="main mx-auto px-4">
+    <div class="flex flex-col justify-between md:flex-row">
+      <h2 class="mb-4 text-left text-3xl font-bold md:mb-6">Gallery</h2>
+      <div class="flex flex-row items-center text-neutral-dark-50">
+        <p class="text-paragraph-md mr-2 md:mr-4 md:text-paragraph-lg">
+          <span class="md:hidden">Swipe left or right to navigate</span>
+          <span class="hidden md:inline">You can use arrows to navigate</span>
+        </p>
+        <div class="hidden flex-row font-bold md:flex">[←]</div>
+        <div class="hidden flex-row font-bold md:flex">[→]</div>
+      </div>
+    </div>
+    <div
+      class="relative mt-4 overflow-hidden rounded-lg border border-neutral-dark-20 md:mt-0"
+    >
+      <div class="hidden bg-[#FAFBFD] px-3 py-2 md:block">
+        <svg
+          width="50"
+          viewBox="0 0 66 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="16" height="16" rx="8" fill="#C3CAD4"></rect>
+          <rect x="25" width="16" height="16" rx="8" fill="#C3CAD4"></rect>
+          <rect x="50" width="16" height="16" rx="8" fill="#C3CAD4"></rect>
+        </svg>
+      </div>
+      <swiper-container
+        slides-per-view="1"
+        space-between="10"
+        navigation="true"
+        pagination="true"
+        keyboard="true"
+        class="swiper-container"
+      >
+        {
+          [...gallery]
+            .sort(() => Math.random() - 0.5)
+            .map(image => (
+              <swiper-slide>
+                <img
+                  src={getOptimizedImage(image.data.url)}
+                  alt="Community Gallery"
+                  loading="lazy"
+                  class="aspect-[16/9] h-full w-full object-cover"
+                />
+              </swiper-slide>
+            ))
+        }
+      </swiper-container>
+      <div
+        class="absolute bottom-1 z-10 hidden w-full flex-row items-center justify-center gap-3 md:bottom-8 md:flex md:gap-5"
+      >
+        <button
+          id="arrow-left"
+          class="flex flex-row rounded-full border-2 border-neutral-dark-20 bg-white p-2 font-bold md:p-3"
+        >
+          <Icon name="arrow-left" class="h-4 w-4 md:h-5 md:w-5" />
+        </button>
+        <button
+          id="arrow-right"
+          class="flex flex-row rounded-full border-2 border-neutral-dark-20 bg-white p-2 font-bold md:p-3"
+        >
+          <Icon name="arrow-right" class="h-4 w-4 md:h-5 md:w-5" />
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script
+  is:inline
+  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
+></script>
+
+<style>
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  swiper-container::part(button-prev) {
+    display: none;
+  }
+
+  swiper-container::part(button-next) {
+    display: none;
+  }
+
+  swiper-container::part(pagination) {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  swiper-container::part(bullet) {
+    background-color: #ffffff;
+  }
+
+  swiper-container::part(bullet-active) {
+    background-color: #ffffff;
+  }
+</style>
+
+<script>
+  const swiperEl = document.querySelector("swiper-container");
+  const buttonLeftEl = document.getElementById("arrow-left");
+  const buttonRightEl = document.getElementById("arrow-right");
+
+  buttonLeftEl?.addEventListener("click", () => {
+    // @ts-expect-error swiperEl is not typed
+    swiperEl?.swiper.slidePrev();
+  });
+
+  buttonRightEl?.addEventListener("click", () => {
+    // @ts-expect-error swiperEl is not typed
+    swiperEl?.swiper.slideNext();
+  });
+</script>

@@ -1,0 +1,44 @@
+---
+
+---
+
+<svg class="w-full" viewBox="0 0 60 16">
+  {
+    Array.from({ length: 20 }).map((_, i) => (
+      <rect fill="currentColor" x={1 + i * 3} y="2" width="2" height="12" />
+    ))
+  }
+</svg>
+
+<style>
+  rect {
+    transform-origin: bottom;
+    animation: scale 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+
+  rect:nth-child(4n + 1) {
+    animation-delay: 0s;
+  }
+
+  rect:nth-child(4n + 2) {
+    animation-delay: 0.2s;
+  }
+
+  rect:nth-child(4n + 3) {
+    animation-delay: 0.4s;
+  }
+
+  rect:nth-child(4n) {
+    animation-delay: 0.6s;
+  }
+
+  @keyframes scale {
+    0%,
+    100% {
+      transform: scaleY(0.5);
+    }
+    50% {
+      transform: scaleY(0.8);
+    }
+  }
+</style>

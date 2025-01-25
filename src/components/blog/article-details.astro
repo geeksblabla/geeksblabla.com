@@ -1,0 +1,102 @@
+---
+import type { CollectionEntry } from "astro:content";
+import getReadingTime from "reading-time";
+import Layout from "@/components/layout.astro";
+import { getEntries, render } from "astro:content";
+import Header from "@/components/header.astro";
+import ArticleComments from "./article-comments.astro";
+import ShareArticle from "./share-article.astro";
+import BlogImage from "./blog-image.astro";
+import ArticleNavigation from "./article-navigation.astro";
+import PageViews from "./page-views.astro";
+import TableOfContents from "./table-of-contents.astro";
+
+export interface Props {
+  article: CollectionEntry<"blog">;
+}
+
+const { article } = Astro.props;
+
+const { title, description, ogImage } = article.data;
+const pageUrl = new URL(Astro.url.pathname, Astro.url.origin).href;
+
+const minutesRead = getReadingTime(article.body ?? "").text;
+const { Content, headings } = await render(article);
+const authors = article.data.authors
+  ? await getEntries(article.data.authors)
+  : undefined;
+---
+
+<Layout
+  title={title}
+  author={authors?.map(author => author.data.name).join(", ")}
+  description={description}
+  ogImage={ogImage?.src}
+>
+  <Header />
+  <main id="main-content" class="main mx-auto pb-10">
+    <div class="mx-auto max-w-2xl border-b border-gray-300 pb-0 pt-10">
+      <h1 class="text-3xl font-semibold md:text-4xl">{title}</h1>
+      <div
+        class="relative my-3 flex flex-row items-center text-sm italic text-gray-600 md:text-base"
+      >
+        <div class="flex items-center text-base">
+          {
+            authors?.map(author => (
+              <a
+                href={author.data.url}
+                target="_blank"
+                class="text-gray-600 underline"
+              >
+                {author.data.name}
+              </a>
+            ))
+          }
+        </div>
+        <div class="mx-2 h-3 w-px bg-gray-500 md:mx-3"></div>
+
+        <div class="flex items-center text-base">
+          {minutesRead}
+        </div>
+
+        <div class="mx-2 h-3 w-px bg-gray-500 md:mx-3"></div>
+        <PageViews url={pageUrl} />
+      </div>
+      {
+        ogImage && (
+          <>
+            <BlogImage
+              slug={article.data.slug}
+              title={title}
+              ogImage={ogImage}
+            />
+            <div class="mt-4" />
+          </>
+        )
+      }
+    </div>
+
+    <div class="relative mx-auto max-w-2xl">
+      <article
+        id="article"
+        role="article"
+        class="prose mx-auto mt-8 max-w-none"
+      >
+        <Content />
+      </article>
+      <TableOfContents headings={headings} />
+    </div>
+    <ShareArticle />
+    <ArticleNavigation article={article} />
+
+    <div class="mx-auto mt-10 max-w-3xl">
+      <ArticleComments />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  body {
+    @apply bg-[#F2F4F7];
+  }
+</style>

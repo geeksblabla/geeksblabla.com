@@ -1,0 +1,38 @@
+---
+import { Icon } from "astro-icon/components";
+import { getCollection } from "astro:content";
+
+const podcast = await getCollection("podcast");
+const featuredEpisodes = podcast
+  .filter(episode => episode.data.featured)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+---
+
+<section class="px-4 py-16">
+  <div class="main mx-auto">
+    <h2 class="mb-8 text-heading-lg font-bold">Featured episodes</h2>
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+      {
+        featuredEpisodes.map(episode => (
+          <a href={`/podcast/${episode.data.slug}`} class="block">
+            <div class="relative cursor-pointer transition-transform duration-300 hover:scale-105">
+              <img
+                src={episode.data.ogImage}
+                alt={episode.data.title}
+                width={400}
+                height={225}
+                class="w-full rounded-lg shadow-md"
+              />
+              <div class="absolute right-2 top-2">
+                <div class="rounded-md border-2 border-black bg-white p-1">
+                  <Icon name="play" class="h-4 w-4 text-black" />
+                </div>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>

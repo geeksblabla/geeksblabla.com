@@ -1,0 +1,50 @@
+---
+import guestsIcon from "@/assets/podcast/guests.png";
+import hoursIcon from "@/assets/podcast/hours.png";
+import viewsIcon from "@/assets/podcast/views.png";
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+
+type Stat = {
+  title: string;
+  description: string;
+  icon: ImageMetadata;
+};
+const stats: Stat[] = [
+  {
+    title: "265+",
+    description: "Guests invited",
+    icon: guestsIcon,
+  },
+  {
+    title: "17m",
+    description: "Total hours",
+    icon: viewsIcon,
+  },
+  {
+    title: "15k+",
+    description: "Minutes of value",
+    icon: hoursIcon,
+  },
+];
+---
+
+<section class="bg-white py-16 font-light">
+  <div class="main mx-auto px-4">
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+      {
+        stats.map(stat => (
+          <div class="flex flex-col items-center font-sans">
+            <Image src={stat.icon} alt={stat.title} class="mb-4 h-36 w-auto" />
+            <span class="py-4 text-heading-lg font-bold text-neutral-dark-20">
+              {stat.title}
+            </span>
+            <p class="text-heading-sm font-thin text-neutral-dark-20">
+              {stat.description}
+            </p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

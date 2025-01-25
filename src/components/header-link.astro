@@ -1,0 +1,25 @@
+---
+export interface Props {
+  label: string;
+  href: string;
+  external?: boolean;
+  isActive?: boolean;
+}
+
+const isActive =
+  Astro.props.href === "/"
+    ? Astro.url.pathname === Astro.props.href
+    : Astro.url.pathname.includes(Astro.props.href);
+
+const { label, href, external = false } = Astro.props;
+---
+
+<a
+  href={href}
+  class={`relative inline-flex items-center px-2  pl-4 text-label-sm font-sans text-neutral-dark-20 hover:font-bold transition-colors duration-200 ${
+    isActive ? "font-bold" : "font-normal"
+  }`}
+  target={external ? "_blank" : undefined}
+>
+  {label}
+</a>

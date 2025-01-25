@@ -1,0 +1,67 @@
+---
+import { Icon } from "astro-icon/components";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  allEpisodes: CollectionEntry<"podcast">[];
+}
+
+const { allEpisodes } = Astro.props as Props;
+
+const episodes = allEpisodes.map((episode, index) => {
+  return {
+    title: episode.data.title,
+    number: allEpisodes.length - index,
+  };
+});
+---
+
+<div class="relative">
+  <input
+    type="text"
+    id="episodes-list-search"
+    placeholder="Search episodes"
+    class="w-full rounded-full bg-white py-2 pl-10 pr-4 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  />
+  <Icon name="search" class="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
+</div>
+
+<script define:vars={{ episodes }}>
+  // Client-side search functionality
+  const searchInput = document.getElementById("episodes-list-search");
+
+  const filterEpiosdes = searchTerm => {
+    const episodesList = document.getElementById("episodes-list");
+    const episodeItems = episodesList?.querySelectorAll(
+      "li[data-episode-number]"
+    );
+    if (searchTerm === "") {
+      episodeItems?.forEach(item => {
+        item.removeAttribute("hidden");
+      });
+      return;
+    }
+    if (searchTerm.length < 3) {
+      return;
+    }
+
+    const filteredEpisode = episodes.filter(episode =>
+      episode.title.toLowerCase().includes(searchTerm)
+    );
+    episodeItems?.forEach(item => {
+      item.setAttribute("hidden", "true");
+    });
+
+    filteredEpisode.forEach(episode => {
+      const episodeItem = document.querySelector(
+        `[data-episode-number="${episode.number}"]`
+      );
+      episodeItem?.removeAttribute("hidden");
+    });
+  };
+
+  searchInput?.addEventListener("input", e => {
+    const searchTerm = e.target.value.toLowerCase();
+    filterEpiosdes(searchTerm);
+  });
+</script>
