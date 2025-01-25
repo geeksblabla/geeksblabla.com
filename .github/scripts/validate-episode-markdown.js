@@ -296,21 +296,21 @@ const main = async () => {
   if (!input) {
     console.info("No input provided, validating all episodes");
     const results = validateAllEpisodes();
-    if (results.length > 0) {
+    const invalidEpisodes = results.filter(result => !result.isValid);
+    if (invalidEpisodes.length > 0) {
       hasErrors = true;
       console.error("🚨 Validation failed for some episodes. Errors:");
-      results.forEach(result => {
-        if (!result.isValid) {
-          totalErrors++;
-          console.error(`\n❌ ${result.episodePath.split("/").pop()}:`);
-          result.errors.forEach(error => {
-            console.error(`Line ${error.line}: ${error.message}`);
-          });
-          console.error("");
-        } else {
-          // console.log(`✅ Good Job! ${result.episodePath} is valid`);
-        }
+      invalidEpisodes.forEach(result => {
+        totalErrors++;
+        console.error(`\n❌ ${result.episodePath.split("/").pop()}:`);
+        result.errors.forEach(error => {
+          console.error(`Line ${error.line}: ${error.message}`);
+        });
+        console.error("");
       });
+    }
+    if (invalidEpisodes.length === 0) {
+      console.log("✅ Good Job! All episodes are valid");
     }
   }
 
