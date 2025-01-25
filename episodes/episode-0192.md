@@ -3,7 +3,7 @@ date: 2024-09-29
 duration: "1:27:53"
 title: "Vector Databases"
 tags: ["AI"]
-category: "AI"
+category: "ai"
 isNext: false
 youtube: https://www.youtube.com/watch?v=7LNKYIIO-0M
 published: true
