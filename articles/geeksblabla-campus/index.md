@@ -4,7 +4,7 @@ tags: ["community", "GeeksBlabla"]
 keywords: ["GeeksBlabla", "Morocco", "Universities", "Events"]
 pubDatetime: 2025-01-21
 authors: ["makraz"] # the name of the author file
-description: "Discover how Geeksblabla Campus is empowering students, fostering collaboration, and growing Morocco's tech ecosystem through university partnerships."
+description: "Discover how Geeksblabla on Campus is empowering students, fostering collaboration, and growing Morocco's tech ecosystem through university partnerships."
 ogImage: "./images/geeksblabla-campus-logo.png"
 ---
 
