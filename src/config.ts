@@ -1,9 +1,9 @@
 import type { FormsSubmissions, Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://geeksblabla.io/", // replace this with your deployed domain
+  website: "https://geeksblabla.community/", // replace this with your deployed domain
   author: "Geeksblabla Community",
-  profile: "https://geeksblabla.io/",
+  profile: "https://geeksblabla.community/",
   desc: "Geeksblabla is a community of developers, designers, and entrepreneurs who are passionate about building cool stuff.",
   title: "Geeksblabla Community",
   ogImage: "community.jpg",

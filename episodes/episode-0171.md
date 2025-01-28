@@ -64,7 +64,7 @@ In this episode, we discuss how to turn code passion into profit. We'll cover co
 - [Blogpost by Ayoub Moustaid](https://blog.acquire.com/startup-acquisition-episode-76/)
 - [WebFlow apps](https://webflow.com/apps)
 - [carrd.co](carrd.co)
-- [Mental Health for developers - Episode](https://geeksblabla.io/blablas/mental-health-for-developers)
+- [Mental Health for developers - Episode](https://geeksblabla.community/blablas/mental-health-for-developers)
 - [Failory](www.failory.com)
 - [StateOfDEv survey](stateofdev.ma)
 - [Can't Hurt Me - Book](https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512287)

@@ -53,7 +53,7 @@ export function generateYoutubeDescription(input) {
     description += `Twitter: https://twitter.com/geeksblabla\n`;
     description += `Instagram: https://www.instagram.com/geeksblabla\n`;
     description += `GitHub: https://github.com/geeksblabla\n\n`;
-    description += `Visit our website: https://geeksblabla.io\n`;
+    description += `Visit our website: https://geeksblabla.community\n`;
 
     // Add a detailed description of the podcast in Moroccan Darija
     description += `\n\n🎙️ جيكس بلابلا هو بودكاست ديال الكوميونيتي فين كنديرو نقاشات شيقة و ممتعة على مواضيع مختلفة في عالم التكنولوجيا مع ناس مميزين من الكوميونيتي ديالنا.\n`;

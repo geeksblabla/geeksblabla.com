@@ -54,7 +54,7 @@ Tech News & AMA #26 with our community members Ilias, Nouamane, Faisal, and Yous
 - [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
 - [AI Playground](https://sdk.vercel.ai/)
 - [Arena Chat](https://chat.lmsys.org/?arena)
-- [HacktoberFest & Open source Geeksblabla Episode](https://geeksblabla.io/blablas/hacktoberfest-open-source)
+- [HacktoberFest & Open source Geeksblabla Episode](https://geeksblabla.community/blablas/hacktoberfest-open-source)
 - [State of CSS](https://stateofcss.com/en-US)
 
 ## Prepared and Presented by

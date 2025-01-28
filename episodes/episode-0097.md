@@ -47,9 +47,9 @@ We talk about the end of study internship(PFE) in this episode. How to find a go
 
 ## Links
 
-- [Building A Resume](https://geeksblabla.io/blablas/building-a-resume)
+- [Building A Resume](https://geeksblabla.community/blablas/building-a-resume)
 
-- [Tech Interviews](https://geeksblabla.io/blablas/tech-interviews)
+- [Tech Interviews](https://geeksblabla.community/blablas/tech-interviews)
 
 ## Prepared and Presented by
 

@@ -48,7 +48,7 @@ Tech News & AMA #20 with our community members Mehdi, Youssouf, Abderrahim and M
 ## Links
 
 - [cfp.blablaconf](https://cfp.blablaconf.com/)
-- [hacktoberfest-open-source-2021](https://geeksblabla.io/.../hacktoberfest-open-source-2021)
+- [hacktoberfest-open-source-2021](https://geeksblabla.community/.../hacktoberfest-open-source-2021)
 - [hacktoberfest](https://hacktoberfest.com/?fbclid=IwAR3W6o4ImjsK40Min99_hTt6tWrNT-atkdeso9xUjQDBiNbbwLoxOGZlo-M)
 - [Build Your First Sentiment Analysis Web App with Streamlit with Manal Benchrif |BlaBlaConf 2021](https://www.youtube.com/watch?v=5plMb36qvLM)
 - [MNPC 2022 Editorial](https://www.youtube.com/watch?v=QQLSbj1shHs&fbclid=IwAR3MRJ6eFhTJJH8JFswcZXV5t4M4M1WjsWts6ytZ0QnM99Md5ln7U_evAko)

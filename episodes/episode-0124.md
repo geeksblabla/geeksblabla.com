@@ -44,7 +44,7 @@ Tech News & AMA #19 with our community members Mehdi,Meriem, Youssouf, Yasser an
 ## Links
 
 - [Bun Js](https://bun.sh/)
-- [Marketing Yourself as a Developer](https://geeksblabla.io/blablas/marketing-yourself-as-a-developer)
+- [Marketing Yourself as a Developer](https://geeksblabla.community/blablas/marketing-yourself-as-a-developer)
 - [Pydantic](https://github.com/pydantic/pydantic)
 - [Ormdantic](https://github.com/yezz123/ormdantic)
 - [ms-kubernetes-tools](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)

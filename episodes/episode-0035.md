@@ -65,7 +65,7 @@ In this special episode of GeeksBlabla, some of its core team members discussed 
 
 - [GeeksBlabla GitHub repo](https://github.com/DevC-Casa/geeksblabla.com)
 
-- [GeeksBlabla website](https://geeksblabla.io/)
+- [GeeksBlabla website](https://geeksblabla.community/)
 
 ## Prepared and Presented by
 

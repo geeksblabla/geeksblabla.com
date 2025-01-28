@@ -46,7 +46,7 @@ In this episode of GeeksBlabla, our community friends, Zakaria and Hamza, share 
 ## Links
 
 - [Freecodecamp](https://www.freecodecamp.org/)
-- [Coding Bootcamp in Morocco](https://geeksblabla.io/blablas/coding-bootcamp-in-morocco)
+- [Coding Bootcamp in Morocco](https://geeksblabla.community/blablas/coding-bootcamp-in-morocco)
 - [Stateofdev.ma](https://stateofdev.ma/)
 
 ## Prepared and Presented by

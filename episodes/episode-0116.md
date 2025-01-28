@@ -43,7 +43,7 @@ In this episode, we continue our review of the most famous books in IT; we discu
 
 ## Links
 
-- [Clean code (part1)](https://geeksblabla.io/blablas/clean-code)
+- [Clean code (part1)](https://geeksblabla.community/blablas/clean-code)
 - [Robert C. Martin - Effective Estimation (or: How not to Lie)](https://www.youtube.com/watch?v=eisuQefYw_o)
 - [Clean Code Typescript](https://github.com/labs42io/clean-code-typescript)
 - [ReadWise](https://readwise.io/)

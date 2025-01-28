@@ -73,7 +73,7 @@ Ask Me Anything episode #3 with our community members Mohammed, Ismail and Youss
 
 [React Egghead Course](https://egghead.io/courses/the-beginner-s-guide-to-react)
 
-[React Episode](https://geeksblabla.io/blablas/react-deep-dive)
+[React Episode](https://geeksblabla.community/blablas/react-deep-dive)
 
 [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest)
 

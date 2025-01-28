@@ -51,7 +51,7 @@ In this episode, we discuss the latest Python features and fileds of usage in 20
 
 - [JetBrains Survey](https://www.jetbrains.com/lp/devecosystem-2022/python/)
 
-- [Python Deep Dive Episode](https://geeksblabla.io/blablas/python-deep-dive)
+- [Python Deep Dive Episode](https://geeksblabla.community/blablas/python-deep-dive)
 
 - [Understanding the Python Global Interpreter](https://elmkarami.com/blog/understanding_the_gil/)
 

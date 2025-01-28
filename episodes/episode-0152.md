@@ -51,7 +51,7 @@ In this episode, we discuss the state of AR and VR, the challenges and opportuni
 
 - [Unity learn](https://learn.unity.com/)
 
-- [Learn how to learn](https://geeksblabla.io/blablas/learning-how-to-learn)
+- [Learn how to learn](https://geeksblabla.community/blablas/learning-how-to-learn)
 
 - [Unreal engine](https://ue4resources.com/)
 

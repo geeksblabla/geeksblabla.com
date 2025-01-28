@@ -63,7 +63,7 @@ In this episode, we discuss a famous article titled "How to Be a 10x Developer" 
 - [Yes, you can measure software developer productivity](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity)
 - [Measuring developer productivity? A response to McKinsey, Part 2](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-part-2)
 
-- [Clean Code](https://geeksblabla.io/blablas/clean-code)
+- [Clean Code](https://geeksblabla.community/blablas/clean-code)
 
 - [Raycast](https://www.raycast.com/)
 
