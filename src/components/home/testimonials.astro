@@ -1,24 +1,17 @@
 ---
-import testimonialsData from "./testimonials.json";
+import { getCollection } from "astro:content";
 import VideoTestimonial from "./video-testimonial.astro";
 import { Icon as AstroIcon } from "astro-icon/components";
+import { Image } from "astro:assets";
 
-interface Testimonial {
-  name: string;
-  role: string;
-  avatar?: string;
-  video?: string;
-  poster?: string;
-  quote?: string;
-}
+const testimonials = await getCollection("testimonials");
 
-const testimonials: Testimonial[] = testimonialsData.testimonials;
-
-const testimonialsVideos = testimonials.filter(
+const testimonialsData = testimonials.map(testimonial => testimonial.data);
+const testimonialsVideos = testimonialsData.filter(
   testimonial => testimonial.video
 );
-const testimonialsQuotes = testimonials.filter(
-  testimonial => !testimonial.video
+const testimonialsQuotes = testimonialsData.filter(
+  testimonial => testimonial.quote
 );
 ---
 
@@ -71,13 +64,15 @@ const testimonialsQuotes = testimonials.filter(
                 <p class="mb-4 text-sm">{testimonial.quote}</p>
               )}
               <div class="flex items-center">
-                <img
-                  src={testimonial.avatar}
-                  alt={testimonial.name}
-                  width={40}
-                  height={40}
-                  class="mr-3 h-10 w-10 rounded-full"
-                />
+                {testimonial.avatar && (
+                  <Image
+                    src={testimonial.avatar}
+                    alt={testimonial.name}
+                    width={40}
+                    height={40}
+                    class="mr-3 h-10 w-10 rounded-full"
+                  />
+                )}
                 <div>
                   <p class="font-sans font-bold">{testimonial.name}</p>
                   <p class="font-sans text-sm text-gray-600">

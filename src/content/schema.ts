@@ -85,3 +85,18 @@ export const teamSchema = z.object({
     .regex(/\.(jpg|jpeg|png|gif)$/, "Invalid image file format"),
   status: z.enum(["active", "past"]),
 });
+
+export const testimonialSchema = (ctx: SchemaContext) =>
+  z.object({
+    name: z.string(),
+    role: z.string(),
+    avatar: ctx.image().optional(),
+    quote: z.string().optional(),
+    video: z.string().url().optional(),
+    poster: z.string().url().optional(),
+  });
+
+export const testimonialsSchema = (ctx: SchemaContext) =>
+  z.object({
+    testimonials: z.array(testimonialSchema(ctx)),
+  });
