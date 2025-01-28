@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://geeksblabla.io/",
   desc: "Geeksblabla is a community of developers, designers, and entrepreneurs who are passionate about building cool stuff.",
   title: "Geeksblabla Community",
-  ogImage: "geeksblabla-og.jpg",
+  ogImage: "community.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 10,

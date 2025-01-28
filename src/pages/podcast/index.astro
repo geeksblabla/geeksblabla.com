@@ -13,9 +13,11 @@ import { SITE } from "@/config";
 // const sortedPodcast = podcast.sort(
 //   (a, b) => a.data.date.getTime() - b.data.date.getTime()
 // );
+
+const ogImage = "/podcast.jpg";
 ---
 
-<Layout title={`Podcast | ${SITE.title}`}>
+<Layout title={`Podcast | ${SITE.title}`} ogImage={ogImage}>
   <Hero />
   <Stats />
   <EpisodeTypes />
