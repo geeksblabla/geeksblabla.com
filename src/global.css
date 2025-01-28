@@ -25,7 +25,24 @@
 
   /* article styling */
   .prose {
-    @apply prose-headings:!mb-3 prose-headings:!text-[#1a1c1e] prose-h3:italic prose-p:!text-[#1a1c1e] prose-a:!text-[#1a1c1e] prose-a:!decoration-dashed prose-a:underline-offset-4 hover:prose-a:text-blue-500 prose-blockquote:!border-l-blue-500 prose-blockquote:border-opacity-50 prose-blockquote:opacity-80 prose-figcaption:!text-[#1a1c1e] prose-figcaption:opacity-70 prose-strong:!text-[#1a1c1e] prose-code:rounded prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-[#1a1c1e] prose-code:before:!content-[''] prose-code:after:!content-[''] prose-pre:!text-[#1a1c1e] prose-ol:!text-[#1a1c1e] prose-ul:overflow-x-clip prose-ul:!text-[#1a1c1e] prose-li:marker:!text-blue-500 prose-table:text-[#1a1c1e] prose-th:border prose-th:border-gray-100 prose-td:border prose-td:border-gray-100 prose-img:mx-auto prose-img:!mt-2 prose-img:border-2 prose-img:border-gray-100 prose-hr:!border-gray-100;
+    @apply prose-headings:!mb-3 prose-headings:!text-[#1a1c1e] prose-h3:italic prose-p:!text-[#1a1c1e] prose-a:!text-[#1a1c1e] prose-a:!decoration-dashed prose-a:underline-offset-4 hover:prose-a:text-blue-500 prose-blockquote:!border-l-blue-500 prose-blockquote:border-opacity-50 prose-blockquote:opacity-80 prose-figcaption:!text-[#1a1c1e] prose-figcaption:opacity-70 prose-strong:!text-[#1a1c1e] prose-code:rounded prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-[#1a1c1e] prose-code:before:!content-[''] prose-code:after:!content-[''] prose-pre:!text-[#1a1c1e] prose-ol:!text-[#1a1c1e] prose-ul:overflow-x-clip prose-ul:!text-[#1a1c1e] prose-li:marker:!text-blue-500 prose-table:text-[#1a1c1e] prose-img:mx-auto prose-img:!mt-2 prose-img:border-2 prose-img:border-gray-100 prose-hr:!border-gray-100
+    prose-table:w-full
+    prose-table:my-8
+    prose-table:border-collapse
+    prose-th:border-b
+    prose-th:border-gray-200
+    prose-th:bg-gray-300
+    prose-th:p-3
+    prose-th:font-semibold
+    prose-th:text-left
+    prose-td:border-b
+    prose-td:border-gray-200
+    prose-td:p-3
+    prose-td:align-middle
+    [&_tr_td:not(:last-child)]:border-r
+    [&_tr_td:not(:last-child)]:border-gray-200
+    [&_tr_th:not(:last-child)]:border-r
+    [&_tr_th:not(:last-child)]:border-gray-200;
   }
   .prose a {
     @apply hover:!text-blue-500;
