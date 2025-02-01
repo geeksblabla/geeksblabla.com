@@ -1,5 +1,4 @@
 ---
-import { ButtonLink } from "../button";
 import { Icon } from "astro-icon/components";
 import RiveAnimation from "@/components/rive-animation.astro";
 export interface EpisodeType {
@@ -65,10 +64,14 @@ const { episode } = Astro.props as Props;
               {episode.description}
             </p>
           </div>
-          <ButtonLink href={episode.link.url} variant="outline">
+
+          <a
+            href={episode.link.url}
+            class="flex items-center gap-1 py-1 text-base font-bold text-gray-800/80 underline underline-offset-4"
+          >
             {episode.link.text}
-            <Icon name="external-link" class="ml-1 h-4 w-4" />
-          </ButtonLink>
+            <Icon name="external-link-styled" class="h-4 w-4" />
+          </a>
         </div>
       </div>
     </div>

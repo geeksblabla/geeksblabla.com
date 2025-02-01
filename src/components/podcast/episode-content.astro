@@ -4,12 +4,28 @@ import { extractEpisodeContent } from "@/lib/podcast-utils";
 import { Markdown } from "@astropub/md";
 import { Icon } from "astro-icon/components";
 import VideoPlayer from "../video-player.astro";
+import { SOCIALS } from "@/config";
 
 type Props = {
   episode: CollectionEntry<"podcast">;
 };
 
 const { episode } = Astro.props;
+
+const episodeUrl = encodeURIComponent(Astro.url.href);
+
+const socialMediaIcons = [
+  { name: "x", url: `https://twitter.com/share?url=${episodeUrl}` },
+  {
+    name: "facebook",
+    url: `https://www.facebook.com/sharer/sharer.php?u=${episodeUrl}`,
+  },
+  { name: "instagram", url: `https://www.instagram.com/?url=${episodeUrl}` },
+  {
+    name: "linkedin",
+    url: `https://www.linkedin.com/shareArticle?mini=true&url=${episodeUrl}`,
+  },
+];
 
 const episodeContent = extractEpisodeContent(episode.body ?? "");
 ---
@@ -58,36 +74,43 @@ const episodeContent = extractEpisodeContent(episode.body ?? "");
         <div class="flex w-1/2 flex-col items-center rounded-lg bg-white py-3">
           <h3 class="text-label-sm">Play episode on:</h3>
           <div class="flex space-x-4 pt-2">
-            <a href="#" class="text-3xl hover:text-gray-600" title="YouTube">
+            <a
+              href={SOCIALS.youtube.href}
+              class="text-3xl hover:text-gray-600"
+              title="YouTube"
+            >
               <Icon name="youtube" />
             </a>
-            <a href="#" class="text-3xl hover:text-gray-600" title="Spotify">
+            <a
+              href={SOCIALS.spotify.href}
+              class="text-3xl hover:text-gray-600"
+              title="Spotify"
+            >
               <Icon name="spotify" />
             </a>
-            <a
-              href="#"
+            <!-- <a
+              href={SOCIALS.applePodcast.href}
               class="text-3xl hover:text-gray-600"
               title="Apple Podcasts"
             >
               <Icon name="apple-podcast" />
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="flex w-1/2 flex-col items-center rounded-lg bg-white py-3">
           <h3 class="text-label-sm">Share episode:</h3>
           <div class="flex space-x-4 pt-2">
-            <a href="#" class="text-3xl hover:text-gray-600" title="Twitter">
-              <Icon name="x" />
-            </a>
-            <a href="#" class="text-3xl hover:text-gray-600" title="LinkedIn">
-              <Icon name="linkedin" />
-            </a>
-            <a href="#" class="text-3xl hover:text-gray-600" title="Instagram">
-              <Icon name="instagram" />
-            </a>
-            <a href="#" class="text-3xl hover:text-gray-600" title="Facebook">
-              <Icon name="facebook" />
-            </a>
+            {
+              socialMediaIcons.map(icon => (
+                <a
+                  href={icon.url}
+                  class="text-3xl hover:text-gray-600"
+                  title={icon.name}
+                >
+                  <Icon name={icon.name} />
+                </a>
+              ))
+            }
           </div>
         </div>
       </div>
