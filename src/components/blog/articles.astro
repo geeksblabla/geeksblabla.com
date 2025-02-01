@@ -1,9 +1,10 @@
 ---
-import Card from "./blog-card.astro";
+// import Card from "./blog-card.astro";
 import type { CollectionEntry } from "astro:content";
-import getReadingTime from "reading-time";
+// import getReadingTime from "reading-time";
 
 import { ButtonLink } from "@/components/button";
+import BlogCardHomePage from "./blog-card-home-page.astro";
 
 export interface Props {
   pageNum: number;
@@ -17,15 +18,16 @@ const prev = pageNum > 1 ? "" : "disabled";
 const next = pageNum < totalPages ? "" : "disabled";
 ---
 
-<main class="main mx-auto">
+<main class="main mx-auto pb-12">
   {pageNum === 1 && <h2 class="py-8 text-heading-sm">All Articles</h2>}
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+  <div
+    class="grid grid-cols-1 gap-y-4 divide-y-0 md:grid-cols-2 lg:grid-cols-3"
+  >
     {
-      articles.map(({ data, body = "" }) => (
-        <Card
-          href={`/blog/${data.slug}`}
-          frontmatter={data}
-          minutesRead={getReadingTime(body).text}
+      articles.map(article => (
+        <BlogCardHomePage
+          frontmatter={article.data}
+          href={`/blog/${article.data.slug}`}
         />
       ))
     }

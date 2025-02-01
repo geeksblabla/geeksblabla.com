@@ -8,7 +8,7 @@ export interface Props {
   featuredArticles: CollectionEntry<"blog">[];
 }
 
-const { latestArticle, featuredArticles } = Astro.props;
+const { latestArticle } = Astro.props;
 ---
 
 <div class="main mx-auto">
@@ -21,12 +21,12 @@ const { latestArticle, featuredArticles } = Astro.props;
       minutesRead={getReadingTime(latestArticle?.body ?? "").text}
     />
   </div>
-  <h2 class="py-8 text-heading-sm">Most Popular</h2>
+  <!-- <h2 class="py-8 text-heading-sm">Most Popular</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     {
       featuredArticles.map(article => (
         <Card href={`/blog/${article.data.slug}`} frontmatter={article.data} />
       ))
     }
-  </div>
+  </div> -->
 </div>

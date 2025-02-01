@@ -18,14 +18,14 @@ const { title, description, ogImage, slug } = frontmatter;
 ---
 
 <div class="group flex flex-col px-0 md:px-4">
-  <a href={href} class="block">
+  <a href={href} class="bloc">
     <div class="aspect-[16/10] w-full flex-1 rounded-lg">
       <BlogImage slug={slug} title={title} ogImage={ogImage} />
     </div>
     <div class="flex h-full flex-col border-neutral-200">
       <div class="flex flex-row justify-between pt-2">
         <h2
-          class="line-clamp-2 py-2 font-sans text-label-lg font-normal leading-tight text-neutral-dark-20"
+          class="my-2 line-clamp-2 font-sans text-label-lg font-normal leading-tight text-neutral-dark-20"
         >
           {title}
         </h2>

@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://geeksblabla.community/", // replace this with your deployed domain
   author: "Geeksblabla Community",
   profile: "https://geeksblabla.community/",
-  desc: "Geeksblabla is a community of developers, designers, and entrepreneurs who are passionate about building cool stuff.",
+  desc: "Home of the largest tech community in Morocco, with a focus on sharing knowledge in Moroccan Darija.",
   title: "Geeksblabla Community",
   ogImage: "community.jpg",
   lightAndDarkMode: true,
