@@ -1,0 +1,24 @@
+---
+import Layout from "@/components/layout.astro";
+import Header from "@/components/header.astro";
+
+const title = "404 Not Found | GeeksBlabla";
+const description = "Oops! The page you're looking for doesn't exist.";
+---
+
+<Layout title={title} description={description}>
+  <Header />
+  <main class="flex min-h-[60vh] flex-col items-center justify-center px-4">
+    <h1 class="text-primary mb-4 text-6xl font-bold">404</h1>
+    <p class="mb-8 text-center text-2xl text-gray-600 dark:text-gray-400">
+      This page doesn't exist. You might have followed an outdated link or typed
+      the wrong URL.
+    </p>
+    <a
+      href="/"
+      class="hover:bg-primary/90 rounded-lg px-6 py-3 text-gray-900 transition-colors duration-200"
+    >
+      Back to Home
+    </a>
+  </main>
+</Layout>
