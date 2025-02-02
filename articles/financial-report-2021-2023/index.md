@@ -31,7 +31,7 @@ Here are the two types of sponsoring we have:
 
 This report covers only the direct sponsoring part.
 
-## Expenses
+## 💰 Expenses
 
 | Expense Description                       | Amount          |
 | ----------------------------------------- | --------------- |
@@ -43,7 +43,7 @@ This report covers only the direct sponsoring part.
 | Team building                             | 4 400 MAD       |
 | **Total**                                 | **110 100 MAD** |
 
-## Income
+## 💸 Income
 
 | Income Source | Amount          |
 | ------------- | --------------- |
@@ -51,7 +51,7 @@ This report covers only the direct sponsoring part.
 | Sponsors 2022 | 75 000.00 MAD   |
 | **Total**     | **120 538 MAD** |
 
-## Available balance
+## 💰 Available balance
 
 | Financial flows    | Amount          |
 | ------------------ | --------------- |
@@ -59,6 +59,6 @@ This report covers only the direct sponsoring part.
 | **Total expenses** | **110 100 MAD** |
 | **Balance**        | **10 438 MAD**  |
 
-## Goals for 2024
+## 🎯 Goals for 2024
 
 This year is the first time we are sharing this report covering 2021-2023. One of our goals is to enhance transparency with the public. Our foremost mission remains unchanged: shaping the future of the Moroccan IT community one step at a time through insightful podcasts, inspiring videos, cutting-edge open-source projects, and in-depth conferences.
