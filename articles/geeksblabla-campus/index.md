@@ -34,6 +34,6 @@ In a simple words, we will collaborate with university clubs to organize technol
 
 Are you a part of a university club interested in collaborating with Geeksblabla on Campus? Do you want to organize an event in your university? Fill the form below and we will get back to you as soon as possible.
 
-👉 [Geeksblabla on Campus Form](https://forms.gle/234567890)
+👉 [Geeksblabla on Campus submission form](https://tally.so/r/m6WAxN)
 
 As always, this is a new initiative and we are open to any suggestions and feedback, make sure to drop a comment below.

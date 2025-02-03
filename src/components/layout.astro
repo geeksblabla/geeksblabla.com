@@ -4,6 +4,10 @@ import Footer from "./footer.astro";
 import { AstroSeo } from "@astrolib/seo";
 import "@/global.css";
 
+
+const ENEABLE_ANALYTICS =  !import.meta.env.DEV;
+
+
 export interface Props {
   title?: string;
   author?: string;
@@ -65,6 +69,29 @@ const socialImageURL = new URL(
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
       rel="stylesheet"
     />
+
+     <!-- Google tag (gtag.js) -->
+     {
+      ENEABLE_ANALYTICS && (
+        <script
+          async
+          type="text/partytown"
+          src="https://www.googletagmanager.com/gtag/js?id=G-N4X499F5V7"
+        />
+      )
+    }
+    {
+      ENEABLE_ANALYTICS && (
+        <script type="text/partytown" >
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "G-N4X499F5V7");
+        </script>
+      )
+    }
   </head>
 
   <body>
