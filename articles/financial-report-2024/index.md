@@ -28,12 +28,12 @@ This report covers only the direct sponsoring part.
 | Expense Description                       | Amount         |
 | ----------------------------------------- | -------------- |
 | Services(videos, design, dev., etc.)      | 9 400 MAD      |
-| Tooling & Online Subscriptions            | 8 570 MAD      |
+| Tooling & Online Subscriptions            | 9 570 MAD      |
 | Gifts (t-shirt, competitions gifts, etc.) | 21 890 MAD     |
 | Donation                                  | 0 MAD          |
 | Team setup & support                      | 8 550 MAD      |
 | Team building                             | 3 100 MAD      |
-| **Total**                                 | **50 510 MAD** |
+| **Total**                                 | **52 510 MAD** |
 
 ## 💸 Income
 
@@ -44,9 +44,9 @@ During 2024, GeeksBlaBla had a balance of 10,438 MAD from the previous year, wit
 | Financial flows    |                |
 | ------------------ | -------------- |
 | **Total income**   | **70 438 MAD** |
-| **Total expenses** | **50 510 MAD** |
-| **Balance**        | **19 928 MAD** |
+| **Total expenses** | **52 510 MAD** |
+| **Balance**        | **17 928 MAD** |
 
-## 🎯 Goals for 2025 & 💡 Suggestions
+## 🎯 Goals for 2025 &
 
 As you may know, our primary sponsorship comes from our annual conference, BlablaConf. Unfortunately, we did not secure any sponsors for this year's edition. Therefore, we will focus on making sponsorships more appealing and developing sustainable sponsorship packages. If you are interested or have any suggestions to help us achieve this, please share your thoughts in the comments or reach out to us on [Linkedin](https://www.linkedin.com/company/geeksblabla-community/).
