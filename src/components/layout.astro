@@ -2,11 +2,10 @@
 import { SITE } from "@/config";
 import Footer from "./footer.astro";
 import { AstroSeo } from "@astrolib/seo";
+import PostHog from "./posthog.astro";
 import "@/global.css";
 
-
-const ENEABLE_ANALYTICS =  !import.meta.env.DEV;
-
+const ENEABLE_ANALYTICS = !import.meta.env.DEV;
 
 export interface Props {
   title?: string;
@@ -70,28 +69,7 @@ const socialImageURL = new URL(
       rel="stylesheet"
     />
 
-     <!-- Google tag (gtag.js) -->
-     {
-      ENEABLE_ANALYTICS && (
-        <script
-          async
-          type="text/partytown"
-          src="https://www.googletagmanager.com/gtag/js?id=G-N4X499F5V7"
-        />
-      )
-    }
-    {
-      ENEABLE_ANALYTICS && (
-        <script type="text/partytown" >
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-          gtag("js", new Date());
-          gtag("config", "G-N4X499F5V7");
-        </script>
-      )
-    }
+    {ENEABLE_ANALYTICS && <PostHog />}
   </head>
 
   <body>
